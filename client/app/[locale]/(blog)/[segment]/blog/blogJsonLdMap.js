@@ -112293,6 +112293,2064 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-etkinlik-sonrasi-raporlama-ve-nps":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps",
+
+      "name": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps",
+
+      "headline": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+
+      "name": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+
+      "description": "Otel etkinlikleri için NPS/memnuniyet, gelir–maliyet/kârlılık ve sosyal medya/PR etkisini tek raporda birleştiren post-event raporlama rehberi ve aksiyon planı çerçevesi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "NPS",
+
+        "Satisfaction Survey",
+
+        "Revenue Report",
+
+        "Cost Analysis",
+
+        "Social Media Impact",
+
+        "Action Plan",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik nps anketi",
+
+        "etkinlik sonrasi gelir maliyet raporu",
+
+        "post event action plan otel",
+
+        "post event reporting framework",
+
+        "event debrief & nps for hotels"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "serviceType": "Etkinlik Sonrası Raporlama ve NPS",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Etkinlik Sonrası Raporlama ve NPS", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinliklerinde NPS ve memnuniyet anketi nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek NPS sorusu (0–10) ile başlayın ve 3–5 kısa soru ekleyin (check-in, teknik kalite, mekân/wayfinding, F&B). Anketi 2 dakikayı geçirmeyin; QR/SMS ile hızlı dağıtın ve ertesi gün kısa hatırlatma gönderin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etkinlik sonrası gelir–maliyet analizi nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gelirleri (salon/F&B/sponsorluk) ve maliyetleri (prodüksiyon, F&B, güvenlik, personel) kalem bazında kapatın. Planlanan–gerçekleşen farkı ve sapma nedenini (overtime, ek ekipman) mutlaka yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya ve PR etkisini rapora nasıl eklerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Organik erişim/etkileşim, mention/UGC, paid performans (varsa) ve PR çıktısını 1 sayfada özetleyin. Bu verileri içerik çıktılarıyla (kaç reels/highlight) birlikte raporlamak yorumlamayı kolaylaştırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rapor sonuçlarını bir sonraki etkinlik için nasıl aksiyona çeviririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "30 dakikalık debrief toplantısında 3–5 aksiyon çıkarın; her aksiyona owner ve tarih atayın ve Looker Studio gibi bir dashboard’da takip edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari",
+
+      "name": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari",
+
+      "headline": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber",
+
+      "name": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber",
+
+      "description": "Otel etkinliklerinde sponsorluk ve marka ortaklıklarını alan planlama, paket kurgusu, logo yerleşimi ve raporlama boyutuyla prodüksiyon perspektifinden yöneten rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Sponsorship",
+
+        "Brand Partnership",
+
+        "Sponsor Area",
+
+        "Package",
+
+        "Logo Placement",
+
+        "Event Report",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik sponsorluk paketleri",
+
+        "sponsor alan ve logo yerlesimi otel",
+
+        "marka ortakligi resort etkinlikleri",
+
+        "sponsorship strategy for hotel events",
+
+        "brand partnerships in resort galas"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari#event",
+
+      "name": "Otel Etkinliği Sponsorluk & Marka Ortaklığı (Örnek)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Otel Etkinlik Alanı / Ballroom / Açık Alan",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / İstanbul"
+
+        }
+
+      },
+
+      "description": "Otel etkinliklerinde sponsor paketleri, alan planı, logo entegrasyonu ve raporlama çerçevesi."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sponsorluk ve Marka Ortaklıkları", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinlikleri için sponsorluk paketleri nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hedef sponsor profilini ve etkinlik kitlesini netleştirip 3 seviyeli paket (Gold/Silver/Bronze) oluşturun. Her paket için görünürlük, alan/aktivasyon ve raporlama karşılıklarını yazılı hale getirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sponsor alanları ve stand yerleşimi nasıl planlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Standları misafir akışını tıkamayacak şekilde konumlandırın; elektrik/lojistik ihtiyaçlarını ve kuyruk alanını planlayın. Acil çıkışları asla daraltmayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Logolar sahnede ve ekranda nasıl kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sahnede minimum, LED’de rahatsız etmeyen döngü frekansı ile kontrollü logo kullanın. Safe-area ve okunabilirliği koruyup otel markası ile sponsor markası dengesini sağlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sponsorluk raporunda hangi metrikler yer almalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aktivasyon katılımı, UTM/QR tıklamaları, sosyal erişim/mention, içerik teslimleri ve öğrenimler raporda olmalıdır. Raporun 7 gün içinde paylaşılması ilişkiyi güçlendirir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+
+"otel-etkinlik-teknoloji-trendleri-event-app-nfc":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc",
+
+      "name": "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc",
+
+      "headline": "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
+
+      "name": "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
+
+      "description": "Event app, NFC bileklik ve dijital ekran trendlerini; mobil check-in, cashless kullanım, sosyal entegrasyon ve veri/KVKK dengesiyle otel etkinliklerine uyarlama rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Event App",
+
+        "NFC",
+
+        "Social Wall",
+
+        "Live Poll",
+
+        "PMS",
+
+        "CRM"
+
+      ],
+
+      "keywords": [
+
+        "otel event app trendleri",
+
+        "nfc bileklikli otel etkinligi",
+
+        "social wall live poll otel",
+
+        "event tech for hotel events",
+
+        "mobile check-in & engagement tools"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Etkinlik Teknolojisi Trendleri", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinlikleri için event app ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Programı ve duyuruları tek yerde toplar, mobil check-in ile giriş akışını hızlandırır ve anket/poll ile etkileşimi artırır. Etkinlik sonrası raporlama için ölçülebilir veri üretir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "NFC bileklik ile giriş ve harcama nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bileklik bir kimlik/hesap anahtarı gibi çalışır; giriş doğrulama, cashless bar harcaması veya aktivasyon katılımı için kullanılabilir. Kayıp/bozuk bileklik prosedürü ve fallback planı şarttır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Social wall ve live poll misafir deneyimini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Katılımı artırır ve etkinliğe canlılık katar; ancak moderasyon ve frekans kontrolü yoksa görsel gürültü yaratabilir. Run-of-show içine planlanarak kullanıldığında en iyi sonucu verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bu teknolojilerde KVKK ve veri güvenliği nasıl yönetilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yalnız gerekli veriyi toplamak, açık rıza/opt-in adımını netleştirmek ve erişimi yetkili personelle sınırlamak gerekir. Saklama süresi ve amaç dışı kullanım kuralları yazılı hale getirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"surdurulebilir-otel-etkinlikleri-low-impact-zero-waste":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste",
+
+      "name": "Sürdürülebilir ve Low-Impact Otel Etkinlikleri: Zero Waste, Karbon Ayak İzi ve Yeşil Prodüksiyon",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste",
+
+      "headline": "Sürdürülebilir ve Low-Impact Otel Etkinlikleri: Zero Waste, Karbon Ayak İzi ve Yeşil Prodüksiyon",
+
+      "name": "Sürdürülebilir ve Low-Impact Otel Etkinlikleri: Zero Waste, Karbon Ayak İzi ve Yeşil Prodüksiyon",
+
+      "description": "Otel etkinliklerinde low-impact prodüksiyon, zero waste banket ve karbon ayak izi yönetimini pratik adımlar ve yeşil iletişim ipuçlarıyla özetleyen rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Sustainability",
+
+        "Low-Impact Event",
+
+        "Zero Waste",
+
+        "Carbon Footprint",
+
+        "Local Supplier",
+
+        "Green Communication"
+
+      ],
+
+      "keywords": [
+
+        "surdurulebilir otel etkinligi rehberi",
+
+        "zero waste banket otel",
+
+        "otel etkinlik karbon ayak izi azaltma",
+
+        "sustainable hotel events",
+
+        "low impact resort production"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste#howto",
+
+      "name": "Sürdürülebilir otel etkinliği için hangi adımlar şart?",
+
+      "description": "Low-impact dekor, zero waste banket, karbon özeti ve yeşil iletişim adımlarını içeren pratik plan.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Low-impact planı kilitle", "text": "Modüler/yeniden kullanılabilir dekor ve kağıtsız kayıt gibi minimum standardı belirle." },
+
+        { "@type": "HowToStep", "name": "Zero waste banketi kur", "text": "Porsiyon planı, yeniden kullanılabilir servis seti ve ayrıştırma istasyonu düzeni oluştur." },
+
+        { "@type": "HowToStep", "name": "Karbon özeti çıkar", "text": "Enerji, lojistik, banket ve atık kaynaklarını sınıflayıp azaltım adımlarını özet tabloda topla." },
+
+        { "@type": "HowToStep", "name": "Yeşil iletişimi somutlaştır", "text": "5 somut uygulamayı misafire net anlat; abartılı iddialardan kaçın ve kanıtları ölçülü paylaş." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sürdürülebilir Etkinlikler", "item": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/surdurulebilir-otel-etkinlikleri-low-impact-zero-waste#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sürdürülebilir otel etkinliği nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Low-impact dekor ve kağıtsız kayıt ile başlayın, banket tarafında zero waste prensipleri kurun ve atık ayrıştırma istasyonlarını planlayın. Basit bir karbon özeti tablosu çıkarıp misafire somut örneklerle anlatın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zero waste banket ne anlama gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tam sıfır iddiasından çok, atığı azaltma–ayrıştırma–yeniden değerlendirme yaklaşımıdır. Porsiyon planı, yeniden kullanılabilir servis setleri ve ayrıştırma istasyonlarıyla uygulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etkinliğin karbon ayak izini nasıl hesaplarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Enerji, lojistik, banket, baskı ve atık gibi ana kaynakları sınıflayıp azaltım adımıyla birlikte özet tablo çıkarın. Daha detaylı ölçüm için ek veri ve uzmanlık gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yeşil uygulamaları misafire nasıl anlatmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Abartılı iddialardan kaçının ve 5 somut uygulamayı net söyleyin. Konfor ve kaliteyi koruduğunuzu vurgulayın; sertifika/logoları ölçülü kullanın ve kısa bir yeşil özet paylaşın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"sosyal-first-otel-etkinlikleri-fotoboot-social-wall":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall",
+
+      "name": "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall",
+
+      "headline": "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
+
+      "name": "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
+
+      "description": "Photobooth, 360 booth ve social wall ile UGC odaklı sosyal-first otel etkinliklerini tasarlamayı; hashtag stratejisi, same-day içerik akışı ve raporlama adımlarıyla anlatan rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Photobooth",
+
+        "360 Booth",
+
+        "Social Wall",
+
+        "Hashtag Campaign",
+
+        "UGC",
+
+        "Social Analytics",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel photobooth social wall",
+
+        "sosyal first etkinlik stratejisi",
+
+        "hashtag ile otel etkinligi viral icerik",
+
+        "social first hotel events",
+
+        "photobooth & 360 booth strategy"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall#event",
+
+      "name": "Sosyal-First Otel Etkinliği (Photobooth & Social Wall)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Resort Otel Etkinlik Alanı",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Side / Bodrum"
+
+        }
+
+      },
+
+      "description": "Photobooth, social wall ve UGC akışının entegre edildiği sosyal-first otel etkinliği çerçevesi."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sosyal-First Etkinlikler", "item": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal-first otel etkinliği nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İçerik üretim alanlarını (photobooth/360 booth) akışa uygun konumlandırın, net hashtag/mention yönergesi yazın ve UGC moderasyonunu kurun. Same-day Reels/Story planı ve ölçüm metrikleri olmadan sosyal-first sürdürülemez."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Photobooth ve 360 booth kurgusunda nelere dikkat etmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Konum, ışık ve arka plan en kritik üçlüdür; ayrıca kuyruk alanını planlamak gerekir. 360 booth’ta kısa klip formatı ve anında teslim yöntemi (QR/link) net olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Social wall için hashtag stratejisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek ve kısa bir hashtag seçin; mention kuralını net yazın. Social wall’u moderasyonla yönetin ve uygunsuz/kişisel veri içeren içerikleri göstermeyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC’yi nasıl güvenli ve ölçülebilir kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yeniden paylaşım için izin yöntemini standardize edin ve brand safety filtreleri uygulayın. Hashtag/mention üzerinden ölçüm yapıp etkinlik sonrası kısa rapor çıkarın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlik-analytics-heatmap-iot-sensor":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor",
+
+      "name": "Otel Etkinliklerinde Alan ve Kitle Analitiği: Heatmap, IoT Sensör ve Veriyle İyileştirme",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor",
+
+      "headline": "Otel Etkinliklerinde Alan ve Kitle Analitiği: Heatmap, IoT Sensör ve Veriyle İyileştirme",
+
+      "name": "Otel Etkinliklerinde Alan ve Kitle Analitiği: Heatmap, IoT Sensör ve Veriyle İyileştirme",
+
+      "description": "Otel etkinlik alanlarında heatmap, people counting ve IoT sensörlerle yoğunluk ve alan performansını analiz edip layout ve programı veriyle iyileştirmeyi anlatan rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Heatmap",
+
+        "IoT Sensor",
+
+        "People Counting",
+
+        "Layout Optimization",
+
+        "Stand Performance",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik alan analitigi",
+
+        "heatmap ve sensor ile stand performansi",
+
+        "people counting resort etkinlik alanlari",
+
+        "event analytics for hotel venues",
+
+        "heatmap based layout tuning"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor#howto",
+
+      "name": "Otel etkinliklerinde heatmap ve sensör verisiyle alan performansı nasıl ölçülür?",
+
+      "description": "Sensör yerleşimi, KPI seçimi, analiz ve iyileştirme adımlarını içeren pratik yöntem.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "KPI setini seç", "text": "Yoğunluk, dwell time, bottleneck, stand ve bar performansı gibi 5–7 metrik belirle." },
+
+        { "@type": "HowToStep", "name": "Sensörleri karar noktalarına yerleştir", "text": "Giriş, salon kapıları, koridorlar ve bar çevresine people counting/heatmap noktaları koy." },
+
+        { "@type": "HowToStep", "name": "Veriyi anonim/toplu tut", "text": "Kişisel veri toplamadan toplu metriklerle çalış; yüz tanıma gibi yüksek riskli tekniklerden kaçın." },
+
+        { "@type": "HowToStep", "name": "Önce/sonra kıyasla ve aksiyon çıkar", "text": "Heatmap’i saat bazlı oku, 3 iyileştirme aksiyonu belirle ve bir sonraki etkinlikte aynı KPI setiyle kıyas yap." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Alan ve Kitle Analitiği", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinlik alanında heatmap ve sensörler nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Giriş, salon kapıları ve koridorlara people counting; foyer/stand/bar gibi alanlara anonim heatmap yerleştirerek yoğunluk ve kalma süresi ölçebilirsiniz. Sonrasında bottleneck ve ölü alanları tespit edip layout’u güncellersiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Stand ve bar yerleşimini verilere göre nasıl iyileştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Soğuk alanlarda kalan standları akış koridoruna yaklaştırın, barı tek noktaya sıkıştırmak yerine dağıtılabilir servis noktaları planlayın. Öncesi/sonrası kıyasını aynı KPI setiyle yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bu tür ölçümlerde KVKK’ya nasıl dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kişisel veri toplamadan anonim ve toplu metriklerle çalışın; yüz tanıma gibi yüksek riskli tekniklerden kaçının. Erişim yetkilerini sınırlayın ve saklama süresini amaçla uyumlu tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi alanların yoğun olduğunu veriden nasıl anlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Saat bazlı giriş/çıkış sayıları ve heatmap sıcak bölgeleri yoğunluğu gösterir. Dwell time’ı kuyruk gözlemi ve program akışıyla birlikte yorumlamak gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinliklerinde-anlik-ceviri-ai-altyazi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi",
+
+      "name": "Anlık Çeviri ve AI Altyazı ile Çok Dilli Otel Etkinlikleri: Simultane Deneyimin Geleceği",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi",
+
+      "headline": "Anlık Çeviri ve AI Altyazı ile Çok Dilli Otel Etkinlikleri: Simultane Deneyimin Geleceği",
+
+      "name": "Anlık Çeviri ve AI Altyazı ile Çok Dilli Otel Etkinlikleri: Simultane Deneyimin Geleceği",
+
+      "description": "Otel etkinliklerinde klasik simultane sistemlerle AI tabanlı anlık çeviri ve altyazıyı hibrit kullanarak TR–EN–DE–RU çok dilli deneyimi tasarlamaya yönelik rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Simultaneous Interpretation",
+
+        "AI Subtitle",
+
+        "Multilingual Event",
+
+        "Hybrid Event",
+
+        "Hotel Conference"
+
+      ],
+
+      "keywords": [
+
+        "cok dilli otel etkinligi ceviri",
+
+        "ai altyazili konferans otel",
+
+        "tr en de ru simultane ve ai cözümü",
+
+        "multilingual hotel conference",
+
+        "live subtitles for resort events"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#event",
+
+      "name": "Çok Dilli Otel Konferansı (TR–EN–DE–RU)",
+
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Otel Konferans Salonu",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "İstanbul / Antalya"
+
+        }
+
+      },
+
+      "description": "Simultane ve AI altyazı çözümleriyle çok dilli (TR–EN–DE–RU) hibrit otel etkinliği çerçevesi."
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#video",
+
+      "name": "Çok Dilli Etkinlik Kayıt ve Altyazı Örneği",
+
+      "description": "Çok dilli etkinlik kaydının AI altyazı ve dil versiyonlarıyla hazırlanmasına örnek çıktı.",
+
+      "uploadDate": "2026-02-11",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#article" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#howto",
+
+      "name": "Otel etkinliklerinde çok dilli deneyim için simultane ve AI altyapısı nasıl kurgulanmalı?",
+
+      "description": "Dil analizi, sistem seçimi, teknik test ve misafir bilgilendirme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Dil analizi yap", "text": "TR–EN–DE–RU ihtiyaçlarını oturum bazında sınıflandır; kritik içerikleri belirle." },
+
+        { "@type": "HowToStep", "name": "Hibrit sistemi seç", "text": "Kritik oturumlarda simultane, genel oturumlarda AI altyazı/çeviri kullan." },
+
+        { "@type": "HowToStep", "name": "Teknik testi tamamla", "text": "Ses zinciri, gecikme, altyazı okunabilirliği ve online dil seçimini prova et." },
+
+        { "@type": "HowToStep", "name": "Misafiri bilgilendir ve destek planı kur", "text": "Kulaklık teslimi, dil seçimi ve support desk bilgisini katılımcı mailinde netleştir." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çok Dilli Etkinliklerde Anlık Çeviri", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinliklerinde-anlik-ceviri-ai-altyazi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok dilli otel etkinliği için simultane ve AI çeviri nasıl kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik ve hassas oturumlarda klasik simultane ile doğruluğu garanti edin; genel oturumlarda AI altyazıyı ölçekleme katmanı olarak kullanın. Salon ve online akışı test edip katılımcıya net kullanım yönergesi gönderin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI altyazı sistemleri güvenilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genel kullanımda faydalı olabilir; ancak hata riski vardır ve hassas içerikte tek başına yeterli olmayabilir. Hibrit kullanım ve kalite kontrol önerilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "TR–EN–DE–RU için çok dilli etkinlik akışı nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dil ihtiyacını oturum bazında belirleyin; salonda kulaklık kanal eşlemesi, online yayında dil seçimi ve altyazı kanalları tasarlayın. Support desk ve fallback planı ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK ve telif açısından nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kayıtların saklama süresi, erişim yetkisi ve paylaşım kapsamı yazılı olmalı; çok dilli versiyonlar için de aynı kurallar geçerli olmalıdır. Konuşmacı ve medya kullanım izinleri netleştirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"aile-ve-cocuk-karsilama-hediyeleri-otel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel",
+      "name": "Aile ve Çocuk Misafirler İçin Karşılama Hediyeleri Nasıl Tasarlanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#article",
+      "headline": "Aile ve Çocuk Misafirler İçin Karşılama Hediyeleri Nasıl Tasarlanır?",
+      "description": "Aile ve çocuk misafirler için oda içi karşılama setini yaş grupları, güvenlik–alerji–KVKK ve sunum açısından tasarlayın; UGC ve sadakat akışıyla güçlendirin.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "aile ve cocuk karsilama seti otel",
+        "kids amenity pack tasarimi",
+        "family friendly hotel gift ideas",
+        "family hotel welcome gifts",
+        "kids amenity kit ideas",
+        "child friendly resort gifts"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "Aile & Çocuk Misafir Karşılama Seti (Kids Amenity) Tasarımı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#product",
+      "name": "Aile & Çocuk Karşılama Seti (Kids Amenity Kit)",
+      "description": "Yaş bazlı tasarım, güvenlik–alerji kontrolü, ebeveyn mini rehberi ve UGC/sadakat entegrasyonuyla tasarlanmış oda içi karşılama seti yaklaşımı.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Family Welcome Gift / Kids Amenity"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#howto",
+      "name": "Aile ve çocuk misafirler için karşılama hediyesi nasıl tasarlanmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segment ve yaş grubunu belirle",
+          "text": "Aile tipini (küçük çocuklu/teen/geniş aile) ve çocuğun yaş grubunu netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yaşa uygun içerik bileşenlerini seç",
+          "text": "Aktivite + küçük sürpriz + güvenli atıştırmalık + ebeveyn mini rehberi dengesini kur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Güvenlik, alerji ve KVKK kontrolünü yap",
+          "text": "Küçük parça ve yaş uyarılarını kontrol et; alerjen etiketli ürünler kullan; isim/yaş bilgisini kalıcı yüzeylere yazma."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sunum ve iletişim akışını bağla",
+          "text": "Oda içi yerleşimi standartlaştır; QR ile tek CTA’lı UGC/anket/sadakat akışını ekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "Aile & Çocuk Karşılama Hediyeleri", "item": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aile ve çocuk misafirler için karşılama seti nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aile tipini ve yaş grubunu belirleyin, yaşa uygun güvenli aktivite/oyuncak seçin. Atıştırmalıklarda alerjen etiketi ve şeker dengesi gözetin. Ebeveyn mini rehberi ve kısa kartla sunumu tamamlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çocuk dostu otel hediyesinde neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aktivite, küçük sürpriz, güvenli atıştırmalık ve ebeveyn rehberi temel bileşenlerdir. Amaç çocuğu meşgul etmek kadar ebeveynin yükünü azaltmaktır. Ürün sayısını abartmadan doğru seçime odaklanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi yaş grubuna hangi ürünleri koymalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "0–2 yaşta küçük parça içermeyen yumuşak içerikler; 3–5 yaşta boyama ve büyük parça oyuncak; 6–9 yaşta mini puzzle/oyun; 10–13 yaşta görev kartı; 14–16 yaşta deneyim kuponu ve minimal aksesuar daha uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Alerji ve güvenlik açısından nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "0–3 yaşta küçük parça riskini sıfırlayın ve yaş uyarılarını görünür tutun. Gıdada alerjen etiketlerini netleştirin ve alternatif seçenek bulundurun. Hijyen için paketli ve temiz sunum standardı oluşturun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK açısından çocuk ismi/yaşı nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İsim/yaş bilgisi gibi verileri minimumda tutun ve kalıcı yüzeylere yazmayın. Liste/çıktıların kimlerde olduğu ve nerede saklandığı kontrol edilmeli. UGC yönlendirmelerinde aile onayı ve net açıklama dili kullanılmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/creative/blog/aile-ve-cocuk-karsilama-hediyeleri-otel#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-dugun-ve-balayi-misafiri-hediyeleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri",
+      "name": "Otel Düğün ve Balayı Misafiri Hediyeleri: Nikah, Oda ve Sonrası",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#article",
+      "headline": "Otel Düğün ve Balayı Misafiri Hediyeleri: Nikah, Oda ve Sonrası",
+      "description": "Otellerde düğün ve balayı misafirlerine yönelik hediyeleri nikah–oda–sonrası akışı içinde kurgulayın; kişiselleştirme, medya entegrasyonu ve izinli takip planıyla hatırlanırlığı artırın.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "otel dugun misafiri hediye fikirleri",
+        "balayi odasi hediye seti",
+        "isim baskili dugun hatirasi otel",
+        "wedding guest favors for hotels",
+        "honeymoon room gift ideas",
+        "personalised resort keepsakes"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "Düğün & Balayı Misafiri Hediye Akışı Tasarımı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#product",
+      "name": "Düğün & Balayı Hediye Seti (Wedding & Honeymoon Gift Pack)",
+      "description": "Nikah favor’ları, balayı oda seti ve sonrası keep-sake/takip hediyelerini bir akışta birleştiren hediye paketi yaklaşımı.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Wedding Gift / Honeymoon Gift / Keepsake"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#howto",
+      "name": "Düğün ve balayı misafirleri için hediye akışı nasıl tasarlanmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segmentleri ve anları belirle",
+          "text": "Guest/VIP Table/Couple segmentlerini çıkar ve nikah–oda–sonrası anlarını netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Nikah favor ve oda setini tasarla",
+          "text": "Nikah için küçük, fotojenik favor; balayı odası için romantik ve minimal kişiselleştirilmiş set kurgula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sonrası hatıra ve izinli takip akışını bağla",
+          "text": "Evde kullanılabilir keep-sake ve teşekkür iletişimini izinli (e-posta/WhatsApp opt-in) kurgula; video/galeri linkini tek CTA ile ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KVKK ve telif kontrollerini tamamla",
+          "text": "İsim/tarih gibi kişisel verileri minimumda tut; görsel kullanım haklarını kontrol et ve saklama/silme sürecini tanımla."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "Düğün & Balayı Misafiri Hediyeleri", "item": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-ve-balayi-misafiri-hediyeleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel düğünlerinde misafirlere ne hediye verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En iyi seçenekler küçük, taşınabilir ve masa konseptini bozmayan favor hediyelerdir. Minimal bir keep-sake, küçük obje veya konsepte uyumlu mini detaylar tercih edilir. VIP masa için daha rafine bir varyasyon eklemek algıyı yükseltir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Balayı odası için özel hediyeler neler olabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Romantik sahne hissi veren küçük dokunuşlar (kısa not, minimal hatıra objesi, küçük tatlı/gurme) iyi çalışır. Kişiselleştirme minimal tutulmalı ve oda estetiğini bozmamalıdır. QR ile tek CTA’lı teşekkür/anket akışı eklenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hediye üzerine isim ve tarih yazdırmak mantıklı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru dozda mantıklıdır; duyguyu artırır. Tasarımı boğmamalı, tek bir alanda uygulanmalı ve veri yönetimi KVKK açısından kontrol edilmelidir. Görsel kullanımı varsa telif hakları da dikkate alınmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Düğün sonrası otel olarak nasıl hatırlanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sonrası için evde kullanılabilir küçük bir keep-sake ve izinli bir teşekkür mesajı güçlü çalışır. Video highlight veya fotoğraf galerisi linki anıyı tazeler. İletişim mutlaka izinli (e-posta/WhatsApp opt-in) kurgulanmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"hediye-kutu-ve-ambalaj-tasarimi-brand-experience":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience",
+      "name": "Hediye Kutu ve Ambalaj Tasarımı: Kurumsal Hediyede Brand Experience",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#article",
+      "headline": "Hediye Kutu ve Ambalaj Tasarımı: Kurumsal Hediyede Brand Experience",
+      "description": "Kurumsal hediye kutusu ve ambalajını renk, doku, tipografi, unboxing ve insert yerleşimle tasarlayın; modüler sistemle farklı setlere uyarlayın.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "kurumsal hediye kutu tasarimi",
+        "unboxing deneyimi otel hediyesi",
+        "marka kimligine uygun ambalaj ornekleri",
+        "gift box design for hotels",
+        "brand-aligned packaging concepts",
+        "unboxing experience for vip guests"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "Hediye Kutu ve Ambalaj Tasarımı (Brand Experience)",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#product",
+      "name": "Hediye Kutu & Ambalaj Tasarım Paketi (Mockup + Rehber)",
+      "description": "Marka kimliğiyle uyumlu kutu tasarımı için mockup, unboxing akışı, insert yerleşim ve üretim brief’i içeren kurumsal hediye ambalaj paketi yaklaşımı.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Gift Box Design / Packaging / Unboxing Experience"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#howto",
+      "name": "Kurumsal hediye kutusu nasıl tasarlanmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Marka dilini ve paleti belirle",
+          "text": "Renk, doku ve malzeme seçimlerini Brand Identity ile uyumlu şekilde netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Unboxing sırasını planla",
+          "text": "Kapak içi mesaj, kart ve ürün yerleşimi dahil ilk üç öğeyi kurgula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Insert yerleşimle korumayı kur",
+          "text": "Insert Layout ile ürün güvenliğini sağla, modüler bölmelerle farklı içeriklere uyum kazandır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Üretim tekniklerini doğrula",
+          "text": "Pantone/CMYK, yüzey bitişi, logo okunabilirliği ve numune onayıyla tasarımı finalize et."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "Hediye Kutu ve Ambalaj Tasarımı", "item": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kurumsal hediye kutusu nasıl tasarlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce marka dili (renk–doku–malzeme) seçilir, sonra unboxing sırası ve insert yerleşimi planlanır. Logo ve tipografi minimum ama okunur kurgulanır. Son adımda Pantone/CMYK, numune ve tolerans onayıyla üretime geçilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kutu üzerinde logo ve marka renkleri nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Logo dozunda ve tek odaklı kullanılmalı; her yüzeye büyük logo basmak premium algıyı düşürebilir. Marka rengi aksan olarak kullanılırsa kutu daha uzun ömürlü ve setlere uyarlanabilir olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Unboxing deneyimi nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapak açıldığında görülen ilk üç öğeyi planlayın: kapak içi mesaj, kart ve ürün yerleşimi. Düzen hissi premium algıyı hızlandırır; QR kullanacaksanız tek CTA’ya bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aynı kutuyu farklı hediye setleri için nasıl uyarlayabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Modüler sistem kurun: ana gövde sabit, sleeve/kart/insert değişken olsun. Böylece VIP, MICE ve sezon paketlerinde aynı gövdeyi kullanıp maliyeti ve marka tutarlılığını yönetirsiniz."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

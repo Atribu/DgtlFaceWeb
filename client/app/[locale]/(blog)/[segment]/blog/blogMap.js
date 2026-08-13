@@ -664,7 +664,17 @@ export const BLOG_MAP = {
     "otel-etkinlik-master-checklist-operasyon-el-kitabi":"BlogOtelEtkinlikMasterChecklistOperasyonElKitabi",
     "otel-etkinlik-kayit-rsvp-checkin":"BlogOtelEtkinlikKayitRsvpCheckin",
     "otel-etkinlik-misafir-akisi-ve-wayfinding":"BlogOtelEtkinlikMisafirAkisiVeWayfinding",
-    "otel-etkinlik-guvenlik-ve-risk-yonetimi":"BlogOtelEtkinlikGuvenlikVeRiskYonetimi"
+    "otel-etkinlik-guvenlik-ve-risk-yonetimi":"BlogOtelEtkinlikGuvenlikVeRiskYonetimi",
+    "otel-etkinlik-sonrasi-raporlama-ve-nps":"BlogOtelEtkinlikSonrasiRaporlamaVeNPS",
+    "otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari":"BlogOtelEtkinliklerIcinSponsorlukVeMarkaOrtakliklari",
+    "otel-etkinlik-teknoloji-trendleri-event-app-nfc":"BlogOtelEtkinlikTeknolojiTrendleriEventAppNFC",
+    "surdurulebilir-otel-etkinlikleri-low-impact-zero-waste":"BlogSurdurulebilirOtelEtkinlikleriLowImpactZeroWaste",
+    "sosyal-first-otel-etkinlikleri-fotoboot-social-wall":"BlogSosyalFirstOtelEtkinlikleriFotobootSocialWall",
+    "otel-etkinlik-analytics-heatmap-iot-sensor":"BlogOtelEtkinlikAnalyticsHeatmapIotSensor",
+    "otel-etkinliklerinde-anlik-ceviri-ai-altyazi":"BlogOtelEtkinliklerindeAnlikCeviriAIAltyazi",
+    "aile-ve-cocuk-karsilama-hediyeleri-otel":"BlogAileVeCocukKarsilamaHediyeleriOtel",
+    "otel-dugun-ve-balayi-misafiri-hediyeleri":"BlogOtelDugunVeBalayiMisafiriHediyeleri",
+    "hediye-kutu-ve-ambalaj-tasarimi-brand-experience":"BlogHediyeKutuVeAmbalajTasarimiBrandExperience"
     
   },
 

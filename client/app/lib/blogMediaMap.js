@@ -51842,13 +51842,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "3 günlük retreat programı ve mekân dönüşümünü özetleyen context görseli otel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/creative/Creative4-14/Creative4-14-3.webp",
       alt: "Program tasarımı ve hedef bölüm geçiş görseli kurumsal retreat otel",
       caption: "Program tasarımı ve hedef bölüm geçiş görseli kurumsal retreat otel"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/creative/Creative4-14/Creative4-14-4.webp",
       alt: "Mekân dönüşümü ve lojistik bölüm geçiş görseli otel etkinliği",
       caption: "Mekân dönüşümü ve lojistik bölüm geçiş görseli otel etkinliği"
@@ -51892,13 +51892,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Hazırlık kurulum etkinlik sonrası adımlarını gösteren master checklist context görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/creative/Creative4-15/Creative4-15-3.webp",
       alt: "Brief ve hedef belirleme bölüm geçiş görseli otel etkinliği",
       caption: "Brief ve hedef belirleme bölüm geçiş görseli otel etkinliği"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/creative/Creative4-15/Creative4-15-4.webp",
       alt: "Misafir deneyimi ve güvenlik checklist bölüm geçiş görseli otel bağlamı",
       caption: "Misafir deneyimi ve güvenlik checklist bölüm geçiş görseli otel bağlamı"
@@ -52076,6 +52076,506 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/creative/Creative4-18/Creative4-18-8.webp",
       alt: "Risk matrisi, tahliye şeması ve briefing şablonu deliverables proof kartı otel",
       caption: "Risk matrisi, tahliye şeması ve briefing şablonu deliverables proof kartı otel"
+    }
+  },
+
+  "otel-etkinlik-sonrasi-raporlama-ve-nps":{
+     banner: {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-1.webp",
+      alt: "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+      caption: "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-2.webp",
+      alt: "NPS ve finans raporlamasından aksiyon planına giden süreç context görseli",
+      caption: "NPS ve finans raporlamasından aksiyon planına giden süreç context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-3.webp",
+      alt: "NPS ve memnuniyet anketi bölüm geçiş görseli otel etkinliği",
+      caption: "NPS ve memnuniyet anketi bölüm geçiş görseli otel etkinliği"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-4.webp",
+      alt: "Aksiyon planı ve dashboard bölüm geçiş görseli otel raporlama",
+      caption: "Aksiyon planı ve dashboard bölüm geçiş görseli otel raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-5.webp",
+      alt: "Sosyal medya ve PR etkisini özetleyen rapor diyagramı otel etkinliği",
+      caption: "Sosyal medya ve PR etkisini özetleyen rapor diyagramı otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-6.webp",
+      alt: "Etkinlik sonrası mini rapor ve aksiyon checklist kartı otel etkinliği",
+      caption: "Etkinlik sonrası mini rapor ve aksiyon checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-7.webp",
+      alt: "NPS, kârlılık ve sosyal etki KPI skor kartı otel etkinliği",
+      caption: "NPS, kârlılık ve sosyal etki KPI skor kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-19/Creative4-19-8.webp",
+      alt: "NPS şablonu, gelir-maliyet tablosu ve aksiyon planı deliverables proof kartı",
+      caption: "NPS şablonu, gelir-maliyet tablosu ve aksiyon planı deliverables proof kartı"
+    }
+  },
+
+  "otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari":{
+    banner: {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-1.webp",
+      alt: "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber",
+      caption: "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-2.webp",
+      alt: "Sponsor paketleri, alan planı ve raporlama akışını özetleyen context görseli",
+      caption: "Sponsor paketleri, alan planı ve raporlama akışını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-3.webp",
+      alt: "Sponsor alanları ve aktivasyonlara geçiş bölüm görseli otel etkinliği",
+      caption: "Sponsor alanları ve aktivasyonlara geçiş bölüm görseli otel etkinliği"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-4.webp",
+      alt: "Raporlama ve uzun vadeli ortaklıklara geçiş bölüm görseli otel sponsorluk",
+      caption: "Raporlama ve uzun vadeli ortaklıklara geçiş bölüm görseli otel sponsorluk"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-5.webp",
+      alt: "Sponsor alan yerleşimi ve misafir akışı diyagramı otel etkinliği",
+      caption: "Sponsor alan yerleşimi ve misafir akışı diyagramı otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-6.webp",
+      alt: "Sponsorluk paket ve logo yerleşimi kontrol checklist kartı otel etkinliği",
+      caption: "Sponsorluk paket ve logo yerleşimi kontrol checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-7.webp",
+      alt: "Sponsorluk geliri, aktivasyon katılımı ve UTM etkisini gösteren KPI kartı",
+      caption: "Sponsorluk geliri, aktivasyon katılımı ve UTM etkisini gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-20/Creative4-20-8.webp",
+      alt: "Sponsorluk raporu örnek sayfa ve logolu sahne ekranı proof kartı otel",
+      caption: "Sponsorluk raporu örnek sayfa ve logolu sahne ekranı proof kartı otel"
+    }
+  },
+
+  "otel-etkinlik-teknoloji-trendleri-event-app-nfc":{
+    banner: {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-1.webp",
+      alt: "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
+      caption: "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-2.webp",
+      alt: "Check-in’den cashless harcamaya uzanan dijital etkinlik akışını gösteren görsel",
+      caption: "Check-in’den cashless harcamaya uzanan dijital etkinlik akışını gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-3.webp",
+      alt: "Event teknolojisi trendleri için bölüm geçiş görseli otel bağlamı",
+      caption: "Event teknolojisi trendleri için bölüm geçiş görseli otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-4.webp",
+      alt: "Veri güvenliği ve KVKK boyutuna geçiş bölüm görseli otel etkinliği",
+      caption: "Veri güvenliği ve KVKK boyutuna geçiş bölüm görseli otel etkinliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-5.webp",
+      alt: "Mobil check-in ve kiosk kullanım akış diyagramı otel etkinliği",
+      caption: "Mobil check-in ve kiosk kullanım akış diyagramı otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-6.webp",
+      alt: "Event app ve NFC kurulum adımları checklist kartı otel etkinliği",
+      caption: "Event app ve NFC kurulum adımları checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-7.webp",
+      alt: "Check-in süresi, cashless kullanım ve destek masası KPI kartı otel etkinliği",
+      caption: "Check-in süresi, cashless kullanım ve destek masası KPI kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-21/Creative4-21-8.webp",
+      alt: "Social wall ve live poll arayüz örneği ve dijital deneyim proof kartı",
+      caption: "Social wall ve live poll arayüz örneği ve dijital deneyim proof kartı"
+    }
+  },
+
+  "surdurulebilir-otel-etkinlikleri-low-impact-zero-waste":{
+    banner: {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-1.webp",
+      alt: "Sürdürülebilir ve Low-Impact Otel Etkinlikleri: Zero Waste, Karbon Ayak İzi ve Yeşil Prodüksiyon",
+      caption: "Sürdürülebilir ve Low-Impact Otel Etkinlikleri: Zero Waste, Karbon Ayak İzi ve Yeşil Prodüksiyon"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-2.webp",
+      alt: "Kayıttan bankete ve rapora yeşil etkinlik akışını özetleyen görsel",
+      caption: "Kayıttan bankete ve rapora yeşil etkinlik akışını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-3.webp",
+      alt: "Low-impact prodüksiyon prensiplerini ayıran bölüm geçiş görseli",
+      caption: "Low-impact prodüksiyon prensiplerini ayıran bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-4.webp",
+      alt: "Karbon ayak izi ve yeşil iletişim bölüm geçiş görseli otel etkinliği",
+      caption: "Karbon ayak izi ve yeşil iletişim bölüm geçiş görseli otel etkinliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-5.webp",
+      alt: "Atık ayrıştırma istasyonu ve zero waste akış diyagramı otel bağlamı",
+      caption: "Atık ayrıştırma istasyonu ve zero waste akış diyagramı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-6.webp",
+      alt: "Yeşil etkinlik ilkeleri checklist infografiği ve otel uygulama özeti",
+      caption: "Yeşil etkinlik ilkeleri checklist infografiği ve otel uygulama özeti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-7.webp",
+      alt: "Atık, baskı ve yerel tedarik gibi yeşil etkinlik KPI kartı otel bağlamı",
+      caption: "Atık, baskı ve yerel tedarik gibi yeşil etkinlik KPI kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-22/Creative4-22-8.webp",
+      alt: "Sürdürülebilir etkinlik checklist ve karbon özeti deliverables kartı otel için",
+      caption: "Sürdürülebilir etkinlik checklist ve karbon özeti deliverables kartı otel için"
+    }
+  },
+
+  "sosyal-first-otel-etkinlikleri-fotoboot-social-wall":{
+     banner: {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-1.webp",
+      alt: "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
+      caption: "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-2.webp",
+      alt: "Hashtag ve UGC akışını özetleyen sosyal-first etkinlik context görseli",
+      caption: "Hashtag ve UGC akışını özetleyen sosyal-first etkinlik context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-3.webp",
+      alt: "Photobooth ve 360 booth kurgularına geçiş bölüm görseli otel bağlamı",
+      caption: "Photobooth ve 360 booth kurgularına geçiş bölüm görseli otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-4.webp",
+      alt: "UGC yönetimi ve raporlama bölüm geçiş görseli sosyal medya odaklı",
+      caption: "UGC yönetimi ve raporlama bölüm geçiş görseli sosyal medya odaklı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-5.webp",
+      alt: "Booth alanı yerleşimi ve kuyruk yönetimi akış diyagramı otel etkinliği",
+      caption: "Booth alanı yerleşimi ve kuyruk yönetimi akış diyagramı otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-6.webp",
+      alt: "Sosyal-first etkinlik için hashtag ve UGC kontrol checklist kartı otel",
+      caption: "Sosyal-first etkinlik için hashtag ve UGC kontrol checklist kartı otel"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-7.webp",
+      alt: "Hashtag erişimi, UGC adedi ve Reels performansı KPI kartı otel etkinliği",
+      caption: "Hashtag erişimi, UGC adedi ve Reels performansı KPI kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-23/Creative4-23-8.webp",
+      alt: "Social wall arayüzü ve kopyalanabilir hashtag yönergesi proof kartı",
+      caption: "Social wall arayüzü ve kopyalanabilir hashtag yönergesi proof kartı"
+    }
+  },
+
+  "otel-etkinlik-analytics-heatmap-iot-sensor":{
+     banner: {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-1.webp",
+      alt: "Otel Etkinliklerinde Alan ve Kitle Analitiği: Heatmap, IoT Sensör ve Veriyle İyileştirme",
+      caption: "Otel Etkinliklerinde Alan ve Kitle Analitiği: Heatmap, IoT Sensör ve Veriyle İyileştirme"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-2.webp",
+      alt: "Yoğunluk verisinden KPI ve aksiyona giden analitik akışı context görseli",
+      caption: "Yoğunluk verisinden KPI ve aksiyona giden analitik akışı context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-3.webp",
+      alt: "Heatmap ve people counting bölüm geçiş görseli otel etkinliği",
+      caption: "Heatmap ve people counting bölüm geçiş görseli otel etkinliği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-4.webp",
+      alt: "Gizlilik anonimleştirme ve KVKK bölüm geçiş görseli otel analitiği",
+      caption: "Gizlilik anonimleştirme ve KVKK bölüm geçiş görseli otel analitiği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-5.webp",
+      alt: "Sayaç ve sensör yerleşim diyagramı: giriş salon bar geçiş alanlar",
+      caption: "Sayaç ve sensör yerleşim diyagramı: giriş salon bar geçiş alanlar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-6.webp",
+      alt: "Alan analitiği KPI seçimi ve sensör yerleşimi checklist kartı otel etkinliği",
+      caption: "Alan analitiği KPI seçimi ve sensör yerleşimi checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-7.webp",
+      alt: "Yoğunluk dwell time ve bottleneck KPI skor kartı otel etkinliği",
+      caption: "Yoğunluk dwell time ve bottleneck KPI skor kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-24/Creative4-24-8.webp",
+      alt: "Heatmap örneği ve önce/sonra layout kıyası deliverables proof kartı otel",
+      caption: "Heatmap örneği ve önce/sonra layout kıyası deliverables proof kartı otel"
+    }
+  },
+
+  "otel-etkinliklerinde-anlik-ceviri-ai-altyazi":{
+    banner: {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-1.webp",
+      alt: "Anlık Çeviri ve AI Altyazı ile Çok Dilli Otel Etkinlikleri: Simultane Deneyimin Geleceği",
+      caption: "Anlık Çeviri ve AI Altyazı ile Çok Dilli Otel Etkinlikleri: Simultane Deneyimin Geleceği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-2.webp",
+      alt: "TR EN DE RU dil kanalları ve hibrit yayın akışını özetleyen görsel",
+      caption: "TR EN DE RU dil kanalları ve hibrit yayın akışını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-3.webp",
+      alt: "Klasik simultane ve AI altyazı karşılaştırma bölüm geçiş görseli",
+      caption: "Klasik simultane ve AI altyazı karşılaştırma bölüm geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-4.webp",
+      alt: "KVKK telif ve içerik kalitesi dikkatlerine geçiş bölüm görseli",
+      caption: "KVKK telif ve içerik kalitesi dikkatlerine geçiş bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-5.webp",
+      alt: "Çok dilli yayın akışı diyagramı salon ve online katılım otel etkinliği",
+      caption: "Çok dilli yayın akışı diyagramı salon ve online katılım otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-6.webp",
+      alt: "Dil analizi test ve misafir bilgilendirme adımlarını özetleyen checklist kart",
+      caption: "Dil analizi test ve misafir bilgilendirme adımlarını özetleyen checklist kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-7.webp",
+      alt: "Çeviri anlaşılabilirliği, destek başvurusu ve memnuniyet KPI kartı otel etkinliği",
+      caption: "Çeviri anlaşılabilirliği, destek başvurusu ve memnuniyet KPI kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-25/Creative4-25-8.webp",
+      alt: "Simultane kabin set-up ve AI altyazı arayüz örneklerini gösteren proof kartı",
+      caption: "Simultane kabin set-up ve AI altyazı arayüz örneklerini gösteren proof kartı"
+    }
+  },
+
+   "aile-ve-cocuk-karsilama-hediyeleri-otel":{
+    banner: {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-1.webp",
+      alt: "Aile ve Çocuk Misafirler İçin Karşılama Hediyeleri Nasıl Tasarlanır?",
+      caption: "Aile ve Çocuk Misafirler İçin Karşılama Hediyeleri Nasıl Tasarlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-2.webp",
+      alt: "Çocuk amenity seti amacı, odaya giriş sürprizi ve otel bağlamı",
+      caption: "Çocuk amenity seti amacı, odaya giriş sürprizi ve otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-3.webp",
+      alt: "Aile seti amacı, yaş bazlı seçim ve resort otel bağlamı",
+      caption: "Aile seti amacı, yaş bazlı seçim ve resort otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-4.webp",
+      alt: "Güvenli çocuk hediyesi amacı, hijyen kontrolü ve otel bağlamı",
+      caption: "Güvenli çocuk hediyesi amacı, hijyen kontrolü ve otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-5.webp",
+      alt: "Yaş bazlı set amacı, seçim akışı ve resort otel bağlamı",
+      caption: "Yaş bazlı set amacı, seçim akışı ve resort otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-6.webp",
+      alt: "Aile seti checklist amacı, güvenlik adımları ve otel bağlamı",
+      caption: "Aile seti checklist amacı, güvenlik adımları ve otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-7.webp",
+      alt: "Aile seti KPI amacı, UGC ve tekrar rezervasyon otel bağlamı",
+      caption: "Aile seti KPI amacı, UGC ve tekrar rezervasyon otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-6/Creative5-6-8.webp",
+      alt: "Family gifting çıktıları amacı, standart paketler ve otel bağlamı",
+      caption: "Family gifting çıktıları amacı, standart paketler ve otel bağlamı"
+    }
+  },
+
+  "otel-dugun-ve-balayi-misafiri-hediyeleri":{
+    banner: {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-1.webp",
+      alt: "Otel Düğün ve Balayı Misafiri Hediyeleri: Nikah, Oda ve Sonrası",
+      caption: "Otel Düğün ve Balayı Misafiri Hediyeleri: Nikah, Oda ve Sonrası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-2.webp",
+      alt: "Nikah masa üstü hediye ve balayı oda seti, otel deneyimi bağlamı",
+      caption: "Nikah masa üstü hediye ve balayı oda seti, otel deneyimi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-3.webp",
+      alt: "Wedding favor fikirleri, masa üstü hediye ve otel bağlamı",
+      caption: "Wedding favor fikirleri, masa üstü hediye ve otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-4.webp",
+      alt: "Balayı oda hediyesi, romantik sunum ve otel bağlamı",
+      caption: "Balayı oda hediyesi, romantik sunum ve otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-5.webp",
+      alt: "Öncesi–düğün–sonrası hediye akışı, otel hatırlanırlığı bağlamı",
+      caption: "Öncesi–düğün–sonrası hediye akışı, otel hatırlanırlığı bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-6.webp",
+      alt: "Düğün ve balayı hediye checklist’i, pratik uygulama otel bağlamı",
+      caption: "Düğün ve balayı hediye checklist’i, pratik uygulama otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-7.webp",
+      alt: "UGC, yorum ve tekrar rezervasyon KPI’ları, wedding otel bağlamı",
+      caption: "UGC, yorum ve tekrar rezervasyon KPI’ları, wedding otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-7/Creative5-7-8.webp",
+      alt: "Hediye akışı çıktıları, favor-oda-sonrası entegrasyonu otel bağlamı",
+      caption: "Hediye akışı çıktıları, favor-oda-sonrası entegrasyonu otel bağlamı"
+    }
+  },
+  
+   "hediye-kutu-ve-ambalaj-tasarimi-brand-experience":{
+    banner: {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-1.webp",
+      alt: "Hediye Kutu ve Ambalaj Tasarımı: Kurumsal Hediyede Brand Experience",
+      caption: "Hediye Kutu ve Ambalaj Tasarımı: Kurumsal Hediyede Brand Experience"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-2.webp",
+      alt: "Kutu iç yerleşim, ilk üç öğe ve unboxing deneyimi otel bağlamı",
+      caption: "Kutu iç yerleşim, ilk üç öğe ve unboxing deneyimi otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-3.webp",
+      alt: "Kurumsal hediye kutusu tasarım adımları, renk ve malzeme otel bağlamı",
+      caption: "Kurumsal hediye kutusu tasarım adımları, renk ve malzeme otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-4.webp",
+      alt: "Renk ve tipografi panosu, brand identity ve otel bağlamı",
+      caption: "Renk ve tipografi panosu, brand identity ve otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-5.webp",
+      alt: "Unboxing sırası diyagramı, ilk üç öğe ve otel bağlamı",
+      caption: "Unboxing sırası diyagramı, ilk üç öğe ve otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-6.webp",
+      alt: "Kutu tasarım checklist’i, logo ve insert yerleşim otel bağlamı",
+      caption: "Kutu tasarım checklist’i, logo ve insert yerleşim otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-7.webp",
+      alt: "Kutu tasarımı KPI kartı, premium algı ve unboxing otel bağlamı",
+      caption: "Kutu tasarımı KPI kartı, premium algı ve unboxing otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-8/Creative5-8-8.webp",
+      alt: "Mockup ve üretim çıktıları, modüler kutu sistemi otel bağlamı",
+      caption: "Mockup ve üretim çıktıları, modüler kutu sistemi otel bağlamı"
     }
   }
   
