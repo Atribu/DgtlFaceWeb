@@ -9165,7 +9165,7 @@
     },
     "h1": {
       "title": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
-      "intro": "Otel içinde düzenlenen konser ve show etkinlikleri, markanın “deneyim” tarafını güçlendirir ve yeniden tercih edilme ihtimalini artırır. Ancak sahne, ses, ışık ve kayıt prodüksiyonu doğru planlanmadığında hem misafir deneyimi hem de içerik kalitesi aynı anda zarar görür: gürültü şikâyeti artar, görüntü/ses vasat olur, ekibin stres seviyesi yükselir ve etkinliğin “yatırımı” sosyal medya çıktısına dönüşmez. Bu rehber; resort otellerde (Antalya–Belek–Side–Kemer–Bodrum ekseninde) konser ve show’lar için prodüksiyon sürecini brief’ten highlight videoya kadar adım adım kurar.",
+      "intro": "[Otel konser prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), markanın “deneyim” tarafını güçlendiren ve yeniden tercih edilme ihtimalini artıran en görünür etkinlik formatlarından biridir. Ancak sahne, ses, ışık ve kayıt prodüksiyonu doğru planlanmadığında hem misafir deneyimi hem de içerik kalitesi aynı anda zarar görür: gürültü şikâyeti artar, görüntü/ses vasat olur, ekibin stres seviyesi yükselir ve etkinliğin “yatırımı” sosyal medya çıktısına dönüşmez. Bu rehber; resort otellerde (Antalya–Belek–Side–Kemer–Bodrum ekseninde) konser ve show’lar için prodüksiyon sürecini brief’ten highlight videoya kadar adım adım kurar.",
       "quickSummary": [
         "1) Brief + KPI + bütçeyi netleştir",
         "2) Mekan senaryosu (havuz/amfi/beach) ve operasyon kısıtlarını yaz",
@@ -9188,35 +9188,59 @@
       "secondary": {
         "label": "Konser Günü Sahne–Ses–Işık & Çekim Checklist’ini İndir",
         "text": "Konser günü 15 dakikada kontrol edip aksaklık riskini düşürerek ekibi aynı sayfaya getirir.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/konser-gunu-sahne-ses-isik-cekim-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Etkinlik prodüksiyonu hizmet sayfası",
+        "label": "Etkinlik Prodüksiyonu",
         "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
-        "label": "Video prodüksiyon",
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon"
+      },
+      {
+        "label": "Otel Gala Gecesi ve Ziyafet Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon"
+      },
+      {
+        "label": "Otel Etkinlik Same-Day Edit",
+        "href": "/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik"
+      },
+      {
+        "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Reels & Video içerik üretimi",
+        "label": "Reels Video",
         "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Video Prodüksiyon: Otel İçin Çekim ve Kurgu Çıktıları",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon"
       },
       {
-        "title": "Reels & Video İçerik Üretimi: Format Adaptasyonu",
-        "href": "/tr/smm/reels-video"
+        "title": "Otel Gala Gecesi ve Ziyafet Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon"
+      },
+      {
+        "title": "Otel Etkinliklerinde Same-Day Edit ve Anında İçerik Üretimi",
+        "href": "/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik"
       }
     ],
     "sections": [
@@ -9255,7 +9279,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu soru, sahadaki en kritik kırılma noktasıdır: “Bir konser yapalım” fikri çoğu zaman sanatçı/ajans seçimiyle başlar; oysa prodüksiyon başarısı, hedef → mekan → teknik → kayıt → içerik sırasını tek çatı altında yönetebilmekle gelir. Otelde konser prodüksiyonu, bağımsız bir mekândan farklıdır: misafir akışı, konaklama alanları, havuz/deniz çevresi, servis saatleri ve güvenlik protokolleri işin içine girer. Bu yüzden planı “teknik ekipman listesi” değil, otel deneyimi + prodüksiyon sistemi olarak ele almak gerekir."
+            "text": "Bu soru, sahadaki en kritik kırılma noktasıdır: “Bir konser yapalım” fikri çoğu zaman sanatçı/ajans seçimiyle başlar; oysa prodüksiyon başarısı, hedef → mekan → teknik → kayıt → içerik sırasını tek çatı altında yönetebilmekle gelir. Otelde konser prodüksiyonu, bağımsız bir mekândan farklıdır: misafir akışı, konaklama alanları, havuz/deniz çevresi, servis saatleri ve güvenlik protokolleri işin içine girer. Bu yüzden planı “teknik ekipman listesi” değil, [show etkinliği planlama](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) yaklaşımıyla otel deneyimi + prodüksiyon sistemi olarak ele almak gerekir."
           },
           {
             "type": "h3",
@@ -9306,7 +9330,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Konser/show, resort otelin “deneyim” konumlandırmasının en görünür temas noktasıdır. Doğru kurgulandığında, misafire “burada bir şey oluyor” hissi verir; markaya içerik üretir; satış ekibine referans/kanıt sağlar; ajans ve influencer iş birliklerini kolaylaştırır. Yanlış kurgulandığında ise “gürültü, karmaşa, memnuniyetsizlik” olarak geri döner. Buradaki kritik ayrım şudur: Etkinliği yalnızca program gibi değil, bir Hotel Experience tasarımı gibi düşünmek."
+            "text": "Konser/show, resort otelin “deneyim” konumlandırmasının en görünür temas noktasıdır. Doğru kurgulandığında, misafire “burada bir şey oluyor” hissi verir; markaya içerik üretir; satış ekibine referans/kanıt sağlar; ajans ve influencer iş birliklerini kolaylaştırır. Yanlış kurgulandığında ise “gürültü, karmaşa, memnuniyetsizlik” olarak geri döner. Buradaki kritik ayrım şudur: Etkinliği yalnızca program gibi değil, bir Hotel Experience tasarımı gibi düşünmek. Özellikle [otel lansman ve açılış etkinliği prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon) senaryolarında bu deneyim dili daha da görünür hale gelir; benzer şekilde [gala gecesi ve ziyafet prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon) planları da sahne akışı ile misafir deneyimini aynı anda yönetmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -9328,7 +9352,7 @@
           },
           {
             "type": "p",
-            "text": "Çünkü içerik kalitesi ve misafir deneyimi, sahne–ses–ışık ve kayıt kalitesinin doğrudan sonucudur. Event Production + Concert + Stage + Sound & Light + Multi-Camera Recording bileşenleri aynı planın içinde düşünülürse, hem sahada stres düşer hem de etkinliğin çıktısı “yüksek kalite kanıt”a dönüşür."
+            "text": "Çünkü içerik kalitesi ve misafir deneyimi, sahne–ses–ışık ve kayıt kalitesinin doğrudan sonucudur. Event Production + Concert + Stage + Sound & Light + Multi-Camera Recording bileşenleri aynı planın içinde düşünülürse, hem sahada stres düşer hem de etkinliğin çıktısı “yüksek kalite kanıt”a dönüşür. Bu kararların önemli bir kısmı aslında [creative etkinlik deneyimi tasarımı](https://dgtlface.com/tr/creative-ve-tasarim) başlığı altında şekillenir."
           },
           {
             "type": "p",
@@ -9584,7 +9608,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Etkinlik bittikten sonra “içerik üretimi” başlar. Burada amaç; tek bir uzun video değil, çoklu format paketi üretmektir: highlight, kısa Reel’ler, referans video, story seti ve gerektiğinde reklam kırpımları. Özellikle “hotel show technical planning” gibi aramaların niyeti, izleyiciye kanıt + güven vermektir."
+            "text": "Etkinlik bittikten sonra “içerik üretimi” başlar. Burada amaç; tek bir uzun video değil, çoklu format paketi üretmektir: highlight, kısa Reel’ler, referans video, story seti ve gerektiğinde reklam kırpımları. Özellikle [etkinlikten aynı gün highlight içerik üretimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik) yaklaşımı, “hotel show technical planning” aramasındaki kanıt ve hız beklentisini daha iyi karşılar."
           },
           {
             "type": "h3",
@@ -9618,7 +9642,11 @@
           },
           {
             "type": "p",
-            "text": "İç link stratejisinde, etkinlik prodüksiyonunu video prodüksiyon ve dijital pazarlama ile bağlamak fark yaratır:\n• /tr/creative/etkinlik-produksiyonu (hizmet çerçevesi)\n• /tr/creative/video-produksiyon (çekim/kurgu kapasitesi)\n• /tr/otel-dijital-pazarlama (performans ve marka stratejisi)\n• /tr/smm/reels-video (format adaptasyonu)"
+            "text": "İçerik paketini dağıtıma hazırlarken [event highlight video](https://dgtlface.com/tr/creative/video-produksiyon) üretimini, [konser etkinliklerinin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ve [konserden Reels içerikleri](https://dgtlface.com/tr/smm/reels-video) ile birlikte planlamak fark yaratır."
+          },
+          {
+            "type": "p",
+            "text": "Yayın ritmini [otel sosyal medya için show içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) akışına bağlamak ve operasyonel detaylar için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını referans almak, etkinlik sonrası kullanım sürecini daha sistemli hale getirir."
           },
           {
             "type": "h3",
@@ -9851,7 +9879,7 @@
     },
     "h1": {
       "title": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu: Sahne, Akış ve Medya Planı",
-      "intro": "“Yeni otelimizi açıyoruz, lansman gecesini nasıl kurgulamalıyım?” sorusu aslında tek bir geceden daha büyük bir şeyi anlatır: ilk izlenim, marka hikâyesi, basın/iş ortaklarıyla ilişki ve içerik üretim kapasitesi. İyi kurgulanmış bir lansman; konsept, sahne–LED–ses/ışık prodüksiyonu, net bir run of show ve basın/influencer içerik planıyla tek gecelik bir iletişim makinesine dönüşür. Kötü kurgulanmış bir lansmanda ise akış dağılır, sahne mesajı kaybolur ve o gece “kanıt içerik” üretilemeden biter. Bu rehber; konseptten akışa, sahneden medya planına kadar süreci adım adım kurar.",
+      "intro": "“[Otel açılış etkinliği](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) ve lansman gecesini nasıl kurgulamalıyım?” sorusu aslında tek bir geceden daha büyük bir şeyi anlatır: ilk izlenim, marka hikâyesi, basın/iş ortaklarıyla ilişki ve içerik üretim kapasitesi. İyi kurgulanmış bir lansman; konsept, sahne–LED–ses/ışık prodüksiyonu, net bir run of show ve basın/influencer içerik planıyla tek gecelik bir iletişim makinesine dönüşür. Kötü kurgulanmış bir lansmanda ise akış dağılır, sahne mesajı kaybolur ve o gece “kanıt içerik” üretilemeden biter. Bu rehber; konseptten akışa, sahneden medya planına kadar süreci adım adım kurar.",
       "quickSummary": [
         "Hedef & mesaj: Lansman mesajı (1 cümle) + KPI’lar net mi?",
         "Konsept/tema: Hikâye kurgusu (açılış ritüeli, mesaj anları) yazıldı mı?",
@@ -9876,7 +9904,7 @@
       "secondary": {
         "label": "Lansman Run of Show & İçerik Planı Şablonunu İndir",
         "text": "Dakika dakika akışı ve içerik teslimlerini tek tabloda toplayıp gecikme ve dağınıklığı azaltır.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/lansman-run-of-show-icerik-plani-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -9886,7 +9914,19 @@
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/tr/creative"
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "label": "Otel Kurumsal Etkinlik ve Lansman İç İletişim",
+        "href": "/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim"
+      },
+      {
+        "label": "Otel Etkinliklerinde Same-Day Edit ve Anında İçerik Üretimi",
+        "href": "/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik"
       },
       {
         "label": "Video Prodüksiyon",
@@ -9894,17 +9934,25 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/tr/smm/reels-video"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Etkinlik Prodüksiyonu",
-        "href": "/tr/creative/etkinlik-produksiyonu"
+        "title": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
       },
       {
-        "title": "Video Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Otel Kurumsal Etkinlik ve Lansman İç İletişim",
+        "href": "/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim"
+      },
+      {
+        "title": "Otel Etkinliklerinde Same-Day Edit ve Anında İçerik Üretimi",
+        "href": "/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik"
       }
     ],
     "sections": [
@@ -9947,7 +9995,7 @@
           },
           {
             "type": "p",
-            "text": "Otel lansmanını planlamak için önce lansman mesajını ve hedef kitleyi netleştirin, sonra konsept/tema ve hikâye kurgusunu yazın. Run of show’u dakika dakika planlayıp sahne–LED–ses/ışık–dekor prodüksiyonunu bu akışa göre kurun. Basın/influencer alanı ve aynı gün short-form içerik üretimiyle etkinliği “çıktı üreten” bir sisteme dönüştürün."
+            "text": "Otel lansmanını planlamak için önce lansman mesajını ve hedef kitleyi netleştirin, sonra konsept/tema ve hikâye kurgusunu yazın. Run of show’u dakika dakika planlayıp sahne–LED–ses/ışık–dekor prodüksiyonunu bu akışa göre kurun. Basın/influencer alanı ve aynı gün short-form içerik üretimiyle etkinliği “çıktı üreten” bir sisteme dönüştürün. Bu yapı, sahne atmosferini ve görsel dili [creative lansman prodüksiyonu yaklaşımı](https://dgtlface.com/tr/creative-ve-tasarim) ile birlikte düşünmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -10101,7 +10149,7 @@
           },
           {
             "type": "p",
-            "text": "Run of show; saat–dakika çizelgesi, sorumlular, sahne cue’ları (ışık/ses/LED) ve içerik çekim pencerelerini aynı tabloda gösteren akıştır. Sunucu yönetimi de bu tablonun parçasıdır: hangi cümlede hangi görsel, hangi müzik ve hangi geçiş olacağı netleşir."
+            "text": "Run of show; saat–dakika çizelgesi, sorumlular, sahne cue’ları (ışık/ses/LED) ve içerik çekim pencerelerini aynı tabloda gösteren akıştır. Sunucu yönetimi de bu tablonun parçasıdır: hangi cümlede hangi görsel, hangi müzik ve hangi geçiş olacağı netleşir. Özellikle profesyonel bir [run of show planı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), teknik ekiple sunucu akışını tek tabloda birleştirerek hata payını ciddi biçimde düşürür."
           },
           {
             "type": "h3",
@@ -10155,7 +10203,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sahne tasarımı, marka kimliğinin fiziksel hâlidir. Opening Night’ta hedef; konuşmaların net duyulduğu, LED mesajların okunur olduğu, foto/video’nun temiz çıktığı bir sistem kurmaktır. Show ve after-party için “enerji” gerekir ama lansmanın kritik anlarında (konuşma, ribbon-cutting) netlik ve düzen kazanır."
+            "text": "Sahne tasarımı, marka kimliğinin fiziksel hâlidir. Opening Night’ta hedef; konuşmaların net duyulduğu, LED mesajların okunur olduğu, foto/video’nun temiz çıktığı bir sistem kurmaktır. Show ve after-party için enerji gerekir ama lansmanın kritik anlarında (konuşma, ribbon-cutting) netlik ve düzen kazanır. Akışta canlı performans varsa, [açılış gecesi konser ve show prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi) sahne tasarımı ve teknik kurulumla birlikte planlanmalıdır."
           },
           {
             "type": "h3",
@@ -10232,7 +10280,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip içerikler çoğu zaman lansmanı PR/bülten üzerinden anlatır; oysa otel lansmanında fark yaratan şey, çok kanallı içerik üretimini aynı çerçevede planlamaktır. Basın alanı, influencer alanı, çekim noktaları ve içerik brief’i sahneyle birlikte tasarlanmalıdır."
+            "text": "Rakip içerikler çoğu zaman lansmanı PR/bülten üzerinden anlatır; oysa otel lansmanında fark yaratan şey, çok kanallı içerik üretimini aynı çerçevede planlamaktır. Basın alanı, influencer alanı, çekim noktaları ve içerik brief’i sahneyle birlikte tasarlanmalıdır. Bu planın kurumsal tarafı için [basın ve influencer içerikleri](https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim) akışını önceden netleştirmek gerekir."
           },
           {
             "type": "h3",
@@ -10262,17 +10310,21 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle [lansman gecesinden aynı gün içerik üretimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik) yaklaşımı, açılış gecesinin sıcaklığını kaybetmeden yayına çıkmasını ve ilk etkileşim dalgasını yakalamasını sağlar."
+          },
+          {
             "type": "h3",
-            "text": "İç link stratejisi (sheet’e göre)"
+            "text": "Medya dağıtımı için bağlı akışlar"
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
-              "https://dgtlface.com/tr/creative-ve-tasarim",
-              "https://dgtlface.com/tr/creative/video-produksiyon",
-              "https://dgtlface.com/tr/otel-dijital-pazarlama"
+              "Etkinlik prodüksiyonu ana akışı ve sahne disiplini",
+              "Video highlight ve aftermovie teslim planı",
+              "Otel dijital pazarlama ve PR dağıtım kurgusu",
+              "Reels / short-form yayın ritmi"
             ]
           },
           {
@@ -10307,7 +10359,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI competitor gap notu: Rakip içerikler lansmanı çoğunlukla PR ve basın bülteni üzerinden anlatıyor; sahne, akış ve çok kanallı içerik üretimini aynı çerçevede ele alan Türkçe “otel lansman prodüksiyon” rehberi çok az.\nBu nedenle fark yaratmak için lansmanı üç çıktı etrafında tasarlayın:\n\t1.\tSahne mesajı (brand story)\n\t2.\tAkış disiplini (run of show)\n\t3.\tMedya paketi (same-day short form + highlight + basın seti)"
+            "text": "AI competitor gap notu: Rakip içerikler lansmanı çoğunlukla PR ve basın bülteni üzerinden anlatıyor; sahne, akış ve çok kanallı içerik üretimini aynı çerçevede ele alan Türkçe “otel lansman prodüksiyon” rehberi çok az.\nBu nedenle fark yaratmak için lansmanı üç çıktı etrafında tasarlayın:\n\t1.\tSahne mesajı (brand story)\n\t2.\tAkış disiplini (run of show)\n\t3.\tMedya paketi (same-day short form + highlight + basın seti)\n\nBu üçlü doğru kurulduğunda, [lansman gecesi event highlight](https://dgtlface.com/tr/creative/video-produksiyon) içeriği yalnızca arşivde kalmaz; [açılış etkinliğinin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) ve [açılış etkinliğinden Reels içerikleri](https://dgtlface.com/tr/smm/reels-video) için de doğrudan kullanılabilir."
           },
           {
             "type": "callout",
@@ -10324,6 +10376,10 @@
             "items": [
               "1. Mesaj–akış–medya üçlüsünü aynı dokümana koy. 2) Her sahne anını bir içerik çıktısına bağla. 3) Event schema + kayıt/stream entegrasyonlarını CWV bozmadan kur."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Sahne kurulumu, ekip planı ve teslim süreçleriyle ilgili detaylar için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da değerlendirebilirsiniz."
           },
           {
             "type": "cta",
@@ -10463,7 +10519,7 @@
     },
     "h1": {
       "title": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu: Akış, Sahne ve Misafir Deneyimi",
-      "intro": "“Kurumsal gala gecemizi otelde yapacağız, akışı nasıl kurmalıyım?” sorusu; aslında misafir deneyimi, servis operasyonu ve prodüksiyonun aynı anda yönetilmesi demektir. Gala geceleri, otelin hem kurumlara hem de özel davetlere sunduğu deneyimin vitrinidir: masa düzeni, ışık ve dekor dili, sahne/dans alanı yerleşimi ve müzik/sunucu yönetimi doğru kurulursa misafir geceyi “unutulmaz” olarak hatırlar. Eğer bu parçalar birbirinden kopuk planlanırsa; servis trafiği sıkışır, ses–ışık rahatsız eder, akış uzar ve geceyi belgeleyen içerikler zayıf kalır. Bu rehber; gala ve ziyafet prodüksiyonunu misafir deneyimi odağında adım adım kurar.",
+      "intro": "“[Otel gala gecesi prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) nasıl planlanmalı?” sorusu; aslında misafir deneyimi, servis operasyonu ve prodüksiyonun aynı anda yönetilmesi demektir. Gala geceleri, otelin hem kurumlara hem de özel davetlere sunduğu deneyimin vitrinidir: masa düzeni, ışık ve dekor dili, sahne/dans alanı yerleşimi ve müzik/sunucu yönetimi doğru kurulursa misafir geceyi “unutulmaz” olarak hatırlar. Eğer bu parçalar birbirinden kopuk planlanırsa; servis trafiği sıkışır, ses–ışık rahatsız eder, akış uzar ve geceyi belgeleyen içerikler zayıf kalır. Bu rehber; gala ve ziyafet prodüksiyonunu misafir deneyimi odağında adım adım kurar.",
       "quickSummary": [
         "1) Etkinlik tipini ve hedefi netleştir",
         "2) Masa düzenini sahne görüş hattıyla kilitle",
@@ -10486,13 +10542,29 @@
       "secondary": {
         "label": "Gala Gecesi Akış & Masa Düzeni Şablonunu İndir",
         "text": "Masa planı ve timeline’ı tek dokümanda toplayıp servis tıkanmasını ve akış dağınıklığını azaltır.",
-        "href": "/tr/creative/etkinlik-produksiyonu"
+        "href": "/downloads/gala-gecesi-akis-masa-duzeni-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Etkinlik Prodüksiyonu hizmet sayfası",
+        "label": "Etkinlik Prodüksiyonu",
         "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "label": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama",
+        "href": "/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim"
+      },
+      {
+        "label": "Otel Etkinlik Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
       },
       {
         "label": "Video Prodüksiyon",
@@ -10503,18 +10575,22 @@
         "href": "/tr/creative/kurumsal-hediye-tasarimi"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Video Prodüksiyon: Otel Etkinliklerinde Çekim ve Kurgu",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
       },
       {
-        "title": "Kurumsal Hediye Tasarımı: Etkinlik Deneyimini Tamamlama",
-        "href": "/tr/creative/kurumsal-hediye-tasarimi"
+        "title": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama",
+        "href": "/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim"
+      },
+      {
+        "title": "Otel Etkinlik Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
       }
     ],
     "sections": [
@@ -10536,7 +10612,7 @@
           },
           {
             "type": "p",
-            "text": "Otel gala gecesini planlamak için önce etkinlik tipini (kurumsal/ödül/düğün) ve hedefini belirleyin. Banket masa düzenini, sahne/dans alanı ve servis trafiğiyle uyumlu kurgulayın; akışı dakikaya indirip MC/müzik yönetimini netleştirin. Fotoğraf–video ekiplerinin hareket alanını en baştan planlayarak geceyi kanıt içeriklere dönüştürün."
+            "text": "Otel gala gecesini planlamak için önce etkinlik tipini (kurumsal/ödül/düğün) ve hedefini belirleyin. Banket masa düzenini, sahne/dans alanı ve servis trafiğiyle uyumlu kurgulayın; akışı dakikaya indirip MC/müzik yönetimini netleştirin. Fotoğraf–video ekiplerinin hareket alanını en baştan planlayarak geceyi kanıt içeriklere dönüştürün. Bu yaklaşım, geceyi yalnız operasyon değil aynı zamanda [gala ve ziyafet deneyim tasarımı](https://dgtlface.com/tr/creative-ve-tasarim) olarak ele almayı gerektirir."
           },
           {
             "type": "h3",
@@ -10646,7 +10722,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Gala gecesinde masa düzeni yalnızca kapasite çözümü değildir; misafirlerin sahneyi görmesi, servis ekibinin akması ve foto/video’nun temiz çıkması için bir “tasarım kararları seti”dir. Dekor ve ışık ise geceyi “premium” hissettiren dili taşır."
+            "text": "Gala gecesinde masa düzeni yalnızca kapasite çözümü değildir; misafirlerin sahneyi görmesi, servis ekibinin akması ve foto/video’nun temiz çıkması için bir tasarım kararları setidir. Dekor ve ışık ise geceyi premium hissettiren dili taşır. Başarılı bir [masa düzeni ve sahne akışı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), servis operasyonu ile misafir deneyimini aynı planda dengeler."
           },
           {
             "type": "h3",
@@ -10673,6 +10749,10 @@
               "Foto/video’da “gürültü” yaratmayacak renk/kontrast",
               "Marka kimliğiyle uyumlu minimal dokunuş"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Masa kartı, karşılama seti ve davetli hediyeleri gibi detaylar için [gala davetlileri için özel hediye tasarımı](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi) kullanmak, deneyimi daha hatırlanır ve marka ile uyumlu hale getirir."
           },
           {
             "type": "h3",
@@ -10717,7 +10797,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Akış, misafirin geceyi “akıcı” hissetmesini sağlar. En sık hata; çok fazla konuşma ve geciken show başlangıcıdır. Doğru akış; ritmi korur, sıkılmayı azaltır, içerik çekim pencerelerini garanti eder."
+            "text": "Akış, misafirin geceyi akıcı hissetmesini sağlar. En sık hata; çok fazla konuşma ve geciken show başlangıcıdır. Doğru akış; ritmi korur, sıkılmayı azaltır, içerik çekim pencerelerini garanti eder. Özellikle protokol, konuşma sırası ve marka mesajı yoğun gecelerde [gala gecesi kurumsal iletişim akışı](https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim) önceden netleştirilmelidir."
           },
           {
             "type": "h3",
@@ -10768,7 +10848,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "MC ve müzik, gecenin ritmini taşır. Kurumsal gecede net konuşma ve zaman yönetimi öne çıkar; düğün/özel davette ise duygu ve dans akışı. Program yönetimi; cue’lar, geçiş müzikleri, mikrofon planı ve ses seviyesini içerir."
+            "text": "MC ve müzik, gecenin ritmini taşır. Kurumsal gecede net konuşma ve zaman yönetimi öne çıkar; düğün/özel davette ise duygu ve dans akışı. Program yönetimi; cue’lar, geçiş müzikleri, mikrofon planı ve ses seviyesini içerir. Canlı performans, orkestra ya da sahne şovu varsa [gala gecesinde konser ve show prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi) ayrıca planlanmalıdır."
           },
           {
             "type": "h3",
@@ -10818,7 +10898,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, rakip içeriklerin banket satış gözünden kaçırdığı “kanıt içerik” alanıdır. Gala gecesi; kurumsal müşteri için referans, düğün segmenti için vitrin, otel için marka hikâyesidir. Bu nedenle Photo & Video Coverage planı; ekip hareket alanı, shotlist ve teslim takvimiyle birlikte yazılmalıdır."
+            "text": "Bu bölüm, rakip içeriklerin banket satış gözünden kaçırdığı kanıt içerik alanıdır. Gala gecesi; kurumsal müşteri için referans, düğün segmenti için vitrin, otel için marka hikâyesidir. Bu nedenle [gala highlight çekimi](https://dgtlface.com/tr/creative/video-produksiyon) ve Photo & Video Coverage planı; ekip hareket alanı, shotlist ve teslim takvimiyle birlikte yazılmalıdır."
           },
           {
             "type": "h3",
@@ -10847,6 +10927,10 @@
               "1 highlight (60–120 sn)",
               "(Varsayım) kurumsal müşteri için “özet rapor” + seçki linki"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktı paketi, [gala gecesi içeriklerinin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) için web, sosyal medya ve marka görünürlüğü tarafında uzun ömürlü bir içerik seti üretir."
           },
           {
             "type": "cta",
@@ -10919,6 +11003,10 @@
           },
           {
             "type": "p",
+            "text": "Geceyi yalnız estetik veya operasyon açısından değil, geri bildirim açısından da değerlendirmek gerekir; bunun için [etkinlik sonrası NPS ölçümü](https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps) ve memnuniyet raporu süreci baştan tasarlanmalıdır."
+          },
+          {
+            "type": "p",
             "text": "☑ Mini Check: “Akış + servis trafiği + kanıt içerik” aynı dokümanda yoksa, gece tek seferlik olur; referansa dönüşmez."
           },
           {
@@ -10930,6 +11018,10 @@
               "Akışı dakikaya indir.",
               "Kanıt içerik paketini aynı gün çıkar."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik akış, sahne, ekip ve teslim süreçleriyle ilgili detaylar için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -11062,7 +11154,7 @@
     },
     "h1": {
       "title": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi",
-      "intro": "“Kurumsal etkinliğin sahnesi nasıl daha profesyonel görünür?” sorusu, çoğu zaman tek bir tasarım kararından değil; Visual Identity + okunabilirlik + içerik akışı + sponsor hiyerarşisi gibi birden fazla sistem parçasının birlikte kurgulanmasından geçer. Kurumsal etkinliklerde sahne ve LED ekranlar, hem marka mesajını hem de etkinliğin görsel kalitesini belirler: yanlış kontrast, hatalı logo yerleşimi veya rastgele sponsor blokları; sahnenin “kalabalık” görünmesine ve mesajın kaybolmasına neden olur. Bu rehber; otel içinde yapılan kurumsal etkinliklerde stage branding ve içerik yönetimini adım adım ele alır—özellikle İstanbul ve Antalya gibi balo salonu/toplantı alanı trafiği yüksek lokasyonlarda uygulanabilir bir çerçeveyle.",
+      "intro": "“Kurumsal etkinliğin sahnesi için [stage branding](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) nasıl daha profesyonel kurgulanır?” sorusu, çoğu zaman tek bir tasarım kararından değil; visual identity, okunabilirlik, içerik akışı ve sponsor hiyerarşisi gibi birden fazla sistem parçasının birlikte düşünülmesinden geçer. Kurumsal etkinliklerde sahne ve LED ekranlar, hem marka mesajını hem de etkinliğin görsel kalitesini belirler: yanlış kontrast, hatalı logo yerleşimi veya rastgele sponsor blokları; sahnenin kalabalık görünmesine ve mesajın kaybolmasına neden olur. Bu rehber; otel içinde yapılan kurumsal etkinliklerde stage branding ve içerik yönetimini adım adım ele alır, özellikle İstanbul ve Antalya gibi balo salonu ve toplantı alanı trafiği yüksek lokasyonlarda uygulanabilir bir çerçeve sunar.",
       "quickSummary": [
         "1) Branding hiyerarşisini netleştir (ana marka + otel host + sponsor tier)",
         "2) Safe-area, kontrast ve tipografiyi kilitle (okunabilirlik)",
@@ -11095,7 +11187,19 @@
       },
       {
         "label": "Creative ve Tasarım",
-        "href": "/tr/creative"
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon"
+      },
+      {
+        "label": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon"
+      },
+      {
+        "label": "Otel Etkinlikleri İçin Sponsorluk ve Marka Ortaklıkları",
+        "href": "/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
       },
       {
         "label": "Video Prodüksiyon",
@@ -11103,17 +11207,21 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Etkinlik Prodüksiyonu",
-        "href": "/tr/creative/etkinlik-produksiyonu"
+        "title": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon"
       },
       {
-        "title": "Video Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon"
+      },
+      {
+        "title": "Otel Etkinlikleri İçin Sponsorluk ve Marka Ortaklıkları",
+        "href": "/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
       }
     ],
     "sections": [
@@ -11152,7 +11260,7 @@
           },
           {
             "type": "p",
-            "text": "Kurumsal etkinlik sahnesini planlamak için önce ana mesajı ve logo hiyerarşisini belirleyin; ardından safe-area, kontrast ve tipografi kurallarıyla stage branding’i kilitleyin. LED içeriklerini sunum akışına (cue) bağlayıp loop, ara ekran ve geçişleri önceden tasarlayın. Sponsor yerleşimini kategori bazlı (ana sponsor/destekçi) düzenleyip video–foto içerik planıyla “kanıt” üretin."
+            "text": "Kurumsal etkinlik sahnesini planlamak için önce ana mesajı ve logo hiyerarşisini belirleyin; ardından safe-area, kontrast ve tipografi kurallarıyla stage branding’i kilitleyin. LED içeriklerini sunum akışına (cue) bağlayıp loop, ara ekran ve geçişleri önceden tasarlayın. Sponsor yerleşimini kategori bazlı (ana sponsor/destekçi) düzenleyip video ve foto içerik planıyla kanıt üretin. Bunu doğru yapmak için sahneyi yalnız teknik ekran olarak değil, [kurumsal etkinlik görsel kimliği](https://dgtlface.com/tr/creative-ve-tasarim) sistemi olarak ele almak gerekir."
           },
           {
             "type": "h3",
@@ -11199,7 +11307,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Stage branding; logonun “orada durması” değil, kurumsal mesajın sahnede temiz, okunur ve premium görünmesidir. Otel balo salonlarında en sık hata; logoları büyütüp metinleri küçültmek veya arka planı fazla hareketli yapmaktır. Doğru yaklaşım: az öğe, yüksek kontrast, net hiyerarşi."
+            "text": "Stage branding; logonun orada durması değil, kurumsal mesajın sahnede temiz, okunur ve premium görünmesidir. Otel balo salonlarında en sık hata; logoları büyütüp metinleri küçültmek veya arka planı fazla hareketli yapmaktır. Doğru yaklaşım: az öğe, yüksek kontrast, net hiyerarşi. Bu disiplin hem [lansman etkinliğinde sahne markalama](https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon) hem de [gala etkinliğinde sahne ve LED görsel akışı](https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon) gibi otel etkinliklerinde aynı ölçüde kritik çalışır."
           },
           {
             "type": "h3",
@@ -11268,7 +11376,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "LED içerik planı, etkinliğin “iç iletişim motoru”dur. Açılış ekranı, konuşmacı lower-third, ara ekranlar, sponsor ekranları ve kapanış; hepsi bir akış içinde çalışmalıdır. LED yalnızca arka plan değildir: sunum, video ve sahne cue’larıyla entegre edilmezse “görsel gürültü” üretir."
+            "text": "Planlı bir [LED ekran içeriği](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) akışı, etkinliğin iç iletişim motoru gibi çalışır. Açılış ekranı, konuşmacı lower-third, ara ekranlar, sponsor ekranları ve kapanış; hepsi tek bir akış içinde düşünülmelidir. LED yalnızca arka plan değildir: sunum, video ve sahne cue’larıyla entegre edilmezse görsel gürültü üretir."
           },
           {
             "type": "h3",
@@ -11426,7 +11534,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sponsor markalama, sahneyi güçlendirebilir; ama yanlış kurgulanırsa sahneyi “reklam panosu”na çevirir. Kurumsal etkinlikte hedef, sponsor görünürlüğünü sağlarken kurumsal marka mesajını ve otel ev sahipliğini korumaktır."
+            "text": "Planlı bir [sponsor logo yerleşimi](https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari), sahneyi güçlendirebilir; ama yanlış kurgulanırsa sahneyi reklam panosuna çevirir. Kurumsal etkinlikte hedef, sponsor görünürlüğünü sağlarken kurumsal marka mesajını ve otel ev sahipliğini korumaktır."
           },
           {
             "type": "h3",
@@ -11485,7 +11593,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Stage branding ve LED içerik, yalnızca salondaki etkiyi değil; etkinlikten sonra kalacak kanıt içerikleri de belirler. Kurumsal mesaj; konuşmalar, ödül anları, panel görüntüleri ve sponsor–marka dengesiyle video/foto üzerinden yeniden yaşatılır."
+            "text": "Stage branding ve LED içerik, yalnızca salondaki etkiyi değil; etkinlikten sonra kalacak kanıt içerikleri de belirler. Kurumsal mesaj; konuşmalar, ödül anları, panel görüntüleri ve sponsor–marka dengesiyle video ve foto üzerinden yeniden yaşatılır. Bu nedenle [etkinlik videosunda LED görsel uyumu](https://dgtlface.com/tr/creative/video-produksiyon) baştan planlanmalı; aksi halde sahnede güçlü görünen tasarım kamerada dağılabilir."
           },
           {
             "type": "h3",
@@ -11516,17 +11624,21 @@
           },
           {
             "type": "h3",
-            "text": "İç linkleme ile sistem kurma"
+            "text": "Etkinlik sonrası dağıtım ve kullanım alanları"
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "https://dgtlface.com/tr/creative-ve-tasarim",
-              "https://dgtlface.com/tr/creative/video-produksiyon",
-              "https://dgtlface.com/tr/otel-dijital-pazarlama",
-              "https://dgtlface.com/tr/creative/etkinlik-produksiyonu"
+              "Web ve landing page kullanımına uygun sahne görselleri",
+              "Highlight ve short-form sosyal medya kesitleri",
+              "PR, sponsor ve etkinlik recap dağıtımı",
+              "Satış ekibi için referans deck ve seçki materyalleri"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [kurumsal etkinlik görsel kimliğinin dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) çekim sonrasına bırakılmamalı; web, sosyal medya ve PR dağıtımı için en baştan düşünülmelidir."
           },
           {
             "type": "callout",
@@ -11543,6 +11655,10 @@
             "items": [
               "Sahne/LED tasarımını çekim açısından test et. 2) 48–72 saat teslim planını yaz. 3) Kısa klip paketini (talk highlights) önceden planla."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Teslim formatları, cue akışı ve ekip koordinasyonu gibi operasyonel detaylar için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -11700,7 +11816,7 @@
     },
     "h1": {
       "title": "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi",
-      "intro": "“Etkinlikten hemen sonra video paylaşmak istiyorum, mümkün mü?” Evet—ama tesadüfen değil, sistemle. Same-day edit; çekim, seçim (select), kurgu, onay ve yayın adımlarını aynı gün tek akışa bağlayan bir üretim modelidir. Oteller için avantajı açıktır: etkinliğin enerjisi tazeyken sosyal medyada görünürlük artar, misafirlerin duygusu dağılmadan marka algısı güçlenir ve satış/pazarlama ekibi anında “kanıt içerik” kazanır. Ancak iyi tasarlanmadığında ekip üzerinde ciddi stres yaratır ve kalite sorunları doğurur; bu nedenle süreç tasarımı şarttır.",
+      "intro": "“Etkinlikten hemen sonra video paylaşmak istiyorum, mümkün mü?” Evet, ama tesadüfen değil; planlı bir [same-day edit](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) kurgusuyla. Çekim, seçim (select), kurgu, onay ve yayın adımlarını aynı gün tek akışa bağlayan bu model; oteller için etkinliğin enerjisi tazeyken sosyal medyada görünürlük artışı, misafir duygusu dağılmadan marka algısının güçlenmesi ve satış/pazarlama ekibinin anında “kanıt içerik” kazanması anlamına gelir. Ancak iyi tasarlanmadığında ekip üzerinde ciddi stres yaratır ve kalite sorunları doğurur; bu nedenle süreç tasarımı şarttır.",
       "quickSummary": [
         "Same-day edit’in başarısı hızlı kurgu değil; hızlı karar + hızlı onay sistemidir.",
         "Çıktı setini kilitle: 1 highlight + 3–5 dikey (Reels/Shorts) + Story seti.",
@@ -11711,14 +11827,14 @@
       "ctaPrimary": {
         "label": "Same-Day Edit & Hızlı İçerik Üretim Danışmanlığı Al",
         "text": "Etkinlik gününde çekim–kurgu–onay–yayın akışını hızlandırıp kaliteyi koruyan bir sistem kurun.",
-        "href": "https://dgtlface.com/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Same-Day Edit & Hızlı İçerik Üretim Danışmanlığı Al",
         "text": "Etkinlik gününde çekim–kurgu–onay–yayın akışını hızlandırıp kaliteyi koruyan bir sistem kurun.",
-        "href": "https://dgtlface.com/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Same-Day Edit Akış & Görev Dağılımı Şablonunu İndir",
@@ -11729,22 +11845,51 @@
     "internalLinks": [
       {
         "label": "Etkinlik Prodüksiyonu",
-        "href": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "label": "Otel Dikey Video, Reels ve TikTok Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
+        "label": "Otel Video Asset Stratejisi: 1 Günde 30 İçerik",
+        "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "https://dgtlface.com/tr/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Reels Video",
-        "href": "https://dgtlface.com/tr/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Otel Sosyal Medya",
-        "href": "https://dgtlface.com/tr/otel/sosyal-medya"
+        "href": "/tr/otel/sosyal-medya"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "title": "Otel Dikey Video, Reels ve TikTok Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
+        "title": "Otel Video Asset Stratejisi: 1 Günde 30 İçerik",
+        "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+      }
+    ],
     "sections": [
       {
         "id": "otel-etkinliklerinde-planlama",
@@ -11756,7 +11901,7 @@
           },
           {
             "type": "p",
-            "text": "Same-day edit’in başarısı “hızlı kurgu” değil; hızlı karar ve hızlı onay sistemidir. Plan, etkinlik başlamadan önce hazırlanır: hangi içerikler çıkacak, kim seçecek, kim kurgulayacak, kim onaylayacak ve nerede yayınlanacak? Bu sorular net değilse, etkinlik günü dakikalar hızla kaybolur."
+            "text": "Same-day edit’in başarısı “hızlı kurgu” değil; hızlı karar ve hızlı onay sistemidir. Bu yüzden marka diliyle uyumlu [anında etkinlik içeriği](https://dgtlface.com/tr/creative-ve-tasarim) üretimi etkinlik başlamadan önce planlanmalıdır: hangi içerikler çıkacak, kim seçecek, kim kurgulayacak, kim onaylayacak ve nerede yayınlanacak? Bu sorular net değilse, etkinlik günü dakikalar hızla kaybolur."
           },
           {
             "type": "h3",
@@ -11822,7 +11967,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Same-day edit; etkinlik günü çekilen görüntülerden aynı gün içinde kısa bir highlight ve dikey format içerikler (Reels/Shorts/Story) üretip yayınlamaktır. Otel tarafında bunun değeri, “etkinlik bitince paylaşırız” yerine enerji varken paylaşmak ve misafir tesisten ayrılmadan sosyal kanıtı büyütmektir."
+            "text": "Same-day edit; etkinlik günü çekilen görüntülerden aynı gün içinde kısa bir highlight ve dikey format içerikler (Reels/Shorts/Story) üretip yayınlamaktır. Özellikle [konser etkinliklerinde same-day edit](https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi) akışı, sahne enerjisini misafir tesisten ayrılmadan görünür kılmak için güçlüdür. Otel tarafında bunun değeri, “etkinlik bitince paylaşırız” yerine enerji varken paylaşmak ve misafir tesisten ayrılmadan sosyal kanıtı büyütmektir."
           },
           {
             "type": "h3",
@@ -11862,7 +12007,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Same-day edit’in kalbi “gün içi içerik takvimi”dir. Etkinliğin ritmini bilmeden içerik yetişmez. Bu yüzden takvim; konuşma anları, show moment’leri, networking ve mekân detaylarını kapsar."
+            "text": "Same-day edit’in kalbi “gün içi içerik takvimi”dir. Etkinliğin ritmini bilmeden içerik yetişmez. Bu yüzden takvim; konuşma anları, show moment’leri, networking ve mekân detaylarını kapsar; özellikle [etkinlikten kısa video üretimi](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) hedefleniyorsa dikey kadrajlar baştan ayrılmalıdır."
           },
           {
             "type": "h3",
@@ -11927,7 +12072,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Same-day edit’in en büyük darboğazı kurgu değil, onaydır. Kurgu şablonla hızlanır; onay ise “tek kişi + net kriter + süre limiti” ile hızlanır."
+            "text": "Same-day edit’in en büyük darboğazı kurgu değil, onaydır. Etkinlik sırasında iyi planlanan bir [hızlı kurgu akışı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) şablonla ilerler; onay ise “tek kişi + net kriter + süre limiti” ile hızlanır."
           },
           {
             "type": "h3",
@@ -11985,7 +12130,7 @@
             "variant": "primary",
             "label": "Same-Day Edit & Hızlı İçerik Üretim Danışmanlığı Al",
             "text": "Etkinlik gününde çekim–kurgu–onay–yayın akışını hızlandırıp kaliteyi koruyan bir sistem kurun.",
-            "href": "https://dgtlface.com/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -11995,7 +12140,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Same-day edit yalnız Instagram için değildir. Otel içinde ekranlarda dönebilir, kurumsal iletişimde kullanılabilir ve sosyal medya–web bağlamını güçlendirebilir."
+            "text": "Same-day edit yalnız Instagram için değildir. Aynı gün çıkan [etkinlik highlight videosu ve hızlı kurgu](https://dgtlface.com/tr/creative/video-produksiyon) paketi otel içinde ekranlarda dönebilir; [gala ve konser Reels üretimi](https://dgtlface.com/tr/smm/reels-video) ile dağıtımı hızlanır ve [otel sosyal medya için anlık etkinlik içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) akışını güçlendirebilir."
           },
           {
             "type": "h3",
@@ -12033,7 +12178,7 @@
             "variant": "primary",
             "label": "Same-Day Edit & Hızlı İçerik Üretim Danışmanlığı Al",
             "text": "Yayın penceresini kaçırmadan, kaliteli ve markaya uygun içerik üretim sistemini birlikte kuralım.",
-            "href": "https://dgtlface.com/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
@@ -12050,7 +12195,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Same-day edit “hızlı” olduğu için uzun içerik kalitesi düşmek zorunda değil. Doğru kurgu: aynı gün kısa içerik çıkar, sonra aynı kaynaklar uzun versiyon + case study filme çevrilir. Böylece 1 etkinlikten hem gün içi hem de uzun vadeli içerik havuzu çıkar."
+            "text": "Same-day edit “hızlı” olduğu için uzun içerik kalitesi düşmek zorunda değil. Doğru kurgu: aynı gün kısa içerik çıkar, sonra aynı kaynaklar uzun versiyon + case study filme çevrilir. Böylece [etkinlikten çoklu video asset üretimi](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) yaklaşımıyla 1 etkinlikten hem gün içi hem de uzun vadeli içerik havuzu çıkar."
           },
           {
             "type": "h3",
@@ -12134,6 +12279,10 @@
             "text": "Süreç dokümanı yoksa aynı gün her etkinlikte yeniden “keşif” yapılır; yorucu olur."
           },
           {
+            "type": "p",
+            "text": "Ekip yapısı, teslim süresi ve operasyon detaylarını tek yerde görmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
+          },
+          {
             "type": "h3",
             "text": "Ne yapmalıyım? "
           },
@@ -12149,7 +12298,7 @@
             "variant": "primary",
             "label": "Same-Day Edit & Hızlı İçerik Üretim Danışmanlığı Al",
             "text": "Etkinlik gününde çekim–kurgu–onay–yayın akışını hızlandırıp kaliteyi koruyan bir sistem kurun.",
-            "href": "https://dgtlface.com/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -56129,7 +56278,7 @@
     },
     "h1": {
       "title": "Otel Düğün Organizasyonlarında Video & Foto Prodüksiyon Nasıl Planlanır?",
-      "intro": "“Otelde düğünümüz var, video ve fotoğrafı nasıl organize etmeliyim?” sorusu, yalnızca ekip seçimi değil; gün akışı, alan kullanımı ve içerik çıktısı yönetimidir. Otel düğünlerinde prodüksiyon; hazırlık odaları, tesis içi geçişler, havuz başı/teras/balo salonu gibi farklı alanlar ve servis trafiğiyle birlikte çalışır. İyi plan, düğün günü kaosu azaltır; foto–video ekiplerinin aynı anda çatışmadan çalışmasını sağlar ve sonunda hem uzun düğün filmi hem de highlight + Reels gibi satışa destek veren içerikler üretir. Bu rehber, süreci brief’ten teslime kadar adım adım kurgular.",
+      "intro": "“Otelde düğünümüz var, video ve fotoğrafı nasıl organize etmeliyim?” sorusu, yalnızca ekip seçimi değil; planlı bir [otel düğün prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) kurgusu gerektirir. Gün akışı, alan kullanımı ve içerik çıktısı yönetimi birlikte düşünülmelidir. Otel düğünlerinde prodüksiyon; hazırlık odaları, tesis içi geçişler, havuz başı, teras ve balo salonu gibi farklı alanlar ile servis trafiğiyle birlikte çalışır. İyi plan, düğün günü kaosu azaltır; foto-video ekiplerinin aynı anda çatışmadan çalışmasını sağlar ve sonunda hem uzun düğün filmi hem de highlight ve Reels gibi satışa destek veren içerikler üretir. Bu rehber, süreci brief'ten teslime kadar adım adım kurgular.",
       "quickSummary": [
         "1) Çift brief’ini ve teslim beklentisini netleştir",
         "2) Timeline ve alan yerleşimini düğün gününden önce kilitle",
@@ -56140,29 +56289,45 @@
       "ctaPrimary": {
         "label": "Düğün Video & Foto Prodüksiyon Danışmanlığı Al",
         "text": "Çift brief’i, shot list ve ekip koordinasyonunu otel operasyonuyla birlikte planlayalım.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Düğün Video & Foto Prodüksiyon Danışmanlığı Al",
         "text": "Brief, shot list ve ekip koordinasyonunu otel operasyonuna göre kurgulayıp kaosu azaltın ve güçlü içerik üretin.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Düğün Shot List & Prodüksiyon Akış Şablonunu İndir",
         "text": "Tören–kokteyl–after planlarını tek tabloda toplayıp foto/video ekip çatışmasını azaltır ve teslim süresini kısaltır.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/dugun-shot-list-produksiyon-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Video & Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
-      },
-      {
         "label": "Etkinlik Prodüksiyonu",
         "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon"
+      },
+      {
+        "label": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı",
+        "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+      },
+      {
+        "label": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Kurumsal Hediye Tasarımı",
@@ -56173,7 +56338,20 @@
         "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon"
+      },
+      {
+        "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı",
+        "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+      },
+      {
+        "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      }
+    ],
     "sections": [
       {
         "id": "otel-dugunlerinde-video-fotograf-produksiyonu-nasil-planlanmali",
@@ -56181,7 +56359,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel düğün prodüksiyonunun sırrı “daha fazla kamera” değil; daha net plandır. Plan; çiftin stil beklentisini, gün akışını (tören–kokteyl–after), alan şemasını, shot list’i ve teslim paketini tek dokümanda birleştirir. Böylece ekipler neyi, ne zaman, nerede çekeceğini bilir."
+            "text": "Otel düğün prodüksiyonunun sırrı “daha fazla kamera” değil; daha net plandır. İyi bir [wedding video ve foto çekimi](https://dgtlface.com/tr/creative-ve-tasarim) kurgusu; çiftin stil beklentisini, gün akışını (tören, kokteyl, after), alan şemasını, shot list'i ve teslim paketini tek dokümanda birleştirir. Böylece ekipler neyi, ne zaman, nerede çekeceğini bilir."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -56190,7 +56368,7 @@
           },
           {
             "type": "p",
-            "text": "Otel düğün prodüksiyonunu planlamak için önce çiftle brief yapıp stil, öncelik ve teslim beklentilerini netleştirin. Tören alanı, kokteyl ve after party için alan yerleşimi ve shot list oluşturun; fotoğraf ve video ekiplerinin hareket alanlarını çakıştırmadan koordine edin. Son olarak uzun film + highlight + Reels teslim takvimini düğün gününden önce kilitleyin."
+            "text": "Otel düğün prodüksiyonunu planlamak için önce çiftle brief yapıp stil, öncelik ve teslim beklentilerini netleştirin. Tören alanı, kokteyl ve after party için alan yerleşimi ve [düğün shot list](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) oluşturun; fotoğraf ve video ekiplerinin hareket alanlarını çakıştırmadan koordine edin. Son olarak uzun film, highlight ve Reels teslim takvimini düğün gününden önce kilitleyin."
           },
           {
             "type": "h3",
@@ -56230,7 +56408,7 @@
             "variant": "secondary",
             "label": "Düğün Shot List & Prodüksiyon Akış Şablonunu İndir",
             "text": "Tören–kokteyl–after planlarını tek tabloda toplayıp foto/video ekip çatışmasını azaltır ve teslim süresini kısaltır.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/dugun-shot-list-produksiyon-akis-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -56244,7 +56422,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel düğünleri, yalnız bir etkinlik geliri değildir; tesisin “wedding & honeymoon” algısını büyüten pazarlama motorudur. İyi üretilmiş highlight ve referans videoları; sonraki düğün taleplerini ve çiftlerin karar hızını artırabilir. Bu nedenle prodüksiyon, wedding satış paketlerinin ayrılmaz parçası gibi yönetilmelidir."
+            "text": "Otel düğünleri, yalnız bir etkinlik geliri değildir; tesisin “wedding & honeymoon” algısını büyüten pazarlama motorudur. İyi üretilmiş highlight ve referans videoları; sonraki düğün taleplerini ve çiftlerin karar hızını artırabilir. Bu nedenle prodüksiyon, wedding satış paketlerinin ayrılmaz parçası gibi yönetilmeli ve [otel düğün pazarlamasında video ve foto içerikleri](https://dgtlface.com/tr/otel-dijital-pazarlama) doğrudan satış akışına bağlanmalıdır."
           },
           {
             "type": "h3",
@@ -56336,7 +56514,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel düğünlerinde akış çoğu zaman 3 sahnede yaşanır: seremoni, kokteyl ve after. Her sahnenin ışığı, kalabalığı ve hareketi farklıdır; dolayısıyla plan da farklı olmalıdır."
+            "text": "Otel düğünlerinde akış çoğu zaman 3 sahnede yaşanır: seremoni, kokteyl ve after. Özellikle [düğün yemeği ve ziyafet akışı](https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon) sahne temposu ve misafir deneyimiyle birlikte düşünülmelidir. Her sahnenin ışığı, kalabalığı ve hareketi farklıdır; dolayısıyla plan da farklı olmalıdır."
           },
           {
             "type": "h3",
@@ -56376,6 +56554,10 @@
               "Dans alanı güvenliği ve ekip hareket sınırları",
               "DJ ve ses–ışıkla cue koordinasyonu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bahçe, beach, iskele veya teras düğünlerinde rüzgar, yağış ve alternatif kurulum senaryoları için [açık alan düğünlerinde B planı](https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani) önceden netleştirilmelidir."
           },
           {
             "type": "media",
@@ -56454,7 +56636,7 @@
             "variant": "primary",
             "label": "Düğün Video & Foto Prodüksiyon Danışmanlığı Al",
             "text": "Brief, shot list ve ekip koordinasyonunu otel operasyonuna göre kurgulayıp kaosu azaltın ve güçlü içerik üretin.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -56464,7 +56646,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Düğün sonrası teslim; yalnızca bir “USB” değil, otelin wedding satışlarına da katkı sağlayan bir içerik paketidir. Özellikle highlight ve Reels; bir sonraki çiftin kararını etkileyen en güçlü kanıtlardandır."
+            "text": "Düğün sonrası teslim; yalnızca bir “USB” değil, otelin wedding satışlarına da katkı sağlayan bir içerik paketidir. Özellikle iyi planlanmış bir [highlight film planı](https://dgtlface.com/tr/creative/video-produksiyon) ve Reels kurgusu, bir sonraki çiftin kararını etkileyen en güçlü kanıtlardandır."
           },
           {
             "type": "h3",
@@ -56495,6 +56677,10 @@
           {
             "type": "h3",
             "text": "“Düğün günü için 20 maddelik hızlı prodüksiyon checklist’i”"
+          },
+          {
+            "type": "p",
+            "text": "Sahadaki görev dağılımını, ekipman kontrolünü ve saat bazlı akışı tek yerde toplamak için [düğün günü operasyon checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) yaklaşımı oldukça işlevseldir."
           },
           {
             "type": "list",
@@ -56545,7 +56731,7 @@
             "variant": "primary",
             "label": "Düğün Video & Foto Prodüksiyon Danışmanlığı Al",
             "text": "Düğün gününü kaossuz planlayıp film+highlight+Reels paketini standartlaştırın.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
@@ -56567,7 +56753,15 @@
           },
           {
             "type": "p",
+            "text": "Karşılama masası, masa kartları ve küçük jest alanlarında [düğün davetlileri için özel hediye tasarımı](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi) kullanmak, deneyimi daha kişisel ve hatırlanır hale getirebilir."
+          },
+          {
+            "type": "p",
             "text": "☑ Mini Check: Otelin en iyi alanları planlı çekilmediyse, “düğün destinasyonu” algısı eksik kalır."
+          },
+          {
+            "type": "p",
+            "text": "Süreç, ekip yapısı, teknik ihtiyaçlar ve teslim detayları için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -56584,7 +56778,7 @@
             "variant": "primary",
             "label": "Düğün Video & Foto Prodüksiyon Danışmanlığı Al",
             "text": "Brief, shot list ve ekip koordinasyonunu otel operasyonuna göre kurgulayıp kaosu azaltın ve güçlü içerik üretin.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           }
         ]
       },
@@ -56722,7 +56916,7 @@
     },
     "h1": {
       "title": "Otel Çocuk ve Aile Etkinliklerinde Prodüksiyon: Animasyon, Mini Club ve Aile Show’ları",
-      "intro": "“Çocukları videoda göstermek istiyoruz ama KVKK’dan çekiniyoruz, ne yapmalıyız?” Bu soru, çocuklu aile segmentinde içerik üretmek isteyen otellerin en gerçek sorusu. Çocuk ve aile etkinlikleri özellikle Antalya–Belek–Side–Kemer–Bodrum gibi resort destinasyonlarda tercih sebebidir; fakat bu etkinlikleri videoya alırken “eğlence” kadar güvenlik, mahremiyet ve izin yönetimi de kritiktir. Doğru planla, çocukları ifşa etmeden aile deneyimini güçlü gösterebilir; yanlış planla ise şikâyet ve itibar riski doğurabilirsiniz.",
+      "intro": "“Çocukları videoda göstermek istiyoruz ama KVKK’dan çekiniyoruz, ne yapmalıyız?” Bu soru, çocuklu aile segmentinde içerik üretmek isteyen otellerin en gerçek sorusu. Güvenli bir [çocuk etkinliği prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) kurgusu; özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi resort destinasyonlarda aile tercihine doğrudan etki eder. Fakat bu etkinlikleri videoya alırken “eğlence” kadar güvenlik, mahremiyet ve izin yönetimi de kritiktir. Doğru planla, çocukları ifşa etmeden aile deneyimini güçlü gösterebilir; yanlış planla ise şikâyet ve itibar riski doğurabilirsiniz.",
       "quickSummary": [
         "1) Günlük programı içerik takvimine çevir",
         "2) Yüz/kimlik göstermeyen kadraj standardını belirle",
@@ -56745,7 +56939,7 @@
       "secondary": {
         "label": "Çocuk & Aile Etkinliği Çekim Checklist’ini İndir",
         "text": "Günlük program, kadraj kuralları, izin kontrolü ve yayın adımlarını tek listede toplayıp riskleri azaltır.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/cocuk-aile-etkinligi-cekim-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -56754,19 +56948,48 @@
         "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
-        "label": "Video & Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Festival ve Beach Party Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
+      },
+      {
+        "label": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+        "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
+      },
+      {
+        "label": "Otel Etkinliği Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
       },
       {
         "label": "KVKK Uyum Hizmeti",
         "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
         "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Festival ve Beach Party Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
+      },
+      {
+        "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+        "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
+      },
+      {
+        "title": "Otel Etkinliği Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      }
+    ],
     "sections": [
       {
         "id": "otel-cocuk-aile-etkinliklerinde-video-produksiyonu-nasil-yapilmali",
@@ -56774,7 +56997,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çocuk içeriklerinde “en iyi görüntü” hedefi tek başına doğru hedef değildir. Doğru hedef; Hotel Experience’ı göstermek (aile dostu atmosfer, aktivite çeşitliliği, güvenli eğlence) ve bunu Privacy + Consent çerçevesinde yapmak olmalıdır. Bu yüzden prodüksiyon planı, çekim planından önce “yayın politikasını” ve izin akışını tarif eder."
+            "text": "Çocuk içeriklerinde “en iyi görüntü” hedefi tek başına doğru hedef değildir. Doğru hedef; Hotel Experience'ı göstermek ve bunu Privacy + Consent çerçevesinde yapmak olmalıdır. Bu yüzden [aile show içerikleri](https://dgtlface.com/tr/creative-ve-tasarim), çekim planından önce yayın politikası, izin akışı ve ebeveyn güveniyle birlikte tasarlanmalıdır."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -56823,7 +57046,7 @@
             "variant": "secondary",
             "label": "Çocuk & Aile Etkinliği Çekim Checklist’ini İndir",
             "text": "Günlük program, kadraj kuralları, izin kontrolü ve yayın adımlarını tek listede toplayıp riskleri azaltır.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/cocuk-aile-etkinligi-cekim-checklist-v1.0.pdf"
           },
           {
             "type": "media",
@@ -56874,7 +57097,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Mini club içerikleri, günlük düzenli üretim için en verimli alandır. Burada hedef; çocukların yüzünü göstermeden mini club’ın kalitesini ve program çeşitliliğini göstermek."
+            "text": "Güvenli planlanan [mini club ve animasyon çekimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), günlük düzenli üretim için en verimli alanlardan biridir. Burada hedef; çocukların yüzünü göstermeden mini club'ın kalitesini ve program çeşitliliğini göstermek."
           },
           {
             "type": "h3",
@@ -56931,7 +57154,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Akşam show’ları (mini disco, aile oyunları, sahne gösterileri) otelin “gece deneyimi”nin vitrini olur. Burada prodüksiyon, sahne ışığı ve kalabalık yönetimiyle birlikte düşünülmelidir."
+            "text": "Akşam show'ları (mini disco, aile oyunları, sahne gösterileri) otelin “gece deneyimi”nin vitrini olur. Özellikle [aile ve çocuk odaklı resort eğlence etkinlikleri](https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon) planlanıyorsa prodüksiyon; sahne ışığı, açık alan akışı ve kalabalık yönetimiyle birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -56986,7 +57209,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, çocuk içeriklerinde “olmazsa olmaz”dır. Burada amaç hukuki görüş vermek değil; ekiplerin sahada uygulayacağı risk azaltıcı standartları netleştirmektir. KVKK ve benzeri uyum konularında nihai yaklaşım için ilgili uzmanla (hukuki/teknik) çalışmak gerekir."
+            "text": "Bu bölüm, çocuk içeriklerinde “olmazsa olmaz”dır. Burada amaç hukuki görüş vermek değil; ekiplerin sahada uygulayacağı risk azaltıcı standartları netleştirmektir. Özellikle [çocuk etkinliklerinde güvenlik ve risk yönetimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi) yaklaşımı, alan kontrolü, ekip koordinasyonu ve yaş grubu hassasiyetini içerik üretiminin parçası haline getirir."
           },
           {
             "type": "h3",
@@ -57029,6 +57252,10 @@
           },
           {
             "type": "p",
+            "text": "Çocuk yüzü, sesi, isim etiketi ve veli izni gibi hassas başlıklarda [KVKK uyumlu çocuk videoları](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı olmadan içerik üretmek güven kaybına neden olabilir."
+          },
+          {
+            "type": "p",
             "text": "☑ Mini Check: “Rıza yoksa yayın yok” kuralı net değilse, içerik üretimi itibar riskine dönüşür."
           },
           {
@@ -57063,7 +57290,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aile segmenti için içerikte “ne kadar eğlenceli?” kadar “ne kadar güvenli ve düzenli?” sorusu da çalışır. Kısa format içeriklerde (Reels/Shorts) en iyi sonuç; kimlik göstermeden atmosferi anlatan ritimli içeriklerle alınır."
+            "text": "Aile segmenti için içerikte “ne kadar eğlenceli?” kadar “ne kadar güvenli ve düzenli?” sorusu da çalışır. Kimlik göstermeden atmosferi anlatan [aile etkinliklerinden video içerikleri](https://dgtlface.com/tr/creative/video-produksiyon) üretildiğinde, kısa format içerikler hem daha güvenli hem daha sürdürülebilir hale gelir."
           },
           {
             "type": "h3",
@@ -57093,6 +57320,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu içerik akışı, satış ve görünürlük tarafında [aile segmenti için etkinlik içeriklerinin dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte planlandığında daha anlamlı sonuç verir."
+          },
+          {
             "type": "h3",
             "text": "Performans ve kalite notu (teknik)"
           },
@@ -57113,6 +57344,10 @@
               "Yayın öncesi 30 saniyelik kontrol rutini koy.",
               "İçeriği satış/pazarlama funnel’ına bağla (aile sayfası, teklif, DM)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Etkinlik sonrası ebeveyn geri bildirimini, deneyim başarısını ve tekrar tercih sinyalini anlamak için [aile etkinliklerinde memnuniyet ve NPS ölçümü](https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps) düzenli takip edilmelidir."
           },
           {
             "type": "cta",
@@ -57152,6 +57387,10 @@
           {
             "type": "p",
             "text": "☑ Mini Check: Ekibiniz “hangi plan yayınlanır?” sorusuna aynı cevabı veremiyorsa, standart yoktur."
+          },
+          {
+            "type": "p",
+            "text": "Süreç, ekip yapısı, çekim akışı ve teslim detaylarını toplu görmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -57366,7 +57605,7 @@
     },
     "h1": {
       "title": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
-      "intro": "“Yüksek sezon için beach party yapmak istiyoruz, nereden başlamalıyım?” Resort otellerde festival ve beach party’ler; doğru kurgulandığında marka algısını yükseltir, misafirlerin “burada bir şey oluyor” hissini güçlendirir ve sosyal medyada güçlü organik görünürlük yaratır. Ancak iş yalnızca müzik ve eğlence değildir: ses–ışık prodüksiyonu, alan planlaması, kalabalık yönetimi ve güvenlik doğru kurgulanmadığında hem misafir deneyimi hem de içerik kalitesi aynı anda zarar görür. Bu rehber; tema seçiminden DJ set’e, crowd management’tan “1 gece → 10+ kısa içerik” modeline kadar uçtan uca bir plan sunar.",
+      "intro": "“Yüksek sezon için beach party yapmak istiyoruz, nereden başlamalıyım?” Resort otellerde iyi planlanmış bir [festival prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); marka algısını yükseltir, misafirlerin “burada bir şey oluyor” hissini güçlendirir ve sosyal medyada güçlü organik görünürlük yaratır. Ancak iş yalnızca müzik ve eğlence değildir: ses-ışık prodüksiyonu, alan planlaması, kalabalık yönetimi ve güvenlik doğru kurgulanmadığında hem misafir deneyimi hem de içerik kalitesi aynı anda zarar görür. Bu rehber; tema seçiminden DJ set'e, crowd management'tan “1 gece → 10+ kısa içerik” modeline kadar uçtan uca bir plan sunar.",
       "quickSummary": [
         "1) Tema ve etkinlik tipini netleştir",
         "2) DJ booth, ses–ışık ve alan planını birlikte kurgula",
@@ -57389,7 +57628,7 @@
       "secondary": {
         "label": "Festival Gecesi Tema, Alan & İçerik Planı Şablonunu İndir",
         "text": "Konsept, alan yerleşimi, risk noktaları ve 10+ içerik haritasını tek dokümanda toplayıp uygulamayı hızlandırır.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/festival-gecesi-tema-alan-icerik-plani-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -57398,7 +57637,23 @@
         "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
-        "label": "Video & Prodüksiyon",
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "label": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı",
+        "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+      },
+      {
+        "label": "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
+        "href": "/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall"
+      },
+      {
+        "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
@@ -57406,11 +57661,28 @@
         "href": "/tr/smm/reels-video"
       },
       {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
         "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı",
+        "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+      },
+      {
+        "title": "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
+        "href": "/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall"
+      }
+    ],
     "sections": [
       {
         "id": "otel-festival-beach-party-produksiyonu-nasil-planlanmali",
@@ -57418,7 +57690,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu tür etkinliklerde başarı; “yüksek enerji” ile “kontrollü akış”ın dengelenmesidir. Plan, dört bileşeni birlikte yönetir: tema/konsept, prodüksiyon (DJ + ses–ışık), alan & crowd management, içerik üretimi. Sadece birini güçlendirip diğerlerini zayıf bırakırsanız, etkinlik ya da içerik kırılır."
+            "text": "Bu tür etkinliklerde başarı; “yüksek enerji” ile “kontrollü akış”ın dengelenmesidir. İyi bir [beach party planlama](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı; tema/konsept, prodüksiyon (DJ + ses-ışık), alan ve crowd management ile içerik üretimini aynı deneyim dili içinde toplar. Sadece birini güçlendirip diğerlerini zayıf bırakırsanız, etkinlik ya da içerik kırılır."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -57467,7 +57739,7 @@
             "variant": "secondary",
             "label": "Festival Gecesi Tema, Alan & İçerik Planı Şablonunu İndir",
             "text": "Konsept, alan yerleşimi, risk noktaları ve 10+ içerik haritasını tek dokümanda toplayıp uygulamayı hızlandırır.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/festival-gecesi-tema-alan-icerik-plani-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -57571,7 +57843,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "DJ set ve Stage & Lighting; enerjiyi yönetir. Otel bağlamında hedef “en yüksek ses” değil, kontrollü enerji + temiz sestir. Ses limitleri ve komşu alanlar, özellikle oda bloklarına yakın sahnelerde kritik hale gelir."
+            "text": "İyi planlanan bir [DJ set ve sahne akışı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), enerjiyi kontrol eden ana omurgadır. Otel bağlamında hedef “en yüksek ses” değil, kontrollü enerji ve temiz sestir. Özellikle [festival etkinliklerinde konser ve show prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi) benzeri akışlarda ses limitleri ve komşu alanlar, oda bloklarına yakın sahnelerde daha da kritik hale gelir."
           },
           {
             "type": "h3",
@@ -57664,7 +57936,7 @@
           },
           {
             "type": "p",
-            "text": "Otelin odaları, restoranları ve sessiz alanlarıyla çakışma riski varsa; sahne yönü, hoparlör konumu ve saat planı buna göre kurgulanmalıdır."
+            "text": "Otelin odaları, restoranları ve sessiz alanlarıyla çakışma riski varsa; sahne yönü, hoparlör konumu ve saat planı buna göre kurgulanmalıdır. Özellikle sahil, bahçe ve havuz başı kurgularda [açık alan etkinliklerinde hava planı](https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani) önceden hazırlanmalıdır."
           },
           {
             "type": "p",
@@ -57699,7 +57971,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu etkinlikler içerik açısından altın madenidir—ama yalnızca çekim akışı planlıysa. Hedef: 1 geceden 10+ kısa içerik çıkarıp, enerjiyi gün batımından after’a kadar anlatmak."
+            "text": "Bu etkinlikler içerik açısından altın madenidir, ama yalnızca çekim akışı planlıysa. [Festival highlight video](https://dgtlface.com/tr/creative/video-produksiyon) ve aftermovie kurgusu için hedef; 1 geceden 10+ kısa içerik çıkarıp enerjiyi gün batımından after'a kadar anlatmaktır."
           },
           {
             "type": "h3",
@@ -57735,6 +58007,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Misafir katılımını büyütmek için [festival alanında photobooth ve social wall kullanımı](https://dgtlface.com/tr/creative/blog/sosyal-first-otel-etkinlikleri-fotoboot-social-wall) da içerik akışıyla birlikte düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Yayın ve risk kontrol notu"
           },
@@ -57750,6 +58026,10 @@
           {
             "type": "p",
             "text": "☑ Mini Check: Shot list yoksa, gece biter ve “işe yarar” klip sayısı düşer."
+          },
+          {
+            "type": "p",
+            "text": "Aynı içerik setini [sosyal medya için event içerikleri](https://dgtlface.com/tr/smm/reels-video), [otel sosyal medya takviminde festival içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) ve [beach party içeriklerinin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ile eşleştirmek, etkinliğin görünürlük ve talep üretim etkisini uzatır."
           },
           {
             "type": "callout",
@@ -57797,6 +58077,10 @@
               "Ses/ışık modlarını komşu alanlara göre ayarla.",
               "İçerik paketini (10+ klip) standartlaştır."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Süreç, kurulum, teknik ekip ve teslim detaylarını tek yerde görmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -58016,7 +58300,7 @@
     },
     "h1": {
       "title": "Otel Çalışan Etkinlikleri ve İç Organizasyonlarda Prodüksiyon: Motivasyon, Ödül ve Eğitim",
-      "intro": "“Ekip motivasyon gününü videoya almak istiyoruz ama nasıl kullanacağımızdan emin değiliz.” İç etkinlik videoları, doğru kurgulandığında çalışan bağlılığını ve kültür algısını güçlendiren güçlü bir araçtır; yanlış veya izinsiz kullanım ise iç huzursuzluk ve hukuki risk doğurabilir. Bu tür organizasyonlarda dış kampanya standardında ağır prodüksiyon gerekmez; fakat mesajın samimi, görüntülerin düzenli ve yayın sürecinin KVKK uyumlu olması şarttır. Bu rehber; motivasyon, ödül ve eğitim etkinliklerinde videonun nasıl konumlandırılacağını, çekim–kurgu–yayın–erişim yönetimiyle birlikte anlatır.",
+      "intro": "“Ekip motivasyon gününü videoya almak istiyoruz ama nasıl kullanacağımızdan emin değiliz.” Doğru kurgulanan bir [çalışan etkinliği prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), çalışan bağlılığını ve kültür algısını güçlendiren güçlü bir araçtır; yanlış veya izinsiz kullanım ise iç huzursuzluk ve hukuki risk doğurabilir. Bu tür organizasyonlarda dış kampanya standardında ağır prodüksiyon gerekmez; fakat mesajın samimi, görüntülerin düzenli ve yayın sürecinin KVKK uyumlu olması şarttır. Bu rehber; motivasyon, ödül ve eğitim etkinliklerinde videonun nasıl konumlandırılacağını, çekim–kurgu–yayın–erişim yönetimiyle birlikte anlatır.",
       "quickSummary": [
         "1) Video hedefini tek cümleyle belirle: kültür, eğitim veya ödül",
         "2) Sade çekim planı ve kısa format setini seç",
@@ -58027,40 +58311,69 @@
       "ctaPrimary": {
         "label": "Çalışan Etkinlik & İç Organizasyon Video Prodüksiyon Danışmanlığı Al",
         "text": "Samimi içerikleri güvenli izin/erişim kurallarıyla üretip sürdürülebilir bir iç iletişim sistemine dönüştürelim.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çalışan Etkinlik & İç Organizasyon Video Prodüksiyon Danışmanlığı Al",
         "text": "Motivasyon, ödül ve eğitim içeriklerini samimi formatlarla üretip KVKK/erişim kurallarıyla güvenli iç iletişim sistemine dönüştürün.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Çalışan Etkinlikleri İçin Çekim & Yayın Checklist’ini İndir",
         "text": "Hedef, shot list, izin, erişim ve yayın adımlarını tek listede toplayıp yanlış paylaşım riskini azaltır.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/calisan-etkinlikleri-icin-cekim-yayin-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Video & Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
-      },
-      {
         "label": "Etkinlik Prodüksiyonu",
         "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Employer Branding & İK Videoları: Ekip ve Kültür",
+        "href": "/tr/creative/blog/otel-employer-branding-ik-video"
+      },
+      {
+        "label": "Otel Etkinliği Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      },
+      {
+        "label": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "KVKK Uyum Hizmeti",
         "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
       {
-        "label": "KVKK & Veri Güvenliği Raporlama",
+        "label": "KVKK ve Veri Güvenliği Raporlama",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Employer Branding & İK Videoları: Ekip ve Kültür",
+        "href": "/tr/creative/blog/otel-employer-branding-ik-video"
+      },
+      {
+        "title": "Otel Etkinliği Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      },
+      {
+        "title": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      }
+    ],
     "sections": [
       {
         "id": "otel-calisan-etkinliklerinde-video-produksiyonu-nasil-konumlandirilmali",
@@ -58068,7 +58381,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "İç etkinlik videosunun hedefi “viral olmak” değildir; ekip ruhunu beslemek, öğrenmeyi pekiştirmek ve başarıyı görünür kılmaktır. Bu yüzden prodüksiyon dili; sade, samimi ve hızlı tüketilebilir olmalıdır. Aynı zamanda KVKK ve etik çerçeve ile erişim yetkileri net yazılmadıkça video bir “risk”e dönüşebilir."
+            "text": "İç etkinlik videosunun hedefi “viral olmak” değildir; ekip ruhunu beslemek, öğrenmeyi pekiştirmek ve başarıyı görünür kılmaktır. Bu yüzden prodüksiyon dili; sade, samimi ve hızlı tüketilebilir olmalıdır. Doğru planlandığında bu yaklaşım, [iç iletişim için event içerikleri](https://dgtlface.com/tr/creative-ve-tasarim) üretirken de kurumsal tonu korur. Aynı zamanda KVKK ve etik çerçeve ile erişim yetkileri net yazılmadıkça video bir “risk”e dönüşebilir."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -58116,7 +58429,7 @@
             "variant": "secondary",
             "label": "Çalışan Etkinlikleri İçin Çekim & Yayın Checklist’ini İndir",
             "text": "Hedef, shot list, izin, erişim ve yayın adımlarını tek listede toplayıp yanlış paylaşım riskini azaltır.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/calisan-etkinlikleri-icin-cekim-yayin-checklist-v1.0.pdf"
           },
           {
             "type": "media",
@@ -58130,7 +58443,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "İç etkinliklerin her biri farklı mesaj taşır ve farklı video dili ister. Aynı formatı her etkinliğe uygulamak, içeriği ya “soğuk” ya da “uzun” yapar."
+            "text": "İç etkinliklerin her biri farklı mesaj taşır ve farklı video dili ister. Bu yüzden her [ödül ve eğitim etkinliği](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) için hedef, süre ve format ayrı yazılmalıdır; aynı formatı her etkinliğe uygulamak, içeriği ya “soğuk” ya da “uzun” yapar."
           },
           {
             "type": "h3",
@@ -58189,7 +58502,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "İç organizasyonlarda “fazla prodüksiyon” bazen samimiyeti öldürür. Buradaki hedef; düzenli görüntü, anlaşılır ses ve net mesajdır. Minimum ekipmanla maksimum netlik yaklaşımı işe yarar."
+            "text": "İç organizasyonlarda “fazla prodüksiyon” bazen samimiyeti öldürür. Buradaki hedef; düzenli görüntü, anlaşılır ses ve net mesajdır. Minimum ekipmanla maksimum netlik yaklaşımı işe yarar; sahada görev paylaşımını netleştirmek için [iç organizasyon operasyon checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) kullanmak da bu sadeliği korur."
           },
           {
             "type": "h3",
@@ -58244,7 +58557,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Eğitim videoları, “kayıt altına alma” değil; kurum içi öğrenmeyi hızlandırma aracıdır. Ham kayıt yerine kısa özet ve yapılandırılmış içerik daha çok izlenir."
+            "text": "Eğitim videoları, “kayıt altına alma” değil; kurum içi öğrenmeyi hızlandırma aracıdır. Bu yüzden [iç organizasyon videoları](https://dgtlface.com/tr/creative/video-produksiyon) ham kayıt mantığıyla değil, kısa özet ve yapılandırılmış içerik mantığıyla tasarlanmalıdır; böyle içerikler daha çok izlenir."
           },
           {
             "type": "h3",
@@ -58298,7 +58611,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Ödül törenleri, kültür anlatımının en kolay ve en güçlü anıdır. Burada amaç; yalnız kazananları göstermek değil, “neden değerli?”yi anlatmaktır."
+            "text": "Ödül törenleri, kültür anlatımının en kolay ve en güçlü anıdır. Burada amaç; yalnız kazananları göstermek değil, “neden değerli?”yi anlatmaktır. Doğru izin ve bağlamla bu anlar, [çalışan etkinliklerinden employer branding videosu](https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video) üretmek için de güçlü bir temel oluşturabilir."
           },
           {
             "type": "h3",
@@ -58384,16 +58697,15 @@
           },
           {
             "type": "h3",
-            "text": "İç link (AIO gereksinimi)"
+            "text": "İzin ve veri güvenliği"
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "/tr/yazilim/kvkk-uyum-hizmeti",
-              "/tr/raporlama/kvkk-veri-guvenligi",
-              "/tr/creative/video-produksiyon"
-            ]
+            "type": "p",
+            "text": "Bu noktada [çalışan görüntülerinde KVKK uyumu](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımını netleştirmek; yüz, ses, isim ve paylaşım kanallarında açık rıza çerçevesini doğru kurmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca katılım listeleri, geri bildirimler ve erişim kayıtları için [çalışan etkinliği verilerinde güvenli raporlama](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) standardı oluşturulmalıdır."
           },
           {
             "type": "p",
@@ -58414,7 +58726,7 @@
             "variant": "primary",
             "label": "Çalışan Etkinlik & İç Organizasyon Video Prodüksiyon Danışmanlığı Al",
             "text": "Motivasyon, ödül ve eğitim içeriklerini samimi formatlarla üretip KVKK/erişim kurallarıyla güvenli iç iletişim sistemine dönüştürün.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "table",
@@ -58482,6 +58794,14 @@
             "text": "Fark yaratan yaklaşım; iç videoyu “tek seferlik” değil, bir kültür sistemi olarak ele almaktır:"
           },
           {
+            "type": "p",
+            "text": "Bu sistemin gerçekten işe yarayıp yaramadığını anlamak için [çalışan etkinliklerinde memnuniyet ve NPS ölçümü](https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps) yaklaşımını da düzenli takip etmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Süreç, ekip ve teslim yapısını toplu görmek isterseniz [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası iyi bir sonraki adımdır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -58510,7 +58830,7 @@
             "variant": "primary",
             "label": "Çalışan Etkinlik & İç Organizasyon Video Prodüksiyon Danışmanlığı Al",
             "text": "İç etkinlik videolarınızı kültür, güven ve KVKK uyumuyla sürdürülebilir bir sisteme dönüştürün.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
