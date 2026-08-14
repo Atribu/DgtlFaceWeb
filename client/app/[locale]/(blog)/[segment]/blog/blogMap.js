@@ -674,7 +674,18 @@ export const BLOG_MAP = {
     "otel-etkinliklerinde-anlik-ceviri-ai-altyazi":"BlogOtelEtkinliklerindeAnlikCeviriAIAltyazi",
     "aile-ve-cocuk-karsilama-hediyeleri-otel":"BlogAileVeCocukKarsilamaHediyeleriOtel",
     "otel-dugun-ve-balayi-misafiri-hediyeleri":"BlogOtelDugunVeBalayiMisafiriHediyeleri",
-    "hediye-kutu-ve-ambalaj-tasarimi-brand-experience":"BlogHediyeKutuVeAmbalajTasarimiBrandExperience"
+    "hediye-kutu-ve-ambalaj-tasarimi-brand-experience":"BlogHediyeKutuVeAmbalajTasarimiBrandExperience",
+    "sezonluk-ve-ozel-gun-hediyeleri-bayram-yilbasi":"BlogSezonlukVeOzelGunHediyeleriBayramYilbasi",
+    "kurumsal-hediye-programi-performans-olcumu-roi":"BlogKurumsalHediyeProgramiPerformansOlcumuROI",
+    "acente-ota-partner-hediyeleri-b2b":"BlogAcenteOTAPartnerHediyeleriB2B",
+    "otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari":"BlogOtelSadakatProgramiHediyeleriVeSeviyeAvantajlari",
+    "yerel-hikaye-anlatan-co-branded-hediye-koleksiyonlari":"BlogYerelHikayeAnlatanCoBrandedHediyeKoleksiyonlari",
+    "kurumsal-hediye-stok-ve-operasyon-yonetimi":"BlogKurumsalHediyeStokVeOperasyonYonetimi",
+    "dijital-hediye-karti-ve-voucher-deneyimi":"BlogDijitalHediyeKartiVeVoucherDeneyimi",
+    "kurumsal-hediye-iletisim-akisi-web-email-whatsapp":"BlogKurumsalHediyeIletisimAkisiWebEmailWhatsapp",
+    "kurumsal-hediye-ile-upsell-cross-sell-otel":"BlogKurumsalHediyeIleUpsellCrossSellOtel",
+    "kvkk-vergi-perspektifi-kurumsal-hediye-risk-cercevesi":"BlogKvkkVergiPerspektifiKurumsalHediyeRiskCercevesi",
+    "hediye-hikaye-anlatimi-foto-video-sosyal-medya":"BlogHediyeHikayeAnlatimiFotoVideoSosyalMedya"
     
   },
 
