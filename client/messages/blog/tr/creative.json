@@ -59001,7 +59001,7 @@
     },
     "h1": {
       "title": "Hibrit ve Online Otel Etkinlikleri: Canlı Yayın, Webinar ve Kayıt Prodüksiyonu",
-      "intro": "“Hibrit toplantı yapacağız, salonu ve yayını nasıl kurmalıyım?” Otel toplantı salonlarında hibrit/online etkinlik yapmak, MICE tarafında önemli bir rekabet avantajına dönüştü: kurumlar yalnız salon değil, sorunsuz yayın ve temiz kayıt da satın alıyor. Bu modelin farkı şudur: fiziksel katılımcı deneyimiyle dijital katılımcı deneyimini aynı anda yönetmek zorundasınız. Ses, görüntü ve bağlantı kalitesi zayıfsa, kurumsal itibar etkilenir; güçlü prodüksiyon ise deneyimi ve marka algısını yükseltir. Bu rehber; salon kurulumundan webinar akışına ve kayıtların yeniden kullanımına kadar uçtan uca plan sunar.",
+      "intro": "“Hibrit toplantı yapacağız, salonu ve yayını nasıl kurmalıyım?” Doğru planlanan bir [hibrit otel etkinliği](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), MICE tarafında önemli bir rekabet avantajına dönüştü: kurumlar yalnız salon değil, sorunsuz yayın ve temiz kayıt da satın alıyor. Bu modelin farkı şudur: fiziksel katılımcı deneyimiyle dijital katılımcı deneyimini aynı anda yönetmek zorundasınız. Ses, görüntü ve bağlantı kalitesi zayıfsa, kurumsal itibar etkilenir; güçlü prodüksiyon ise deneyimi ve marka algısını yükseltir. Bu rehber; salon kurulumundan webinar akışına ve kayıtların yeniden kullanımına kadar uçtan uca plan sunar.",
       "quickSummary": [
         "1) Salon yerleşimi ve akustiği planla",
         "2) Kamera, mikrofon ve sunum capture zincirini kur",
@@ -59012,29 +59012,45 @@
       "ctaPrimary": {
         "label": "Hibrit & Online Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Toplantı salonunuz için minimumdan ileri seviyeye yayın kurulumunu ve kayıt stratejisini birlikte kuralım.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Hibrit & Online Etkinlik Prodüksiyon Danışmanlığı Al",
         "text": "Salon kurulumunu, canlı yayın altyapısını ve kayıtların on-demand/snippet/case’e dönüşümünü tek planla yöneterek profesyonel deneyim sağlayın.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       },
       "secondary": {
         "label": "Hibrit Etkinlik AV Set-up & Yayın Akışı Şablonunu İndir",
         "text": "Salon yerleşimi, ekipman listesi, yayın zinciri, yedek bağlantı ve run-of-show’u tek dokümanda toplayıp kopma/echo riskini azaltır.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/hibrit-etkinlik-av-set-up-yayin-akisi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Video & Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
-      },
-      {
         "label": "Etkinlik Prodüksiyonu",
         "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "MICE Otelleri için Video Prodüksiyon: Salon ve Referans Filmler",
+        "href": "/tr/creative/blog/otel-mice-toplanti-video-produsksiyon"
+      },
+      {
+        "label": "Otel Etkinliklerinde Kayıt ve Check-in Akışı",
+        "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+      },
+      {
+        "label": "Otel Live Yayın Stratejisi: Instagram, YouTube, TikTok",
+        "href": "/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Looker Studio",
@@ -59045,7 +59061,20 @@
         "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "MICE Otelleri için Video Prodüksiyon: Salon ve Referans Filmler",
+        "href": "/tr/creative/blog/otel-mice-toplanti-video-produsksiyon"
+      },
+      {
+        "title": "Otel Etkinliklerinde Kayıt ve Check-in Akışı",
+        "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+      },
+      {
+        "title": "Otel Live Yayın Stratejisi: Instagram, YouTube, TikTok",
+        "href": "/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok"
+      }
+    ],
     "sections": [
       {
         "id": "hibrit-online-otel-etkinlikleri-canli-yayin-altyapisi",
@@ -59053,7 +59082,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Canlı yayın altyapısı; kamera, mikrofon ve internetten ibaret değildir. İyi bir hibrit set-up; AV Setup + akustik + operasyon + yayın akışı birleşimidir. Otelde amaç; “yayın açıldı” değil, “izleyici her şeyi net duydu, gördü ve kopmadı” sonucudur."
+            "text": "Canlı yayın altyapısı; kamera, mikrofon ve internetten ibaret değildir. İyi bir hibrit set-up; AV Setup + akustik + operasyon + yayın akışı birleşimidir. Otelde amaç; “yayın açıldı” değil, “izleyici her şeyi net duydu, gördü ve kopmadı” sonucudur. Bu yüzden kurgu, yalnız teknik kurulum değil aynı zamanda [toplantı salonu streaming altyapısı](https://dgtlface.com/tr/creative-ve-tasarim) ve katılımcı deneyimi tasarımı olarak düşünülmelidir."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -59062,7 +59091,7 @@
           },
           {
             "type": "p",
-            "text": "Hibrit otel etkinliği için canlı yayın altyapısını kurmak adına önce salon yerleşimini ve akustiği (echo kontrolü) planlayın. Kamera açıları, mikrofon konumları, sunum görüntüsü paylaşımı ve stabil upload + yedek bağlantı ile yayın zincirini oluşturun. Son olarak platform seçimi (Zoom/Teams/YouTube) ve Q&A/poll gibi etkileşim akışını run-of-show içine gömerek kayıtları on-demand içeriklere dönüştürün."
+            "text": "Hibrit otel etkinliği için [canlı yayın ve webinar prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) kurgularken önce salon yerleşimini ve akustiği (echo kontrolü) planlayın. Kamera açıları, mikrofon konumları, sunum görüntüsü paylaşımı ve stabil upload + yedek bağlantı ile yayın zincirini oluşturun. Son olarak platform seçimi (Zoom/Teams/YouTube) ve Q&A/poll gibi etkileşim akışını run-of-show içine gömerek kayıtları on-demand içeriklere dönüştürün."
           },
           {
             "type": "h3",
@@ -59102,7 +59131,7 @@
             "variant": "secondary",
             "label": "Hibrit Etkinlik AV Set-up & Yayın Akışı Şablonunu İndir",
             "text": "Salon yerleşimi, ekipman listesi, yayın zinciri, yedek bağlantı ve run-of-show’u tek dokümanda toplayıp kopma/echo riskini azaltır.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/hibrit-etkinlik-av-set-up-yayin-akisi-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -59151,7 +59180,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Meeting room set-up, prodüksiyonun temelidir. Otel salonlarında akustik, tavan yüksekliği, ışık sıcaklığı ve kablolama altyapısı yayın kalitesini doğrudan etkiler."
+            "text": "Meeting room set-up, prodüksiyonun temelidir. Otel salonlarında akustik, tavan yüksekliği, ışık sıcaklığı ve kablolama altyapısı yayın kalitesini doğrudan etkiler. Özellikle [toplantı salonu ve MICE etkinlik video kaydı](https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon) planlanıyorsa salonun yalnız fiziksel değil yayın odaklı da düşünülmesi gerekir."
           },
           {
             "type": "h3",
@@ -59332,6 +59361,10 @@
             "text": "Webinar akışı, salondaki akıştan farklıdır: online izleyici daha kısa dikkat süresine sahiptir ve interaktif öğelerle içeride tutulmalıdır. Bu yüzden webinar run-of-show; sunum, konuşmacı, Q&A ve etkileşim bloklarını net planlar."
           },
           {
+            "type": "p",
+            "text": "Katılımcı deneyimi yayın başlamadan önce başlar; [online kayıt ve hibrit etkinlik check-in akışı](https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin) fiziksel ve dijital tarafta senkron çalışmadığında hibrit model dağılır."
+          },
+          {
             "type": "h3",
             "text": "Run-of-show örneği (kısa)"
           },
@@ -59353,7 +59386,7 @@
           },
           {
             "type": "p",
-            "text": "Etkileşimi “sona bırakmak” yerine akışa gömün. Moderatör, soruları filtreleyip konuşmacıya taşır; böylece yayın ritmi bozulmaz."
+            "text": "Etkileşimi “sona bırakmak” yerine akışa gömün. Moderatör, soruları filtreleyip konuşmacıya taşır; böylece yayın ritmi bozulmaz. Sosyal erişim hedefleniyorsa [Instagram, YouTube ve TikTok Live ile otel yayınları](https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok) mantığıyla replay ve kısa yayın kesitleri de önceden planlanmalıdır."
           },
           {
             "type": "p",
@@ -59383,6 +59416,10 @@
             "text": "Hibrit etkinliğin gerçek ROI’si, etkinlik sonrası başlar. Kayıtları yalnız arşivlemek yerine On-Demand Content sistemine dönüştürmek gerekir: eğitim modülü, kısa snippet’lar, satış sunumu veya case study."
           },
           {
+            "type": "p",
+            "text": "Bu dönüşüm planı, [webinar kayıtlarından video içerik üretimi](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımıyla yapıldığında uzun kaydı satış, eğitim ve kısa format içeriklere ayırmak çok daha kolay hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Yeniden kullanım modeli"
           },
@@ -59405,15 +59442,11 @@
           },
           {
             "type": "p",
-            "text": "Etkinlik sonrası; kayıt izlenme, etkileşim ve lead sinyallerini raporlayarak MICE satış/pazarlama döngüsünü güçlendirebilirsiniz. (İç link: Looker Studio ile raporlama standardı)"
+            "text": "Etkinlik sonrası; kayıt izlenme, etkileşim ve lead sinyallerini [hibrit etkinlik performans dashboard’u](https://dgtlface.com/tr/raporlama/looker-studio) ile takip ederek MICE satış/pazarlama döngüsünü güçlendirebilirsiniz."
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "/tr/raporlama/looker-studio",
-              "/tr/otel-dijital-pazarlama"
-            ]
+            "type": "p",
+            "text": "Bu verileri içerik pazarlaması ve lead üretimi tarafına taşıyan çerçeve ise [hibrit etkinliklerin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -59442,7 +59475,7 @@
             "variant": "primary",
             "label": "Hibrit & Online Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Salon kurulumundan yayın akışına, kayıtların yeniden kullanımına kadar uçtan uca sistemi birlikte kuralım.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
@@ -59464,6 +59497,10 @@
           },
           {
             "type": "p",
+            "text": "Teknik akış, ekip kurulumu ve teslim detaylarını toplu görmek isterseniz [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası iyi bir sonraki adımdır."
+          },
+          {
+            "type": "p",
             "text": "☑ Mini Check: Paket tanımı yoksa, her etkinlikte yeniden teklif yazılır ve ölçeklenmez."
           },
           {
@@ -59480,7 +59517,7 @@
             "variant": "primary",
             "label": "Hibrit & Online Etkinlik Prodüksiyon Danışmanlığı Al",
             "text": "Salon kurulumunu, canlı yayın altyapısını ve kayıtların on-demand/snippet/case’e dönüşümünü tek planla yöneterek profesyonel deneyim sağlayın.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/tr/creative/etkinlik-produksiyonu"
           },
           {
             "type": "media",
@@ -59651,7 +59688,7 @@
     },
     "h1": {
       "title": "Otel Etkinlik Prodüksiyon Bütçesi Nasıl Planlanır? Maliyet Kalemleri ve Fiyatlandırma",
-      "intro": "“Etkinlik prodüksiyon bütçesini nasıl çıkarırım?”, “hangi kalemi unutursam sürpriz maliyet çıkar?” soruları otel tarafında en sık duyulan sorulardır. Çünkü etkinlik bütçesi yalnız “banket kişi başı” değildir; sahne, ses–ışık, video/foto, dekor, güvenlik ve insan kaynağı gibi birçok kalem aynı anda devreye girer. İyi planlanmış bir prodüksiyon bütçesi hem etkinliğin kalitesini hem de otelin kârlılığını korur; kötü planlanmış bütçe ise son dakika ek masraf, gecikme ve memnuniyetsizlik üretir. Bu rehber, bütçeyi kalem kalem çıkarma, teklifleri karşılaştırma, sözleşmeyle sürprizleri kapatma ve etkinlik sonrası ROI bakışı kurma sürecini pratik şekilde anlatır.",
+      "intro": "“[etkinlik prodüksiyon bütçesi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) nasıl çıkarılır?”, “hangi kalemi unutursam sürpriz maliyet çıkar?” soruları otel tarafında en sık duyulan sorulardır. Çünkü etkinlik bütçesi yalnız “banket kişi başı” değildir; sahne, ses–ışık, video/foto, dekor, güvenlik ve insan kaynağı gibi birçok kalem aynı anda devreye girer. İyi planlanmış bir prodüksiyon bütçesi hem etkinliğin kalitesini hem de otelin kârlılığını korur; kötü planlanmış bütçe ise son dakika ek masraf, gecikme ve memnuniyetsizlik üretir. Bu rehber, bütçeyi kalem kalem çıkarma, teklifleri karşılaştırma, sözleşmeyle sürprizleri kapatma ve etkinlik sonrası ROI bakışı kurma sürecini pratik şekilde anlatır.",
       "quickSummary": [
         "1) Kapsamı tek sayfada sabitle",
         "2) Maliyet kalemlerini standart bir şablonda topla",
@@ -59674,7 +59711,7 @@
       "secondary": {
         "label": "Etkinlik Bütçe Kalemleri & Teklif Karşılaştırma Excel Şablonunu İndir",
         "text": "Tüm tedarikçi tekliflerini aynı formatta kıyaslayıp KDV/para birimi ve kapsam farklarını görünür kılar.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/etkinlik-butce-kalemleri-teklif-karsilastirma-excel-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -59683,7 +59720,23 @@
         "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
-        "label": "Video & Prodüksiyon",
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Etkinliklerinde Tedarikçi Yönetimi Rehberi",
+        "href": "/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne"
+      },
+      {
+        "label": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      },
+      {
+        "label": "Otel Etkinliği Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      },
+      {
+        "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
@@ -59695,7 +59748,20 @@
         "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Etkinliklerinde Tedarikçi Yönetimi Rehberi",
+        "href": "/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne"
+      },
+      {
+        "title": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      },
+      {
+        "title": "Otel Etkinliği Sonrası Raporlama ve NPS",
+        "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      }
+    ],
     "sections": [
       {
         "id": "otel-etkinlik-produksiyon-butcesi-nasil-planlanmali",
@@ -59763,7 +59829,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bütçe, prodüksiyon kalitesini “kısan” bir araç olmak zorunda değildir; doğru kurulduğunda kaliteyi kontrollü şekilde büyütür. Otellerde bütçe planlama üç şeye hizmet eder: (1) kalite standardını tanımlar, (2) kârlılığı korur, (3) ekipleri aynı sayfaya getirir."
+            "text": "Bu [maliyet kalemleri](https://dgtlface.com/tr/creative-ve-tasarim) yalnız satın alma tablosu değildir; etkinliğin konseptini, sahne dilini ve marka algısını da belirleyen creative kararların parçasıdır. Bütçe, prodüksiyon kalitesini “kısan” bir araç olmak zorunda değildir; doğru kurulduğunda kaliteyi kontrollü şekilde büyütür. Otellerde bütçe planlama üç şeye hizmet eder: (1) kalite standardını tanımlar, (2) kârlılığı korur, (3) ekipleri aynı sayfaya getirir."
           },
           {
             "type": "h3",
@@ -59808,7 +59874,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, tekliflerin “elma–elma” karşılaştırılmasını sağlar. Aşağıdaki kalemler, çoğu otel etkinliğinde bütçenin omurgasını oluşturur: sahne, ses–ışık, video/foto, dekor, personel ve güvenlik. Buna lojistik, izin/lisans ve contingency (beklenmeyen) de eklenmelidir."
+            "text": "Bu bölüm, tekliflerin “elma–elma” karşılaştırılmasını sağlar. Aşağıdaki kalemler, çoğu otel etkinliğinde bütçenin omurgasını oluşturur: sahne, ses–ışık, video/foto, dekor, personel ve güvenlik. Buna lojistik, izin/lisans ve contingency (beklenmeyen) de eklenmelidir. Teknik kırılımı daha derin okumak için [ses ışık ve sahne maliyetleri](https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne) tarafını ayrıca incelemek faydalıdır."
           },
           {
             "type": "h3",
@@ -59933,7 +59999,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bütçede asıl oyun “teklif formatı” ve “sözleşme dili”dir. İki teklif aynı toplamı verebilir; ama birinde kurulum/teardown, overtime, revizyon veya ekstra ekipman “hariç” olabilir. Bu yüzden otel tarafında kritik prensip: tek format, net kapsam, yazılı risk maddeleri."
+            "text": "Bütçede asıl oyun [teklif karşılaştırma](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) sürecinin standardize edilmesi ve sözleşme dilidir. İki teklif aynı toplamı verebilir; ama birinde kurulum/teardown, overtime, revizyon veya ekstra ekipman “hariç” olabilir. Bu yüzden otel tarafında kritik prensip: tek format, net kapsam, yazılı risk maddeleri."
           },
           {
             "type": "h3",
@@ -59941,7 +60007,7 @@
           },
           {
             "type": "p",
-            "text": "Brief’te şunlar net olmalı: tarih/saat, kişi sayısı, alan (havuz başı/balo salonu/amfi), etkinlik tipi, kurulum saatleri, içerik çıktıları (video/foto), ses limitleri ve güvenlik beklentisi. Antalya–Belek–Side–Kemer–Bodrum gibi destinasyonlarda açık alan ve sezon yoğunluğu lojistik maliyeti etkileyebilir; bunu brief’te belirtmek, son dakika sürprizini azaltır."
+            "text": "Brief’te şunlar net olmalı: tarih/saat, kişi sayısı, alan (havuz başı/balo salonu/amfi), etkinlik tipi, kurulum saatleri, içerik çıktıları (video/foto), ses limitleri ve güvenlik beklentisi. Antalya–Belek–Side–Kemer–Bodrum gibi destinasyonlarda açık alan ve sezon yoğunluğu lojistik maliyeti etkileyebilir; bunu brief’te belirtmek, son dakika sürprizini azaltır. Bu brief'i sahada atlanan kalemlere çevirmemek için [etkinlik bütçesi için operasyon checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) ile teklif dosyasını aynı akışta yönetmek pratikte çok işe yarar."
           },
           {
             "type": "h3",
@@ -60000,7 +60066,7 @@
             "variant": "secondary",
             "label": "Etkinlik Bütçe Kalemleri & Teklif Karşılaştırma Excel Şablonunu İndir",
             "text": "Tüm tedarikçi tekliflerini aynı formatta kıyaslayıp KDV/para birimi ve kapsam farklarını görünür kılar.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/etkinlik-butce-kalemleri-teklif-karsilastirma-excel-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -60014,7 +60080,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Optimizasyon, “kaliteyi düşürmek” değil; bütçeyi daha fazla değere çevirmektir. Otelde en iyi çalışan yaklaşım; 2–3 paket (minimum/standart/premium) tanımlayıp kalemleri modülerleştirmektir."
+            "text": "Optimizasyon, “kaliteyi düşürmek” değil; bütçeyi daha fazla değere çevirmektir. Otelde en iyi çalışan yaklaşım; 2–3 paket (minimum/standart/premium) tanımlayıp kalemleri modülerleştirmektir. Özellikle [etkinlik videosu ve içerik üretimi maliyeti](https://dgtlface.com/tr/creative/video-produksiyon) ayrı satırda tanımlandığında hem görünürlük çıktıları hem de sonradan yapılacak performans raporu daha net okunur."
           },
           {
             "type": "h3",
@@ -60090,7 +60156,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bütçe planlaması, etkinlik bittikten sonra “kapanmaz”; raporla kapanır. ROI yalnız para değil; görünürlük ve satış sinyallerinin birlikte okunmasıdır. Otel tarafında pratik yaklaşım: (1) maliyet sapması, (2) çıktı kalitesi, (3) performans sinyali."
+            "text": "Bütçe planlaması, etkinlik bittikten sonra “kapanmaz”; [etkinlik sonrası memnuniyet ve NPS raporu](https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps) ile kapanır. ROI yalnız para değil; görünürlük ve satış sinyallerinin birlikte okunmasıdır. Otel tarafında pratik yaklaşım: (1) maliyet sapması, (2) çıktı kalitesi, (3) performans sinyali."
           },
           {
             "type": "h3",
@@ -60108,17 +60174,11 @@
           },
           {
             "type": "h3",
-            "text": "İç link (performans ilişkisi)"
+            "text": "Bütçeden performansa giden ölçüm hattı"
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "/tr/raporlama/satis-donusum",
-              "/tr/otel-dijital-pazarlama",
-              "/tr/creative/video-produksiyon",
-              "/tr/creative/etkinlik-produksiyonu"
-            ]
+            "type": "p",
+            "text": "Ticari tarafta [etkinlik yatırımının satış etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) lead, rezervasyon, form ve WhatsApp dönüşümleriyle okunmalı; aynı içeriklerin [etkinlik içeriklerinin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) üzerinden web, sosyal medya, reklam ve kampanya performansına nasıl yayıldığı da aynı rapora eklenmelidir."
           },
           {
             "type": "h3",
@@ -60157,6 +60217,10 @@
             "label": "Etkinlik Prodüksiyon Bütçe Planlama Danışmanlığı Al",
             "text": "Bütçeyi kalem bazında standardize edip teklif–sözleşme–ROI döngüsünü oteliniz için ölçekleyelim.",
             "href": "/tr/creative/etkinlik-produksiyonu"
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, ekip, teslimat ve sözleşme maddelerini daha net görmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -60330,7 +60394,7 @@
     },
     "h1": {
       "title": "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar",
-      "intro": "“Bir sürü tedarikçi var, kim neye bakıyor karışıyor, nasıl düzenlerim?” Otel etkinliklerinde bu cümle neredeyse her sezon tekrar edilir. Çünkü ses–ışık, sahne/truss, dekor/çiçek, ajans, foto–video ve güvenlik ekipleri aynı anda sahaya girer; rol dağılımı net değilse küçük bir gecikme bile zincirleme etkiyle bütçeyi ve misafir deneyimini bozar. İyi yönetilen tedarikçi ekosistemi teknik aksaklıkları azaltır ve prodüksiyon kalitesini istikrarlı hale getirir; kötü yönetim ise gecikme, ekstra maliyet ve “blame game” üretir. Bu rehber; tedarikçi ekosistemini yazılı hale getirip RACI, brief, sözleşme ve kurulum/söküm süreçleriyle kontrol altına almanıza yardım eder.",
+      "intro": "“Bir sürü tedarikçi var, kim neye bakıyor karışıyor, nasıl düzenlerim?” [tedarikçi yönetimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) otel etkinliklerinde bu yüzden her sezon yeniden gündeme gelir. Çünkü ses–ışık, sahne/truss, dekor/çiçek, ajans, foto–video ve güvenlik ekipleri aynı anda sahaya girer; rol dağılımı net değilse küçük bir gecikme bile zincirleme etkiyle bütçeyi ve misafir deneyimini bozar. İyi yönetilen tedarikçi ekosistemi teknik aksaklıkları azaltır ve prodüksiyon kalitesini istikrarlı hale getirir; kötü yönetim ise gecikme, ekstra maliyet ve “blame game” üretir. Bu rehber; tedarikçi ekosistemini yazılı hale getirip RACI, brief, sözleşme ve kurulum/söküm süreçleriyle kontrol altına almanıza yardım eder.",
       "quickSummary": [
         "1) Tedarikçi ekosistemini ve iş paketlerini yaz",
         "2) RACI ile sorumlulukları netleştir",
@@ -60353,7 +60417,7 @@
       "secondary": {
         "label": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir",
         "text": "Sorumluluk matrisini ve kurulum–söküm timeline’ını tek dokümanda toplayıp “kim neye bakıyor” karmaşasını bitirir.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/tedarikci-raci-kurulum-plani-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -60362,19 +60426,44 @@
         "href": "/tr/creative/etkinlik-produksiyonu"
       },
       {
-        "label": "Video & Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Creative & Tasarım",
-        "href": "/tr/creative-ve-tasarim"
+        "label": "Otel Etkinlik Prodüksiyon Bütçesi Planı",
+        "href": "/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
+      },
+      {
+        "label": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "label": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Etkinlik Prodüksiyon Bütçesi Planı",
+        "href": "/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
+      },
+      {
+        "title": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi"
+      },
+      {
+        "title": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+        "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      }
+    ],
     "sections": [
       {
         "id": "otel-etkinliklerinde-tedarikci-yonetimi-nasil-yapilmali",
@@ -60382,7 +60471,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tedarikçi yönetimi “kim kimi aradı?” işi değil, yönetişim işidir. Başarılı model; (1) ekosistemi tanımlar, (2) sorumluluğu yazılılaştırır, (3) tek temas noktasıyla iletişimi sadeleştirir, (4) brief–sözleşme–kurulum kontrol döngüsünü işletir. Otel–ajans–tedarikçi üçgeninde bu döngü kurulmadıkça, her etkinlikte yeniden keşif yapılır."
+            "text": "Tedarikçi yönetimi “kim kimi aradı?” işi değil, yönetişim işidir. Başarılı bir [AV prodüksiyon akışı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); ekosistemi tanımlar, sorumluluğu yazılılaştırır, tek temas noktasıyla iletişimi sadeleştirir ve brief–sözleşme–kurulum kontrol döngüsünü işletir. Otel–ajans–tedarikçi üçgeninde bu döngü kurulmadıkça, her etkinlikte yeniden keşif yapılır."
           },
           {"type":"media", "slot":"h1-context-02"},
           {
@@ -60431,7 +60520,7 @@
             "variant": "secondary",
             "label": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir",
             "text": "Sorumluluk matrisini ve kurulum–söküm timeline’ını tek dokümanda toplayıp “kim neye bakıyor” karmaşasını bitirir.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/tedarikci-raci-kurulum-plani-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -60445,7 +60534,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Önce haritayı çıkaralım. Otel etkinliğinde tedarikçiler genelde şu kümelerde toplanır:"
+            "text": "Önce haritayı çıkaralım. Otel etkinliğinde [ajans ve dekor koordinasyonu](https://dgtlface.com/tr/creative-ve-tasarim), sahne dili ve teknik akışla birlikte ele alınmadığında tedarikçiler aynı projeye farklı önceliklerle yaklaşır. Bu yüzden ekipler genelde şu kümelerde toplanır:"
           },
           {
             "type": "h3",
@@ -60514,6 +60603,10 @@
           },
           {
             "type": "p",
+            "text": "Etkinlik sonundaki aftermovie, teaser ve highlight işlerinin temiz çıkması için [sahne ve ışık planının video kalitesine etkisi](https://dgtlface.com/tr/creative/video-produksiyon) baştan düşünülmelidir; kötü ışık ve düzensiz sahne yerleşimi kurgu aşamasında kolay telafi edilemez."
+          },
+          {
+            "type": "p",
             "text": "☑ Mini Check: “Kim hangi deliverable’ı teslim ediyor?” net değilse, etkinlik sonrası kaos çıkar."
           },
           {
@@ -60534,7 +60627,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Ses–ışık ve sahne firmaları, etkinliğin temel “teknik omurgası”dır. Bu iki tedarikçi arasındaki koordinasyon zayıfsa; rigging gecikir, kablo yönetimi bozulur, prova uzar."
+            "text": "Ses–ışık ve sahne firmaları, etkinliğin temel “teknik omurgası”dır. Bu iki tedarikçi arasındaki koordinasyon zayıfsa; rigging gecikir, kablo yönetimi bozulur, prova uzar. Bu nedenle [etkinlik tedarikçi bütçesi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama) yalnız fiyat listesi değil, teknik uyum ve kapsam kıyasının da parçası olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle canlı performans içeren projelerde [ses ışık sahne firmaları](https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi) seçimi konser ve show prodüksiyonunun ritmini doğrudan etkiler; prova süresi, sanatçı rider’ı ve sahne geçişleri bu noktada standart kurumsal etkinliklerden daha hassas hale gelir."
           },
           {
             "type": "h3",
@@ -60809,7 +60906,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tedarikçi yönetiminin “kasları” süreçtir. Süreç yazılı değilse, her etkinlikte yeniden anlaşılır ve maliyet artar."
+            "text": "Tedarikçi yönetiminin “kasları” süreçtir. Süreç yazılı değilse, her etkinlikte yeniden anlaşılır ve maliyet artar. Kurulum saatlerini, teslim sırasını ve teknik kontrolleri [tedarikçi teslimleri için operasyon checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) ile tek yerde toplamak bu yüzden kritik bir adımdır."
           },
           {
             "type": "h3",
@@ -60956,7 +61053,7 @@
           },
           {
             "type": "p",
-            "text": "Otel farkı; aynı alanda misafir, servis trafiği, güvenlik ve marka deneyimini aynı anda yönetmesidir. Bu yüzden tedarikçi yönetimini “satın alma” değil “operasyonel yönetişim” olarak ele almak; teknik aksaklığı, gecikmeyi ve ekstra maliyeti düşürür."
+            "text": "Otel farkı; aynı alanda misafir, servis trafiği, güvenlik ve marka deneyimini aynı anda yönetmesidir. Bu yüzden tedarikçi yönetimini “satın alma” değil “operasyonel yönetişim” olarak ele almak; teknik aksaklığı, gecikmeyi ve ekstra maliyeti düşürür. Aynı disiplin, sosyal içeriklerin, etkinlik galerilerinin ve PR görünürlüğünün kalitesini artırdığı için [etkinlik kalitesinin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) de doğrudan güçlenir."
           },
           {
             "type": "p",
@@ -60978,6 +61075,10 @@
             "label": "Etkinlik Tedarikçi Yönetimi Danışmanlığı Al",
             "text": "Tedarikçi ekosisteminizi süreç ve şablonlarla yönetip kaliteyi istikrarlı hâle getirelim.",
             "href": "/tr/creative/etkinlik-produksiyonu"
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, ekip sorumluluğu ve operasyon süreciyle ilgili daha fazla detay için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -61134,7 +61235,7 @@
   },
   "h1": {
     "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
-    "intro": "“Beach wedding planlıyoruz, yağmur yağarsa ne olacak?” sorusu, açık alan etkinliklerinin kalbidir. Antalya, Belek, Side, Bodrum gibi sahil destinasyonlarında açık alan; havuz başı, beach, bahçe ve teras etkinlikleri otelin deneyim vaadinin parçasıdır. Ancak hava koşulları doğru yönetilmezse yalnız estetik bozulmaz: güvenlik, elektrik/ekipman riski, misafir memnuniyeti ve bütçe aynı anda zarar görür. İyi haber: profesyonel bir “hava planı” kurulduğunda, etkinliği panikle iptal etmek yerine net karar eşikleriyle yönetebilir, B planını zamanında devreye alabilir ve iletişimi şeffaf bir şekilde yürütebilirsiniz.\n\nVeri noktası (sektörel içgörü): Profesyonel hava ve B planı kurgusu, iptal ve anlaşmazlık riskini azaltabilir; plansız açık alan etkinliklerinde ise memnuniyetin ve online yorumların belirgin şekilde olumsuz etkilenmesi sık görülür. (Kesin rakam iddiası değil.)",
+    "intro": "“Beach wedding planlıyoruz, yağmur yağarsa ne olacak?” sorusu, [açık alan etkinlik B planı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) kurgusunun neden kritik olduğunu gösterir. Antalya, Belek, Side, Bodrum gibi sahil destinasyonlarında açık alan; havuz başı, beach, bahçe ve teras etkinlikleri otelin deneyim vaadinin parçasıdır. Ancak hava koşulları doğru yönetilmezse yalnız estetik bozulmaz: güvenlik, elektrik/ekipman riski, misafir memnuniyeti ve bütçe aynı anda zarar görür. İyi haber: profesyonel bir “hava planı” kurulduğunda, etkinliği panikle iptal etmek yerine net karar eşikleriyle yönetebilir, B planını zamanında devreye alabilir ve iletişimi şeffaf bir şekilde yürütebilirsiniz.\n\nVeri noktası (sektörel içgörü): Profesyonel hava ve B planı kurgusu, iptal ve anlaşmazlık riskini azaltabilir; plansız açık alan etkinliklerinde ise memnuniyetin ve online yorumların belirgin şekilde olumsuz etkilenmesi sık görülür. (Kesin rakam iddiası değil.)",
     "quickSummary": [
       "1) Meteoroloji takibi",
       "2) Karar eşikleri",
@@ -61145,43 +61246,63 @@
     "ctaPrimary": {
       "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
       "text": "Hava karar matrisi, B planı yerleşimi ve iletişim/sözleşme paketini oteliniz için birlikte kurgulayalım.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
       "text": "Meteoroloji eşiği, kapalı alan/çadır senaryosu, iletişim ve sözleşme maddeleriyle iptal ve anlaşmazlık riskini azaltın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Açık Alan Etkinlik Hava Senaryosu & B Planı Şablonunu İndir",
       "text": "Karar matrisi, görev dağılımı, yerleşim ve SMS/mail mesajlarını tek dosyada toplayıp hızlı karar almanızı sağlar.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/acik-alan-etkinlik-hava-senaryosu-b-plani-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Beach Party & Festival Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
+    },
+    {
+      "label": "Otel Düğün Video & Foto Prodüksiyon Planı",
+      "href": "/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon"
+    },
+    {
+      "label": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "title": "Otel Beach Party & Festival Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
     },
     {
-      "title": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "title": "Otel Düğün Video & Foto Prodüksiyon Planı",
+      "href": "/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon"
+    },
+    {
+      "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
     }
   ],
   "sections": [
@@ -61191,7 +61312,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Açık alanda risk yönetimi “tahmini takip etmek” değil, tahmini bir karar sistemine bağlamaktır. Bu sistem 5 parçadan oluşur: (1) meteoroloji takibi, (2) karar eşikleri, (3) B planı mekân/kurulum, (4) iletişim planı, (5) sözleşme–sigorta–güvenlik önlemleri. Her parça yazılı değilse, etkinlik günü kararlar WhatsApp’ta dağılır ve panik büyür."
+          "text": "Açık alanda [hava koşulları risk yönetimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) “tahmini takip etmek” değil, tahmini bir karar sistemine bağlamaktır. Bu sistem 5 parçadan oluşur: (1) meteoroloji takibi, (2) karar eşikleri, (3) B planı mekân/kurulum, (4) iletişim planı, (5) sözleşme–sigorta–güvenlik önlemleri. Her parça yazılı değilse, etkinlik günü kararlar WhatsApp’ta dağılır ve panik büyür."
         },
         {
           "type": "h3",
@@ -61250,7 +61371,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Açık alan etkinlikleri “manzara” ve “atmosfer” satar; ama otel aynı zamanda güvenli bir işletme olarak da sorumludur. Hava riski, yalnız yağmur değil: rüzgâr, aşırı sıcak, ani fırtına, yıldırım riski, zemin kayganlığı ve ekipman elektrik güvenliği gibi çoklu riskler yaratır."
+          "text": "Açık alan etkinlikleri “manzara” ve “atmosfer” satar; ama otel aynı zamanda güvenli bir işletme olarak da sorumludur. Bu yüzden [beach ve bahçe organizasyonu](https://dgtlface.com/tr/creative-ve-tasarim) yalnız lokasyon seçimi değil; misafir akışı, sahne dili, yönlendirme ve operasyon güvenliği ile birlikte düşünülmelidir. Hava riski, yalnız yağmur değil: rüzgâr, aşırı sıcak, ani fırtına, yıldırım riski, zemin kayganlığı ve ekipman elektrik güvenliği gibi çoklu riskler yaratır."
         },
         {
           "type": "h3",
@@ -61389,7 +61510,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "B planı “içeri alırız” demek değildir; kapalı alanda aynı deneyimi olabildiğince koruyacak bir kurulum senaryosu demektir. Açık alandan kapalı alana geçişte en çok kaybedilen şey akıştır: giriş, foto alanı, sahne, servis, dans alanı. Bunları önceden tasarlarsanız, misafir “kriz” değil “profesyonellik” görür."
+          "text": "B planı “içeri alırız” demek değildir; kapalı alanda aynı deneyimi olabildiğince koruyacak bir kurulum senaryosu demektir. Açık alandan kapalı alana geçişte en çok kaybedilen şey akıştır: giriş, foto alanı, sahne, servis, dans alanı. Bunları önceden tasarlarsanız, misafir “kriz” değil “profesyonellik” görür. Özellikle [beach party etkinliklerinde hava planı](https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon) hazırlığı, rüzgâr, ekipman koruması ve sosyal içerik akışını aynı anda yönetebilmek için ayrı önem taşır."
         },
         {
           "type": "h3",
@@ -61410,7 +61531,11 @@
         },
         {
           "type": "p",
-          "text": "Açık alanda geniş yayılırsınız; kapalı alanda yoğunlaşırsınız. Bu; sahne ölçüsü, hoparlör konumu, kablo güvenliği ve servis trafiğini değiştirir."
+          "text": "Açık alanda geniş yayılırsınız; kapalı alanda yoğunlaşırsınız. Bu; sahne ölçüsü, hoparlör konumu, kablo güvenliği ve servis trafiğini değiştirir. Bahçe ve tören alanı kurgularında [açık alan düğünlerinde B planı](https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon) yaklaşımı; nikâh akışı, masa düzeni ve çift/misafir yönlendirmesinin aynı anda yeniden planlanmasını gerektirir."
+        },
+        {
+          "type": "p",
+          "text": "Yağmur, rüzgâr ve gün ışığı değişimi yalnız kurulum planını değil, çekim kalitesini de etkiler; bu yüzden [hava koşullarına göre video çekim planı](https://dgtlface.com/tr/creative/video-produksiyon) açık alan etkinlikleri için baştan hazırlanmalıdır."
         },
         {
           "type": "media",
@@ -61457,14 +61582,14 @@
           "variant": "primary",
           "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
           "text": "Meteoroloji eşiği, kapalı alan/çadır senaryosu, iletişim ve sözleşme maddeleriyle iptal ve anlaşmazlık riskini azaltın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         },
         {
           "type": "cta",
           "variant": "secondary",
           "label": "Açık Alan Etkinlik Hava Senaryosu & B Planı Şablonunu İndir",
           "text": "Senaryo matrisi, kapalı alan yerleşimi, görev dağılımı ve iletişim mesajlarını tek dosyada birleştirip hızlı karar almanızı sağlar.",
-          "href": "/creative/video-produksiyon"
+          "href": "/downloads/acik-alan-etkinlik-hava-senaryosu-b-plani-sablonu-v1.0.pdf"
         }
       ]
     },
@@ -61544,7 +61669,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Açık alan etkinliklerinde B planı yalnız operasyon değil, aynı zamanda sözleşme ve sigorta meselesidir. İptal/erteleme, overtime, ek kurulum ve hasar riskleri; yazılı değilse anlaşmazlığa dönebilir. Burada kritik not: sözleşme metinleri mutlaka hukuk danışmanıyla gözden geçirilmelidir."
+          "text": "Açık alan etkinliklerinde B planı yalnız operasyon değil, aynı zamanda sözleşme ve sigorta meselesidir. İptal/erteleme, overtime, ek kurulum ve hasar riskleri; yazılı değilse anlaşmazlığa dönebilir. Burada kritik not: sözleşme metinleri mutlaka hukuk danışmanıyla gözden geçirilmelidir. Özellikle [yağmur senaryosu ve etkinlik risk yönetimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi) daha geniş güvenlik planı ile birlikte ele alındığında misafir güvenliği, ekipman koruması ve karar alma akışı daha net yönetilir."
         },
         {
           "type": "h3",
@@ -61605,7 +61730,7 @@
         },
         {
           "type": "p",
-          "text": "Otel tarafında hedef iptal etmek değil, kontrollü geçiş yapmaktır: doğru eşik, hazır B planı, net iletişim ve yazılı sözleşme. Bu dörtlü kurulduğunda, misafir “kriz” değil “profesyonellik” deneyimler."
+          "text": "Otel tarafında hedef iptal etmek değil, kontrollü geçiş yapmaktır: doğru eşik, hazır B planı, net iletişim ve yazılı sözleşme. Bu dörtlü kurulduğunda, misafir “kriz” değil “profesyonellik” deneyimler. Bu hazırlıklı yaklaşımın görünür sonucu da [B planı olan etkinliklerin otel dijital pazarlama güveni](https://dgtlface.com/tr/otel-dijital-pazarlama) olur; marka, son dakika kaosu değil güven veren organizasyon kalitesiyle hatırlanır."
         },
         {
           "type": "callout",
@@ -61629,7 +61754,11 @@
           "variant": "primary",
           "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
           "text": "Düğün, gala ve beach party’leriniz için hava riskini ve B planını ölçeklenebilir bir playbook’a çevirelim.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
+        },
+        {
+          "type": "p",
+          "text": "Süreç, ekipman ve açık alan operasyonu ile ilgili daha fazla detay için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
         }
       ]
     },
@@ -61710,8 +61839,8 @@
         "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
         "Hero, H1 context ve section media slot dosya adları kontrolü",
         "Hava Senaryosu Karar Matrisi tek tablo olarak kullanılıyor",
-        "Primary CTA → /creative/etkinlik-produksiyonu",
-        "Secondary CTA → /creative/video-produksiyon",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu",
+        "Secondary CTA → /downloads/acik-alan-etkinlik-hava-senaryosu-b-plani-sablonu-v1.0.pdf",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
       ]
@@ -61769,7 +61898,7 @@
   },
   "h1": {
     "title": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
-    "intro": "“Şirket kampını 3 gün otelde yapmak istiyoruz, programı nasıl kurmalıyım?” 3 günlük retreat’lerin başarısı, programın yalnız “dolu” olmasında değil; doğru ritimde ilerlemesindedir. Otel tarafında bu etkinlikler; toplantı salonu oturumları, açık alan aktiviteleri, yemek/coffee break akışları ve akşam sosyal programların birlikte yönetilmesini gerektirir. İyi kurgulanmadığında mekân dönüşümü yetişmez, katılımcı yorulur, ekipler dağılır ve deneyim “kamp” değil “koşuşturma”ya dönüşür. Bu rehber; 3 günlük program tasarımından mekân dönüşümüne, aktivite yönetiminden foto–video belgeleme ve etkinlik sonrası iletişime kadar otel boyutunu adım adım ele alır.",
+    "intro": "“Şirket kampını 3 gün otelde yapmak istiyoruz, programı nasıl kurmalıyım?” [kurumsal retreat planlama](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) ihtiyacı tam da burada başlar. 3 günlük retreat’lerin başarısı, programın yalnız “dolu” olmasında değil; doğru ritimde ilerlemesindedir. Otel tarafında bu etkinlikler; toplantı salonu oturumları, açık alan aktiviteleri, yemek/coffee break akışları ve akşam sosyal programların birlikte yönetilmesini gerektirir. İyi kurgulanmadığında mekân dönüşümü yetişmez, katılımcı yorulur, ekipler dağılır ve deneyim “kamp” değil “koşuşturma”ya dönüşür. Bu rehber; 3 günlük program tasarımından mekân dönüşümüne, aktivite yönetiminden foto–video belgeleme ve etkinlik sonrası iletişime kadar otel boyutunu adım adım ele alır.",
     "quickSummary": [
       "1) 3 günün amacı ve KPI’larını yazılı hale getir",
       "2) Her günün temasını hizalanma–derin çalışma–kapanış olarak netleştir",
@@ -61780,43 +61909,63 @@
     "ctaPrimary": {
       "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
       "text": "Program, mekân ve prodüksiyon akışını oteliniz için ölçeklenebilir bir modele dönüştürelim.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
       "text": "Program, mekân dönüşümü ve aktivite akışını otel operasyonuna uygun şekilde kurgulayıp 3 günü kusursuz yönetin.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "3 Günlük Retreat Program & Mekân Planı Şablonunu İndir",
       "text": "Gün gün program iskeleti, mekân dönüşüm planı ve belgeleme adımlarını tek dokümanda toplayıp hızlı planlamayı sağlar.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/3-gunluk-retreat-program-mekan-plani-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Hibrit Etkinlik Canlı Yayın ve Kayıt Rehberi",
+      "href": "/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin"
+    },
+    {
+      "label": "MICE Otelleri için Video Prodüksiyon: Salon ve Referans Filmler",
+      "href": "/tr/creative/blog/otel-mice-toplanti-video-produsksiyon"
+    },
+    {
+      "label": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+      "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "title": "Otel Hibrit Etkinlik Canlı Yayın ve Kayıt Rehberi",
+      "href": "/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin"
     },
     {
-      "title": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "title": "MICE Otelleri için Video Prodüksiyon: Salon ve Referans Filmler",
+      "href": "/tr/creative/blog/otel-mice-toplanti-video-produsksiyon"
+    },
+    {
+      "title": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+      "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
     }
   ],
   "sections": [
@@ -61826,7 +61975,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "3 gün, “çok uzun” gibi görünür ama yanlış planlanırsa iki gün içinde enerji düşer. Doğru yaklaşım; her günü farklı bir amaç setine bağlamak ve toplantı–aktivite–serbest zaman dengesini kurmaktır. Otel operasyonu için de ana kritik; check-in/out saatlerini, yemek/servis pencerelerini ve mekân dönüşüm sürelerini programın içine gömmektir."
+          "text": "3 gün, “çok uzun” gibi görünür ama yanlış planlanırsa iki gün içinde enerji düşer. Doğru bir [3 günlük kamp programı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); her günü farklı bir amaç setine bağlar ve toplantı–aktivite–serbest zaman dengesini kurar. Otel operasyonu için de ana kritik; check-in/out saatlerini, yemek/servis pencerelerini ve mekân dönüşüm sürelerini programın içine gömmektir."
         },
         {"type":"media","slot":"h1-context-02"},
         {
@@ -61886,7 +62035,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kurumsal retreat; ekipleri bir araya getirip hizalamayı, gelişimi ve motivasyonu artırmayı hedefleyen çok günlü bir deneyimdir. Kamp formatı ise daha yoğun bir program ritmiyle “birlikte çalışma + birlikte eğlenme” dengesini kurar. Otel açısından bu etkinlikler, MICE gelirini büyütürken aynı zamanda tesisin “deneyim tasarlayan” bir mekân olarak konumlanmasını sağlar."
+          "text": "Kurumsal retreat; ekipleri bir araya getirip hizalamayı, gelişimi ve motivasyonu artırmayı hedefleyen çok günlü bir deneyimdir. Kamp formatı ise daha yoğun bir program ritmiyle “birlikte çalışma + birlikte eğlenme” dengesini kurar. Bu [workshop ve networking akışı](https://dgtlface.com/tr/creative-ve-tasarim), otel açısından yalnız konaklama değil deneyim tasarımı anlamına gelir; tesis hem MICE gelirini büyütür hem de “deneyim tasarlayan” bir mekân olarak konumlanır."
+        },
+        {
+          "type": "p",
+          "text": "Toplantı salonu odaklı oturumlar, panel kayıtları ve workshop dokümantasyonu gereken yapılarda [MICE odaklı retreat programı](https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon) yaklaşımı; salon altyapısını, sunum kayıtlarını ve B2B etkinlik içeriğini daha planlı yönetmeyi sağlar."
         },
         {
           "type": "h3",
@@ -61927,7 +62080,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "3 günlük program, “bloklar” üzerinden tasarlanır: sabah derin çalışma, öğle hafif oturum/aktivite, akşam sosyal zirve gibi. Asıl hedef; yoğun içerik ile serbest zamanı dengede tutmaktır."
+          "text": "3 günlük program, “bloklar” üzerinden tasarlanır: sabah derin çalışma, öğle hafif oturum/aktivite, akşam sosyal zirve gibi. Asıl hedef; yoğun içerik ile serbest zamanı dengede tutmaktır. Özellikle keynote, eğitim ya da panel oturumlarında [retreat programında hibrit katılım ve canlı yayın](https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin) seçeneği düşünülüyorsa program akışı baştan buna göre kurgulanmalıdır."
         },
         {
           "type": "h3",
@@ -62056,7 +62209,7 @@
           "variant": "secondary",
           "label": "3 Günlük Retreat Program & Mekân Planı Şablonunu İndir",
           "text": "Gün gün program iskeleti, mekân dönüşüm planı ve belgeleme adımlarını tek dokümanda toplayıp hızlı planlamayı sağlar.",
-          "href": "/creative/video-produksiyon"
+          "href": "/downloads/3-gunluk-retreat-program-mekan-plani-sablonu-v1.0.pdf"
         }
       ]
     },
@@ -62070,7 +62223,7 @@
         },
         {
           "type": "p",
-          "text": "3 günlük retreat’in otel tarafındaki en büyük farkı “mekân dönüşümü”dür. Sabah ballroom’da toplantı, öğleden sonra beach/çim alanda aktivite, akşam başka bir alanda sosyal program… Bu dönüşüm planlanmazsa kurulum ekibi yetişemez."
+          "text": "3 günlük retreat’in otel tarafındaki en büyük farkı “mekân dönüşümü”dür. Sabah ballroom’da toplantı, öğleden sonra beach/çim alanda aktivite, akşam başka bir alanda sosyal program… Bu dönüşüm planlanmazsa kurulum ekibi yetişemez. Salon değişimleri, teknik hazırlık ve transfer aralıklarını [3 günlük retreat operasyon checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) ile tek akışta takip etmek bu yüzden kritik hale gelir."
         },
         {
           "type": "h3",
@@ -62179,7 +62332,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "3 günlük retreat’in ROI’si yalnız etkinlikte değil, sonrasında da devam eder: teşekkür, özet video, learning recap ve iç rapor. Belgeleme zayıfsa etkinlik “biter”; belgeleme güçlü ise “yaşar”."
+          "text": "3 günlük retreat’in ROI’si yalnız etkinlikte değil, sonrasında da devam eder: teşekkür, özet video, learning recap ve iç rapor. Belgeleme zayıfsa etkinlik “biter”; belgeleme güçlü ise “yaşar”. Bu yüzden [retreat etkinliğinden video içerik üretimi](https://dgtlface.com/tr/creative/video-produksiyon), yalnız sonradan yapılacak kurgu değil; 3 günün başında tasarlanan bir içerik akışı olarak ele alınmalıdır."
         },
         {
           "type": "h3",
@@ -62235,7 +62388,7 @@
           "variant": "primary",
           "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
           "text": "Programı, mekân dönüşümünü ve belgeleme paketini tek akışta planlayıp kusursuz bir 3 gün tasarlayın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -62249,7 +62402,7 @@
         },
         {
           "type": "p",
-          "text": "Otel için fark yaratan şey, 3 gün boyunca farklı alanları sorunsuz dönüştürme kabiliyeti’dir. Bunu ürünleştirdiğinizde (program + mekân dönüşümü + belgeleme paketi), kurumsal satış tarafında güçlü bir teklif avantajı doğar."
+          "text": "Otel için fark yaratan şey, 3 gün boyunca farklı alanları sorunsuz dönüştürme kabiliyeti’dir. Bunu ürünleştirdiğinizde (program + mekân dönüşümü + belgeleme paketi), kurumsal satış tarafında güçlü bir teklif avantajı doğar. Aynı yapı [kurumsal retreat etkinliklerinin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından da değerlidir; çünkü B2B görünürlük, MICE talebi ve kurumsal lead üretimi için somut bir içerik ve deneyim vaadi oluşturur."
         },
         {
           "type": "callout",
@@ -62274,7 +62427,11 @@
           "variant": "primary",
           "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
           "text": "Program, mekân dönüşümü ve aktivite akışını otel operasyonuna uygun şekilde kurgulayıp 3 günü kusursuz yönetin.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
+        },
+        {
+          "type": "p",
+          "text": "Program akışı, ekip planı ve teknik kapsamla ilgili daha fazla detay için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasını da inceleyebilirsiniz."
         }
       ]
     },
@@ -62357,9 +62514,9 @@
         "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
         "Hero, H1 context, divider ve diagram media slot dosya adları kontrolü",
         "3 Günlük Program Timeline tek ana tablo olarak kullanılıyor",
-        "Primary CTA → /creative/etkinlik-produksiyonu",
-        "Secondary CTA → /creative/video-produksiyon",
-        "Destek iç link → /otel-dijital-pazarlama",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu",
+        "Secondary CTA → /downloads/3-gunluk-retreat-program-mekan-plani-sablonu-v1.0.pdf",
+        "Destek iç link → /tr/otel-dijital-pazarlama",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
       ]
@@ -62417,7 +62574,7 @@
   },
   "h1": {
     "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
-    "intro": "“Etkinliklerde hep aynı hataları yapıyoruz, kapsamlı bir checklist nasıl hazırlarım?” Otel etkinliklerinde farklı türler olsa da (gala, düğün, konser, MICE, festival), sahada tekrar eden adımlar aynıdır: brief, tedarikçi, kurulum, güvenlik, misafir akışı, içerik belgeleme ve etkinlik sonrası kapanış… Bu adımları her seferinde yeniden icat etmek; unutulan detaylar, son dakika krizleri ve bütçe sapması üretir. İyi yapılandırılmış bir master checklist ve operasyon el kitabı; süreci ölçeklenebilir hale getirir, yeni ekip üyelerinin onboarding’ini hızlandırır ve kalite standardını yukarı çeker. Bu rehber, “çatı el kitabı” mantığıyla tek bir master sistem sunar.",
+    "intro": "“Etkinliklerde hep aynı hataları yapıyoruz, kapsamlı bir checklist nasıl hazırlarım?” sorusu çoğu zaman iyi bir [otel etkinlik checklist’i](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) ihtiyacını işaret eder. Otel etkinliklerinde farklı türler olsa da (gala, düğün, konser, MICE, festival), sahada tekrar eden adımlar aynıdır: brief, tedarikçi, kurulum, güvenlik, misafir akışı, içerik belgeleme ve etkinlik sonrası kapanış… Bu adımları her seferinde yeniden icat etmek; unutulan detaylar, son dakika krizleri ve bütçe sapması üretir. İyi yapılandırılmış bir master checklist ve operasyon el kitabı; süreci ölçeklenebilir hale getirir, yeni ekip üyelerinin onboarding’ini hızlandırır ve kalite standardını yukarı çeker. Bu rehber, “çatı el kitabı” mantığıyla tek bir master sistem sunar.",
     "quickSummary": [
       "1) Checklist’i hazırlık–kurulum–etkinlik–sonrası olarak 4 faza böl",
       "2) Her adım için sorumlu kişi ve kontrol zamanını netleştir",
@@ -62428,47 +62585,63 @@
     "ctaPrimary": {
       "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
       "text": "Ekiplerinize tek playbook ile çalışacak bir etkinlik işletim sistemi kuralım.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
       "text": "Tüm etkinlik türlerinde tekrar eden adımları tek playbook’ta standardize edip hataları ve son dakika krizlerini azaltın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Otel Etkinlik Master Checklist & Operasyon El Kitabı Şablonunu İndir",
       "text": "Hazırlık–kurulum–etkinlik–sonrası adımlarını ve arşiv/bütçe kapanışını tek dokümanda toplayıp ekibi aynı standarda taşır.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/otel-etkinlik-master-checklist-operasyon-el-kitabi-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Etkinlik Prodüksiyon Bütçesi Planı",
+      "href": "/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
+    },
+    {
+      "label": "Otel Etkinliklerinde Tedarikçi Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne"
+    },
+    {
+      "label": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
-    },
-    {
-      "label": "Creative & Tasarım",
-      "href": "/creative-ve-tasarim"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "title": "Otel Etkinlik Prodüksiyon Bütçesi Planı",
+      "href": "/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
     },
     {
-      "title": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "title": "Otel Etkinliklerinde Tedarikçi Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne"
+    },
+    {
+      "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
     }
   ],
   "sections": [
@@ -62478,7 +62651,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Master checklist hazırlamak, “uzun liste” yazmak değildir; adımları fazlara (hazırlık/kurulum/etkinlik/sonrası) bölüp her faz için net sorumluluk ve kontrol noktaları tanımlamaktır. En iyi master checklist; her etkinlik türüne uyarlanabilir çekirdek adımları içerir ve tür bazlı ek modüller (düğün, festival, hibrit vb.) ile genişler."
+          "text": "Master checklist hazırlamak, “uzun liste” yazmak değildir; adımları fazlara (hazırlık/kurulum/etkinlik/sonrası) bölüp her faz için net sorumluluk ve kontrol noktaları tanımlamaktır. İyi bir [operasyon el kitabı](https://dgtlface.com/tr/creative-ve-tasarim), bu adımları yalnız görev listesi olarak değil; sahne, içerik, ekip ve misafir deneyimiyle birlikte çalışan bir sistem olarak kurgular."
         },
         {
           "type": "h3",
@@ -62486,7 +62659,7 @@
         },
         {
           "type": "p",
-          "text": "Otel etkinlikleri için master checklist hazırlamak adına tüm etkinlik türlerinde ortak adımları 4 faza bölün: hazırlık, kurulum, etkinlik esnası ve sonrası. Brief–hedef, mekân–teknik–tedarikçi, misafir deneyimi–güvenlik ve raporlama–arşiv gibi ana başlıkları sabitleyin; her adım için “kim sorumlu, ne zaman kontrol edilir” netleştirin. Böylece ekip her etkinliği aynı işletim sistemiyle yürütür."
+          "text": "Otel etkinlikleri için master checklist hazırlamak adına tüm etkinlik türlerinde ortak adımları 4 faza bölün: hazırlık, kurulum, etkinlik esnası ve sonrası. Bu [prodüksiyon workflow](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); brief–hedef, mekân–teknik–tedarikçi, misafir deneyimi–güvenlik ve raporlama–arşiv gibi ana başlıkları sabitleyip her adım için “kim sorumlu, ne zaman kontrol edilir” sorusunu netleştirir. Böylece ekip her etkinliği aynı işletim sistemiyle yürütür."
         },
         {
           "type": "h3",
@@ -62662,7 +62835,7 @@
           "variant": "secondary",
           "label": "Otel Etkinlik Master Checklist & Operasyon El Kitabı Şablonunu İndir",
           "text": "Hazırlık–kurulum–etkinlik–sonrası adımlarını ve arşiv/bütçe kapanışını tek dokümanda toplayıp ekibi aynı standarda taşır.",
-          "href": "/creative/video-produksiyon"
+          "href": "/downloads/otel-etkinlik-master-checklist-operasyon-el-kitabi-sablonu-v1.0.pdf"
         },
         {
           "type": "media",
@@ -62721,7 +62894,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Brief, master checklist’in “başlat tuşu”dur. Brief net değilse teknik ve operasyon dağılır. Brief’in amacı; hedefleri, kısıtları ve deliverables’ı tek sayfada kilitlemektir."
+          "text": "Brief, master checklist’in “başlat tuşu”dur. Brief net değilse teknik ve operasyon dağılır. Brief’in amacı; hedefleri, kısıtları ve deliverables’ı tek sayfada kilitlemektir. Satın alma, kapsam ve onay tarafında atlama yaşamamak için [etkinlik bütçesi kontrol checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama) yaklaşımını brief akışına erken aşamada dahil etmek işleri belirgin biçimde kolaylaştırır."
         },
         {
           "type": "h3",
@@ -62766,7 +62939,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu faz, etkinlik günü “sürpriz” çıkmaması için hazırlanır. Layout, AV set-up, güç dağıtımı, kablo güvenliği ve tedarikçi rolleri aynı dokümanda olmalıdır."
+          "text": "Bu faz, etkinlik günü “sürpriz” çıkmaması için hazırlanır. Layout, AV set-up, güç dağıtımı, kablo güvenliği ve tedarikçi rolleri aynı dokümanda olmalıdır. Özellikle çoklu ekiplerle çalışılan yapılarda [tedarikçi teslimleri ve teknik kurulum kontrolü](https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne) ayrı bir operasyon standardı olarak ele alınmalıdır."
         },
         {
           "type": "h3",
@@ -62837,7 +63010,7 @@
           "variant": "primary",
           "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
           "text": "Tüm etkinlik türlerinde tekrar eden adımları tek playbook’ta standardize edip hataları ve son dakika krizlerini azaltın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -62851,7 +63024,7 @@
         },
         {
           "type": "p",
-          "text": "En iyi prodüksiyon, misafir deneyimi bozulursa “başarısız” görünür. Bu checklist; giriş akışı, yönlendirme, servis trafiği ve güvenlik adımlarını standartlaştırır."
+          "text": "En iyi prodüksiyon, misafir deneyimi bozulursa “başarısız” görünür. Bu checklist; giriş akışı, yönlendirme, servis trafiği ve güvenlik adımlarını standartlaştırır. Özellikle kalabalık, açık alan ya da çok tedarikçili etkinliklerde [etkinlik güvenliği ve risk kontrolü](https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi) ayrı bir karar katmanı olarak düşünülmelidir."
         },
         {
           "type": "h3",
@@ -62907,7 +63080,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Etkinlik sonrası kapanış, master playbook’un “öğrenme motoru”dur. Bütçe kapanışı, teslimatlar, arşiv klasör yapısı ve feedback döngüsü yoksa süreç ölçeklenmez."
+          "text": "Etkinlik sonrası kapanış, master playbook’un “öğrenme motoru”dur. Bütçe kapanışı, teslimatlar, arşiv klasör yapısı ve feedback döngüsü yoksa süreç ölçeklenmez. Bu aşamada [etkinlik çekimi ve highlight video planı](https://dgtlface.com/tr/creative/video-produksiyon) da kapanış checklist’inin parçası olmalıdır; çünkü teslim edilmeyen veya plansız toplanan içerik, etkinliğin sonradan kullanım değerini hızla düşürür."
+        },
+        {
+          "type": "p",
+          "text": "Final teslimlerden sonra oluşan fotoğraf, video ve özet içeriklerin [etkinlik sonrası dijital pazarlama çıktıları](https://dgtlface.com/tr/otel-dijital-pazarlama) olarak değerlendirilmesi; sosyal medya, web sitesi, reklam ve PR tarafında etkinliğin etkisini uzatır."
         },
         {
           "type": "h3",
@@ -62972,7 +63149,7 @@
           "variant": "primary",
           "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
           "text": "Ekip onboarding’ini hızlandıracak ve kaliteyi standardize edecek master playbook’u birlikte kuralım.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -62989,6 +63166,10 @@
           "text": "Bu yazıyı “hub” yapan şey; tek tek etkinlik türlerine iç linklerle bağlanması ve aynı zamanda operasyon ekibinin günlük kullanımına uygun şablonlar sunmasıdır."
         },
         {
+          "type": "p",
+          "text": "Hazırlık, kurulum ve etkinlik sonrası adımları tek yerde toplu görmek isteyen ekipler için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası da yararlı bir tamamlayıcı kaynak olur."
+        },
+        {
           "type": "h3",
           "text": "İç link stratejisi (AIO gereksinimi)"
         },
@@ -62996,10 +63177,10 @@
           "type": "list",
           "style": "ul",
           "items": [
-            "Ana hizmet: /creative/etkinlik-produksiyonu",
-            "Video prodüksiyon: /creative/video-produksiyon",
-            "Creative & tasarım: /creative-ve-tasarim",
-            "Otel dijital pazarlama: /otel-dijital-pazarlama",
+            "Ana hizmet: /tr/creative/etkinlik-produksiyonu",
+            "Video prodüksiyon: /tr/creative/video-produksiyon",
+            "Creative ve tasarım: /tr/creative-ve-tasarim",
+            "Otel dijital pazarlama: /tr/otel-dijital-pazarlama",
             "Alt bloglar: konser, gala, düğün, hibrit, festival vb. (Varsayım: site içi ilgili blog URL’lerine bağlanacak)"
           ]
         },
@@ -63105,10 +63286,10 @@
         "Master Checklist Tablosu tek ana tablo olarak kullanılıyor",
         "Master checklist fazları: Hazırlık → Kurulum → Etkinlik → Sonrası",
         "Her master checklist adımında sorumlu ve zaman alanı bulunuyor",
-        "Primary CTA → /creative/etkinlik-produksiyonu",
-        "Secondary CTA → /creative/video-produksiyon",
-        "Destek iç link → /creative-ve-tasarim",
-        "Destek iç link → /otel-dijital-pazarlama",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu",
+        "Secondary CTA → /downloads/otel-etkinlik-master-checklist-operasyon-el-kitabi-sablonu-v1.0.pdf",
+        "Destek iç link → /tr/creative-ve-tasarim",
+        "Destek iç link → /tr/otel-dijital-pazarlama",
         "Alt konser/gala/düğün/hibrit/festival blog URL’leri hazır olduğunda hub iç linkleri tamamlanacak",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
@@ -63167,7 +63348,7 @@
   },
   "h1": {
     "title": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
-    "intro": "“Etkinlikte kayıt masası hep karışıyor, nasıl düzenlerim?” veya “online formda ne sormalıyım?” soruları, otel etkinliklerinde en sık yaşanan operasyonel ağrılardır. Çünkü kayıt akışı yalnız bir form değildir: RSVP, katılımcı listesi, rooming list, check-in masası, yaka kartı/badge ve salona giriş yönlendirmesi aynı sistemde çalışır. İyi kurgulanmış akış; kuyrukları azaltır, yanlış isim/oda/şirket karışıklığını önler ve etkinlik sonrası satış/raporlama için temiz veri bırakır. Bu rehber; kayıt→check-in→salona giriş sürecini PMS/CRM entegrasyonu ve KVKK dikkatiyle uçtan uca planlatır.",
+    "intro": "“Etkinlikte kayıt masası hep karışıyor, nasıl düzenlerim?” veya “online formda ne sormalıyım?” soruları, [RSVP ve kayıt yönetimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) tarafında otel etkinliklerinde en sık yaşanan operasyonel ağrılardır. Çünkü kayıt akışı yalnız bir form değildir: RSVP, katılımcı listesi, rooming list, check-in masası, yaka kartı/badge ve salona giriş yönlendirmesi aynı sistemde çalışır. İyi kurgulanmış akış; kuyrukları azaltır, yanlış isim/oda/şirket karışıklığını önler ve etkinlik sonrası satış/raporlama için temiz veri bırakır. Bu rehber; kayıt→check-in→salona giriş sürecini PMS/CRM entegrasyonu ve KVKK dikkatiyle uçtan uca planlatır.",
     "quickSummary": [
       "1) Online formu minimum zorunlu alanlarla sadeleştir",
       "2) RSVP onay–ret–hatırlatma akışını otomatikleştir",
@@ -63178,51 +63359,67 @@
     "ctaPrimary": {
       "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
       "text": "Formdan check-in masasına, PMS/CRM ve KVKK dahil uçtan uca akışı birlikte kuralım.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
       "text": "Online form, RSVP, master liste, check-in masası ve badge akışını PMS/CRM ve KVKK ile uyumlu şekilde kurup kuyrukları azaltın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Otel Etkinlik Kayıt & Check-in Checklist’ini İndir",
       "text": "Form alanları, liste yönetimi, kuyruk planı, badge renk kodları ve veri kapanışını tek listede toplayıp giriş karmaşasını azaltır.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/otel-etkinlik-kayit-check-in-checklist-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding",
+      "href": "/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    },
+    {
+      "label": "Otel Hibrit Etkinlik Canlı Yayın ve Kayıt Rehberi",
+      "href": "/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin"
+    },
+    {
+      "label": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+      "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
     },
     {
       "label": "Rezervasyon Yönetimi",
-      "href": "/pms-ota/rezervasyon-yonetimi"
+      "href": "/tr/pms-ota/rezervasyon-yonetimi"
     },
     {
       "label": "Satış & Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "href": "/tr/raporlama/satis-donusum"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
-    },
-    {
-      "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
-      "href": "/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding",
+      "href": "/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
     },
     {
-      "title": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
-      "href": "/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon"
+      "title": "Otel Hibrit Etkinlik Canlı Yayın ve Kayıt Rehberi",
+      "href": "/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin"
+    },
+    {
+      "title": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+      "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
     }
   ],
   "sections": [
@@ -63232,7 +63429,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kayıt akışını planlamak; “form çıkaralım” değil, giriş deneyimini tasarlamak demektir. Başarılı sistem 5 adıma dayanır: (1) sade form, (2) otomatik RSVP, (3) doğru liste/rooming list, (4) hızlı check-in + badge, (5) veri yönetimi (CRM + KVKK). Bu adımların her biri net değilse, girişte kuyruk ve içeride veri karmaşası kaçınılmazdır."
+          "text": "Kayıt akışını planlamak; “form çıkaralım” değil, giriş deneyimini tasarlamak demektir. Başarılı sistem 5 adıma dayanır: (1) sade form, (2) otomatik RSVP, (3) doğru liste/rooming list, (4) hızlı check-in + badge, (5) veri yönetimi (CRM + KVKK). Bu yapıyı [yaka kartı ve akreditasyon](https://dgtlface.com/tr/creative-ve-tasarim) dahil tek bir karşılama deneyimi olarak düşünmek, ilk temas anındaki marka algısını da güçlendirir."
         },
         {
           "type": "h3",
@@ -63363,7 +63560,7 @@
           "variant": "secondary",
           "label": "Otel Etkinlik Kayıt & Check-in Checklist’ini İndir",
           "text": "Form alanları, liste yönetimi, kuyruk planı, badge renk kodları ve veri kapanışını tek listede toplayıp giriş karmaşasını azaltır.",
-          "href": "/creative/video-produksiyon"
+          "href": "/downloads/otel-etkinlik-kayit-check-in-checklist-v1.0.pdf"
         },
         {
           "type": "media",
@@ -63418,7 +63615,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Form tasarımında altın kural: gereksiz alan = düşük tamamlanma. Otel etkinliklerinde form, aynı zamanda check-in hızını belirler; çünkü formdaki veri badge’e basılacak ve listede aranacaktır."
+          "text": "Form tasarımında altın kural: gereksiz alan = düşük tamamlanma. Otel etkinliklerinde form, aynı zamanda check-in hızını belirler; çünkü formdaki veri badge’e basılacak ve listede aranacaktır. Özellikle [hibrit etkinliklerde online kayıt akışı](https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin) planlanıyorsa fiziksel kayıt ile dijital erişim verisinin aynı akışta düşünülmesi gerekir."
         },
         {
           "type": "h3",
@@ -63508,7 +63705,7 @@
         },
         {
           "type": "p",
-          "text": "İç link (AIO gereksinimi): /tr/pms-ota/rezervasyon-yonetimi (Varsayım: https://dgtlface.com + path) → https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+          "text": "Konaklamalı etkinliklerde [rooming list entegrasyonu](https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi), RSVP verisi ile oda planını aynı operasyonda buluşturur; böylece ön büro, satış ve etkinlik ekibi farklı listelerle çalışmak zorunda kalmaz."
         },
         {
           "type": "callout",
@@ -63536,7 +63733,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Check-in masası bir “masa” değil, bir kuyruk sistemidir. Akış; liste arama hızına, badge baskı düzenine ve yönlendirme netliğine bağlıdır."
+          "text": "Check-in masası bir “masa” değil, bir kuyruk sistemidir. İyi kurgulanmış bir [check-in masası akışı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); liste arama hızını, badge baskı düzenini ve yönlendirme netliğini aynı operasyonda toplar."
+        },
+        {
+          "type": "p",
+          "text": "Masa üzerindeki işlem tamamlandıktan sonra [check-in sonrası misafir akışı ve wayfinding](https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding) devreye girer; aksi halde kayıt noktası çözüldüğü anda fuaye ve salon girişlerinde yeni bir tıkanma başlar."
         },
         {
           "type": "h3",
@@ -63627,7 +63828,7 @@
           "variant": "primary",
           "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
           "text": "Online form, RSVP, master liste, check-in masası ve badge akışını PMS/CRM ve KVKK ile uyumlu şekilde kurup kuyrukları azaltın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -63653,8 +63854,12 @@
           "items": [
             "RSVP → katılım (show-up) → follow-up → teklif/rezervasyon sinyali",
             "GA4’te RSVP ve check-in event’lerini ayrı hedef olarak tanımlama (Varsayım: ölçüm altyapısı varsa)",
-            "Satış dönüşüm raporu bağlantısı (internal link): https://dgtlface.com/tr/raporlama/satis-donusum"
+            "Show-up, no-show ve follow-up alanları CRM yapısına göre işlenmeli"
           ]
+        },
+        {
+          "type": "p",
+          "text": "RSVP, katılım ve no-show verisini [etkinlik sonrası katılım raporu](https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps) içinde toplamak; aynı veri setini [kayıt verisinden satış dönüşümü](https://dgtlface.com/tr/raporlama/satis-donusum) perspektifiyle lead, teklif ve görüşme kalitesine bağlamayı kolaylaştırır."
         },
         {
           "type": "h3",
@@ -63720,25 +63925,19 @@
           ]
         },
         {
-          "type": "h3",
-          "text": "İç link (AIO gereksinimi)"
+          "type": "p",
+          "text": "Davet formu, RSVP hatırlatmaları ve etkinlik sonrası follow-up mesajlarını [etkinlik kayıt akışının otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) çerçevesinde planlamak; aynı veriyi yalnız operasyon için değil, görünürlük ve yeniden iletişim için de değerlendirmenizi sağlar."
         },
         {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
-            "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
-            "https://dgtlface.com/tr/raporlama/satis-donusum",
-            "https://dgtlface.com/tr/otel-dijital-pazarlama"
-          ]
+          "type": "p",
+          "text": "Süreç, ekip yapısı ve veri akışındaki operasyon detaylarını tek yerde görmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası da iyi bir tamamlayıcı kaynaktır."
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
           "text": "Online form, RSVP, master liste, check-in masası ve badge akışını PMS/CRM ve KVKK ile uyumlu şekilde kurup kuyrukları azaltın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -63848,11 +64047,12 @@
         "Rooming list → PMS eşleşmesi kontrolü",
         "RSVP → check-in → CRM ölçüm zinciri kontrolü",
         "KVKK erişim rolü ve saklama süresi tanımları kontrolü",
-        "Primary CTA → /creative/etkinlik-produksiyonu",
-        "Secondary CTA → /creative/video-produksiyon",
-        "Destek iç link → /pms-ota/rezervasyon-yonetimi",
-        "Destek iç link → /raporlama/satis-donusum",
-        "Destek iç link → /otel-dijital-pazarlama",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu",
+        "Secondary CTA → /downloads/otel-etkinlik-kayit-check-in-checklist-v1.0.pdf",
+        "Destek iç link → /tr/creative-ve-tasarim",
+        "Destek iç link → /tr/pms-ota/rezervasyon-yonetimi",
+        "Destek iç link → /tr/raporlama/satis-donusum",
+        "Destek iç link → /tr/otel-dijital-pazarlama",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
       ]
@@ -63910,7 +64110,7 @@
   },
   "h1": {
     "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
-    "intro": "“Etkinlikte herkes aynı yerde sıkışıyor, misafir akışını nasıl düzenlerim?” Bu soru; otel etkinliklerinde en pahalı hatayı işaret eder: akış hatası. Çünkü misafir ilk 5–10 dakikada kuyrukta beklerse, etkinliğin geri kalanında sahne ne kadar iyi olursa olsun zihninde “karmaşa” kalır. Misafir akışı; giriş, kayıt, vestiyer, salon kapıları, break-out alanları, tuvalet, sigara alanı ve bar gibi mikro noktaların bir sistem olarak tasarlanmasıdır. Doğru wayfinding (tabela/ikon/dijital ekran) ve kuyruk yönetimiyle hem güvenlik hem memnuniyet artar; ayrıca engelli misafirler için erişilebilir rota tasarımı, modern otel etkinlik standardının parçasıdır.",
+    "intro": "“Etkinlikte herkes aynı yerde sıkışıyor, misafir akışını nasıl düzenlerim?” sorusu çoğu zaman güçlü bir [misafir akışı tasarımı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) ihtiyacını gösterir. Çünkü misafir ilk 5–10 dakikada kuyrukta beklerse, etkinliğin geri kalanında sahne ne kadar iyi olursa olsun zihninde “karmaşa” kalır. Misafir akışı; giriş, kayıt, vestiyer, salon kapıları, break-out alanları, tuvalet, sigara alanı ve bar gibi mikro noktaların bir sistem olarak tasarlanmasıdır. Doğru wayfinding (tabela/ikon/dijital ekran) ve kuyruk yönetimiyle hem güvenlik hem memnuniyet artar; ayrıca engelli misafirler için erişilebilir rota tasarımı, modern otel etkinlik standardının parçasıdır.",
     "quickSummary": [
       "1) Girişten çıkışa tüm misafir rotalarını haritala",
       "2) Dar boğazları ve karar noktalarını önceden belirle",
@@ -63921,47 +64121,67 @@
     "ctaPrimary": {
       "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
       "text": "Otelinizin etkinlik alanına özel flow haritası, signage sistemi ve kuyruk planını birlikte tasarlayalım.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
       "text": "Girişten salona ve çıkışa kadar akışı haritalayıp signage ve kuyruk yönetimiyle tıkanmaları azaltın, memnuniyeti yükseltin.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Misafir Akışı & Yönlendirme Planı Şablonunu İndir",
       "text": "Flow haritası, tabela/ikon seti, kuyruk yerleşimi ve erişilebilir rota adımlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/misafir-akisi-yonlendirme-plani-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Etkinliklerinde Kayıt ve Check-in Akışı",
+      "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+    },
+    {
+      "label": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
+    },
+    {
+      "label": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Teknik SEO",
-      "href": "/seo/teknik-seo"
+      "href": "/tr/seo/teknik-seo"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
-      "href": "/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+      "title": "Otel Etkinliklerinde Kayıt ve Check-in Akışı",
+      "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
     },
     {
-      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
-      "href": "/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
+    },
+    {
+      "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
     }
   ],
   "sections": [
@@ -63971,7 +64191,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Başarılı akış tasarımı, “tabela asalım” değildir; akışı sadeleştirip karar noktalarını azaltmak demektir. Misafir, etkinlikte en fazla 3 karar vermelidir: “Nereye gideceğim?”, “Nereden gireceğim?”, “Nerede bekleyeceğim?”. Bu üç soruya hızlı yanıt veren sistem; harita + signage + dijital ekran + alan yerleşimiyle kurulur."
+          "text": "Başarılı akış tasarımı, “tabela asalım” değildir; akışı sadeleştirip karar noktalarını azaltmak demektir. Misafir, etkinlikte en fazla 3 karar vermelidir: “Nereye gideceğim?”, “Nereden gireceğim?”, “Nerede bekleyeceğim?”. İyi bir [wayfinding ve yönlendirme](https://dgtlface.com/tr/creative-ve-tasarim) sistemi; bu üç soruya hızlı yanıt veren harita, signage, dijital ekran ve alan yerleşimiyle kurulur."
         },
         {
           "type": "h3",
@@ -64101,7 +64321,7 @@
           "variant": "secondary",
           "label": "Misafir Akışı & Yönlendirme Planı Şablonunu İndir",
           "text": "Flow haritası, tabela/ikon seti, kuyruk yerleşimi ve erişilebilir rota adımlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
-          "href": "/creative/video-produksiyon"
+          "href": "/downloads/misafir-akisi-yonlendirme-plani-sablonu-v1.0.pdf"
         },
         {
           "type": "media",
@@ -64155,7 +64375,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu bölüm, en sık kriz çıkan yerdir. Çünkü herkes aynı anda gelir ve ilk temas burada olur. Çözüm; ayrı hatlar, net yönlendirme ve hızlı işlem tasarımıdır."
+          "text": "Bu bölüm, en sık kriz çıkan yerdir. Çünkü herkes aynı anda gelir ve ilk temas burada olur. Doğru bir [check-in sonrası misafir yönlendirme](https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin) kurgusu olmadan, kayıt masasında çözülen yoğunluk bu kez fuaye ve salon girişinde tekrar oluşur."
         },
         {
           "type": "h3",
@@ -64271,7 +64491,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Queue management, etkinlik UX’inin en ölçülebilir alanıdır. Kuyruklar tamamen yok olmayabilir; hedef, kuyruğu planlı ve rahat hale getirmektir."
+          "text": "Queue management, etkinlik UX’inin en ölçülebilir alanıdır. İyi kurgulanmış bir [kuyruk ve geçiş alanı yönetimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), kuyruğu tamamen yok etmese de planlı, okunur ve güvenli hale getirir."
+        },
+        {
+          "type": "p",
+          "text": "Özellikle çok girişli salonlar, açık alanlar ve breakout geçişlerinde [kalabalık ve geçiş alanı risk yönetimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi) devreye girer; çünkü dar boğazlar yalnız deneyimi değil acil çıkış güvenliğini de etkiler."
         },
         {
           "type": "h3",
@@ -64326,7 +64550,7 @@
           "variant": "primary",
           "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
           "text": "Girişten salona ve çıkışa kadar akışı haritalayıp signage ve kuyruk yönetimiyle tıkanmaları azaltın, memnuniyeti yükseltin.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -64365,14 +64589,11 @@
         },
         {
           "type": "p",
-          "text": "Erişilebilir signage; acil çıkış yönlendirmeleriyle çakışmamalı ama tutarlı olmalıdır. Kontrast ve font boyutu, erişilebilirliğin temelidir. (İç link: teknik SEO/erişilebilirlik bağlantısı)"
+          "text": "Erişilebilir signage; acil çıkış yönlendirmeleriyle çakışmamalı ama tutarlı olmalıdır. Kontrast, font boyutu ve [mobil etkinlik yönlendirme sayfası](https://dgtlface.com/tr/seo/teknik-seo) gibi hızlı açılan dijital bilgi katmanları, erişilebilirliğin temel parçalarıdır."
         },
         {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "https://dgtlface.com/tr/seo/teknik-seo"
-          ]
+          "type": "p",
+          "text": "Bahçe, beach veya havuz başı gibi alanlarda rota bir anda değişebileceği için [açık alan etkinliklerinde alternatif yönlendirme akışı](https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani) da erişilebilir senaryonun bir parçası olarak önceden tanımlanmalıdır."
         },
         {
           "type": "callout",
@@ -64436,7 +64657,7 @@
           "variant": "primary",
           "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
           "text": "Alan planınıza özel flow ve signage sistemini tasarlayıp kuyruk ve tıkanmaları azaltalım.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -64453,25 +64674,23 @@
           "text": "Otel etkinliklerinde fark; aynı alanda kayıt, vestiyer, kahve, WC ve salon girişinin eş zamanlı çalışmasıdır. Bu yüzden operasyonel UX yaklaşımı gerekir: akış haritası + signage dili + kuyruk tasarımı + erişilebilir rota."
         },
         {
-          "type": "h3",
-          "text": "İç link (AIO gereksinimi)"
+          "type": "p",
+          "text": "Akışın kayıt alanından sahne çevresine kadar nasıl hissedildiği, [misafir akışının etkinlik videosuna etkisi](https://dgtlface.com/tr/creative/video-produksiyon) açısından da belirleyicidir; çünkü tıkanma ve yön karmaşası olan alanlar görsel kalitede de dağınık bir deneyim üretir."
         },
         {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
-            "https://dgtlface.com/tr/creative/video-produksiyon",
-            "https://dgtlface.com/tr/seo/teknik-seo",
-            "https://dgtlface.com/tr/otel-dijital-pazarlama"
-          ]
+          "type": "p",
+          "text": "Düzgün işleyen yönlendirme, erişilebilir rota ve rahat giriş deneyimi; [akıcı etkinlik deneyiminin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından güçlüdür, çünkü misafir algısı hem içerik performansına hem de marka güvenine doğrudan yansır."
+        },
+        {
+          "type": "p",
+          "text": "Süreç, ekip planı ve operasyon detaylarını tek yerde görmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası da iyi bir tamamlayıcı kaynak olur."
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
           "text": "Girişten salona ve çıkışa kadar akışı haritalayıp signage ve kuyruk yönetimiyle tıkanmaları azaltın, memnuniyeti yükseltin.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -64561,10 +64780,11 @@
         "Engelsiz rota, rampa/asansör, engelsiz WC ve oturma alanı erişilebilirlik kontrolü",
         "Acil çıkış signage sistemi ile etkinlik wayfinding sisteminin çakışmadığı doğrulanmalı",
         "Saha walk-through ve go/no-go kontrolü yapılmalı",
-        "Primary CTA → /creative/etkinlik-produksiyonu",
-        "Secondary CTA → /creative/video-produksiyon",
-        "Destek iç link → /seo/teknik-seo",
-        "Destek iç link → /otel-dijital-pazarlama",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu",
+        "Secondary CTA → /downloads/misafir-akisi-yonlendirme-plani-sablonu-v1.0.pdf",
+        "Destek iç link → /tr/creative-ve-tasarim",
+        "Destek iç link → /tr/seo/teknik-seo",
+        "Destek iç link → /tr/otel-dijital-pazarlama",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
       ]
@@ -64622,7 +64842,7 @@
   },
   "h1": {
     "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler",
-    "intro": "“Etkinlikte güvenliği nasıl garanti altına alırım?”, “acil durumda ne yapacağımız belli değil, nereden başlamalıyım?” soruları, prodüksiyonun en kritik ama en az konuşulan kısmına işaret eder. Otel etkinliklerinde güvenlik; yalnız “kapıda güvenlik” değildir: kapasite planlaması, giriş–çıkış akışı, acil çıkışların açık tutulması, crowd control bariyerleri, medikal/teknik senaryolar ve ekiplerin aynı prosedürü bilmesiyle sağlanır. Bu rehber; hukuki tavsiye vermeden, operasyonel bir güvenlik playbook’u kurmanız için risk matrisi, tahliye planı ve briefing şablonlarıyla adım adım ilerler.",
+    "intro": "“Etkinlikte güvenliği nasıl garanti altına alırım?”, “acil durumda ne yapacağımız belli değil, nereden başlamalıyım?” soruları, prodüksiyonun en kritik ama en az konuşulan kısmına işaret eder. Otel etkinliklerinde güvenlik; yalnız “kapıda güvenlik” değildir: kapasite planlaması, giriş–çıkış akışı, acil çıkışların açık tutulması, crowd control bariyerleri, medikal/teknik senaryolar ve ekiplerin aynı prosedürü bilmesiyle sağlanır. Bu rehber; hukuki tavsiye vermeden, [etkinlik güvenlik planı](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) yaklaşımını risk matrisi, tahliye planı ve briefing şablonlarıyla adım adım kurmanız için ilerler.",
     "quickSummary": [
       "1) Risk matrisi çıkar ve kritik senaryoları yazılı hale getir",
       "2) Kapasite ile giriş–çıkış ve crowd control planını birlikte tasarla",
@@ -64633,47 +64853,67 @@
     "ctaPrimary": {
       "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
       "text": "Risk matrisi, kapasite planı ve tahliye prosedürünü etkinliğinize özel standardize edelim.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
       "text": "Risk matrisi, kapasite planı, crowd control ve tahliye prosedürleriyle etkinlik güvenliğini standartlaştırıp itibar riskini azaltın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Otel Etkinlikleri İçin Güvenlik & Tahliye Planı Şablonunu İndir",
       "text": "Risk matrisi, görev dağılımı, acil çıkış/tahliye şeması ve briefing notlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/otel-etkinlikleri-icin-guvenlik-tahliye-plani-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+    },
+    {
+      "label": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding",
+      "href": "/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    },
+    {
+      "label": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Sunucu Güvenlik",
-      "href": "/yazilim/sunucu-guvenlik"
+      "href": "/tr/yazilim/sunucu-guvenlik"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
-      "href": "/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+      "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
     },
     {
-      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
-      "href": "/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+      "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    },
+    {
+      "title": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
     }
   ],
   "sections": [
@@ -64683,7 +64923,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Güvenlik yönetimi, tek bir önlem değil zincirdir: risk analizi → kapasite → crowd control → acil durum planı → eğitim/briefing → tatbikat. Bu zincirin herhangi bir halkası zayıfsa, kriz anında sistem çalışmaz. Otel bağlamında ayrıca misafir profili çeşitliliği (çocuklu aile, VIP, alkol servisli etkinlik, açık alan) riskleri büyütebilir."
+          "text": "Güvenlik yönetimi, tek bir önlem değil zincirdir: risk analizi → kapasite → crowd control → acil durum planı → eğitim/briefing → tatbikat. Bu zincirin herhangi bir halkası zayıfsa, kriz anında sistem çalışmaz. Otel bağlamında ayrıca misafir profili çeşitliliği (çocuklu aile, VIP, alkol servisli etkinlik, açık alan) riskleri büyütebilir; bu yüzden [risk matrisi ve briefing](https://dgtlface.com/tr/creative-ve-tasarim) yalnız operasyon değil, deneyim tasarımının da parçasıdır."
         },
         {
           "type": "h3",
@@ -64887,7 +65127,7 @@
           "variant": "secondary",
           "label": "Otel Etkinlikleri İçin Güvenlik & Tahliye Planı Şablonunu İndir",
           "text": "Risk matrisi, görev dağılımı, acil çıkış/tahliye şeması ve briefing notlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
-          "href": "/creative/video-produksiyon"
+          "href": "/downloads/otel-etkinlikleri-icin-guvenlik-tahliye-plani-v1.0.pdf"
         }
       ]
     },
@@ -64897,7 +65137,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Crowd control, “çok güvenlik” değil; doğru akış tasarımıdır. Giriş–çıkış yönetimi; bariyer, sıra, ayrı hatlar ve “stop yetkisi” ile çalışır."
+          "text": "[crowd control](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), “çok güvenlik” değil; doğru akış tasarımıdır. Giriş–çıkış yönetimi; bariyer, sıra, ayrı hatlar ve “stop yetkisi” ile çalışır."
+        },
+        {
+          "type": "p",
+          "text": "Kapı önü, foyer ve koridorlarda [kalabalık ve geçiş alanı yönetimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding) netleşmediğinde kuyruk, yön karmaşası ve güvenlik riski aynı anda büyür."
         },
         {
           "type": "h3",
@@ -64962,6 +65206,10 @@
           "text": "Acil durum planı, yalnız yangın değildir: medikal olay, şiddet, teknik arıza veya hava kaynaklı hızlı boşaltma da tahliye gerektirebilir. Önemli olan; rol ve rota netliği."
         },
         {
+          "type": "p",
+          "text": "Özellikle bahçe, havuz başı ve sahil alanlarında [açık alan etkinliklerinde güvenlik B planı](https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani) önceden yazılı değilse tahliye kararı gecikir ve ekipler farklı senaryolara dağılabilir."
+        },
+        {
           "type": "h3",
           "text": "Tahliye planı bileşenleri"
         },
@@ -65010,7 +65258,7 @@
           "variant": "primary",
           "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
           "text": "Risk matrisi, kapasite planı, crowd control ve tahliye prosedürleriyle etkinlik güvenliğini standartlaştırıp itibar riskini azaltın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -65097,17 +65345,23 @@
         },
         {
           "type": "h3",
-          "text": "İç link (AIO gereksinimi)"
+          "text": "Operasyonel güvenliği büyüten tamamlayıcı katmanlar"
         },
         {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
-            "https://dgtlface.com/tr/creative/video-produksiyon",
-            "/tr/yazilim/sunucu-guvenlik (Varsayım: https://dgtlface.com + path) → https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-            "https://dgtlface.com/tr/otel-dijital-pazarlama"
-          ]
+          "type": "p",
+          "text": "Sahne önü, DJ alanı ve giriş-çıkış baskısının yüksek olduğu senaryolarda [festival ve beach party etkinliklerinde crowd control](https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon) yaklaşımı ayrıca gözden geçirilmelidir."
+        },
+        {
+          "type": "p",
+          "text": "Sahne çevresi, güvenli çekim koridorları ve kalabalık yönü doğru planlandığında [güvenli etkinlik akışının video prodüksiyon çıktısı](https://dgtlface.com/tr/creative/video-produksiyon) da güçlenir; çünkü dağınık akış, highlight ve aftermovie kalitesine doğrudan yansır."
+        },
+        {
+          "type": "p",
+          "text": "QR giriş, dijital kayıt veya canlı yayın kullanılan etkinliklerde [dijital etkinlik altyapısı güvenliği](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) fiziksel güvenlik planının tamamlayıcı parçasıdır."
+        },
+        {
+          "type": "p",
+          "text": "Bu hazırlıkların tümü, [güvenli etkinlik deneyiminin marka algısı](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından uzun vadeli güven üretir; süreç ve uygulama detaylarını tamamlamak için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası da faydalı bir sonraki adımdır."
         },
         {
           "type": "media",
@@ -65118,7 +65372,7 @@
           "variant": "primary",
           "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
           "text": "Büyük gala, festival ve konserler için crowd control ve tahliye senaryolarını sahaya uygun hale getirelim.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -65211,10 +65465,11 @@
         "Event-day güvenlik briefing ve walk-through tamamlanmalı",
         "Güvenlik–sağlık–teknik iletişim kanalı tekleştirilmeli",
         "İçerik operasyonel rehberdir; yerel regülasyon ve profesyonel güvenlik gereklilikleri ayrıca doğrulanmalı",
-        "Primary CTA → /creative/etkinlik-produksiyonu",
-        "Secondary CTA → /creative/video-produksiyon",
-        "Destek iç link → /yazilim/sunucu-guvenlik",
-        "Destek iç link → /otel-dijital-pazarlama",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu",
+        "Secondary CTA → /downloads/otel-etkinlikleri-icin-guvenlik-tahliye-plani-v1.0.pdf",
+        "Destek iç link → /tr/creative-ve-tasarim",
+        "Destek iç link → /tr/yazilim/sunucu-guvenlik",
+        "Destek iç link → /tr/otel-dijital-pazarlama",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
       ]
@@ -65272,7 +65527,7 @@
   },
   "h1": {
     "title": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
-    "intro": "“Etkinlik bitti, şimdi neyi nasıl raporlamalıyım?” Etkinlik sonrası raporlama; sadece geçmişi arşivlemek değil, bir sonraki etkinliği daha iyi yönetmek için öğrenme döngüsü kurmaktır. Otel etkinliklerinde; gala, kongre/MICE, düğün ve festival gibi organizasyonların başarısı misafir memnuniyeti, finansal sonuç ve marka etkisinin birlikte okunmasıyla anlaşılır. NPS ve memnuniyet skorları deneyimin fotoğrafını verir; gelir–maliyet analizi kârlılığı gösterir; sosyal medya/PR etkisi ise görünürlük ve talep sinyallerini açıklar. Bu üç veri setini aksiyon planına bağlamazsanız rapor yalnızca bir dosya olur; bağlarsanız her etkinlikten öğrenen bir sisteme dönüşür.",
+    "intro": "“Etkinlik bitti, şimdi neyi nasıl raporlamalıyım?” [Etkinlik sonrası raporlama](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); sadece geçmişi arşivlemek değil, bir sonraki etkinliği daha iyi yönetmek için öğrenme döngüsü kurmaktır. Otel etkinliklerinde; gala, kongre/MICE, düğün ve festival gibi organizasyonların başarısı misafir memnuniyeti, finansal sonuç ve marka etkisinin birlikte okunmasıyla anlaşılır. NPS ve memnuniyet skorları deneyimin fotoğrafını verir; gelir–maliyet analizi kârlılığı gösterir; sosyal medya/PR etkisi ise görünürlük ve talep sinyallerini açıklar. Bu üç veri setini aksiyon planına bağlamazsanız rapor yalnızca bir dosya olur; bağlarsanız her etkinlikten öğrenen bir sisteme dönüşür.",
     "quickSummary": [
       "1) NPS + 3–5 kısa soruyla misafir deneyimini ölç",
       "2) Planlanan ve gerçekleşen gelir–maliyeti kalem bazında karşılaştır",
@@ -65283,47 +65538,67 @@
     "ctaPrimary": {
       "label": "Etkinlik Sonrası Raporlama & NPS Danışmanlığı Al",
       "text": "NPS, gelir–maliyet ve sosyal etkiyi tek raporda birleştirip her etkinlikten aksiyon çıkaran bir öğrenme sistemi kurun.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Etkinlik Sonrası Raporlama & NPS Danışmanlığı Al",
       "text": "NPS, gelir–maliyet ve sosyal etkiyi tek raporda birleştirip her etkinlikten aksiyon çıkaran bir öğrenme sistemi kurun.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Etkinlik Sonrası NPS + Gelir & Aksiyon Planı Şablonunu İndir",
       "text": "Kısa anket, finans tablosu ve aksiyon matrisiyle 30 dakikada mini rapor hazırlayıp ekibi aynı sayfaya getirir.",
-      "href": "/raporlama/looker-studio"
+      "href": "/downloads/etkinlik-sonrasi-nps-gelir-aksiyon-plani-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
-      "label": "Etkinlik Prodüksiyonu hizmet sayfası",
-      "href": "/creative/etkinlik-produksiyonu"
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     {
-      "label": "Looker Studio raporlama",
-      "href": "/raporlama/looker-studio"
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
     },
     {
-      "label": "Satış ve dönüşüm raporlama",
-      "href": "/raporlama/satis-donusum"
+      "label": "Otel Etkinlik Prodüksiyon Bütçesi Planı",
+      "href": "/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
     },
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Otel Etkinliklerinde Kayıt ve Check-in Akışı",
+      "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+    },
+    {
+      "label": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+      "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporlama",
+      "href": "/tr/raporlama/satis-donusum"
+    },
+    {
+      "label": "Looker Studio",
+      "href": "/tr/raporlama/looker-studio"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Looker Studio ile Raporlama ve Dashboard Yönetimi",
-      "href": "/raporlama/looker-studio"
+      "title": "Otel Etkinlik Prodüksiyon Bütçesi Nasıl Planlanır? Maliyet Kalemleri ve Fiyatlandırma",
+      "href": "/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
     },
     {
-      "title": "Satış ve Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "title": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+      "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+    },
+    {
+      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+      "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
     }
   ],
   "sections": [
@@ -65333,7 +65608,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "İyi bir post-event rapor, 4 bloktan oluşur: (1) NPS/memnuniyet, (2) gelir–maliyet/kârlılık, (3) sosyal medya/PR etkisi, (4) aksiyon planı. Bu blokların her biri tek başına anlamlıdır; ancak birlikte okunduğunda neden görünür olur: memnuniyet düştüyse hangi noktada, kârlılık azaldıysa hangi kalemde, görünürlük yükseldiyse hangi içerik sayesinde?"
+          "text": "İyi bir post-event rapor, 4 bloktan oluşur: (1) [NPS ve memnuniyet](https://dgtlface.com/tr/creative-ve-tasarim), (2) gelir–maliyet/kârlılık, (3) sosyal medya/PR etkisi, (4) aksiyon planı. Bu blokların her biri tek başına anlamlıdır; ancak birlikte okunduğunda neden görünür olur: memnuniyet düştüyse hangi noktada, kârlılık azaldıysa hangi kalemde, görünürlük yükseldiyse hangi içerik sayesinde?"
         },
         {"type":"media","slot":"h1-context-02"},
         {
@@ -65433,7 +65708,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "NPS'nin gücü, tek soruyla etkinlikler arasında kıyas imkânı vermesidir. Ancak NPS tek başına yeterli değildir; skoru açıklayan nedeni bulabilmek için 3–5 kısa destek sorusu eklenmelidir. Kritik kural, anketin kısa tutulmasıdır. Anket uzadıkça yanıt oranı ve cevap kalitesi düşebilir."
+          "text": "Sağlıklı bir [NPS ve memnuniyet ölçümü](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), tek etkinlik sonucunu görmekten fazlasını sağlar; organizasyonlar arasında kıyas yapmayı ve zayıf halkayı bulmayı kolaylaştırır. Ancak NPS tek başına yeterli değildir; skoru açıklayan nedeni bulabilmek için 3–5 kısa destek sorusu eklenmelidir. Kritik kural, anketin kısa tutulmasıdır. Anket uzadıkça yanıt oranı ve cevap kalitesi düşebilir."
         },
         {
           "type": "h3",
@@ -65476,6 +65751,10 @@
           ]
         },
         {
+          "type": "p",
+          "text": "Anket sonuçlarını [etkinlik katılım ve check-in raporu](https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin) ile birlikte okumak, no-show oranı ile gerçek katılımcı memnuniyeti arasındaki farkı daha sağlıklı yorumlamayı sağlar."
+        },
+        {
           "type": "media",
           "slot": "proof-08"
         },
@@ -65505,7 +65784,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Etkinlik finansı yalnız gelirden oluşmaz; maliyet kalemlerinin doğru kapanmasıyla gerçek kârlılık görünür hale gelir. Otellerde banket/F&B ile prodüksiyon maliyetini ayrı okumak gerekir. Sponsorluk, partner gelirleri ve ek hizmetler varsa bunlar da aynı finansal çerçevede değerlendirilmelidir."
+          "text": "Sağlıklı bir [gelir maliyet analizi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama), etkinlik finansını yalnız ciro üzerinden değil; kapanan maliyet kalemleri ve sapma nedenleri üzerinden okur. Otellerde banket/F&B ile prodüksiyon maliyetini ayrı okumak gerekir. Sponsorluk, partner gelirleri ve ek hizmetler varsa bunlar da aynı finansal çerçevede değerlendirilmelidir."
         },
         {
           "type": "h3",
@@ -65628,6 +65907,10 @@
           "text": "Bazı etkinliklerde ana amaç görünürlüktür; festival ve lansmanlar buna örnektir. Bazılarında ise B2B ilişki ve lead üretimi, özellikle MICE organizasyonlarında daha öncelikli olabilir. Sosyal medya ve PR etkisini post-event rapora eklemek, içerik üretimi ve sonraki etkinlik bütçesi kararlarını daha sağlıklı vermeyi sağlar."
         },
         {
+          "type": "p",
+          "text": "Özellikle kurumsal ve satış odaklı organizasyonlarda [etkinliğin satış ve dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum), sosyal görünürlük kadar önemlidir; çünkü lead, teklif ve rezervasyon sinyalleri raporun ticari tarafını tamamlar."
+        },
+        {
           "type": "h3",
           "text": "Ölçülecek sosyal medya ve PR metrikleri"
         },
@@ -65677,7 +65960,7 @@
         },
         {
           "type": "p",
-          "text": "Raporun en değerli kısmı aksiyon planıdır. “Ne iyi gitti?” ve “ne geliştirilmeli?” sorularından 3–5 aksiyon çıkarın ve her aksiyona sorumlu ile tarih ekleyin. Pratik kullanım için iki raporlama senaryosu oluşturulabilir: etkinlikten hemen sonra hazırlanan 30 dakikalık mini rapor ve etkinlikler arası trendleri değerlendiren sezon sonu derin rapor."
+          "text": "Raporun en değerli kısmı aksiyon planıdır. “Ne iyi gitti?” ve “ne geliştirilmeli?” sorularından çıkan öğrenimleri [bir sonraki etkinlik için aksiyon planı](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) olarak yazın ve her aksiyona sorumlu ile tarih ekleyin. Pratik kullanım için iki raporlama senaryosu oluşturulabilir: etkinlikten hemen sonra hazırlanan 30 dakikalık mini rapor ve etkinlikler arası trendleri değerlendiren sezon sonu derin rapor."
         },
         {
           "type": "h3",
@@ -65744,7 +66027,7 @@
           "variant": "primary",
           "label": "Etkinlik Sonrası Raporlama & NPS Danışmanlığı Al",
           "text": "NPS, gelir–maliyet ve sosyal etkiyi tek raporda birleştirip her etkinlikten aksiyon çıkaran bir öğrenme sistemi kurun.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         },
         {
           "type": "download_asset",
@@ -65790,6 +66073,10 @@
           "text": "Post-event raporlama yalnız hangi KPI'ların ölçüldüğüyle değil, verinin nasıl toplandığı, saklandığı ve tekrar kullanılabilir hale getirildiğiyle de ilgilidir. NPS anketinden finans verisine kadar tüm veri setlerinin tutarlı kurallarla yönetilmesi gerekir."
         },
         {
+          "type": "p",
+          "text": "Bu verileri tek ekranda görmek için bir [Looker Studio etkinlik dashboard’u](https://dgtlface.com/tr/raporlama/looker-studio) kurmak, NPS, katılım, gelir, maliyet ve kampanya etkisini etkinlikler arasında karşılaştırmayı kolaylaştırır."
+        },
+        {
           "type": "list",
           "style": "ul",
           "items": [
@@ -65833,18 +66120,26 @@
           "text": "En uygulanabilir model; 48–72 saat içinde mini raporu tamamlamak, 3–5 aksiyona owner ve tarih atamak ve sonuçları Looker Studio gibi bir dashboard üzerinde etkinlikler arasında karşılaştırmaktır. Böylece her gala, MICE organizasyonu veya özel etkinlik bir sonraki organizasyon için ölçülebilir bir öğrenme kaynağı üretir."
         },
         {
+          "type": "p",
+          "text": "Raporun içerik, görünürlük ve yeniden kullanım tarafını [etkinlik sonrası dijital pazarlama aksiyonları](https://dgtlface.com/tr/otel-dijital-pazarlama) ile kapattığınızda, aynı etkinlik bir sonraki kampanya ve remarketing süreci için de değer üretir."
+        },
+        {
+          "type": "p",
+          "text": "Süreç, teslimatlar ve uygulama detaylarını tek yerde görmek isterseniz [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası bu raporlama katmanını iyi tamamlar."
+        },
+        {
           "type": "cta",
           "variant": "primary",
           "label": "Etkinlik Sonrası Raporlama & NPS Danışmanlığı Al",
           "text": "NPS, gelir–maliyet ve sosyal etkiyi tek raporda birleştirip her etkinlikten aksiyon çıkaran bir öğrenme sistemi kurun.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         },
         {
           "type": "cta",
           "variant": "secondary",
           "label": "Etkinlik Sonrası NPS + Gelir & Aksiyon Planı Şablonunu İndir",
           "text": "Kısa anket, finans tablosu ve aksiyon matrisiyle 30 dakikada mini rapor hazırlayıp ekibi aynı sayfaya getirir.",
-          "href": "/raporlama/looker-studio"
+          "href": "/downloads/etkinlik-sonrasi-nps-gelir-aksiyon-plani-sablonu-v1.0.pdf"
         }
       ]
     }
@@ -65893,11 +66188,11 @@
         "TR/EN alternatif sayfalar varsa hreflang karşılıklılık kontrolü",
         "Article/BlogPosting + WebPage + BreadcrumbList schema @graph yapısı kontrolü",
         "FAQ sayfa içinde yayınlanıyorsa FAQPage uygunluğu ve görünür içerikle eşleşmesi kontrolü",
-        "Primary CTA → /creative/etkinlik-produksiyonu iç linki kontrolü",
-        "Looker Studio → /raporlama/looker-studio iç linki kontrolü",
-        "Satış & Dönüşüm → /raporlama/satis-donusum iç linki kontrolü",
-        "Otel Dijital Pazarlama → /otel-dijital-pazarlama iç linki kontrolü",
-        "Download asset CTA hedefi gerçek asset oluşturulduğunda nihai dosya/landing URL ile güncellenecek",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu iç linki kontrolü",
+        "Looker Studio → /tr/raporlama/looker-studio iç linki kontrolü",
+        "Satış & Dönüşüm → /tr/raporlama/satis-donusum iç linki kontrolü",
+        "Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama iç linki kontrolü",
+        "Secondary CTA → /downloads/etkinlik-sonrasi-nps-gelir-aksiyon-plani-sablonu-v1.0.pdf",
         "NPS ve anket verilerinde KVKK veri erişimi/saklama yaklaşımı doğrulanacak",
         "Tablo responsive görünüm ve mobil overflow kontrolü yapılacak",
         "CWV ve medya lazy-loading kontrolü yapılacak"
@@ -65957,7 +66252,7 @@
   },
   "h1": {
     "title": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber",
-    "intro": "“Sponsorluk almak istiyoruz ama etkinliği panayır alanına çevirmek istemiyoruz, nasıl denge kurarım?” Otel etkinliklerinde sponsorluk, doğru kurgulanırsa bütçeyi destekler ve deneyime değer katabilir; yanlış kurgulanırsa marka algısını zayıflatır, görsel karmaşa yaratır ve misafiri yorar. Prodüksiyon perspektifiyle baktığımızda denge; sponsorun görünürlüğünü her yere logo basmak yerine doğru alan, doğru sıklık ve ölçülebilir karşılık üzerinden yönetmektir. Bu rehber; sponsor profili seçimi, alan planı, paket kurgusu, logo yerleşimi, aktivasyon tasarımı ve sponsorluk raporlamasıyla otel markasını koruyan bir sistem sunar.",
+    "intro": "“Sponsorluk almak istiyoruz ama etkinliği panayır alanına çevirmek istemiyoruz, nasıl denge kurarım?” Otel etkinliklerinde sponsorluk, doğru kurgulanırsa bütçeyi destekler ve deneyime değer katabilir; yanlış kurgulanırsa marka algısını zayıflatır, görsel karmaşa yaratır ve misafiri yorar. Prodüksiyon perspektifiyle baktığımızda denge; sponsorun görünürlüğünü her yere logo basmak yerine doğru alan, doğru sıklık ve ölçülebilir karşılık üzerinden yönetmektir. Bu rehber; [etkinlik sponsorluk paketleri](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), sponsor profili seçimi, alan planı, logo yerleşimi, aktivasyon tasarımı ve sponsorluk raporlamasıyla otel markasını koruyan bir sistem sunar.",
     "quickSummary": [
       "1) Etkinlik kitlesine uygun sponsor profilini belirle",
       "2) Sponsor alanı ve aktivasyonları misafir akışına göre planla",
@@ -65968,47 +66263,63 @@
     "ctaPrimary": {
       "label": "Etkinlik Sponsorluk & Marka Ortaklığı Stratejisi Danışmanlığı Al",
       "text": "Sponsorluk gelirini artırırken sponsor alanı, logo yerleşimi ve aktivasyonları deneyimi bozmadan kurgulayın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Etkinlik Sponsorluk & Marka Ortaklığı Stratejisi Danışmanlığı Al",
       "text": "Sponsorluk gelirini artırırken sponsor alanı, logo yerleşimi ve aktivasyonları deneyimi bozmadan kurgulayın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Sponsorluk Paket & Alan Planı Şablonunu İndir",
       "text": "Gold/Silver/Bronze paketlerini, alan yerleşimini, logo kullanım kurallarını ve rapor metriklerini tek dokümanda toplayıp uygulamayı hızlandırır.",
-      "href": "/creative-ve-tasarim"
+      "href": "/downloads/sponsorluk-pkaet-alan-plani-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
-      "label": "Etkinlik Prodüksiyonu hizmet sayfası",
-      "href": "/creative/etkinlik-produksiyonu"
-    },
-    {
-      "label": "Satış ve Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     {
       "label": "Creative ve Tasarım",
-      "href": "/creative-ve-tasarim"
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi",
+      "href": "/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim"
+    },
+    {
+      "label": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
+    },
+    {
+      "label": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+      "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporlama",
+      "href": "/tr/raporlama/satis-donusum"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
-      "href": "/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      "title": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi",
+      "href": "/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim"
     },
     {
-      "title": "Etkinlik Prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "title": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
+    },
+    {
+      "title": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
+      "href": "/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
     }
   ],
   "sections": [
@@ -66018,7 +66329,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Başarılı sponsorluk; 5 parçalı bir sistemdir: (1) hedef sponsor profili, (2) sponsor alanı ve aktivasyon planı, (3) logo/sahne/ekran entegrasyonu, (4) paket ve fiyatlama, (5) raporlama ve uzun vadeli ilişki. Bu parçalar yazılı değilse sponsor daha fazla görünürlük ister, otel ise daha az karmaşa ister; sonuçta beklenti ve operasyon çatışması oluşur."
+          "text": "Başarılı sponsorluk; 5 parçalı bir sistemdir: (1) hedef sponsor profili, (2) sponsor alanı ve aktivasyon planı, (3) logo/sahne/ekran entegrasyonu, (4) paket ve fiyatlama, (5) raporlama ve uzun vadeli ilişki. Bu yapıdaki [marka ortaklıkları](https://dgtlface.com/tr/creative-ve-tasarim) yazılı değilse sponsor daha fazla görünürlük ister, otel ise daha az karmaşa ister; sonuçta beklenti ve operasyon çatışması oluşur."
         },
         {"type":"media","slot":"h1-context-02"},
         {
@@ -66126,7 +66437,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sponsor alanı planı, prodüksiyon planı kadar önemlidir. Standlar ve aktivasyonlar misafir akışını değiştirir, kuyruk yaratabilir ve yanlış konumlandırıldığında güvenlik riski doğurabilir. Bu nedenle sponsor alanları yalnız ticari görünürlük açısından değil; giriş, çıkış, geçiş noktaları, acil çıkışlar, elektrik ve lojistik ihtiyaçlarıyla birlikte flow haritasının parçası olarak planlanmalıdır."
+          "text": "Sponsor alanı planı, prodüksiyon planı kadar önemlidir. Standlar ve aktivasyonlar misafir akışını değiştirir, kuyruk yaratabilir ve yanlış konumlandırıldığında güvenlik riski doğurabilir. Bu nedenle [sponsor alan ve logo yerleşimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) yalnız ticari görünürlük açısından değil; giriş, çıkış, geçiş noktaları, acil çıkışlar, elektrik ve lojistik ihtiyaçlarıyla birlikte flow haritasının parçası olarak planlanmalıdır."
         },
         {
           "type": "h3",
@@ -66155,6 +66466,10 @@
             "Ürün demo veya tadım",
             "Mini oyun veya çekiliş — KVKK ve gerekli izinler açısından ayrıca değerlendirilmelidir (Varsayım)"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Açık alan kurgularında [festival ve beach party sponsor alanları](https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon) daha görünür olsa da, yüksek görünürlük ile misafir akışı arasındaki denge ayrıca planlanmalıdır."
         },
         {
           "type": "media",
@@ -66186,7 +66501,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Logo görünürlüğü çok logo kullanmakla değil, doğru temas noktasında doğru frekansla sağlanır. Sahne ve LED ekranlarda amaç sponsor haklarını karşılamak kadar etkinliğin ana mesajını ve otel markasını korumaktır. Bu nedenle her sponsora ayrı ayrı görünürlük eklemek yerine önceden tanımlanmış logo alanları, ekran döngüleri ve co-branding kuralları kullanılmalıdır."
+          "text": "Logo görünürlüğü çok logo kullanmakla değil, doğru temas noktasında doğru frekansla sağlanır. Sahne ve LED ekranlarda amaç sponsor haklarını karşılamak kadar etkinliğin ana mesajını ve otel markasını korumaktır. Bu nedenle [sponsor logo görünürlüğü ve stage branding](https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim) yaklaşımıyla, her sponsora ayrı ayrı görünürlük eklemek yerine önceden tanımlanmış logo alanları, ekran döngüleri ve co-branding kuralları kullanılmalıdır."
         },
         {
           "type": "h3",
@@ -66342,7 +66657,7 @@
           "variant": "primary",
           "label": "Etkinlik Sponsorluk & Marka Ortaklığı Stratejisi Danışmanlığı Al",
           "text": "Sponsorluk gelirini artırırken sponsor alanı, logo yerleşimi ve aktivasyonları deneyimi bozmadan kurgulayın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         },
         {
           "type": "download_asset",
@@ -66384,7 +66699,7 @@
         },
         {
           "type": "p",
-          "text": "Sponsorun bir sonraki etkinlikte veya sonraki yıl yeniden bütçe ayırması için yalnızca görünürlük sağlandığını söylemek yeterli değildir. Sponsorluk raporu; sponsorun aldığı görünürlüğü, aktivasyon katılımını, dijital etkileşimi, lead sinyallerini ve içerik çıktısını ölçülebilir bir çerçevede göstermelidir. Böylece iş birliği tek etkinliklik bir satın alma olmaktan çıkıp veriye dayalı uzun vadeli ortaklığa dönüşebilir."
+          "text": "Sponsorun bir sonraki etkinlikte veya sonraki yıl yeniden bütçe ayırması için yalnızca görünürlük sağlandığını söylemek yeterli değildir. [Sponsorluk raporlaması](https://dgtlface.com/tr/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps); sponsorun aldığı görünürlüğü, aktivasyon katılımını, dijital etkileşimi, lead sinyallerini ve içerik çıktısını ölçülebilir bir çerçevede göstermelidir. Böylece iş birliği tek etkinliklik bir satın alma olmaktan çıkıp veriye dayalı uzun vadeli ortaklığa dönüşebilir."
         },
         {
           "type": "h3",
@@ -66409,7 +66724,7 @@
         },
         {
           "type": "p",
-          "text": "Sponsorluk raporunda UTM kullanımı ve QR scan, form submit veya benzeri event tracking olayları basit ama güçlü bir ölçüm katmanı oluşturur. Sponsorun hangi kanaldan trafik veya lead ürettiği görülebildiğinde, sonraki dönem paketlerinin kapsamı ve fiyatlaması daha somut verilere dayandırılabilir. Bu yapı satış ve dönüşüm raporlamasıyla birlikte okunabilir."
+          "text": "Sponsorluk raporunda UTM kullanımı ve QR scan, form submit veya benzeri event tracking olayları basit ama güçlü bir ölçüm katmanı oluşturur. Sponsorun hangi kanaldan trafik veya lead ürettiği görülebildiğinde, sonraki dönem paketlerinin kapsamı ve fiyatlaması daha somut verilere dayandırılabilir. Bu yapı, [sponsor görünürlüğünün satış etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) ile birlikte okunduğunda daha anlamlı hale gelir."
         },
         {
           "type": "callout",
@@ -66489,11 +66804,19 @@
           "text": "Gold–Silver–Bronze paket yapısı satış sürecini sadeleştirirken UTM, QR ve event tracking destekli raporlama sponsorun aldığı değeri görünür hale getirir. Böylece tek seferlik sponsorluk anlaşmaları yerine ölçülebilir, geliştirilebilir ve tekrar edilebilir marka ortaklıkları kurulabilir."
         },
         {
+          "type": "p",
+          "text": "İçeriklerin web, sosyal medya, reklam ve kampanya tarafında nasıl yeniden kullanılacağını planlamak için [sponsorlu etkinliklerin dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) yaklaşımı da bu ticari yapının tamamlayıcı parçasıdır."
+        },
+        {
+          "type": "p",
+          "text": "Prodüksiyon, teslimatlar ve uygulama akışıyla ilgili daha geniş çerçeve için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası iyi bir sonraki adım olur."
+        },
+        {
           "type": "cta",
           "variant": "primary",
           "label": "Etkinlik Sponsorluk & Marka Ortaklığı Stratejisi Danışmanlığı Al",
           "text": "Sponsorluk gelirini artırırken sponsor alanı, logo yerleşimi ve aktivasyonları deneyimi bozmadan kurgulayın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     }
@@ -66541,16 +66864,16 @@
         "TR/EN alternatif sayfalar varsa hreflang karşılıklılık kontrolü",
         "Article/BlogPosting + WebPage + BreadcrumbList schema @graph yapısı kontrolü",
         "FAQ görünür içerikle birebir eşleşiyorsa FAQPage uygunluğu ayrıca kontrol edilecek",
-        "Primary CTA → /creative/etkinlik-produksiyonu iç linki kontrolü",
-        "Satış & Dönüşüm → /raporlama/satis-donusum iç linki kontrolü",
-        "Creative ve Tasarım → /creative-ve-tasarim iç linki kontrolü",
-        "Otel Dijital Pazarlama → /otel-dijital-pazarlama iç linki kontrolü",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu iç linki kontrolü",
+        "Satış & Dönüşüm → /tr/raporlama/satis-donusum iç linki kontrolü",
+        "Creative ve Tasarım → /tr/creative-ve-tasarim iç linki kontrolü",
+        "Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama iç linki kontrolü",
         "Sponsor veya ücretli iş birliği dış linklerinde rel=\"sponsored\" politikasının uygulanması kontrol edilecek",
         "Gerekli durumlarda sponsor dış linklerinde nofollow kullanımı editoryal politika ile doğrulanacak",
         "UTM isimlendirme standardı etkinlik ve sponsor bazında tutarlı olacak",
         "QR scan, form submit ve lead event tracking ölçümleri etkinlik öncesinde test edilecek",
         "Sponsor lead veya katılımcı verisi toplanıyorsa KVKK ve veri erişim süreci ayrıca doğrulanacak",
-        "Download asset CTA hedefi gerçek dosya/landing URL hazırlandığında nihai URL ile güncellenecek",
+        "Secondary CTA → /downloads/sponsorluk-pkaet-alan-plani-sablonu-v1.0.pdf",
         "Sponsorluk Paket Tablosu mobil responsive ve horizontal overflow açısından kontrol edilecek",
         "Media lazy-loading, width/height ve CWV kontrolleri yapılacak"
       ]
@@ -66609,7 +66932,7 @@
   },
   "h1": {
     "title": "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
-    "intro": "“Etkinlikte bileklik ve uygulama kullanmak istiyoruz ama misafir deneyimi bozulur mu?” Bu soru yerinde; çünkü teknoloji, iyi tasarlanırsa kuyrukları azaltır ve deneyimi hızlandırır, kötü tasarlanırsa ek yük olur. Event app, NFC bileklik, social wall ve live poll gibi katmanlar otel etkinliklerinde üç şeyi aynı anda hedefler: hız, etkileşim ve ölçüm. Ancak bu katmanların çalışması için kayıt/opt-in, altyapı, destek masası ve veri güvenliği süreçleri baştan planlanmalıdır. Bu rehber, teknolojiyi gösteriş değil operasyonel değer olarak konumlandıran bir çerçeve sunar.",
+    "intro": "“Etkinlikte bileklik ve uygulama kullanmak istiyoruz ama misafir deneyimi bozulur mu?” Bu soru yerinde; çünkü teknoloji, iyi tasarlanırsa kuyrukları azaltır ve deneyimi hızlandırır, kötü tasarlanırsa ek yük olur. [event app](https://dgtlface.com/tr/creative/etkinlik-produksiyonu), NFC bileklik, social wall ve live poll gibi katmanlar otel etkinliklerinde üç şeyi aynı anda hedefler: hız, etkileşim ve ölçüm. Ancak bu katmanların çalışması için kayıt/opt-in, altyapı, destek masası ve veri güvenliği süreçleri baştan planlanmalıdır. Bu rehber, teknolojiyi gösteriş değil operasyonel değer olarak konumlandıran bir çerçeve sunar.",
     "quickSummary": [
       "1) Önce kayıt, check-in ve diğer operasyonel bottleneck'leri belirle",
       "2) Minimum set-up olarak mobil check-in ve temel event app akışını stabilize et",
@@ -66620,51 +66943,71 @@
     "ctaPrimary": {
       "label": "Etkinlik Teknolojisi & Event App Danışmanlığı Al",
       "text": "Event app, NFC ve dijital ekranları misafir akışını bozmadan kurup ölçülebilir bir deneyime dönüştürün.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Etkinlik Teknolojisi & Event App Danışmanlığı Al",
       "text": "Event app, NFC ve dijital ekranları misafir akışını bozmadan kurup ölçülebilir bir deneyime dönüştürün.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Event App + NFC Kullanım Akışı Şablonunu İndir",
       "text": "Kayıt, check-in, cashless kullanım, sosyal entegrasyon ve raporlama adımlarını tek akış şemasında toplayıp uygulamayı hızlandırır.",
-      "href": "/raporlama/looker-studio"
+      "href": "/downloads/event-app-nfc-kullanım-akisi-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
-      "label": "Etkinlik Prodüksiyonu hizmet sayfası",
-      "href": "/creative/etkinlik-produksiyonu"
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+    },
+    {
+      "label": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding",
+      "href": "/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    },
+    {
+      "label": "Otel Etkinlik Heatmap & Sensör Analitiği Rehberi",
+      "href": "/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor"
     },
     {
       "label": "Rezervasyon Yönetimi",
-      "href": "/pms-ota/rezervasyon-yonetimi"
+      "href": "/tr/pms-ota/rezervasyon-yonetimi"
     },
     {
-      "label": "Looker Studio Raporlama",
-      "href": "/raporlama/looker-studio"
+      "label": "Looker Studio",
+      "href": "/tr/raporlama/looker-studio"
     },
     {
       "label": "KVKK Uyum Hizmeti",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "href": "/tr/yazilim/kvkk-uyum-hizmeti"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinlik Sonrası Raporlama ve NPS: Memnuniyet, Gelir ve Geri Dönüşüm",
-      "href": "/creative/blog/otel-etkinlik-sonrasi-raporlama-ve-nps"
+      "title": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+      "href": "/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
     },
     {
-      "title": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları",
-      "href": "/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
+      "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+      "href": "/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    },
+    {
+      "title": "Otel Etkinliklerinde Alan ve Kitle Analitiği: Heatmap, IoT Sensör ve Veriyle İyileştirme",
+      "href": "/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor"
     }
   ],
   "sections": [
@@ -66674,7 +67017,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Teknoloji katmanı kurmanın doğru yolu, önce misafir akışını tanımlamaktır: kayıt → check-in → salon girişi → etkileşim → harcama → çıkış → rapor. Event app ve NFC bu zincirin farklı halkalarını hızlandırabilir. Ancak her fonksiyonu ilk günden uygulamaya yığmak yerine minimum viable deneyim ile başlayıp mobil check-in ve temel bildirim akışını stabilize etmek, ardından NFC ve canlı etkileşim katmanlarını eklemek daha yönetilebilir bir yaklaşımdır."
+          "text": "Teknoloji katmanı kurmanın doğru yolu, önce misafir akışını tanımlamaktır: kayıt → check-in → salon girişi → etkileşim → harcama → çıkış → rapor. [cashless etkinlik deneyimi](https://dgtlface.com/tr/creative-ve-tasarim), event app ve NFC gibi araçların yalnız teknik kurulum değil; hız, yönlendirme ve kullanıcı temas noktalarıyla birlikte tasarlandığında değer üretir. Ancak her fonksiyonu ilk günden uygulamaya yığmak yerine minimum viable deneyim ile başlayıp mobil check-in ve temel bildirim akışını stabilize etmek, ardından NFC ve canlı etkileşim katmanlarını eklemek daha yönetilebilir bir yaklaşımdır."
         },
          {"type":"media","slot":"h1-context-02"},
         {
@@ -66683,7 +67026,7 @@
         },
         {
           "type": "p",
-          "text": "Event app ve NFC bilekliği kurgulamak için önce kayıt/opt-in sürecini netleştirip mobil check-in'i basitleştirin. NFC'yi cashless harcama ve alan geçişleri için kullanırken PMS/CRM ile veri eşleşmesini planlayın; social wall ve live poll'u program akışına bağlayın. Etkinlik sonrası Looker Studio gibi panellerle check-in süresi, etkileşim ve harcama akışını raporlayıp bir sonraki etkinlik için aksiyon çıkarın."
+          "text": "Event app ve NFC bilekliği kurgulamak için önce [mobil check-in ve RSVP akışı](https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin) tarafını netleştirip giriş deneyimini basitleştirin. NFC'yi cashless harcama ve alan geçişleri için kullanırken PMS/CRM ile veri eşleşmesini planlayın; social wall ve live poll'u program akışına bağlayın. Etkinlik sonrası [event tech dashboard](https://dgtlface.com/tr/raporlama/looker-studio) üzerinden check-in süresi, etkileşim ve harcama akışını raporlayıp bir sonraki etkinlik için aksiyon çıkarın."
         },
         {
           "type": "h3",
@@ -66812,7 +67155,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Event app; program, bildirim, harita, konuşmacı profilleri, anket/poll ve check-in gibi farklı fonksiyonları tek dijital deneyimde bir araya getirebilir. Otel açısından fayda iki yönlüdür: misafir için daha hızlı ve anlaşılır bir akış, operasyon ekibi için ise giriş yoğunluğu, katılım ve etkileşim gibi süreçlerin daha görünür hale gelmesi."
+          "text": "Event app; program, bildirim, harita, konuşmacı profilleri, anket/poll ve check-in gibi farklı fonksiyonları tek dijital deneyimde bir araya getirebilir. Otel açısından fayda iki yönlüdür: misafir için daha hızlı ve anlaşılır bir akış, operasyon ekibi için ise giriş yoğunluğu, katılım ve etkileşim gibi süreçlerin daha görünür hale gelmesi. Bu yapı [dijital misafir akışı](https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding) ile birlikte tasarlandığında yönlendirme, salon geçişi ve harita deneyimi de daha akıcı hale gelir."
         },
         {
           "type": "h3",
@@ -66874,7 +67217,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "NFC bileklik; alan geçişi, bar harcaması ve aktivasyon katılımı gibi fiziksel eylemleri dijital sürece bağlayabilir. Resort otellerde özellikle festival, beach party veya yüksek hacimli özel etkinliklerde cashless akış ödeme kuyruklarını azaltma potansiyeline sahiptir. Ancak sistemin başarısı yalnız teknolojinin çalışmasına değil; kayıp bileklik, hatalı bakiye, bağlantı problemi ve destek süreçlerinin önceden tasarlanmasına da bağlıdır."
+          "text": "[NFC bileklik](https://dgtlface.com/tr/creative/etkinlik-produksiyonu); alan geçişi, bar harcaması ve aktivasyon katılımı gibi fiziksel eylemleri dijital sürece bağlayabilir. Resort otellerde özellikle festival, beach party veya yüksek hacimli özel etkinliklerde cashless akış ödeme kuyruklarını azaltma potansiyeline sahiptir. Ancak sistemin başarısı yalnız teknolojinin çalışmasına değil; kayıp bileklik, hatalı bakiye, bağlantı problemi ve destek süreçlerinin önceden tasarlanmasına da bağlıdır."
         },
         {
           "type": "h3",
@@ -66987,7 +67330,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Teknoloji katmanlarının gerçek maliyeti yalnız lisans veya donanım değildir; güven, veri yönetimi ve operasyonel uyum da projenin temel parçalarıdır. Event app, NFC, kiosk ve tracking sistemleri farklı seviyelerde kişisel veri işleyebilir. Bu nedenle yalnız gerekli veriyi toplama, işleme amacını netleştirme, uygun bilgilendirme/izin süreçlerini kurma ve erişimi görev bazında sınırlama yaklaşımı teknoloji tasarımının başında ele alınmalıdır."
+          "text": "Teknoloji katmanlarının gerçek maliyeti yalnız lisans veya donanım değildir; güven, veri yönetimi ve operasyonel uyum da projenin temel parçalarıdır. Event app, NFC, kiosk ve tracking sistemleri farklı seviyelerde kişisel veri işleyebilir. Bu nedenle [KVKK uyumlu etkinlik teknolojisi](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımıyla yalnız gerekli veriyi toplama, işleme amacını netleştirme, uygun bilgilendirme/izin süreçlerini kurma ve erişimi görev bazında sınırlama yaklaşımı teknoloji tasarımının başında ele alınmalıdır."
         },
         {
           "type": "h3",
@@ -67111,7 +67454,7 @@
           "variant": "primary",
           "label": "Etkinlik Teknolojisi & Event App Danışmanlığı Al",
           "text": "Event app, NFC ve dijital ekranları misafir akışını bozmadan kurup ölçülebilir bir deneyime dönüştürün.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -67138,7 +67481,7 @@
         },
         {
           "type": "p",
-          "text": "Örneğin etkinlik katılımcısının otelde konakladığı bir senaryoda NFC veya event app verisinin PMS/CRM ile nasıl eşleşeceği baştan tanımlanmalıdır. Her veriyi bir araya getirmek yerine yalnız iş hedefi için gerekli eşleşmeler yapılmalı; sistemlerin veri sahipliği, erişim rolleri ve raporlama kapsamı dokümante edilmelidir."
+          "text": "Örneğin etkinlik katılımcısının otelde konakladığı bir senaryoda [rooming list ve rezervasyon entegrasyonu](https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi) ile NFC veya event app verisinin PMS/CRM tarafında nasıl eşleşeceği baştan tanımlanmalıdır. Her veriyi bir araya getirmek yerine yalnız iş hedefi için gerekli eşleşmeler yapılmalı; sistemlerin veri sahipliği, erişim rolleri ve raporlama kapsamı dokümante edilmelidir."
         },
         {
           "type": "h3",
@@ -67167,6 +67510,10 @@
             "Check-in, cashless, etkileşim ve destek KPI'larını tek dashboard üzerinde izleyin.",
             "Teknoloji yatırımını yalnız kullanım adediyle değil operasyonel iyileşmeyle değerlendirin."
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu entegrasyon modeli, yalnız check-in veya ödeme verisini değil; [event analytics ve heatmap verileri](https://dgtlface.com/tr/creative/blog/otel-etkinlik-analytics-heatmap-iot-sensor) gibi alan yoğunluğu ve kullanım sinyallerini de aynı karar çerçevesine taşıyarak deneyimi daha ölçülebilir hale getirebilir."
         }
       ]
     },
@@ -67181,6 +67528,10 @@
         {
           "type": "p",
           "text": "En sağlıklı yaklaşım; minimum teknoloji set-up'ıyla başlamak, her dijital adım için fallback planı oluşturmak ve PMS/CRM entegrasyonu ile KVKK süreçlerini ilk günden tasarlamaktır. Böylece teknoloji etkinliğin önüne geçmez; görünmez biçimde operasyonu hızlandıran, ölçümü güçlendiren ve bir sonraki organizasyon için öğrenme üreten bir altyapıya dönüşür."
+        },
+        {
+          "type": "p",
+          "text": "Bu altyapı doğru kurgulandığında [dijital etkinlik deneyiminin otel pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) de güçlenir; çünkü daha hızlı giriş, daha kontrollü veri akışı ve daha akıcı deneyim doğrudan marka algısına yansır. Uygulama detaylarını netleştirmeden önce [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) bölümüne de göz atabilirsiniz."
         }
       ]
     }
@@ -67229,12 +67580,12 @@
         "TR/EN alternatif sayfalar varsa hreflang karşılıklılık kontrolü",
         "Article/BlogPosting + WebPage + BreadcrumbList schema @graph yapısı kontrolü",
         "FAQ görünür içerikle birebir eşleşiyorsa FAQPage uygunluğu ayrıca kontrol edilecek",
-        "Primary CTA → /creative/etkinlik-produksiyonu iç linki kontrolü",
-        "Rezervasyon Yönetimi → /pms-ota/rezervasyon-yonetimi iç linki kontrolü",
-        "Looker Studio → /raporlama/looker-studio iç linki kontrolü",
-        "KVKK Uyum Hizmeti → /yazilim/kvkk-uyum-hizmeti iç linki kontrolü",
-        "Otel Dijital Pazarlama → /otel-dijital-pazarlama iç linki kontrolü",
-        "Download asset CTA hedefi gerçek dosya/landing URL hazırlandığında nihai URL ile güncellenecek",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu iç linki kontrolü",
+        "Rezervasyon Yönetimi → /tr/pms-ota/rezervasyon-yonetimi iç linki kontrolü",
+        "Looker Studio → /tr/raporlama/looker-studio iç linki kontrolü",
+        "KVKK Uyum Hizmeti → /tr/yazilim/kvkk-uyum-hizmeti iç linki kontrolü",
+        "Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama iç linki kontrolü",
+        "Download asset CTA → /downloads/event-app-nfc-kullanım-akisi-sablonu-v1.0.pdf hedefi kontrolü",
         "Event app ve NFC tarafında kullanılan üçüncü parti script/SDK'ların performans etkisi ölçülecek",
         "Consent/çerez yönetimi ile analitik ve event tracking tetikleyicileri kontrol edilecek",
         "Kayıt ve event app formlarında minimum veri ilkesi uygulanacak",
@@ -67301,7 +67652,7 @@
   },
   "h1": {
     "title": "Sürdürülebilir ve Low-Impact Otel Etkinlikleri: Zero Waste, Karbon Ayak İzi ve Yeşil Prodüksiyon",
-    "intro": "“Etkinlikte çevreye daha az zarar verip yine de şık görünebilir miyiz?” Evet; ancak bunun yolu yalnız yeşil söylem üretmek değil, tasarlanmış bir prodüksiyon sistemi kurmaktır. Sürdürülebilirlik odaklı otel etkinlikleri; low-impact prodüksiyon, zero waste banket ve karbon ayak izi özeti gibi uygulamalarla çevresel etkiyi azaltırken marka güvenini güçlendirebilir. Yanlış kurgulandığında ise greenwashing algısı yaratabilir veya misafirde kısıtlanma hissi oluşturabilir. Bu rehber, Antalya, Belek, Side ve Bodrum gibi destinasyonlarda uygulanabilir pratik adımlarla çevresel etki, operasyon ve premium misafir deneyimi arasında denge kurar.",
+    "intro": "“Etkinlikte çevreye daha az zarar verip yine de şık görünebilir miyiz?” Evet; ancak bunun yolu yalnız yeşil söylem üretmek değil, tasarlanmış bir [sürdürülebilir etkinlik](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) sistemi kurmaktır. Sürdürülebilirlik odaklı otel etkinlikleri; low-impact prodüksiyon, zero waste banket ve karbon ayak izi özeti gibi uygulamalarla çevresel etkiyi azaltırken marka güvenini güçlendirebilir. Yanlış kurgulandığında ise greenwashing algısı yaratabilir veya misafirde kısıtlanma hissi oluşturabilir. Bu rehber, Antalya, Belek, Side ve Bodrum gibi destinasyonlarda uygulanabilir pratik adımlarla çevresel etki, operasyon ve premium misafir deneyimi arasında denge kurar.",
     "quickSummary": [
       "1) Dekor, kayıt, banket, atık ve iletişim için minimum yeşil standardı belirle",
       "2) Yeniden kullanılabilir malzeme ve kağıtsız süreçlerle low-impact prodüksiyon kur",
@@ -67312,51 +67663,67 @@
     "ctaPrimary": {
       "label": "Sürdürülebilir Etkinlik & Low-Impact Prodüksiyon Danışmanlığı Al",
       "text": "Zero waste, low-impact dekor ve karbon özetiyle hem çevresel etkiyi azaltın hem marka güvenini artırın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Sürdürülebilir Etkinlik & Low-Impact Prodüksiyon Danışmanlığı Al",
       "text": "Zero waste, low-impact dekor ve karbon özetiyle hem çevresel etkiyi azaltın hem marka güvenini artırın.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Sürdürülebilir Otel Etkinliği Checklist & Karbon Özeti Şablonunu İndir",
       "text": "Low-impact dekor, zero waste banket ve karbon özetini tek dokümanda toplayıp greenwashing riskini azaltır.",
-      "href": "/creative/video-produksiyon"
+      "href": "/downloads/surdurulebilir-otel-etkinligi-checklist-karbon-ozeti-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
-      "label": "Etkinlik Prodüksiyonu hizmet sayfası",
-      "href": "/creative/etkinlik-produksiyonu"
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları",
+      "href": "/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
+    },
+    {
+      "label": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı",
+      "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+    },
+    {
+      "label": "Otel Etkinlik Master Checklist’i",
+      "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Kurumsal Hediye Tasarımı",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     {
-      "label": "KVKK & Veri Güvenliği",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
-      "href": "/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc"
+      "title": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları: Prodüksiyon Perspektifinden Rehber",
+      "href": "/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
     },
     {
-      "title": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları",
-      "href": "/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
+      "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+      "href": "/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+    },
+    {
+      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+      "href": "/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
     }
   ],
   "sections": [
@@ -67366,7 +67733,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sürdürülebilir etkinlik tek bir hamle değil; dekor, kayıt, menü, atık ve iletişimi birlikte kuran bir sistemdir. Low-Impact Event yaklaşımında amaç, misafir deneyimini bozmadan çevresel etkiyi azaltmak ve bunu doğrulanabilir uygulamalarla anlatabilmektir. Bu nedenle sürdürülebilirlik hedefleri prodüksiyon bittikten sonra iletişim ekibinin eklediği bir mesaj değil, etkinliğin planlama aşamasından başlayan operasyon standardı olmalıdır."
+          "text": "Sürdürülebilir etkinlik tek bir hamle değil; dekor, kayıt, menü, atık ve iletişimi birlikte kuran bir sistemdir. [zero waste banket](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımından low-impact dekor kararlarına kadar tüm temas noktaları aynı deneyim tasarımının parçası olarak ele alınmalıdır. Low-Impact Event yaklaşımında amaç, misafir deneyimini bozmadan çevresel etkiyi azaltmak ve bunu doğrulanabilir uygulamalarla anlatabilmektir. Bu nedenle sürdürülebilirlik hedefleri prodüksiyon bittikten sonra iletişim ekibinin eklediği bir mesaj değil, etkinliğin planlama aşamasından başlayan operasyon standardı olmalıdır."
         },
          {"type":"media","slot":"h1-context-02"},
         {
@@ -67464,7 +67831,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Low-impact prodüksiyonun temel yaklaşımı, gereksiz tüketimi azaltmak ve mümkün olan malzemeleri tekrar kullanılabilir hale getirmektir. Bu yalnız sahne veya dekorla sınırlı değildir; yönlendirme tabelaları, kayıt süreci, etkinlik kitleri, basılı programlar ve teknik prodüksiyon kararları da aynı çerçevede değerlendirilmelidir."
+          "text": "[low-impact prodüksiyon](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) yaklaşımının temel amacı, gereksiz tüketimi azaltmak ve mümkün olan malzemeleri tekrar kullanılabilir hale getirmektir. Bu yalnız sahne veya dekorla sınırlı değildir; yönlendirme tabelaları, kayıt süreci, etkinlik kitleri, basılı programlar ve teknik prodüksiyon kararları da aynı çerçevede değerlendirilmelidir."
         },
         {
           "type": "h3",
@@ -67493,6 +67860,10 @@
             "Erişilebilirlik veya operasyon ihtiyacı olan noktalarda sınırlı miktarda basılı materyal bulundurun (Varsayım).",
             "Etkinlik kitlerinden gerçekten kullanılmayan basılı içerikleri çıkarın."
           ]
+        },
+        {
+          "type": "p",
+          "text": "Etkinlik kitleri, speaker pack'leri ve davetli materyalleri planlanırken [low-impact kurumsal hediye tasarımı](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi) yaklaşımı tekrar kullanılabilir, uzun ömürlü ve düşük atıklı seçimleri görünür hale getirebilir."
         },
         {
           "type": "callout",
@@ -67648,6 +68019,10 @@
           "text": "Bu tablo yön gösteren bir operasyon özeti olarak kullanılmalıdır. Kesin karbon emisyonu veya sayısal çevresel etki iddiası üretmek için kapsam, metodoloji, veri kalitesi ve ilgili emisyon faktörlerinin ayrıca ele alındığı daha detaylı bir ölçüm çalışması gerekir."
         },
         {
+          "type": "p",
+          "text": "Özellikle bahçe, plaj veya açık hava kurulumlarında enerji kullanımı, rüzgâr, yağmur ve alternatif alan kararları [açık alan etkinliklerinde çevresel risk planı](https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani) ile birlikte düşünülmelidir; böylece sürdürülebilirlik hedefleri operasyonel gerçeklikten kopmaz."
+        },
+        {
           "type": "callout",
           "variant": "action",
           "title": "Mini Check",
@@ -67698,6 +68073,10 @@
           "text": "Green Communication'ın amacı mümkün olduğunca büyük çevresel iddialar üretmek değil, misafire ne yapıldığını anlaşılır şekilde göstermek ve etkinliğin sürdürülebilirlik yaklaşımına güven kazandırmaktır. Bu nedenle iletişimde soyut sıfatlardan çok somut uygulamalara yer verilmeli; doğrulanamayan sayısal iddialar kullanılmamalı ve sertifika veya logolar yalnız gerçekten ilişkili oldukları bağlamda gösterilmelidir."
         },
         {
+          "type": "p",
+          "text": "Aynı yaklaşım [sürdürülebilir marka ortaklıkları](https://dgtlface.com/tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari) için de geçerlidir; sponsor görünürlüğü yalnız logo kullanımıyla değil, ortak değer iletişimini gerçek uygulamalar ve etkinlik sonrası raporlama ile desteklediğinde anlam kazanır."
+        },
+        {
           "type": "h3",
           "text": "Greenwashing'den kaçınan anlatım modeli"
         },
@@ -67723,6 +68102,10 @@
             "Video 2 — Zero waste banket: Su istasyonu, porsiyon yaklaşımı ve atık ayrıştırma sürecini gösterin.",
             "Video 3 — Etkinlik sonrası yeşil özet: Uygulanan adımları, yön gösteren karbon özetini ve sonraki etkinlik hedeflerini paylaşın."
           ]
+        },
+        {
+          "type": "p",
+          "text": "Somut uygulamaları görünür kılmanın en güvenli yollarından biri, [sürdürülebilirlik hikâyesini video içeriğe dönüştürmek](https://dgtlface.com/tr/creative/video-produksiyon) ve iddiaları gerçek ekip, tedarikçi, banket ve saha uygulamalarıyla desteklemektir."
         },
         {
           "type": "media",
@@ -67751,7 +68134,7 @@
           "variant": "primary",
           "label": "Sürdürülebilir Etkinlik & Low-Impact Prodüksiyon Danışmanlığı Al",
           "text": "Zero waste, low-impact dekor ve karbon özetiyle hem çevresel etkiyi azaltın hem marka güvenini artırın.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -67762,6 +68145,10 @@
         {
           "type": "p",
           "text": "Sürdürülebilirlik yalnızca genel CSR yaklaşımı olarak ele alındığında sahadaki banket, dekor, enerji, lojistik ve atık kararlarına yeterince yansımayabilir. Otel etkinlik prodüksiyonunda daha uygulanabilir model, her etkinlikte tekrar kullanılabilecek minimum bir yeşil SOP oluşturmaktır. Böylece başarı tek bir organizasyonun ne kadar yeşil göründüğüne değil, aynı standardın etkinlikten etkinliğe ne kadar tutarlı uygulandığına bağlanır."
+        },
+        {
+          "type": "p",
+          "text": "Bu standardı saha görevlerine ve kapanış kontrollerine çevirmek için [sürdürülebilir etkinlik operasyon checklist’i](https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi) gibi bir yapı kullanmak, atık yönetimi, tedarikçi kontrolü ve etkinlik sonrası aksiyonların unutulmasını önler."
         },
         {
           "type": "h3",
@@ -67829,6 +68216,10 @@
           "text": "En uygulanabilir yaklaşım; önce beş somut alanda minimum standart oluşturmak, yön gösteren bir karbon özetiyle gelişimi izlemek ve etkinlik sonrasında kısa bir yeşil özet üretmektir. Uygulamalar kanıtlanabilir ve iletişim ölçülü olduğunda sürdürülebilirlik yalnız çevresel bir hedef değil, misafir güvenini ve operasyon tutarlılığını destekleyen tekrar edilebilir bir etkinlik sistemi haline gelir."
         },
         {
+          "type": "p",
+          "text": "Bu sistem doğru anlatıldığında [sürdürülebilir etkinliklerin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) de güçlenir; çünkü ölçülü ve kanıtlı bir sürdürülebilirlik dili marka güvenini, içerik kalitesini ve misafir algısını birlikte destekler. Süreç, kapsam ve uygulama detaylarını derinleştirmek için [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfasına da göz atabilirsiniz."
+        },
+        {
           "type": "media",
           "slot": "proof-08"
         }
@@ -67879,12 +68270,14 @@
         "TR/EN alternatif sayfalar varsa hreflang karşılıklılık kontrolü",
         "Article/BlogPosting + WebPage + BreadcrumbList schema @graph yapısı kontrolü",
         "FAQ görünür içerikle birebir eşleşiyorsa FAQPage uygunluğu ayrıca kontrol edilecek",
-        "Primary CTA → /creative/etkinlik-produksiyonu iç linki kontrolü",
-        "Otel Dijital Pazarlama → /otel-dijital-pazarlama iç linki kontrolü",
-        "Video Prodüksiyon → /creative/video-produksiyon iç linki kontrolü",
-        "Kurumsal Hediye Tasarımı → /creative/kurumsal-hediye-tasarimi iç linki kontrolü",
-        "KVKK & Veri Güvenliği → /raporlama/kvkk-veri-guvenligi iç linki kontrolü",
-        "Download asset CTA hedefi gerçek dosya/landing URL hazırlandığında nihai URL ile güncellenecek",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu iç linki kontrolü",
+        "Sponsorluk ve Marka Ortaklıkları → /tr/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari iç linki kontrolü",
+        "Açık Alan B Planı → /tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani iç linki kontrolü",
+        "Master Checklist → /tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi iç linki kontrolü",
+        "Video Prodüksiyon → /tr/creative/video-produksiyon iç linki kontrolü",
+        "Kurumsal Hediye Tasarımı → /tr/creative/kurumsal-hediye-tasarimi iç linki kontrolü",
+        "Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama iç linki kontrolü",
+        "Download asset CTA → /downloads/surdurulebilir-otel-etkinligi-checklist-karbon-ozeti-sablonu-v1.0.pdf hedefi kontrolü",
         "Greenwashing riski için kesin çevresel veya karbon azaltım iddiaları yayın öncesi kaynak ve metodoloji açısından doğrulanacak",
         "Sertifika ve çevresel logo kullanımları güncellik, yetki ve doğru bağlam açısından kontrol edilecek",
         "Karbon özeti tablosundaki verilerin yön gösteren operasyon sinyalleri olduğu UI metninde açık tutulacak",
@@ -67950,7 +68343,7 @@
   },
   "h1": {
     "title": "Sosyal-First Otel Etkinlikleri: Photobooth, Social Wall ve Viral İçerik Akışı",
-    "intro": "“Etkinliğimiz sosyal medyada daha çok konuşulsun istiyoruz, ne yapmalıyız?” Sosyal-first yaklaşımın cevabı daha çok paylaşmak değil; misafirin paylaşmasını kolaylaştıran alanlar ve paylaşımları ölçülebilir kılan kurallar oluşturmaktır. Photobooth/360 booth ve social wall, misafire içerik üretimi için sahne sunarken otel markasına organik görünürlük kazandırır. Ancak hashtag stratejisi, UGC yeniden paylaşım izni, moderasyon ve aynı gün içerik akışı planlanmadığında ortaya dağınık ve ölçülemeyen bir sonuç çıkar. Bu rehber, sosyal-first kurguyu otel prodüksiyon mantığıyla sistemleştirir.",
+    "intro": "“Etkinliğimiz sosyal medyada daha çok konuşulsun istiyoruz, ne yapmalıyız?” [social-first etkinlik](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) yaklaşımının cevabı daha çok paylaşmak değil; misafirin paylaşmasını kolaylaştıran alanlar ve paylaşımları ölçülebilir kılan kurallar oluşturmaktır. Photobooth/360 booth ve social wall, misafire içerik üretimi için sahne sunarken otel markasına organik görünürlük kazandırır. Ancak hashtag stratejisi, UGC yeniden paylaşım izni, moderasyon ve aynı gün içerik akışı planlanmadığında ortaya dağınık ve ölçülemeyen bir sonuç çıkar. Bu rehber, sosyal-first kurguyu otel prodüksiyon mantığıyla sistemleştirir.",
     "quickSummary": [
       "1) Photobooth, 360 booth ve social wall alanlarını misafir akışına göre konumlandır",
       "2) Tek hashtag ve net mention kuralıyla paylaşımı standardize et",
@@ -67961,47 +68354,71 @@
     "ctaPrimary": {
       "label": "Sosyal-First Etkinlik & Photobooth Stratejisi Danışmanlığı Al",
       "text": "Photobooth, social wall ve same-day içerik akışını ölçülebilir kurgulayarak organik görünürlüğü artırın, marka güvenliğini koruyun.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Sosyal-First Etkinlik & Photobooth Stratejisi Danışmanlığı Al",
       "text": "Photobooth, social wall ve same-day içerik akışını ölçülebilir kurgulayarak organik görünürlüğü artırın, marka güvenliğini koruyun.",
-      "href": "/creative/etkinlik-produksiyonu"
+      "href": "/tr/creative/etkinlik-produksiyonu"
     },
     "secondary": {
       "label": "Sosyal-First Etkinlik Hashtag & Alan Planı Şablonunu İndir",
       "text": "Booth yerleşimi, hashtag/mention kuralları, UGC izin ve moderasyon adımlarını tek dokümanda toplayıp hızlı uygulama sağlar.",
-      "href": "/smm/reels-video"
+      "href": "/downloads/sosyal-first-etkinlik-hashtag-alan-plani-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
-      "label": "Etkinlik Prodüksiyonu hizmet sayfası",
-      "href": "/creative/etkinlik-produksiyonu"
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Beach Party & Festival Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
+    },
+    {
+      "label": "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi",
+      "href": "/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik"
+    },
+    {
+      "label": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+      "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Sosyal Medya Yönetimi",
-      "href": "/smm"
+      "href": "/tr/smm"
     },
     {
       "label": "Reels Video",
-      "href": "/smm/reels-video"
+      "href": "/tr/smm/reels-video"
     },
     {
       "label": "Otel Sosyal Medya",
-      "href": "/otel-sosyal-medya"
+      "href": "/tr/otel/sosyal-medya"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Etkinlik Teknolojisi Trendleri: Event App, NFC Bileklik ve Dijital Deneyim",
-      "href": "/creative/blog/otel-etkinlik-teknoloji-trendleri-event-app-nfc"
+      "title": "Otel Beach Party & Festival Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-festival-beach-party-produsksiyon"
     },
     {
-      "title": "Otel Etkinlikleri için Sponsorluk ve Marka Ortaklıkları",
-      "href": "/creative/blog/otel-etkinlikler-icin-sponsorluk-ve-marka-ortakliklari"
+      "title": "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi",
+      "href": "/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik"
+    },
+    {
+      "title": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+      "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
     }
   ],
   "sections": [
@@ -68075,7 +68492,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sosyal-first yaklaşım, etkinliği yalnızca fiziksel alanda yaşanan bir deneyim olarak değil, aynı anda sosyal medyada yayılan içerik akışı olarak da tasarlamaktır. Otel tarafında amaç misafir paylaşımını zorlamak değil; zaten doğal olarak oluşan paylaşım davranışını kolaylaştırmak, marka diline uygun hale getirmek ve ölçülebilir bir yapıya bağlamaktır."
+          "text": "Sosyal-first yaklaşım, etkinliği yalnızca fiziksel alanda yaşanan bir deneyim olarak değil, aynı anda sosyal medyada yayılan [viral içerik akışı](https://dgtlface.com/tr/creative-ve-tasarim) olarak da tasarlamaktır. Otel tarafında amaç misafir paylaşımını zorlamak değil; zaten doğal olarak oluşan paylaşım davranışını kolaylaştırmak, marka diline uygun hale getirmek ve ölçülebilir bir yapıya bağlamaktır."
         },
         {
           "type": "h3",
@@ -68118,7 +68535,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Photobooth, 360 booth ve selfie corner alanları otel etkinliklerinde güçlü UGC motorlarıdır. Ancak başarılı bir alan yalnız dekoratif olarak iyi görünmez; misafirin kolay fark ettiği, rahat eriştiği, iyi ışık aldığı ve içerik üretme süresinin operasyonel olarak yönetilebildiği bir noktada bulunur. Kullanım yükseldikçe oluşabilecek kuyruk da prodüksiyon planının parçası olmalıdır."
+          "text": "[photobooth ve social wall](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) kurgusu ile 360 booth ve selfie corner alanları otel etkinliklerinde güçlü UGC motorlarıdır. Ancak başarılı bir alan yalnız dekoratif olarak iyi görünmez; misafirin kolay fark ettiği, rahat eriştiği, iyi ışık aldığı ve içerik üretme süresinin operasyonel olarak yönetilebildiği bir noktada bulunur. Kullanım yükseldikçe oluşabilecek kuyruk da prodüksiyon planının parçası olmalıdır; özellikle [festival ve beach party etkinliklerinde sosyal görünürlük](https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon) hedefleniyorsa booth alanı sahne, bar ve ana akış koridorlarıyla birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -68282,7 +68699,11 @@
         },
         {
           "type": "p",
-          "text": "Sosyal-first etkinlikte hedef yalnızca misafirlerin UGC üretmesini beklemek değildir. Etkinliğin enerjisinin yüksek olduğu saatlerde profesyonel ekip tarafından same-day içerik üretilmesi, markanın kendi kanalında da anlık görünürlük yaratır. Bunun sürdürülebilir olması için içerik adedi, çekim kaynağı, süre, yayın zamanı ve kullanım notları etkinlik öncesinde planlanmalıdır."
+          "text": "Sosyal-first etkinlikte hedef yalnızca misafirlerin UGC üretmesini beklemek değildir. Etkinliğin enerjisinin yüksek olduğu saatlerde profesyonel ekip tarafından [etkinlikten anında içerik üretimi](https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik) yapılması, markanın kendi kanalında da anlık görünürlük yaratır. Bunun sürdürülebilir olması için içerik adedi, çekim kaynağı, süre, yayın zamanı ve kullanım notları etkinlik öncesinde planlanmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "Bu model, [etkinlik recap ve highlight video üretimi](https://dgtlface.com/tr/creative/video-produksiyon) ile aynı akışta çalıştığında daha güçlü sonuç verir. Misafir paylaşımlarını yeniden kullanırken [etkinlikten Reels ve UGC üretimi](https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi) disiplinini netleştirmek ve [etkinlikten Reels ve kısa video üretimi](https://dgtlface.com/tr/smm/reels-video) tarafını önceden şablonlamak, etkinlik günü hız kazandırır."
         },
         {
           "type": "h3",
@@ -68387,7 +68808,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sosyal-first etkinliğin başarısı yalnız etkinlik sırasında sosyal medyada hareketlilik hissedilmesiyle ölçülmemelidir. Minimum raporlama sistemi, üretilen ve paylaşılan UGC hacmini, mention ve hashtag kullanımını, otelin kendi içerik performansını ve mümkünse talep sinyallerini birlikte değerlendirmelidir. Böylece hangi booth, içerik formatı veya paylaşım yönergesinin gerçek değer ürettiği sonraki etkinlik için görülebilir."
+          "text": "Sosyal-first etkinliğin başarısı yalnız etkinlik sırasında sosyal medyada hareketlilik hissedilmesiyle ölçülmemelidir. Minimum raporlama sistemi, üretilen ve paylaşılan UGC hacmini, mention ve hashtag kullanımını, otelin kendi içerik performansını ve mümkünse talep sinyallerini birlikte değerlendirmelidir. Bu okuma, [social-first etkinliklerin sosyal medya stratejisindeki rolü](https://dgtlface.com/tr/smm) çerçevesinde içerik takvimi, topluluk etkileşimi ve kampanya potansiyeliyle birlikte ele alındığında daha anlamlı hale gelir. Böylece hangi booth, içerik formatı veya paylaşım yönergesinin gerçek değer ürettiği sonraki etkinlik için görülebilir."
         },
         {
           "type": "h3",
@@ -68449,7 +68870,7 @@
           "variant": "primary",
           "label": "Sosyal-First Etkinlik & Photobooth Stratejisi Danışmanlığı Al",
           "text": "Photobooth, social wall ve same-day içerik akışını ölçülebilir kurgulayarak organik görünürlüğü artırın, marka güvenliğini koruyun.",
-          "href": "/creative/etkinlik-produksiyonu"
+          "href": "/tr/creative/etkinlik-produksiyonu"
         }
       ]
     },
@@ -68528,7 +68949,7 @@
         },
         {
           "type": "p",
-          "text": "En güçlü model; misafirin içerik üretmesini kolaylaştırmak, marka güvenliği ve izin süreçlerini görünmez biçimde yönetmek ve etkinlik bittikten sonra hangi formatların gerçek değer ürettiğini ölçmektir. Böylece photobooth, social wall ve Reels üretimi yalnız anlık sosyal medya hareketi değil, sonraki etkinlikleri geliştiren ölçülebilir bir içerik altyapısı oluşturur."
+          "text": "En güçlü model; misafirin içerik üretmesini kolaylaştırmak, marka güvenliği ve izin süreçlerini görünmez biçimde yönetmek ve etkinlik bittikten sonra hangi formatların gerçek değer ürettiğini ölçmektir. Böylece photobooth, social wall ve Reels üretimi yalnız anlık sosyal medya hareketi değil, [otel sosyal medya için UGC içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) üreten ve sonraki etkinlikleri geliştiren ölçülebilir bir içerik altyapısına dönüşür. Uygulama, ekip ve teslim akışı tarafında ek detay gerekiyorsa [Etkinlik Prodüksiyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/etkinlik-produksiyonu-sss) sayfası iyi bir sonraki adımdır."
         }
       ]
     }
@@ -68578,11 +68999,11 @@
         "TR/EN alternatif sayfalar varsa hreflang karşılıklılık kontrolü",
         "Article/BlogPosting + WebPage + BreadcrumbList schema @graph yapısı kontrolü",
         "FAQ görünür içerikle birebir eşleşiyorsa FAQPage uygunluğu ayrıca kontrol edilecek",
-        "Primary CTA → /creative/etkinlik-produksiyonu iç linki kontrolü",
-        "Sosyal Medya Yönetimi → /smm iç linki kontrolü",
-        "Reels Video → /smm/reels-video iç linki kontrolü",
-        "Otel Sosyal Medya → /otel-sosyal-medya iç linki kontrolü",
-        "Download asset CTA hedefi gerçek dosya/landing URL hazırlandığında nihai URL ile güncellenecek",
+        "Primary CTA → /tr/creative/etkinlik-produksiyonu iç linki kontrolü",
+        "Sosyal Medya Yönetimi → /tr/smm iç linki kontrolü",
+        "Reels Video → /tr/smm/reels-video iç linki kontrolü",
+        "Otel Sosyal Medya → /tr/otel/sosyal-medya iç linki kontrolü",
+        "Download asset CTA → /downloads/sosyal-first-etkinlik-hashtag-alan-plani-sablonu-v1.0.pdf hedefi kontrolü",
         "UGC yeniden paylaşımında kullanılan izin yöntemi yayın öncesinde ekip ve hukuki/uyum politikasıyla doğrulanacak",
         "Çocuk, mahremiyet ve hassas kişisel veri içeren UGC için ayrı moderasyon kriterleri uygulanacak",
         "Social wall için filtreleme, manuel onay ve gerekiyorsa yayın gecikmesi senaryosu test edilecek",
