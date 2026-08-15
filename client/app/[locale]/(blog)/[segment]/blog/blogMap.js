@@ -685,7 +685,13 @@ export const BLOG_MAP = {
     "kurumsal-hediye-iletisim-akisi-web-email-whatsapp":"BlogKurumsalHediyeIletisimAkisiWebEmailWhatsapp",
     "kurumsal-hediye-ile-upsell-cross-sell-otel":"BlogKurumsalHediyeIleUpsellCrossSellOtel",
     "kvkk-vergi-perspektifi-kurumsal-hediye-risk-cercevesi":"BlogKvkkVergiPerspektifiKurumsalHediyeRiskCercevesi",
-    "hediye-hikaye-anlatimi-foto-video-sosyal-medya":"BlogHediyeHikayeAnlatimiFotoVideoSosyalMedya"
+    "hediye-hikaye-anlatimi-foto-video-sosyal-medya":"BlogHediyeHikayeAnlatimiFotoVideoSosyalMedya",
+    "kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari":"BlogKureselVeLokalPazarlarIcinHediyeKulturFarklari",
+    "kurumsal-hediye-trendleri-2025-2026":"BlogKurumsalHediyeTrendleri20252026",
+    "ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme":"BlogAiIleKurumsalHediyeTasarimiVeKisisellestirme",
+    "phygital-nft-ve-dijital-hediye-deneyimleri":"BlogPhygitalNftVeDijitalHediyeDeneyimleri",
+    "on-demand-ve-son-dakika-kurumsal-hediye-lojistigi":"BlogOnDemandVeSonDakikaKurumsalHediyeLojistigi",
+    "influencer-ve-ugc-icin-hediye-seeding-kampanyalari":"BlogInfluencerVeUgcIcinHediyeSeedingKampanyalari"
     
   },
 

@@ -116006,7 +116006,974 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari",
+      "name": "Farklı Kültür ve Pazarlar İçin Kurumsal Hediye: TR, EN, DE, RU Perspektifi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#article",
+      "headline": "Farklı Kültür ve Pazarlar İçin Kurumsal Hediye: TR, EN, DE, RU Perspektifi",
+      "description": "TR–EN–DE–RU misafir pazarları için hediye setlerini kültürel hassasiyetler, riskli içerikler ve çok dilli kart/ambalaj metinleri üzerinden lokalize edin; pazar bazlı varyantlarla memnuniyeti ve marka algısını güçlendirin.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "keywords": [
+        "tr en de ru otel hediye lokalizasyonu",
+        "farkli pazarlar icin hediye kultur farklari",
+        "cultural sensitivity corporate gifting hotels",
+        "multi market hotel gifting",
+        "cultural sensitivity in corporate gifts",
+        "tr en de ru gift localisation"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "serviceType": "Kültüre Duyarlı Kurumsal Hediye Tasarımı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#product",
+      "name": "TR–EN–DE–RU Pazarları İçin Hediye & Kart Örnekleri Şablonu",
+      "description": "Çekirdek set + pazar varyantı yaklaşımıyla TR/EN/DE/RU kart metinleri, riskli içerik kontrol listesi ve operasyonel set kodlarını içeren lokalizasyon şablonu.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Market-specific Gift / Localisation / Cultural Sensitivity"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#howto",
+      "name": "TR–EN–DE–RU pazarları için kurumsal hediye nasıl lokalize edilmeli?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Çekirdek seti ve pazar dağılımını belirle",
+          "text": "Welcome set gibi çekirdek hediyeyi seç; TR/EN/DE/RU pazar dağılımını ve hedef segmentleri netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Riskli içerik kontrolünü yap",
+          "text": "Alkol, domuz/jelatin ve alerjen içerikler için kontrol listesi ve alternatif SKU planı oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kart ve ambalaj metinlerini çok dilli hazırla",
+          "text": "TR–EN–DE–RU kart/ambalaj metinlerini profesyonel çeviriyle üret; ton ve uzunluğu kısa tut."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Varyantları operasyonel olarak kodla ve ölç",
+          "text": "Pazar varyantlarını depoda kodla, ön büro SOP’u yaz ve şikâyet/memnuniyet sinyalleriyle optimize et."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "Kültür ve Pazar Bazlı Hediye", "item": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Farklı ülke ve kültürler için kurumsal hediye nasıl seçilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek tip set yerine çekirdek seti pazar bazlı varyantlara ayırın. Kart dili ve ambalaj tonunu pazar beklentisine göre ayarlayın, riskli içerikleri kontrol edin ve profesyonel çeviri kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Alkol, gıda ve dini hassasiyetlerde hangi hediyeler riskli olabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alkollü ürünler, domuz ürünü/jelatin içeren gıdalar ve güçlü alerjenler riskli olabilir. Etiket kontrolü ve alternatif SKU planı gerekir; dini dönemlerde zamanlama ve mesaj tonu da hassas yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aynı hediye setini farklı pazarlar için nasıl lokalize ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çekirdek seti koruyup kart dili, ambalaj sleeve’i ve 1 imza parça gibi modüler değişkenlerle varyant üretin. Depoda kodlayın, ön büro SOP’u oluşturun ve şikâyet/memnuniyet sinyalleriyle optimize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok dilli kart metinlerinde en büyük hata nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Makine çevirisini doğrudan basmak veya kültürel ton farkını kaçırmaktır. Profesyonel çeviri ve native kontrol önerilir; 2–3 cümlelik net kartlar daha güvenlidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kurumsal-hediye-trendleri-2025-2026":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026",
+      "name": "2025–2026 Kurumsal Hediye Trendleri: Oteller ve Markalar İçin Yol Haritası",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026#article",
+      "headline": "2025–2026 Kurumsal Hediye Trendleri: Oteller ve Markalar İçin Yol Haritası",
+      "description": "2025–2026 kurumsal hediye trendlerini (kişiselleştirme, deneyim, phygital ve sürdürülebilirlik) oteller için segment bazlı örneklerle uyarlayın; modüler paketleme ve ölçümle uygulanabilir yol haritası kurun.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "2025 kurumsal hediye trendleri",
+        "otel corporate gift trends",
+        "phygital hediye kutusu fikirleri",
+        "corporate gifting trends 2025",
+        "hotel gifting trends",
+        "phygital and sustainable gifts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "Kurumsal Hediye Trend Analizi ve Uygulama Yol Haritası",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kurumsal Hediye & Tasarım",
+          "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "2025–2026 Kurumsal Hediye Trendleri",
+          "item": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2025–2026 kurumsal hediye trendleri neler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kişiselleştirme, deneyim odaklı hediyeler, phygital (dijital+fiziksel) kurgular, sürdürülebilir malzeme/ambalaj ve yerel iş birlikleri öne çıkıyor. Otellerde kritik konu, trendleri segmentlere doğru dozda uyarlamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Deneyim odaklı ve phygital hediyeler nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiziksel hediyeyi tek bir QR/landing ile tamamlayın ve tek CTA kullanın (ör. spa randevu, teşekkür, mini anket). Koşulları kısa yazın ve performansı UTM/event ile ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sürdürülebilir hediyeler trend mi yoksa kalıcı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sürdürülebilirlik kalıcı bir beklentiye dönüşüyor; ancak ‘etiket’ yerine gerçek kullanım ömrü, ambalaj tutarlılığı ve kanıtlanabilir seçimler gerekir. Greenwashing riskini azaltacak şeffaflık önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trendleri otelimde nasıl pilotlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "30 günde tek pilot seçin (VIP/aile/B2B), tek hedef KPI belirleyin (UGC, tıklama, memnuniyet) ve tek CTA’lı bir akış kurun. 60–90 günde iki pilot daha ekleyip optimize edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme",
+      "name": "AI ile Kurumsal Hediye Tasarımı ve Kişiselleştirme: Oteller İçin Yeni Oyun Alanı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#article",
+      "headline": "AI ile Kurumsal Hediye Tasarımı ve Kişiselleştirme: Oteller İçin Yeni Oyun Alanı",
+      "description": "AI ile kurumsal hediye fikir ve set tasarımını hızlandırın; segment bazlı öneriler, çok dilli kart metinleri, CRM/PMS verisini minimum ve güvenli kullanma, insan onayı ve ölçüm akışıyla riskleri kontrol edin.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "ai ile kurumsal hediye tasarimi",
+        "otel vip hediye icin yapay zeka fikirleri",
+        "crm verisiyle ai kisisellestirme hediye",
+        "ai for hotel gifting",
+        "ai gift idea generator",
+        "data safe personalisation for vip gifts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti#service",
+      "name": "KVKK Uyum Hizmeti",
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "KVKK Uyum Süreçleri ve Veri Güvenliği Danışmanlığı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#howto",
+      "name": "AI ile kurumsal hediye tasarımı nasıl yapılmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segment ve kısıtları tanımla",
+          "text": "VIP/aile/B2B/MICE segmentini ve bütçe/lojistik kısıtlarını netleştir; hedefi tek cümlede yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Prompt ile seçenek seti üret",
+          "text": "AI’dan birden fazla set alternatifi üret; riskli içerikler (alerjen/alkol) için alternatifleri iste."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Veriyi minimum ve güvenli kullan",
+          "text": "Kişisel veri gerekiyorsa anonim profil kartı kullan; isim/oda no gibi tanımlayıcı verileri paylaşma."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İnsan onayıyla filtrele ve yayınla",
+          "text": "Marka tonu, kültürel hassasiyet ve operasyon gerçekliği için onay kapıları uygula; CRM/PMS’de log tut."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "AI ile Kurumsal Hediye Tasarımı", "item": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI ile kurumsal hediye fikirleri nasıl üretilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segmenti ve kısıtları prompt’a yazın, AI’dan çoklu alternatif üretin ve insan filtresiyle 2–3 konsepte indirin. Operasyon gerçekleriyle eleyin ve sonucu CRM’de kaydedin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir verisini kullanarak hediye önerilerini AI ile nasıl kişiselleştirebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tanımlayıcı veri yerine anonim profil kartı kullanın (segment, dil, hassasiyet). Sadece gerekli alanlarla çalışın ve çıktıyı insan onayından geçirin; KVKK süreçlerini netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok dilli hediye kartı metinlerini AI ile yazmak güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI taslak için uygundur; final metin için marka tonu ve kültürel hassasiyet açısından insan edit şarttır. Özellikle DE/RU metinlerde profesyonel kontrol önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI’yı hediye sürecinde nerede durdurup insan onayı almalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri kullanımı, metin/ton ve operasyon doğrulaması aşamalarında ve yayın öncesinde insan onayı alın. Onay logu tutmak süreci güvenli kılar."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"phygital-nft-ve-dijital-hediye-deneyimleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri",
+      "name": "Phygital, NFT ve Dijital Hediye Deneyimleri: Oteller İçin Yeni Nesil Kurumsal Hediyeler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#article",
+      "headline": "Phygital, NFT ve Dijital Hediye Deneyimleri: Oteller İçin Yeni Nesil Kurumsal Hediyeler",
+      "description": "Oteller için phygital hediye yaklaşımını dijital sertifika/kart + fiziksel hediye kombinasyonlarıyla sade şekilde kurgulayın; gamification ve sadakat katmanını pilotlarla test ederek riskleri yönetin.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "keywords": [
+        "phygital otel hediye ornekleri",
+        "nft tabanli sadakat hediyeleri",
+        "dijital sertifika + fiziksel hediye otel",
+        "phygital gifts for hotel guests",
+        "nft-based loyalty collectibles",
+        "digital certificate plus physical amenity"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "serviceType": "Phygital & Dijital Hediye Konsepti Danışmanlığı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#product",
+      "name": "Phygital Hediye Fikir & Akış Şablonu",
+      "description": "Dijital hak + fiziksel hediye pilotu için tek CTA’lı akış, koşul alanları, SOP ve ölçüm planı içeren şablon.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Phygital Gift / Digital Certificate / Gamification"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#howto",
+      "name": "Oteller için phygital ve NFT tabanlı hediyeler nasıl kurgulanmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Somut değeri belirle",
+          "text": "Dijital hakkın misafire hangi somut faydayı vereceğini seç (spa, oda, deneyim)."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Akışı sade tut",
+          "text": "Tek QR ve tek CTA ile dijital sertifika/landing oluştur; koşulları 4–6 maddede net yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Fiziksel hediyeyle tamamla",
+          "text": "Premium algıyı taşıyan fiziksel seti belirle ve dijital hakla tutarlı bir hikâye kartı ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pilotla test et ve ölç",
+          "text": "Kullanım oranı, tıklama, şikâyet ve UGC sinyalleriyle 30 günlük pilot çalıştır; sonra optimize et."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "Phygital & NFT Hediye Deneyimleri", "item": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Phygital kurumsal hediye nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiziksel bir hediye setini dijital bir hak/sertifika/kuponla birleştiren hediye modelidir. Amaç ölçülebilir ve paylaşılabilir deneyim üretmektir; oteller için en güvenli başlangıç dijital sertifika + QR yaklaşımıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NFT ve dijital kartlar otel hediyelerinde nasıl kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dijital kart/sertifika düşük riskli ve anlaşılır bir başlangıçtır. NFT ise sınırlı seri koleksiyon kartı gibi konumlanabilir ama hedef kitle ve akış hazır değilse güvensizlik/kafa karışıklığı yaratabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dijital + fiziksel hediye kombinasyonunu nasıl basit tutarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek somut değer seçin, tek QR ve tek CTA kullanın; koşulları 4–6 maddede net yazın. Operasyon SOP’u olmadan çok hak ve çok link eklemek karmaşa ve şikâyet üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu alanda hangi risk ve sınırlara dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anlatım karmaşası, güven algısı, platform bağımlılığı, operasyon kapasitesi ve hukuk/vergi riskleri ana başlıklardır. Büyük ölçekli NFT/dijital hak projelerinde profesyonel danışmanlık olmadan ilerlemek önerilmez."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"on-demand-ve-son-dakika-kurumsal-hediye-lojistigi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi",
+      "name": "On-Demand ve Son Dakika Kurumsal Hediye Lojistiği: Aynı Gün Teslim ve Oda Sürprizleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#article",
+      "headline": "On-Demand ve Son Dakika Kurumsal Hediye Lojistiği: Aynı Gün Teslim ve Oda Sürprizleri",
+      "description": "Otellerde on-demand/same-day hediye modelini menü, stok min–max, city courier SLA, rezervasyon/doğum günü tetikleyicileri ve gecikme telafi planıyla kurgulayın; oda sürprizi deneyimini operasyonel olarak güvene alın.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "keywords": [
+        "on demand kurumsal hediye otel",
+        "ayni gun oda surprizi akisi",
+        "sehir ici kurye ile hediye teslim",
+        "on demand hotel gifting",
+        "same day vip amenity delivery",
+        "trigger based room surprise flows"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "serviceType": "On-Demand ve Son Dakika Hediye Lojistiği Danışmanlığı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#howto",
+      "name": "On-demand ve son dakika kurumsal hediye lojistiği nasıl kurgulanmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Same-day hediye menüsünü belirle",
+          "text": "5–8 kalemlik same-day menü oluştur; her kalem için hazırlık süresi ve cutoff saatlerini yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Min–max stok ve kritik SKU’ları kur",
+          "text": "Evergreen çekirdek ürünler için min–max seviyeleri belirle; SKT’li ürünlerde FEFO uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kurye/tedarikçi SLA ve yedek planı yaz",
+          "text": "City courier SLA, gece limitleri ve eksik/hasar prosedürünü tanımla; concierge teslim gibi yedek plan ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tetikleyici ve telafi sürecini standardize et",
+          "text": "Rezervasyon/doğum günü/upgrade tetikleyicilerini test et; gecikme veya yanlış teslim için hazır telafi modelini uygula."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "On-Demand Hediye Lojistiği", "item": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "On-demand kurumsal hediye nedir, otellerde nasıl uygulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon/özel gün gibi tetikleyicilerle aynı gün hazırlanan ve odaya yerleştirilen hediye modelidir. Sınırlı menü, kurye SLA ve telafi planı olmadan uygulanırsa memnuniyetsizlik yaratabilir; pilotla başlamak daha güvenlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aynı gün oda sürprizi hediye akışı nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sipariş→hazırlık→teslim→oda yerleşimi→teslim teyidi akışını SOP’a bağlayın; cutoff saatleri ve yedek teslim planı tanımlayın. Housekeeping ve ön büro koordinasyonu başarıyı belirler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şehir içi kurye ve tedarikçi iş birliği nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA, gece limitleri, yoğun gün kapasitesi ve hasar/eksik prosedürü yazılı olmalıdır. Tek partnerle başlayıp stabil olunca yedek eklemek iyi pratiktir; teslim logları performansı görünür kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hediye geciktiğinde misafire ne söylemeliyim, nasıl telafi etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net zaman + özür + telafi üçlüsünü kullanın ve vaat edemeyeceğiniz süre vermeyin. Telafi seti önceden stoklu olmalı; ekip metni hazır kullanmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"influencer-ve-ugc-icin-hediye-seeding-kampanyalari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari",
+
+      "name": "Influencer ve UGC İçin Hediye Seeding Kampanyaları: Oteller Nasıl Kurgulamalı?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#article",
+
+      "headline": "Influencer ve UGC İçin Hediye Seeding Kampanyaları: Oteller Nasıl Kurgulamalı?",
+
+      "description": "Oteller için influencer/creator hediye seeding kampanyasını creator seçimi, kutu konsepti, brief, disclosure ve kullanım haklarıyla sistemleştirin; UGC performansını ölçüp uzun vadeli iş birliğine dönüştürün.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "keywords": [
+
+        "influencer hediye seeding kampanyasi otel",
+
+        "ugc icin hediye kutusu stratejisi",
+
+        "otel sosyal medya icin creator gifting",
+
+        "influencer gifting for hotels",
+
+        "ugc-based hotel gift campaigns",
+
+        "seeding strategy with vip boxes"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+
+      "name": "Kurumsal Hediye & Tasarım",
+
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "serviceType": "Influencer & UGC Hediye Seeding Stratejisi",
+
+      "areaServed": ["TR"]
+
+    },
+
+    {
+
+      "@type": "Product",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#product",
+
+      "name": "Hediye Seeding Creator List & Brief Şablonu",
+
+      "description": "Creator listesi, seeding kutusu konsepti, deliverables, disclosure, kullanım hakları ve UTM/raporlama alanlarını tek dokümanda birleştiren kampanya şablonu.",
+
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+
+      "category": "Influencer Seeding / UGC Campaign / Creator Brief"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#howto",
+
+      "name": "Oteller için hediye seeding kampanyası nasıl kurgulanmalı?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Segment ve creator kriterlerini belirle",
+
+          "text": "Luxury/family/city hedefini ve pazar/dil uyumunu belirleyip creator seçimini brand fit ve içerik kalitesiyle yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kutu konsepti ve brief’i hazırla",
+
+          "text": "Fotojenik hediye kutusu + deneyim kuponu + hikâye kartı kurgula; brief’te ton, deliverables ve tek CTA’yı net yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Haklar ve disclosure’u yazılı netleştir",
+
+          "text": "Yeniden kullanım kanalları, süre, düzenleme hakkı ve şeffaf etiketleme beklentisini brief/sözleşmede belirt."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "UTM ile ölç, raporla ve karar ver",
+
+          "text": "Reach/saves/views ve UTM tıklama metriklerini raporlayıp devam–optimize–durdur kararı ver; iyi creator’larla uzun vadeye geç."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Hediye Seeding Kampanyaları", "item": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hediye seeding kampanyası nedir, otellerde nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Creator’lara hediye/deneyim gönderip net bir brief ile UGC üretmeyi hedefleyen kampanya modelidir. Başarı; doğru creator seçimi, fotojenik kutu konsepti ve ölçüm (UTM) ile gelir. Hak ve disclosure net değilse marka riski doğar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Influencer ve micro-influencer’ları nasıl seçmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Follower sayısından önce brand fit, hedef pazar/dil uyumu ve içerik kalitesine bakın. Micro-influencer’lar çoğu zaman daha yüksek güven ve daha iyi etkileşim verir. İlk pilotta küçük bir listeyle test etmek güvenlidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hediye kutusu konsepti ve brief’te neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kutu; ürün + deneyim + hikâye kartı katmanıyla anlatılabilir olmalı. Brief’te ton, tek CTA, deliverables, deadline, disclosure ve kullanım hakları net yazılmalıdır. 1 sayfayı geçmeyen brief pratik çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Seeding kampanyasının performansını nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Views/reach/saves metriklerini UTM’li link tıklamaları ve DM/lead sinyalleriyle birlikte izleyin. En az 5 iyi UGC örneği arşivi oluşturun ve devam–optimize–durdur kararı verin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
+
     },
 
     "cagri-merkezi": {

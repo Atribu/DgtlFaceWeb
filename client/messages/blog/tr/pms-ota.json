@@ -88255,7 +88255,7 @@
         "blocks": [
           {
             "type": "media",
-            "slot": "h1-context"
+            "slot": "h1-context-02"
           },
           {
             "type": "p",
@@ -88703,36 +88703,6 @@
                 "Offer",
                 "Rezervasyon"
               ]
-            ]
-          },
-          {
-            "type": "h3",
-            "text": "TEMPLATE – Guardrail & HumanApproval"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Kritik gün eşiği: ____",
-              "Kritik oda tipleri: ____",
-              "Otomatik uygulama: ( ) Kapalı ( ) Sadece düşük riskli aksiyonlar",
-              "Onay SLA: ____",
-              "Rollback: ____ (kim, kaç dk)"
-            ]
-          },
-          {
-            "type": "h3",
-            "text": "TEMPLATE – KPI Seti"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Öneri kabul oranı (NBA/kısıt)",
-              "Öneri sonrası outcome (doluluk/yield)",
-              "Hata/vaka sayısı (yanlış kısıt)",
-              "Manuel işlem azalması",
-              "Forecast sapma trendi (haftalık)"
             ]
           },
           {

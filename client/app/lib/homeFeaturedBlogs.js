@@ -27,56 +27,56 @@ export const HOME_FEATURED_BLOGS = {
       },
     },
     {
-      id: "BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi",
+      id: "BlogSeoOpsIcinOtomatikRaporVeSlackEPostaAlertSistemleri",
       dept: "seo",
-      slug: "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi",
-      title: "SEO Raporlarında Veri Kalitesi ve İzleme Hijyeni",
+      slug: "seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri",
+      title: "SEO Ops Alert Sistemi: Slack/E-posta ile Otomasyon | DGTLFACE",
       excerpt:
-        "SEO raporunu yorumlamadan önce veri hijyenini doğrula: GA4 organik kanal mapping, bot/spam filtreleri, event/tag kırılmaları ve GSC filtre uyumu. Yanlış veriye göre karar verme.",
-      updatedAt: "2026-06-05",
+        "Trafik/CTR/CWV/404-5xx için doğru eşiklerle SEO alert kur; günlük/haftalık özetleri Slack/e-postaya düşür. Alarm yorgunluğunu önle, düşüşleri rapor günü gelmeden yakala.",
+      updatedAt: "2026-06-08",
       banner: {
-        src: "/images/blog/seo/SEO5-19/SEO5-19-1.webp",
-        alt: "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+        src: "/images/blog/seo/SEO5-25/SEO5-25-1.webp",
+        alt: "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri Nasıl Kurulur?",
       },
     },
     {
-      id: "BlogStoryIcerikleriAnketSoruKutusuVeEtkilesimStickerlariIleEngagement",
+      id: "BlogAnalyticsOperasyonlariIcinDokumantasyonVeKnowledgeBaseYapisi",
       dept: "smm",
-      slug: "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement",
-      title: "Instagram Story Sticker’ları ile Etkileşim Artırma",
+      slug: "analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi",
+      title: "SMM Analytics Dokümantasyonu: KPI Sözlüğü ve Changelog",
       excerpt:
-        "Anket, soru kutusu, slider ve quiz ile story etkileşimini büyütün. Otel/B2B için senaryo akışları, yayın zamanlaması ve story insights metrikleriyle DM/lead’i artırın.",
-      updatedAt: "2026-04-24",
+        "KPI definition sözlüğü, dashboard rehberleri, UTM/channel mapping ve tracking changelog ile SMM analytics knowledge base kurun. Herkes aynı veriyi aynı şekilde okusun, güven ve hız artsın.",
+      updatedAt: "2026-06-19",
       banner: {
-        src: "/images/blog/smm/SMM1-11/SMM1-11-1.webp",
-        alt: "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+        src: "/images/blog/smm/SMM5-25/SMM5-25-1.webp",
+        alt: "Analytics Operasyonları İçin Dokümantasyon ve Knowledge Base Yapısı",
       },
     },
     {
-      id: "BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops",
+      id: "BlogSreKulturuVeErrorBudgetModeliBakimSurecineUyarlamak",
       dept: "yazilim",
-      slug: "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops",
-      title: "Next.js CI/CD ve Deployment Stratejisi",
+      slug: "sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
+      title: "SRE & Error Budget: Bakım ve Özellik Dengesini Kur",
       excerpt:
-        "Next.js kurumsal sitelerde dev/staging/prod ortamı ve CI/CD pipeline kurun. Test–SEO kontrolü–rollback planıyla otel & B2B’de güvenli deploy yapın.",
-      updatedAt: "2026-04-24",
+        "SLO hedeflerinden error budget hesaplayın; bütçe tükenince feature hızını düşürüp bakım ve stabilite işlerini artırın. Otel rezervasyon/ödeme ve B2B API/rapor SLO örnekleriyle.",
+      updatedAt: "2026-07-28",
       banner: {
-        src: "/images/blog/software/Software1-10/Software1-10-1.webp",
-        alt: "CI/CD ve Deployment Stratejisi: Next.js Kurumsal Siteler İçin DevOps",
+        src: "/images/blog/software/Software5-25/Software5-25-1.webp",
+        alt: "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
       },
     },
 
     {
-      id: "BlogMockupVeCaseGorsellestirmeAjansVeB2bIcinPortfolioGucu",
+      id: "BlogInfluencerVeUgcIcinHediyeSeedingKampanyalari",
       dept: "creative",
-      slug: "mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu",
-      title: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+      slug: "influencer-ve-ugc-icin-hediye-seeding-kampanyalari",
+      title: "Otel Hediye Seeding Kampanyası: Influencer & UGC",
       excerpt:
-        "Ajans/B2B portfolyosunu güçlendirin: mockup, önce–sonra grid ve performans grafiğiyle dönüşümü gösterin. Otel örnekleriyle güven üretin; checklist’i indirin.",
-      updatedAt: "2026-04-22",
+        "Influencer/UGC hediye seeding’i oteliniz için kurun: creator seçimi, kutu konsepti, brief, #ad/#davet disclosure, kullanım hakları ve raporlama. Şablonlar dâhil.",
+      updatedAt: "2026-08-15",
       banner: {
-        src: "/images/blog/creative/Creative1-9/Creative1-9-1.webp",
-        alt: "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+        src: "/images/blog/creative/Creative5-25/Creative5-25-1.webp",
+        alt: "Influencer ve UGC İçin Hediye Seeding Kampanyaları: Oteller Nasıl Kurgulamalı?",
       },
     },
    
@@ -95,29 +95,29 @@ export const HOME_FEATURED_BLOGS = {
     },
     
      {
-      id: "BlogPmsNightAuditVeGunSonuSurecleri",
+      id: "Blog2026YapayZekaDestekliRezervasyonOnerileriVeOtomatikKapasiteYonetimi",
       dept: "pms-ota",
-      slug: "pms-night-audit-ve-gun-sonu-surecleri",
-      title: "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+      slug: "2026-yapay-zeka-destekli-rezervasyon-onerileri-ve-otomatik-kapasite-yonetimi",
+      title: "2026 AI Rezervasyon Önerileri: Next Best Action",
       excerpt:
-        "PMS’te night audit/gün sonu sürecini doğru kurarak oda–folyo–gelir kontrollerini standardize edin, POS uyumunu doğrulayın, zorunlu rapor setiyle sabah sürpriz hatalarını azaltın.",
-      updatedAt: "2026-04-22",
+        "AI ile talebi tahmin edip kapasite/kısıt kararlarını proaktif yönetin. Next best action önerileri, insan onayı ve izleme governance ile geliri ve verimliliği artırın.",
+      updatedAt: "2026-05-11",
       banner: {
-        src: "/images/blog/pms/PMS-OTA1-9/Pms1-9-1.webp",
-        alt: "PMS Night Audit ve Gün Sonu Süreçlerini Kurma Rehberi",
+        src: "/images/blog/pms/PMS-OTA5-25/Pms5-25-1.webp",
+        alt: "2026’da Yapay Zekâ Destekli Rezervasyon Önerileri ve Otomatik Kapasite Yönetimi",
       },
     },
     {
-      id: "BlogAjansVeOtelEkibiIcinLookerStudioIsAkisi",
+      id: "BlogCagriMerkeziVerileriniLookerStudioyaTasimak",
       dept: "raporlama",
-      slug: "ajans-ve-otel-ekibi-icin-looker-studio-is-akisi",
-      title: "Ajans–Otel Looker Studio İş Akışı ve Modeli",
+      slug: "cagri-merkezi-verilerini-looker-studioya-tasimak",
+      title: "Çağrı Merkezi+WhatsApp KPI Paneli | Looker Studio",
       excerpt:
-        "Ajans ve otel ekibi aynı Looker Studio panelinde nasıl çalışır? Rol-sorumluluk, ortak dashboard yapısı, not/aksiyon alanları ve aylık toplantı ritmiyle raporu şeffaflaştırın; yetki ayarlarını doğru kurun.",
-      updatedAt: "2026-01-09",
+        "Çağrı merkezi ve WhatsApp/DM verisini Looker Studio’ya taşıyın. Cevaplanma, bekleme süresi, talep→rezervasyon dönüşümü ve saat/dil kırılımlarını tek panelde izleyin; kapasite ve gelir kararını veriye bağlayın.",
+      updatedAt: "2026-04-28",
       banner: {
-        src: "/images/blog/analysisReporting/Reporting1-9/Reporting1-9-1.webp",
-        alt: "Ajans ve Otel Ekibi İçin Ortak Looker Studio Çalışma Modeli ve İş Akışı",
+        src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-1.webp",
+        alt: "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak",
       },
     },
     {
@@ -127,7 +127,7 @@ export const HOME_FEATURED_BLOGS = {
       title: "2026 PMS+IoT Akıllı Oda Enerji ve Konfor",
       excerpt:
         "PMS+BMS+IoT ile check-in/boş oda/gece modu senaryoları kurun; enerji tüketimini optimize edin, arıza alarmlarını operasyonla bağlayın. KVKK/mahremiyet için minimum veri, opt-in ve ağ güvenliğini tasarıma gömün.",
-      updatedAt: "2026-01-05",
+      updatedAt: "2026-03-13",
       banner: {
         src: "/images/blog/hotel/Hotel5-25/Hotel5-25-1.webp",
         alt: "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon",

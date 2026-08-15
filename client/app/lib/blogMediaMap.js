@@ -53100,8 +53100,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/creative/Creative5-19/Creative5-19-4.webp",
-      alt: "Unboxing storyboard panosu, çekim planı ve otel bağlamı”",
-      caption: "Unboxing storyboard panosu, çekim planı ve otel bağlamı”"
+      alt: "Unboxing storyboard panosu, çekim planı ve otel bağlamı",
+      caption: "Unboxing storyboard panosu, çekim planı ve otel bağlamı"
     },
 
      "diagram-05": {
@@ -53126,6 +53126,307 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/creative/Creative5-19/Creative5-19-8.webp",
       alt: "Storyboard ve shot list çıktıları, hediye hikâyesi otel bağlamı",
       caption: "Storyboard ve shot list çıktıları, hediye hikâyesi otel bağlamı"
+    }
+  },
+
+
+  "kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari":{
+    banner: {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-1.webp",
+      alt: "Farklı Kültür ve Pazarlar İçin Kurumsal Hediye: TR, EN, DE, RU Perspektifi",
+      caption: "Farklı Kültür ve Pazarlar İçin Kurumsal Hediye: TR, EN, DE, RU Perspektifi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-2.webp",
+      alt: "Çok dilli hediye kartı örnekleri, otel iletişim bağlamı",
+      caption: "Çok dilli hediye kartı örnekleri, otel iletişim bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-3.webp",
+      alt: "Pazar bazlı hediye tasarımı, kültürel hassasiyet ve otel bağlamı",
+      caption: "Pazar bazlı hediye tasarımı, kültürel hassasiyet ve otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-4.webp",
+      alt: "TR EN DE RU kart tasarımı örnek panosu, otel bağlamı",
+      caption: "TR EN DE RU kart tasarımı örnek panosu, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-5.webp",
+      alt: "Pazar varyant karar ağacı, risk kontrolü ve otel bağlamı",
+      caption: "Pazar varyant karar ağacı, risk kontrolü ve otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-6.webp",
+      alt: "Kültürel do-dont ve lokalizasyon checklist’i, otel bağlamı",
+      caption: "Kültürel do-dont ve lokalizasyon checklist’i, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-7.webp",
+      alt: "Pazar uyumu KPI kartı, memnuniyet ve şikâyet otel bağlamı",
+      caption: "Pazar uyumu KPI kartı, memnuniyet ve şikâyet otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-20/Creative5-20-8.webp",
+      alt: "TR EN DE RU hediye set mockup’ları, otel bağlamı",
+      caption: "TR EN DE RU hediye set mockup’ları, otel bağlamı"
+    }
+  },
+
+   "kurumsal-hediye-trendleri-2025-2026":{
+    banner: {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-1.webp",
+      alt: "2025–2026 Kurumsal Hediye Trendleri: Oteller ve Markalar İçin Yol Haritası",
+      caption: "2025–2026 Kurumsal Hediye Trendleri: Oteller ve Markalar İçin Yol Haritası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-2.webp",
+      alt: "Trend kolajı ve örnek hediye kutuları, otel bağlamı",
+      caption: "Trend kolajı ve örnek hediye kutuları, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-3.webp",
+      alt: "Trend listesi ve hızlı okuma paneli, otel bağlamı",
+      caption: "Trend listesi ve hızlı okuma paneli, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-4.webp",
+      alt: "Deneyim ve phygital hediye kartları, otel bağlamı",
+      caption: "Deneyim ve phygital hediye kartları, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-5.webp",
+      alt: "Trendleri segmente uyarlama akışı diyagramı, otel bağlamı",
+      caption: "Trendleri segmente uyarlama akışı diyagramı, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-6.webp",
+      alt: "Trend uygulama checklist’i, otel operasyon ve pazarlama bağlamı",
+      caption: "Trend uygulama checklist’i, otel operasyon ve pazarlama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-7.webp",
+      alt: "Trend KPI kartı, memnuniyet ve etkileşim ölçümü otel bağlamı",
+      caption: "Trend KPI kartı, memnuniyet ve etkileşim ölçümü otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-21/Creative5-21-8.webp",
+      alt: "Trend paket örnekleri ve uygulama çıktıları, otel bağlamı",
+      caption: "Trend paket örnekleri ve uygulama çıktıları, otel bağlamı"
+    }
+  },
+
+  "ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme":{
+    banner: {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-1.webp",
+      alt: "AI ile Kurumsal Hediye Tasarımı ve Kişiselleştirme: Oteller İçin Yeni Oyun Alanı",
+      caption: "AI ile Kurumsal Hediye Tasarımı ve Kişiselleştirme: Oteller İçin Yeni Oyun Alanı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-2.webp",
+      alt: "AI ekranı ve segment kartları, otel hediye bağlamı",
+      caption: "AI ekranı ve segment kartları, otel hediye bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-3.webp",
+      alt: "AI ile hediye tasarım adımları, onay süreçleri otel bağlamı",
+      caption: "AI ile hediye tasarım adımları, onay süreçleri otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-4.webp",
+      alt: "Prompt ve çıktı örnekleri, hediye metinleri otel bağlamı",
+      caption: "Prompt ve çıktı örnekleri, hediye metinleri otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-5.webp",
+      alt: "CRM/PMS’den anonim profile AI akışı, onay kapıları otel bağlamı",
+      caption: "CRM/PMS’den anonim profile AI akışı, onay kapıları otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-6.webp",
+      alt: "AI ile hediye üretimi checklist’i, veri ve onay otel bağlamı",
+      caption: "AI ile hediye üretimi checklist’i, veri ve onay otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-7.webp",
+      alt: "AI gifting KPI kartı, hız ve risk ölçümü otel bağlamı",
+      caption: "AI gifting KPI kartı, hız ve risk ölçümü otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-22/Creative5-22-8.webp",
+      alt: "AI prompt kütüphanesi ve onay akışı çıktıları, otel bağlamı",
+      caption: "AI prompt kütüphanesi ve onay akışı çıktıları, otel bağlamı"
+    }
+  },
+
+  "phygital-nft-ve-dijital-hediye-deneyimleri":{
+    banner: {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-1.webp",
+      alt: "Phygital, NFT ve Dijital Hediye Deneyimleri: Oteller İçin Yeni Nesil Kurumsal Hediyeler",
+      caption: "Phygital, NFT ve Dijital Hediye Deneyimleri: Oteller İçin Yeni Nesil Kurumsal Hediyeler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-2.webp",
+      alt: "Dijital sertifika kartı ve QR akışı, otel hediye bağlamı",
+      caption: "Dijital sertifika kartı ve QR akışı, otel hediye bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-3.webp",
+      alt: "Phygital hediye kurgusu adımları, sadelik ve otel bağlamı",
+      caption: "Phygital hediye kurgusu adımları, sadelik ve otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-4.webp",
+      alt: "Basit phygital senaryo storyboard’u, otel bağlamı",
+      caption: "Basit phygital senaryo storyboard’u, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-5.webp",
+      alt: "Dijital hak + fiziksel hediye flow diyagramı, otel bağlamı",
+      caption: "Dijital hak + fiziksel hediye flow diyagramı, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-6.webp",
+      alt: "Phygital hediye kontrol checklist’i, risk ve sadelik otel bağlamı",
+      caption: "Phygital hediye kontrol checklist’i, risk ve sadelik otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-7.webp",
+      alt: "Phygital pilot KPI kartı, kullanım ve şikâyet otel bağlamı",
+      caption: "Phygital pilot KPI kartı, kullanım ve şikâyet otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-23/Creative5-23-8.webp",
+      alt: "Phygital pilot deliverables ve SOP çıktıları, otel bağlamı",
+      caption: "Phygital pilot deliverables ve SOP çıktıları, otel bağlamı"
+    }
+  },
+
+  "on-demand-ve-son-dakika-kurumsal-hediye-lojistigi":{
+    banner: {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-1.webp",
+      alt: "On-Demand ve Son Dakika Kurumsal Hediye Lojistiği: Aynı Gün Teslim ve Oda Sürprizleri",
+      caption: "On-Demand ve Son Dakika Kurumsal Hediye Lojistiği: Aynı Gün Teslim ve Oda Sürprizleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-2.webp",
+      alt: "Oda sürprizi yerleşimi, son dakika hediye deneyimi ve otel bağlamı",
+      caption: "Oda sürprizi yerleşimi, son dakika hediye deneyimi ve otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-3.webp",
+      alt: "Same day hediye akışı adımları, SLA ve otel operasyon bağlamı",
+      caption: "Same day hediye akışı adımları, SLA ve otel operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-4.webp",
+      alt: "Oda sürprizi görsel örnekleri, hızlı teslim ve otel bağlamı",
+      caption: "Oda sürprizi görsel örnekleri, hızlı teslim ve otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-5.webp",
+      alt: "Siparişten odaya aynı gün teslim akış diyagramı, otel bağlamı",
+      caption: "Siparişten odaya aynı gün teslim akış diyagramı, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-6.webp",
+      alt: "Risk ve telafi checklist’i, same day hediye ve otel bağlamı",
+      caption: "Risk ve telafi checklist’i, same day hediye ve otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-7.webp",
+      alt: "On-demand KPI kartı, teslim süresi ve memnuniyet otel bağlamı",
+      caption: "On-demand KPI kartı, teslim süresi ve memnuniyet otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-24/Creative5-24-8.webp",
+      alt: "On-demand pilot çıktı listesi, menü ve SOP otel bağlamı",
+      caption: "On-demand pilot çıktı listesi, menü ve SOP otel bağlamı"
+    }
+  },
+
+  "influencer-ve-ugc-icin-hediye-seeding-kampanyalari":{
+     banner: {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-1.webp",
+      alt: "Influencer ve UGC İçin Hediye Seeding Kampanyaları: Oteller Nasıl Kurgulamalı?",
+      caption: "Influencer ve UGC İçin Hediye Seeding Kampanyaları: Oteller Nasıl Kurgulamalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-2.webp",
+      alt: "Creator brief kartı ve hediye konsepti, otel bağlamı",
+      caption: "Creator brief kartı ve hediye konsepti, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-3.webp",
+      alt: "Seeding kampanyası adımları, creator seçimi ve otel bağlamı",
+      caption: "Seeding kampanyası adımları, creator seçimi ve otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-4.webp",
+      alt: "Seeding hediye kutusu konsepti, unboxing ve otel bağlamı",
+      caption: "Seeding hediye kutusu konsepti, unboxing ve otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-5.webp",
+      alt: "Seeding’den UGC’ye kampanya akışı, otel sosyal medya bağlamı",
+      caption: "Seeding’den UGC’ye kampanya akışı, otel sosyal medya bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-6.webp",
+      alt: "Creator brief checklist’i, haklar ve disclosure otel bağlamı",
+      caption: "Creator brief checklist’i, haklar ve disclosure otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-7.webp",
+      alt: "Seeding performans KPI kartı, etkileşim ve tıklama otel bağlamı”",
+      caption: "Seeding performans KPI kartı, etkileşim ve tıklama otel bağlamı”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-25/Creative5-25-8.webp",
+      alt: "Seeding deliverables: creator list, brief, rapor otel bağlamı",
+      caption: "Seeding deliverables: creator list, brief, rapor otel bağlamı"
     }
   }
   
