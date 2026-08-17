@@ -690,8 +690,7 @@ export const BLOG_MAP = {
     "kurumsal-hediye-trendleri-2025-2026":"BlogKurumsalHediyeTrendleri20252026",
     "ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme":"BlogAiIleKurumsalHediyeTasarimiVeKisisellestirme",
     "phygital-nft-ve-dijital-hediye-deneyimleri":"BlogPhygitalNftVeDijitalHediyeDeneyimleri",
-    "on-demand-ve-son-dakika-kurumsal-hediye-lojistigi":"BlogOnDemandVeSonDakikaKurumsalHediyeLojistigi",
-    "influencer-ve-ugc-icin-hediye-seeding-kampanyalari":"BlogInfluencerVeUgcIcinHediyeSeedingKampanyalari"
+    "on-demand-ve-son-dakika-kurumsal-hediye-lojistigi":"BlogOnDemandVeSonDakikaKurumsalHediyeLojistigi"
     
   },
 
@@ -1029,7 +1028,22 @@ export const BLOG_MAP = {
     "sezonluk-otel-performansi-icin-looker-studio-panelleri":"BlogSezonlukOtelPerformansiIcinLookerStudioPanelleri",
     "ga4-ve-looker-studio-veri-farklari":"BlogGA4VeLookerStudioVeriFarklari",
 
-    "cagri-merkezi-verilerini-looker-studioya-tasimak":"BlogCagriMerkeziVerileriniLookerStudioyaTasimak"
+    "cagri-merkezi-verilerini-looker-studioya-tasimak":"BlogCagriMerkeziVerileriniLookerStudioyaTasimak",
+
+    "influencer-ve-ugc-icin-hediye-seeding-kampanyalari":"BlogInfluencerVeUgcIcinHediyeSeedingKampanyalari",
+    "resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli":"BlogResepsiyonVeSatisEkipleriIcinLookerStudioKpiPaneli",
+    "looker-studio-gorsel-tasarim-en-iyi-uygulamalar":"BlogLookerStudioGorselTasarimEnIyiUygulamalar",
+    "looker-studio-icin-veri-isimlendirme-ve-standartlar":"BlogLookerStudioIcinVeriIsimlendirmeVeStandartlar",
+    "excelden-looker-studioya-otel-raporlari":"BlogExceldenLookerStudioyaOtelRaporlari",
+    "google-hotel-ads-ve-metasearch-performansi-looker-studio":"BlogGoogleHotelAdsVeMetasearchPerformansiLookerStudio",
+    "butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio":"BlogButceVeHedefVsGerceklesenKpiPaneliLookerStudio",
+    "cok-dilli-ve-cok-para-birimli-looker-studio-panelleri":"BlogCokDilliVeCokParaBirimliLookerStudioPanelleri",
+    "bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi":"BlogBigQueryVeLookerStudioIleBuyukOtelVeriMimarisi",
+    "2026-ai-odakli-otel-raporlama-trendleri":"Blog2026AiOdakliOtelRaporlamaTrendleri",
+    "2026-cerezsiz-donem-ve-looker-studio-panelleri":"Blog2026CerezsizDonemVeLookerStudioPanelleri",
+    "gercek-zamanli-otel-operasyon-panelleri-looker-studio":"BlogGercekZamanliOtelOperasyonPanelleriLookerStudio",
+    "sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio":"BlogSesliVeSohbetTabanliOtelRaporlamaAiLookerStudio",
+    "surdurulebilirlik-esg-kpilari-looker-studio-2026":"BlogSurdurulebilirlikEsgKpilariLookerStudio2026"
   },
 
 

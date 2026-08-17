@@ -116974,6 +116974,8 @@ export const BLOG_JSONLD_MAP = {
 
 }
 
+
+
     },
 
     "cagri-merkezi": {
@@ -161830,7 +161832,3097 @@ export const BLOG_JSONLD_MAP = {
 
 },
 
-"cagri-merkezi-verilerini-looker-studioya-tasimak":{}
+"cagri-merkezi-verilerini-looker-studioya-tasimak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak",
+
+      "name": "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak#article",
+
+      "headline": "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak",
+
+      "description": "Çağrı merkezi ve WhatsApp verilerini Looker Studio’da raporlayarak gelen çağrı ve mesajların ne kadarının rezervasyona dönüştüğünü, hangi saat ve pazarlarda daha güçlü performans aldığınızı görün.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "cagri merkezi performans raporu",
+
+        "whatsapp otel talep analizi",
+
+        "cagri rezervasyon donusum paneli",
+
+        "Call Center",
+
+        "WhatsApp",
+
+        "DM",
+
+        "Reservations",
+
+        "Conversion Rate"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Çağrı Merkezi ve Mesaj Kanalları Performans Dashboard Kurulumu",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Side", "Belek", "Alanya"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çağrı Merkezi ve WhatsApp Verilerini Looker Studio’ya Taşımak", "item": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çağrı merkezi verileri Looker Studio’da nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çağrı merkezi yazılımından export alıp (tarih, saat, inbound/outbound, answered/missed, wait time) Looker Studio’ya bağlarsınız. KPI kartlarıyla hacim, answer rate ve bekleme süresini izlersiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "WhatsApp ve DM’den gelen otel taleplerini panelde nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "WhatsApp/DM kayıtlarını standart formatta toplar (tarih, dil, yanıt süresi, outcome) ve Looker Studio’da mesaj KPI’larıyla gösterirsiniz. Yanıt süresi ve talep→rezervasyon dönüşümü kritik metriklerdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çağrı → rezervasyon dönüşümünü Looker Studio’da nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her talebi booking oldu/olmadı outcome ile etiketleyip call→booking oranını hesaplayın. Mümkünse Inquiry ID ile çağrıyı rezervasyon kaydıyla eşleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel çağrı merkezi KPI’ları için hangi metrikler seçilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hacim (inbound), erişilebilirlik (answer rate), hız (wait/response time) ve dönüşüm (call/msg→booking) temel seti oluşturur. Dil/saat kırılımı kapasite planını güçlendirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yoğun saatlerde cevaplanma düşerse ne olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kaçan çağrı, kaçan satış fırsatıdır ve yüksek sezonda gelir kaybına dönüşebilir. Isı haritası ile pik saatleri bulup vardiya planını güncellemek gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli",
+
+      "name": "Resepsiyon ve Satış Ekipleri İçin Looker Studio KPI Paneli Tasarlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli#article",
+
+      "headline": "Resepsiyon ve Satış Ekipleri İçin Looker Studio KPI Paneli Tasarlamak",
+
+      "description": "Resepsiyon ve satış ekipleri için Looker Studio’da ayrı KPI panelleri tasarla; resepsiyon tarafında operasyon, satış tarafında gelir ve hedef–gerçekleşen odaklı metrikleri günlük/haftalık ritimde takip ederek ekip performansını veriye dayalı yönet.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "resepsiyon kpi paneli",
+
+        "satis ekibi gelir dashboardu",
+
+        "hedef gerceklesen kpi raporu",
+
+        "Reception Team",
+
+        "Sales Team",
+
+        "Occupancy",
+
+        "Revenue",
+
+        "Forecast"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Ekip Bazlı KPI Dashboard Tasarımı (Resepsiyon & Satış/Revenue)",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Resepsiyon ve Satış Ekipleri İçin Looker Studio KPI Paneli Tasarlamak", "item": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Resepsiyon ekibi için hangi KPI’lar Looker Studio’da takip edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Check-in süresi, no-show, hatalı rezervasyon oranı ve günlük doluluk/forecast çekirdek seti oluşturur. Vardiya bazlı yoğunluk gibi operasyon göstergeleri eklenebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Satış ekibi için gelir odaklı dashboard nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kanal bazlı gelir, RevPAR/ADR, hedef–gerçekleşen farkı ve forecast sapması tek ekranda olmalıdır. Kampanya sonuçları ve kanal mix ikinci katmanda verilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hedef–gerçekleşen KPI karşılaştırması nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her KPI için hedef, gerçekleşen ve fark (Δ) aynı grafikte gösterilir. Haftalık ve aylık periyotlarda sapma trendi izlenerek aksiyon çıkarılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ekip performansını Looker Studio verileriyle nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Günlük/haftalık ritim kurup panelden kısa KPI review yapın. Toplantıyı 3 aksiyon + sahip + tarih ile kapatıp sonraki görüşmede sonuçları panelde doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İki paneli birbirine nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortak KPI’lar belirleyin (doluluk, no-show, forecast). Resepsiyon panelindeki sapmaları satış panelindeki hedef ve kanal kararlarıyla ilişkilendirin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"looker-studio-gorsel-tasarim-en-iyi-uygulamalar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar",
+
+      "name": "Looker Studio Dashboard Tasarımında Görsel En İyi Uygulamalar (Otel Örneği)",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar#article",
+
+      "headline": "Looker Studio Dashboard Tasarımında Görsel En İyi Uygulamalar (Otel Örneği)",
+
+      "description": "Looker Studio dashboard’unu sade, KPI odaklı ve okunabilir tasarla; az ama tutarlı renk kullan, KPI kartlarını en üste yerleştir, grafik ve tabloları sadece gerçekten içgörü üreten alanlar için kullan.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "dashboard tasarim en iyi uygulamalar",
+
+        "otel icin kpi odakli panel",
+
+        "loooker studio renk tipografi ipuclari",
+
+        "Dashboard Design",
+
+        "KPI Cards",
+
+        "Charts",
+
+        "Color Palette",
+
+        "Typography",
+
+        "Mobile View"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Otel Dashboard Tasarımı ve Görsel Hiyerarşi Danışmanlığı",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Looker Studio Dashboard Tasarımında Görsel En İyi Uygulamalar (Otel Örneği)", "item": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "İyi bir Looker Studio dashboard tasarımı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI-first ve sade olmalı: üstte 10–15 KPI kartı, 1–2 trend grafiği ve gerektiğinde tek bir detay tablosu. Az renk, tutarlı tipografi ve net hizalama okunabilirliği artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için dashboard’da hangi KPI’lar en üstte olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doluluk, gelir, ADR/RevPAR ve kanal dağılımı çekirdektir. Kampanya yoğunluğu varsa ROAS/CPA ve dönüşüm KPI’ları üst sıraya eklenebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Renk ve tipografi dashboard okunabilirliğini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çok renk ve tutarsız font hiyerarşiyi bozar, KPI’lar kaybolur. Az renk paleti ve tutarlı font ölçeği gözün önce doğru kartlara gitmesini sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobilde iyi çalışan Looker Studio tasarımı nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek sütun düzen, büyük KPI kartları ve minimum grafik kullanın. Tabloyu top 5 listelere indirerek yatay kaydırmayı azaltın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık tasarım hatası nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her şeyi tek ekrana sıkıştırmak. GM paneli bir karar ekranı olmalı; detaylar drill-down sayfalara taşınmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"looker-studio-icin-veri-isimlendirme-ve-standartlar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar",
+
+      "name": "Looker Studio İçin Veri İsimlendirme ve Standartlar: Otellerde Sürdürülebilir Raporlama",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar#article",
+
+      "headline": "Looker Studio İçin Veri İsimlendirme ve Standartlar: Otellerde Sürdürülebilir Raporlama",
+
+      "description": "Looker Studio raporlarının sürdürülebilir olması için GA4, Ads, PMS ve OTA alanları için ortak isimlendirme kuralları belirle; channel, market_segment, room_type gibi kritik alanları standardize edip bunları bir data dictionary’de dokümante et.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "looker studio veri isimlendirme",
+
+        "naming convention ornegi",
+
+        "otel data dictionary hazirlama",
+
+        "Data Naming",
+
+        "Dimensions",
+
+        "Metrics",
+
+        "Data Dictionary",
+
+        "GA4 Fields",
+
+        "PMS Fields",
+
+        "OTA Reports"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Veri Standartları, Naming Convention ve Data Dictionary Kurulumu",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Looker Studio İçin Veri İsimlendirme ve Standartlar: Otellerde Sürdürülebilir Raporlama", "item": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri isimlendirme standardı neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı kavram farklı isimlerle geldiğinde ekip hangi alanın ne anlama geldiğini anlayamaz ve raporlar tutarsızlaşır. Standard, dashboard’ların ölçeklenmesini ve güvenilir kalmasını sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio için GA4, Ads ve PMS alanlarını nasıl uyumlu hale getiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Canonical alanlar belirleyip (channel, market_segment, room_type) mapping tablolarıyla GA4/Ads/PMS alanlarını bu isimlere dönüştürürsünüz. Raporda canonical alanları, arka planda raw alanları kullanmak tutarlılık sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için naming convention nasıl hazırlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Snake_case, tek dil, kısa ve anlamlı isimler ve sabit enum değerleriyle başlanır. Multi-property ise hotel_code ve location alanları zorunlu olur; kurallar data dictionary’de dokümante edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Data dictionary nedir, raporlama projelerinde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tüm alanların tanımını, veri tipini, kaynağını ve mapping’ini açıklayan sözlüktür. Yeni dashboard’larda aynı dili sağlar ve onboarding’i hızlandırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Multi-property yapılarda en kritik standart nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "hotel_code ve location/destination alanlarının tüm tablolarda tutarlı olmasıdır. Bu olmadan zincir raporlama kıyasları bozulur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"excelden-looker-studioya-otel-raporlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari",
+
+      "name": "Excel'den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari#article",
+
+      "headline": "Excel'den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak",
+
+      "description": "Excel raporlarınızı Looker Studio’ya taşıyarak doluluk, gelir ve kanal performansını her hafta yeniden hesaplamak yerine tek bir otomatik panelden takip edin; hem zaman kazanın hem de tek doğru veri kaynağı oluşturun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "excelden loooker studioya gecis",
+
+        "otel rapor otomasyonu",
+
+        "manuel raporlama yerine dashboard",
+
+        "Excel",
+
+        "Google Sheets",
+
+        "Looker Studio",
+
+        "Hotel Reporting",
+
+        "Automation"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Excel’den Looker Studio’ya Geçiş ve Otel Rapor Otomasyonu",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Excel'den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak", "item": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Excel otel raporları Looker Studio’ya nasıl taşınır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Excel’i temiz bir veri tablosuna çevirip tarih, kanal ve oda tipi alanlarını standardize edin. Google Sheets veya CSV ile Looker Studio’ya bağlayıp KPI kartlarıyla ilk paneli kurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Excel verilerini Looker Studio’ya bağlamak için hangi adımları izlemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri temizliği, kolon standardı, Sheets/CSV bağlantısı, KPI tanımı ve panel tasarımı sırasıyla ilerleyin. Son adımda ekibi haftalık raporu panelden okumaya alıştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller Excel yerine neden Looker Studio dashboard kullanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Manuel Excel raporları zaman alır ve hata üretir. Dashboard ile KPI’lar otomatik güncellenir ve ekip içinde tek doğru veri kaynağı oluşur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Excel ve Looker Studio raporları arasındaki fark nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Excel genelde manuel hesap ve dosya versiyonu üretir; Looker Studio tek panel ve otomatik güncel yaklaşımıyla sürdürülebilir raporlama sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Büyük Excel dosyalarında ne yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce Google Sheets veya düzenli CSV export ile başlayın. Dosya çok büyürse daha ölçekli bir veri katmanına geçmek değerlendirilebilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"google-hotel-ads-ve-metasearch-performansi-looker-studio":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio",
+
+      "name": "Google Hotel Ads ve Metasearch Performansını Looker Studio’da Raporlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio#article",
+
+      "headline": "Google Hotel Ads ve Metasearch Performansını Looker Studio’da Raporlamak",
+
+      "description": "Google Hotel Ads ve metasearch verilerini Looker Studio’da toplayarak, hangi kanalın daha kârlı rezervasyon getirdiğini görün; OTA komisyonları ile direkt rezervasyon gelirlerini karşılaştırıp bütçenizi buna göre optimize edin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "google hotel ads performans raporu",
+
+        "metasearch kanal analizi",
+
+        "ota vs direkt rezervasyon karlilik",
+
+        "Google Hotel Ads",
+
+        "Metasearch",
+
+        "Direct Booking",
+
+        "Commission",
+
+        "Revenue",
+
+        "RevPAR"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Metasearch ve Google Hotel Ads Kârlılık Odaklı Dashboard Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Google Hotel Ads ve Metasearch Performansını Looker Studio’da Raporlamak", "item": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Google Hotel Ads performansı Looker Studio’da nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hotel Ads metriklerini (impression, click, CPC, bookings) Looker Studio’da toplar ve aynı panelde gelir/doğrulama katmanı eklersiniz. PMS gelir verisiyle net kârlılığı görünür kılmak en kritik adımdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Metasearch kanallarından gelen rezervasyonları panelde nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Metasearch→web→booking funnel kurgusuyla GA4 dönüşüm event’lerini ve Hotel Ads booking metriklerini birlikte gösterin. Kampanya bazında booking ve gelir katkısını ayrı sayfada izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA vs direkt rezervasyon gelirlerini Looker Studio’da nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Brüt gelir, komisyon maliyeti ve net gelir katmanını ekleyin. Kanal mix’i pay ve net gelir olarak raporlayarak hacim ile kâr ayrımını netleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Metasearch kampanyalarının otel doluluk ve RevPAR’ına etkisi nasıl ölçülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sezon etkisi için YoY aynı dönem kıyası kullanın ve metasearch bütçe dönemlerini etiketleyin. RevPAR trendini kanal mix ve net gelirle birlikte yorumlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık hata nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Metasearch’i sadece CPC ve tıklama ile değerlendirmek. Otel için doğru değerlendirme komisyon sonrası net gelir ve kârlılıkla yapılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio",
+
+      "name": "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio#article",
+
+      "headline": "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak",
+
+      "description": "Bütçe ve hedef verisini Looker Studio’ya taşıyarak gelir, doluluk ve reklam performansını gerçekleşen rakamlarla yan yana gör; sapmaları erken fark edip fiyat, kampanya ve bütçe kararlarını yıl boyunca veriyle düzelt.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "butce ve hedef vs gerceklesen kpi",
+
+        "otel gelir hedefleri paneli",
+
+        "variance analizi loooker studio",
+
+        "Budget",
+
+        "Target",
+
+        "Actual",
+
+        "Variance",
+
+        "Revenue",
+
+        "Occupancy",
+
+        "ROAS"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Bütçe ve Hedef vs Gerçekleşen KPI Dashboard Kurulumu (Budget vs Actual)",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak", "item": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio’da bütçe ve hedef vs gerçekleşen paneli nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hedef verisini (Excel/Sheets) temizleyip bağlayın, PMS/Ads/GA4 gerçekleşen KPI’larla aynı boyutlarda eşleştirin. Variance ve variance% hesap alanlarını ekleyip hedef–gerçekleşen grafiklerle paneli kurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için gelir ve doluluk hedefleri dashboard’da nasıl gösterilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aylık hedef kartları (target) ile gerçekleşen kartları (actual) yan yana gösterin. Aynı satırda variance ve variance% vererek sapmayı hızlı okutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hedef–gerçekleşen KPI sapmalarını Looker Studio’da nasıl izlerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Variance kartları ve trend grafikleri kullanın. Kanal ve pazar kırılımında en büyük sapmaları listeleyerek aksiyonu hızlandırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bütçe ve performans toplantıları için hangi grafikler kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aylık target vs actual trendi, channel variance grafiği, spend vs ROAS variance grafiği, market variance grafiği ve RevPAR trendi pratik bir set oluşturur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık hata nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Target tablosunun temiz olmaması (tarih/kanal formatı karışık) ve gelir tanımının net olmamasıdır. Önce hedef datasını standardize etmek gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cok-dilli-ve-cok-para-birimli-looker-studio-panelleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri",
+
+      "name": "Çok Dilli ve Çok Para Birimli Looker Studio Panelleri Nasıl Kurulur?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri#article",
+
+      "headline": "Çok Dilli ve Çok Para Birimli Looker Studio Panelleri Nasıl Kurulur?",
+
+      "description": "Çok dilli ve çok para birimli çalışan oteller için Looker Studio’da panel etiketlerini TR–EN şekilde düzenle; gelir verisini tek bir ana para birimine çevirerek raporla ve ülke/pazar filtreleriyle herkesin aynı veriyi okuyabilmesini sağla.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-01-03",
+
+      "dateModified": "2026-01-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "multi language loooker studio",
+
+        "cok para birimli otel gelir paneli",
+
+        "uluslararasi otel raporlama",
+
+        "Multi-language Dashboard",
+
+        "Multi-currency Revenue",
+
+        "FX Rate",
+
+        "International Hotels",
+
+        "Markets"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "Çok Dilli ve Çok Para Birimli Otel Dashboard Tasarımı (Internationalisation)",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çok Dilli ve Çok Para Birimli Looker Studio Panelleri Nasıl Kurulur?", "item": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok dilli Looker Studio dashboard nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "TR ve EN için ayrı sayfa/rapor görünümü oluşturup etiket ve tooltip’leri bir sözlükle standardize ederek aynı KPI’ları iki dilde okutabilirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için çok para birimli gelir verisi Looker Studio’da nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gelir kayıtlarına para birimi alanı ekleyip FX tablosu üzerinden baz para birimine (örn. EUR) çevirirsiniz. Kıyasları baz para birimiyle yapıp orijinal para birimini kayıt üzerinde saklarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "EUR, USD ve TRY gibi farklı para birimlerini tek panelde nasıl normalize ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "revenue_base = revenue_local * fx_to_base mantığıyla hesap alanı oluşturun. FX oranlarını tarihli tutup düzenli güncelleyerek doğruluğu koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Uluslararası otel yatırımcıları için hangi dil ve KPI kombinasyonları kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yatırımcı görünümünde EN etiketler ve baz para birimi (çoğunlukla EUR) tercih edilir. KPI seti sade olmalı: revenue_base, occupancy, RevPAR_base, channel mix ve YoY trend."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En büyük risk nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "FX tablosunun güncel olmaması ve gelir tanımının (net/brüt) belirsiz kalmasıdır. Bu iki konu rapor güvenini doğrudan etkiler."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi",
+
+      "name": "BigQuery ve Looker Studio ile Büyük Otel Veri Mimarisi Nasıl Kurulur?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi#article",
+
+      "headline": "BigQuery ve Looker Studio ile Büyük Otel Veri Mimarisi Nasıl Kurulur?",
+
+      "description": "BigQuery’yi PMS, OTA, çağrı merkezi ve GA4 verileriniz için ortak veri ambarı olarak kullanın; tüm veriyi burada modelleyip Looker Studio panellerinizi bu modele bağlayarak hem hız hem esneklik kazanın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-03-03",
+
+      "dateModified": "2026-03-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "bigquery loooker studio otel raporlama",
+
+        "otel veri ambarı mimarisi",
+
+        "multi property analytics warehouse",
+
+        "BigQuery",
+
+        "Data Warehouse",
+
+        "PMS Data",
+
+        "OTA Data",
+
+        "GA4 Export",
+
+        "Hotel Group Analytics"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "BigQuery Tabanlı Otel Veri Ambarı ve Looker Studio Dashboard Mimarisi",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "BigQuery ve Looker Studio ile Büyük Otel Veri Mimarisi Nasıl Kurulur?", "item": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "BigQuery ve Looker Studio birlikte otel raporlamasında nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "BigQuery PMS/OTA/GA4/Call Center verisini tek modelde toplar; Looker Studio bu modeli dashboard olarak görselleştirir. Böylece hız ve KPI tutarlılığı artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS ve OTA verileri BigQuery’de nasıl toplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce date, hotel_code ve channel gibi ortak alanları standardize edip raw katmana alırsınız. Sonra modeled katmanda fact/dimension modele geçirip view’larla raporlarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4 BigQuery export verisini otel panellerinde nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 export web davranışını sağlar; funnel ve dönüşüm analizinde kullanılır. Satış gerçekliği için PMS gelir katmanıyla birlikte web sales vs total sales ayrımı yapılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok otelli yapılarda BigQuery + Looker Studio mimarisi neden avantajlıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "hotel_code ve ortak sözlük sayesinde tüm tesisler aynı KPI tanımıyla kıyaslanır. View katmanı sayesinde veri büyüse bile dashboard performansı korunur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "BigQuery maliyetini nasıl kontrol ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Partitioning (tarih), clustering (hotel_code/channel) ve sadece gerekli alanları seçen view’lar maliyet ve hız için temel yöntemlerdir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-ai-odakli-otel-raporlama-trendleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri",
+
+      "name": "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri#article",
+
+      "headline": "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü",
+
+      "description": "AI, 2026’da otel raporlamasında tahminleme ve anomali tespitini ön plana çıkarıyor; Looker Studio panelleri bu veriyi tek yerde toplayarak AI modellerine beslenen ana kaynak hâline geliyor.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-03-03",
+
+      "dateModified": "2026-03-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "ai hotel analytics trendleri",
+
+        "2026 otel raporlama gelecegi",
+
+        "anomaly detection ve forecasting panelleri",
+
+        "AI",
+
+        "Machine Learning",
+
+        "Forecasting",
+
+        "Anomaly Detection",
+
+        "Hotel Analytics",
+
+        "Looker Studio"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+
+      "name": "Looker Studio Raporlama",
+
+      "serviceType": "AI Odaklı Otel Raporlama ve Dashboard Stratejisi (Forecasting & Anomaly)",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "areaServed": ["Türkiye", "Antalya", "Belek", "Side", "Kemer", "Bodrum", "Europe"],
+
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü", "item": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "2026’da otel raporlamasında AI hangi alanlarda kullanılacak?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tahminleme (forecasting), anomali tespiti ve AI destekli içgörü kartları en öne çıkan alanlardır. Amaç sapmayı erken yakalayıp aksiyon almaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tahminleme ve anomali tespiti otel gelir yönetimine nasıl destek olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Forecasting doluluk/RevPAR beklentisini önden gösterir; anomaly detection fiyat, doluluk, iptal veya harcama gibi normal dışı sapmaları işaretler. Böylece fiyat ve kampanya kararları zamanında revize edilebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio panelleri AI araçlarıyla nasıl birlikte çalışabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Looker Studio PMS/OTA/GA4 verisini tek zeminde toplar ve tutarlı KPI tanımı sunar. AI araçları bu zemindeki sinyallerle içgörü ve uyarı üretiminde kullanılabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI destekli uyarı ve içgörü kartları otel yöneticilerine ne kazandırır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Neye bakmalıyım sorusunu kısaltır, aksiyon önceliklendirmeyi kolaylaştırır. Değer üretmesi için uyarılar owner ve tarih ile toplantı ritmine bağlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI trendlerine hazırlanmak için ilk adım nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI sözlüğü ve veri standardıdır. Tanımlar ve kaynaklar net değilse AI hatayı büyütür; önce tek doğru veri zemini kurulmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-cerezsiz-donem-ve-looker-studio-panelleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri",
+
+      "name": "2026’da Çerezsiz Dönemde Looker Studio Panellerini Ayakta Tutmak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri#article",
+
+      "headline": "2026’da Çerezsiz Dönemde Looker Studio Panellerini Ayakta Tutmak",
+
+      "description": "Çerezsiz ve gizlilik odaklı dönemde consent mode, server-side tracking ve first-party veri entegrasyonu otel Looker Studio panelleri için kritik; rezervasyon ve dönüşüm KPI’larını okurken modelleme etkisini hesaba katmak gerekiyor.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-03-03",
+
+      "dateModified": "2026-03-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "cerezsiz donem otel olcumleme",
+
+        "consent mode ve server-side tracking",
+
+        "first-party data ile otel raporlama",
+
+        "Privacy",
+
+        "Cookieless",
+
+        "Consent Mode",
+
+        "Server-Side Tracking",
+
+        "First-Party Data",
+
+        "GA4",
+
+        "Looker Studio"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "2026’da Çerezsiz Dönemde Looker Studio Panellerini Ayakta Tutmak", "item": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çerezsiz dönemde otel verilerini nasıl doğru ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’ları katmanlı okuyun: web ölçümü (GA4) ile satış gerçekliğini (PMS/CRM/call center) ayırın. Consent ve modelleme etkisini panelde görünür yapın ve first-party kaynaklarla KPI güvenini güçlendirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Consent mode ve server-side tracking Looker Studio panellerini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Consent ölçüm kapsamını ve modelleme düzeyini etkileyebilir; server-side kritik event’lerde tutarlılığı artırmaya yardımcı olabilir. Bu nedenle trend ve kıyas okuması panelde daha önemli hale gelir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "First-party data (CRM, PMS, call center) otel KPI’larını nasıl güçlendirir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS gelir/doluluk satış gerçekliği sağlar; CRM segment okuması ekler; call center/WhatsApp talep→rezervasyon dönüşümünü görünür kılar. Böylece web ölçüm eksikleri raporu tek başına bozmaz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "2026 sonrası çerezsiz dünyada otel raporlama stratejisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI sözlüğü, event standardı, first-party entegrasyon, kısa pilotlar ve 180 günlük revizyon ritmi temel çerçevedir. Amaç tek seferlik proje değil sürdürülebilir ölçüm sistemidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Modellemeye dayalı KPI sapmaları panik sebebi mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her zaman değil; bazı sapmalar yeni normalin parçası olabilir. Büyük ve ani sapmalarda önce tarih/filtre ve event tanımı kontrol edilmeli, sonra modelleme etkisi yorumlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"gercek-zamanli-otel-operasyon-panelleri-looker-studio":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio",
+
+      "name": "Gerçek Zamanlı Otel Operasyon Panelleri: Looker Studio ile Anlık Yönetim",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio#article",
+
+      "headline": "Gerçek Zamanlı Otel Operasyon Panelleri: Looker Studio ile Anlık Yönetim",
+
+      "description": "Housekeeping, teknik servis ve çağrı merkezi gibi birimlerin KPI’larını Looker Studio’da neredeyse gerçek zamanlı izleyerek, bekleme ve gecikmeleri anında yakalayıp operasyonu daha çevik yönetin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-03-03",
+
+      "dateModified": "2026-03-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "gercek zamanli otel operasyon paneli",
+
+        "housekeeping anlik kpi",
+
+        "operations command center dashboard",
+
+        "Real-Time Data",
+
+        "Housekeeping KPIs",
+
+        "Call Center Queue",
+
+        "Maintenance Tickets",
+
+        "Looker Studio"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Gerçek Zamanlı Otel Operasyon Panelleri: Looker Studio ile Anlık Yönetim", "item": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Gerçek zamanlı otel operasyon paneli nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik KPI’ları seçin (oda durumu, iş emri backlog, çağrı kuyruğu), near real-time veri akışıyla besleyin ve Looker Studio’da büyük KPI kartları ile uyarı eşikleriyle komuta paneli tasarlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Housekeeping ve çağrı merkezi KPI’ları Looker Studio’da anlık izlenebilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uygun veri akışı sağlanırsa near real-time izleme mümkündür. Hedef, operasyon kararını tetikleyecek kadar taze (dakikalık) görünürlüktür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Near real-time veri akışı için hangi senaryolar kullanılabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dakikalık özet tablolar, sık yenilenen export’lar veya veri ambarında minute-level view’lar kullanılabilir. KPI’yı tazelik sınıfına göre tasarlamak gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Operasyon komuta merkezi ekranı otellere ne kazandırır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kuyruk ve gecikmeleri gün sonunda değil, o anda görünür kılar. Böylece vardiya, önceliklendirme ve müdahale kararları daha hızlı alınır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık hata nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çok fazla KPI ve uyarı koyup alarm yorgunluğu yaratmaktır. 6–10 kritik KPI ve net eşikler paneli işe yarar hale getirir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio",
+
+      "name": "Sesli ve Sohbet Tabanlı Otel Raporlama: Looker Studio Verisini AI ile Konuşturmak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio#article",
+
+      "headline": "Sesli ve Sohbet Tabanlı Otel Raporlama: Looker Studio Verisini AI ile Konuşturmak",
+
+      "description": "AI asistanları kullanarak Looker Studio verisine doğal dilde sorular sor; GM ve ekip için konuşarak rapor okuma deneyimiyle KPI özetlerini daha hızlı tüketilebilir hâle getir.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-03-03",
+
+      "dateModified": "2026-03-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "sesli raporlama otel",
+
+        "ai destekli dashboard sohbet analizi",
+
+        "natural language hotel analytics",
+
+        "AI Assistant",
+
+        "Natural Language Query",
+
+        "Voice Reports",
+
+        "GM",
+
+        "KPI Summary",
+
+        "Looker Studio Data Export"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sesli ve Sohbet Tabanlı Otel Raporlama: Looker Studio Verisini AI ile Konuşturmak", "item": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sesli ve sohbet tabanlı raporlama nedir, oteller için ne ifade eder?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yönetimin KPI ekranlarında gezmek yerine doğal dilde soru sorup kısa özet cevap almasıdır. Otellerde karar hızını artırmayı ve rapor tüketimini kolaylaştırmayı hedefler."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker Studio verisini AI asistanlara nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğrudan entegrasyon varsaymak yerine export (CSV/Sheets) ve rol bazlı veri kapsamıyla başlayın. AI asistan bu veri seti üzerinden soru–cevap özetleri üretebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GM sesli olarak otel performansını nasıl sorgulayabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Standart soru setiyle (doluluk, revenue, RevPAR, kanal mix, sapma) başlar. Yanıt formatı kısa tutulur ve panel referansı eklenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Doğal dil ile rapor okurken güvenlik ve yetkiyi nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Role-based export uygulayın: GM’e özet KPI, finance’e detay; operasyon KPI’larını ayrı set yapın. Hassas alanları her role açmayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En iyi başlangıç senaryosu hangisi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sabah 5 dakikalık özet rapor ve haftalık sapma soruları pilotudur. Önce yazılı Q&A ile doğrulayın, sonra sesliye geçin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"surdurulebilirlik-esg-kpilari-looker-studio-2026":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026",
+
+      "name": "Sürdürülebilirlik ve ESG KPI’larını Looker Studio’da Raporlamak (2026 Trendleri)",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": { "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026#article",
+
+      "headline": "Sürdürülebilirlik ve ESG KPI’larını Looker Studio’da Raporlamak (2026 Trendleri)",
+
+      "description": "Enerji, su, atık ve karbon gibi ESG KPI’larını Looker Studio’da gelir ve doluluk verisiyle birlikte raporlayarak hem sürdürülebilirlik performansınızı görünür kılın hem de kurumsal müşterilere veriyle desteklenmiş sunumlar yapın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com" },
+
+      "datePublished": "2026-03-03",
+
+      "dateModified": "2026-03-03",
+
+      "inLanguage": "tr-TR",
+
+      "keywords": [
+
+        "esg otel kpilari",
+
+        "surdurulebilirlik raporlama dashboardu",
+
+        "enerji su atik karbon paneli",
+
+        "ESG",
+
+        "Sustainability",
+
+        "Energy Consumption",
+
+        "Water Usage",
+
+        "Waste",
+
+        "Carbon Footprint",
+
+        "Hotel",
+
+        "Corporate Travel"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [".post-title", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Looker Studio Raporlama", "item": "https://dgtlface.com/tr/raporlama/looker-studio" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sürdürülebilirlik ve ESG KPI’larını Looker Studio’da Raporlamak (2026 Trendleri)", "item": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sürdürülebilirlik ve ESG KPI’ları oteller için ne anlama gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Enerji, su, atık ve karbon gibi metriklerle operasyon verimliliğini ve şeffaflığı gösterir. Kurumsal müşteriler ve partnerler için karşılaştırılabilir bir performans dili oluşturur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Enerji, su, atık ve karbon verisi Looker Studio’da nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "ESG master tablo oluşturup birimleri netleştirirsiniz. Metrikleri konaklama/oda gecesi gibi paydalarla normalize edip trend ve hedef sapmasıyla raporlarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "ESG panelleri kurumsal müşteri ve tur operatörleri için nasıl değer yaratır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek sayfada izlenebilir KPI’lar ve trendler sunarak doğrulanabilir bir özet sağlar. Kurumsal taleplere daha hızlı ve şeffaf yanıt vermeyi kolaylaştırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sürdürülebilirlik KPI’larını gelir ve doluluk verisiyle birlikte neden takip etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çünkü ham tüketimler sezon ve dolulukla değişir. Normalize KPI’lar ve gelir/dolulukla birlikte okuma verim artışını ve maliyet etkisini daha doğru gösterir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık hata nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sadece toplam tüketimi takip edip normalize metrik kullanmamaktır. Bu, sezon etkisiyle verim etkisini karıştırır ve yanlış çıkarım doğurur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
     },
 
     otel: {

@@ -1303,7 +1303,7 @@ export const BLOG_MEDIA_MAP = {
 
            "lcp": {
       src: "/images/blog/software/Software1-3/Software1-3-3.webp",
-      alt: "LCP (Largest Contentful Paint) – “Sayfanın en büyük öğesi ne zaman geliyor?”",
+      alt: "LCP (Largest Contentful Paint) – “Sayfanın en büyük öğesi ne zaman geliyor?",
       caption: "LCP Nedir? "
     },
 
@@ -2893,7 +2893,7 @@ export const BLOG_MEDIA_MAP = {
 
       "ota-kpi": {
       src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-7.webp",
-      alt: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı”",
+      alt: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı",
       caption: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı"
     },
 
@@ -4751,8 +4751,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-4.webp",
-      alt: "KPI kartları trend ve tablo yapısını ayıran dashboard bölüm görseli”",
-      caption: "KPI kartları trend ve tablo yapısını ayıran dashboard bölüm görseli”"
+      alt: "KPI kartları trend ve tablo yapısını ayıran dashboard bölüm görseli",
+      caption: "KPI kartları trend ve tablo yapısını ayıran dashboard bölüm görseli"
     },
 
      "diagram-05": {
@@ -5710,8 +5710,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-03": {
       src: "/images/blog/hotel/Hotel3-2/Hotel3-2-3.webp",
-      alt: "Hotel Ads veri temelli çalışma mantığını gösteren bölüm ayırıcı görsel”",
-      caption: "Hotel Ads veri temelli çalışma mantığını gösteren bölüm ayırıcı görsel”"
+      alt: "Hotel Ads veri temelli çalışma mantığını gösteren bölüm ayırıcı görsel",
+      caption: "Hotel Ads veri temelli çalışma mantığını gösteren bölüm ayırıcı görsel"
     },
 
     "divider-04": {
@@ -6425,8 +6425,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-04": {
       src: "/images/blog/creative/Creative3-4/Creative3-4-4.webp",
-      alt: "Storyboard ve çekim tutarlılığı bölüm geçiş görseli”",
-      caption: "Storyboard ve çekim tutarlılığı bölüm geçiş görseli”"
+      alt: "Storyboard ve çekim tutarlılığı bölüm geçiş görseli",
+      caption: "Storyboard ve çekim tutarlılığı bölüm geçiş görseli"
     },
 
      "diagram-05": {
@@ -7086,8 +7086,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-04": {
       src: "/images/blog/hotel/Hotel3-5/Hotel3-5-4.webp",
-      alt: "Call center lead geri kazanımını otel bağlamında vurgulayan bölüm görseli”",
-      caption: "Call center lead geri kazanımını otel bağlamında vurgulayan bölüm görseli”"
+      alt: "Call center lead geri kazanımını otel bağlamında vurgulayan bölüm görseli",
+      caption: "Call center lead geri kazanımını otel bağlamında vurgulayan bölüm görseli"
     },
 
      "diagram-05": {
@@ -7527,8 +7527,8 @@ export const BLOG_MEDIA_MAP = {
 
           "proof-08": {
       src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-8.webp",
-      alt: "Çıktılar: envanter, akış diyagramı, sprint planı ve risk azaltım adımları”",
-      caption: "Çıktılar: envanter, akış diyagramı, sprint planı ve risk azaltım adımları”"
+      alt: "Çıktılar: envanter, akış diyagramı, sprint planı ve risk azaltım adımları",
+      caption: "Çıktılar: envanter, akış diyagramı, sprint planı ve risk azaltım adımları"
     }
   },
 
@@ -8743,8 +8743,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/creative/Creative4-4/Creative4-4-5.webp",
-      alt: "LED içerik akışı ve sunum cue entegrasyonu diyagramı otel bağlamı”",
-      caption: "LED içerik akışı ve sunum cue entegrasyonu diyagramı otel bağlamı”"
+      alt: "LED içerik akışı ve sunum cue entegrasyonu diyagramı otel bağlamı",
+      caption: "LED içerik akışı ve sunum cue entegrasyonu diyagramı otel bağlamı"
     },
 
           "checklist-06": {
@@ -9382,8 +9382,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-7.webp",
-      alt: "Hazırlık KPI’ları: eksik kayıt sayısı ve denetim yanıt süresi, otel olgunluğunu ölçer”",
-      caption: "Hazırlık KPI’ları: eksik kayıt sayısı ve denetim yanıt süresi, otel olgunluğunu ölçer”"
+      alt: "Hazırlık KPI’ları: eksik kayıt sayısı ve denetim yanıt süresi, otel olgunluğunu ölçer",
+      caption: "Hazırlık KPI’ları: eksik kayıt sayısı ve denetim yanıt süresi, otel olgunluğunu ölçer"
     },
 
           "proof-08": {
@@ -11490,8 +11490,8 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/hotel/Hotel6-1/Hotel6-1-2.webp",
-      alt: "Otel çağrı merkezinde telefon görüşmesi, ihtiyaç analizi ve teklif akışı”",
-      caption: "Otel çağrı merkezinde telefon görüşmesi, ihtiyaç analizi ve teklif akışı”"
+      alt: "Otel çağrı merkezinde telefon görüşmesi, ihtiyaç analizi ve teklif akışı",
+      caption: "Otel çağrı merkezinde telefon görüşmesi, ihtiyaç analizi ve teklif akışı"
     },
 
            "divider-03": {
@@ -13731,8 +13731,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/hotel/Hotel1-24/Hotel1-24-7.webp",
-      alt: "Multi-surface KPI paneli: görünürlük + tıklama payı + landing etkileşimi”",
-      caption: "Multi-surface KPI paneli: görünürlük + tıklama payı + landing etkileşimi”"
+      alt: "Multi-surface KPI paneli: görünürlük + tıklama payı + landing etkileşimi",
+      caption: "Multi-surface KPI paneli: görünürlük + tıklama payı + landing etkileşimi"
     },
 
           "proof-08": {
@@ -14909,8 +14909,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/hotel/Hotel3-7/Hotel3-7-7.webp",
-      alt: "Pazar bazlı ROAS CPA ve doluluk katkısını özetleyen otel performans kartı”",
-      caption: "Pazar bazlı ROAS CPA ve doluluk katkısını özetleyen otel performans kartı”"
+      alt: "Pazar bazlı ROAS CPA ve doluluk katkısını özetleyen otel performans kartı",
+      caption: "Pazar bazlı ROAS CPA ve doluluk katkısını özetleyen otel performans kartı"
     },
 
           "proof-08": {
@@ -15352,8 +15352,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/hotel/Hotel3-16/Hotel3-16-4.webp",
-      alt: "Customer Match ve Custom Audience entegrasyonunu vurgulayan görsel”",
-      caption: "Customer Match ve Custom Audience entegrasyonunu vurgulayan görsel”"
+      alt: "Customer Match ve Custom Audience entegrasyonunu vurgulayan görsel",
+      caption: "Customer Match ve Custom Audience entegrasyonunu vurgulayan görsel"
     },
 
      "diagram-05": {
@@ -16783,8 +16783,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/hotel/Hotel4-24/Hotel4-24-5.webp",
-      alt: "Hybrid model mini diyagram, amaç: yaşam döngüsü, otel bağlamı”",
-      caption: "Hybrid model mini diyagram, amaç: yaşam döngüsü, otel bağlamı”"
+      alt: "Hybrid model mini diyagram, amaç: yaşam döngüsü, otel bağlamı",
+      caption: "Hybrid model mini diyagram, amaç: yaşam döngüsü, otel bağlamı"
     },
 
           "checklist-06": {
@@ -18277,8 +18277,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-7.webp",
-      alt: "Yüksek sezon KPI hedef kartı, SLA bekleme terk bandı görselleştirmesi”",
-      caption: "Yüksek sezon KPI hedef kartı, SLA bekleme terk bandı görselleştirmesi”"
+      alt: "Yüksek sezon KPI hedef kartı, SLA bekleme terk bandı görselleştirmesi",
+      caption: "Yüksek sezon KPI hedef kartı, SLA bekleme terk bandı görselleştirmesi"
     },
 
           "proof-08": {
@@ -18399,8 +18399,8 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-2.webp",
-      alt: "ACD PMS OTA CRM GA4 verilerinin tek tabloda birleşmesi, otel çağrı merkezi entegrasyon şeması”",
-      caption: "ACD PMS OTA CRM GA4 verilerinin tek tabloda birleşmesi, otel çağrı merkezi entegrasyon şeması”"
+      alt: "ACD PMS OTA CRM GA4 verilerinin tek tabloda birleşmesi, otel çağrı merkezi entegrasyon şeması",
+      caption: "ACD PMS OTA CRM GA4 verilerinin tek tabloda birleşmesi, otel çağrı merkezi entegrasyon şeması"
     },
 
            "divider-03": {
@@ -18660,8 +18660,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-03": {
       src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-3.webp",
-      alt: "Dashboarddan copilot dönüşümü, AI özet ve öneri katmanı geçiş görseli”",
-      caption: "Dashboarddan copilot dönüşümü, AI özet ve öneri katmanı geçiş görseli”"
+      alt: "Dashboarddan copilot dönüşümü, AI özet ve öneri katmanı geçiş görseli",
+      caption: "Dashboarddan copilot dönüşümü, AI özet ve öneri katmanı geçiş görseli"
     },
 
     "divider-04": {
@@ -18820,8 +18820,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-4.webp",
-      alt: "Eğitim script ve service recovery kullanımı, nitel KPI geçiş görseli”",
-      caption: "Eğitim script ve service recovery kullanımı, nitel KPI geçiş görseli”"
+      alt: "Eğitim script ve service recovery kullanımı, nitel KPI geçiş görseli",
+      caption: "Eğitim script ve service recovery kullanımı, nitel KPI geçiş görseli"
     },
 
      "diagram-05": {
@@ -18864,8 +18864,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-01": {
       src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-3.webp",
-      alt: "Kapasite yetenek ve risk etkileri, remote çağrı merkezi geçiş görseli”",
-      caption: "Kapasite yetenek ve risk etkileri, remote çağrı merkezi geçiş görseli”"
+      alt: "Kapasite yetenek ve risk etkileri, remote çağrı merkezi geçiş görseli",
+      caption: "Kapasite yetenek ve risk etkileri, remote çağrı merkezi geçiş görseli"
     },
 
     "divider-02": {
@@ -21247,8 +21247,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-04": {
       src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-4.webp",
-      alt: "Overflow/back-up model şeması”",
-      caption: "Overflow/back-up model şeması”"
+      alt: "Overflow/back-up model şeması",
+      caption: "Overflow/back-up model şeması"
     },
 
      "diagram-05": {
@@ -21259,8 +21259,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/callcenter/Callcenter2-12/Callcenter2-12-6.webp",
-      alt: "Sezon hazırlık checklist kartı”",
-      caption: "Sezon hazırlık checklist kartı”"
+      alt: "Sezon hazırlık checklist kartı",
+      caption: "Sezon hazırlık checklist kartı"
     },
 
       "kpi-07": {
@@ -21609,8 +21609,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/callcenter/Callcenter2-19/Callcenter2-19-5.webp",
-      alt: "Gece eskalasyon akış şeması güvenlik yetki ve nöbetçi yönetici”",
-      caption: "Gece eskalasyon akış şeması güvenlik yetki ve nöbetçi yönetici”"
+      alt: "Gece eskalasyon akış şeması güvenlik yetki ve nöbetçi yönetici",
+      caption: "Gece eskalasyon akış şeması güvenlik yetki ve nöbetçi yönetici"
     },
 
           "checklist-06": {
@@ -28398,8 +28398,8 @@ export const BLOG_MEDIA_MAP = {
 
           "proof-08": {
       src: "/images/blog/creative/Creative1-7/Creative1-7-8.webp",
-      alt: "Deck şablon teslim kartı, otel ve B2B için slayt türleri seti”",
-      caption: "Deck şablon teslim kartı, otel ve B2B için slayt türleri seti”"
+      alt: "Deck şablon teslim kartı, otel ve B2B için slayt türleri seti",
+      caption: "Deck şablon teslim kartı, otel ve B2B için slayt türleri seti"
     }
   },
 
@@ -28436,8 +28436,8 @@ export const BLOG_MEDIA_MAP = {
 
           "divider-06": {
       src: "/images/blog/pms/PMS-OTA1-6/Pms1-6-6.webp",
-      alt: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”",
-      caption: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”"
+      alt: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı",
+      caption: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı"
     },
 
       "kpi-07": {
@@ -28486,8 +28486,8 @@ export const BLOG_MEDIA_MAP = {
 
           "kpi-06": {
       src: "/images/blog/pms/PMS-OTA1-7/Pms1-7-6.webp",
-      alt: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”",
-      caption: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı”"
+      alt: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı",
+      caption: "Çocuk ve extra yatak kural seti kontrol kartı, resepsiyon bağlamı"
     },
 
       "divider-07": {
@@ -28866,8 +28866,8 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/software/Software1-9/Software1-9-2.webp",
-      alt: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”",
-      caption: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”" 
+      alt: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi",
+      caption: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi" 
     },
 
            "divider-03": {
@@ -29422,8 +29422,8 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/software/Software1-10/Software1-10-2.webp",
-      alt: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”",
-      caption: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi”" 
+      alt: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi",
+      caption: "Event tasarımı ve funnel ölçümleme bağlam görseli, pazarlama karar verisi" 
     },
 
            "divider-01": {
@@ -29490,8 +29490,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/software/Software1-11/Software1-11-5.webp",
-      alt: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”",
-      caption: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”"
+      alt: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı",
+      caption: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı"
     },
 
           "checklist-06": {
@@ -30040,8 +30040,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/software/Software1-12/Software1-12-5.webp",
-      alt: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”",
-      caption: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı”"
+      alt: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı",
+      caption: "Headless CMS + Next.js içerik akışı diyagramı, otel ve B2B çok kanallı yapı"
     },
 
           "checklist-06": {
@@ -30323,8 +30323,8 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context": {
       src: "/images/blog/analysisReporting/Reporting1-12/Reporting1-12-2.webp",
-      alt: "Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli”",
-      caption: "Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli”" 
+      alt: "Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli",
+      caption: "Çağrı ve mesaj KPI kartlarının yer aldığı otel iletişim dashboard bağlam görseli" 
     },
 
            "divider-01": {
@@ -30847,8 +30847,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/pms/PMS-OTA1-23/Pms1-23-8.webp",
-      alt: "Mobil PMS’e geçiş 5 soru checklist kartı, otel operasyon hazırlık bağlamı”",
-      caption: "Mobil PMS’e geçiş 5 soru checklist kartı, otel operasyon hazırlık bağlamı”"
+      alt: "Mobil PMS’e geçiş 5 soru checklist kartı, otel operasyon hazırlık bağlamı",
+      caption: "Mobil PMS’e geçiş 5 soru checklist kartı, otel operasyon hazırlık bağlamı"
     },
 
       "kpi-07": {
@@ -31697,8 +31697,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/pms/PMS-OTA2-20/Pms2-20-8.webp",
-      alt: "90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan”",
-      caption: "90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan”"
+      alt: "90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan",
+      caption: "90 günlük OTA audit checklist kartı, hızlı kontrol ve detaylı sezon öncesi plan"
     },
 
       "kpi-07": {
@@ -31909,8 +31909,8 @@ export const BLOG_MEDIA_MAP = {
 
           "proof-08": {
       src: "/images/blog/pms/PMS-OTA2-24/Pms2-24-8.webp",
-      alt: "Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve”",
-      caption: "Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve”"
+      alt: "Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve",
+      caption: "Dinamik paket avantaj risk matrisi ve karar kartı, yönetim için hızlı çerçeve"
     }
   },
 
@@ -33153,8 +33153,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/pms/PMS-OTA4-9/Pms4-9-7.webp",
-      alt: "KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği”",
-      caption: "KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği”"
+      alt: "KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği",
+      caption: "KPI skor kartı, hedef gerçekleşen ve aksiyon notlarıyla karar desteği"
     },
 
           "proof-08": {
@@ -33273,8 +33273,8 @@ export const BLOG_MEDIA_MAP = {
 
           "h1-context-02": {
       src: "/images/blog/pms/PMS-OTA4-12/Pms4-12-2.webp",
-      alt: "Mobil rezervasyon ekranı mockup, tek elle kullanım ve hızlı ödeme deneyimi”",
-      caption: "Mobil rezervasyon ekranı mockup, tek elle kullanım ve hızlı ödeme deneyimi”" 
+      alt: "Mobil rezervasyon ekranı mockup, tek elle kullanım ve hızlı ödeme deneyimi",
+      caption: "Mobil rezervasyon ekranı mockup, tek elle kullanım ve hızlı ödeme deneyimi" 
     },
 
            "divider-01": {
@@ -33635,8 +33635,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/pms/PMS-OTA4-19/Pms4-19-4.webp",
-      alt: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış”",
-      caption: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış”"
+      alt: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış",
+      caption: "Antalya resort ve İstanbul city B2B/MICE senaryoları, destinasyona göre akış"
     },
 
      "diagram-05": {
@@ -36786,8 +36786,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-01": {
       src: "/images/blog/seo/SEO3-10/SEO3-10-3.webp",
-    alt: "Tipografi ve okunabilirlik, içerik UX bölüm ayracı”",
-      caption: "Tipografi ve okunabilirlik, içerik UX bölüm ayracı”"
+    alt: "Tipografi ve okunabilirlik, içerik UX bölüm ayracı",
+      caption: "Tipografi ve okunabilirlik, içerik UX bölüm ayracı"
     },
 
     "divider-02": {
@@ -37356,7 +37356,7 @@ export const BLOG_MEDIA_MAP = {
           "checklist-06": {
       src: "/images/blog/seo/SEO3-21/SEO3-21-6.webp",
       alt: "AI answer içerik checklist’i, cevaplanabilir sayfa standardı",
-      caption: "AI answer içerik checklist’i, cevaplanabilir sayfa standardı”"
+      caption: "AI answer içerik checklist’i, cevaplanabilir sayfa standardı"
     },
 
       "kpi-07": {
@@ -46250,8 +46250,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/software/Software4-6/Software4-6-7.webp",
-      alt: "RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı”",
-      caption: "RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı”"
+      alt: "RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı",
+      caption: "RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı"
     },
 
           "proof-08": {
@@ -46328,7 +46328,7 @@ export const BLOG_MEDIA_MAP = {
            "divider-01": {
       src: "/images/blog/software/Software4-8/Software4-8-3.webp",
     alt: "IAM ve erişim riskleri bölümü, otel ve kurumsal altyapı için görsel ayırıcı",
-      caption: "IAM ve erişim riskleri bölümü, otel ve kurumsal altyapı için görsel ayırıcı”"
+      caption: "IAM ve erişim riskleri bölümü, otel ve kurumsal altyapı için görsel ayırıcı"
     },
 
     "divider-02": {
@@ -48204,8 +48204,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/software/Software5-13/Software5-13-6.webp",
-      alt: "Performans regresyon checklist kartı, amaç release gate, teknik ekip bağlamı”",
-      caption: "Performans regresyon checklist kartı, amaç release gate, teknik ekip bağlamı”"
+      alt: "Performans regresyon checklist kartı, amaç release gate, teknik ekip bağlamı",
+      caption: "Performans regresyon checklist kartı, amaç release gate, teknik ekip bağlamı"
     },
 
       "kpi-07": {
@@ -50450,8 +50450,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-02": {
       src: "/images/blog/creative/Creative3-6/Creative3-6-4.webp",
-      alt: "Oda videosunu web ve Reels’e uyarlama bölüm geçiş görseli”",
-      caption: "Oda videosunu web ve Reels’e uyarlama bölüm geçiş görseli”"
+      alt: "Oda videosunu web ve Reels’e uyarlama bölüm geçiş görseli",
+      caption: "Oda videosunu web ve Reels’e uyarlama bölüm geçiş görseli"
     },
 
      "diagram-05": {
@@ -50462,8 +50462,8 @@ export const BLOG_MEDIA_MAP = {
 
           "checklist-06": {
       src: "/images/blog/creative/Creative3-6/Creative3-6-6.webp",
-      alt: "Oda styling ve detay çekimleri için pratik checklist kartı”",
-      caption: "Oda styling ve detay çekimleri için pratik checklist kartı”"
+      alt: "Oda styling ve detay çekimleri için pratik checklist kartı",
+      caption: "Oda styling ve detay çekimleri için pratik checklist kartı"
     },
 
       "kpi-07": {
@@ -50656,8 +50656,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/creative/Creative3-10/Creative3-10-5.webp",
-      alt: "Web sosyal TV OTA için video versiyonlama diyagramı”",
-      caption: "Web sosyal TV OTA için video versiyonlama diyagramı”"
+      alt: "Web sosyal TV OTA için video versiyonlama diyagramı",
+      caption: "Web sosyal TV OTA için video versiyonlama diyagramı"
     },
 
           "checklist-06": {
@@ -51701,7 +51701,7 @@ export const BLOG_MEDIA_MAP = {
     "divider-02": {
       src: "/images/blog/creative/Creative4-11/Creative4-11-4.webp",
       alt: "Teklif karşılaştırma ve sözleşme bölüm geçiş görseli otel etkinliği",
-      caption: "Teklif karşılaştırma ve sözleşme bölüm geçiş görseli otel etkinliği”"
+      caption: "Teklif karşılaştırma ve sözleşme bölüm geçiş görseli otel etkinliği"
     },
 
      "diagram-05": {
@@ -53419,8 +53419,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/creative/Creative5-25/Creative5-25-7.webp",
-      alt: "Seeding performans KPI kartı, etkileşim ve tıklama otel bağlamı”",
-      caption: "Seeding performans KPI kartı, etkileşim ve tıklama otel bağlamı”"
+      alt: "Seeding performans KPI kartı, etkileşim ve tıklama otel bağlamı",
+      caption: "Seeding performans KPI kartı, etkileşim ve tıklama otel bağlamı"
     },
 
           "proof-08": {
@@ -53428,6 +53428,656 @@ export const BLOG_MEDIA_MAP = {
       alt: "Seeding deliverables: creator list, brief, rapor otel bağlamı",
       caption: "Seeding deliverables: creator list, brief, rapor otel bağlamı"
     }
+  },
+
+  "resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-1.webp",
+      alt: "Resepsiyon ve Satış Ekipleri İçin Looker Studio KPI Paneli Tasarlamak",
+      caption: "Resepsiyon ve Satış Ekipleri İçin Looker Studio KPI Paneli Tasarlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-2.webp",
+      alt: "Resepsiyon ve satış KPI kartlarını yan yana gösteren otel operasyon ve gelir bağlam görseli",
+      caption: "Resepsiyon ve satış KPI kartlarını yan yana gösteren otel operasyon ve gelir bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-3.webp",
+      alt: "Günlük haftalık takip ritmine geçişi ayıran bölüm görseli",
+      caption: "Günlük haftalık takip ritmine geçişi ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-4.webp",
+      alt: "Performans yönetimi ve aksiyon bölümüne geçişi ayıran bölüm görseli",
+      caption: "Performans yönetimi ve aksiyon bölümüne geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-5.webp",
+      alt: "Hedef gerçekleşen karşılaştırmasını ve panel akışını gösteren dashboard diyagramı",
+      caption: "Hedef gerçekleşen karşılaştırmasını ve panel akışını gösteren dashboard diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-6.webp",
+      alt: "Resepsiyon ve satış için günlük haftalık KPI takip checklist kartı",
+      caption: "Resepsiyon ve satış için günlük haftalık KPI takip checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-7.webp",
+      alt: "Resepsiyon check-in no-show hata oranı ve satış gelir KPI kartlarını gösteren skor paneli",
+      caption: "Resepsiyon check-in no-show hata oranı ve satış gelir KPI kartlarını gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-13/Reporting1-13-8.webp",
+      alt: "Ekip KPI paneli deliverables ve performans görüşmesi çıktıları proof kartı",
+      caption: "Ekip KPI paneli deliverables ve performans görüşmesi çıktıları proof kartı"
+    }
+  },
+
+  "looker-studio-gorsel-tasarim-en-iyi-uygulamalar":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-1.webp",
+      alt: "Looker Studio Dashboard Tasarımında Görsel En İyi Uygulamalar (Otel Örneği)",
+      caption: "Looker Studio Dashboard Tasarımında Görsel En İyi Uygulamalar (Otel Örneği)"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-2.webp",
+      alt: "KPI-first yerleşim ve okunabilirlik farkını gösteren otel dashboard bağlam görseli",
+      caption: "KPI-first yerleşim ve okunabilirlik farkını gösteren otel dashboard bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-3.webp",
+      alt: "Mobil ve masaüstü tasarım farkına geçişi ayıran bölüm görseli",
+      caption: "Mobil ve masaüstü tasarım farkına geçişi ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-4.webp",
+      alt: "İyi kötü tasarım karşılaştırmasına geçişi ayıran bölüm görseli",
+      caption: "İyi kötü tasarım karşılaştırmasına geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-5.webp",
+      alt: "Dashboard KPI-first yerleşim prensibini gösteren wireframe diyagramı",
+      caption: "Dashboard KPI-first yerleşim prensibini gösteren wireframe diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-6.webp",
+      alt: "Renk paleti ve tipografi kullanımını özetleyen dashboard tasarım kartı",
+      caption: "Renk paleti ve tipografi kullanımını özetleyen dashboard tasarım kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-7.webp",
+      alt: "Otel dashboard’unda doluluk gelir RevPAR ve kanal mix KPI kart düzenini gösteren panel",
+      caption: "Otel dashboard’unda doluluk gelir RevPAR ve kanal mix KPI kart düzenini gösteren panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-14/Reporting1-14-8.webp",
+      alt: "Dashboard tasarım deliverables ve okunabilirlik kazanımını gösteren proof kartı",
+      caption: "Dashboard tasarım deliverables ve okunabilirlik kazanımını gösteren proof kartı"
+    }
+  },
+
+  "looker-studio-icin-veri-isimlendirme-ve-standartlar":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-1.webp",
+      alt: "Looker Studio İçin Veri İsimlendirme ve Standartlar: Otellerde Sürdürülebilir Raporlama",
+      caption: "Looker Studio İçin Veri İsimlendirme ve Standartlar: Otellerde Sürdürülebilir Raporlama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-2.webp",
+      alt: "İyi ve kötü isimlendirilmiş alan örneklerini otel bağlamında karşılaştıran görsel",
+      caption: "İyi ve kötü isimlendirilmiş alan örneklerini otel bağlamında karşılaştıran görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-3.webp",
+      alt: "Veri isimlendirme neden kritik bölümüne geçişi ayıran görsel",
+      caption: "Veri isimlendirme neden kritik bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-4.webp",
+      alt: "Naming template ve governance bölümüne geçişi ayıran görsel",
+      caption: "Naming template ve governance bölümüne geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-5.webp",
+      alt: "GA4 Ads PMS OTA alanlarını canonical isimlere dönüştüren veri akış diyagramı",
+      caption: "GA4 Ads PMS OTA alanlarını canonical isimlere dönüştüren veri akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-6.webp",
+      alt: "Otel raporlama naming kuralları ve canonical alan listesini özetleyen checklist kartı",
+      caption: "Otel raporlama naming kuralları ve canonical alan listesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-7.webp",
+      alt: "Standart isimlendirme ile dashboard tutarlılığını gösteren governance KPI kartı",
+      caption: "Standart isimlendirme ile dashboard tutarlılığını gösteren governance KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-15/Reporting1-15-8.webp",
+      alt: "Data dictionary şablonu ve mapping deliverables setini gösteren proof kartı",
+      caption: "Data dictionary şablonu ve mapping deliverables setini gösteren proof kartı"
+    }
+  },
+
+  "excelden-looker-studioya-otel-raporlari":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-1.webp",
+      alt: "Excel’den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak",
+      caption: "Excel’den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-2.webp",
+      alt: "Excel tablosu ile Looker Studio panelini yan yana karşılaştıran otel raporlama görseli",
+      caption: "Excel tablosu ile Looker Studio panelini yan yana karşılaştıran otel raporlama görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-3.webp",
+      alt: "Excel veri hazırlığı ve standardizasyon bölümüne geçişi ayıran görsel",
+      caption: "Excel veri hazırlığı ve standardizasyon bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-4.webp",
+      alt: "Değişim yönetimi ve ekip rutini bölümüne geçişi ayıran görsel",
+      caption: "Değişim yönetimi ve ekip rutini bölümüne geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-5.webp",
+      alt: "Excel Sheets CSV üzerinden Looker Studio’ya veri akışını gösteren diyagram",
+      caption: "Excel Sheets CSV üzerinden Looker Studio’ya veri akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-6.webp",
+      alt: "3 günde Excel’den dashboard’a geçiş planını özetleyen checklist kartı",
+      caption: "3 günde Excel’den dashboard’a geçiş planını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-7.webp",
+      alt: "Doluluk gelir RevPAR kanal mix KPI kartlarını gösteren ilk otel performans paneli",
+      caption: "Doluluk gelir RevPAR kanal mix KPI kartlarını gösteren ilk otel performans paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-16/Reporting1-16-8.webp",
+      alt: "Excel’den Looker Studio’ya geçiş deliverables ve tek doğru kaynak faydasını gösteren proof kartı",
+      caption: "Excel’den Looker Studio’ya geçiş deliverables ve tek doğru kaynak faydasını gösteren proof kartı"
+    }
+  },
+
+  "google-hotel-ads-ve-metasearch-performansi-looker-studio":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-1.webp",
+      alt: "Excel’den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak",
+      caption: "Excel’den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-2.webp",
+      alt: "Metasearch KPI kartlarıyla OTA ve direct satış karşılaştırmasını gösteren bağlam görseli",
+      caption: "Metasearch KPI kartlarıyla OTA ve direct satış karşılaştırmasını gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-3.webp",
+      alt: "OTA vs direct kârlılık kıyasına geçişi ayıran bölüm görseli",
+      caption: "OTA vs direct kârlılık kıyasına geçişi ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-4.webp",
+      alt: "Metasearch dashboard şablonlarına geçişi ayıran bölüm görseli",
+      caption: "Metasearch dashboard şablonlarına geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-5.webp",
+      alt: "Metasearchten web sitesine ve rezervasyona giden funnel akışını gösteren diyagram",
+      caption: "Metasearchten web sitesine ve rezervasyona giden funnel akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-6.webp",
+      alt: "3 metasearch dashboard şablonunu ve KPI setini özetleyen checklist kartı",
+      caption: "3 metasearch dashboard şablonunu ve KPI setini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-7.webp",
+      alt: "Hotel Ads metrikleri ve net gelir KPI kartlarını gösteren metasearch skor paneli",
+      caption: "Hotel Ads metrikleri ve net gelir KPI kartlarını gösteren metasearch skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-17/Reporting1-17-8.webp",
+      alt: "Metasearch raporlama deliverables ve kârlılık görünürlüğünü gösteren proof kartı”",
+      caption: "Metasearch raporlama deliverables ve kârlılık görünürlüğünü gösteren proof kartı”"
+    }
+  },
+
+  "butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-1.webp",
+      alt: "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak",
+      caption: "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-2.webp",
+      alt: "Hedef gerçekleşen ve sapma göstergelerini gösteren budget vs actual dashboard bağlam görseli",
+      caption: "Hedef gerçekleşen ve sapma göstergelerini gösteren budget vs actual dashboard bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-3.webp",
+      alt: "Hedef datası hazırlığı ve temizliğine geçişi ayıran bölüm görsel",
+      caption: "Hedef datası hazırlığı ve temizliğine geçişi ayıran bölüm görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-4.webp",
+      alt: "Rota düzeltme ve raporlama grafikleri bölümüne geçişi ayıran görsel",
+      caption: "Rota düzeltme ve raporlama grafikleri bölümüne geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-5.webp",
+      alt: "Hedef datasını actual KPI’larla eşleştirip variance üreten akış diyagramı",
+      caption: "Hedef datasını actual KPI’larla eşleştirip variance üreten akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-6.webp",
+      alt: "Budget vs actual panel kontrol listesi ve rota düzeltme için 5 grafik rehberi kartı”",
+      caption: "Budget vs actual panel kontrol listesi ve rota düzeltme için 5 grafik rehberi kartı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-7.webp",
+      alt: "Revenue occupancy RevPAR ve ROAS için target actual variance kartlarını gösteren skor paneli",
+      caption: "Revenue occupancy RevPAR ve ROAS için target actual variance kartlarını gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-18/Reporting1-18-8.webp",
+      alt: "Bütçe toplantıları için dashboard deliverables ve aksiyon çıktıları proof kart",
+      caption: "Bütçe toplantıları için dashboard deliverables ve aksiyon çıktıları proof kart"
+    }
+  },
+
+  "cok-dilli-ve-cok-para-birimli-looker-studio-panelleri":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-1.webp",
+      alt: "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak",
+      caption: "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-2.webp",
+      alt: "TR–EN etiketli ve EUR bazlı gelir KPI kartlarını gösteren otel panel görseli",
+      caption: "TR–EN etiketli ve EUR bazlı gelir KPI kartlarını gösteren otel panel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-3.webp",
+      alt: "Yatırımcı ve operasyon görünümü ayrımını anlatan bölüm ayırıcı görseli",
+      caption: "Yatırımcı ve operasyon görünümü ayrımını anlatan bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-4.webp",
+      alt: "FX dönüşümü ve pazar filtreleriyle pratik örneklere geçiş ayırıcı görseli",
+      caption: "FX dönüşümü ve pazar filtreleriyle pratik örneklere geçiş ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-5.webp",
+      alt: "Dil katmanı ve FX dönüşümüyle çok para birimli dashboard kurulum akış diyagramı",
+      caption: "Dil katmanı ve FX dönüşümüyle çok para birimli dashboard kurulum akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-6.webp",
+      alt: "TR–EN etiket sözlüğü ve EUR bazlı dönüşüm kurallarını özetleyen checklist kartı",
+      caption: "TR–EN etiket sözlüğü ve EUR bazlı dönüşüm kurallarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-7.webp",
+      alt: "Baz para birimli revenue ve RevPAR KPI kartlarını gösteren uluslararası otel skor paneli",
+      caption: "Baz para birimli revenue ve RevPAR KPI kartlarını gösteren uluslararası otel skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-19/Reporting1-19-8.webp",
+      alt: "Multi-language multi-currency panel şablon çıktıları ve governance deliverables kartı",
+      caption: "Multi-language multi-currency panel şablon çıktıları ve governance deliverables kartı"
+    }
+  },
+
+  "bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-1.webp",
+      alt: "BigQuery ve Looker Studio ile Büyük Otel Veri Mimarisi Nasıl Kurulur?",
+      caption: "BigQuery ve Looker Studio ile Büyük Otel Veri Mimarisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-2.webp",
+      alt: "PMS OTA GA4 call center verisini tek modelde birleştiren otel bağlam görseli",
+      caption: "PMS OTA GA4 call center verisini tek modelde birleştiren otel bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-3.webp",
+      alt: "Çok otelli yapı ve veri mimarisi katmanlarına geçiş yapan bölüm ayırıcı görsel",
+      caption: "Çok otelli yapı ve veri mimarisi katmanlarına geçiş yapan bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-4.webp",
+      alt: "Fact dimension model ve view katmanına geçiş yapan otel raporlama ayırıcı görsel",
+      caption: "Fact dimension model ve view katmanına geçiş yapan otel raporlama ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-5.webp",
+      alt: "PMS OTA GA4 Call Center verisinin BigQuery’den Looker Studio’ya akış diyagramı",
+      caption: "PMS OTA GA4 Call Center verisinin BigQuery’den Looker Studio’ya akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-6.webp",
+      alt: "Partition clustering ve erişim yetkileriyle maliyet kontrollü BigQuery checklist kartı",
+      caption: "Partition clustering ve erişim yetkileriyle maliyet kontrollü BigQuery checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-7.webp",
+      alt: "Net gelir doluluk RevPAR ve kanal mix KPI kartlarıyla hızlı BigQuery dashboard örneği",
+      caption: "Net gelir doluluk RevPAR ve kanal mix KPI kartlarıyla hızlı BigQuery dashboard örneği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-20/Reporting1-20-8.webp",
+      alt: "Otel veri ambarı deliverables seti ve dashboard üretim hızını gösteren proof kartı",
+      caption: "Otel veri ambarı deliverables seti ve dashboard üretim hızını gösteren proof kartı"
+    }
+  },
+
+  "2026-ai-odakli-otel-raporlama-trendleri":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-1.webp",
+      alt: "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü",
+      caption: "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-2.webp",
+      alt: "Forecast grafiği ve anomali uyarı kutularını gösteren AI dashboard mockup görseli",
+      caption: "Forecast grafiği ve anomali uyarı kutularını gösteren AI dashboard mockup görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-3.webp",
+      alt: "AI trend listesi bölümünü ayıran sade otel raporlama divider görseli",
+      caption: "AI trend listesi bölümünü ayıran sade otel raporlama divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-4.webp",
+      alt: "AI yol haritası ve hazırlık adımlarına geçişi ayıran bölüm görseli",
+      caption: "AI yol haritası ve hazırlık adımlarına geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-5.webp",
+      alt: "Forecasting ve anomaly detection akışını otel KPI’larıyla gösteren diyagram görseli",
+      caption: "Forecasting ve anomaly detection akışını otel KPI’larıyla gösteren diyagram görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-6.webp",
+      alt: "Anomali uyarı kartı şablonu ve aksiyon formatını gösteren checklist kartı",
+      caption: "Anomali uyarı kartı şablonu ve aksiyon formatını gösteren checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-7.webp",
+      alt: "AI içgörü kartlarıyla doluluk RevPAR kanal mix KPI özetini gösteren skor paneli",
+      caption: "AI içgörü kartlarıyla doluluk RevPAR kanal mix KPI özetini gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-21/Reporting1-21-8.webp",
+      alt: "AI yol haritası deliverables ve pilot senaryolarını gösteren proof kartı",
+      caption: "AI yol haritası deliverables ve pilot senaryolarını gösteren proof kartı"
+    },
+  },
+
+  "2026-cerezsiz-donem-ve-looker-studio-panelleri":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-1.webp",
+      alt: "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü",
+      caption: "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-2.webp",
+      alt: "Consent mode ve server-side ile güçlenen otel KPI dashboard mockup görseli",
+      caption: "Consent mode ve server-side ile güçlenen otel KPI dashboard mockup görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-3.webp",
+      alt: "Cookieless ölçüm modeline geçişi ayıran sade bölüm görsel",
+      caption: "Cookieless ölçüm modeline geçişi ayıran sade bölüm görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-4.webp",
+      alt: "First-party veri entegrasyonu ve yol haritasına geçişi ayıran bölüm görseli",
+      caption: "First-party veri entegrasyonu ve yol haritasına geçişi ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-5.webp",
+      alt: "Çerezli ve çerezsiz veri akışı ile server-side katmanını gösteren diyagram",
+      caption: "Çerezli ve çerezsiz veri akışı ile server-side katmanını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-6.webp",
+      alt: "Server-side tracking ve first-party data için 5 adımlık checklist kartı",
+      caption: "Server-side tracking ve first-party data için 5 adımlık checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-7.webp",
+      alt: "Observed ve modelled KPI kartlarını ve uyarı notlarını gösteren otel skor paneli",
+      caption: "Observed ve modelled KPI kartlarını ve uyarı notlarını gösteren otel skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-22/Reporting1-22-8.webp",
+      alt: "Cookieless ölçümleme yol haritası ve dashboard deliverables kartı",
+      caption: "Cookieless ölçümleme yol haritası ve dashboard deliverables kartı"
+    },
+  },
+
+   "gercek-zamanli-otel-operasyon-panelleri-looker-studio":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-1.webp",
+      alt: "Gerçek Zamanlı Otel Operasyon Panelleri: Looker Studio ile Anlık Yönetim",
+      caption: "Gerçek Zamanlı Otel Operasyon Panelleri: Looker Studio ile Anlık Yönetim"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-2.webp",
+      alt: "Housekeeping teknik servis ve çağrı merkezi KPI kartlarını aynı ekranda gösteren panel",
+      caption: "Housekeeping teknik servis ve çağrı merkezi KPI kartlarını aynı ekranda gösteren panel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-3.webp",
+      alt: "Uyarı alarm kartları ve eşik tasarımına geçişi ayıran operasyon divider görseli",
+      caption: "Uyarı alarm kartları ve eşik tasarımına geçişi ayıran operasyon divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-4.webp",
+      alt: "Near real-time veri akışı ve komuta merkezi yaklaşımına geçişi ayıran divider görseli",
+      caption: "Near real-time veri akışı ve komuta merkezi yaklaşımına geçişi ayıran divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-5.webp",
+      alt: "Streaming near real-time veri akışı ile Looker Studio operasyon paneli mimari diyagramı",
+      caption: "Streaming near real-time veri akışı ile Looker Studio operasyon paneli mimari diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-6.webp",
+      alt: "Uyarı kartı şablonu ve KPI eşiklerini özetleyen operasyon checklist kartı",
+      caption: "Uyarı kartı şablonu ve KPI eşiklerini özetleyen operasyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-7.webp",
+      alt: "Büyük ekranda okunur komuta paneli KPI kartlarını gösteren otel operasyon skor paneli",
+      caption: "Büyük ekranda okunur komuta paneli KPI kartlarını gösteren otel operasyon skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-23/Reporting1-23-8.webp",
+      alt: "Operations command center dashboard deliverables ve saha kullanım çıktıları proof kartı",
+      caption: "Operations command center dashboard deliverables ve saha kullanım çıktıları proof kartı"
+    },
+  },
+
+  "sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-1.webp",
+      alt: "Sesli ve Sohbet Tabanlı Otel Raporlama: Looker Studio Verisini AI ile Konuşturmak",
+      caption: "Sesli ve Sohbet Tabanlı Otel Raporlama: Looker Studio Verisini AI ile Konuşturmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-2.webp",
+      alt: "GM için sesli özet ve KPI kartlarını birlikte gösteren otel panel mockup görseli",
+      caption: "GM için sesli özet ve KPI kartlarını birlikte gösteren otel panel mockup görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-3.webp",
+      alt: "Güvenlik ve yetki çerçevesine geçişi ayıran sade divider görseli",
+      caption: "Güvenlik ve yetki çerçevesine geçişi ayıran sade divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-4.webp",
+      alt: "Pilot adımlar ve senaryolara geçişi ayıran sade divider görseli",
+      caption: "Pilot adımlar ve senaryolara geçişi ayıran sade divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-5.webp",
+      alt: "Looker Studio veri exportundan AI asistana soru cevap akışını gösteren diyagram",
+      caption: "Looker Studio veri exportundan AI asistana soru cevap akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-6.webp",
+      alt: "AI soru cevap raporlama için hazırlık checklist kartı ve güvenlik notları",
+      caption: "AI soru cevap raporlama için hazırlık checklist kartı ve güvenlik notları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-7.webp",
+      alt: "Konuşarak rapor okuma deneyimi için KPI özet kartlarını gösteren skor paneli",
+      caption: "Konuşarak rapor okuma deneyimi için KPI özet kartlarını gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-24/Reporting1-24-8.webp",
+      alt: "AI Q&A senaryoları ve sabah raporu deliverables kartı",
+      caption: "AI Q&A senaryoları ve sabah raporu deliverables kartı"
+    },
+  },
+
+  "surdurulebilirlik-esg-kpilari-looker-studio-2026":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-1.webp",
+      alt: "Sürdürülebilirlik ve ESG KPI’larını Looker Studio’da Raporlamak (2026 Trendleri)",
+      caption: "Sürdürülebilirlik ve ESG KPI’larını Looker Studio’da Raporlamak (2026 Trendleri)"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-2.webp",
+      alt: "GM için sesli özet ve KPI kartlarını birlikte gösteren otel panel mockup görseli",
+      caption: "GM için sesli özet ve KPI kartlarını birlikte gösteren otel panel mockup görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-3.webp",
+      alt: "Güvenlik ve yetki çerçevesine geçişi ayıran sade divider görseli",
+      caption: "Güvenlik ve yetki çerçevesine geçişi ayıran sade divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-4.webp",
+      alt: "Pilot adımlar ve senaryolara geçişi ayıran sade divider görseli",
+      caption: "Pilot adımlar ve senaryolara geçişi ayıran sade divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-5.webp",
+      alt: "Looker Studio veri exportundan AI asistana soru cevap akışını gösteren diyagram",
+      caption: "Looker Studio veri exportundan AI asistana soru cevap akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-6.webp",
+      alt: "AI soru cevap raporlama için hazırlık checklist kartı ve güvenlik notları",
+      caption: "AI soru cevap raporlama için hazırlık checklist kartı ve güvenlik notları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-7.webp",
+      alt: "Konuşarak rapor okuma deneyimi için KPI özet kartlarını gösteren skor paneli",
+      caption: "Konuşarak rapor okuma deneyimi için KPI özet kartlarını gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting1-25/Reporting1-25-8.webp",
+      alt: "AI Q&A senaryoları ve sabah raporu deliverables kartı",
+      caption: "AI Q&A senaryoları ve sabah raporu deliverables kartı"
+    },
   }
   
 };
