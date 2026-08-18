@@ -54078,6 +54078,406 @@ export const BLOG_MEDIA_MAP = {
       alt: "AI Q&A senaryoları ve sabah raporu deliverables kartı",
       caption: "AI Q&A senaryoları ve sabah raporu deliverables kartı"
     },
+  },
+
+  "otel-yorum-ve-puan-benchmarki-reputation-score":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-1.webp",
+      alt: "Otel Yorum ve Puan Benchmark’ı: Google Puanı, Yorum Sayısı ve Rakiplerle Kıyaslama",
+      caption: "Otel Yorum ve Puan Benchmark’ı: Google Puanı, Yorum Sayısı ve Rakiplerle Kıyaslama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-2.webp",
+      alt: "Otel ve rakip set puan yorum verisini tek ekranda özetleyen görsel",
+      caption: "Otel ve rakip set puan yorum verisini tek ekranda özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-3.webp",
+      alt: "İtibar benchmark kavramını sade ayıran otel bölüm görseli",
+      caption: "İtibar benchmark kavramını sade ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-4.webp",
+      alt: "Operasyon ve pazarlama aksiyonlarına bağlayan bölüm ayırıcı görseli",
+      caption: "Operasyon ve pazarlama aksiyonlarına bağlayan bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-5.webp",
+      alt: "Google OTA TripAdvisor görünümünü ve kıyas akışını gösteren şema",
+      caption: "Google OTA TripAdvisor görünümünü ve kıyas akışını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-6.webp",
+      alt: "Reputation benchmark KPI seti ve aksiyon adımlarını özetleyen kart görseli",
+      caption: "Reputation benchmark KPI seti ve aksiyon adımlarını özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-7.webp",
+      alt: "Yorum sayısı ve son 12 ay trendini gösteren reputation KPI kartı",
+      caption: "Yorum sayısı ve son 12 ay trendini gösteren reputation KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-8.webp",
+      alt: "Reputation Score kartı ve benchmark çıktısını gösteren kanıt kartı",
+      caption: "Reputation Score kartı ve benchmark çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-1.webp",
+      alt: "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak",
+      caption: "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-2.webp",
+      alt: "Otel ve rakip set erişim etkileşim kaydetme kıyasını gösteren görsel",
+      caption: "Otel ve rakip set erişim etkileşim kaydetme kıyasını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-3.webp",
+      alt: "Sosyal medya benchmark kavramını ve KPI setini ayıran bölüm görseli",
+      caption: "Sosyal medya benchmark kavramını ve KPI setini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-4.webp",
+      alt: "İçerik türü kıyasını ve strateji aksiyonlarını ayıran bölüm görseli",
+      caption: "İçerik türü kıyasını ve strateji aksiyonlarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-5.webp",
+      alt: "İçerik türlerine göre performans çubuk grafiğini gösteren SMM şeması",
+      caption: "İçerik türlerine göre performans çubuk grafiğini gösteren SMM şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-6.webp",
+      alt: "SMM KPI ve benchmark adımlarını özetleyen kontrol kartı görseli",
+      caption: "SMM KPI ve benchmark adımlarını özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-7.webp",
+      alt: "Reels erişim kaydetme ve etkileşim KPI’larını gösteren skor kartı",
+      caption: "Reels erişim kaydetme ve etkileşim KPI’larını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-8.webp",
+      alt: "Sosyal medya benchmark dashboard mockup ve strateji çıktısını gösteren kart",
+      caption: "Sosyal medya benchmark dashboard mockup ve strateji çıktısını gösteren kart"
+    },
+  },
+
+  "web-performansi-ve-core-web-vitals-benchmarki":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-1.webp",
+      alt: "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak",
+      caption: "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-2.webp",
+      alt: "Mobil hız ve rezervasyon funnel ilişkisini özetleyen otel web performans görseli",
+      caption: "Mobil hız ve rezervasyon funnel ilişkisini özetleyen otel web performans görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-3.webp",
+      alt: "LCP CLS INP metriklerini sade şekilde ayıran web performans bölüm görseli",
+      caption: "LCP CLS INP metriklerini sade şekilde ayıran web performans bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-4.webp",
+      alt: "Mobil performans ve SEO dönüşüm bağını ayıran bölüm görseli",
+      caption: "Mobil performans ve SEO dönüşüm bağını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-5.webp",
+      alt: "Rakip sitelerle CWV benchmark sürecini ve sayfa önceliğini gösteren şema",
+      caption: "Rakip sitelerle CWV benchmark sürecini ve sayfa önceliğini gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-6.webp",
+      alt: "Otel sayfaları için CWV KPI seti ve iyileştirme adımlarını özetleyen kart",
+      caption: "Otel sayfaları için CWV KPI seti ve iyileştirme adımlarını özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-7.webp",
+      alt: "Mobil ve masaüstü hız puanlarını ve CWV trendini gösteren KPI kartı",
+      caption: "Mobil ve masaüstü hız puanlarını ve CWV trendini gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-8.webp",
+      alt: "CWV benchmark raporu ve aksiyon planı çıktısını gösteren deliverables kartı",
+      caption: "CWV benchmark raporu ve aksiyon planı çıktısını gösteren deliverables kartı"
+    },
+  },
+
+  "kanal-karmasi-benchmarki-ota-web-call-center":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-1.webp",
+      alt: "OTA, Web ve Call Center Kanal Karması Benchmark’ı: Satış Dağılımınızı Rakiplerle Kıyaslamak",
+      caption: "OTA, Web ve Call Center Kanal Karması Benchmark’ı: Satış Dağılımınızı Rakiplerle Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-2.webp",
+      alt: "Direct ve dolaylı satış dengesini özetleyen kanal karması görseli",
+      caption: "Direct ve dolaylı satış dengesini özetleyen kanal karması görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-3.webp",
+      alt: "Channel mix kavramını ve risk kârlılık ilişkisini ayıran bölüm görseli",
+      caption: "Channel mix kavramını ve risk kârlılık ilişkisini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-4.webp",
+      alt: "Kârlılık tablosu ve strateji senaryolarını ayıran bölüm görseli",
+      caption: "Kârlılık tablosu ve strateji senaryolarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-5.webp",
+      alt: "Rakip kanal karmasını proxy sinyallerle tahmin etmeyi gösteren akış şeması",
+      caption: "Rakip kanal karmasını proxy sinyallerle tahmin etmeyi gösteren akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-6.webp",
+      alt: "Kanal okuma kuralları ve net gelir yaklaşımını özetleyen kontrol kartı görseli",
+      caption: "Kanal okuma kuralları ve net gelir yaklaşımını özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-7.webp",
+      alt: "OTA web call center kanal paylarını gösteren KPI kartı görseli",
+      caption: "OTA web call center kanal paylarını gösteren KPI kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-8.webp",
+      alt: "Kanal karması benchmark raporu ve dağıtım stratejisi çıktısını gösteren kart",
+      caption: "Kanal karması benchmark raporu ve dağıtım stratejisi çıktısını gösteren kart"
+    },
+  },
+
+  "kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-1.webp",
+      alt: "Kampanya Performansı Benchmark’ı: Erken Rezervasyon, Son Dakika ve Paket Satışları",
+      caption: "Kampanya Performansı Benchmark’ı: Erken Rezervasyon, Son Dakika ve Paket Satışları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-2.webp",
+      alt: "Kampanya tipleri ve KPI farklarını özetleyen kampanya performans görseli",
+      caption: "Kampanya tipleri ve KPI farklarını özetleyen kampanya performans görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-3.webp",
+      alt: "Kampanya türlerini ve pazar pencerelerini ayıran bölüm görseli",
+      caption: "Kampanya türlerini ve pazar pencerelerini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-4.webp",
+      alt: "ROI ve sezon planına bağlayan kampanya benchmark bölüm görseli",
+      caption: "ROI ve sezon planına bağlayan kampanya benchmark bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-5.webp",
+      alt: "Rakip kampanya görünürlüğünü ve fiyat davranışını gösteren basit mockup şeması",
+      caption: "Rakip kampanya görünürlüğünü ve fiyat davranışını gösteren basit mockup şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-6.webp",
+      alt: "Kampanya KPI seti ve benchmark adımlarını özetleyen kontrol kartı görseli",
+      caption: "Kampanya KPI seti ve benchmark adımlarını özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-7.webp",
+      alt: "Sezon bazlı kampanya performansını gösteren KPI kartı görseli",
+      caption: "Sezon bazlı kampanya performansını gösteren KPI kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-8.webp",
+      alt: "Kampanya benchmark raporu ve sezon planı çıktısını gösteren deliverables kartı",
+      caption: "Kampanya benchmark raporu ve sezon planı çıktısını gösteren deliverables kartı"
+    },
+  },
+
+  "destinasyon-benchmarki-antalya-belek-side":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-1.webp",
+      alt: "Destinasyon Benchmark’ı: Antalya, Belek, Side Gibi Bölgelerde Otelinizi Pazara Göre Konumlandırmak",
+      caption: "Destinasyon Benchmark’ı: Antalya, Belek, Side Gibi Bölgelerde Otelinizi Pazara Göre Konumlandırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-2.webp",
+      alt: "Antalya Belek Side pazar kıyası mantığını özetleyen mobil odaklı görsel",
+      caption: "Antalya Belek Side pazar kıyası mantığını özetleyen mobil odaklı görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-3.webp",
+      alt: "Market average ve rakip set katmanlarını ayıran destinasyon benchmark görseli",
+      caption: "Market average ve rakip set katmanlarını ayıran destinasyon benchmark görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-4.webp",
+      alt: "Fiyat kanal ve segment kararlarını ayıran strateji odaklı görsel",
+      caption: "Fiyat kanal ve segment kararlarını ayıran strateji odaklı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-5.webp",
+      alt: "YourHotel ve MarketAverage kıyas adımlarını gösteren destinasyon akış şeması",
+      caption: "YourHotel ve MarketAverage kıyas adımlarını gösteren destinasyon akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-6.webp",
+      alt: "Doluluk ADR RevPAR okuma kurallarını özetleyen destinasyon KPI kartı görseli",
+      caption: "Doluluk ADR RevPAR okuma kurallarını özetleyen destinasyon KPI kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-7.webp",
+      alt: "Antalya Belek Side doluluk ADR RevPAR farkını gösteren KPI skor kartı görseli",
+      caption: "Antalya Belek Side doluluk ADR RevPAR farkını gösteren KPI skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-8.webp",
+      alt: "Destinasyon benchmark raporu ve aksiyon planı çıktısını gösteren kanıt kartı",
+      caption: "Destinasyon benchmark raporu ve aksiyon planı çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "yan-gelir-benchmarki-spa-fb-upsell-gelirleri":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-1.webp",
+      alt: "Yan Gelir Benchmark’ı: Spa, F&B ve Upsell Gelirlerini Rakiplerle Kıyaslamak",
+      caption: "Yan Gelir Benchmark’ı: Spa, F&B ve Upsell Gelirlerini Rakiplerle Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-2.webp",
+      alt: "Oda geliri ötesi yan gelir kalemlerini özetleyen mobil okunabilir görsel",
+      caption: "Oda geliri ötesi yan gelir kalemlerini özetleyen mobil okunabilir görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-3.webp",
+      alt: "Yan gelir benchmark amacını ve kalemlerini ayıran bölüm görseli",
+      caption: "Yan gelir benchmark amacını ve kalemlerini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-4.webp",
+      alt: "Upsell stratejisi ve teklif anlarını ayıran strateji odaklı görsel",
+      caption: "Upsell stratejisi ve teklif anlarını ayıran strateji odaklı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-5.webp",
+      alt: "Yan gelir kalemlerini ve board tipine göre ayrımı gösteren akış şeması",
+      caption: "Yan gelir kalemlerini ve board tipine göre ayrımı gösteren akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-6.webp",
+      alt: "RevPAG ve yan gelir KPI setini özetleyen kontrol kartı görseli",
+      caption: "RevPAG ve yan gelir KPI setini özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-7.webp",
+      alt: "RevPASpa ve RevPAGF&B dahil yan gelir KPI skor kartı görseli",
+      caption: "RevPASpa ve RevPAGF&B dahil yan gelir KPI skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-8.webp",
+      alt: "Yan gelir benchmark raporu ve upsell planı çıktısını gösteren kanıt kartı",
+      caption: "Yan gelir benchmark raporu ve upsell planı çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "web-rezervasyon-donusum-orani-benchmarki":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-1.webp",
+      alt: "Web Rezervasyon Dönüşüm Oranı Benchmark’ı: Otel Siteniz Ne Kadar İyi Çeviriyor?",
+      caption: "Web Rezervasyon Dönüşüm Oranı Benchmark’ı: Otel Siteniz Ne Kadar İyi Çeviriyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-2.webp",
+      alt: "Mobil ve masaüstü dönüşüm farkını ve funnel adımlarını özetleyen görsel",
+      caption: "Mobil ve masaüstü dönüşüm farkını ve funnel adımlarını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-3.webp",
+      alt: "Dönüşüm oranı ölçüm katmanlarını ve benchmark mantığını ayıran görsel",
+      caption: "Dönüşüm oranı ölçüm katmanlarını ve benchmark mantığını ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-4.webp",
+      alt: "Funnel adımlarında kayıpları ve iyileştirme noktalarını ayıran görsel",
+      caption: "Funnel adımlarında kayıpları ve iyileştirme noktalarını ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-5.webp",
+      alt: "Ziyaretçiden rezervasyona web funnel akışını gösteren şema görseli",
+      caption: "Ziyaretçiden rezervasyona web funnel akışını gösteren şema görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-6.webp",
+      alt: "14 günlük dönüşüm testlerini ve KPI setini özetleyen kontrol kartı görsel",
+      caption: "14 günlük dönüşüm testlerini ve KPI setini özetleyen kontrol kartı görsel"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-7.webp",
+      alt: "Mobil ve masaüstü dönüşüm KPI’larını ve band kıyasını gösteren skor kartı",
+      caption: "Mobil ve masaüstü dönüşüm KPI’larını ve band kıyasını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-8.webp",
+      alt: "Dönüşüm benchmark raporu ve iyileştirme planı çıktısını gösteren kanıt kartı",
+      caption: "Dönüşüm benchmark raporu ve iyileştirme planı çıktısını gösteren kanıt kartı"
+    },
   }
   
 };

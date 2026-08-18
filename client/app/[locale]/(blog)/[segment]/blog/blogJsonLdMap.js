@@ -164922,7 +164922,1629 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"otel-yorum-ve-puan-benchmarki-reputation-score":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score",
+
+      "name": "Otel Yorum ve Puan Benchmark’ı: Google Puanı, Yorum Sayısı ve Rakiplerle Kıyaslama",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Reputation Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score#webpage"
+
+      },
+
+      "headline": "Otel Yorum ve Puan Benchmark’ı: Google Puanı, Yorum Sayısı ve Rakiplerle Kıyaslama",
+
+      "name": "Otel Yorum ve Puan Benchmark’ı: Google Puanı, Yorum Sayısı ve Rakiplerle Kıyaslama",
+
+      "description": "Google, OTA ve TripAdvisor puanınızı; yorum sayısı ve son 12 ay güncelliğiyle birlikte rakip setle kıyaslayın. Reputation Score ile fiyat ve operasyon aksiyonlarını belirleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Reputation" },
+
+        { "@type": "Thing", "name": "Reviews" },
+
+        { "@type": "Thing", "name": "Google Rating" },
+
+        { "@type": "Thing", "name": "Google Maps" },
+
+        { "@type": "Thing", "name": "OTA Rating" },
+
+        { "@type": "Thing", "name": "TripAdvisor" },
+
+        { "@type": "Thing", "name": "Reputation Score" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Otel Yorum ve Puan Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel yorum ve puan benchmark’ı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Google/OTA/TripAdvisor puanı, yorum sayısı ve yorumların güncelliğini rakip setle kıyaslayarak itibar konumunu ölçen yöntemdir. Sonuçlar fiyat ve hizmet stratejisine bağlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Google puanımı rakip otellerle nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı segment ve bölgede rakip set seçip puan + yorum sayısı + son 12 ay yorum oranını birlikte karşılaştırırsınız. Sadece puan farkı değil hacim ve güncellik farkı da okunmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yorum sayısı ve puan birlikte nasıl yorumlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yorum hacmi arttıkça puanın güvenilirliği artar; düşük hacimde puan daha oynak olabilir. Bu yüzden puanı hacim ve güncellikle birlikte değerlendirmek daha sağlıklı benchmark verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İtibar benchmark sonuçlarını fiyat ve hizmet stratejisine nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tema analizinden operasyon aksiyonları çıkarır, memnuniyet driver’larını pazarlama mesajına taşır ve itibar bandına göre fiyat/teklif konumlamasını güncellersiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Son 12 ay yorumu neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Güncel yorumlar otelin bugünkü hizmet kalitesine daha yakın sinyal verir. Eski yorum ağırlığı yüksekse puan gerçeği yansıtmayabilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi",
+
+      "name": "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Social Media Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi#webpage"
+
+      },
+
+      "headline": "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak",
+
+      "name": "Sosyal Medya Benchmark’ı: Otelinizin Instagram & Reels Performansını Rakiplerle Kıyaslamak",
+
+      "description": "Otelinizin Instagram ve Reels performansını rakiplerle kıyaslayın: erişim, etkileşim, kaydetme ve izlenme oranları. İçerik türü analiziyle format ve frekansı güncelleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Social Media" },
+
+        { "@type": "Thing", "name": "Instagram" },
+
+        { "@type": "Thing", "name": "Reels" },
+
+        { "@type": "Thing", "name": "Engagement Rate" },
+
+        { "@type": "Thing", "name": "Reach" },
+
+        { "@type": "Thing", "name": "Saves" },
+
+        { "@type": "Thing", "name": "Hotel Benchmark" },
+
+        { "@type": "Thing", "name": "Content Type" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Sosyal Medya Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya benchmark’ı nedir, oteller için nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel sosyal medya benchmark’ı; Instagram ve Reels KPI’larını (reach, engagement, saves, views) rakip setle kıyaslayarak performans konumunu ölçmektir. Sonuçlar içerik türü ve format kararlarına bağlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Instagram ve Reels performansımı rakip otellerle nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı segmentte 4–8 rakip seçip son 30/90 gün verisini çıkarır, KPI’ları oran bazında raporlar ve feed ile Reels’i ayrı değerlendirirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar otel sosyal medya analizinde önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reach, engagement rate, save rate ve Reels izlenme metrikleri en kritik KPI’lardır. Varsa profil ziyareti ve tıklama gibi aksiyon metrikleri niyet sinyali üretir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Benchmark sonuçlarına göre içerik stratejimi nasıl değiştirmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kazanan içerik türünü belirleyip format ve frekansı buna göre güncellersiniz. Reels reach yüksek ama kaydetme düşükse bilgi/destinasyon ağırlığını artırıp CTA’yı netleştirirsiniz."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"web-performansi-ve-core-web-vitals-benchmarki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki",
+
+      "name": "Web Performansı ve Core Web Vitals Benchmark’ı: Otel Siteniz Rakiplere Göre Ne Kadar Hızlı?",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Core Web Vitals Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki#webpage"
+
+      },
+
+      "headline": "Web Performansı ve Core Web Vitals Benchmark’ı: Otel Siteniz Rakiplere Göre Ne Kadar Hızlı?",
+
+      "name": "Web Performansı ve Core Web Vitals Benchmark’ı: Otel Siteniz Rakiplere Göre Ne Kadar Hızlı?",
+
+      "description": "Otel sitenizin LCP, CLS ve INP değerlerini rakiplerle kıyaslayarak hız ve deneyim benchmark’ınızı çıkarın; mobilde yavaş sayfaları tespit edip rezervasyon funnel’ını optimize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Core Web Vitals" },
+
+        { "@type": "Thing", "name": "Page Speed" },
+
+        { "@type": "Thing", "name": "Hotel Website" },
+
+        { "@type": "Thing", "name": "Mobile Performance" },
+
+        { "@type": "Thing", "name": "Reservation Funnel" },
+
+        { "@type": "Thing", "name": "LCP" },
+
+        { "@type": "Thing", "name": "CLS" },
+
+        { "@type": "Thing", "name": "INP" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Web Performansı ve Core Web Vitals Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web performansı ve Core Web Vitals benchmark’ı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "LCP, CLS ve INP gibi Core Web Vitals metriklerini rakip sitelerle kıyaslayarak sitenizin hız ve deneyim açısından konumunu ölçmektir. Sonuçlar SEO ve rezervasyon dönüşümüyle birlikte değerlendirilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel sitemin hızını rakiplerle nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı segment ve destinasyonda 4–8 rakip site seçip ana sayfa, oda sayfası ve rezervasyon sayfası gibi kritik sayfalarda mobil/desktop ölçüm yaparsınız. LCP/CLS/INP değerlerini tabloya alıp farkı çıkarırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil hız ve CWV sonuçları rezervasyon dönüşümünü nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobilde yavaş açılan veya geç tepki veren sayfalar kullanıcı terkini artırabilir. Bu da rezervasyon formu ve ödeme adımlarında dönüşüm kaybı riskini yükseltir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi sayfalar için performans benchmark’ı yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Öncelik rezervasyon funnel’ıdır: ana sayfa, oda/konaklama sayfası, rezervasyon sayfası ve kampanya landing’leri. En çok trafik alan 1–2 landing sayfasını da ekleyebilirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CWV iyileştirmesi sadece SEO için mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hayır. CWV, kullanıcı deneyimi ve dönüşüm sağlığıyla da ilişkilidir; hızlı ve stabil sayfalar daha iyi rezervasyon deneyimi sunar."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kanal-karmasi-benchmarki-ota-web-call-center":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center",
+
+      "name": "OTA, Web ve Call Center Kanal Karması Benchmark’ı: Satış Dağılımınızı Rakiplerle Kıyaslamak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Channel Mix Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center#webpage"
+
+      },
+
+      "headline": "OTA, Web ve Call Center Kanal Karması Benchmark’ı: Satış Dağılımınızı Rakiplerle Kıyaslamak",
+
+      "name": "OTA, Web ve Call Center Kanal Karması Benchmark’ı: Satış Dağılımınızı Rakiplerle Kıyaslamak",
+
+      "description": "OTA, web ve call center satış payınızı rakip setle kıyaslayın. Direct vs dolaylı kârlılığı, komisyon ve net gelir etkisiyle okuyup dağıtım stratejisi çıkarın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Channel Mix" },
+
+        { "@type": "Thing", "name": "OTA" },
+
+        { "@type": "Thing", "name": "Direct Booking" },
+
+        { "@type": "Thing", "name": "Call Center" },
+
+        { "@type": "Thing", "name": "Commission" },
+
+        { "@type": "Thing", "name": "Net Revenue" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Kanal Karması Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kanal karması (channel mix) nedir, oteller için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kanal karması, toplam satışın OTA, web ve call center gibi kanallara dağılımıdır. Kârlılık ve risk profilini belirlediği için otellerde stratejik bir göstergedir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA, web ve call center satış oranlarımı nasıl benchmark’larım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS/CRM’den kanal paylarını çıkarıp rakip set ve pazarla kıyaslarsınız. Komisyon ve maliyet etkisini ekleyerek net gelir perspektifiyle yorumlamak daha doğru sonuç verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rakip otellerin kanal karmasını nasıl tahmin edebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğrudan veri yoksa proxy sinyaller kullanılır: OTA görünürlüğü/promosyon davranışı OTA ağırlığına, web deneyimi direct güce, iletişim sinyalleri call center rolüne işaret edebilir. Tahminler band olarak tutulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kanal karması benchmark sonuçlarını stratejiye nasıl çeviririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "OTA yüksek/dengeli/direct yüksek senaryolarından hangisinde olduğunuzu belirleyip 30 günlük sprintle direct büyütme, OTA dengeleme ve call center gelir koruma aksiyonlarını uygularsınız."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler",
+
+      "name": "Kampanya Performansı Benchmark’ı: Erken Rezervasyon, Son Dakika ve Paket Satışları",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Campaign Performance Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler#webpage"
+
+      },
+
+      "headline": "Kampanya Performansı Benchmark’ı: Erken Rezervasyon, Son Dakika ve Paket Satışları",
+
+      "name": "Kampanya Performansı Benchmark’ı: Erken Rezervasyon, Son Dakika ve Paket Satışları",
+
+      "description": "Erken rezervasyon, son dakika ve paket kampanyalarınızın doluluk, ADR, RevPAR ve ROI sonuçlarını rakip/pazarla kıyaslayın; gelecek sezon planınızı bu benchmark verisine göre güncelleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Campaign Performance" },
+
+        { "@type": "Thing", "name": "Early Booking" },
+
+        { "@type": "Thing", "name": "Last Minute" },
+
+        { "@type": "Thing", "name": "Packages" },
+
+        { "@type": "Thing", "name": "ROI" },
+
+        { "@type": "Thing", "name": "RevPAR" },
+
+        { "@type": "Thing", "name": "Occupancy" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Kampanya Performansı Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kampanya performansı benchmark’ı nedir, oteller için nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Erken rezervasyon, son dakika ve paket kampanyalarının doluluk, ADR, RevPAR ve net kârlılık/ROI sonuçlarını rakip set ve pazarla kıyaslamaktır. Amaç, gelecek sezon planını veriye göre güncellemektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erken rezervasyon ve son dakika kampanyalarını hangi KPI’larla kıyaslamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doluluk/pick-up, ADR, RevPAR ve mümkünse iptal oranı temel KPI’lardır. Karar KPI’sı olarak net kârlılık/ROI eklemek daha sağlıklı sonuç verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Paket satış kampanyalarımın rakiplere göre performansını nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Paketlerin sepet etkisini ve paket maliyetini birlikte hesaplayıp net kârlılığı kıyaslamalısınız. Rakip tarafında doğrudan ROI görülmez; görünürlük ve fiyat davranışı proxy sinyaller olarak kullanılabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kampanya benchmark sonuçlarını gelecek sezon stratejisine nasıl taşırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hangi kampanya tipinin hangi pazarda daha iyi RevPAR/ROI ürettiğini belirleyip indirim bandı ve bütçe dağılımını buna göre yeniden kurgularsınız. 3 karar: indirim bandı, bütçe, paket kurgusu."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"destinasyon-benchmarki-antalya-belek-side":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side",
+
+      "name": "Destinasyon Benchmark’ı: Antalya, Belek, Side Gibi Bölgelerde Otelinizi Pazara Göre Konumlandırmak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Destination Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side#webpage"
+
+      },
+
+      "headline": "Destinasyon Benchmark’ı: Antalya, Belek, Side Gibi Bölgelerde Otelinizi Pazara Göre Konumlandırmak",
+
+      "name": "Destinasyon Benchmark’ı: Antalya, Belek, Side Gibi Bölgelerde Otelinizi Pazara Göre Konumlandırmak",
+
+      "description": "Antalya/Belek/Side pazar ortalamasıyla doluluk, ADR ve RevPAR’ınızı kıyaslayın. Bölge+segment farkını okuyup fiyat ve kanal stratejinizi destinasyon benchmark’ıyla güncelleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Destination" },
+
+        { "@type": "Thing", "name": "Market" },
+
+        { "@type": "Thing", "name": "Market Average" },
+
+        { "@type": "Thing", "name": "ADR" },
+
+        { "@type": "Thing", "name": "RevPAR" },
+
+        { "@type": "Thing", "name": "Occupancy" },
+
+        { "@type": "Thing", "name": "Hotel" },
+
+        { "@type": "Thing", "name": "CompetitorSet" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Destinasyon Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/destinasyon-benchmarki-antalya-belek-side",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Destinasyon benchmark’ı nedir, oteller için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Destinasyon benchmark’ı; doluluk, ADR ve RevPAR gibi otel KPI’larını pazar ortalamasıyla kıyaslayarak pazardaki konumu ölçer. Yanlış pazar tanımıyla alınan fiyat ve kanal kararlarını azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Antalya gibi bölgelerde pazar ortalamasını nasıl okurum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Resmi istatistikler, destinasyon raporları ve OTA raporları birlikte okunmalıdır. Proxy sinyaller yön gösterir; kesin KPI’lar PMS/CRM verisinden alınır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Doluluk ve ADR’imi destinasyon ortalamasıyla nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru alt destinasyonu seçip aynı dönem penceresinde doluluk/ADR/RevPAR’ı aynı tanımla hesaplar, MarketAverage ile farkı çıkarıp segment ve kanal kırılımıyla yorumlarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Destinasyon benchmark sonuçlarını fiyat ve kanal stratejisine nasıl yansıtırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "ADR ve RevPAR farkını dolulukla birlikte okuyup fiyat bandı testleri uygular, kanal karmasını pazar davranışına göre dengelersiniz. Direct satış için teklif ve online satış optimizasyonu planlanır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"yan-gelir-benchmarki-spa-fb-upsell-gelirleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri",
+
+      "name": "Yan Gelir Benchmark’ı: Spa, F&B ve Upsell Gelirlerini Rakiplerle Kıyaslamak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Ancillary Revenue Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri#webpage"
+
+      },
+
+      "headline": "Yan Gelir Benchmark’ı: Spa, F&B ve Upsell Gelirlerini Rakiplerle Kıyaslamak",
+
+      "name": "Yan Gelir Benchmark’ı: Spa, F&B ve Upsell Gelirlerini Rakiplerle Kıyaslamak",
+
+      "description": "Spa, F&B ve upsell gelirini oda/kişi başı KPI’larla ölçüp rakip/pazarla kıyaslayın. RevPAG ve RevPASpa/RevPAGF&B ile kârlı upsell fırsatlarını görün.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Ancillary Revenue" },
+
+        { "@type": "Thing", "name": "Spa" },
+
+        { "@type": "Thing", "name": "F&B" },
+
+        { "@type": "Thing", "name": "Upsell" },
+
+        { "@type": "Thing", "name": "RevPAG" },
+
+        { "@type": "Thing", "name": "Profitability" },
+
+        { "@type": "Thing", "name": "Room Revenue" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Yan Gelir Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yan gelir (ancillary revenue) benchmark’ı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yan gelir benchmark’ı; spa, F&B ve ekstra hizmetlerden kişi/oda başına elde edilen geliri rakip set ve pazar ortalamasıyla kıyaslayarak fırsat alanlarını gösteren yaklaşımdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Spa ve F&B gelirlerini rakiplerle nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gelirleri kategori bazında ayırıp RevPASpa ve RevPAGF&B gibi kişi başı metrikleri hesaplayın. Board tipini ve sezon penceresini sabitleyip rakip/pazarla kıyaslayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda başı yan gelir KPI’ları nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Toplam yan geliri satılan oda gecesine bölerek oda başı yan gelir bulunur. Alternatif olarak kişi/misafir-gece bazında RevPAG yaklaşımı kullanılabilir; standardı sabitlemek önemlidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yan gelir benchmark sonuçları upsell stratejisini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hangi kalemde geride olduğunuzu gösterir ve doğru teklif/paket testlerini seçmenizi sağlar. Pre-stay ve in-stay anlarında upsell zamanlaması ve ekip scriptleri iyileştirilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RevPAG nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RevPAG (Revenue per Available Guest), toplam geliri kişi başına okumayı sağlayan metriktir. Yan gelir fırsatlarını görünür kılmak için kullanışlıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"web-rezervasyon-donusum-orani-benchmarki":{}
     },
 
     otel: {

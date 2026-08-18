@@ -1043,7 +1043,16 @@ export const BLOG_MAP = {
     "2026-cerezsiz-donem-ve-looker-studio-panelleri":"Blog2026CerezsizDonemVeLookerStudioPanelleri",
     "gercek-zamanli-otel-operasyon-panelleri-looker-studio":"BlogGercekZamanliOtelOperasyonPanelleriLookerStudio",
     "sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio":"BlogSesliVeSohbetTabanliOtelRaporlamaAiLookerStudio",
-    "surdurulebilirlik-esg-kpilari-looker-studio-2026":"BlogSurdurulebilirlikEsgKpilariLookerStudio2026"
+    "surdurulebilirlik-esg-kpilari-looker-studio-2026":"BlogSurdurulebilirlikEsgKpilariLookerStudio2026",
+
+    "otel-yorum-ve-puan-benchmarki-reputation-score":"BlogOtelYorumVePuanBenchmarkiReputationScore",
+    "sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi":"BlogSosyalMedyaBenchmarkiOtelVeRakiplerinSmmPerformansi",
+    "web-performansi-ve-core-web-vitals-benchmarki":"BlogWebPerformansiVeCoreWebVitalsBenchmarki",
+    "kanal-karmasi-benchmarki-ota-web-call-center":"BlogKanalKarmasiBenchmarkiOtaWebCallCenter",
+    "kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler":"BlogKampanyaPerformansiBenchmarkiErkenRezervasyonSonDakikaPaketler",
+    "destinasyon-benchmarki-antalya-belek-side":"BlogDestinasyonBenchmarkiAntalyaBelekSide",
+    "yan-gelir-benchmarki-spa-fb-upsell-gelirleri":"BlogYanGelirBenchmarkiSpaFbUpsellGelirleri",
+    "web-rezervasyon-donusum-orani-benchmarki":"BlogWebRezervasyonDonusumOraniBenchmarki"
   },
 
 
