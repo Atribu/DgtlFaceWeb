@@ -23782,7 +23782,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO final aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "ESG master tabloyu kur (enerji/su/atık/karbon).",
               "Normalize KPI’ları hesapla (kWh/konaklama vb.).",
@@ -24105,7 +24105,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Rakip seti 6 otelle başlat (aynı segment + aynı bölge).",
             "3 çekirdek KPI’yı sabitle: Rating + Review Volume + Recency.",
@@ -24166,7 +24166,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Platformları tek satırda toplama; 3 satır yap (Google/OTA/TA).",
             "Her platformda “son 90 gün” trendini ayrı izle.",
@@ -24227,7 +24227,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "“Son 12 ay yorum oranı” metriğini ekle (Recency).",
             "Aylık tema raporu çıkar: en sık 5 şikâyet + en sık 5 memnuniyet.",
@@ -24313,7 +24313,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Bu hafta tabloyu doldur (TBD → gerçek veri).",
             "Üst seviye hedefi belirle (rakip setin en iyi bandı).",
@@ -24378,7 +24378,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Skoru önce “sade” tut; 3 bileşenle başla (puan/hacim/güncellik).",
             "90 gün boyunca formülü değiştirme; trend gör.",
@@ -24453,7 +24453,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "30 günlük “itibar sprint’i” başlat: 3 tema, 3 aksiyon, 3 kontrol.",
             "Yorum hacmi düşükse, etik yorum toplama rutinini süreçleştir.",
@@ -24731,7 +24731,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Rakip seti belirle: Antalya/Belek/Side/Kemer/Bodrum içinde aynı segmentte 6 otel.",
             "Son 30 ve son 90 gün penceresi seç (iki trend).",
@@ -24808,7 +24808,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "“Kaydetme oranı”nı ana KPI listene ekle.",
             "Reels’te izlenme trendini en az 30 gün takip et.",
@@ -24866,7 +24866,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Reels’te 2 formatı test et: “deneyim” vs “bilgi/destinasyon”.",
             "Reach yüksek ama saves düşükse, CTA ve bilgi yoğunluğunu artır.",
@@ -24983,7 +24983,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Son 30 gün içeriklerini 5 türe ayır (manuel bile olur).",
             "Her tür için 1 ana KPI seç (destinasyon=save gibi).",
@@ -25027,7 +25027,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "3 örnek benchmark senaryosu (SXO kutusu)",
+          "title": "3 örnek benchmark senaryosu",
           "items": [
             "Reels reach yüksek, save düşük → destinasyon/bilgi içeriklerini artır, CTA’yı netleştir.",
             "Feed engagement iyi, reach düşük → Reels ile dağıtım büyüt, feed’i vitrin yap.",
@@ -25329,7 +25329,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "CWV’yi 3 metriğe indir: LCP/CLS/INP; her biri için hedef band koy.",
             "Önce mobilde ölç; sonra desktop’ı iyileştir.",
@@ -25406,7 +25406,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "LCP için hero görsel ve kritik CSS’i önceliklendir.",
             "CLS için görsellere ölçü tanımla ve banner’ları sabitle.",
@@ -25505,7 +25505,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "1 gün seç: tüm siteleri aynı gün/saat aralığında ölç.",
             "“En kritik 2 sayfa”yı seç: rezervasyon + en çok trafik alan landing.",
@@ -25550,7 +25550,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Mobilde rezervasyon sayfasını “tekil hedef sayfa” olarak ele al.",
             "Üçüncü parti script’leri (chat, tracker) sayfa bazlı denetle.",
@@ -25578,7 +25578,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Hemen uygulayabileceğiniz 5 performans iyileştirme fikri (SXO kutusu)",
+          "title": "Hemen uygulayabileceğiniz 5 performans iyileştirme fikri",
           "items": [
             "Hero görsellerini optimize et (boyut/format) ve kritik yükleme önceliği ver.",
             "Görsellere width/height tanımla; CLS’i düşür.",
@@ -25865,7 +25865,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Kanal paylarını tek tabloda topla: OTA/Web/Call Center (başlangıç).",
             "Her kanal için “net gelir” kolonunu ekle (komisyon/maliyet sonrası).",
@@ -25934,7 +25934,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Kanal payını “pay” ve “net gelir” diye iki satırda göster.",
             "Direct büyütme için 1–2 hızlı test seç (kampanya, landing, remarketing).",
@@ -25995,7 +25995,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Rakip kanal karmasını “% aralık” olarak yaz (Varsayım: band).",
             "Tahmini veriyi karar için tek kaynak yapma; yön gösterici kullan.",
@@ -26062,7 +26062,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "İlk etapta “tam maliyet” değil “yaklaşık net” ile başla (tutarlılık).",
             "OTA komisyonunu net gelir paneline sabit ekle.",
@@ -26081,7 +26081,7 @@
         },
         {
           "type": "h3",
-          "text": "3 tip kanal karması senaryosu (SXO kutusu)"
+          "text": "3 tip kanal karması senaryosu"
         },
         {
           "type": "list",
@@ -26385,7 +26385,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "EB penceresini sabitle (ör. 90 gün+).",
             "Last minute penceresini sabitle (ör. 0–14 gün).",
@@ -26462,7 +26462,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Her kampanya tipi için 5 KPI seç ve sabitle.",
             "KPI’ları “dönem + pazar” kırılımında raporla.",
@@ -26523,7 +26523,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Rakip kampanya bandlarını “± aralık” olarak yaz (Varsayım).",
             "Görünürlük sinyalini “stratejik ipucu” kabul et, tek kaynak yapma.",
@@ -26598,7 +26598,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "En iyi 1 kampanya tipini değil, her tip için “doğru kullanım koşulu”nu yaz.",
             "EB’de indirim bandını, LM’de minimum fiyat disiplinini belirle.",
@@ -26627,7 +26627,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "3 örnek kampanya benchmark senaryosu (SXO kutusu)",
+          "title": "3 örnek kampanya benchmark senaryosu",
           "items": [
             "EB bazı pazarlarda daha yüksek RevPAR + daha düşük iptal sinyali → indirim bandını optimize et, bütçeyi EB’ye kaydır.",
             "LM doluluğu artırıyor ama ADR’yi aşırı düşürüyor → LM’yi “sınırlı gün/sınırlı oda” ile kullan.",
@@ -26891,7 +26891,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Önce destinasyonu tanımla: Antalya mı, Belek mi, Side mı (alt bölge netliği).",
             "Sonra segmenti sabitle: resort vs şehir oteli, aile vs yetişkin vb.",
@@ -26910,7 +26910,7 @@
         },
         {
           "type": "h3",
-          "text": "4–5 maddelik özet cevap (AEO)"
+          "text": "4–5 maddelik özet cevap "
         },
         {
           "type": "list",
@@ -26958,7 +26958,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Bugün: son 30 gün KPI’larını çıkar (YourHotel).",
             "Bu hafta: pazar ortalaması kaynağını belirle ve ekle (Market Average).",
@@ -27035,7 +27035,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "KPI’ları “tek sayı” yerine 3 kırılımla izle: dönem + segment + kanal.",
             "Her ay pazar bandını güncelle (destinasyon trendi değişebilir).",
@@ -27121,7 +27121,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Bu ay: “pazar tanımı” dokümanı çıkar (destinasyon + segment + hedef pazar).",
             "Her raporda: kaynak notu düş (hangi veri nereden?).",
@@ -27182,7 +27182,7 @@
         },
         {
           "type": "h3",
-          "text": "“3 farklı destinasyon benchmark senaryosu” (SXO kutusu)"
+          "text": "“3 farklı destinasyon benchmark senaryosu”"
         },
         {
           "type": "list",
@@ -27213,7 +27213,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "“Tek hamle” yerine 2 haftalık test seti kur: fiyat bandı + kanal dağılımı.",
             "Otelin 1 güçlü driver’ını seç (aile, deneyim, gastronomi) ve mesajı sabitle.",
@@ -27662,7 +27662,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Yan gelir kalemlerini muhasebe/POS/PMS kodlarıyla netleştir.",
             "KPI’yı 2 eksende seç: kişi başı + oda başı.",
@@ -27725,7 +27725,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-2)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -27739,7 +27739,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "KPI setini 6’ya sabitle (RevPAG, RevPAGF&B, RevPASpa, oda başı, attach, net kâr).",
             "Board tipini rapora etiketle (AI/HB/BB).",
@@ -27798,7 +27798,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-3)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -27812,7 +27812,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Muhasebe/POS kodlarını tekleştir: rapor her ay aynı gelsin.",
             "Kategori bazında “fırsat haritası” çıkar: en büyük boşluk nerede?",
@@ -27926,7 +27926,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-4)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -27940,7 +27940,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Önce standardı seç (misafir vs misafir-gece) ve 90 gün değiştirme.",
             "Spa ve F&B’yi aynı tabloda ama ayrı satırda kıyasla.",
@@ -27988,7 +27988,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-5)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -28002,7 +28002,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "AI/UAI için “premiumlaştırma” planı, BB/HB için “upsell genişleme” planı yap.",
             "Yan gelir payı düşük olan kalem için 2 ürün/paket test et.",
@@ -28051,7 +28051,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "3 örnek yan gelir benchmark senaryosu (SXO kutusu)",
+          "title": "3 örnek yan gelir benchmark senaryosu",
           "items": [
             "Spa RevPASpa düşük: ürün paketi + pre-stay randevu + personel script iyileştirme.",
             "F&B RevPAGF&B düşük (AI/UAI): premium içecek/a’la carte deneyim paketleri ve görünür menü kurgusu.",
@@ -28348,7 +28348,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "GA4/analytics’te rezervasyon olaylarını doğru işaretle (satın alma/booking).",
             "Booking engine adımlarını (start, date select, payment) event olarak izle.",
@@ -28420,7 +28420,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-2)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -28434,10 +28434,10 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Kendi bandını çıkar: son 30/90 gün mobil vs desktop.",
-            "Bandın altındaysan önce “en zayıf adımı” bul (H2-4).",
+            "Bandın altındaysan önce “en zayıf adımı” bul.",
             "Band içindeysen “kârlı büyüme” için teklif ve upsell’i güçlendir."
           ]
         }
@@ -28506,7 +28506,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-3)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -28520,7 +28520,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Önce ölçüm: “nerede kaybediyoruz?” sorusunu netleştir.",
             "Sonra tek odak: en zayıf 1–2 adımı seç.",
@@ -28606,7 +28606,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-4)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -28620,7 +28620,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "En yüksek drop-off olan adımı seç ve sadece onu iyileştir.",
             "“Sürpriz ücret” riskini azalt: toplam fiyatı daha erken göster.",
@@ -28665,7 +28665,7 @@
         },
         {
           "type": "h3",
-          "text": "☑ Mini Check (H2-5)"
+          "text": "☑ Mini Check"
         },
         {
           "type": "list",
@@ -28679,7 +28679,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım?",
           "items": [
             "Mobilde en çok terk edilen adımı seç (genelde ödeme veya oda seçimi).",
             "Sayfa hızını iyileştir (özellikle LCP/INP).",
@@ -28711,7 +28711,7 @@
         },
         {
           "type": "h3",
-          "text": "Hemen test edebileceğiniz 5 dönüşüm iyileştirme fikri (SXO kutusu)"
+          "text": "Hemen test edebileceğiniz 5 dönüşüm iyileştirme fikri"
         },
         {
           "type": "list",
@@ -28836,6 +28836,1206 @@
         "Rakip dönüşüm oranları doğrudan veri gibi sunulmamalı; pazar bandı ve proxy UX sinyalleri kullanılmalı.",
         "Funnel drop-off noktaları engine start, date select, payment ve booking adımlarında takip edilmeli.",
         "Core Web Vitals özellikle mobil rezervasyon sayfasıyla birlikte değerlendirilmelidir."
+      ]
+    }
+  }
+},
+
+"BlogTekrarGelenMisafirBenchmarkiRepeatGuestOrani": {
+  "title": "Repeat Guest Benchmark: Sadakat KPI’ı",
+  "slug": "tekrar-gelen-misafir-benchmarki-repeat-guest-orani",
+  "department": "raporla",
+  "subDepartment":"benchmark",
+  "updatedAt": "18 Ağustos 2026",
+  "publishedAt": "2026-08-18",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Repeat guest oranınızı PMS verisiyle ölçüp pazar/rakip bandıyla kıyaslayın. Ülke, segment ve kanal kırılımıyla sadakati görün; CRM ve teklif stratejisiyle tekrar konaklamayı artırın.",
+  "seo": {
+    "metaTitle": "Repeat Guest Benchmark: Sadakat KPI’ı | DGTLFACE",
+    "metaDescription": "Repeat guest oranınızı PMS verisiyle ölçüp pazar/rakip bandıyla kıyaslayın. Ülke, segment ve kanal kırılımıyla sadakati görün; CRM ve teklif stratejisiyle tekrar konaklamayı artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + URL: Benchmark Analizi — /tr/raporlama/benchmark-analizi",
+      "Blog No + Blog URL: Blog #14 — /tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Difficulty Level / Expertise: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani"
+    ],
+    "strategySummary": "Bu yazı, benchmark silosunun “sadakat ve kârlılık” ayağında repeat guest oranını net bir KPI olarak tanımlayıp, PMS verisiyle segment/pazar kırılımında ölçen çekirdek referanstır. Hedef persona; GM/otel sahibi, satış–pazarlama, revenue ve CRM/çağrı merkezi ekipleri; funnel aşaması MoFu: “Repeat oranım düşük mü, hangi pazarda/segmentte sorun var, hangi CRM teklifleriyle artar?” kararını hızlandırır. Resort vs city otel farklarını ve iç pazar–yabancı pazar repeat davranışını Antalya/Belek/Side/Kemer/Bodrum bağlamında örnekler. Ana iş sorusu: “Repeat guest oranını pazar ve rakip bandıyla kıyaslayıp lifetime value ve kârlılığı artıracak sadakat aksiyonlarını nasıl kurgularım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-18",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Repeat guest benchmark’ı; belirli bir dönemde otelinize yeniden gelen misafir oranını (tekrar konaklayan misafir / toplam misafir) PMS verisiyle hesaplayıp pazar ve rakip set ortalamasıyla kıyaslayarak sadakat seviyenizi ölçer. KPI’yı ülke, segment ve kanal bazında kırdığınızda hangi pazarda lifetime value’nun güçlendiği veya zayıfladığı netleşir. Sonuçlar, CRM iletişimi, teklif/paket kurgusu ve satış sonrası destek süreçlerini veriyle iyileştirmeyi sağlar.",
+    "sgeSummary": "Repeat guest benchmark; PMS’den tekrar konaklayan misafir oranını hesaplayıp pazar/rakiple kıyaslar. Segment ve ülke kırılımı, sadakat ve kârlılık fırsatını netleştirir.",
+    "voiceAnswer": "Repeat guest oranınızı hesaplayıp pazarla kıyaslayın; en zayıf pazarda CRM ve tekliflerle sadakati artırın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, pazarlama, revenue, CRM, call center",
+      "KPI seti: Repeat guest rate, cohort repeat (Varsayım), channel/segment/country split",
+      "Entity ilişkisi: High Repeat Rate → increases → lifetime value & profitability",
+      "Veri kaynağı: PMS guest ID + tekrar konaklama sayıları",
+      "Bağlam: resort vs city; iç pazar vs yabancı pazar (Antalya/Belek/Side vb.)",
+      "Çıktı: repeat oran tablosu + ülke/segment grafiği + 3 senaryo kutusu",
+      "Rutin: aylık takip; yılda 1 band ve CRM senaryosu güncellemesi"
+    ]
+  },
+  "h1": {
+    "title": "Tekrar Gelen Misafir Benchmark’ı: Repeat Guest Oranı ile Sadakati Ölçmek",
+    "intro": "Yeni misafir kazanımı oteller için her zaman önemlidir; ancak sürdürülebilir kârlılık çoğu zaman “yeniden gelen misafir” ile güçlenir. Çünkü tekrar konaklayan misafir, genellikle daha az pazarlama maliyetiyle gelir, daha hızlı karar verir ve deneyimi bildiği için upsell’a daha açık olabilir. Repeat guest benchmark’ı, sadakati duygusal bir kavram olmaktan çıkarır; PMS verisiyle ölçülebilir bir KPI’ya dönüştürür ve pazar/rakip bandıyla kıyaslayarak gerçek konumu gösterir. Bu rehberde repeat oranını nasıl hesaplayacağınızı, hangi kırılımlarla okuyacağınızı ve sonuçları CRM–teklif–iletişim stratejisine nasıl bağlayacağınızı adım adım anlatacağız.",
+    "quickSummary": [
+      "Repeat KPI’yı tek satır değil 4 kırılımda raporla: ülke, segment, kanal, sezon.",
+      "PMS’de tekil misafir eşleştirme kuralım var (ID/e-posta/telefon).",
+      "Dönem penceresini sabitledim (12 ay).",
+      "Repeat’i toplam + ülke + segment + kanal kırılımıyla görüyorum.",
+      "Repeat’i LTV ve maliyet etkisiyle birlikte yorumluyorum."
+    ],
+    "ctaPrimary": {
+      "label": "Repeat Guest & Sadakat Benchmark Analizi Talep Et",
+      "text": "Repeat oranını pazar/segment kırılımıyla ölçüp CRM aksiyon planı çıkarmak isteyen oteller için",
+      "href": "/raporlama/satis-donusum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Repeat Guest & Sadakat Benchmark Analizi Talep Et",
+      "text": "Repeat oranını pazar/segment kırılımında ölçüp lifetime value ve kârlılığı artıracak planı kurmak isteyen oteller için",
+      "href": "/raporlama/satis-donusum"
+    },
+    "secondary": {
+      "label": "Repeat Guest KPI & Loyalty Checklist’ini İndir",
+      "text": "PMS ölçümü, kırılımlar ve 30 günlük CRM aksiyon planını hazır uygularsınız.",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Satış & Dönüşüm",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Satış Sonrası Destek",
+      "href": "/cagri-merkezi/satis-sonrasi-destek"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  ],
+  "relatedPosts": [],
+  "sections": [
+    {
+      "id": "sadakat-repeat-guest-kavrami",
+      "title": "Sadakat ve repeat guest kavramı: aynı şey mi?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sadakat, misafirin markaya duyduğu güven ve tercih eğilimi; repeat guest ise bunun ölçülebilir çıktısıdır: misafir tekrar geldi mi? Bu nedenle sadakat programınız olmasa bile repeat oranınız olabilir; sadakat programınız varken repeat oranınız düşük de kalabilir. Benchmark’ın amacı; “program var mı?” değil, “sonuç var mı?” sorusunu netleştirmektir."
+        },
+        {
+          "type": "p",
+          "text": "Repeat guest metriklerini okurken iki hata yaygındır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Repeat’i tek sayı zannetmek (oysa ülke/segment/kanal farkı büyüktür).",
+            "Repeat’i “başarı” diye tek başına kutlamak (kârlılık ve sezon etkisi de okunmalıdır)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (H2-1)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sadakat (algı) ve repeat (ölçüm) ayrımını net yapıyorum",
+            "Repeat’i ülke/segment/kanal kırılımında okuyorum",
+            "Repeat artışını kârlılık ve deneyim KPI’larıyla birlikte değerlendiriyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Repeat KPI’yı tek satır değil 4 kırılımda raporla: ülke, segment, kanal, sezon.",
+            "“Repeat iyi mi kötü mü?” sorusunu pazar bandıyla kıyasla.",
+            "Repeat’i artırmak için önce deneyim sürtünmelerini (şikâyet temaları) düzelt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repeat-guest-orani-hesaplama",
+      "title": "Repeat guest oranı nasıl hesaplanır? (zorunlu)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Repeat guest oranı, temel formül olarak basittir; önemli olan PMS’de misafir kimliğini doğru birleştirmektir."
+        },
+        {
+          "type": "h3",
+          "text": "AEO net cevap (hesap mantığı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Repeat Guest Rate = Tekrar konaklayan misafir sayısı / Toplam misafir sayısı (seçilen dönem içinde)",
+            "Tekrar konaklayan misafir: seçilen dönemde “en az 2. konaklamasını” yapan misafirdir (Varsayım: tanımı böyle sabitliyoruz).",
+            "PMS’de misafir ID veya eşleştirme kuralı (e-posta/telefon/pasaport vb.) tutarlı olmalıdır."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "PMS’de repeat ölçümünün 3 kritik kuralı"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Tekil misafir tanımı: aynı kişi farklı rezervasyonda tek kişi sayılmalı.",
+            "Dönem penceresi: 12 ay, 24 ay gibi pencere sabit olmalı (Varsayım: 12 ay + 24 ay kıyası).",
+            "Cohort yaklaşımı (opsiyonel): belirli bir ay gelen misafirlerin kaçının 6–12 ay içinde döndüğünü izlemek (Varsayım)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PMS’de tekil misafir eşleştirme kuralım var (ID/e-posta/telefon)",
+            "Dönem penceresini sabitledim (12 ay)",
+            "Repeat’i “misafir” bazında ölçüyorum; rezervasyon bazında değil"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "PMS’de duplicate misafir kayıtlarını temizle (ölçüm bozulmasın).",
+            "İlk rapor: 12 aylık repeat oranı + ülke kırılımı.",
+            "İkinci rapor: 24 ay kıyasıyla trendi doğrula (Varsayım)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repeat-guest-benchmark-sadakat-olcumu",
+      "title": "Repeat guest benchmark’ı ile sadakati nasıl ölçersiniz? (zorunlu)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Repeat benchmark, sadece “oran” değil, kırılım ve kıyas demektir."
+        },
+        {
+          "type": "h3",
+          "text": "Segment bazlı repeat"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Resort vs city: Resort’larda repeat daha sezonsal ve pazar bağlı olabilir; city otelde kurumsal repeat farklılaşabilir.",
+            "Aile vs yetişkin: deneyim beklentisi ve tekrar motivasyonu değişir.",
+            "Fiyat bandı/ürün vaadi: premium tesislerde repeat farklı davranabilir."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Ülke/pazar bazlı repeat"
+        },
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side gibi tatil destinasyonlarında iç pazar ve yabancı pazar repeat davranışı farklı olabilir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İç pazar: kısa karar döngüsü, belirli dönemlerde tekrar eğilimi",
+            "Yabancı pazar: erken planlama, paket/operatör etkisi, daha uzun döngü (Varsayım: genel gözlem)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kanal bazlı repeat"
+        },
+        {
+          "type": "p",
+          "text": "OTA üzerinden gelen misafir tekrar geldiğinde direct’e kayabiliyor mu? Call center ile ilişki kuruldu mu? Burada amaç, repeat’i sadece “tekrar” değil kanal kalitesi dönüşümü olarak da okumaktır."
+        },
+        {
+          "type": "table",
+          "caption": "Repeat guest oranı otel vs pazar (zorunlu tablo)",
+          "headers": [
+            "Kırılım",
+            "Siz Repeat %",
+            "Rakip Set Ort. %",
+            "Pazar Ort. %",
+            "Not"
+          ],
+          "rows": [
+            [
+              "Toplam",
+              "TBD",
+              "TBD",
+              "TBD",
+              "12 ay pencere"
+            ],
+            [
+              "İç Pazar",
+              "TBD",
+              "TBD",
+              "TBD",
+              "sezon etkisi"
+            ],
+            [
+              "Yabancı Pazar",
+              "TBD",
+              "TBD",
+              "TBD",
+              "planlama döngüsü"
+            ],
+            [
+              "OTA",
+              "TBD",
+              "TBD",
+              "TBD",
+              "direct’e geçiş fırsatı"
+            ],
+            [
+              "Direct (Web/Call)",
+              "TBD",
+              "TBD",
+              "TBD",
+              "LTV sinyali"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Repeat’i toplam + ülke + segment + kanal kırılımıyla görüyorum",
+            "Rakip/pazar kıyasını band olarak rapora ekliyorum",
+            "Repeat’i LTV ve maliyet etkisiyle birlikte yorumluyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Repeat’i en çok etkileyen 2 pazarı seç ve ayrı aksiyon planı yaz.",
+            "OTA’dan gelen repeat’i direct’e taşımak için teklif/CRM kurgusu yap.",
+            "Düşük repeat segmentinde deneyim sürtünmesini (şikâyet tema) düzelt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repeat-rakip-pazar-karsilastirma",
+      "title": "Rakip ve pazarla karşılaştırma: band yaklaşımı ve “doğru kıyas”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip otellerin repeat oranını doğrudan bilmek her zaman mümkün değildir. Bu nedenle benchmark’ta iki katman kullanılır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Pazar bandı (market range): benzer segment/destinasyon için genel repeat bandı (Varsayım: kaynak notuyla)",
+            "Kendi tarihsel bandınız: 12–24 ay trend (en güvenilir kıyas)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Örnek band mantığı (sheet’ten, yumuşatılmış)"
+        },
+        {
+          "type": "p",
+          "text": "Bazı pazarlarda repeat oranının %20–30 bandına çıkması; pazarlama maliyetlerini düşürüp lifetime value’yu artırabilecek bir sadakat sinyali olarak görülebilir. Bu band, otel tipi, destinasyon ve hedef pazara göre değişir; “hedef” değil, benchmark konuşması için örnek banddır."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bandları “kesin hedef” gibi değil, kıyas referansı gibi kullanıyorum",
+            "Kendi tarihsel trendimi en güçlü kıyas olarak görüyorum",
+            "Pazar/segment değişimini rapora not ediyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "12 ay repeat trendini çıkar; sonra 24 ayla doğrula.",
+            "Pazar bandı kullanıyorsan kaynak ve varsayımı raporda belirt.",
+            "Repeat yükselirken ADR/RevPAR düşüyorsa, teklif stratejisini yeniden dengele."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repeat-oranini-artirma-stratejileri",
+      "title": "Repeat oranını artırmak için stratejiler (CRM, iletişim, teklif)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Repeat oranını artırmanın yolu “tek kampanya” değildir; sistemdir. Üç kaldıraç birlikte çalışır:"
+        },
+        {
+          "type": "h3",
+          "text": "1) CRM ve iletişim zamanlaması (pre/post-stay)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Post-stay teşekkür + geri bildirim → ilişkiyi sıcak tutar",
+            "60–120 gün içinde “tekrar teklif” → planlama döngüsüne girer (Varsayım)",
+            "Özel gün/çocuk tatili gibi tetikleyiciler → teklif relevansı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Teklif/paket stratejisi (value-add)"
+        },
+        {
+          "type": "p",
+          "text": "Repeat’i indirimle değil, “değer”le büyütmek daha sürdürülebilirdir: oda upgrade, spa kredisi, transfer, özel deneyim."
+        },
+        {
+          "type": "h3",
+          "text": "3) Satış sonrası destek ve call center rolü"
+        },
+        {
+          "type": "p",
+          "text": "Satış sonrası destek; iptal kurtarma, değişiklik yönetimi ve memnuniyet toparlama ile repeat’i doğrudan etkileyebilir. Bu nedenle süreç /tr/cagri-merkezi/satis-sonrasi-destek ile birlikte ele alınmalıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "3 repeat artış senaryosu",
+          "items": [
+            "İç pazar repeat düşük: okul tatili/özel gün tetikleyicili CRM + value-add paket.",
+            "Yabancı pazar repeat düşük: erken planlama penceresine uygun EB teklifleri + dil/iletişim uyumu.",
+            "OTA repeat var ama direct’e geçmiyor: direct avantaj + profil/CRM kayıt teşviki + call center follow-up."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Post-stay iletişimi ve teklif ritmim var",
+            "Repeat’i indirim değil value-add ile büyütüyorum",
+            "Call center/satış sonrası destek sürecini sadakat KPI’sına bağlıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Repeat düşük segmentte 30 günlük “sadakat sprint’i” başlat.",
+            "CRM’de 3 tetikleyici kur (post-stay, 90 gün, özel gün).",
+            "Direct’e geçiş için “repeat avantaj” paketi tasarla (indirim değil değer)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repeat-benchmark-satis-karlilik-ltv",
+      "title": "Benchmark sonuçlarını satış ve kârlılığa bağlamak (LTV odak)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Repeat oranı yükseldikçe, teorik olarak pazarlama maliyeti baskısı azalabilir ve lifetime value artabilir. Ancak repeat’i kârlı büyütmek için iki denge gerekir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat disiplini: repeat’i sürekli indirimle satın almak yerine value-add",
+            "Deneyim kalitesi: memnuniyet driver’larını sistematik iyileştirme"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Basit bir mantık örneği (kesin vaat değil): aynı doluluk/trafik seviyesinde repeat payı arttığında, “yeniden kazanım” maliyeti genelde düşer; bu da kârlılığı destekleyebilir. Otel tipine göre değişir; ama benchmark, bu etkiyi görünür kılar."
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Repeat Guest KPI & Loyalty Checklist’ini İndir",
+          "text": "PMS ölçümü, kırılımlar ve 30 günlük CRM aksiyon planını hazır uygularsınız.",
+          "href": "/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Repeat Guest & Sadakat Benchmark Analizi Talep Et",
+          "text": "Repeat’i pazar/segment kırılımında artıracak teklif ve iletişim planı isteyen oteller için",
+          "href": "/raporlama/satis-donusum"
+        }
+      ]
+    },
+    {
+      "id": "repeat-guest-kpi-loyalty-checklist",
+      "title": "Repeat Guest KPI & Loyalty Checklist’ini İndir — Benchmark Analizi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Repeat Guest KPI & Loyalty Checklist’ini İndir — Benchmark Analizi (v1.0)",
+          "purpose": "Bu checklist, repeat guest oranını PMS’den doğru şekilde ölçmek, ülke/segment/kanal kırılımında benchmark yapmak ve 30 günlük CRM aksiyon planı kurmak için hazırlanmıştır. Amaç, sadakati “program” seviyesinde değil KPI seviyesinde yönetmek ve repeat’i value-add tekliflerle kârlı biçimde artırmaktır.",
+          "whoFor": "GM/otel sahibi, CRM/pazarlama, revenue, call center ve satış sonrası destek ekipleri.",
+          "steps": [
+            "PMS’den tekil misafir eşleştirmesini doğrula; 12 aylık repeat oranını çıkar.",
+            "Ülke/segment/kanal kırılımında repeat benchmark tablosunu doldur.",
+            "30 günlük sadakat sprint’iyle 3 tetikleyici + 3 teklif testi uygula; trendi ölç."
+          ],
+          "checklist": [
+            "Tekil misafir tanımı net (ID/e-posta/telefon eşleştirme)",
+            "Dönem penceresi sabit (12 ay; opsiyonel 24 ay kıyası)",
+            "Repeat oran formülü yazıldı (repeat/total guests)",
+            "Ülke kırılımı çıkarıldı (iç pazar vs yabancı pazar)",
+            "Segment kırılımı çıkarıldı (resort/city, aile/yetişkin vb.)",
+            "Kanal kırılımı çıkarıldı (OTA/direct/call center)",
+            "Repeat’i LTV/kârlılık notuyla birlikte raporluyorum",
+            "30 günlük CRM sprint planı hazır"
+          ],
+          "href": "/downloads/repeat- guest-kpi-loyalty-checklist-v1.0.pdf",
+          "buttonLabel": "Repeat Guest KPI & Loyalty Checklist’ini İndir"
+        },
+        {
+          "type": "h3",
+          "text": "Deliverables Listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Repeat KPI sözlüğü + ölçüm kurgusu",
+            "Ülke/segment/kanal benchmark tablosu",
+            "30 günlük CRM sadakat sprint planı",
+            "Sonuç raporu (1 sayfa)"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Repeat guest oranı nedir, nasıl hesaplanır?",
+      "a": "Belirli bir dönemde tekrar konaklayan misafir sayısının toplam misafir sayısına oranıdır. PMS’de tekil misafir eşleştirmesi doğru yapılmalı ve dönem penceresi (ör. 12 ay) sabitlenmelidir."
+    },
+    {
+      "q": "Oteller için iyi bir tekrar gelen misafir oranı kaç olmalıdır?",
+      "a": "Tek bir doğru yoktur; destinasyon, segment ve hedef pazara göre değişir. Bazı pazarlarda %20–30 bandı benchmark konuşmalarında referans alınabilir; bu bir hedef değil, kıyas bandıdır."
+    },
+    {
+      "q": "Repeat guest benchmark’ı nasıl yapılır?",
+      "a": "PMS’den repeat oranını hesaplayıp ülke/segment/kanal kırılımına ayırır ve pazar/rakip bandıyla kıyaslarsınız. Sonra en zayıf pazarda CRM tetikleyicileri ve value-add tekliflerle 30 günlük aksiyon planı uygularsınız."
+    },
+    {
+      "q": "Repeat oranını artırmak için hangi CRM ve teklif stratejileri uygulanmalı?",
+      "a": "Post-stay iletişimi, 60–120 gün tekrar teklif tetikleyicileri (Varsayım) ve value-add paketler etkilidir. Call center ve satış sonrası destek süreçleri, memnuniyet toparlama ve direct’e geçişte kritik rol oynar."
+    },
+    {
+      "q": "Resort ve city otellerde repeat neden farklıdır?",
+      "a": "Talep döngüsü, segment yapısı ve sezon eğrisi farklıdır. Resort’larda pazar/ülke ve sezon etkisi baskınken, city otelde kurumsal tekrar davranışı daha belirgin olabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-hero-01.webp — Repeat guest oranı ile sadakati ölçen benchmark yaklaşımını anlatan kapak görseli",
+        "h1-context — 1920×1080 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-h1-context-02.webp — PMS verisiyle repeat ölçümünü ve pazar kıyasını özetleyen görsel",
+        "divider-01 — 1600×1200 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-divider-03.webp — Sadakat kavramı ile repeat KPI ayrımını sade gösteren bölüm görseli",
+        "divider-02 — 1600×1200 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-divider-04.webp — CRM teklif ve iletişim aksiyonlarını ayıran strateji odaklı görsel",
+        "diagram-05 — 1920×1080 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-diagram-05.webp — Repeat ölçümü ve segment ülke kanal kırılımlarını gösteren akış şeması",
+        "checklist-06 — 1200×1200 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-checklist-06.webp — Repeat hesaplama kuralları ve veri temizliği adımlarını özetleyen kontrol kartı",
+        "kpi-07 — 1200×1200 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-kpi-07.webp — Repeat oran bandı ve trendini gösteren sadakat KPI skor kartı",
+        "proof-08 — 1200×1200 — tekrar-gelen-misafir-benchmarki-repeat-guest-orani-proof-08.webp — Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı",
+        "table-repeat-guest-benchmark — Repeat oranı otel vs pazar tablosu (BÖLÜM 4 / H2-3)"
+      ],
+      "technicalChecklist": [
+        "Tekil misafir tanımı net (ID/e-posta/telefon eşleştirme)",
+        "Dönem penceresi sabit (12 ay; opsiyonel 24 ay kıyası)",
+        "Repeat oran formülü yazıldı (repeat/total guests)",
+        "Ülke kırılımı çıkarıldı (iç pazar vs yabancı pazar)",
+        "Segment kırılımı çıkarıldı (resort/city, aile/yetişkin vb.)",
+        "Kanal kırılımı çıkarıldı (OTA/direct/call center)",
+        "Repeat’i LTV/kârlılık notuyla birlikte raporluyorum",
+        "30 günlük CRM sprint planı hazır"
+      ]
+    }
+  }
+},
+
+"BlogOperasyonelVerimlilikBenchmarkiOdaBasiPersonelSaatleri": {
+  "title": "Otel Verimlilik Benchmark: Oda Başı Personel",
+  "slug": "operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri",
+  "department": "raporlama",
+  "subDepartment":"benchmark",
+  "updatedAt": "18 Ağustos 2026",
+  "publishedAt": "2026-08-18",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Oda başına personel, housekeeping üretkenliği ve iş emri sürelerini pazar/rakiple kıyaslayın. Vardiya ve süreç iyileştirmesiyle maliyet–kalite dengesini veriyle kurun.",
+  "seo": {
+    "metaTitle": "Otel Verimlilik Benchmark: Oda Başı Personel | DGTLFACE",
+    "metaDescription": "Oda başına personel, housekeeping üretkenliği ve iş emri sürelerini pazar/rakiple kıyaslayın. Vardiya ve süreç iyileştirmesiyle maliyet–kalite dengesini veriyle kurun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + URL: Benchmark Analizi — /tr/raporlama/benchmark-analizi",
+      "Blog No + Blog URL: Blog #15 — /tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Difficulty Level / Expertise: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Canonical: /tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri"
+    ],
+    "strategySummary": "Bu yazı, benchmark silosunun “operasyon maliyeti + hizmet kalitesi” dengesini ölçen çekirdek içeriğidir: oda başı personel, housekeeping üretkenliği ve teknik servis iş emri süreleri gibi KPI’ları pazar/rakip bandıyla kıyaslayıp doğru vardiya ve süreç kararlarını veriye bağlar. Hedef persona; GM/otel sahibi, operasyon yöneticileri, kat hizmetleri/teknik servis liderleri ve ajans/raporlama ekipleri; funnel aşaması MoFu: “fazla personel mi, yanlış vardiya mı, kalite riski mi?” ayrımını netleştirir. Resort vs city farkı ve sezon etkisi (Antalya/Belek/Side/Kemer/Bodrum) özellikle vurgulanır. Ana iş sorusu: “Maliyeti düşürürken kaliteyi koruyacak operasyon verimliliği dengesini KPI’larla nasıl bulurum?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-18",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Operasyonel verimlilik benchmark’ı; oda başına personel (FTE), housekeeping oda başı süre/oda sayısı ve teknik servis iş emri tamamlama süreleri gibi KPI’ları benzer otellerle kıyaslayarak maliyet–kalite dengesini ölçer. Amaç personeli kısmak değil; doğru sayıda personeli doğru vardiya yapısıyla yöneterek hem misafir memnuniyetini hem kârlılığı korumaktır. Benchmark, “fazla mı az mı?” sorusunu veriyle cevaplayıp süreç ve planlama aksiyonlarına dönüştürür.",
+    "sgeSummary": "Otel operasyon benchmark; FTE/oda, housekeeping üretkenliği ve iş emri sürelerini pazar/rakiple kıyaslar. Hedef, maliyet düşürürken hizmet kalitesini koruyan doğru vardiyadır.",
+    "voiceAnswer": "Oda başı personel ve housekeeping KPI’larını kıyaslayıp maliyet–kalite dengesini doğru vardiya planıyla kurarsınız.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, operasyon, housekeeping, teknik servis",
+      "KPI seti: Staff per room (FTE/oda), room-cleaning minutes, rooms per attendant, work order completion time",
+      "Entity ilişkisi: Operational Efficiency → balances → cost & service quality",
+      "Bağlam: resort vs city; yüksek/düşük sezon vardiya etkisi",
+      "Karar alanı: vardiya planlama, outsourcing, kalite kontrolleri, eğitim",
+      "Çıktı: KPI tablosu + iş emri grafik + verimlilik–memnuniyet şeması",
+      "Rutin: aylık takip; yılda 1 örnek aralık ve pratik güncelleme"
+    ]
+  },
+  "h1": {
+    "title": "Operasyonel Verimlilik Benchmark’ı: Oda Başı Personel ve Housekeeping Üretkenliği",
+    "intro": "“Oda başı personel sayım fazla mı?” veya “housekeeping kaç oda temizlemeli?” soruları, otellerde genelde “hissiyat”la yanıtlanır. Oysa verimlilik, yalnızca maliyet değil; aynı zamanda misafir memnuniyetini belirleyen hizmet seviyesidir. Personeli azaltmak kısa vadede bütçeyi rahatlatabilir; ama temizlik kalitesi, oda hazır olma süresi ve teknik arıza kapanma hızı düşerse toplam gelir ve itibar zarar görebilir. Operasyonel verimlilik benchmark’ı, oda başına personel ve üretkenlik KPI’larını pazar/rakip bandıyla kıyaslayıp “doğru denge”yi bulmanızı sağlar. Bu rehberde KPI’ları tanımlayıp ölçüm yöntemini kuracak, resort–city farkını ele alacak ve sonuçları vardiya/süreç kararlarına bağlayacağız.",
+    "quickSummary": [
+      "Verimliliği maliyet + kalite birlikte okuyun.",
+      "FTE/oda ve housekeeping üretkenliğini ayrı KPI’larla takip edin.",
+      "Resort/city ve yüksek/düşük sezon pencerelerini ayrı kıyaslayın.",
+      "İş emri kapanma süresi ve tekrar açılma oranını kalite sinyali olarak izleyin.",
+      "Vardiya ve süreç değişikliklerini öncesi/sonrası KPI’larla doğrulayın."
+    ],
+    "ctaPrimary": {
+      "label": "Operasyonel Verimlilik & Personel Benchmark Analizi Talep Et",
+      "text": "Vardiya ve süreç iyileştirmesiyle maliyeti düşürürken kaliteyi korumak isteyen oteller için",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Operasyonel Verimlilik & Personel Benchmark Analizi Talep Et",
+      "text": "Oda başı personel, housekeeping ve bakım KPI’larıyla maliyet–kalite dengesini kurmak isteyen oteller için",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    "secondary": {
+      "label": "Operasyonel KPI & Benchmark Checklist’ini İndir",
+      "text": "FTE/oda, HK KPI’ları, iş emri SLA ve 30 günlük planı hazır uygularsınız.",
+      "href": "/raporlama"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Satış & Dönüşüm",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    }
+  ],
+  "relatedPosts": [],
+  "sections": [
+    {
+      "id": "operasyonel-verimlilik-benchmark-kavrami",
+      "title": "Operasyonel verimlilikte benchmark kavramı nedir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Operasyonel verimlilik benchmark, “daha az kişiyle daha çok iş” değildir. Doğru tanım şudur: aynı veya daha iyi hizmet kalitesini, daha doğru planlama ve süreçle, daha verimli kaynak kullanarak sağlamak. Bu yüzden KPI’lar “maliyet” kadar “kalite sinyali” ile birlikte okunmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "İyi bir benchmark yaklaşımı üç katman içerir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kapasite: oda sayısı, doluluk, check-in/out yoğunluğu",
+            "Kaynak: FTE, vardiya saatleri, dış kaynak (outsourcing)",
+            "Çıktı/Kalite: oda hazır olma süresi, temizlik hatası, iş emri kapanma süresi, memnuniyet sinyali"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (H2-1)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Verimliliği maliyet + kalite birlikte okuyorum",
+            "Kapasite (doluluk) değişimini KPI yorumuna dahil ediyorum",
+            "Personel planını “sezon ve gün” bazında ayırıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KPI raporuna kalite sinyali ekle (Varsayım: temizlik şikâyeti oranı/NPS).",
+            "KPI’ları doluluk penceresiyle birlikte raporla (yüksek/düşük sezon).",
+            "Benchmark’ı “tek ay” değil 3 aylık trendle oku."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operasyonel-verimlilik-kpilari",
+      "title": "Otel operasyonel verimlilik benchmark’ında hangi KPI’lara bakılır? (zorunlu)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Operasyonel benchmark’ta KPI seti sade ama kapsayıcı olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Staff per Room (FTE/oda) ve saat KPI’ları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Toplam FTE / oda sayısı (veya dolu oda)",
+            "Çalışılan saat / dolu oda gecesi (Varsayım: timesheet varsa)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu KPI, “kaynak” tarafını gösterir; tek başına yorumlanmaz."
+        },
+        {
+          "type": "h3",
+          "text": "Housekeeping üretkenliği KPI’ları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda başı temizlik süresi (dakika)",
+            "Görevli başına temizlenen oda sayısı (rooms per attendant)",
+            "Oda hazır olma süresi (Varsayım: PMS’de time-stamp varsa)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Teknik servis (maintenance) KPI’ları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İş emri tamamlama süresi (ortalama/median)",
+            "Acil iş emri kapanma SLA (Varsayım)",
+            "Tekrar açılan iş emri oranı (kalite sinyali)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kalite denge KPI’ları (minimum set)"
+        },
+        {
+          "type": "p",
+          "text": "Temizlik şikâyeti, oda hazır olma gecikmesi, arıza tekrar oranı gibi “kalite sinyalleri” (Varsayım: veri kaynağına göre seçilir)"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (H2-2)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "FTE/oda ve housekeeping KPI’larını ayrı izliyorum",
+            "Teknik servis iş emri sürelerini düzenli raporluyorum",
+            "Kalite sinyallerini KPI setine ekledim (en az 1 tane)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KPI setini 8’i geçirme; ölçülebilir ve sürdürülebilir tut.",
+            "Ortalama yerine mümkünse median da raporla (iş emri sürelerinde faydalı).",
+            "KPI’ları departman sorumlularıyla aynı tabloda görünür kıl."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oda-basi-personel-housekeeping-uretkenligi",
+      "title": "Oda başına personel ve housekeeping üretkenliği nasıl kıyaslanır? (zorunlu)",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "AEO – 4–5 adımlık özet süreç"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Otel tipini ve sezonu ayırın: resort vs city; yüksek/düşük sezon penceresi.",
+            "FTE ve saatleri standartlaştırın: full-time + part-time + outsourcing saatlerini aynı birime çevirin.",
+            "Housekeeping çıktılarını netleştirin: temizlenen oda sayısı, oda başı süre, oda hazır olma süresi.",
+            "Rakip/pazar bandı ile kıyaslayın: benzer segment otellerin bandı (Varsayım: kaynak notuyla) + kendi geçmiş trendiniz.",
+            "Kalite sinyaliyle doğrulayın: verimlilik artarken şikâyet artıyorsa yanlış optimizasyondur."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Resort vs city farkı (pratik)"
+        },
+        {
+          "type": "p",
+          "text": "Resort’larda oda tipleri ve alanlar daha büyük olabilir, “turn-down” gibi ek işler olabilir; yoğun check-in/out günlerinde housekeeping yükü artar. City otellerde ise daha kısa konaklama döngüsü ve daha sık oda dönüşü olabilir. Bu yüzden “housekeeping kaç oda temizlemeli” sorusu, otel tipi ve oda standardı ile birlikte değerlendirilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Antalya/Belek/Side sezon farkı"
+        },
+        {
+          "type": "p",
+          "text": "Yüksek sezonda doluluk ve check-in/out yoğunluğu artar; aynı verimlilik KPI’sı farklı stres altında çalışır. Bu yüzden benchmark raporu sezon penceresiyle yapılmalıdır."
+        },
+        {
+          "type": "table",
+          "caption": "Oda başı personel oranı ve housekeeping üretkenliği (zorunlu tablo)",
+          "headers": [
+            "KPI",
+            "Siz",
+            "Rakip Set Ort.",
+            "Pazar Ort.",
+            "Kalite Sinyali Notu"
+          ],
+          "rows": [
+            [
+              "FTE / 100 oda",
+              "TBD",
+              "TBD",
+              "TBD",
+              "şikâyet/oda hazır süresi"
+            ],
+            [
+              "Çalışılan saat / dolu oda",
+              "TBD",
+              "TBD",
+              "TBD",
+              "yoğun gün etkisi"
+            ],
+            [
+              "HK oda başı süre (dk)",
+              "TBD",
+              "TBD",
+              "TBD",
+              "oda standardı farkı"
+            ],
+            [
+              "HK kişi başı oda (adet)",
+              "TBD",
+              "TBD",
+              "TBD",
+              "vardiya kurgusu"
+            ],
+            [
+              "Oda hazır olma süresi",
+              "TBD",
+              "TBD",
+              "TBD",
+              "check-in baskısı"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (H2-3)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Resort/city ve sezon pencerelerini ayrı raporluyorum",
+            "Outsourcing saatlerini FTE/saat KPI’larına dahil ediyorum",
+            "Verimlilik artışını kalite sinyaliyle doğruluyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk rapor: 30 gün + 90 gün trend (yüksek/düşük sezon ayrımı).",
+            "İkinci rapor: check-in/out yoğun günleri ayrı işaretle.",
+            "Verimlilik hedefi koyarken kalite eşiğini tanımla (şikâyet artmayacak)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teknik-servis-is-emri-kpilari",
+      "title": "Teknik servis iş emri KPI’ları benchmark’ta nasıl kullanılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Teknik servis performansı, misafir deneyimini “görünmez” şekilde belirler. Arıza hızlı kapanmazsa oda memnuniyeti düşer; tekrar arıza olursa güven kaybı artar. İş emri KPI’ları, verimlilik benchmark’ının kalite tarafını güçlendirir."
+        },
+        {
+          "type": "h3",
+          "text": "İş emri tamamlama süresi (completion time)"
+        },
+        {
+          "type": "p",
+          "text": "Ortalama/median süre, kapasite ve süreç verimliliğini gösterir. Özellikle acil işlerde SLA tanımı (Varsayım) faydalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Tekrar açılma oranı"
+        },
+        {
+          "type": "p",
+          "text": "Hızlı kapatıp tekrar açılan iş emri, kalite sorunudur. Bu metrik “hız” ile “kalite” dengesini kurar."
+        },
+        {
+          "type": "h3",
+          "text": "İş emri türü kırılımı"
+        },
+        {
+          "type": "p",
+          "text": "Elektrik, klima, su, IT gibi kırılımlar; hangi alanda süreç iyileştirme gerektiğini gösterir."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check (H2-4)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İş emri kapanma süresini median ile de izliyorum",
+            "Tekrar açılan iş emri oranını kalite KPI’sı yaptım",
+            "İş emrini türlere ayırıp aksiyon çıkarıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "En uzun süren 3 iş emri tipini çıkar ve süreç düzelt.",
+            "SLA tanımı yap (acil/normal) ve rapora ekle (Varsayım).",
+            "Tekrar açılma oranı yükseliyorsa eğitim ve kontrol ekle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verimlilik-maliyet-kalite-dengesi",
+      "title": "Verimlilik benchmark sonuçlarını maliyet ve kalite dengesine bağlamak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Verimliliği artırırken kaliteyi düşürmek, uzun vadede daha pahalıya patlar. Bu yüzden benchmark çıktısı “kesinti” değil “denge planı” olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Vardiya planlama: doğru gün–doğru saat"
+        },
+        {
+          "type": "p",
+          "text": "Housekeeping yükü check-out günlerinde artar; teknik servis yoğunluğu sezon ve kullanım yoğunluğuyla değişir. Benchmark, vardiya planının “ortalama gün” yerine “pik gün”e göre ayarlanmasını gerektirir."
+        },
+        {
+          "type": "h3",
+          "text": "Outsourcing: nerede mantıklı?"
+        },
+        {
+          "type": "p",
+          "text": "Dış kaynak, pik dönemlerde kapasite esnekliği sağlar; ancak kalite kontrol ve SOP’lar net değilse şikâyet artabilir. Benchmark’ta outsourcing’i saat/FTE KPI’larına dahil etmek gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Kalite kontrolleri: verimlilik artarken koruma kalkanı"
+        },
+        {
+          "type": "p",
+          "text": "Temizlik checklist’i, oda teslim kontrolü, teknik test planı gibi kontroller; “hızlanırken bozulma” riskini düşürür."
+        },
+        {
+          "type": "h3",
+          "text": "Verimlilik vs memnuniyet şeması "
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çok düşük personel → hızlı maliyet düşüşü ama şikâyet artışı",
+            "Dengeli personel + süreç → maliyet kontrol + memnuniyet stabil",
+            "Aşırı personel → kalite artmaz, maliyet şişer"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "3 farklı verimlilik senaryosu",
+          "items": [
+            "Personel yüksek, kalite aynı: süreç standardizasyonu + vardiya optimizasyonu ile “fazlayı” doğru yere kaydır.",
+            "Personel düşük, şikâyet yüksek: kalite eşiği belirle, pik günlerde kapasite artır.",
+            "İş emri süreleri uzun: iş emri sınıflandırma + SLA + tekrar açılma kontrolü."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+        },
+        {
+          "type": "p",
+          "text": "Verimlilik benchmark’ı yapan otellerde; vardiya ve süreç iyileştirmesiyle personel maliyetini düşürürken misafir memnuniyetini korumanın mümkün olabileceği teorik senaryolarla gösterilebilir. (Etki otel tipine, sezona ve süreç olgunluğuna göre değişir.)"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Operasyonel KPI & Benchmark Checklist’ini İndir",
+          "text": "FTE/oda, HK KPI’ları, iş emri SLA ve 30 günlük planı hazır uygularsınız.",
+          "href": "/raporlama"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Operasyonel Verimlilik & Personel Benchmark Analizi Talep Et",
+          "text": "Maliyet–kalite dengesini veriyle kurmak isteyen oteller için",
+          "href": "/raporlama/benchmark-analizi"
+        }
+      ]
+    },
+    {
+      "id": "operasyonel-kpi-benchmark-checklist",
+      "title": "Operasyonel KPI & Benchmark Checklist’ini İndir — Benchmark Analizi",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Operasyonel KPI & Benchmark Checklist’ini İndir — Benchmark Analizi (v1.0)",
+          "purpose": "Bu checklist; oda başı personel (FTE), housekeeping üretkenliği ve teknik servis iş emri KPI’larını tek panelde toplar ve pazar/rakip kıyasıyla yorumlamanızı sağlar. Hedef “kesinti” değil, vardiya ve süreç iyileştirmesiyle maliyet–kalite dengesini kurmaktır. 30 günlük sprint planı ile hızlı kazanım ve kalite kontrol adımlarını birlikte verir.",
+          "whoFor": "GM/otel sahibi, operasyon müdürü, kat hizmetleri, teknik servis, İK/planlama.",
+          "steps": [
+            "Son 30/90 gün FTE/saat, HK ve iş emri verisini çıkar.",
+            "KPI’ları doluluk ve sezon penceresiyle kıyasla; kalite sinyali ekle.",
+            "30 gün sprintte 3 vardiya/süreç testi yap ve kaliteyi koruyarak optimize et."
+          ],
+          "checklist": [
+            "FTE/oda ve saat KPI’ları çıkarıldı",
+            "HK oda başı süre ve kişi başı oda sayısı ölçüldü",
+            "Oda hazır olma süresi (Varsayım) raporlandı",
+            "İş emri kapanma süresi (avg/median) ölçüldü",
+            "Tekrar açılan iş emri oranı eklendi",
+            "Resort/city ve sezon penceresi ayrıldı",
+            "Kalite sinyali eklendi (şikâyet/NPS/oda hazır gecikmesi)",
+            "30 günlük aksiyon planı yazıldı"
+          ],
+          "href": "/downloads/operasyonel-kpi-benchmark-checklist-v1.0.pdf",
+          "buttonLabel": "Operasyonel KPI & Benchmark Checklist’ini İndir"
+        },
+        {
+          "type": "h3",
+          "text": "Deliverables"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Operasyon KPI paneli (FTE/HK/Maintenance)",
+            "30 günlük sprint aksiyon planı",
+            "Kalite kontrol checklist’i",
+            "Sonuç raporu (1 sayfa)"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Operasyonel verimlilik benchmark’ı nedir, oteller için hangi KPI’lara bakılır?",
+      "a": "Oda başına personel (FTE), housekeeping oda başı süre/oda sayısı ve teknik servis iş emri tamamlama süreleri gibi KPI’ları benzer otellerle kıyaslayarak maliyet–kalite dengesini ölçmektir."
+    },
+    {
+      "q": "Oda başına personel sayısı ve housekeeping üretkenliği nasıl kıyaslanır?",
+      "a": "Resort/city ve sezon penceresini ayırıp FTE/saat KPI’larını standardize ederek kıyaslanır. Housekeeping için oda başı süre ve görevli başına oda sayısı ölçülür; kalite sinyaliyle doğrulanır."
+    },
+    {
+      "q": "Housekeeping kaç oda temizlemeli?",
+      "a": "Tek bir sayı yoktur; oda standardı, resort/city tipi, check-in/out yoğunluğu ve kalite hedefi belirleyicidir. Bu yüzden benchmark bandı, benzer segment ve sezon penceresinde kıyasla kurulmalıdır."
+    },
+    {
+      "q": "Teknik servis iş emri süreleri benchmark’ta nasıl kullanılır?",
+      "a": "Ortalama/median kapanma süresi ve tekrar açılma oranı, süreç verimliliği ve kaliteyi birlikte gösterir. SLA tanımıyla acil/normal işlerde hedef koymayı sağlar."
+    },
+    {
+      "q": "Verimlilik benchmark sonuçlarını vardiya ve maliyet planına nasıl yansıtırım?",
+      "a": "Pik günler için vardiya kapasitesini ayarlayıp, outsourcing’i doğru noktada kullanarak ve kalite kontrolleriyle destekleyerek maliyeti optimize edersiniz. 30 günlük sprintle test edip öncesi/sonrası KPI’ları ölçmek en güvenli yoldur."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-hero-01.webp — Oda başı personel ve housekeeping verimlilik benchmarkını anlatan otel operasyon kapak görseli",
+        "h1-context — 1920×1080 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-h1-context-02.webp — Maliyet kalite dengesini ve temel operasyon KPI’larını özetleyen görsel",
+        "divider-01 — 1600×1200 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-divider-03.webp — Operasyonel verimlilik benchmark katmanlarını sade gösteren bölüm görseli",
+        "divider-02 — 1600×1200 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-divider-04.webp — Verimlilik ve misafir memnuniyeti dengesini ayıran strateji görseli",
+        "diagram-05 — 1920×1080 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-diagram-05.webp — Housekeeping ve maintenance KPI akışını ve iş emri süreçlerini gösteren şema",
+        "checklist-06 — 1200×1200 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-checklist-06.webp — Operasyon KPI seti ve vardiya planlama adımlarını özetleyen kontrol kartı",
+        "kpi-07 — 1200×1200 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-kpi-07.webp — FTE oda ve housekeeping üretkenliği KPI skor kartını gösteren görsel",
+        "proof-08 — 1200×1200 — operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri-proof-08.webp — Operasyonel verimlilik benchmark raporu ve aksiyon planını gösteren kanıt kartı",
+        "table-operational-efficiency — Oda başı personel ve housekeeping üretkenliği tablosu (BÖLÜM 4 / H2-3)",
+        "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+        "table-before-after-kpi — Öncesi / Sonrası KPI Tablosu"
+      ],
+      "technicalChecklist": [
+        "FTE/oda ve saat KPI’ları aynı ölçüm standardıyla hesaplanmalı.",
+        "Part-time ve outsourcing saatleri FTE/saat hesabına dahil edilmeli.",
+        "Resort/city ve yüksek/düşük sezon pencereleri ayrı raporlanmalı.",
+        "Housekeeping üretkenliği kalite sinyaliyle birlikte değerlendirilmelidir.",
+        "İş emri sürelerinde mümkünse ortalama yanında median değer de raporlanmalı.",
+        "Acil ve normal iş emirleri için SLA tanımı ayrı tutulmalı.",
+        "Tekrar açılan iş emri oranı kalite KPI’sı olarak izlenmeli.",
+        "Vardiya optimizasyonu öncesi/sonrası şikâyet veya NPS sinyaliyle doğrulanmalı."
       ]
     }
   }

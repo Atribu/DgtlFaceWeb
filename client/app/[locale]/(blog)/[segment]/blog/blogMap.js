@@ -1052,7 +1052,9 @@ export const BLOG_MAP = {
     "kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler":"BlogKampanyaPerformansiBenchmarkiErkenRezervasyonSonDakikaPaketler",
     "destinasyon-benchmarki-antalya-belek-side":"BlogDestinasyonBenchmarkiAntalyaBelekSide",
     "yan-gelir-benchmarki-spa-fb-upsell-gelirleri":"BlogYanGelirBenchmarkiSpaFbUpsellGelirleri",
-    "web-rezervasyon-donusum-orani-benchmarki":"BlogWebRezervasyonDonusumOraniBenchmarki"
+    "web-rezervasyon-donusum-orani-benchmarki":"BlogWebRezervasyonDonusumOraniBenchmarki",
+    "tekrar-gelen-misafir-benchmarki-repeat-guest-orani":"BlogTekrarGelenMisafirBenchmarkiRepeatGuestOrani",
+    "operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri":"BlogOperasyonelVerimlilikBenchmarkiOdaBasiPersonelSaatleri"
   },
 
 

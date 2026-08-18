@@ -54093,13 +54093,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Otel ve rakip set puan yorum verisini tek ekranda özetleyen görsel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-3.webp",
       alt: "İtibar benchmark kavramını sade ayıran otel bölüm görseli",
       caption: "İtibar benchmark kavramını sade ayıran otel bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-6/Reporting2-6-4.webp",
       alt: "Operasyon ve pazarlama aksiyonlarına bağlayan bölüm ayırıcı görseli",
       caption: "Operasyon ve pazarlama aksiyonlarına bağlayan bölüm ayırıcı görseli"
@@ -54143,13 +54143,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Otel ve rakip set erişim etkileşim kaydetme kıyasını gösteren görsel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-3.webp",
       alt: "Sosyal medya benchmark kavramını ve KPI setini ayıran bölüm görseli",
       caption: "Sosyal medya benchmark kavramını ve KPI setini ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-7/Reporting2-7-4.webp",
       alt: "İçerik türü kıyasını ve strateji aksiyonlarını ayıran bölüm görseli",
       caption: "İçerik türü kıyasını ve strateji aksiyonlarını ayıran bölüm görseli"
@@ -54193,13 +54193,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Mobil hız ve rezervasyon funnel ilişkisini özetleyen otel web performans görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-3.webp",
       alt: "LCP CLS INP metriklerini sade şekilde ayıran web performans bölüm görseli",
       caption: "LCP CLS INP metriklerini sade şekilde ayıran web performans bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-8/Reporting2-8-4.webp",
       alt: "Mobil performans ve SEO dönüşüm bağını ayıran bölüm görseli",
       caption: "Mobil performans ve SEO dönüşüm bağını ayıran bölüm görseli"
@@ -54243,13 +54243,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Direct ve dolaylı satış dengesini özetleyen kanal karması görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-3.webp",
       alt: "Channel mix kavramını ve risk kârlılık ilişkisini ayıran bölüm görseli",
       caption: "Channel mix kavramını ve risk kârlılık ilişkisini ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-9/Reporting2-9-4.webp",
       alt: "Kârlılık tablosu ve strateji senaryolarını ayıran bölüm görseli",
       caption: "Kârlılık tablosu ve strateji senaryolarını ayıran bölüm görseli"
@@ -54293,13 +54293,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Kampanya tipleri ve KPI farklarını özetleyen kampanya performans görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-3.webp",
       alt: "Kampanya türlerini ve pazar pencerelerini ayıran bölüm görseli",
       caption: "Kampanya türlerini ve pazar pencerelerini ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-10/Reporting2-10-4.webp",
       alt: "ROI ve sezon planına bağlayan kampanya benchmark bölüm görseli",
       caption: "ROI ve sezon planına bağlayan kampanya benchmark bölüm görseli"
@@ -54343,13 +54343,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Antalya Belek Side pazar kıyası mantığını özetleyen mobil odaklı görsel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-3.webp",
       alt: "Market average ve rakip set katmanlarını ayıran destinasyon benchmark görseli",
       caption: "Market average ve rakip set katmanlarını ayıran destinasyon benchmark görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-11/Reporting2-11-4.webp",
       alt: "Fiyat kanal ve segment kararlarını ayıran strateji odaklı görsel",
       caption: "Fiyat kanal ve segment kararlarını ayıran strateji odaklı görsel"
@@ -54393,13 +54393,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Oda geliri ötesi yan gelir kalemlerini özetleyen mobil okunabilir görsel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-3.webp",
       alt: "Yan gelir benchmark amacını ve kalemlerini ayıran bölüm görseli",
       caption: "Yan gelir benchmark amacını ve kalemlerini ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-12/Reporting2-12-4.webp",
       alt: "Upsell stratejisi ve teklif anlarını ayıran strateji odaklı görsel",
       caption: "Upsell stratejisi ve teklif anlarını ayıran strateji odaklı görsel"
@@ -54443,13 +54443,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Mobil ve masaüstü dönüşüm farkını ve funnel adımlarını özetleyen görsel"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-3.webp",
       alt: "Dönüşüm oranı ölçüm katmanlarını ve benchmark mantığını ayıran görsel",
       caption: "Dönüşüm oranı ölçüm katmanlarını ve benchmark mantığını ayıran görsel"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-4.webp",
       alt: "Funnel adımlarında kayıpları ve iyileştirme noktalarını ayıran görsel",
       caption: "Funnel adımlarında kayıpları ve iyileştirme noktalarını ayıran görsel"
@@ -54477,6 +54477,106 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/analysisReporting/Reporting2-13/Reporting2-13-8.webp",
       alt: "Dönüşüm benchmark raporu ve iyileştirme planı çıktısını gösteren kanıt kartı",
       caption: "Dönüşüm benchmark raporu ve iyileştirme planı çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "tekrar-gelen-misafir-benchmarki-repeat-guest-orani":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-1.webp",
+      alt: "Tekrar Gelen Misafir Benchmark’ı: Repeat Guest Oranı ile Sadakati Ölçmek",
+      caption: "Tekrar Gelen Misafir Benchmark’ı: Repeat Guest Oranı ile Sadakati Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-2.webp",
+      alt: "PMS verisiyle repeat ölçümünü ve pazar kıyasını özetleyen görsel",
+      caption: "PMS verisiyle repeat ölçümünü ve pazar kıyasını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-3.webp",
+      alt: "Sadakat kavramı ile repeat KPI ayrımını sade gösteren bölüm görseli",
+      caption: "Sadakat kavramı ile repeat KPI ayrımını sade gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-4.webp",
+      alt: "CRM teklif ve iletişim aksiyonlarını ayıran strateji odaklı görsel",
+      caption: "CRM teklif ve iletişim aksiyonlarını ayıran strateji odaklı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-5.webp",
+      alt: "Repeat ölçümü ve segment ülke kanal kırılımlarını gösteren akış şeması",
+      caption: "Repeat ölçümü ve segment ülke kanal kırılımlarını gösteren akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-6.webp",
+      alt: "Repeat hesaplama kuralları ve veri temizliği adımlarını özetleyen kontrol kartı",
+      caption: "Repeat hesaplama kuralları ve veri temizliği adımlarını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-7.webp",
+      alt: "Repeat oran bandı ve trendini gösteren sadakat KPI skor kartı",
+      caption: "Repeat oran bandı ve trendini gösteren sadakat KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-14/Reporting2-14-8.webp",
+      alt: "Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı",
+      caption: "Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-1.webp",
+      alt: "Operasyonel Verimlilik Benchmark’ı: Oda Başı Personel ve Housekeeping Üretkenliği",
+      caption: "Operasyonel Verimlilik Benchmark’ı: Oda Başı Personel ve Housekeeping Üretkenliği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-2.webp",
+      alt: "Maliyet kalite dengesini ve temel operasyon KPI’larını özetleyen görsel",
+      caption: "Maliyet kalite dengesini ve temel operasyon KPI’larını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-3.webp",
+      alt: "Operasyonel verimlilik benchmark katmanlarını sade gösteren bölüm görseli",
+      caption: "Operasyonel verimlilik benchmark katmanlarını sade gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-4.webp",
+      alt: "Verimlilik ve misafir memnuniyeti dengesini ayıran strateji görsel",
+      caption: "Verimlilik ve misafir memnuniyeti dengesini ayıran strateji görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-5.webp",
+      alt: "Repeat ölçümü ve segment ülke kanal kırılımlarını gösteren akış şeması",
+      caption: "Repeat ölçümü ve segment ülke kanal kırılımlarını gösteren akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-6.webp",
+      alt: "Repeat hesaplama kuralları ve veri temizliği adımlarını özetleyen kontrol kartı",
+      caption: "Repeat hesaplama kuralları ve veri temizliği adımlarını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-7.webp",
+      alt: "Repeat oran bandı ve trendini gösteren sadakat KPI skor kartı",
+      caption: "Repeat oran bandı ve trendini gösteren sadakat KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-15/Reporting2-15-8.webp",
+      alt: "Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı",
+      caption: "Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı"
     },
   }
   

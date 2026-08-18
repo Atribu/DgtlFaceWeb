@@ -166544,7 +166544,713 @@ export const BLOG_JSONLD_MAP = {
 
 },
 
-"web-rezervasyon-donusum-orani-benchmarki":{}
+"web-rezervasyon-donusum-orani-benchmarki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki",
+
+      "name": "Web Rezervasyon Dönüşüm Oranı Benchmark’ı: Otel Siteniz Ne Kadar İyi Çeviriyor?",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Web Conversion Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki#webpage"
+
+      },
+
+      "headline": "Web Rezervasyon Dönüşüm Oranı Benchmark’ı: Otel Siteniz Ne Kadar İyi Çeviriyor?",
+
+      "name": "Web Rezervasyon Dönüşüm Oranı Benchmark’ı: Otel Siteniz Ne Kadar İyi Çeviriyor?",
+
+      "description": "Otel sitenizin dönüşüm oranını rakip ve pazar bandıyla kıyaslayın. Mobil/masaüstü funnel kayıplarını bulun; UX, hız ve fiyat/teklif iyileştirmelerini önceliklendirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Web Conversion Rate" },
+
+        { "@type": "Thing", "name": "Booking Engine" },
+
+        { "@type": "Thing", "name": "Funnel" },
+
+        { "@type": "Thing", "name": "Mobile vs Desktop" },
+
+        { "@type": "Thing", "name": "Hotel Website" },
+
+        { "@type": "Thing", "name": "UX" },
+
+        { "@type": "Thing", "name": "Offer" },
+
+        { "@type": "Thing", "name": "Price" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Web Rezervasyon Dönüşüm Oranı Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/web-rezervasyon-donusum-orani-benchmarki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web rezervasyon dönüşüm oranı nedir, oteller için kaç olmalıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dönüşüm oranı, web trafiğinin rezervasyona dönüşme oranıdır. Otellerde örnek benchmark bandı konuşmalarında sıklıkla %1–3 aralığı referans alınır; doğru hedef destinasyon, segment ve trafik kalitesine göre değişir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel sitemin dönüşüm oranını rakiplerle nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ölçümü standartlaştırır (GA4 + booking engine event’leri), mobil/masaüstü ayrımı yapar ve 30/90 gün penceresinde funnel adımlarını çıkarırsınız. Rakip dönüşümü doğrudan bilinmez; pazar bandı ve proxy UX sinyalleriyle kıyas yapılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil ve masaüstü dönüşüm benchmark’ında nelere bakılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobilde hız ve etkileşim sürtünmesi (takvim/ödeme) daha kritiktir; masaüstünde teklif ve fiyat şeffaflığı öne çıkar. İki cihazı ayrı raporlayıp en yüksek drop-off adımını belirlemek gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Düşük dönüşüm oranını iyileştirmek için hangi adımlar atılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En zayıf funnel adımını belirleyip 14 günlük test seti uygulayın. CTA/teklif netliği, fiyat şeffaflığı, güven unsurları, mobil kullanılabilirlik ve ödeme seçenekleri en hızlı etki alanlarıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rezervasyon motoru mu klasik form mu daha doğru KPI?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon motoru satış dönüşümünü, klasik form ise lead dönüşümünü gösterir. Otel hedefinize göre ikisini ayrı KPI olarak benchmark etmek daha doğru karar verir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"tekrar-gelen-misafir-benchmarki-repeat-guest-orani":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani",
+
+      "name": "Tekrar Gelen Misafir Benchmark’ı: Repeat Guest Oranı ile Sadakati Ölçmek",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Repeat Guest Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani#webpage"
+
+      },
+
+      "headline": "Tekrar Gelen Misafir Benchmark’ı: Repeat Guest Oranı ile Sadakati Ölçmek",
+
+      "name": "Tekrar Gelen Misafir Benchmark’ı: Repeat Guest Oranı ile Sadakati Ölçmek",
+
+      "description": "Repeat guest oranınızı PMS verisiyle ölçüp pazar/rakip bandıyla kıyaslayın. Ülke, segment ve kanal kırılımıyla sadakati görün; CRM ve teklif stratejisiyle tekrar konaklamayı artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Repeat Guest" },
+
+        { "@type": "Thing", "name": "Loyalty" },
+
+        { "@type": "Thing", "name": "PMS" },
+
+        { "@type": "Thing", "name": "CRM" },
+
+        { "@type": "Thing", "name": "Lifetime Value" },
+
+        { "@type": "Thing", "name": "Profitability" },
+
+        { "@type": "Thing", "name": "Segment" },
+
+        { "@type": "Thing", "name": "Country" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Repeat Guest Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Repeat guest oranı nedir, nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Repeat guest oranı, belirli bir dönemde tekrar konaklayan misafir sayısının toplam misafir sayısına oranıdır. PMS’de tekil misafir eşleştirmesi doğru yapılmalı ve dönem penceresi sabitlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için iyi bir tekrar gelen misafir oranı kaç olmalıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir doğru yoktur; destinasyon, segment ve hedef pazara göre değişir. Bazı pazarlarda %20–30 bandı benchmark konuşmalarında referans alınabilir; bu bir hedef değil, kıyas bandıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Repeat guest benchmark’ı nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS’den repeat oranını hesaplayıp ülke/segment/kanal kırılımına ayırır ve pazar/rakip bandıyla kıyaslarsınız. Ardından en zayıf pazarda CRM tetikleyicileri ve value-add tekliflerle aksiyon planı uygularsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Repeat oranını artırmak için hangi CRM ve teklif stratejileri uygulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Post-stay iletişimi, planlama döngüsüne uygun tekrar teklif tetikleyicileri ve value-add paketler etkilidir. Call center ve satış sonrası destek süreçleri, memnuniyet toparlama ve direct’e geçişte kritik rol oynar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Resort ve city otellerde repeat neden farklıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Talep döngüsü, segment yapısı ve sezon eğrisi farklıdır. Resort’larda pazar/ülke ve sezon etkisi baskınken, city otelde kurumsal tekrar davranışı daha belirgin olabilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri",
+
+      "name": "Operasyonel Verimlilik Benchmark’ı: Oda Başı Personel ve Housekeeping Üretkenliği",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Operational Efficiency Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri#webpage"
+
+      },
+
+      "headline": "Operasyonel Verimlilik Benchmark’ı: Oda Başı Personel ve Housekeeping Üretkenliği",
+
+      "name": "Operasyonel Verimlilik Benchmark’ı: Oda Başı Personel ve Housekeeping Üretkenliği",
+
+      "description": "Oda başına personel, housekeeping üretkenliği ve iş emri tamamlama sürelerinizi pazar benchmark’ıyla kıyaslayın; maliyet düşürürken hizmet kalitesini koruyacak dengeyi veriyle bulun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Operational Efficiency" },
+
+        { "@type": "Thing", "name": "Staff per Room" },
+
+        { "@type": "Thing", "name": "Housekeeping Productivity" },
+
+        { "@type": "Thing", "name": "Maintenance KPIs" },
+
+        { "@type": "Thing", "name": "Work Order" },
+
+        { "@type": "Thing", "name": "Cost" },
+
+        { "@type": "Thing", "name": "Guest Satisfaction" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Operasyonel Verimlilik Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Operasyonel verimlilik benchmark’ı nedir, oteller için hangi KPI’lara bakılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Operasyonel verimlilik benchmark’ı; oda başına personel (FTE), housekeeping oda başı süre/oda sayısı ve teknik servis iş emri tamamlama süreleri gibi KPI’ları benzer otellerle kıyaslayarak maliyet–kalite dengesini ölçmektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda başına personel sayısı ve housekeeping üretkenliği nasıl kıyaslanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Resort/city ve sezon penceresini ayırıp FTE/saat KPI’larını standardize ederek kıyaslanır. Housekeeping için oda başı süre ve görevli başına oda sayısı ölçülür; kalite sinyaliyle doğrulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teknik servis iş emri süreleri benchmark’ta nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortalama/median kapanma süresi ve tekrar açılma oranı süreç verimliliği ve kaliteyi birlikte gösterir. SLA tanımıyla acil/normal işlerde hedef koymayı sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Verimlilik benchmark sonuçlarını vardiya ve maliyet planına nasıl yansıtırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pik günler için vardiya kapasitesini ayarlayıp outsourcing’i doğru noktada kullanarak ve kalite kontrolleriyle destekleyerek maliyeti optimize edersiniz. Sprint yaklaşımıyla test edip öncesi/sonrası KPI’ları ölçmek en güvenli yoldur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
     },
 
     otel: {
