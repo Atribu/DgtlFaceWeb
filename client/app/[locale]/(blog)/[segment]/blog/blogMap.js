@@ -1054,7 +1054,17 @@ export const BLOG_MAP = {
     "yan-gelir-benchmarki-spa-fb-upsell-gelirleri":"BlogYanGelirBenchmarkiSpaFbUpsellGelirleri",
     "web-rezervasyon-donusum-orani-benchmarki":"BlogWebRezervasyonDonusumOraniBenchmarki",
     "tekrar-gelen-misafir-benchmarki-repeat-guest-orani":"BlogTekrarGelenMisafirBenchmarkiRepeatGuestOrani",
-    "operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri":"BlogOperasyonelVerimlilikBenchmarkiOdaBasiPersonelSaatleri"
+    "operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri":"BlogOperasyonelVerimlilikBenchmarkiOdaBasiPersonelSaatleri",
+    "personel-maliyeti-benchmarki-ciroya-oran":"BlogPersonelMaliyetiBenchmarkiCiroyaOran",
+    "enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi":"BlogEnerjiVeFaturaBenchmarkiEnerjiMaliyetiOdaBasi",
+    "mice-ve-toplanti-geliri-benchmarki":"BlogMiceVeToplantiGeliriBenchmarki",
+    "iptal-ve-no-show-orani-benchmarki":"BlogIptalVeNoShowOraniBenchmarki",
+    "butce-ve-forecast-dogruluk-orani-benchmarki":"BlogButceVeForecastDogrulukOraniBenchmarki",
+    "2026-ai-ile-otomatik-otel-benchmark-analizi":"Blog2026AiIleOtomatikOtelBenchmarkAnalizi",
+    "2026-otel-benchmark-platformlari-ve-api-ekosistemi":"Blog2026OtelBenchmarkPlatformlariVeApiEkosistemi",
+    "2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri":"Blog2026EsgVeSurdurulebilirlikBenchmarkFrameworkleri",
+    "2026-ai-nlp-ile-misafir-deneyimi-benchmarki":"Blog2026AiNlpIleMisafirDeneyimiBenchmarki",
+    "2026-kuresel-ve-yerel-otel-benchmark-networkleri":"Blog2026KureselVeYerelOtelBenchmarkNetworkleri"
   },
 
 

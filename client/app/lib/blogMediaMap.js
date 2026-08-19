@@ -54578,6 +54578,506 @@ export const BLOG_MEDIA_MAP = {
       alt: "Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı",
       caption: "Repeat benchmark raporu ve CRM aksiyon planı çıktısını gösteren kanıt kartı"
     },
+  },
+
+  "personel-maliyeti-benchmarki-ciroya-oran":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-1.webp",
+      alt: "Personel Maliyeti Benchmark’ı: Otellerde Ciroya Oran ve Verimlilik Analizi",
+      caption: "Personel Maliyeti Benchmark’ı: Otellerde Ciroya Oran ve Verimlilik Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-2.webp",
+      alt: "Ciroya oran ve oda başı maliyet KPI’larını özetleyen bağlam görseli",
+      caption: "Ciroya oran ve oda başı maliyet KPI’larını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-3.webp",
+      alt: "Personel maliyeti benchmark amacı ve KPI katmanlarını ayıran bölüm görseli",
+      caption: "Personel maliyeti benchmark amacı ve KPI katmanlarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-4.webp",
+      alt: "Vardiya ve bütçe stratejisine bağlayan maliyet optimizasyon görseli",
+      caption: "Vardiya ve bütçe stratejisine bağlayan maliyet optimizasyon görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-5.webp",
+      alt: "Departman bazlı maliyet dağılımını ve iyileştirme akışını gösteren şema",
+      caption: "Departman bazlı maliyet dağılımını ve iyileştirme akışını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-6.webp",
+      alt: "Personel maliyeti KPI seti ve veri toplama adımlarını özetleyen kontrol kartı",
+      caption: "Personel maliyeti KPI seti ve veri toplama adımlarını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-7.webp",
+      alt: "Staff cost ratio ve oda başı personel maliyeti bandını gösteren KPI kartı",
+      caption: "Staff cost ratio ve oda başı personel maliyeti bandını gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-16/Reporting2-16-8.webp",
+      alt: "Personel maliyeti benchmark raporu ve vardiya sprint planını gösteren kanıt kartı",
+      caption: "Personel maliyeti benchmark raporu ve vardiya sprint planını gösteren kanıt kartı"
+    },
+  },
+
+  "enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-1.webp",
+      alt: "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak",
+      caption: "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-2.webp",
+      alt: "Ciroya oran ve oda başı maliyet KPI’larını özetleyen bağlam görseli",
+      caption: "Ciroya oran ve oda başı maliyet KPI’larını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-3.webp",
+      alt: "Personel maliyeti benchmark amacı ve KPI katmanlarını ayıran bölüm görseli",
+      caption: "Personel maliyeti benchmark amacı ve KPI katmanlarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-4.webp",
+      alt: "Vardiya ve bütçe stratejisine bağlayan maliyet optimizasyon görseli",
+      caption: "Vardiya ve bütçe stratejisine bağlayan maliyet optimizasyon görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-5.webp",
+      alt: "Departman bazlı maliyet dağılımını ve iyileştirme akışını gösteren şema",
+      caption: "Departman bazlı maliyet dağılımını ve iyileştirme akışını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-6.webp",
+      alt: "Personel maliyeti KPI seti ve veri toplama adımlarını özetleyen kontrol kartı",
+      caption: "Personel maliyeti KPI seti ve veri toplama adımlarını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-7.webp",
+      alt: "Staff cost ratio ve oda başı personel maliyeti bandını gösteren KPI kartı",
+      caption: "Staff cost ratio ve oda başı personel maliyeti bandını gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-17/Reporting2-17-8.webp",
+      alt: "Personel maliyeti benchmark raporu ve vardiya sprint planını gösteren kanıt kartı",
+      caption: "Personel maliyeti benchmark raporu ve vardiya sprint planını gösteren kanıt kartı"
+    },
+  },
+
+  "mice-ve-toplanti-geliri-benchmarki":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-1.webp",
+      alt: "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak",
+      caption: "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-2.webp",
+      alt: "Salon kullanım oranı ve RevPASM mantığını özetleyen toplantı gelir görseli",
+      caption: "Salon kullanım oranı ve RevPASM mantığını özetleyen toplantı gelir görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-3.webp",
+      alt: "MICE segmentinin gelir rolünü ve KPI setini ayıran bölüm görseli",
+      caption: "MICE segmentinin gelir rolünü ve KPI setini ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-4.webp",
+      alt: "Fiyat paket ve satış hedeflerini ayıran strateji odaklı görsel",
+      caption: "Fiyat paket ve satış hedeflerini ayıran strateji odaklı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-5.webp",
+      alt: "Salon envanteri KPI hesap ve benchmark adımlarını gösteren akış şeması",
+      caption: "Salon envanteri KPI hesap ve benchmark adımlarını gösteren akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-6.webp",
+      alt: "Utilisation RevPASM ve kişi başı gelir KPI’larını özetleyen kontrol kartı",
+      caption: "Utilisation RevPASM ve kişi başı gelir KPI’larını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-7.webp",
+      alt: "Salon kullanım oranı ve m² başına gelir KPI kartını gösteren skor kartı",
+      caption: "Salon kullanım oranı ve m² başına gelir KPI kartını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-18/Reporting2-18-8.webp",
+      alt: "MICE benchmark raporu ve satış paket planı çıktısını gösteren kanıt kartı",
+      caption: "MICE benchmark raporu ve satış paket planı çıktısını gösteren kanıt kartı"
+    },
+  },
+
+   "iptal-ve-no-show-orani-benchmarki":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-1.webp",
+      alt: "İptal ve No-Show Oranı Benchmark’ı: Rezervasyon Kalitesini Ölçmek",
+      caption: "İptal ve No-Show Oranı Benchmark’ı: Rezervasyon Kalitesini Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-2.webp",
+      alt: "OTA web call center kanal risk farkını ve net stay oranını özetleyen görsel",
+      caption: "OTA web call center kanal risk farkını ve net stay oranını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-3.webp",
+      alt: "İptal ve no-show kavramlarını ve risk tiplerini ayıran bölüm görseli",
+      caption: "İptal ve no-show kavramlarını ve risk tiplerini ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-4.webp",
+      alt: "Politika ayarı senaryolarını ve risk azaltma adımlarını ayıran görsel",
+      caption: "Politika ayarı senaryolarını ve risk azaltma adımlarını ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-5.webp",
+      alt: "İptal no-show oranı ve gelir etkisi ilişkisini gösteren grafik şeması",
+      caption: "İptal no-show oranı ve gelir etkisi ilişkisini gösteren grafik şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-6.webp",
+      alt: "Kanal ve pazar bazlı iptal no-show KPI setini özetleyen kontrol kartı",
+      caption: "Kanal ve pazar bazlı iptal no-show KPI setini özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-7.webp",
+      alt: "Cancellation no-show ve net stay KPI’larını gösteren risk skor kartı",
+      caption: "Cancellation no-show ve net stay KPI’larını gösteren risk skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-19/Reporting2-19-8.webp",
+      alt: "Politika testi planı ve rezervasyon kalitesi iyileştirme çıktısını gösteren kanıt kartı",
+      caption: "Politika testi planı ve rezervasyon kalitesi iyileştirme çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "butce-ve-forecast-dogruluk-orani-benchmarki":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-1.webp",
+      alt: "Bütçe ve Forecast Doğruluk Oranı Benchmark’ı: Planlarınız Ne Kadar İsabetli?",
+      caption: "Bütçe ve Forecast Doğruluk Oranı Benchmark’ı: Planlarınız Ne Kadar İsabetli?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-2.webp",
+      alt: "Forecast ve actual kıyasını ve sapma mantığını özetleyen bağlam görseli",
+      caption: "Forecast ve actual kıyasını ve sapma mantığını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-3.webp",
+      alt: "Variance ve MAPE gibi doğruluk KPI’larını ayıran bölüm görseli",
+      caption: "Variance ve MAPE gibi doğruluk KPI’larını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-4.webp",
+      alt: "Pazar şoku ve metodoloji hatasını ayıran planlama benchmark görseli",
+      caption: "Pazar şoku ve metodoloji hatasını ayıran planlama benchmark görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-5.webp",
+      alt: "Forecast kırılımları ve senaryo yaklaşımını gösteren planlama akış şeması",
+      caption: "Forecast kırılımları ve senaryo yaklaşımını gösteren planlama akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-6.webp",
+      alt: "Forecast doğruluk KPI seti ve 3 iyileştirme adımını özetleyen kontrol kartı",
+      caption: "Forecast doğruluk KPI seti ve 3 iyileştirme adımını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-7.webp",
+      alt: "Forecast doğruluk skorunu variance ve MAPE ile gösteren KPI kartı görseli",
+      caption: "Forecast doğruluk skorunu variance ve MAPE ile gösteren KPI kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-20/Reporting2-20-8.webp",
+      alt: "Forecast benchmark raporu ve planlama iyileştirme planı çıktısını gösteren kanıt kartı",
+      caption: "Forecast benchmark raporu ve planlama iyileştirme planı çıktısını gösteren kanıt kartı"
+    },
+  },
+
+  "2026-ai-ile-otomatik-otel-benchmark-analizi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-1.webp",
+      alt: "2026’da AI ile Otomatik Otel Benchmark Analizi: Sürekli Rakip Takibi",
+      caption: "2026’da AI ile Otomatik Otel Benchmark Analizi: Sürekli Rakip Takibi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-2.webp",
+      alt: "Otel ve rakip set KPI’larını tek ekranda özetleyen benchmark görseli",
+      caption: "Otel ve rakip set KPI’larını tek ekranda özetleyen benchmark görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-3.webp",
+      alt: "AI benchmark mimarisinin veri motor dashboard aşamalarını ayıran bölüm görseli",
+      caption: "AI benchmark mimarisinin veri motor dashboard aşamalarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-4.webp",
+      alt: "Veri kalitesi gizlilik ve insan kontrolünü vurgulayan risk bölüm görseli",
+      caption: "Veri kalitesi gizlilik ve insan kontrolünü vurgulayan risk bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-5.webp",
+      alt: "Data sources AI engine alerts dashboard akışını gösteren otel benchmark diyagramı",
+      caption: "Data sources AI engine alerts dashboard akışını gösteren otel benchmark diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-6.webp",
+      alt: "AI’dan faydalanmak için bugün atılacak beş adımı özetleyen checklist görseli",
+      caption: "AI’dan faydalanmak için bugün atılacak beş adımı özetleyen checklist görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-7.webp",
+      alt: "Otomatik güncellenen fiyat yorum görünürlük KPI kartlarını gösteren dashboard görseli",
+      caption: "Otomatik güncellenen fiyat yorum görünürlük KPI kartlarını gösteren dashboard görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-21/Reporting2-21-8.webp",
+      alt: "Uyarı ve öneri kartlarıyla yönetici özeti çıktısını gösteren proof kartı görseli",
+      caption: "Uyarı ve öneri kartlarıyla yönetici özeti çıktısını gösteren proof kartı görseli"
+    },
+  },
+
+  "2026-otel-benchmark-platformlari-ve-api-ekosistemi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-1.webp",
+      alt: "2026’da Otel Benchmark Platformları ve API Ekosistemi: Veriyi Tek Ekranda Toplamak",
+      caption: "2026’da Otel Benchmark Platformları ve API Ekosistemi: Veriyi Tek Ekranda Toplamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-2.webp",
+      alt: "Otel ve rakip set KPI’larını tek ekranda özetleyen benchmark görseli",
+      caption: "Otel ve rakip set KPI’larını tek ekranda özetleyen benchmark görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-3.webp",
+      alt: "AI benchmark mimarisinin veri motor dashboard aşamalarını ayıran bölüm görseli",
+      caption: "AI benchmark mimarisinin veri motor dashboard aşamalarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-4.webp",
+      alt: "Veri kalitesi gizlilik ve insan kontrolünü vurgulayan risk bölüm görseli",
+      caption: "Veri kalitesi gizlilik ve insan kontrolünü vurgulayan risk bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-5.webp",
+      alt: "Data sources AI engine alerts dashboard akışını gösteren otel benchmark diyagramı",
+      caption: "Data sources AI engine alerts dashboard akışını gösteren otel benchmark diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-6.webp",
+      alt: "AI’dan faydalanmak için bugün atılacak beş adımı özetleyen checklist görseli",
+      caption: "AI’dan faydalanmak için bugün atılacak beş adımı özetleyen checklist görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-7.webp",
+      alt: "Otomatik güncellenen fiyat yorum görünürlük KPI kartlarını gösteren dashboard görseli",
+      caption: "Otomatik güncellenen fiyat yorum görünürlük KPI kartlarını gösteren dashboard görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-22/Reporting2-22-8.webp",
+      alt: "Uyarı ve öneri kartlarıyla yönetici özeti çıktısını gösteren proof kartı görseli",
+      caption: "Uyarı ve öneri kartlarıyla yönetici özeti çıktısını gösteren proof kartı görseli"
+    },
+  },
+
+  "2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-1.webp",
+      alt: "2026 ESG ve Sürdürülebilirlik Benchmark Framework’leri: Oteller İçin Yeni Standartlar",
+      caption: "2026 ESG ve Sürdürülebilirlik Benchmark Framework’leri: Oteller İçin Yeni Standartlar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-2.webp",
+      alt: "Otel ve rakip set KPI’larını tek ekranda özetleyen benchmark görseli",
+      caption: "Otel ve rakip set KPI’larını tek ekranda özetleyen benchmark görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-3.webp",
+      alt: "AI benchmark mimarisinin veri motor dashboard aşamalarını ayıran bölüm görseli",
+      caption: "AI benchmark mimarisinin veri motor dashboard aşamalarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-4.webp",
+      alt: "Veri kalitesi gizlilik ve insan kontrolünü vurgulayan risk bölüm görseli",
+      caption: "Veri kalitesi gizlilik ve insan kontrolünü vurgulayan risk bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-5.webp",
+      alt: "Data sources AI engine alerts dashboard akışını gösteren otel benchmark diyagramı",
+      caption: "Data sources AI engine alerts dashboard akışını gösteren otel benchmark diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-6.webp",
+      alt: "AI’dan faydalanmak için bugün atılacak beş adımı özetleyen checklist görseli",
+      caption: "AI’dan faydalanmak için bugün atılacak beş adımı özetleyen checklist görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-7.webp",
+      alt: "Otomatik güncellenen fiyat yorum görünürlük KPI kartlarını gösteren dashboard görseli",
+      caption: "Otomatik güncellenen fiyat yorum görünürlük KPI kartlarını gösteren dashboard görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-23/Reporting2-23-8.webp",
+      alt: "Uyarı ve öneri kartlarıyla yönetici özeti çıktısını gösteren proof kartı görseli",
+      caption: "Uyarı ve öneri kartlarıyla yönetici özeti çıktısını gösteren proof kartı görseli"
+    },
+  },
+
+  "2026-ai-nlp-ile-misafir-deneyimi-benchmarki":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-1.webp",
+      alt: "2026’da AI & NLP ile Misafir Deneyimi Benchmark’ı: NPS, Yorum ve Duygu Analizi",
+      caption: "2026’da AI & NLP ile Misafir Deneyimi Benchmark’ı: NPS, Yorum ve Duygu Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-2.webp",
+      alt: "NPS CSAT ve sentiment birleşimiyle CX Score mantığını özetleyen görsel",
+      caption: "NPS CSAT ve sentiment birleşimiyle CX Score mantığını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-3.webp",
+      alt: "NPS CSAT ve yorum sentiment metriklerini ayıran CX benchmark bölüm görseli",
+      caption: "NPS CSAT ve yorum sentiment metriklerini ayıran CX benchmark bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-4.webp",
+      alt: "CX aksiyonlarını operasyon ve pazarlama ekiplerine bağlayan bölüm görseli",
+      caption: "CX aksiyonlarını operasyon ve pazarlama ekiplerine bağlayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-5.webp",
+      alt: "Review sources NLP theme sentiment CX score dashboard akışını gösteren diyagram görseli",
+      caption: "Review sources NLP theme sentiment CX score dashboard akışını gösteren diyagram görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-6.webp",
+      alt: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli",
+      caption: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-7.webp",
+      alt: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli",
+      caption: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-24/Reporting2-24-8.webp",
+      alt: "CX benchmark kartları ve aksiyon önerilerini gösteren proof kartı görseli",
+      caption: "CX benchmark kartları ve aksiyon önerilerini gösteren proof kartı görseli"
+    },
+  },
+
+  "2026-kuresel-ve-yerel-otel-benchmark-networkleri":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-1.webp",
+      alt: "2026 Küresel ve Yerel Otel Benchmark Network’leri: Bağımsız Oteller İçin Yeni Fırsatlar",
+      caption: "2026 Küresel ve Yerel Otel Benchmark Network’leri: Bağımsız Oteller İçin Yeni Fırsatlar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-2.webp",
+      alt: "NPS CSAT ve sentiment birleşimiyle CX Score mantığını özetleyen görsel",
+      caption: "NPS CSAT ve sentiment birleşimiyle CX Score mantığını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-3.webp",
+      alt: "NPS CSAT ve yorum sentiment metriklerini ayıran CX benchmark bölüm görseli",
+      caption: "NPS CSAT ve yorum sentiment metriklerini ayıran CX benchmark bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-4.webp",
+      alt: "CX aksiyonlarını operasyon ve pazarlama ekiplerine bağlayan bölüm görseli",
+      caption: "CX aksiyonlarını operasyon ve pazarlama ekiplerine bağlayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-5.webp",
+      alt: "Review sources NLP theme sentiment CX score dashboard akışını gösteren diyagram görseli",
+      caption: "Review sources NLP theme sentiment CX score dashboard akışını gösteren diyagram görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-6.webp",
+      alt: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli",
+      caption: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-7.webp",
+      alt: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli",
+      caption: "CX benchmark için tema sözlüğü ve sprint adımlarını özetleyen checklist kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-25/Reporting2-25-8.webp",
+      alt: "CX benchmark kartları ve aksiyon önerilerini gösteren proof kartı görseli",
+      caption: "CX benchmark kartları ve aksiyon önerilerini gösteren proof kartı görseli"
+    },
   }
   
 };

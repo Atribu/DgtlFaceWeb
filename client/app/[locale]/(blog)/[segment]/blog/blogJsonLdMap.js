@@ -167250,10 +167250,2374 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"personel-maliyeti-benchmarki-ciroya-oran":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
     },
 
-    otel: {
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran",
+
+      "name": "Personel Maliyeti Benchmark’ı: Otellerde Ciroya Oran ve Verimlilik Analizi",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Staff Cost Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran#webpage"
+
+      },
+
+      "headline": "Personel Maliyeti Benchmark’ı: Otellerde Ciroya Oran ve Verimlilik Analizi",
+
+      "name": "Personel Maliyeti Benchmark’ı: Otellerde Ciroya Oran ve Verimlilik Analizi",
+
+      "description": "Personel maliyetinizi ciroya oran ve oda başı maliyet KPI’larıyla pazar/rakiple kıyaslayın; vardiya ve verimlilikle maliyetleri kontrol altına alırken hizmet kalitesini koruyun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Personel Maliyeti" },
+
+        { "@type": "Thing", "name": "Payroll" },
+
+        { "@type": "Thing", "name": "Social Security" },
+
+        { "@type": "Thing", "name": "Revenue" },
+
+        { "@type": "Thing", "name": "Cost per Room" },
+
+        { "@type": "Thing", "name": "Cost per Occupied Room" },
+
+        { "@type": "Thing", "name": "Departmental Costs" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Personel Maliyeti Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Personel maliyeti benchmark’ı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Personel maliyeti benchmark’ı; maaş, SGK ve yan haklar dâhil personel giderini ciroya oran ve oda/dolu oda başı KPI’larla ölçüp pazar/rakiple kıyaslayan verimlilik yaklaşımıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde personel giderini ciroya oran olarak nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Toplam personel giderini (maaş+SGK+yan haklar) ve aynı dönem toplam geliri alıp oranı hesaplayın. Sezon ve otel tipi (resort/city) etkisini ayrı raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda başı personel maliyeti KPI’ı nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Toplam personel giderini oda sayısına veya satılan oda gecesine bölerek oda başı veya dolu oda başı maliyet bulunur. Dolu oda başı maliyet doluluk etkisini daha iyi kontrol eder."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Personel benchmark sonuçlarını vardiya ve bütçe planına nasıl yansıtırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pik gün/saat vardiya planını optimize edip departman sapmasına göre süreç ve eğitim aksiyonları uygularsınız. Sprint yaklaşımıyla test edip öncesi/sonrası KPI’ları ölçmek en güvenli yöntemdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Personel gideri oranı yüksekse bu her zaman fazla personel mi demektir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hayır. Bazen sorun maliyet değil ciro/RevPAR zayıflığıdır. Bu yüzden oranı satış ve gelir KPI’larıyla birlikte okumak gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi",
+
+      "name": "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Energy Cost Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi#webpage"
+
+      },
+
+      "headline": "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak",
+
+      "name": "Elektrik, Su ve Enerji Maliyeti Benchmark’ı: Oda Başı Giderlerle Rakipleri Kıyaslamak",
+
+      "description": "Elektrik, su ve enerji giderinizi oda başı ve dolu oda başı KPI’larla pazar/rakiple kıyaslayın. Trend, payback ve yatırım önceliğiyle enerji maliyetini düşürüp konforu koruyun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Energy Cost" },
+
+        { "@type": "Thing", "name": "Electricity" },
+
+        { "@type": "Thing", "name": "Water" },
+
+        { "@type": "Thing", "name": "Heating" },
+
+        { "@type": "Thing", "name": "Sustainability" },
+
+        { "@type": "Thing", "name": "Investment" },
+
+        { "@type": "Thing", "name": "Cost per Room" },
+
+        { "@type": "Thing", "name": "Occupied Room" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Enerji Maliyeti Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Elektrik ve enerji maliyeti benchmark’ı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Elektrik/su/ısı fatura giderlerini oda başı ve dolu oda başı KPI’lara dönüştürüp pazar/rakip bandıyla kıyaslayarak enerji maliyetinde nerede durduğunuzu ölçmektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda başı enerji maliyeti nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Seçilen dönemde toplam enerji giderini (elektrik+su+ısı) alıp oda sayısına bölersiniz. Daha doğru kıyas için dolu oda başı maliyeti de satılan oda gecesine bölerek hesaplamak gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelimin enerji faturaları rakiplere göre yüksek mi, nasıl anlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda başı ve dolu oda başı KPI’larınızı aynı segment ve iklimdeki pazar bandıyla kıyaslayın. Yaz/kış dönemini ayrı değerlendirmek sapmayı daha doğru gösterir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Enerji benchmark sonuçlarını yatırım ve operasyon kararlarına nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En büyük maliyet kalemini seçip hızlı operasyon kazanımlarıyla başlayın; ardından LED/otomasyon/güneş gibi yatırımları payback hesabıyla sıralayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Resort otellerde enerji gideri neden daha yüksek olabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Havuz, spa, geniş açık alanlar ve yoğun soğutma/ısıtma yükü enerji tüketimini artırabilir. Bu yüzden resort benchmark’ı sezon ve kullanım alanı notlarıyla yapılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"mice-ve-toplanti-geliri-benchmarki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki",
+
+      "name": "Toplantı & MICE Geliri Benchmark’ı: Salon Kullanımı ve Etkinlik Gelirlerini Kıyaslamak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "MICE Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki#webpage"
+
+      },
+
+      "headline": "Toplantı & MICE Geliri Benchmark’ı: Salon Kullanımı ve Etkinlik Gelirlerini Kıyaslamak",
+
+      "name": "Toplantı & MICE Geliri Benchmark’ı: Salon Kullanımı ve Etkinlik Gelirlerini Kıyaslamak",
+
+      "description": "Salon kullanım oranı, m² başına gelir (RevPASM) ve kişi başı toplantı gelirini pazar/rakiple kıyaslayın. Düşük kullanılan salonları paket ve fiyat stratejisiyle optimize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "MICE" },
+
+        { "@type": "Thing", "name": "Meeting Room" },
+
+        { "@type": "Thing", "name": "Revenue per Sqm" },
+
+        { "@type": "Thing", "name": "Occupancy" },
+
+        { "@type": "Thing", "name": "Corporate Segment" },
+
+        { "@type": "Thing", "name": "Packages" },
+
+        { "@type": "Thing", "name": "Seasonality" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "MICE Geliri Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "MICE ve toplantı geliri benchmark’ı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "MICE benchmark’ı; salon kullanım oranı, m² başına gelir (RevPASM) ve kişi başı toplantı geliri gibi KPI’ları pazar/rakiple kıyaslayarak toplantı alanlarının verimliliğini ölçme yaklaşımıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Salon kullanım oranı ve m² başına gelir nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kullanım oranı, kullanılan saat/günlerin müsait saat/günlere oranıdır. RevPASM ise toplantı gelirinin dönem içinde müsait m² kapasitesine bölünmesiyle hesaplanır; standardı sabitlemek önemlidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Toplantı gelirimi rakiplerle nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Utilisation, RevPASM ve kişi başı gelir KPI’larını salon tipine göre çıkarıp benzer segmentteki rakip/pazar bandıyla kıyaslarsınız. Şehir oteli ve resort MICE farkını aynı sepette değerlendirmemelisiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "MICE benchmark sonuçlarını fiyat ve satış hedeflerine nasıl yansıtırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Düşük kullanılan salonları belirleyip fiyat bandı ve paket stratejisini güncellersiniz; weekday doluluğu için kurumsal hedefleme, sezon dışı için acente/paket kurgusu yaparsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RevPASM neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RevPASM, büyük ama düşük kullanılan salonları net şekilde görünür kılar. Düşük RevPASM, fiyat/upsell veya talep hedefleme sorununa işaret edebilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"iptal-ve-no-show-orani-benchmarki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki",
+
+      "name": "İptal ve No-Show Oranı Benchmark’ı: Rezervasyon Kalitesini Ölçmek",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Cancellation & No-Show Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki#webpage"
+
+      },
+
+      "headline": "İptal ve No-Show Oranı Benchmark’ı: Rezervasyon Kalitesini Ölçmek",
+
+      "name": "İptal ve No-Show Oranı Benchmark’ı: Rezervasyon Kalitesini Ölçmek",
+
+      "description": "Kanal ve pazar bazlı iptal/no-show oranınızı benchmark ederek hangi kaynaktan gelen rezervasyonun daha kaliteli olduğunu görün; ön ödeme, garanti ve iptal politikalarınızı veriyle optimize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Cancellation Rate" },
+
+        { "@type": "Thing", "name": "No-Show Rate" },
+
+        { "@type": "Thing", "name": "Reservation Quality" },
+
+        { "@type": "Thing", "name": "Channel Risk" },
+
+        { "@type": "Thing", "name": "Prepayment Policy" },
+
+        { "@type": "Thing", "name": "Reservation" },
+
+        { "@type": "Thing", "name": "Country" },
+
+        { "@type": "Thing", "name": "Channel" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "İptal ve No-Show Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "İptal ve no-show oranı nedir, nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İptal oranı, iptal edilen rezervasyonların toplam rezervasyonlara oranıdır. No-show oranı, gelmeyen rezervasyonların toplam rezervasyonlara oranıdır; ikisi ayrı KPI olarak ölçülmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kanal ve pazar bazlı iptal benchmark’ı nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS verisini OTA/web/call center ve ülke/segment kırılımında çıkarır, cancellation/no-show ve net stay rate hesaplayıp pazar bandıyla kıyaslarsınız. En riskli kanalda politika testine geçersiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Benchmark sonuçlarına göre ön ödeme ve iptal politikalarını nasıl değiştirmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Riskli kanal/pazarda kısmi ön ödeme veya kart garantisi eklemek, iptal penceresini ayarlamak ve gerekirse min-stay gibi kısıtları test etmek gerekir. Değişikliği sprintle ölçüp net stay etkisini doğrulamak en güvenlisidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "No-show’u azaltmak için ilk adım ne olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kart garantisi ve check-in teyidi/hatırlatma akışı kurmak ilk adımdır. Ardından no-show’un yoğun olduğu kanal ve pazarda politika ayarı test edilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"butce-ve-forecast-dogruluk-orani-benchmarki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki",
+
+      "name": "Bütçe ve Forecast Doğruluk Oranı Benchmark’ı: Planlarınız Ne Kadar İsabetli?",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Forecast Accuracy Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki#webpage"
+
+      },
+
+      "headline": "Bütçe ve Forecast Doğruluk Oranı Benchmark’ı: Planlarınız Ne Kadar İsabetli?",
+
+      "name": "Bütçe ve Forecast Doğruluk Oranı Benchmark’ı: Planlarınız Ne Kadar İsabetli?",
+
+      "description": "Gelir ve doluluk forecast’lerinizin sapma oranlarını (variance, MAPE) ölçüp pazar/rakip bandıyla kıyaslayın; hangi dönem/pazarda yanlış tahmin yaptığınızı görerek metodolojinizi iyileştirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Forecast Accuracy" },
+
+        { "@type": "Thing", "name": "Budgeting" },
+
+        { "@type": "Thing", "name": "Variance" },
+
+        { "@type": "Thing", "name": "MAPE" },
+
+        { "@type": "Thing", "name": "Revenue Planning" },
+
+        { "@type": "Thing", "name": "Occupancy Forecast" },
+
+        { "@type": "Thing", "name": "Planning Cycle" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Forecast Doğruluk Benchmark’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bütçe ve forecast doğruluk oranı nedir, nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Forecast doğruluğu, forecast/bütçe ile gerçekleşen (actual) arasındaki sapmanın ölçülmesidir. Variance % ile yönü, MAPE gibi metriklerle hata büyüklüğünü ölçebilirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için iyi bir forecast doğruluk oranı kaç olmalıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir doğru yoktur; sezon oynaklığı, destinasyon ve pazar karması belirleyicidir. Planlama konuşmalarında ±%5–10 gibi bandlar referans alınabilir; asıl hedef hatayı döngü döngü azaltmaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Forecast sapmalarını pazar ve rakip benchmark’ıyla nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sapmayı pazar ve kanal kırılımında çıkarıp kendi trendinizle kıyaslarsınız. Rakip doğruluğu çoğu zaman doğrudan bilinmez; pazar bandı ve iç trend benchmark rolü görür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Forecast benchmark sonuçlarını bir sonraki planlama dönemine nasıl yansıtırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En çok sapma olan alanı seçip kırılım ekler, sinyal ekler (pickup/fiyat bandı) ve update ritmini artırırsınız. Sonra yeniden ölçerek hatayı birkaç puan düşürmeye odaklanırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Forecast’te sürekli fazla tahmin yapmak ne anlama gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bu bir bias sinyalidir; metodolojinin talep veya kanal değişimini yeterince yansıtmadığını gösterebilir. Kırılım ve senaryo yaklaşımıyla düzeltilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-ai-ile-otomatik-otel-benchmark-analizi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi",
+
+      "name": "2026’da AI ile Otomatik Otel Benchmark Analizi: Sürekli Rakip Takibi",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "AI Benchmark Engine" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi#webpage"
+
+      },
+
+      "headline": "2026’da AI ile Otomatik Otel Benchmark Analizi: Sürekli Rakip Takibi",
+
+      "name": "2026’da AI ile Otomatik Otel Benchmark Analizi: Sürekli Rakip Takibi",
+
+      "description": "2026’da AI ile OTA fiyat, yorum puanı ve görünürlük KPI’larını otomatik izleyin; rakip set değişimini yakalayın, eşik uyarılarıyla hızlı karar alın ve insan kontrolünü koruyun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "AI Benchmark Engine" },
+
+        { "@type": "Thing", "name": "OTA Data" },
+
+        { "@type": "Thing", "name": "Pricing" },
+
+        { "@type": "Thing", "name": "Reviews" },
+
+        { "@type": "Thing", "name": "Visibility" },
+
+        { "@type": "Thing", "name": "Alert" },
+
+        { "@type": "Thing", "name": "Hotel Analytics" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "2026’da AI ile Otomatik Otel Benchmark Analizi",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-ile-otomatik-otel-benchmark-analizi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "2026’da AI otomatik benchmark sistemleri otellerde nasıl çalışacak?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri kaynakları toplanır, AI motoru normalleştirir ve eşik aşımlarında uyarı üretir. Kritik uyarılar insan onayıyla aksiyona dönüşür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI, OTA ve fiyat verilerini kullanarak rakip seti nasıl güncelleyebilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat bandı ve görünürlük kesişimi gibi göstergelerle rakip set önerisi çıkarır; öneri insan onayıyla devreye alınmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI destekli uyarı ve içgörü kartları hangi KPI’larda en faydalıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat pozisyonu, yorum trendi, görünürlük sinyali ve rezervasyon sayfası performansı gibi KPI’larda hızlı karar desteği sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI otomasyonu kullanırken insan kontrolü ve veri kalitesi nasıl korunmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri kalite kontrolü, eşleşme doğrulaması ve kritik uyarılarda insan onayı zorunlu olmalıdır; kişisel veri minimizasyonu gözetilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde AI ile rakipleri otomatik takip etmek mümkün mü?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet; ancak izinli veri kullanımı, doğru eşik tanımı ve alarm yorgunluğunu önleyen süreç tasarımı gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-otel-benchmark-platformlari-ve-api-ekosistemi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi",
+
+      "name": "2026’da Otel Benchmark Platformları ve API Ekosistemi: Veriyi Tek Ekranda Toplamak",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Benchmark Hub" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi#webpage"
+
+      },
+
+      "headline": "2026’da Otel Benchmark Platformları ve API Ekosistemi: Veriyi Tek Ekranda Toplamak",
+
+      "name": "2026’da Otel Benchmark Platformları ve API Ekosistemi: Veriyi Tek Ekranda Toplamak",
+
+      "description": "2026’da rate-shopping, demand data ve PMS/OTA verisini API’lerle tek “Benchmark Hub” katmanında birleştirin. Looker Studio panellerine tek kaynakla KPI akıtın, metodoloji farklarını yönetin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Rate Shopping" },
+
+        { "@type": "Thing", "name": "Demand Data" },
+
+        { "@type": "Thing", "name": "Benchmark Hub" },
+
+        { "@type": "Thing", "name": "API" },
+
+        { "@type": "Thing", "name": "PMS" },
+
+        { "@type": "Thing", "name": "OTA" },
+
+        { "@type": "Thing", "name": "BI Tool" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "2026 Benchmark Platformları ve API Ekosistemi",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-otel-benchmark-platformlari-ve-api-ekosistemi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "2026’da benchmark veri sağlayıcıları ve API ekosistemi otelleri nasıl etkileyecek?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Verinin farklı araçlarda dağılmasını azaltıp API’lerle tek bir Benchmark Hub katmanında birleşmesini hızlandıracaktır. Bu da daha hızlı karar ve daha tutarlı KPI raporlama sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rate-shopping, demand data ve PMS verisini tek benchmark katmanında nasıl birleştirebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce KPI sözlüğü ve entity tanımlarını oluşturup kaynakları normalize eder, ardından Actual (PMS) ve Proxy (dış sinyal) ayrımıyla hub’da toplarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Benchmark Hub’ı Looker Studio gibi dashboard araçlarıyla nasıl entegre ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hub’dan KPI tabloları üretip Looker Studio’ya bağlar, yönetim/revenue/pazarlama sekmelerini rol bazlı tasarlar ve filtreleri standardize edersiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Farklı sağlayıcılardan gelen verileri kıyaslarken nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tanım farkı, granülerlik farkı ve veri gecikmesi en büyük risklerdir. Kaynak etiketi, data freshness ve kalite bayraklarıyla bu farklar görünür kılınmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri",
+
+      "name": "2026 ESG ve Sürdürülebilirlik Benchmark Framework’leri: Oteller İçin Yeni Standartlar",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "ESG Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri#webpage"
+
+      },
+
+      "headline": "2026 ESG ve Sürdürülebilirlik Benchmark Framework’leri: Oteller İçin Yeni Standartlar",
+
+      "name": "2026 ESG ve Sürdürülebilirlik Benchmark Framework’leri: Oteller İçin Yeni Standartlar",
+
+      "description": "Enerji, su, atık ve karbon KPI’larınızı 2026 ESG benchmark framework’leriyle kıyaslayın. ESG skorunu kurumsal anlaşma ve marka iletişiminde güçlü argümana dönüştürün.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "ESG" },
+
+        { "@type": "Thing", "name": "Sustainability" },
+
+        { "@type": "Thing", "name": "ESG Rating" },
+
+        { "@type": "Thing", "name": "Energy" },
+
+        { "@type": "Thing", "name": "Water" },
+
+        { "@type": "Thing", "name": "Waste" },
+
+        { "@type": "Thing", "name": "Carbon Footprint" },
+
+        { "@type": "Thing", "name": "Corporate Travel" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "2026 ESG Benchmark Framework’leri",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "ESG benchmark’ı nedir, 2026’da oteller için hangi standartlar öne çıkıyor?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "ESG benchmark; enerji, su, atık ve karbon KPI’larını endüstri bandıyla kıyaslayıp skor ve aksiyon planına dönüştürmektir. 2026’da KPI sözlüğü, şeffaf raporlama ve B2B/RFP uyumu öne çıkar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Enerji, su, atık ve karbon KPI’larımı endüstri benchmark’larıyla nasıl kıyaslarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’ları tüketim ve maliyet olarak ayırır, aynı segment ve benzer iklim filtresiyle benchmark bandı çıkarır, trendle izleyip en büyük sapmada sprint planı uygularsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "ESG skorları kurumsal ve B2B anlaşmalarda nasıl kullanılacak?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kurumsal RFP’lerde ölçülebilir göstergeler ve doğrulama izi istenir. ESG skoru, KPI trendi ve hedeflerle birlikte kanıtlı argüman olarak kullanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sürdürülebilirlik KPI’larını gelir ve doluluk verisiyle birlikte neden raporlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’lar yatırım ve operasyon önceliğini belirler ve bazı pazarlarda tercih kriteri olabilir. Birlikte raporlama, ticari anlatıyı ve karar kalitesini güçlendirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Greenwashing riskini nasıl azaltırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ölçmediğiniz KPI’da iddia üretmeyin; kaynak, dönem ve metodoloji notunu açık tutun. İlerlemenizi trend olarak ve doğrulanabilir şekilde paylaşın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-ai-nlp-ile-misafir-deneyimi-benchmarki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki",
+
+      "name": "2026’da AI & NLP ile Misafir Deneyimi Benchmark’ı: NPS, Yorum ve Duygu Analizi",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "CX Benchmark" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki#webpage"
+
+      },
+
+      "headline": "2026’da AI & NLP ile Misafir Deneyimi Benchmark’ı: NPS, Yorum ve Duygu Analizi",
+
+      "name": "2026’da AI & NLP ile Misafir Deneyimi Benchmark’ı: NPS, Yorum ve Duygu Analizi",
+
+      "description": "AI & NLP ile NPS/CSAT skorlarınızı Google ve OTA yorumlarınızın sentiment analizleriyle birleştirerek, 2026’da misafir deneyimi benchmark’ınızı rakip setle kıyaslanabilir tek bir CX Score altında toplayın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "CX Benchmark" },
+
+        { "@type": "Thing", "name": "NPS" },
+
+        { "@type": "Thing", "name": "CSAT" },
+
+        { "@type": "Thing", "name": "Sentiment Analysis" },
+
+        { "@type": "Thing", "name": "NLP" },
+
+        { "@type": "Thing", "name": "Reviews" },
+
+        { "@type": "Thing", "name": "CX Score" },
+
+        { "@type": "Thing", "name": "Complaint Theme" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "2026 AI & NLP CX Benchmark",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-nlp-ile-misafir-deneyimi-benchmarki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "2026’da misafir deneyimi benchmark’ında hangi metrikler öne çıkacak?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "NPS/CSAT anket skorları ile yorum sentiment’i ve tema dağılımı birlikte öne çıkacak. Tek puan yerine hibrit model tercih edilecek."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI & NLP ile çok dilli yorum analizini nasıl yaparım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "TR–EN–DE–RU yorumları ortak tema sözlüğüne map edip sentiment ve tema çıkarımı yaparsınız. Sonuçları trend olarak izleyip örneklem doğrulamasıyla kaliteyi korursunuz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelimin NPS ve yorum skorlarını rakiplerle kıyaslayan bir CX Score’u nasıl oluştururum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "NPS/CSAT ve sentiment’i şeffaf ağırlıklarla birleştirip CX Score üretirsiniz. Skorun yanında yorum hacmi/güncellik ve en negatif tema mutlaka görünür olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CX benchmark sonuçlarını operasyon ve pazarlama aksiyonlarına nasıl dönüştürmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En negatif temayı seçip 14–30 günlük sprintle düzeltme uygular, dil bazlı mesaj uyarlama ve yanıt standardı ekleyerek trendi yeniden ölçersiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "NPS ve yorum verisini birleştirip tek skor çıkarmak mantıklı mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet, karar hızını artırabilir; ancak model şeffaf olmalı ve tek skorun arkasında tema ve trend mutlaka görünmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-kuresel-ve-yerel-otel-benchmark-networkleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/tr/#website",
+
+      "url": "https://dgtlface.com/tr/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri",
+
+      "name": "2026 Küresel ve Yerel Otel Benchmark Network’leri: Bağımsız Oteller İçin Yeni Fırsatlar",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+
+      "about": { "@type": "Thing", "name": "Benchmark Network" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri#webpage"
+
+      },
+
+      "headline": "2026 Küresel ve Yerel Otel Benchmark Network’leri: Bağımsız Oteller İçin Yeni Fırsatlar",
+
+      "name": "2026 Küresel ve Yerel Otel Benchmark Network’leri: Bağımsız Oteller İçin Yeni Fırsatlar",
+
+      "description": "2026’da benchmark network’lerine katılarak anonim doluluk, ADR, RevPAR ve kanal trendlerini görün; bağımsız otel olsanız bile kararlarınızı zincir seviyesinde veriyle destekleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE"
+
+      },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Benchmark Network" },
+
+        { "@type": "Thing", "name": "Market Data" },
+
+        { "@type": "Thing", "name": "Independent Hotels" },
+
+        { "@type": "Thing", "name": "Chains" },
+
+        { "@type": "Thing", "name": "Anonymised Data" },
+
+        { "@type": "Thing", "name": "Occupancy" },
+
+        { "@type": "Thing", "name": "ADR" },
+
+        { "@type": "Thing", "name": "RevPAR" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Benchmark Analizi", "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "2026 Benchmark Network’leri",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-kuresel-ve-yerel-otel-benchmark-networkleri",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Benchmark network nedir, oteller için nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Benchmark network; otellerin belirli KPI’ları anonimleştirerek ortak bir havuzda topladığı ve katılımcılara pazar bandı/trend raporu olarak sunduğu paylaşımlı benchmark modelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bağımsız bir otel olarak benchmark network’üne katılmanın faydaları nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pazar bandını görmek, trendleri erken yakalamak, kanal karması riskini okumak ve fiyat/kampanya kararını daha hızlı vermek gibi avantajlar sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Anonim veri paylaşımıyla hangi KPI’ları pazarla kıyaslayabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doluluk, ADR, RevPAR ve kanal karması en yaygın anonim KPI setidir. Segment ve destinasyon filtresiyle doğru band elde edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Benchmark network çıktıları fiyat, kampanya ve yatırım kararlarını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Band dışı sapmaları göstererek fiyat konumlamayı düzeltir, kampanya zamanlamasını optimize eder ve bazı yatırım kararlarını pazar standardı argümanıyla destekler."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
+
+
+},
+
+ otel: {
       "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir": {
         "@context": "https://schema.org",
         "@graph": [
