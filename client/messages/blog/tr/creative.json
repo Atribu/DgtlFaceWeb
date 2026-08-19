@@ -76447,7 +76447,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa (Hub) / URL: Kurumsal Hediye & Tasarım — /tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 15",
       "Blog / URL: /tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi",
       "Blog Tipi: Core",
@@ -76491,14 +76491,14 @@
     "ctaPrimary": {
       "label": "Dijital Hediye Kartı & Voucher Deneyimi Tasarım Danışmanlığı Al",
       "text": "Ödeme, koşullar, booking engine/PMS entegrasyonu ve raporlama akışını birlikte kurmak isteyen oteller için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Dijital Hediye Kartı & Voucher Deneyimi Tasarım Danışmanlığı Al",
       "text": "Ödeme, koşullar, booking engine/PMS entegrasyonu ve raporlama akışını birlikte kurmak isteyen oteller için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Dijital Hediye Kartı Akış & Kullanım Koşulu Şablonunu İndir",
@@ -76508,23 +76508,44 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Sadakat Programı Hediyeleri: Tier Avantaj Rehberi",
+      "href": "/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari"
     },
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Hediye İletişim Akışı: Web–E-posta–WhatsApp UX",
+      "href": "/tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp"
+    },
+    {
+      "label": "Hediye ile Upsell: Oda Upgrade & Spa Akışları",
+      "href": "/tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel"
     },
     {
       "label": "PMS & OTA Yönetimi",
-      "href": "/pms-ota-yonetimi"
+      "href": "/tr/pms-ota-yonetimi"
     },
     {
       "label": "Satış ve Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "href": "/tr/raporlama/satis-donusum"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Sadakat Programı Hediyeleri: Tier Avantaj Rehberi",
+      "href": "/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari"
+    },
+    {
+      "title": "Hediye İletişim Akışı: Web–E-posta–WhatsApp UX",
+      "href": "/tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp"
+    },
+    {
+      "title": "Hediye ile Upsell: Oda Upgrade & Spa Akışları",
+      "href": "/tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel"
+    }
+  ],
   "sections": [
     {
       "id": "dijital-hediye-karti-nedir-oteller-icin-hangi-senaryolarda-calisir",
@@ -76548,7 +76569,7 @@
         },
         {
           "type": "p",
-          "text": "Otel özelinde “doğru form” şu kriterlerle seçilir:"
+          "text": "Otel özelinde “doğru form” şu kriterlerle seçilir: Doğru seçim, yalnız ürün kararını değil; satın alma, gönderim ve kullanım akışını kapsayan bir [voucher deneyimi](https://dgtlface.com/tr/creative-ve-tasarim) kurgusunu da gerektirir."
         },
         {
           "type": "list",
@@ -76613,7 +76634,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "İlk lansmanda 1 monetory + 2 paketle başlayın (karmaşayı azaltır).",
-            "Dijital strateji iç link: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Dijital stratejiyi kampanya, sadakat ve tekrar pazarlama planıyla birlikte ele alın."
           ]
         }
       ]
@@ -76628,7 +76649,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Önce kart türünü netleştirin (monetary veya paket/voucher), sonra web’de satın alma–ödeme–gönderim akışını (e-posta/WhatsApp) tasarlayın ve kişiselleştirmeyi ekleyin. Kullanım koşullarını şeffaf yazın (geçerlilik, blackout date, iade, bakiye) ve voucher kodunu rezervasyon motoruna/PMS’ye entegre ederek kullanım–raporlama sürecini kurun. Kampanya ve sadakat senaryolarıyla ölçümleyip “kullanım oranı + şikâyet + gelir” üzerinden optimize edin."
+          "text": "Net cevap : Önce kart türünü netleştirin (monetary veya paket/voucher), sonra web’de satın alma–ödeme–gönderim akışını ve [hediye kartı iletişim akışı](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp) planını birlikte tasarlayın ve kişiselleştirmeyi ekleyin. Kullanım koşullarını şeffaf yazın (geçerlilik, blackout date, iade, bakiye) ve voucher kodunu rezervasyon motoruna/PMS’ye entegre ederek kullanım–raporlama sürecini kurun. Kampanya ve sadakat senaryolarıyla ölçümleyip “kullanım oranı + şikâyet + gelir” üzerinden optimize edin."
         },
         {
           "type": "h3",
@@ -76665,8 +76686,8 @@
           "title": "Ne yapmalıyım ",
           "items": [
             "Akışı tek sayfada görselleştir (aşağıdaki diyagram).",
-            "Satış/dönüşüm raporu iç link: https://dgtlface.com/tr/raporlama/satis-donusum",
-            "PMS & OTA yönetimi iç link: https://dgtlface.com/tr/pms-ota-yonetimi"
+            "Satış dönüşüm ve rezervasyon ekiplerini aynı akışta hizalayın.",
+            "Ön büro, rezervasyon ve pazarlama için ortak kullanım dili oluşturun."
           ]
         }
       ]
@@ -76815,7 +76836,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Burası otel gifting’ini e-ticaret gifting’inden ayıran ana fark: booking engine ve PMS entegrasyonu. Entegrasyon yoksa ön büro manuel yönetir; hata riski artar; raporlama kaybolur."
+          "text": "Burası otel gifting’ini e-ticaret gifting’inden ayıran ana fark: [booking engine entegre hediye kodu](https://dgtlface.com/tr/pms-ota-yonetimi) ve PMS akışı. Entegrasyon yoksa ön büro manuel yönetir; hata riski artar; raporlama kaybolur."
         },
         {
           "type": "h3",
@@ -76870,7 +76891,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "Entegrasyon yoksa bile “tek doğrulama paneli” oluştur (minimum karmaşa).",
-            "PMS & OTA yönetimi iç link: https://dgtlface.com/tr/pms-ota-yonetimi"
+            "Rezervasyon ve kanal yönetimi ekibi için tek doğrulama SOP’u yaz."
           ]
         }
       ]
@@ -76881,7 +76902,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Dijital voucher, kampanyayı “tamamlayan” bir değer olmalı; indirimi telafi etmeye çalışır gibi görünmemeli. Sadakat tarafında ise tier benefit olarak “voucher kredisi” güçlü çalışabilir."
+          "text": "Dijital voucher, kampanyayı “tamamlayan” bir değer olmalı; indirimi telafi etmeye çalışır gibi görünmemeli. Sadakat tarafında ise [sadakat programında dijital voucher](https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari) güçlü çalışabilir. Doğru kurgulanan [voucher ile upsell ve cross-sell fırsatları](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel), spa, restoran, oda yükseltme ve deneyim paketlerinde ek gelir alanı açar."
         },
         {
           "type": "h3",
@@ -76925,8 +76946,8 @@
           "variant": "action",
           "title": "Ne yapmalıyım",
           "items": [
-            "Kampanya performansını satış dönüşüm raporuna bağla: https://dgtlface.com/tr/raporlama/satis-donusum",
-            "Dijital pazarlama iç link: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Kampanya performansını satış dönüşüm ve CRM takibiyle birlikte izle.",
+            "Voucher kurgusunu tekrar pazarlama ve sadakat akışıyla eşleştir."
           ]
         }
       ]
@@ -76982,19 +77003,15 @@
         },
         {
           "type": "p",
-          "text": "Key Statistics / Data Point (yumuşatılmış): Dijital hediye kartı/voucher modellerinin doğru kurgulandığında düşük ek maliyetle yeni gelir ve misafir akışı sağlayabildiği; kötü kurgulandığında ise “kullanılamayan hediye” şikâyetlerine yol açabildiği yönünde sektörel gözlemler bulunur."
+          "text": "Key Statistics / Data Point (yumuşatılmış): Dijital hediye kartı/voucher modellerinin doğru kurgulandığında düşük ek maliyetle yeni gelir ve misafir akışı sağlayabildiği; kötü kurgulandığında ise “kullanılamayan hediye” şikâyetlerine yol açabildiği yönünde sektörel gözlemler bulunur. Bu etkinin düzenli olarak [hediye kartı satış ve dönüşüm performansı](https://dgtlface.com/tr/raporlama/satis-donusum) ile takip edilmesi gerekir."
         },
         {
           "type": "media",
           "slot": "kpi-07"
         },
-        
         {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Dijital Hediye Kartı & Voucher Deneyimi Tasarım Danışmanlığı Al",
-          "text": "Ödeme, koşullar, booking engine/PMS entegrasyonu ve raporlama akışını birlikte kurmak isteyen oteller için.",
-          "href": "/creative/kurumsal-hediye-tasarimi"
+          "type": "p",
+          "text": "Teknik güvenlik, kullanım koşulları ve rezervasyon akışı netleştiğinde dijital gifting yalnız kampanya aracı olmaktan çıkıp ölçülebilir bir gelir kanalına dönüşür."
         }
       ]
     },
@@ -77041,6 +77058,10 @@
         },{
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapının kampanya, sadakat ve tekrar pazarlama tarafını büyütmek için [dijital hediye kartının otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) perspektifini; uygulama kapsamı, tasarım ve entegrasyon detaylarını netleştirmek için ise [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasını değerlendirebilirsiniz."
         }
       ]
     }
@@ -77092,7 +77113,7 @@
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "Primary CTA toplam 2 yerleşimde kontrol edildi",
         "Secondary CTA Download Asset olarak 1 kez konumlandırıldı",
-        "İç link hedefleri kontrol edildi: /tr/creative/kurumsal-hediye-tasarimi, /tr/otel-dijital-pazarlama, /tr/pms-ota-yonetimi, /tr/raporlama/satis-donusum",
+        "İç link hedefleri kontrol edildi: sadakat, iletişim akışı, upsell, PMS/OTA, satış-dönüşüm ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Media Pack V2.3 dosya adları ve slot eşleşmeleri kontrol edildi",
         "Monetary vs Paket/Voucher karşılaştırma tablosu içerikte yerleştirildi",
         "Download Asset: Dijital Hediye Kartı Akış & Kullanım Koşulu Şablonu — Digital Gifting (v1.0) oluşturuldu",
@@ -77130,7 +77151,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa (Hub) / URL: Kurumsal Hediye & Tasarım — /tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 16",
       "Blog / URL: /tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp",
       "Blog Tipi: Core",
@@ -77174,14 +77195,14 @@
     "ctaPrimary": {
       "label": "Kurumsal Hediye İletişim Akışı Danışmanlığı Al",
       "text": "Web, e-posta, WhatsApp ve otel içi temaslarda tutarlı mesaj ve ölçüm akışı kurmak isteyenler için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Kurumsal Hediye İletişim Akışı Danışmanlığı Al",
       "text": "Web, e-posta, WhatsApp ve otel içi temaslarda tutarlı mesaj ve ölçüm akışı kurmak isteyenler için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Hediye İletişim Flow & Mesaj Şablonunu İndir",
@@ -77191,23 +77212,44 @@
   },
   "internalLinks": [
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "VIP Misafir Karşılama Seti: Oteller İçin Hediye Mimarisi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+    },
+    {
+      "label": "Dijital Hediye Kartı ve Voucher Deneyimi",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "label": "Hediye Hikâye Anlatımı: Fotoğraf, Video ve Sosyal Medya",
+      "href": "/tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya"
     },
     {
       "label": "Mesaj Yönetimi",
-      "href": "/cagri-merkezi/mesaj-yonetimi"
+      "href": "/tr/cagri-merkezi/mesaj-yonetimi"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "VIP Misafir Karşılama Seti: Oteller İçin Hediye Mimarisi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+    },
+    {
+      "title": "Dijital Hediye Kartı ve Voucher Deneyimi",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "title": "Hediye Hikâye Anlatımı: Fotoğraf, Video ve Sosyal Medya",
+      "href": "/tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya"
+    }
+  ],
   "sections": [
     {
       "id": "kurumsal-hediye-yolculugu-ilk-temas-teslim-sonrasi",
@@ -77272,7 +77314,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Hediye iletişimini omni-channel tasarlarken önce tek bir “çekirdek değer” cümlesi yazın, sonra bunu web, e-posta, WhatsApp ve otel içi temaslara uyarlayın. Her kanalda tek CTA kullanın; mesaj sıklığı ve izin (opt-in/opt-out) yönetimini KVKK ve e-posta standartlarına göre kurun. UTM ve event tracking ile performansı ölçüp, segmentlere göre (VIP/MICE/sadakat) optimize edin."
+          "text": "Net cevap : Hediye iletişimini [omni-channel gifting experience](https://dgtlface.com/tr/creative-ve-tasarim) mantığıyla tasarlarken önce tek bir “çekirdek değer” cümlesi yazın, sonra bunu web, e-posta, WhatsApp ve otel içi temaslara uyarlayın. Sağlam bir email whatsapp gift journey için her kanalda tek CTA kullanın; mesaj sıklığı ve izin (opt-in/opt-out) yönetimini KVKK ve e-posta standartlarına göre kurun. UTM ve event tracking ile performansı ölçüp, segmentlere göre (VIP/MICE/sadakat) optimize edin."
         },
         {
           "type": "h3",
@@ -77319,7 +77361,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Web, “tek kaynak gerçek” olmalıdır: koşullar, hediye içeriği, nasıl alınır/nerede kullanılır burada netleşir. E-posta ve WhatsApp sadece bu sayfaya taşıyan kanallardır."
+          "text": "Web, “tek kaynak gerçek” olmalıdır: koşullar, hediye içeriği, nasıl alınır/nerede kullanılır burada netleşir. E-posta ve WhatsApp sadece bu sayfaya taşıyan kanallardır; özellikle [web ve oda içi hediye mesajı](https://dgtlface.com/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi) ile voucher senaryolarında tek kaynak mantığı kritik hale gelir."
         },
         {
           "type": "h3",
@@ -77359,7 +77401,7 @@
           "items": [
             "Web CTA’larını segmentle: “VIP misafir hediyesi”, “MICE hediye paketi”, “Sadakat hediyesi”.",
             "UTM standardını belirle (source/medium/campaign).",
-            "İç link: /tr/otel-dijital-pazarlama (tracking kültürü)"
+            "Tracking kültürü için UTM sözlüğünü ve kampanya isimlendirmesini ekip genelinde standartlaştır."
           ]
         }
       ]
@@ -77466,7 +77508,7 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "WhatsApp’ı “kritik an”larda kullan: check-in öncesi, teslim, sonrası.",
-            "İç link: /tr/cagri-merkezi/mesaj-yonetimi (mesaj yönetimi standardı)"
+            "[WhatsApp destekli hediye bilgilendirmesi](https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi) için mesaj yönetimi standardını ön büro ve çağrı merkeziyle hizala."
           ]
         },
         {
@@ -77484,7 +77526,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Otel içi temas, hediyenin “gerçek” olduğu an. Burada hız ve tutarlılık belirleyici: ön büro aynı cümleyi söyler, oda kartı aynı mesajı taşır, etkinlikte teslim aynı standardı izler."
+          "text": "Otel içi temas, hediyenin “gerçek” olduğu an. Burada hız ve tutarlılık belirleyici: ön büro aynı cümleyi söyler, oda kartı aynı mesajı taşır, etkinlikte teslim aynı standardı izler; özellikle [VIP hediye karşılama mesajı](https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye) gibi premium senaryolarda bu uyum daha görünür hale gelir."
         },
         {
           "type": "h3",
@@ -77532,7 +77574,8 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "Oda kartını “marka dili” ile tasarla, abartma.",
-            "Video/unboxing için iç link: /tr/creative/video-produksiyon (UGC’yi kolaylaştırmak için)"
+            "[hediye deneyimini video içeriğe dönüştürmek](https://dgtlface.com/tr/creative/video-produksiyon) için teslim anı, kart metni ve QR akışını sade tut.",
+            "[hediyeden sosyal medya hikâyesi üretmek](https://dgtlface.com/tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya) istiyorsan teslim anında paylaşılabilir ama kısa bir mesaj mimarisi kur."
           ]
         }
       ]
@@ -77636,7 +77679,7 @@
           "variant": "action",
           "title": "Ne yapmalıyım?",
           "items": [
-            "Ölçümü /tr/otel-dijital-pazarlama ile aynı dilde kur (UTM + event).",
+            "Ölçümü UTM + event standardıyla aynı sözlükte kur; kanal ve segment adlarını sabit tut.",
             "30 günde 1 değişken test et: konu satırı, WhatsApp mesaj tonu, landing CTA."
           ]
         }
@@ -77674,13 +77717,6 @@
         {
           "type": "media",
           "slot": "proof-08"
-        },
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Kurumsal Hediye İletişim Akışı Danışmanlığı Al",
-          "text": "Web, e-posta, WhatsApp ve otel içi temaslarda tutarlı mesaj ve ölçüm akışı kurmak isteyenler için.",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         }
       ]
     },
@@ -77724,6 +77760,10 @@
             "UTM + event hazır",
             "On-property SOP var"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu akışı yalnız teslim anı olarak değil, [hediye iletişim akışının otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte düşünmek; CRM, tekrar pazarlama ve kampanya hafızasını güçlendirir. Uygulama kapsamı, mesaj dili ve süreç detayları için [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasına geçebilirsiniz."
         }
       ]
     }
@@ -77779,7 +77819,7 @@
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "Primary CTA toplam 2 yerleşimde kontrol edildi",
         "Secondary CTA Download Asset olarak 1 kez konumlandırıldı",
-        "İç link hedefleri kontrol edildi: /tr/otel-dijital-pazarlama, /tr/cagri-merkezi/mesaj-yonetimi, /tr/creative/video-produksiyon, /tr/creative/kurumsal-hediye-tasarimi",
+        "İç link hedefleri kontrol edildi: VIP karşılama, dijital voucher, hediye hikâyesi, mesaj yönetimi, video prodüksiyon ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Media Pack V2.3 dosya adları ve slot eşleşmeleri kontrol edildi",
         "Kanal bazlı mesaj hedefleri + KPI tablosu içerikte yerleştirildi",
         "Download Asset: Hediye İletişim Flow & Mesaj Şablonu — Kurumsal Hediye İletişimi (v1.0) oluşturuldu",
@@ -77821,7 +77861,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa (Hub) / URL: Kurumsal Hediye & Tasarım — /tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 17",
       "Blog / URL: /tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel",
       "Blog Tipi: Core",
@@ -77865,14 +77905,14 @@
     "ctaPrimary": {
       "label": "Kurumsal Hediye ile Upsell & Cross-sell Strateji Danışmanlığı Al",
       "text": "Hediye + teklif akışını misafir dostu ton ve ölçümle kurmak isteyen oteller için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Kurumsal Hediye ile Upsell & Cross-sell Strateji Danışmanlığı Al",
       "text": "Hediye + teklif akışını misafir dostu ton ve ölçümle kurmak isteyen oteller için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Upsell & Cross-sell Hediye Akışı ve Kupon Şablonlarını İndir",
@@ -77882,23 +77922,44 @@
   },
   "internalLinks": [
     {
-      "label": "Online Satış",
-      "href": "/pms-ota/online-satis"
+      "label": "Sadakat Programı Hediyeleri: Tier Avantaj Rehberi",
+      "href": "/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari"
     },
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Dijital Hediye Kartı: Otel Voucher Akış Rehberi",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "label": "Hediye Programı ROI: Performans Ölçümü Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-programi-performans-olcumu-roi"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/tr/pms-ota/online-satis"
     },
     {
       "label": "Satış ve Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "href": "/tr/raporlama/satis-donusum"
     },
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Sadakat Programı Hediyeleri: Tier Avantaj Rehberi",
+      "href": "/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari"
+    },
+    {
+      "title": "Dijital Hediye Kartı: Otel Voucher Akış Rehberi",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "title": "Hediye Programı ROI: Performans Ölçümü Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-programi-performans-olcumu-roi"
+    }
+  ],
   "sections": [
     {
       "id": "hediye-ve-gelir-arasindaki-ince-cizgi",
@@ -77949,7 +78010,7 @@
           "title": "Ne yapmalıyım ",
           "items": [
             "“Hediye + teklif” cümlesini tek satır standardize et.",
-            "Satış dili ve ölçüm için iç link: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "[hediye destekli satış dönüşümü](https://dgtlface.com/tr/raporlama/satis-donusum) için kabul/ret ve ek gelir verisini aynı panelde izle."
           ]
         }
       ]
@@ -77964,7 +78025,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Hediyeyi “added value” olarak konumlandırın ve tek bir deneyim teklifine bağlayın (upgrade veya spa gibi). Zamanlamayı check-in öncesi/varış/ilk gün gibi doğal anlara yerleştirip mesaj tonunu danışman ve isteğe bağlı tutun. Kupon/kodları PMS/rezervasyon sisteminde raporlanabilir şekilde kurun; kabul/ret oranı ve ek gelir etkisini ölçerek optimize edin."
+          "text": "Net cevap : Hediyeyi [added value gift offers](https://dgtlface.com/tr/creative-ve-tasarim) mantığıyla konumlandırın ve tek bir deneyim teklifine bağlayın (upgrade veya spa gibi). Zamanlamayı check-in öncesi/varış/ilk gün gibi doğal anlara yerleştirip mesaj tonunu danışman ve isteğe bağlı tutun. Kupon/kodları PMS/rezervasyon sisteminde raporlanabilir şekilde kurun; kabul/ret oranı ve ek gelir etkisini ölçerek optimize edin."
         },
         {
           "type": "h3",
@@ -77999,7 +78060,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "Önce 1 akışla başla (ör. spa kuponu) ve 30 gün test et.",
-            "Dijital iletişim ve segmentleme için: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Segment ve kampanya dilini CRM tarafında sadeleştir; görünürlüğü daha sonra dijital pazarlama akışına taşı."
           ]
         }
       ]
@@ -78010,7 +78071,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Upsell’in en temiz alanları, misafirin zaten değer verdiği iki şeydir: oda ve rahatlama (spa). Hediye burada “fiyat kırma” değil, “değer ekleme” yapmalıdır."
+          "text": "Upsell’in en temiz alanları, misafirin zaten değer verdiği iki şeydir: oda ve rahatlama (spa). Hediye burada “fiyat kırma” değil, “değer ekleme” yapmalıdır; özellikle [voucher ile ek satış fırsatları](https://dgtlface.com/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi) ile desteklendiğinde teklif daha ölçülebilir hale gelir."
         },
         {
           "type": "h3",
@@ -78059,15 +78120,8 @@
           "title": "Ne yapmalıyım",
           "items": [
             "Spa kuponunda “kredi” yerine “added value” daha premium algı yaratabilir.",
-            "Online satış/rezervasyon entegrasyonu için iç link: https://dgtlface.com/tr/pms-ota/online-satis"
+            "[cross-sell destekli gift flow](https://dgtlface.com/tr/pms-ota/online-satis) için rezervasyon ve teklif akışını tek ekranda sadeleştir."
           ]
-        },
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Kurumsal Hediye ile Upsell & Cross-sell Strateji Danışmanlığı Al",
-          "text": "Hediye + teklif akışını misafir dostu ton ve ölçümle kurmak isteyen oteller için.",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         }
       ]
     },
@@ -78154,7 +78208,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "Cross-sell’i “deneyim önerisi” diline çevir.",
-            "Paket satışı ölçümü için: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "[hediye destekli satış dönüşümü](https://dgtlface.com/tr/raporlama/satis-donusum) için paket kabul oranı ve ek geliri ayrı takip et."
           ]
         }
       ]
@@ -78165,7 +78219,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "İndirim, değer algısını düşürebilir; added value ise aynı maliyette daha premium hissettirebilir. Bu yüzden hediye + satış kurgusunda “added value” çoğu zaman daha güvenli bir araçtır."
+          "text": "İndirim, değer algısını düşürebilir; added value ise aynı maliyette daha premium hissettirebilir. Bu yüzden hediye + satış kurgusunda “added value” çoğu zaman daha güvenli bir araçtır; özellikle [sadakat üyeleri için upgrade hediyesi](https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari) gibi tier bazlı senaryolarda bu fark daha görünür olur."
         },
         {
           "type": "h3",
@@ -78262,7 +78316,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "Tek bir “offer code” standardı belirle.",
-            "Ölçüm/dash için dijital pazarlama iç link: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "CRM, ön büro ve satış ekibinin aynı teklif sözlüğünü kullandığından emin ol."
           ]
         }
       ]
@@ -78273,7 +78327,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ölçüm iki katmandır:"
+          "text": "Ölçüm iki katmandır; özellikle [hediye programı ROI ölçümü](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-programi-performans-olcumu-roi) ile kabul/ret, ek gelir ve tekrar rezervasyon etkisini aynı çerçevede okumak gerekir:"
         },
         {
           "type": "list",
@@ -78320,7 +78374,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "30 gün A/B test: “indirim” vs “added value”",
-            "Sonuçları satış dönüşüm raporuna bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "Sonuçları [hediye destekli satış dönüşümü](https://dgtlface.com/tr/raporlama/satis-donusum) paneline bağla."
           ]
         }
       ]
@@ -78341,14 +78395,6 @@
         {
           "type": "media",
           "slot": "checklist-06"
-        },
-        
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Kurumsal Hediye ile Upsell & Cross-sell Strateji Danışmanlığı Al",
-          "text": "Hediye + teklif akışını misafir dostu ton ve ölçümle kurmak isteyen oteller için.",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         },
         {
           "type": "cta",
@@ -78388,6 +78434,10 @@
         {
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Bu akışı yalnız ek satış taktiği olarak değil, [hediye ile upsell kampanyalarının dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte düşünmek; CRM, remarketing ve kampanya dilini daha güçlü hale getirir. Uygulama kapsamı, kupon mantığı ve süreç detayları için [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasına geçebilirsiniz."
         }
       ]
     }
@@ -78437,9 +78487,9 @@
         "Canonical: /tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-        "Primary CTA toplam 3 yerleşimde kontrol edildi",
+        "Primary CTA toplam 2 yerleşimde kontrol edildi",
         "Secondary CTA Download Asset olarak 1 kez konumlandırıldı",
-        "İç link hedefleri kontrol edildi: /tr/pms-ota/online-satis, /tr/otel-dijital-pazarlama, /tr/raporlama/satis-donusum, /tr/creative/kurumsal-hediye-tasarimi",
+        "İç link hedefleri kontrol edildi: sadakat, dijital voucher, ROI, online satış, satış dönüşüm ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Media Pack V2.3 dosya adları ve slot eşleşmeleri kontrol edildi",
         "Paket hediye bileşen tablosu içerikte yerleştirildi",
         "Download Asset: Upsell & Cross-sell Hediye Akışı ve Kupon Şablonları — Revenue & Experience (v1.0) oluşturuldu",
@@ -78479,7 +78529,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa (Hub) / URL: Kurumsal Hediye & Tasarım — /tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 18",
       "Blog / URL: /tr/creative/blog/kvkk-vergi-perspektifi-kurumsal-hediye-risk-cercevesi",
       "Blog Tipi: Core",
@@ -78523,14 +78573,14 @@
     "ctaPrimary": {
       "label": "KVKK & Kurumsal Hediye Süreç Analizi Danışmanlığı Al",
       "text": "Veri minimizasyonu, izin yönetimi ve saklama–imha süreçlerini hediye operasyonuna entegre etmek isteyen oteller için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "KVKK & Kurumsal Hediye Süreç Analizi Danışmanlığı Al",
       "text": "Veri minimizasyonu, izin yönetimi ve saklama–imha süreçlerini hediye operasyonuna entegre etmek isteyen oteller için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "KVKK Uyumlu Hediye Süreci & Veri Akış Şablonunu İndir",
@@ -78540,19 +78590,44 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Kurumsal Hediye Stok & Operasyon Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-stok-ve-operasyon-yonetimi"
     },
     {
       "label": "KVKK Uyum Hizmeti",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "href": "/tr/yazilim/kvkk-uyum-hizmeti"
     },
     {
       "label": "KVKK & Veri Güvenliği",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/tr/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Hediye İletişim Akışı: Web–E-posta–WhatsApp UX",
+      "href": "/tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp"
+    },
+    {
+      "label": "Hediye Programı ROI: Performans Ölçümü Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-programi-performans-olcumu-roi"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Kurumsal Hediye Stok & Operasyon Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-stok-ve-operasyon-yonetimi"
+    },
+    {
+      "title": "Hediye İletişim Akışı: Web–E-posta–WhatsApp UX",
+      "href": "/tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp"
+    },
+    {
+      "title": "Hediye Programı ROI: Performans Ölçümü Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-programi-performans-olcumu-roi"
+    }
+  ],
   "sections": [
     {
       "id": "kisisel-veri-kvkk-acisindan-hediye-surecleri",
@@ -78564,7 +78639,7 @@
         },
         {
           "type": "p",
-          "text": "Kurumsal hediyede “en sık işlenen kişisel veriler” genelde şunlardır: ad-soyad, telefon, e-posta, adres, firma bilgisi, rezervasyon bilgisi, bazen de özel gün (doğum günü/yıl dönümü). Bu veriler, KVKK kapsamında “işleme amacıyla bağlantılı, sınırlı ve ölçülü” tutulmalı; ayrıca saklama süresi ve erişim yetkileri net olmalıdır."
+          "text": "Kurumsal hediyede “en sık işlenen kişisel veriler” genelde şunlardır: ad-soyad, telefon, e-posta, adres, firma bilgisi, rezervasyon bilgisi, bazen de özel gün (doğum günü/yıl dönümü). Bu veriler, KVKK kapsamında “işleme amacıyla bağlantılı, sınırlı ve ölçülü” tutulmalı; ayrıca saklama süresi ve erişim yetkileri net olmalıdır. Bu nedenle [güvenli hediye operasyonu](https://dgtlface.com/tr/creative-ve-tasarim) yalnızca ürün ve kutudan değil, veri, izin ve teslim disiplininden de oluşur."
         },
         {
           "type": "p",
@@ -78612,7 +78687,7 @@
         },
         {
           "type": "p",
-          "text": "Bu bölüm, en çok risk üreten pratik sorunu ele alır: “Hediye listesi nerede duruyor ve kim görüyor?” En güvenli yaklaşım: hediye listesini CRM’de tutmak, “gönderim için gerekli alanları” ayrı bir görünümle sınırlamak ve “gereksiz verileri” toplamamaktır."
+          "text": "Bu bölüm, en çok risk üreten pratik sorunu ele alır: “Hediye listesi nerede duruyor ve kim görüyor?” En güvenli yaklaşım: hediye listesini CRM’de tutmak, “gönderim için gerekli alanları” ayrı bir görünümle sınırlamak ve “gereksiz verileri” toplamamaktır. Bu yaklaşım, [güvenli hediye operasyonu ve teslim kayıtları](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stok-ve-operasyon-yonetimi) ile birlikte düşünüldüğünde daha sürdürülebilir hale gelir."
         },
         {
           "type": "h3",
@@ -78687,7 +78762,7 @@
           "items": [
             "Adres verisini “kalıcı liste” değil, “teslimat görevi” mantığıyla yönet.",
             "Oda numarası gibi verileri görünür listelerde dolaştırma; görev bazlı göster.",
-            "Hediye listesi dışa aktarımı gerekiyorsa “maskeli/azaltılmış” export kullan."
+            "[hediye listelerinde veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) için dışa aktarımı maskeli ve süreli erişim mantığıyla sınırla."
           ]
         },
         {
@@ -78709,7 +78784,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Hediye iletişimi; çoğu zaman e-posta/WhatsApp/SMS gibi kanallara taşınır. Burada kritik nokta: izin yönetimi. KVKK açık rıza konusunda “özgür irade, bilgilendirme ve belirli konu” gibi unsurları vurgular; ayrıca açık rızanın ispat yükünün veri sorumlusunda olduğunu belirtir. Ayrıca ticari elektronik ileti süreçlerinin, kişisel veri işleme boyutu da olduğu; iki mevzuatın birlikte ele alınması gerektiği KVKK kararlarında da vurgulanır."
+          "text": "Hediye iletişimi; çoğu zaman e-posta/WhatsApp/SMS gibi kanallara taşınır. Burada kritik nokta: izin yönetimi. KVKK açık rıza konusunda “özgür irade, bilgilendirme ve belirli konu” gibi unsurları vurgular; ayrıca açık rızanın ispat yükünün veri sorumlusunda olduğunu belirtir. Ayrıca ticari elektronik ileti süreçlerinin, kişisel veri işleme boyutu da olduğu; iki mevzuatın birlikte ele alınması gerektiği KVKK kararlarında da vurgulanır. Bu yüzden [izinli hediye iletişim akışı](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-iletisim-akisi-web-email-whatsapp) ile veri işleme kurgusu aynı çerçevede yönetilmelidir."
         },
         {
           "type": "h3",
@@ -78731,7 +78806,7 @@
           "items": [
             "İzin ekranlarını “tek kutu” yapma; tercihleri ayrıştır (bilgilendirme vs kampanya).",
             "WhatsApp şablonlarını “izinli” ve “opt-out’lu” kurgula.",
-            "Misafire “neden bu mesajı alıyorum?” cevabını 1 satırda ver."
+            "Misafire “neden bu mesajı alıyorum?” cevabını 1 satırda ver; detaylı çerçeveyi [veri işleme ve izinli iletişim çerçevesi](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) ile birlikte gözden geçir."
           ]
         },
         {
@@ -78813,7 +78888,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu rehberin en kritik çıktısı: “doğru paydaşları doğru zamanda masaya çağırmak.” Hediye programı büyüdükçe şu rutin işe yarar:"
+          "text": "Bu rehberin en kritik çıktısı: “doğru paydaşları doğru zamanda masaya çağırmak.” Hediye programı büyüdükçe şu rutin işe yarar; ayrıca [hediye performansı ölçümünde veri minimizasyonu](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-programi-performans-olcumu-roi) yaklaşımıyla yalnız gerekli metrikleri izlemek daha güvenli bir ölçüm zemini kurar:"
         },
         {
           "type": "h3",
@@ -78895,13 +78970,6 @@
         },
         {
           "type": "cta",
-          "variant": "primary",
-          "label": "KVKK & Kurumsal Hediye Süreç Analizi Danışmanlığı Al",
-          "text": "Veri minimizasyonu, izin yönetimi ve saklama–imha süreçlerini hediye operasyonuna entegre etmek isteyen oteller için.",
-          "href": "/creative/kurumsal-hediye-tasarimi"
-        },
-        {
-          "type": "cta",
           "variant": "secondary",
           "label": "KVKK Uyumlu Hediye Süreci & Veri Akış Şablonunu İndir",
           "text": "Veri alanları, izinler, saklama süresi ve CRM→lojistik akışını tek sayfada standardize eder.",
@@ -78949,6 +79017,10 @@
             "CRM→lojistik export kontrollü",
             "Finans/hukuk review yapıldı"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Kontrollü süreç, yalnız uyum için değil; [güvenli hediye operasyonunun otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından da önemlidir çünkü marka güveni, şeffaf iletişim ve veri disiplini aynı algı zincirinin parçasıdır. Üretim, operasyon ve süreç detaylarında ek rehber için [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasına geçebilirsiniz."
         }
       ]
     }
@@ -79000,7 +79072,7 @@
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "Primary CTA toplam 2 yerleşimde kontrol edildi",
         "Secondary CTA Download Asset olarak 1 kez konumlandırıldı",
-        "İç link hedefleri kontrol edildi: /tr/creative/kurumsal-hediye-tasarimi, /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/kvkk-veri-guvenligi",
+        "İç link hedefleri kontrol edildi: stok operasyonu, iletişim akışı, ROI, KVKK uyum, veri güvenliği ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Media Pack V2.3 dosya adları ve slot eşleşmeleri kontrol edildi",
         "Minimum veri seti matrisi içerikte yerleştirildi",
         "Download Asset: KVKK Uyumlu Hediye Süreci & Veri Akış Şablonu — Risk & Governance (v1.0) oluşturuldu",
@@ -79044,7 +79116,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa (Hub) / URL: Kurumsal Hediye & Tasarım — /tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 19",
       "Blog / URL: /tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya",
       "Blog Tipi: Core",
@@ -79087,14 +79159,14 @@
     "ctaPrimary": {
       "label": "Hediye Hikâyesi & Unboxing İçerik Stratejisi Danışmanlığı Al",
       "text": "Hediyeyi fotoğraf, video, UGC ve web entegrasyonuyla görünürlük ve bağ kurma aracına çevirmek isteyenler için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Hediye Hikâyesi & Unboxing İçerik Stratejisi Danışmanlığı Al",
       "text": "Hediyeyi fotoğraf, video, UGC ve web entegrasyonuyla görünürlük ve bağ kurma aracına çevirmek isteyenler için.",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Hediye Fotoğraf & Unboxing Storyboard Şablonlarını İndir",
@@ -79104,23 +79176,44 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "VIP Misafir Karşılama Seti Rehberi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+    },
+    {
+      "label": "Hediye Kutu & Ambalaj Tasarımı",
+      "href": "/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience"
+    },
+    {
+      "label": "Influencer & UGC Seeding Rehberi",
+      "href": "/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Grafik & Motion Tasarım",
-      "href": "/creative/grafik-motion-tasarim"
+      "href": "/tr/creative/grafik-motion-tasarim"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "VIP Misafir Karşılama Seti Rehberi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+    },
+    {
+      "title": "Hediye Kutu & Ambalaj Tasarımı",
+      "href": "/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience"
+    },
+    {
+      "title": "Influencer & UGC Seeding Rehberi",
+      "href": "/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari"
+    }
+  ],
   "sections": [
     {
       "id": "hediye-hikayesi-neden-onemli",
@@ -79132,7 +79225,7 @@
         },
         {
           "type": "p",
-          "text": "Hediye “anlık jest” olarak kalırsa etki süresi kısadır. Hediye “hikâye”ye dönüşürse; hem misafirin zihninde hem de sosyal/web kanallarında daha uzun yaşar. Burada amaç, hediyeyi her gün paylaşmak değil; hediyeyi “markanın özen ve deneyim” anlatısının bir parçası yapmak."
+          "text": "Hediye “anlık jest” olarak kalırsa etki süresi kısadır. Hediye “hikâye”ye dönüşürse; hem misafirin zihninde hem de sosyal/web kanallarında daha uzun yaşar. Burada amaç, hediyeyi her gün paylaşmak değil; hediyeyi “markanın özen ve deneyim” anlatısının bir parçası yapmak. Bu nedenle [sosyal medyada hediye deneyimi](https://dgtlface.com/tr/creative-ve-tasarim) yalnız içerik üretimi değil, creative tasarım kararlarının da doğal uzantısıdır."
         },
         {
           "type": "p",
@@ -79171,7 +79264,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "Tek bir “hediye hikâyesi cümlesi” yaz: “Bu set, {destinasyon} ruhunu evinize taşır” gibi.",
-            "Hediye anlatımını, kutu/ambalaj tasarımı içeriğinizle bağla (internal link): https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+            "Hediye anlatımını [unboxing odaklı ambalaj deneyimi](https://dgtlface.com/tr/creative/blog/hediye-kutu-ve-ambalaj-tasarimi-brand-experience) ile aynı hikâye dili içinde bağla.",
             "Üretim için video ekibiyle “1 storyboard” standardı kur."
           ]
         }
@@ -79187,7 +79280,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Önce hediyenin çekirdek mesajını ve hedefini belirleyin (VIP, co-branded, sürdürülebilir vb.), sonra ürün + ambalajı profesyonel fotoğraf ve kısa unboxing video ile görünür kılın. UGC’yi izinli biçimde toplayıp sosyalde ve web/blog sayfalarında sosyal kanıt olarak kullanın. Her içerik parçasını tek bir CTA’ya bağlayın ve UTM/event tracking ile performansı ölçerek optimize edin."
+          "text": "Net cevap : Önce hediyenin çekirdek mesajını ve hedefini belirleyin (VIP, co-branded, sürdürülebilir vb.), sonra [VIP welcome set hikâyesi](https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye) gibi senaryolarda ürün + ambalajı profesyonel fotoğraf ve kısa unboxing video ile görünür kılın. UGC’yi izinli biçimde toplayıp sosyalde ve web/blog sayfalarında sosyal kanıt olarak kullanın. Her içerik parçasını tek bir CTA’ya bağlayın ve UTM/event tracking ile performansı ölçerek optimize edin."
         },
         {
           "type": "h3",
@@ -79223,8 +79316,8 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "İlk 30 gün için tek hedef seç: “UGC artışı” veya “landing tıklaması”.",
-            "Video prodüksiyon bağlantısı: https://dgtlface.com/tr/creative/video-produksiyon",
-            "Dijital ölçüm ve UTM standardı: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Çekim standardını baştan kur: hero kare, close-up, lifestyle ve kısa reel shot listesi hazır olsun.",
+            "Dijital ölçüm tarafında UTM ve event standardını tek bir şablonda topla."
           ]
         }
       ]
@@ -79235,7 +79328,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Unboxing, hediyenin “sahne” anıdır. Misafir kapağı açtığı anda oluşan algı; videoda ilk 2 saniyede oluşur. Bu yüzden unboxing içerikleri “rastgele çekim” değil, kısa bir storyboard ile planlanmalıdır."
+          "text": "Unboxing, hediyenin “sahne” anıdır. Misafir kapağı açtığı anda oluşan algı; videoda ilk 2 saniyede oluşur. Bu yüzden [unboxing video ve fotoğraf](https://dgtlface.com/tr/creative/video-produksiyon) içerikleri “rastgele çekim” değil, kısa bir storyboard ile planlanmalıdır."
         },
         {
           "type": "h3",
@@ -79289,7 +79382,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "Her hediye seti için 1 “çekim brief’i” yaz (5 shot + 1 video).",
-            "Motion/overlay ihtiyaçları için: https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+            "[Hediye hikâyesi için grafik ve motion tasarım](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ihtiyaçlarını çekim öncesinde netleştir.",
             "Video formatlarını platforma göre üret: Reels 9:16, YouTube 16:9 (teknik notlar aşağıda)."
           ]
         }
@@ -79301,7 +79394,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "UGC “zorla” olmaz; kolaylaştırılır. “Paylaş ve kazan” gibi kampanyalar yapılabilir ama şeffaf olmalı; misafir üzerinde baskı oluşturmayacak dille kurgulanmalıdır. En iyi teşvik, hediyenin zaten “paylaşılabilir” olmasıdır: estetik unboxing, kısa kart, net hashtag ve tek link."
+          "text": "UGC “zorla” olmaz; kolaylaştırılır. “Paylaş ve kazan” gibi kampanyalar yapılabilir ama şeffaf olmalı; misafir üzerinde baskı oluşturmayacak dille kurgulanmalıdır. En iyi teşvik, hediyenin zaten “paylaşılabilir” olmasıdır: estetik unboxing, kısa kart, net hashtag ve tek link. Aynı mantık, [influencer ve UGC için hediye seeding](https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari) planlarında da daha doğal ve ikna edici sonuç verir."
         },
         {
           "type": "h3",
@@ -79406,7 +79499,7 @@
           "items": [
             "UGC kullanım izin metnini standartlaştır (kısa, net).",
             "KVKK hassasiyeti olan içeriklerde “anonimleştir” (yüz/isim kapatma) opsiyonunu kullan.",
-            "Dijital pazarlama ve ölçüm: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Yayın sonrası performansı kanal bazında izleyip hangi içeriğin gerçekten paylaşım ve tıklama ürettiğini kaydet."
           ]
         }
       ]
@@ -79510,7 +79603,7 @@
           "items": [
             "Video embed için “poster + lazy load” standardı koy.",
             "Blog içinde aynı videoyu “hafif” sun (otomatik oynatma yok).",
-            "İçerik üretimini creative ekiplerle bağla: https://dgtlface.com/tr/creative/video-produksiyon"
+            "İçerik üretimini storyboard, shot list ve yayın takvimiyle tek akışta yönet."
           ]
         }
       ]
@@ -79533,13 +79626,6 @@
         {
           "type": "media",
           "slot": "proof-08"
-        },
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Hediye Hikâyesi & Unboxing İçerik Stratejisi Danışmanlığı Al",
-          "text": "Hediyeyi fotoğraf, video, UGC ve web entegrasyonuyla görünürlük ve bağ kurma aracına çevirmek isteyenler için.",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         },
         {
           "type": "cta",
@@ -79622,6 +79708,10 @@
             "CWV dostu embed",
             "Formatlar doğru"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu içerik akışı doğru kurgulandığında [hediye hikâyesinin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) daha görünür hale gelir; uygulama tarafındaki genel sorular için [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasına da bakabilirsiniz."
         }
       ]
     }
@@ -79677,7 +79767,7 @@
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "Primary CTA toplam 2 yerleşimde kontrol edildi",
         "Secondary CTA Download Asset olarak 1 kez konumlandırıldı",
-        "İç link hedefleri kontrol edildi: /tr/creative/kurumsal-hediye-tasarimi, /tr/creative/video-produksiyon, /tr/creative/grafik-motion-tasarim, /tr/otel-dijital-pazarlama",
+        "İç link hedefleri kontrol edildi: VIP karşılama, ambalaj deneyimi, influencer/UGC, video prodüksiyon, grafik-motion ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Media Pack V2.3 dosya adları ve slot eşleşmeleri kontrol edildi",
         "Hediye Hikâyesi Kanal–Format–KPI Matrisi içerikte yerleştirildi",
         "Download Asset: Hediye Fotoğraf & Unboxing Storyboard Şablonları — Storytelling (v1.0) oluşturuldu",
