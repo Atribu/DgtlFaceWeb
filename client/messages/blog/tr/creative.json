@@ -79811,7 +79811,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa URL: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 20",
       "Blog URL: https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari",
       "Blog Tipi: Core",
@@ -79853,14 +79853,14 @@
     "ctaPrimary": {
       "label": "Kültüre Duyarlı Kurumsal Hediye Tasarım Danışmanlığı Al",
       "text": "TR–EN–DE–RU pazarlarında kültürel hassasiyetleri ve set varyantlarını doğru kurgulamak isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Kültüre Duyarlı Kurumsal Hediye Tasarım Danışmanlığı Al",
       "text": "TR–EN–DE–RU pazarlarında kültürel hassasiyetleri ve set varyantlarını doğru kurgulamak isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "TR–EN–DE–RU Pazarları İçin Hediye & Kart Örneklerini İndir",
@@ -79870,19 +79870,40 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Acente & OTA Partner Hediyeleri",
+      "href": "/tr/creative/blog/acente-ota-partner-hediyeleri-b2b"
     },
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Sadakat Programı Hediyeleri",
+      "href": "/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari"
     },
     {
-      "label": "4 dilli çağrı merkezi",
-      "href": "/cagri-merkezi/4-dilli-cagri-merkezi"
+      "label": "Yerel Hikâyeli Co-Branded Koleksiyonlar",
+      "href": "/tr/creative/blog/yerel-hikaye-anlatan-co-branded-hediye-koleksiyonlari"
+    },
+    {
+      "label": "4 Dilli Çağrı Merkezi",
+      "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Acente & OTA Partner Hediyeleri",
+      "href": "/tr/creative/blog/acente-ota-partner-hediyeleri-b2b"
+    },
+    {
+      "title": "Sadakat Programı Hediyeleri",
+      "href": "/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari"
+    },
+    {
+      "title": "Yerel Hikâyeli Co-Branded Koleksiyonlar",
+      "href": "/tr/creative/blog/yerel-hikaye-anlatan-co-branded-hediye-koleksiyonlari"
+    }
+  ],
   "sections": [
     {
       "id": "neden-kultur-pazar-bazli-hediye-tasarimi",
@@ -79894,7 +79915,7 @@
         },
         {
           "type": "p",
-          "text": "Kültür bazlı hediye tasarımı, “herkesi memnun etme” hayali değildir; risk azaltma + memnuniyet artırma disiplinidir. Aynı hediye; bir pazarda “samimi”, diğerinde “gereksiz”, başka bir pazarda “yetersiz” algılanabilir. Bu farkların çoğu ürünün fiyatından değil; ton, işlev, minimalizm–premium dengesi ve hassas içeriklerden kaynaklanır."
+          "text": "Kültür bazlı hediye tasarımı, “herkesi memnun etme” hayali değildir; risk azaltma + memnuniyet artırma disiplinidir. Aynı hediye; bir pazarda “samimi”, diğerinde “gereksiz”, başka bir pazarda “yetersiz” algılanabilir. Bu farkların çoğu ürünün fiyatından değil; ton, işlev, minimalizm–premium dengesi ve hassas içeriklerden kaynaklanır. Bu yüzden [multilingual gifting strategy](https://dgtlface.com/tr/creative-ve-tasarim) yalnız çeviri değil; ambalaj dili, mesaj tonu ve segment beklentisini birlikte ele alan creative bir sistem olarak düşünülmelidir."
         },
         {
           "type": "p",
@@ -79925,8 +79946,8 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "Pazarı “pasaport” değil “beklenti profili” gibi düşün: aile, VIP, balayı gibi segmentlerle birlikte.",
-            "Misafir iletişimi ve ölçüm için iç link: https://dgtlface.com/tr/otel-dijital-pazarlama",
-            "Hediye mimarisi temeli için iç link: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+            "[Pazar bazlı hediye farklılaştırmasının dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) ile yorum, segment ve kampanya sinyallerini birlikte oku.",
+            "Kart dili, ambalaj ve ürün seçimini aynı brief içinde toplarsan operasyon tarafında hata payını azaltırsın."
           ]
         }
       ]
@@ -79941,7 +79962,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Önce çekirdek hediye fikrini sabitleyin (ör. welcome set) ve bunu pazar bazlı varyantlara ayırın: ürün tonu (minimal/premium), mesaj tonu (samimi/resmi) ve riskli içerikler (alkol, domuz/jelatin, alerjen) kontrol listesiyle yönetilsin. Kart/ambalaj metinlerini TR–EN–DE–RU profesyonel çeviriyle hazırlayın ve operasyonel olarak “hangi pazara hangi set”i depoda/ön büroda netleştirin. Son olarak şikâyet sinyali, yorum tonu ve memnuniyet eğilimiyle optimize edin."
+          "text": "Net cevap : Önce çekirdek hediye fikrini sabitleyin (ör. welcome set) ve bunu pazar bazlı varyantlara ayırın: ürün tonu (minimal/premium), mesaj tonu (samimi/resmi) ve riskli içerikler (alkol, domuz/jelatin, alerjen) kontrol listesiyle yönetilsin. Kart/ambalaj metinlerini TR–EN–DE–RU profesyonel çeviriyle hazırlayın ve operasyonel olarak “hangi pazara hangi set”i depoda/ön büroda netleştirin. Son olarak şikâyet sinyali, yorum tonu ve memnuniyet eğilimiyle optimize edin. Bu mantık özellikle [pazar bazlı B2B partner hediyesi](https://dgtlface.com/tr/creative/blog/acente-ota-partner-hediyeleri-b2b) kurgularında hata payını ciddi biçimde düşürür."
         },
         {
           "type": "h3",
@@ -79977,7 +79998,7 @@
           "title": "Ne yapmalıyım ",
           "items": [
             "Depoda setleri renk koduyla ayır (TR/EN/DE/RU).",
-            "Çağrı merkezi çok dilli iletişim iç link: https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "[Çok dilli hediye mesajı](https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi) için kart, teslim bilgilendirmesi ve destek metinlerini aynı dil standardında tut."
           ]
         }
       ]
@@ -80106,7 +80127,7 @@
         },
         {
           "type": "p",
-          "text": "Mini örnek (Bodrum): Bodrum’da RU ağırlıklı dönemlerde premium kutu + daha rafine set, “özel his” beklentisini karşılamada avantajlıdır. Aynı set DE pazarında fazla “showy” algılanabilir; o yüzden DE varyantında minimal tasarım ve fonksiyonel içerik daha güvenlidir."
+          "text": "Mini örnek (Bodrum): Bodrum’da RU ağırlıklı dönemlerde premium kutu + daha rafine set, “özel his” beklentisini karşılamada avantajlıdır. Aynı set DE pazarında fazla “showy” algılanabilir; o yüzden DE varyantında minimal tasarım ve fonksiyonel içerik daha güvenlidir. Benzer yaklaşım, [pazar bazlı sadakat hediyesi](https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-hediyeleri-ve-seviye-avantajlari) kurgularında da beklenti yönetimini güçlendirir."
         },
         {
           "type": "callout",
@@ -80205,7 +80226,7 @@
         },
         {
           "type": "p",
-          "text": "Mini örnek (Belek): Belek’te aynı welcome set gövdesi; DE için minimal kart + fonksiyonel parça, RU için premium sleeve + rafine parça, TR için sıcak kart + küçük yerel dokunuş ile üç varyanta ayrılabilir. Operasyon kolaylaşır çünkü setin %70’i aynı kalır."
+          "text": "Mini örnek (Belek): Belek’te aynı welcome set gövdesi; DE için minimal kart + fonksiyonel parça, RU için premium sleeve + rafine parça, TR için sıcak kart + küçük yerel dokunuş ile üç varyanta ayrılabilir. Operasyon kolaylaşır çünkü setin %70’i aynı kalır. Aynı modüler mantık, [yerel hikâyenin farklı pazarlara uyarlanması](https://dgtlface.com/tr/creative/blog/yerel-hikaye-anlatan-co-branded-hediye-koleksiyonlari) için de güçlü bir temel sunar."
         },
         {
           "type": "callout",
@@ -80223,7 +80244,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "Ön büro script’ini 4 dil için kısa tut.",
-            "Çağrı merkezi/mesaj yönetimiyle uyumla (4 dilli yapı): https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "Teslim bilgilendirmesi, soru-cevap ve destek akışını aynı çok dilli yapı içinde yönet."
           ]
         }
       ]
@@ -80243,13 +80264,6 @@
         {
           "type": "media",
           "slot": "kpi-07"
-        },
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Kültüre Duyarlı Kurumsal Hediye Tasarım Danışmanlığı Al",
-          "text": "TR–EN–DE–RU pazarlarında kültürel hassasiyetleri ve set varyantlarını doğru kurgulamak isteyen oteller için",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         },
         {
           "type": "cta",
@@ -80302,6 +80316,10 @@
         {
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapı doğru uygulandığında [pazar bazlı hediye farklılaştırmasının dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) daha net görünür; uygulama ve süreç detayları için [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasına da bakabilirsiniz."
         }
       ]
     }
@@ -80352,7 +80370,7 @@
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-        "İç link hedefleri kontrolü: /creative/kurumsal-hediye-tasarimi, /otel-dijital-pazarlama, /cagri-merkezi/4-dilli-cagri-merkezi",
+        "İç link hedefleri kontrol edildi: B2B partner, sadakat, co-branded koleksiyon, 4 dilli çağrı merkezi ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "CWV izleme ve medya optimizasyonu (WebP ölçüleri) kontrolü"
       ]
     }
@@ -80377,7 +80395,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa URL: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 21",
       "Blog URL: https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026",
       "Blog Tipi: Trend",
@@ -80421,14 +80439,14 @@
     "ctaPrimary": {
       "label": "2025–2026 Kurumsal Hediye Trend Analizi Al",
       "text": "Trendleri Antalya/İstanbul/Bodrum gibi destinasyonlarda segmentlere uyarlamak isteyenler için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "2025–2026 Kurumsal Hediye Trend Analizi Al",
       "text": "Oteliniz için doğru trendleri seçip VIP, aile ve B2B segmentlerine uyarlamak isteyenler için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Trend Odaklı Hediye Paket Örneklerini İndir",
@@ -80438,15 +80456,36 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Sürdürülebilir Hediye Rehberi",
+      "href": "/tr/creative/blog/surdurulebilir-kurumsal-hediye-fikirleri"
     },
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Dijital Hediye Kartı & Voucher Rehberi",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "label": "Phygital & NFT Hediye Deneyimleri",
+      "href": "/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Sürdürülebilir Hediye Rehberi",
+      "href": "/tr/creative/blog/surdurulebilir-kurumsal-hediye-fikirleri"
+    },
+    {
+      "title": "Dijital Hediye Kartı & Voucher Rehberi",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "title": "Phygital & NFT Hediye Deneyimleri",
+      "href": "/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri"
+    }
+  ],
   "sections": [
     {
       "id": "kurumsal-hediye-trendleri-neler",
@@ -80462,7 +80501,7 @@
         },
         {
           "type": "p",
-          "text": "Bu H2, trend içeriğinin “tek bakışta” değer verdiği yerdir. Aşağıdaki listeyi, otel hediyesinde en sık gördüğümüz segmentlere göre düşünün (VIP, aile, B2B, MICE)."
+          "text": "Bu H2, trend içeriğinin “tek bakışta” değer verdiği yerdir. Aşağıdaki listeyi, otel hediyesinde en sık gördüğümüz segmentlere göre düşünün (VIP, aile, B2B, MICE). Bu çerçevede [modern brand gift ideas](https://dgtlface.com/tr/creative-ve-tasarim) yalnız ürün seçimi değil; kişiselleştirme, sürdürülebilirlik, ambalaj ve dijital temasların birlikte kurgulanması anlamına gelir."
         },
         {
           "type": "h3",
@@ -80604,7 +80643,7 @@
         },
         {
           "type": "p",
-          "text": "Kişiselleştirme, 2025–2026’da “isim yazmak”tan çok “doğru seçmek” anlamına geliyor: VIP misafire spa odaklı, aileye çocuk aktivitesi odaklı, B2B’ye masaüstü/işlev odaklı… Deneyim hediyeleri ve dijital katman (phygital) bu seçimi görünür kılıyor. “Kurumsal hediye artık deneyim ve ölçümle birleşiyor” yaklaşımı birçok trend raporunda vurgulanıyor."
+          "text": "Kişiselleştirme, 2025–2026’da “isim yazmak”tan çok “doğru seçmek” anlamına geliyor: VIP misafire spa odaklı, aileye çocuk aktivitesi odaklı, B2B’ye masaüstü/işlev odaklı… Deneyim hediyeleri ve dijital katman (phygital) bu seçimi görünür kılıyor. “Kurumsal hediye artık deneyim ve ölçümle birleşiyor” yaklaşımı birçok trend raporunda vurgulanıyor. Bu başlık özellikle [dijital voucher trendleri](https://dgtlface.com/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi) ve [personalisation ve phygital gifting](https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri) senaryolarında daha somut hale gelir."
         },
         {
           "type": "h3",
@@ -80653,8 +80692,8 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "İlk sprint: 1 phygital senaryo kur (VIP spa / aile aktiviteleri / B2B teşekkür).",
-            "İç link: /tr/otel-dijital-pazarlama (ölçüm ve kampanya kurgusu).",
-            "İç link: /tr/creative/kurumsal-hediye-tasarimi (hediye mimarisi)."
+            "QR ve landing tarafında tek amaçlı akış kur; ölçüm ve kampanya standardını baştan tanımla.",
+            "Phygital katmanı eklerken deneyimi zorlaştırmayacak kadar sade kal."
           ]
         }
       ]
@@ -80665,7 +80704,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sürdürülebilirlik “trend mi kalıcı mı?” sorusunun cevabı otelde şuna bağlanır: misafir, ambalaj ve ürün seçimini görüyor ve yorumluyor. Tüketicilerin sürdürülebilir ambalaj için bazı segmentlerde daha fazla ödeme istekliliği olduğuna dair 2025 araştırmaları var. Buradaki risk: “greenwashing”. Çözüm: kanıt + basit anlatım + gerçekten kullanılan ürün."
+          "text": "Sürdürülebilirlik “trend mi kalıcı mı?” sorusunun cevabı otelde şuna bağlanır: misafir, ambalaj ve ürün seçimini görüyor ve yorumluyor. Tüketicilerin sürdürülebilir ambalaj için bazı segmentlerde daha fazla ödeme istekliliği olduğuna dair 2025 araştırmaları var. Buradaki risk: “greenwashing”. Çözüm: kanıt + basit anlatım + gerçekten kullanılan ürün. Bu nedenle [sürdürülebilir kurumsal hediye trendleri](https://dgtlface.com/tr/creative/blog/surdurulebilir-kurumsal-hediye-fikirleri) yalnız malzeme seçimi değil, tedarik ve ambalaj disiplini olarak da okunmalıdır."
         },
         {
           "type": "h3",
@@ -80702,8 +80741,8 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "“1 koleksiyon = 3 ürün hattı” ile başla (gıda/seramik/tekstil).",
-            "İç link: /tr/creative/kurumsal-hediye-tasarimi (co-branded yaklaşım).",
-            "Sürdürülebilirliği kartta 2–3 cümlede anlat."
+            "Sürdürülebilirliği kartta 2–3 cümlede anlat.",
+            "Kanıtlayamadığın çevresel iddiayı trend başlığına dönüştürme."
           ]
         }
       ]
@@ -80764,7 +80803,7 @@
           "items": [
             "Depoda “çekirdek + varyant” raf ayrımı yap.",
             "180 gün refresh cycle’a uygun: yıl ortası ve yıl sonu trend review planla.",
-            "İç link: /tr/otel-dijital-pazarlama (kampanya planı)."
+            "Trend seçimini kampanya takvimi ve stok gerçekliğiyle birlikte değerlendir."
           ]
         }
       ]
@@ -80879,13 +80918,6 @@
         },
         {
           "type": "cta",
-          "variant": "primary",
-          "label": "2025–2026 Kurumsal Hediye Trend Analizi Al",
-          "text": "Trendleri segment ve pazarınıza göre uygulama planına çevirmek isteyenler için",
-          "href": "/creative/kurumsal-hediye-tasarimi"
-        },
-        {
-          "type": "cta",
           "variant": "secondary",
           "label": "Trend Odaklı Hediye Paket Örneklerini İndir",
           "text": "VIP, aile ve B2B için trend uyarlamalı hazır paket örnekleriyle hızlı fikir ve brief sağlar.",
@@ -80937,6 +80969,10 @@
         {
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Trendleri yalnız ilham olarak değil, uygulama planı olarak okumak gerekir; bu çerçevede [hediye trendlerinin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) kampanya ve görünürlük tarafını daha net gösterir. Hizmet kapsamı, üretim ve süreç detayları için [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     }
@@ -80988,7 +81024,7 @@
         "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "İç linklerde kırık link ve redirect zinciri yok",
-        "İç link hedefleri kontrolü: /tr/creative/kurumsal-hediye-tasarimi ve /tr/otel-dijital-pazarlama",
+        "İç link hedefleri kontrol edildi: sürdürülebilir hediye, dijital voucher, phygital deneyim ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "180 günlük refresh cycle için Q2 & Q4 içerik gözden geçirme takvimi oluşturuldu",
         "CWV izleme ve medya optimizasyonu (WebP ölçüleri) kontrolü"
       ]
@@ -81014,7 +81050,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa URL: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 22",
       "Blog URL: https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme",
       "Blog Tipi: Trend",
@@ -81058,14 +81094,14 @@
     "ctaPrimary": {
       "label": "AI Destekli Kurumsal Hediye Tasarımı Danışmanlığı Al",
       "text": "AI’ı yaratıcı asistan olarak kullanıp KVKK ve marka tonu riskini kontrol etmek isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "AI Destekli Kurumsal Hediye Tasarımı Danışmanlığı Al",
       "text": "AI’ı yaratıcı asistan olarak kullanıp KVKK ve marka tonu riskini kontrol etmek isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "AI Prompt & Kişiselleştirme Akışı Örneklerini İndir",
@@ -81075,23 +81111,44 @@
   },
   "internalLinks": [
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Kurumsal Hediye Trendleri",
+      "href": "/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026"
     },
     {
-      "label": "PMS & OTA yönetimi",
-      "href": "/pms-ota-yonetimi"
+      "label": "Dijital Hediye Kartı & Voucher",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
     },
     {
-      "label": "KVKK uyum hizmeti",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "label": "Kültür ve Pazar Bazlı Hediye Lokalizasyonu",
+      "href": "/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari"
     },
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "PMS & OTA Yönetimi",
+      "href": "/tr/pms-ota-yonetimi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Kurumsal Hediye Trendleri",
+      "href": "/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026"
+    },
+    {
+      "title": "Dijital Hediye Kartı & Voucher",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "title": "Kültür ve Pazar Bazlı Hediye Lokalizasyonu",
+      "href": "/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari"
+    }
+  ],
   "sections": [
     {
       "id": "ai-araclariyla-hediye-fikir-set-tasarimi",
@@ -81103,7 +81160,7 @@
         },
         {
           "type": "p",
-          "text": "AI’nın en hızlı değer verdiği yer “boş sayfa” problemidir: VIP set, aile seti, B2B partner hediyesi, MICE kit… Her seferinde sıfırdan düşünmek yerine AI ile 10–20 alternatif üretip insan filtresiyle 2–3 konsepte inebilirsiniz."
+          "text": "AI’nın en hızlı değer verdiği yer “boş sayfa” problemidir: VIP set, aile seti, B2B partner hediyesi, MICE kit… Her seferinde sıfırdan düşünmek yerine AI ile 10–20 alternatif üretip insan filtresiyle 2–3 konsepte inebilirsiniz. Bu yaklaşım, [insan onaylı AI gifting](https://dgtlface.com/tr/creative-ve-tasarim) çerçevesinde yaratıcı hız ile marka kontrolünü birlikte korumayı kolaylaştırır."
         },
         {
           "type": "h3",
@@ -81150,7 +81207,7 @@
           "items": [
             "1 set için AI’dan 10 alternatif al, sonra 3’e indir.",
             "Her alternatif için “amaç + segment + maliyet bandı” notu düş.",
-            "İç link: hediye mimarisi temeli için https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+            "Seçtiğin konsepti standart bir hediye mimarisi brief’iyle karşılaştır."
           ]
         }
       ]
@@ -81165,7 +81222,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : AI ile hediye tasarımında önce hedef segmenti ve kısıtları netleştirip doğru prompt ile seçenek seti üretin. Misafir verisi kullanacaksanız yalnızca gerekli alanlarla ve mümkünse anonimleştirerek çalışın; çıkan taslağı marka tonu, kültürel hassasiyet ve operasyon gerçekleri açısından insan onayıyla filtreleyin. Son olarak onaylanan seti CRM/PMS etiketleriyle kaydedip ölçümle optimize edin."
+          "text": "Net cevap : AI ile hediye tasarımında önce hedef segmenti ve kısıtları netleştirip doğru prompt ile seçenek seti üretin. Misafir verisi kullanacaksanız yalnızca gerekli alanlarla ve mümkünse anonimleştirerek çalışın; çıkan taslağı marka tonu, kültürel hassasiyet ve operasyon gerçekleri açısından insan onayıyla filtreleyin. Son olarak onaylanan seti CRM/PMS etiketleriyle kaydedip ölçümle optimize edin. Bu akış, özellikle [AI destekli gifting trendleri](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026) içinde öne çıkan hız, personalisation ve kontrollü üretim ihtiyacını somutlaştırır."
         },
         {
           "type": "h3",
@@ -81297,7 +81354,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "“Profil kartları” oluştur: 10 profil, her biri için 1 öneri seti.",
-            "KVKK süreçleri için iç link: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            "[AI gifting sürecinde güvenli veri kullanımı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) standardını profiller başlamadan önce netleştir."
           ]
         }
       ]
@@ -81308,7 +81365,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "AI’nın en hızlı kazandırdığı alanlardan biri Multilingual Copy: hediye kartı, oda kartı, e-posta/WhatsApp mesajları. Burada kural: AI taslak üretir; final metin insan edit görür."
+          "text": "AI’nın en hızlı kazandırdığı alanlardan biri Multilingual Copy: hediye kartı, oda kartı, e-posta/WhatsApp mesajları. Burada kural: AI taslak üretir; final metin insan edit görür. Bu yapı, [AI destekli voucher önerileri](https://dgtlface.com/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi) ve [pazar bazlı AI gifting](https://dgtlface.com/tr/creative/blog/kuresel-ve-lokal-pazarlar-icin-hediye-kultur-farklari) senaryolarında daha görünür hale gelir."
         },
         {
           "type": "h3",
@@ -81358,7 +81415,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "4 dil için “kısa kart metni” kütüphanesi hazırla (VIP/aile/B2B/MICE).",
-            "Çok dilli çağrı merkezi/mesaj yönetimi bağlantısı: https://dgtlface.com/tr/pms-ota-yonetimi"
+            "Her dil varyantı için native kontrol ve risk notu sütunu ekle."
           ]
         }
       ]
@@ -81369,7 +81426,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu bölüm “oyun alanı”nı güvenli hale getirir: veri köprüsü kurulmadan AI ile kişiselleştirme sürdürülemez."
+          "text": "Bu bölüm “oyun alanı”nı güvenli hale getirir: veri köprüsü kurulmadan AI ile kişiselleştirme sürdürülemez. Bu yüzden [CRM verisi destekli hediye kurgusu](https://dgtlface.com/tr/pms-ota-yonetimi) ile [AI gifting sürecinde güvenli veri kullanımı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) aynı operasyon çerçevesinde ele alınmalıdır."
         },
         {
           "type": "h3",
@@ -81407,7 +81464,7 @@
           "title": "Ne yapmalıyım",
           "items": [
             "“AI üretim logu” alanı aç: prompt, çıktı, onaylayan, yayınlanan kanal.",
-            "İç link: KVKK uyum hizmeti: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            "Rol bazlı erişim ve saklama süresi notunu log şablonuna ekle."
           ]
         }
       ]
@@ -81489,13 +81546,6 @@
         },
         {
           "type": "cta",
-          "variant": "primary",
-          "label": "AI Destekli Kurumsal Hediye Tasarımı Danışmanlığı Al",
-          "text": "AI’ı yaratıcı asistan olarak kullanıp KVKK ve marka tonu riskini kontrol etmek isteyen oteller için",
-          "href": "/creative/kurumsal-hediye-tasarimi"
-        },
-        {
-          "type": "cta",
           "variant": "secondary",
           "label": "AI Prompt & Kişiselleştirme Akışı Örneklerini İndir",
           "text": "Prompt kütüphanesi, profil kartları ve onay akışıyla AI kullanımını güvenli şekilde standartlaştırır.",
@@ -81534,6 +81584,10 @@
         {
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "AI destekli kurgunun gerçek değerini görmek için [AI destekli hediye kişiselleştirmenin dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) tarafına da bakmak gerekir; kapsam, üretim ve süreç ayrıntılarını netleştirmek için ise [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfası doğal sonraki adımdır."
         }
       ]
     }
@@ -81585,7 +81639,7 @@
         "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "İç linklerde kırık link ve redirect zinciri yok",
-        "İç link hedefleri kontrolü: /tr/otel-dijital-pazarlama, /tr/pms-ota-yonetimi, /tr/yazilim/kvkk-uyum-hizmeti, /tr/creative/kurumsal-hediye-tasarimi",
+        "İç link hedefleri kontrol edildi: trendler, dijital voucher, pazar lokalizasyonu, PMS/OTA, KVKK uyumu ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "CRM/PMS → anonim profil → AI → insan onayı → yayın akışında veri minimizasyonu kontrolü",
         "AI üretim logu için prompt, çıktı, onaylayan, yayınlanan kanal ve tarih alanları kontrolü",
         "KVKK/veri erişim ve rol bazlı yetkilendirme süreçleri kontrolü",
@@ -81614,7 +81668,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa URL: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 23",
       "Blog URL: https://dgtlface.com/tr/creative/blog/phygital-nft-ve-dijital-hediye-deneyimleri",
       "Blog Tipi: Trend",
@@ -81658,14 +81712,14 @@
     "ctaPrimary": {
       "label": "Phygital & Dijital Hediye Konsepti Danışmanlığı Al",
       "text": "Phygital/NFT alanında basit pilotla başlayıp riskleri yönetmek isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Phygital & Dijital Hediye Konsepti Danışmanlığı Al",
       "text": "Phygital/NFT alanında basit pilotla başlayıp riskleri yönetmek isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Phygital Hediye Fikir & Akış Şablonunu İndir",
@@ -81675,15 +81729,40 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "Kurumsal Hediye Trendleri",
+      "href": "/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026"
     },
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Dijital Hediye Kartı & Voucher",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "label": "Upsell & Cross-sell Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/tr/pms-ota-yonetimi"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Kurumsal Hediye Trendleri",
+      "href": "/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026"
+    },
+    {
+      "title": "Dijital Hediye Kartı & Voucher",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "title": "Upsell & Cross-sell Rehberi",
+      "href": "/tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel"
+    }
+  ],
   "sections": [
     {
       "id": "phygital-hediye-nedir",
@@ -81695,7 +81774,7 @@
         },
         {
           "type": "p",
-          "text": "Phygital Gift, en sade haliyle “fiziksel hediye + dijital hak” birleşimidir. Fiziksel taraf, dokunulabilir değeri ve premium algıyı taşır; dijital taraf ise ölçüm, kişiselleştirme ve devam eden ilişkiyi kurar."
+          "text": "Phygital Gift, en sade haliyle “fiziksel hediye + dijital hak” birleşimidir. Fiziksel taraf, dokunulabilir değeri ve premium algıyı taşır; dijital taraf ise ölçüm, kişiselleştirme ve devam eden ilişkiyi kurar. Bu yüzden [yeni nesil hotel gifting](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımında fiziksel kutu ile dijital temasın aynı marka deneyimi içinde düşünülmesi gerekir."
         },
         {
           "type": "h3",
@@ -81727,8 +81806,8 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "İlk pilotta “NFT” kelimesini bile kullanmadan başlayabilirsiniz: “Dijital sertifika” yeterlidir.",
-            "Dijital ölçüm ve landing tasarımı için iç link: https://dgtlface.com/tr/otel-dijital-pazarlama",
-            "Hediye mimarisi temeli için iç link: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+            "Landing sayfasında tek CTA ve kısa kullanım koşulu standardı kurun.",
+            "Fiziksel hediye ile dijital hakkın aynı değer önerisini taşıdığından emin olun."
           ]
         }
       ]
@@ -81743,7 +81822,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Önce misafire net bir “somut değer” verin (spa hakkı, oda avantajı, deneyim kuponu), sonra bunu dijital sertifika/QR ile doğrulanabilir hâle getirin ve fiziksel hediyeyle tamamlayın. NFT gibi çözümleri ancak hedef kitleniz hazırsa ve kullanım akışı basitse (cüzdan zorunlu değil, alternatif erişim var) ekleyin. Her adımda tek CTA, net koşul ve küçük pilot test prensibiyle ilerleyin."
+          "text": "Net cevap : Önce misafire net bir “somut değer” verin (spa hakkı, oda avantajı, deneyim kuponu), sonra bunu dijital sertifika/QR ile doğrulanabilir hâle getirin ve fiziksel hediyeyle tamamlayın. NFT gibi çözümleri ancak hedef kitleniz hazırsa ve kullanım akışı basitse (cüzdan zorunlu değil, alternatif erişim var) ekleyin. Her adımda tek CTA, net koşul ve küçük pilot test prensibiyle ilerleyin. Bu mantık, özellikle [NFT ve dijital sertifika trendleri](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-trendleri-2025-2026) içinde öne çıkan deneyim odaklı ve ölçülebilir gifting yaklaşımını otel senaryosuna çevirir."
         },
         {
           "type": "h3",
@@ -81789,7 +81868,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu başlıkta net ayrımı yapmak gerekir:"
+          "text": "Bu başlıkta net ayrımı yapmak gerekir: çoğu otel için [dijital voucher destekli phygital hediye](https://dgtlface.com/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi) modeli, yatırım veya spekülasyon çağrışımı taşımadan deneyim ve erişim değerini anlatmak açısından daha güvenli bir başlangıçtır."
         },
         {
           "type": "h3",
@@ -81901,7 +81980,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Phygital’in en iyi çalıştığı yer, otelin zaten değer ürettiği alanlardır: oda, spa, restoran ve local tour."
+          "text": "Phygital’in en iyi çalıştığı yer, otelin zaten değer ürettiği alanlardır: oda, spa, restoran ve local tour. Doğru kurgulandığında bu model [phygital hediyeyle added value offer](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-ile-upsell-cross-sell-otel) yapısına dönüşebilir ve [QR kodlu hediye deneyimi](https://dgtlface.com/tr/pms-ota-yonetimi) üzerinden rezervasyon akışına bağlanabilir."
         },
         {
           "type": "h3",
@@ -81938,7 +82017,7 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "Her hak için bir “SOP” yaz: kim doğrular, nereden görür, nasıl raporlar.",
-            "Ölçüm ve UTM/event için: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Blackout, kapasite ve kullanım ekranını misafir tarafında tek sayfada göster."
           ]
         }
       ]
@@ -81985,8 +82064,8 @@
           "title": "Ne yapmalıyım ",
           "items": [
             "“Gamification”ı tek bir rozetle başlatın.",
-            "Çok dilli iletişim gerekiyorsa call center içerikleriyle uyum notu düş:",
-            "Varsayım: çok dilli iletişim cluster’ı bağlantısı (URL verilmediyse) — Varsayım: /tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "Sadakat dili ile phygital deneyim dilini aynı mikro kopya standardında tutun.",
+            "Koleksiyon veya rozet mantığını opsiyonel katman olarak düşünün; temel değeri gölgelemeyin."
           ]
         }
       ]
@@ -82092,13 +82171,6 @@
         {
           "type": "media",
           "slot": "proof-08"
-        },
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Phygital & Dijital Hediye Konsepti Danışmanlığı Al",
-          "text": "Phygital/NFT alanında basit pilotla başlayıp riskleri yönetmek isteyen oteller için",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         }
       ]
     },
@@ -82146,6 +82218,10 @@
         {
           "type": "media",
           "slot": "checklist-06"
+        },
+        {
+          "type": "p",
+          "text": "Pilotun kampanya, CRM ve görünürlük tarafını daha net okumak için [phygital hediyenin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) perspektifine de bakın; kapsam, üretim ve süreç detaylarını netleştirmek için ise [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfası doğal sonraki adımdır."
         }
       ]
     }
@@ -82197,7 +82273,7 @@
         "TR/EN hreflang karşılıklılık kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "İç linklerde kırık link ve redirect zinciri yok",
-        "İç link hedefleri kontrolü: /tr/creative/kurumsal-hediye-tasarimi ve /tr/otel-dijital-pazarlama",
+        "İç link hedefleri kontrol edildi: trendler, dijital voucher, upsell, PMS/OTA ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Dijital hak kullanım koşulları, blackout ve kapasite bilgilerinin landing üzerinde açık olması",
         "QR/landing akışında tek CTA ve UTM/event ölçümünün doğrulanması",
         "Dijital hak doğrulama ve kullanım kayıtlarının operasyon SOP’una bağlanması",
@@ -82228,7 +82304,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa URL: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 24",
       "Blog URL: https://dgtlface.com/tr/creative/blog/on-demand-ve-son-dakika-kurumsal-hediye-lojistigi",
       "Blog Tipi: Trend",
@@ -82272,14 +82348,14 @@
     "ctaPrimary": {
       "label": "On-Demand & Son Dakika Hediye Lojistiği Danışmanlığı Al",
       "text": "Same day menü, kurye SLA ve telafi sürecini misafir deneyimini bozmadan kurmak isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "On-Demand & Son Dakika Hediye Lojistiği Danışmanlığı Al",
       "text": "Same day menü, kurye SLA ve telafi sürecini misafir deneyimini bozmadan kurmak isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "On-Demand Hediye Akış & Lojistik Plan Şablonunu İndir",
@@ -82289,23 +82365,44 @@
   },
   "internalLinks": [
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "VIP Karşılama Seti Rehberi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
     },
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Dijital Hediye Kartı & Voucher",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
     },
     {
-      "label": "Etkinlik prodüksiyonu",
-      "href": "/creative/etkinlik-produksiyonu"
+      "label": "Hediye Stok & Operasyon Yönetimi",
+      "href": "/tr/creative/blog/kurumsal-hediye-stok-ve-operasyon-yonetimi"
     },
     {
-      "label": "Satış dönüşüm raporlama",
-      "href": "/raporlama/satis-donusum"
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Satış & Dönüşüm Raporlama",
+      "href": "/tr/raporlama/satis-donusum"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "VIP Karşılama Seti Rehberi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+    },
+    {
+      "title": "Dijital Hediye Kartı & Voucher",
+      "href": "/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi"
+    },
+    {
+      "title": "Hediye Stok & Operasyon Yönetimi",
+      "href": "/tr/creative/blog/kurumsal-hediye-stok-ve-operasyon-yonetimi"
+    }
+  ],
   "sections": [
     {
       "id": "neden-on-demand-last-minute-hediye-modelleri-yukseliyor",
@@ -82317,7 +82414,7 @@
         },
         {
           "type": "p",
-          "text": "Misafir davranışı hızlandı: “bugün var, bugün sürpriz olsun.” Kurumsal tarafta da benzer: “toplantı bitti, hemen teşekkür hediyesi.” Bu beklenti, özellikle İstanbul/Ankara gibi şehir otellerinde ve MICE trafiği olan destinasyonlarda daha görünür. Resort’larda (Antalya/Bodrum) ise “oda sürprizi” deneyimi sosyal medya ile büyüdüğü için hız beklentisi artıyor."
+          "text": "Misafir davranışı hızlandı: “bugün var, bugün sürpriz olsun.” Kurumsal tarafta da benzer: “toplantı bitti, hemen teşekkür hediyesi.” Bu beklenti, özellikle İstanbul/Ankara gibi şehir otellerinde ve MICE trafiği olan destinasyonlarda daha görünür. Resort’larda (Antalya/Bodrum) ise “oda sürprizi” deneyimi sosyal medya ile büyüdüğü için hız beklentisi artıyor. Bu yüzden [same day gift delivery](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı yalnız lojistik değil; doğru mesaj, doğru sunum ve marka deneyimiyle birlikte düşünülmelidir."
         },
         {
           "type": "p",
@@ -82350,8 +82447,8 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "On-demand’i “herkese her an” değil; sınırlı senaryolara bağla (VIP/özel gün/kurumsal).",
-            "Operasyon temeli için siloya bağlan: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
-            "Ölçüm (tıklama/şikâyet) için: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Menü, stok ve teslim akışını ilk günden tek sorumluluk tablosunda topla.",
+            "Hız vaadini kapasiteye göre yaz; belirsiz süre vermekten kaçın."
           ]
         }
       ]
@@ -82402,7 +82499,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "İlk pilotta tek hedef koy: “oda sürprizi same-day başarı oranı %X” (kendi hedefiniz).",
-            "Akışı dijitalde ölçmek için UTM/event planı ekle: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Pilot boyunca SLA, teslim süresi ve şikâyet nedenlerini aynı tabloda izle."
           ]
         }
       ]
@@ -82413,7 +82510,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Aynı gün teslimin en kritik noktası “saat”. Misafir odaya 18:00’de girecekse, kurgu 17:30’da “odada” olmalıdır. Bu da kurye kadar housekeeping ve ön büroyu da sürece dahil eder."
+          "text": "Aynı gün teslimin en kritik noktası “saat”. Misafir odaya 18:00’de girecekse, kurgu 17:30’da “odada” olmalıdır. Bu da kurye kadar housekeeping ve ön büroyu da sürece dahil eder; özellikle [VIP misafir için hızlı welcome set](https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye) kurgularında zamanlama ve yerleşim standardı deneyimin kalitesini doğrudan etkiler."
         },
         {
           "type": "h3",
@@ -82515,7 +82612,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "Model A’yı ana, Model C’yi yedek plan yap (başlangıçta).",
-            "Etkinlik sonrası hediyelerle karışmaması için süreçleri ayır: https://dgtlface.com/tr/creative/etkinlik-produksiyonu"
+            "[Etkinlik sırasında hızlı hediye teslimi](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) için ayrı akış ve ekip sorumluluğu tanımla."
           ]
         }
       ]
@@ -82526,7 +82623,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "On-demand’in kalbi “süreç haritası”dır: sipariş → hazırlık → teslim → yerleşim → teyit. Bu harita yoksa herkes birbirine sorar, zaman kaybolur."
+          "text": "On-demand’in kalbi “süreç haritası”dır: sipariş → hazırlık → teslim → yerleşim → teyit. Bu harita yoksa herkes birbirine sorar, zaman kaybolur. Sağlam bir [son dakika hediye stok planı](https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stok-ve-operasyon-yonetimi) olmadan same-day akışı sürdürülebilir hale gelmez."
         },
         {
           "type": "h3",
@@ -82577,7 +82674,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "“Şehir içi kurye ile hediye teslim” için tek tedarikçiyle başla; sonra yedek ekle.",
-            "Operasyon KPI’larını satış dönüşüm okumasına bağla: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "[On-demand hediyenin satış ve dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) için teslim başarısı, voucher kullanımı ve tekrar rezervasyon sinyallerini birlikte izle."
           ]
         }
       ]
@@ -82588,7 +82685,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "On-demand modeli, tetikleyiciyle “doğru an”ı yakaladığında değer üretir. Tetikleyici yoksa süreç her seferinde manuel çalışır ve yorulur."
+          "text": "On-demand modeli, tetikleyiciyle “doğru an”ı yakaladığında değer üretir. Tetikleyici yoksa süreç her seferinde manuel çalışır ve yorulur. Fiziksel hazırlık yetişmediğinde [son dakika dijital voucher alternatifi](https://dgtlface.com/tr/creative/blog/dijital-hediye-karti-ve-voucher-deneyimi) devreye girerek deneyimin tamamen boşa düşmesini önleyebilir."
         },
         {
           "type": "h3",
@@ -82639,7 +82736,7 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "İlk pilotta sadece 1 tetikleyici seç (ör. doğum günü).",
-            "Dijital tetikleyici + ölçüm için: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Tetikleyiciyi önce gölge modda test et, sonra otomatik aksiyona taşı."
           ]
         }
       ]
@@ -82744,13 +82841,6 @@
         },
         {
           "type": "cta",
-          "variant": "primary",
-          "label": "On-Demand & Son Dakika Hediye Lojistiği Danışmanlığı Al",
-          "text": "Same day menü, kurye SLA ve telafi sürecini misafir deneyimini bozmadan kurmak isteyen oteller için",
-          "href": "/creative/kurumsal-hediye-tasarimi"
-        },
-        {
-          "type": "cta",
           "variant": "secondary",
           "label": "On-Demand Hediye Akış & Lojistik Plan Şablonunu İndir",
           "text": "Menü, SLA, stok min–max ve telafi adımlarını tek sayfada standardize eder.",
@@ -82798,6 +82888,10 @@
             "SOP sahibi belli",
             "Ölçüm planı hazır"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu modeli yalnız operasyonel çözüm değil; [aynı gün oda sürprizinin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte okunması gereken bir deneyim standardı olarak düşünün. Kapsam, stok, teslimat ve süreç detaylarını netleştirmek için ise [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfası doğal sonraki adımdır."
         }
       ]
     }
@@ -82849,7 +82943,7 @@
         "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "İç linklerde kırık link ve redirect zinciri yok",
-        "İç link hedefleri kontrolü: /tr/creative/kurumsal-hediye-tasarimi, /tr/otel-dijital-pazarlama, /tr/creative/etkinlik-produksiyonu, /tr/raporlama/satis-donusum",
+        "İç link hedefleri kontrol edildi: VIP set, dijital voucher, stok yönetimi, etkinlik prodüksiyonu, satış dönüşüm ve otel dijital pazarlama bağlantıları doğru bağlamda yerleştirildi",
         "Same-day menü için cutoff saatleri ve gece teslim limitleri web/ön büro metninde açık",
         "Kritik SKU min–max seviyeleri ve SKT’li ürünlerde FEFO süreci tanımlı",
         "Kurye/tedarikçi SLA, yoğun gün kapasitesi ve hasar/eksik teslim prosedürü yazılı",
@@ -82882,7 +82976,7 @@
     "sheetSummary": [
       "Silo: Creative",
       "Sayfa Adı: Kurumsal Hediye & Tasarım",
-      "Sayfa URL: https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "Sayfa (Hub): Kurumsal Hediye & Tasarım",
       "Blog No: 25",
       "Blog URL: https://dgtlface.com/tr/creative/blog/influencer-ve-ugc-icin-hediye-seeding-kampanyalari",
       "Blog Tipi: Trend",
@@ -82925,14 +83019,14 @@
     "ctaPrimary": {
       "label": "Influencer & UGC Hediye Seeding Stratejisi Danışmanlığı Al",
       "text": "Doğru creator seçimi, net brief, hak yönetimi ve raporlama ile sürdürülebilir seeding sistemi kurmak isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Influencer & UGC Hediye Seeding Stratejisi Danışmanlığı Al",
       "text": "Doğru creator seçimi, net brief, hak yönetimi ve raporlama ile sürdürülebilir seeding sistemi kurmak isteyen oteller için",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "href": "/tr/creative/kurumsal-hediye-tasarimi"
     },
     "secondary": {
       "label": "Hediye Seeding Creator List & Brief Şablonunu İndir",
@@ -82942,23 +83036,44 @@
   },
   "internalLinks": [
     {
-      "label": "SMM",
-      "href": "/smm"
+      "label": "Hediye Hikayesi Rehberi",
+      "href": "/tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya"
     },
     {
-      "label": "Reels / Video",
-      "href": "/smm/reels-video"
+      "label": "AI Kişiselleştirme Rehberi",
+      "href": "/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme"
     },
     {
-      "label": "Kurumsal Hediye & Tasarım",
-      "href": "/creative/kurumsal-hediye-tasarimi"
+      "label": "VIP Karşılama Seti Rehberi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
     },
     {
-      "label": "Otel sosyal medya",
-      "href": "/otel-sosyal-medya"
+      "label": "Sosyal Medya Yönetimi",
+      "href": "/tr/sosyal-medya-yonetimi"
+    },
+    {
+      "label": "Reels Video",
+      "href": "/tr/smm/reels-video"
+    },
+    {
+      "label": "Otel Sosyal Medya",
+      "href": "/tr/otel/sosyal-medya"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Hediye Hikayesi Rehberi",
+      "href": "/tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya"
+    },
+    {
+      "title": "AI Kişiselleştirme Rehberi",
+      "href": "/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme"
+    },
+    {
+      "title": "VIP Karşılama Seti Rehberi",
+      "href": "/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+    }
+  ],
   "sections": [
     {
       "id": "hediye-seeding-nedir-oteller-icin-ne-saglar",
@@ -82970,7 +83085,7 @@
         },
         {
           "type": "p",
-          "text": "Hediye seeding; otelin bir creator’a hediye/deneyim göndermesi ve bunun karşılığında içerik beklentisini şeffaf ve profesyonel biçimde yönetmesidir. Bazı seeding’ler “hediye, karşılık beklemeden” yürütülür; bazıları ise ücretli iş birliğine yaklaşır (brief + hak + disclosure netliği daha da önem kazanır)."
+          "text": "Hediye seeding; otelin bir creator’a hediye/deneyim göndermesi ve bunun karşılığında içerik beklentisini şeffaf ve profesyonel biçimde yönetmesidir. Bazı seeding’ler “hediye, karşılık beklemeden” yürütülür; bazıları ise ücretli iş birliğine yaklaşır (brief + hak + disclosure netliği daha da önem kazanır). Bu yüzden [creator gifting strategy](https://dgtlface.com/tr/creative-ve-tasarim) yalnız gönderim değil; kutu deneyimi, sosyal paylaşım ve marka güvenliğiyle birlikte düşünülmelidir."
         },
         {
           "type": "p",
@@ -83003,8 +83118,8 @@
           "title": "Ne yapmalıyım? ",
           "items": [
             "“Seeding → UGC → kampanya” hattını baştan planla (aşağıdaki akış).",
-            "İç link: SMM çatısı için https://dgtlface.com/tr/smm",
-            "İç link: Reels/Video pratikleri için https://dgtlface.com/tr/smm/reels-video"
+            "Creator seçimi ve kullanım hakkı notlarını ilk brief’ten itibaren aynı dosyada topla.",
+            "Şeffaflık, reklam iş birliği etiketi ve marka onayı koşullarını baştan yazılı hale getir."
           ]
         }
       ]
@@ -83019,7 +83134,7 @@
         },
         {
           "type": "p",
-          "text": "Net cevap : Önce hedef segment ve pazar (luxury/family/city; TR/EN/DE/RU) seçilir, sonra bu segmente uygun creator listesi çıkarılır. Hediye kutusu konsepti ve mesajı (ürün + deneyim + hikâye) hazırlanır; brief’te beklenen output’lar, teslim takvimi, disclosure ve kullanım hakları net yazılır. Kampanya sonunda performans ölçülür (reach, saves, link tıklama, UGC kalitesi) ve “devam–optimize–durdur” kararı verilir."
+          "text": "Net cevap : Önce hedef segment ve pazar (luxury/family/city; TR/EN/DE/RU) seçilir, sonra bu segmente uygun creator listesi çıkarılır. Hediye kutusu konsepti ve mesajı (ürün + deneyim + hikâye) hazırlanır; brief’te beklenen output’lar, teslim takvimi, disclosure ve kullanım hakları net yazılır. Kampanya sonunda performans ölçülür (reach, saves, link tıklama, UGC kalitesi) ve “devam–optimize–durdur” kararı verilir. Creator profiline göre [kişiselleştirilmiş creator gift box](https://dgtlface.com/tr/creative/blog/ai-ile-kurumsal-hediye-tasarimi-ve-kisisellestirme) yaklaşımı kurmak, aynı kutunun farklı segmentlerde daha doğru hikâye üretmesini sağlar."
         },
         {
           "type": "h3",
@@ -83115,7 +83230,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Seeding kutusu “içerik üretim seti” gibi tasarlanmalı: kutu açılır açılmaz 10 saniyede anlatı çıkarabilmeli. Kutu, creator’a neyi nasıl anlatacağını “görsel olarak” öğretmelidir."
+          "text": "Seeding kutusu “içerik üretim seti” gibi tasarlanmalı: kutu açılır açılmaz 10 saniyede anlatı çıkarabilmeli. Kutu, creator’a neyi nasıl anlatacağını “görsel olarak” öğretmelidir. İyi tasarlandığında bu paket, [unboxing odaklı hediye hikâyesi](https://dgtlface.com/tr/creative/blog/hediye-hikaye-anlatimi-foto-video-sosyal-medya) üretir; daha üst segment gönderimlerde ise [premium influencer welcome box](https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye) mantığıyla daha rafine bir deneyime dönüşebilir."
         },
         {
           "type": "h3",
@@ -83169,7 +83284,7 @@
           "title": "Ne yapmalıyım ",
           "items": [
             "Brief’te “yapılmayacaklar” bölümünü ekle (risk azaltır).",
-            "İç link: otel sosyal stratejisi için https://dgtlface.com/tr/otel-sosyal-medya"
+            "Hediye kutusu içindeki mesaj kartını creator’ın anlatı tonuna göre sadeleştir."
           ]
         }
       ]
@@ -83180,7 +83295,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Seeding’in başarısı “beklenti yönetimi”dir. Output’lar çok olursa kalite düşer; az olursa kampanya etkisi zayıf kalır."
+          "text": "Seeding’in başarısı “beklenti yönetimi”dir. Output’lar çok olursa kalite düşer; az olursa kampanya etkisi zayıf kalır. Özellikle [Reels için gift box içeriği](https://dgtlface.com/tr/smm/reels-video) kurgulanırken ilk saniyede görünen detayların, kutu açılış ritmi ve CTA sırasının creator formatına uygun olması gerekir."
         },
         {
           "type": "h3",
@@ -83258,7 +83373,7 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "Deliverable’ı “minimum + opsiyonel” olarak yaz.",
-            "İçerik üretimi için video prodüksiyonla ortak standart kur (gerekiyorsa): /tr/smm/reels-video"
+            "Reels, story ve fotoğraf için ayrı kabul kriterleri yaz; hepsini tek checklist’te toplama."
           ]
         }
       ]
@@ -83269,7 +83384,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Seeding’in gerçek değeri “tek post” değil, içerik kütüphanesi + uzun vadeli partnerdir. Bu nedenle haklar ve raporlama, kampanya kadar önemlidir."
+          "text": "Seeding’in gerçek değeri “tek post” değil, içerik kütüphanesi + uzun vadeli partnerdir. Bu nedenle haklar ve raporlama, kampanya kadar önemlidir. Bu akışı [UGC kampanyası sosyal medya yönetimi](https://dgtlface.com/tr/sosyal-medya-yonetimi) ile birlikte ele almak; yayın takvimi, onay süreci ve tekrar kullanım kararlarını daha sürdürülebilir hale getirir."
         },
         {
           "type": "h3",
@@ -83311,13 +83426,6 @@
         {
           "type": "media",
           "slot": "proof-08"
-        },
-        {
-          "type": "cta",
-          "variant": "primary",
-          "label": "Influencer & UGC Hediye Seeding Stratejisi Danışmanlığı Al",
-          "text": "Doğru creator seçimi, net brief, hak yönetimi ve raporlama ile sürdürülebilir seeding sistemi kurmak isteyen oteller için",
-          "href": "/creative/kurumsal-hediye-tasarimi"
         },
         {
           "type": "cta",
@@ -83372,6 +83480,10 @@
         {
           "type": "media",
           "slot": "checklist-06"
+        },
+        {
+          "type": "p",
+          "text": "Üretilen içerikleri yalnız creator hesabında bırakmak yerine [otel sosyal medyada UGC kullanımı](https://dgtlface.com/tr/otel/sosyal-medya) planına bağlamak, kampanyanın ömrünü uzatır. Kutu tasarımı, adet, teslimat ve süreç detaylarını netleştirmek için ise [Kurumsal Hediye Tasarımı hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss) sayfası doğal sonraki adımdır."
         }
       ]
     }
@@ -83423,7 +83535,7 @@
         "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
         "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
         "İç linklerde kırık link ve redirect zinciri yok",
-        "İç link hedefleri kontrolü: /tr/smm, /tr/smm/reels-video, /tr/creative/kurumsal-hediye-tasarimi, /tr/otel-sosyal-medya",
+        "İç link hedefleri kontrol edildi: hediye hikayesi, AI kişiselleştirme, VIP set, sosyal medya yönetimi, reels video ve otel sosyal medya bağlantıları doğru bağlamda yerleştirildi",
         "Creator seçiminde hedef pazar/dil, brand fit, içerik kalitesi ve marka güvenliği kontrolü",
         "Creator brief içinde amaç, ton, deliverables, deadline, disclosure, kullanım hakları ve tek CTA açık",
         "Yeniden kullanım haklarında kanal, süre, düzenleme ve kredilendirme koşulları yazılı",

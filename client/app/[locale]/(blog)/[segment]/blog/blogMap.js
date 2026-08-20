@@ -1064,7 +1064,12 @@ export const BLOG_MAP = {
     "2026-otel-benchmark-platformlari-ve-api-ekosistemi":"Blog2026OtelBenchmarkPlatformlariVeApiEkosistemi",
     "2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri":"Blog2026EsgVeSurdurulebilirlikBenchmarkFrameworkleri",
     "2026-ai-nlp-ile-misafir-deneyimi-benchmarki":"Blog2026AiNlpIleMisafirDeneyimiBenchmarki",
-    "2026-kuresel-ve-yerel-otel-benchmark-networkleri":"Blog2026KureselVeYerelOtelBenchmarkNetworkleri"
+    "2026-kuresel-ve-yerel-otel-benchmark-networkleri":"Blog2026KureselVeYerelOtelBenchmarkNetworkleri",
+    "direct-booking-vs-ota-donusum-karlilik":"BlogDirectBookingVsOtaDonusumKarlilik",
+    "ga4-event-tasarlama-otel-satis-hunisi":"BlogGa4EventTasarlamaOtelSatisHunisi",
+    "segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi":"BlogSegmentBazliDonusumAnaliziUlkeCihazOdaTipi",
+    "lead-to-booking-teklif-ve-talep-donusumunu-raporlamak":"BlogLeadToBookingTeklifVeTalepDonusumunuRaporlamak",
+    "grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek":"BlogGrupOtellerdeSatisVeDonusumRaporlariniKonsolideEtmek"
   },
 
 

@@ -169612,6 +169612,1342 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"direct-booking-vs-ota-donusum-karlilik":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "areaServed": [
+
+        { "@type": "Place", "name": "Antalya" },
+
+        { "@type": "Place", "name": "Belek" },
+
+        { "@type": "Place", "name": "Side" },
+
+        { "@type": "Place", "name": "Kemer" },
+
+        { "@type": "Place", "name": "Bodrum" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik",
+
+      "name": "Direct Booking vs OTA: Dönüşüm ve Kârlılık Açısından Satışları Doğru Okumak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#article" },
+
+      "about": [
+
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+
+        { "@type": "Thing", "name": "Direct Booking" },
+
+        { "@type": "Thing", "name": "OTA" },
+
+        { "@type": "Thing", "name": "Call Center" },
+
+        { "@type": "Thing", "name": "Commission" },
+
+        { "@type": "Thing", "name": "Net Revenue" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Channel Mix" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#article",
+
+      "headline": "Direct Booking vs OTA: Dönüşüm ve Kârlılık Açısından Satışları Doğru Okumak",
+
+      "description": "Direct booking ve OTA satışlarını sadece rezervasyon sayısıyla değil; dönüşüm oranı, komisyon ve net gelir ile birlikte okuyarak dağıtım stratejinizi veriyle dengeleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Direct Booking vs OTA: Dönüşüm ve Kârlılık Açısından Satışları Doğru Okumak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/direct-booking-vs-ota-donusum-karlilik#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Direct booking ve OTA satışlarını nasıl kıyaslamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kıyaslamayı sadece rezervasyon sayısıyla değil; dönüşüm oranı, komisyon/maliyet ve komisyon sonrası net gelirle yapın. Kanal payını hem rezervasyon payı hem net katkı payı olarak ayrı izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kanal daha kârlı: OTA mı, web mi, call center mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kârlılık komisyon, iptal riski ve dönüşüm sürtünmesine göre değişir. OTA hacim getirir ama komisyon yükü taşır; web ve call center doğru yönetilirse net katkıyı artırabilir. Kararı net gelir lensiyle verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Komisyon ve maliyetleri dönüşüm raporlarına nasıl eklerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "OTA için komisyonu maliyet katmanı olarak zorunlu ekleyin ve brüt gelir yanında net geliri gösterin. Web/call center için tam maliyet yoksa bile maliyet notu yaklaşımıyla net katkı perspektifi oluşturun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Direct booking payını artırmak için hangi KPI’lara odaklanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Web’de motor girişi→rezervasyon dönüşümü ve adım terk oranları, call center’da teklif→kapanış oranı kritiktir. Direct pay hedefini net katkı hedefiyle birlikte takip edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ga4-event-tasarlama-otel-satis-hunisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi",
+
+      "name": "GA4 Event Yapısını Otel Satış Hunisine Göre Tasarlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "GA4" },
+
+        { "@type": "Thing", "name": "Event" },
+
+        { "@type": "Thing", "name": "Parameter" },
+
+        { "@type": "Thing", "name": "Funnel" },
+
+        { "@type": "Thing", "name": "Booking Engine" },
+
+        { "@type": "Thing", "name": "Lead Tracking" },
+
+        { "@type": "Thing", "name": "Reservation" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#article",
+
+      "headline": "GA4 Event Yapısını Otel Satış Hunisine Göre Tasarlamak",
+
+      "description": "GA4’te booking funnel adımlarını event’lere çevirip Funnel Exploration ile kaybın nerede olduğunu bulun; lead event’leriyle talebi de ölçerek dönüşümü veriyle artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "GA4 Event Yapısını Otel Satış Hunisine Göre Tasarlamak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/ga4-event-tasarlama-otel-satis-hunisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4’te otel satış hunisi için hangi event’ler tanımlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum set olarak arama/fiyat (view_search_results), oda seçimi (select_room), checkout başlangıcı (begin_checkout) ve rezervasyon (purchase) tanımlanmalıdır. WhatsApp/arama/form gibi lead hedefleri için generate_lead eklemek de faydalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Arama, oda seçimi ve rezervasyon adımlarını GA4’te nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Booking engine akışını adımlara bölüp her adımı ayrı event’e çevirirsiniz. Tarih, oda tipi ve fiyat gibi parametreleri dataLayer/GTM ile event’e ekleyerek adım dönüşümlerini güvenilir hale getirirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Funnel Exploration raporları otel dönüşüm analizinde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Exploration’da event adımlarını sırayla tanımlayıp (arama→oda seçimi→checkout→purchase) adım terk oranlarını görürsünüz. Cihaz/kanal kırılımıyla kaybın arttığı segmenti bulup test planı çıkarırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead hedefleri (form, WhatsApp, arama) GA4’e nasıl eklenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "WhatsApp tıklaması, arama tıklaması ve form gönderimini ayrı event’lerle ölçüp (ör. generate_lead) lead_type parametresiyle sınıflandırın. Böylece rezervasyon olmasa bile talebin nereye aktığını görürsünüz."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi",
+
+      "name": "Segment Bazlı Dönüşüm Analizi: Ülke, Cihaz ve Oda Tipine Göre Satış Performansı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Country Segment" },
+
+        { "@type": "Thing", "name": "Device Segment" },
+
+        { "@type": "Thing", "name": "Room Type" },
+
+        { "@type": "Thing", "name": "Package" },
+
+        { "@type": "Thing", "name": "Segment" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Revenue" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#article",
+
+      "headline": "Segment Bazlı Dönüşüm Analizi: Ülke, Cihaz ve Oda Tipine Göre Satış Performansı",
+
+      "description": "Toplam dönüşüme değil; ülke, cihaz ve oda tipi segmentlerine göre dönüşüm oranlarına bakarak en kârlı kombinasyonu görün ve teklif/fiyat/kreatiflerini buna göre şekillendirin.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Segment Bazlı Dönüşüm Analizi: Ülke, Cihaz ve Oda Tipine Göre Satış Performansı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Segment bazlı dönüşüm analizi nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dönüşüm ve gelir KPI’larını ülke, cihaz ve oda/paket kırılımlarında ayrı okuyarak ortalamanın sakladığı farkları görmektir. Böylece kaybı ve fırsatı segment bazında netleştirirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için ülke ve cihaz bazlı dönüşüm KPI’ları nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ülke ve cihaz kırılımlarında aynı KPI setini (dönüşüm oranı, gelir/rezervasyon, adım terk veya lead sinyali) raporlayın ve segmentleri aynı dönem ve aynı tanımlarla kıyaslayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda tipi ve paketlere göre dönüşüm analizi nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda tiplerini standardize edip dönüşüm ve gelir KPI’larını birlikte izleyin. Paketlerde fayda ve koşul netliğini test ederek dönüşüm sürtünmesini azaltın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Segment bazlı dönüşüm verisini kampanya ve fiyat stratejisine nasıl taşırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En güçlü segment kombinasyonunu büyütmek için bütçe ve kreatifi o segmente hizalayın. Zayıf segmentte ise önce UX/ödeme sürtünmesi veya teklif/paket netliği gibi kök nedeni düzeltip yeniden ölçün."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"lead-to-booking-teklif-ve-talep-donusumunu-raporlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak",
+
+      "name": "Lead to Booking: Teklif ve Talep Dönüşümünü Raporlamak (Mail, Form, WhatsApp)",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Lead" },
+
+        { "@type": "Thing", "name": "Quote" },
+
+        { "@type": "Thing", "name": "Reservation" },
+
+        { "@type": "Thing", "name": "CRM" },
+
+        { "@type": "Thing", "name": "WhatsApp" },
+
+        { "@type": "Thing", "name": "Email" },
+
+        { "@type": "Thing", "name": "Form" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#article",
+
+      "headline": "Lead to Booking: Teklif ve Talep Dönüşümünü Raporlamak (Mail, Form, WhatsApp)",
+
+      "description": "Mail, form ve WhatsApp’tan gelen talepleri tek funnel’da takip ederek kaçının teklife, kaçının rezervasyona döndüğünü ölçün; lead kaynaklarının ve satış ekibinin gerçek performansını veriyle görün.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Lead to Booking: Teklif ve Talep Dönüşümünü Raporlamak (Mail, Form, WhatsApp)",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/lead-to-booking-teklif-ve-talep-donusumunu-raporlamak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead to booking nedir, oteller için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mail, form, WhatsApp gibi kanallardan gelen taleplerin teklife ve rezervasyona dönüşümünü ölçen satış hunisidir. Özellikle grup/kurumsal/yüksek sepetli satışlarda kapanış verimliliğini görünür kılar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mail, form ve WhatsApp taleplerini nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tüm talepleri tekil Lead ID ile CRM’e kaydedip kaynak alanını zorunlu yapın. Lead→teklif→booking zincirini durum alanlarıyla takip edip kanal bazlı dönüşüm oranı ve gelir KPI’larını ayrı raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead → teklif → rezervasyon dönüşüm oranı nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İki aşamalı hesaplayın: lead→teklif oranı ve teklif→booking (close rate). Toplam lead→booking oranı kazanılan booking / toplam lead olarak izlenir; gelir/lead KPI’ı kaliteyi gösterir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead dönüşüm verisini satış ve pazarlama kararlarında nasıl kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Satış tarafında SLA, takip ve teklif kalitesini iyileştirmek için kullanın; pazarlama tarafında ise hangi kanal/ülke/segmentin daha kaliteli lead getirdiğini görüp bütçe ve kreatifi buna göre hizalayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek",
+
+      "name": "Grup Otellerde Satış ve Dönüşüm Raporlarını Konsolide Etmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Hotel Group" },
+
+        { "@type": "Thing", "name": "Multi-Property" },
+
+        { "@type": "Thing", "name": "Consolidated Reporting" },
+
+        { "@type": "Thing", "name": "Funnel" },
+
+        { "@type": "Thing", "name": "KPI" },
+
+        { "@type": "Thing", "name": "Destination" },
+
+        { "@type": "Thing", "name": "Dashboard" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#article",
+
+      "headline": "Grup Otellerde Satış ve Dönüşüm Raporlarını Konsolide Etmek",
+
+      "description": "Grup otellerde tüm tesislerin satış ve dönüşüm verisini aynı funnel ve KPI tanımlarıyla konsolide ederek hangi otelin hangi pazarda ve kanalda daha iyi performans gösterdiğini tek panelden görün.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Grup Otellerde Satış ve Dönüşüm Raporlarını Konsolide Etmek",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup ve zincir oteller için satış ve dönüşüm raporları nasıl konsolide edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce ortak funnel ve KPI sözlüğü oluşturulur; sonra tüm tesis verileri property_id ile tek modelde birleştirilir. Looker Studio’da portföy (executive) ve tesis (operations) katmanları ayrı sayfalarda sunulur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tesis bazlı KPI’ları grup seviyesinde nasıl birleştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’ları aynı kapsam ve formülle normalize ettikten sonra grup metriklerini basit ortalama yerine gelir veya hacim ağırlığıyla hesaplamak daha doğrudur. Böylece portföy kararı gerçek katkıyı yansıtır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Farklı destinasyonlardaki oteller için ortak funnel tanımını nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tüm tesislerde ölçülebilir minimum funnel adımlarını belirleyip aynı event ve kanal sözlüğüyle standardize edin. Destination filtresiyle sezon ve pazar farklarını raporda görünür kılın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup raporlarını yönetim ve saha ekipleri için nasıl farklılaştırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yönetim için portföy özeti (gelir, channel mix, risk/fırsat) sunun; tesis ekipleri için funnel kaybı, segment performansı ve aksiyon listesi içeren detay sayfaları ekleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 

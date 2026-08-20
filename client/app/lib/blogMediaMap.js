@@ -55078,6 +55078,257 @@ export const BLOG_MEDIA_MAP = {
       alt: "CX benchmark kartları ve aksiyon önerilerini gösteren proof kartı görseli",
       caption: "CX benchmark kartları ve aksiyon önerilerini gösteren proof kartı görseli"
     },
+  },
+
+  "direct-booking-vs-ota-donusum-karlilik":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-1.webp",
+      alt: "Direct Booking vs OTA: Dönüşüm ve Kârlılık Açısından Satışları Doğru Okumak",
+      caption: "Direct Booking vs OTA: Dönüşüm ve Kârlılık Açısından Satışları Doğru Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-2.webp",
+      alt: "Direct ve OTA farkını dönüşüm komisyon net gelir ile açıklayan görsel",
+      caption: "Direct ve OTA farkını dönüşüm komisyon net gelir ile açıklayan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-3.webp",
+      alt: "Kanal KPI kıyasına geçişi ayıran otel görseli",
+      caption: "Kanal KPI kıyasına geçişi ayıran otel görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-4.webp",
+      alt: "Senaryo bazlı strateji örneklerine geçişi ayıran görsel",
+      caption: "Senaryo bazlı strateji örneklerine geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-5.webp",
+      alt: "Direct OTA call center dönüşüm akışını tek diyagramda gösteren otel şeması",
+      caption: "Direct OTA call center dönüşüm akışını tek diyagramda gösteren otel şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-6.webp",
+      alt: "Direct pay hedefi ve net katkı kıyasını özetleyen otel checklist kartı",
+      caption: "Direct pay hedefi ve net katkı kıyasını özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-7.webp",
+      alt: "Komisyon net gelir dönüşüm oranı KPI’larını özetleyen otel skor kartı",
+      caption: "Komisyon net gelir dönüşüm oranı KPI’larını özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-6/Reporting3-6-8.webp",
+      alt: "Direct vs OTA raporlama dashboard çıktıları ve güven unsurları kartı",
+      caption: "Direct vs OTA raporlama dashboard çıktıları ve güven unsurları kartı"
+    },
+  },
+  
+
+  "ga4-event-tasarlama-otel-satis-hunisi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-1.webp",
+      alt: "GA4 Event Yapısını Otel Satış Hunisine Göre Tasarlamak",
+      caption: "GA4 Event Yapısını Otel Satış Hunisine Göre Tasarlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-2.webp",
+      alt: "Otel booking adımlarını GA4 event akışına çeviren bağlam görseli",
+      caption: "Otel booking adımlarını GA4 event akışına çeviren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-3.webp",
+      alt: "E ticaret ve custom event seçimine geçişi ayıran görsel",
+      caption: "E ticaret ve custom event seçimine geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-4.webp",
+      alt: "Funnel exploration senaryolarına geçişi ayıran görsel",
+      caption: "Funnel exploration senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-5.webp",
+      alt: "GA4 event akışını otel funnel adımlarıyla eşleyen diyagram",
+      caption: "GA4 event akışını otel funnel adımlarıyla eşleyen diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-6.webp",
+      alt: "GA4 event sözlüğü ve veri kalitesi kontrolünü özetleyen checklist kartı",
+      caption: "GA4 event sözlüğü ve veri kalitesi kontrolünü özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-7.webp",
+      alt: "Funnel exploration kayıp adımlarını özetleyen otel KPI kartı",
+      caption: "Funnel exploration kayıp adımlarını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-7/Reporting3-7-8.webp",
+      alt: "GA4 event şablonu ve dashboard teslimlerini gösteren kanıt kartı",
+      caption: "GA4 event şablonu ve dashboard teslimlerini gösteren kanıt kartı"
+    },
+  },
+
+  "segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-1.webp",
+      alt: "Segment Bazlı Dönüşüm Analizi: Ülke, Cihaz ve Oda Tipine Göre Satış Performansı",
+      caption: "Segment Bazlı Dönüşüm Analizi: Ülke, Cihaz ve Oda Tipine Göre Satış Performansı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-2.webp",
+      alt: "Otel booking adımlarını GA4 event akışına çeviren bağlam görseli",
+      caption: "Otel booking adımlarını GA4 event akışına çeviren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-3.webp",
+      alt: "E ticaret ve custom event seçimine geçişi ayıran görsel",
+      caption: "E ticaret ve custom event seçimine geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-4.webp",
+      alt: "Funnel exploration senaryolarına geçişi ayıran görsel",
+      caption: "Funnel exploration senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-5.webp",
+      alt: "GA4 event akışını otel funnel adımlarıyla eşleyen diyagram",
+      caption: "GA4 event akışını otel funnel adımlarıyla eşleyen diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-6.webp",
+      alt: "GA4 event sözlüğü ve veri kalitesi kontrolünü özetleyen checklist kartı",
+      caption: "GA4 event sözlüğü ve veri kalitesi kontrolünü özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-7.webp",
+      alt: "Funnel exploration kayıp adımlarını özetleyen otel KPI kartı",
+      caption: "Funnel exploration kayıp adımlarını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-8/Reporting3-8-8.webp",
+      alt: "GA4 event şablonu ve dashboard teslimlerini gösteren kanıt kartı",
+      caption: "GA4 event şablonu ve dashboard teslimlerini gösteren kanıt kartı"
+    },
+  },
+
+  "lead-to-booking-teklif-ve-talep-donusumunu-raporlamak":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-1.webp",
+      alt: "Lead to Booking: Teklif ve Talep Dönüşümünü Raporlamak (Mail, Form, WhatsApp)",
+      caption: "Lead to Booking: Teklif ve Talep Dönüşümünü Raporlamak (Mail, Form, WhatsApp)"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-2.webp",
+      alt: "Lead kaynaklarını teklif ve rezervasyona bağlayan otel bağlam görseli",
+      caption: "Lead kaynaklarını teklif ve rezervasyona bağlayan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-3.webp",
+      alt: "Lead KPI hesaplama bölümüne geçişi ayıran görsel",
+      caption: "Lead KPI hesaplama bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-4.webp",
+      alt: "Lead kaynak senaryolarına geçişi ayıran otel görseli",
+      caption: "Lead kaynak senaryolarına geçişi ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-5.webp",
+      alt: "Lead teklif rezervasyon akışını gösteren otel funnel diyagramı",
+      caption: "Lead teklif rezervasyon akışını gösteren otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-6.webp",
+      alt: "Lead SLA teklif ve kapanış KPI’larını özetleyen checklist kartı",
+      caption: "Lead SLA teklif ve kapanış KPI’larını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-7.webp",
+      alt: "Lead dönüşüm oranı ve gelir katkısını gösteren otel KPI kartı",
+      caption: "Lead dönüşüm oranı ve gelir katkısını gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-9/Reporting3-9-8.webp",
+      alt: "Lead dashboard mockup ve raporlama teslimlerini gösteren kanıt kartı",
+      caption: "Lead dashboard mockup ve raporlama teslimlerini gösteren kanıt kartı"
+    },
+  },
+
+  "grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-1.webp",
+      alt: "Grup Otellerde Satış ve Dönüşüm Raporlarını Konsolide Etmek",
+      caption: "Grup Otellerde Satış ve Dönüşüm Raporlarını Konsolide Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-2.webp",
+      alt: "Portföy ve tesis katmanlarını tek raporda gösteren konsolidasyon görseli",
+      caption: "Portföy ve tesis katmanlarını tek raporda gösteren konsolidasyon görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-3.webp",
+      alt: "Ortak funnel ve KPI sözlüğü bölümüne geçişi ayıran görsel",
+      caption: "Ortak funnel ve KPI sözlüğü bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-4.webp",
+      alt: "Senaryo bazlı grup raporlama kararlarına geçişi ayıran görsel",
+      caption: "Senaryo bazlı grup raporlama kararlarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-5.webp",
+      alt: "Looker Studio ve veri ambarı ile multi property dashboard mimarisini gösteren şema",
+      caption: "Looker Studio ve veri ambarı ile multi property dashboard mimarisini gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-6.webp",
+      alt: "Ortak KPI sözlüğü ve veri modeli kontrol listesini özetleyen kart",
+      caption: "Ortak KPI sözlüğü ve veri modeli kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-7.webp",
+      alt: "Grup ve tesis seviyesinde KPI kartlarını karşılaştıran dashboard görseli",
+      caption: "Grup ve tesis seviyesinde KPI kartlarını karşılaştıran dashboard görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-10/Reporting3-10-8.webp",
+      alt: "Konsolide raporlama teslimleri ve güven unsurlarını gösteren proof kartı",
+      caption: "Konsolide raporlama teslimleri ve güven unsurlarını gösteren proof kartı"
+    },
   }
   
 };
