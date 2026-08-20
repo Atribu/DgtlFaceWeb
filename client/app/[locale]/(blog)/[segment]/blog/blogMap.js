@@ -1069,7 +1069,10 @@ export const BLOG_MAP = {
     "ga4-event-tasarlama-otel-satis-hunisi":"BlogGa4EventTasarlamaOtelSatisHunisi",
     "segment-bazli-donusum-analizi-ulke-cihaz-oda-tipi":"BlogSegmentBazliDonusumAnaliziUlkeCihazOdaTipi",
     "lead-to-booking-teklif-ve-talep-donusumunu-raporlamak":"BlogLeadToBookingTeklifVeTalepDonusumunuRaporlamak",
-    "grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek":"BlogGrupOtellerdeSatisVeDonusumRaporlariniKonsolideEtmek"
+    "grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek":"BlogGrupOtellerdeSatisVeDonusumRaporlariniKonsolideEtmek",
+    "ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak":"BlogAbFiyatVeKampanyaTestleriniDonusumRaporlarindaOkumak",
+    "otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak":"BlogOtelLtvAnaliziMusteriYasamBoyuDegeriniRaporlamak",
+    "upsell-ve-cross-sell-donusum-raporlama":"BlogUpsellVeCrossSellDonusumRaporlama"
   },
 
 

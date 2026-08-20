@@ -170948,6 +170948,794 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak",
+
+      "name": "A/B Fiyat ve Kampanya Testlerini Dönüşüm Raporlarında Doğru Okumak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "A/B Test" },
+
+        { "@type": "Thing", "name": "Pricing Experiment" },
+
+        { "@type": "Thing", "name": "Offer Variant" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Revenue" },
+
+        { "@type": "Thing", "name": "RevPAR" },
+
+        { "@type": "Thing", "name": "Segment" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#article",
+
+      "headline": "A/B Fiyat ve Kampanya Testlerini Dönüşüm Raporlarında Doğru Okumak",
+
+      "description": "A/B fiyat ve kampanya testleriyle iki farklı teklifin dönüşüm ve gelir performansını karşılaştırın; sadece tıklama değil, rezervasyon ve kârlılık açısından hangisinin daha iyi çalıştığını veriyle seçin.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "A/B Fiyat ve Kampanya Testlerini Dönüşüm Raporlarında Doğru Okumak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "A/B test nedir, otellerde fiyat ve kampanya için nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı dönemde iki teklif varyantını benzer segmentlere gösterip dönüşüm ve gelir KPI’larıyla kıyaslamaktır. Otelde fiyat, paket veya benefit varyantlarının rezervasyon ve kârlılık etkisini ölçmek için kullanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’larla A/B fiyat testi sonuçlarını okumalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dönüşüm oranı ve gelir birincil KPI’lardır; RevPAR/ADR ikincil KPI olarak eklenmelidir. Mümkünse iptal/iadeler ve net katkı lensiyle risk kontrolü yapılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "A/B test sonuçlarını ne zaman kazanan ilan etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yeterli süre ve örneklem oluşmadan kazanan ilan etmek risklidir. Segment dağılımı adil mi, revenue/RevPAR birlikte iyi mi ve risk KPI’ları bozuldu mu kontrol edilip sonra karar verilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kampanya testlerinden çıkan sonuçları kalıcı stratejiye nasıl taşırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kazananı segment bazında doğrulayıp landing ve teklif metnini standardize edin, KPI hedeflerini güncelleyin ve öğrenimi test kütüğüne ekleyin. Parametre bazlı testlerde canonical/URL disiplinini koruyun."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak",
+
+      "name": "Otel LTV Analizi: Müşteri Yaşam Boyu Değerini Satış & Dönüşüm Raporlarına Bağlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Lifetime Value" },
+
+        { "@type": "Thing", "name": "Guest" },
+
+        { "@type": "Thing", "name": "Cohort" },
+
+        { "@type": "Thing", "name": "Channel" },
+
+        { "@type": "Thing", "name": "Loyalty" },
+
+        { "@type": "Thing", "name": "Revenue" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#article",
+
+      "headline": "Otel LTV Analizi: Müşteri Yaşam Boyu Değerini Satış & Dönüşüm Raporlarına Bağlamak",
+
+      "description": "Müşteri yaşam boyu değerini (LTV) hesaplayarak misafirlerin sadece ilk rezervasyonunu değil, 3–5 yıl içindeki toplam gelirini ölçün; bütçe ve sadakat stratejisini bu gerçek değere göre kurun.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Otel LTV Analizi: Müşteri Yaşam Boyu Değerini Satış & Dönüşüm Raporlarına Bağlamak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "LTV (müşteri yaşam boyu değeri) nedir, oteller için nasıl hesaplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "LTV, misafirin belirli bir pencerede (genelde 3–5 yıl) otelinize bıraktığı toplam gelirdir; idealde komisyon ve maliyetlerle net katkı hesabına dönüştürülür. PMS misafir geçmişiyle guest_id bazında hesaplanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kanal ve pazardan gelen misafir daha yüksek LTV’ye sahip?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bu, tekrar konaklama ve sepet büyüklüğüne göre değişir. Direct misafir komisyon avantajıyla güçlü olabilir; OTA misafiri ilk satışta düşük kârlı görünse de sadakat stratejisiyle LTV’si yükseltebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "LTV verisini reklam ve sadakat stratejisinde nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "High-LTV segmentlere daha fazla bütçe ve retention yatırımı yapılır; low-LTV segmentlerde acquisition verimliliği önceliklenir. LTV, ROAS/CAC kararlarını uzun vadeli değerle hizalar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Cohort bazlı LTV analizi nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cohort, belirli dönemde ilk gelen misafir grubudur; bu grubun LTV’si zaman içinde izlenir. Sezon ve pazar farkları güçlü olduğu için cohort analizi LTV’yi doğru bağlama oturtur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"upsell-ve-cross-sell-donusum-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama",
+
+      "name": "UpSell & Cross-Sell Dönüşüm Raporlama: Oda Upgrade, Spa ve Geç Çıkış Satışlarını Ölçmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "UpSell" },
+
+        { "@type": "Thing", "name": "Cross-Sell" },
+
+        { "@type": "Thing", "name": "Ancillary Revenue" },
+
+        { "@type": "Thing", "name": "Upgrade" },
+
+        { "@type": "Thing", "name": "Spa" },
+
+        { "@type": "Thing", "name": "Late Check-Out" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#article",
+
+      "headline": "UpSell & Cross-Sell Dönüşüm Raporlama: Oda Upgrade, Spa ve Geç Çıkış Satışlarını Ölçmek",
+
+      "description": "Up-sell ve cross-sell performansını teklif → tıklama → satın alma dönüşüm oranlarıyla ölçün; oda/kişi başı ek geliri hesaplayıp en kârlı teklif ve kanal kombinasyonunu veriyle bulun.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "UpSell & Cross-Sell Dönüşüm Raporlama: Oda Upgrade, Spa ve Geç Çıkış Satışlarını Ölçmek",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "UpSell ve cross-sell nedir, oteller için hangi ürünler öne çıkar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UpSell, misafiri daha yüksek değerli seçeneğe taşımaktır (oda upgrade gibi); cross-sell ise ek ürün satmaktır (spa, geç çıkış, transfer). Otellerde yan gelir ve kârlılığı büyütmek için kritik ürünlerdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda upgrade, geç çıkış ve spa satışlarını nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Teklif→tıklama→satın alma adımlarını ölçen bir upsell funnel kurun. Kanal ve segment kırılımında offer view/click/purchase KPI’larını ve revenue/guest metriğini raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Up-sell teklif dönüşüm oranını nasıl hesaplarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Offer view rate, click rate ve purchase rate şeklinde üç aşamalı ölçün. Ayrıca attach rate ve kişi/oda başı ek gelir KPI’larını ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Up-sell sonuçlarını toplam gelir ve kârlılığa nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Upsell KPI’larını ana booking funnel KPI’larıyla aynı panelde yan yana koyun. Ana dönüşüm etkileniyor mu ve yan gelir net katkıyı artırıyor mu sorularını birlikte cevaplayarak karar verin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 

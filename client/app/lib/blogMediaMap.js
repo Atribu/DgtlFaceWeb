@@ -55329,6 +55329,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "Konsolide raporlama teslimleri ve güven unsurlarını gösteren proof kartı",
       caption: "Konsolide raporlama teslimleri ve güven unsurlarını gösteren proof kartı"
     },
+  },
+
+  "ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-1.webp",
+      alt: "A/B Fiyat ve Kampanya Testlerini Dönüşüm Raporlarında Doğru Okumak",
+      caption: "A/B Fiyat ve Kampanya Testlerini Dönüşüm Raporlarında Doğru Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-2.webp",
+      alt: "A/B testin funnel adımlarına etkisini otel bağlamında gösteren görsel",
+      caption: "A/B testin funnel adımlarına etkisini otel bağlamında gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-3.webp",
+      alt: "Kazanan ilanı ve yorumlama bölümüne geçişi ayıran görsel",
+      caption: "Kazanan ilanı ve yorumlama bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-4.webp",
+      alt: "Stratejiye taşıma ve hata kutusuna geçişi ayıran görsel",
+      caption: "Stratejiye taşıma ve hata kutusuna geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-5.webp",
+      alt: "Kontrol ve varyant funnel şemasını gösteren A/B test diyagramı",
+      caption: "Kontrol ve varyant funnel şemasını gösteren A/B test diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-6.webp",
+      alt: "A/B test tasarım ve raporlama kontrol listesini özetleyen kart",
+      caption: "A/B test tasarım ve raporlama kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-7.webp",
+      alt: "A/B test KPI uplift ve kazanan kararını özetleyen skor kart",
+      caption: "A/B test KPI uplift ve kazanan kararını özetleyen skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-11/Reporting3-11-8.webp",
+      alt: "A/B test raporu, panel ve karar çıktılarının teslimlerini gösteren proof kart",
+      caption: "A/B test raporu, panel ve karar çıktılarının teslimlerini gösteren proof kart"
+    },
+  },
+
+  "otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-1.webp",
+      alt: "Otel LTV Analizi: Müşteri Yaşam Boyu Değerini Satış & Dönüşüm Raporlarına Bağlamak",
+      caption: "Otel LTV Analizi: Müşteri Yaşam Boyu Değerini Satış & Dönüşüm Raporlarına Bağlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-2.webp",
+      alt: "LTV ile ROAS ve dönüşüm raporlarını bağlayan otel görseli",
+      caption: "LTV ile ROAS ve dönüşüm raporlarını bağlayan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-3.webp",
+      alt: "Bütçe ve sadakat stratejisine geçişi ayıran LTV görseli",
+      caption: "Bütçe ve sadakat stratejisine geçişi ayıran LTV görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-4.webp",
+      alt: "Cohort raporlarına geçişi ayıran LTV görseli",
+      caption: "Cohort raporlarına geçişi ayıran LTV görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-5.webp",
+      alt: "Cohort bazlı LTV okumasını gösteren otel diyagramı",
+      caption: "Cohort bazlı LTV okumasını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-6.webp",
+      alt: "LTV hesaplama ve veri birleştirme kontrol listesini özetleyen kart",
+      caption: "LTV hesaplama ve veri birleştirme kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-7.webp",
+      alt: "Kanal ve ülke bazlı LTV KPI kartlarını özetleyen görsel",
+      caption: "Kanal ve ülke bazlı LTV KPI kartlarını özetleyen görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-12/Reporting3-12-8.webp",
+      alt: "LTV dashboard ve cohort rapor teslimlerini gösteren proof kartı",
+      caption: "LTV dashboard ve cohort rapor teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "upsell-ve-cross-sell-donusum-raporlama":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-1.webp",
+      alt: "UpSell & Cross-Sell Dönüşüm Raporlama: Oda Upgrade, Spa ve Geç Çıkış Satışlarını Ölçmek",
+      caption: "UpSell & Cross-Sell Dönüşüm Raporlama: Oda Upgrade, Spa ve Geç Çıkış Satışlarını Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-2.webp",
+      alt: "Upgrade late check out spa tekliflerini funnel’a bağlayan otel görseli",
+      caption: "Upgrade late check out spa tekliflerini funnel’a bağlayan otel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-3.webp",
+      alt: "Upsell KPI ve ölçüm bölümüne geçişi ayıran otel görseli",
+      caption: "Upsell KPI ve ölçüm bölümüne geçişi ayıran otel görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-4.webp",
+      alt: "Upsell senaryo kutularına geçişi ayıran otel görseli",
+      caption: "Upsell senaryo kutularına geçişi ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-5.webp",
+      alt: "Teklif tıklama satın alma adımlarını gösteren upsell funnel diyagramı",
+      caption: "Teklif tıklama satın alma adımlarını gösteren upsell funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-6.webp",
+      alt: "Upsell KPI ve kapasite kuralını özetleyen checklist kartı",
+      caption: "Upsell KPI ve kapasite kuralını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-7.webp",
+      alt: "    Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı",
+      caption: "    Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-8.webp",
+      alt: "Upsell dashboard mockup ve raporlama teslimlerini gösteren proof kartı",
+      caption: "Upsell dashboard mockup ve raporlama teslimlerini gösteren proof kartı"
+    },
   }
   
 };

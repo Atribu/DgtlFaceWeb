@@ -40111,6 +40111,1846 @@
       "technicalChecklist": []
     }
   }
+},
+
+"BlogAbFiyatVeKampanyaTestleriniDonusumRaporlarindaOkumak": {
+  "title": "Otel A/B Fiyat Testi: Dönüşüm ve Gelir Okuma",
+  "slug": "ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak",
+  "department": "raporlama",
+  "subDepartment":"sales",
+  "updatedAt": "20 Ağustos 2026",
+  "publishedAt": "2026-08-20",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "A/B fiyat ve teklif testlerinde kazananı doğru seçin. Dönüşüm, gelir, RevPAR ve net katkı KPI’larıyla GA4/Looker raporlarını okuyun; stratejiye taşıyın.",
+  "seo": {
+    "metaTitle": "Otel A/B Fiyat Testi: Dönüşüm ve Gelir Okuma | DGTLFACE",
+    "metaDescription": "A/B fiyat ve teklif testlerinde kazananı doğru seçin. Dönüşüm, gelir, RevPAR ve net katkı KPI’larıyla GA4/Looker raporlarını okuyun; stratejiye taşıyın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa (Hub) / URL: Satış ve Dönüşüm Raporları — /tr/raporlama/satis-donusum",
+      "Blog / URL: /tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak",
+      "Blog No: 11",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional (Optimization)",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/raporlama/blog/ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak"
+    ],
+    "strategySummary": "Bu yazı, satış & dönüşüm silo’sunda “optimizasyon” kararlarını kanıta bağlayan deney/deneme (experimentation) omurgasıdır: fiyat ve teklif testlerini (indirim vs ekstra fayda, transfer vs upgrade vb.) dönüşüm raporlarında doğru okuyup “kazanan”ı sadece tıklama ile değil rezervasyon + gelir + kârlılık ile seçmeyi öğretir. Hedef persona GM/otel sahibi, satış-pazarlama ve revenue ekipleridir; amaç “mantıklı görünen teklif”in her zaman kazanmamasını kabul edip test disiplinini kalıcı karar sistemine dönüştürmektir. Funnel aşaması MoFu→BoFu’dur: doğru test tasarımı → doğru KPI → doğru rapor okuması → kalıcı stratejiye geçiş. Ana iş sorusu: “Fiyat/teklif A/B testini nasıl kurarım; sonuçları hangi KPI’larla okurum; ne zaman kazanan ilan eder ve kalıcı yaparım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-20",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "A/B fiyat ve kampanya testleri, “hangi teklif daha çok rezervasyon ve gelir getiriyor?” sorusuna tahminle değil veriyle cevap verir. Aynı dönemde iki fiyat/teklif varyantını benzer segmentlerde çalıştırıp dönüşüm oranı, gelir, RevPAR ve kârlılık KPI’larını birlikte kıyasladığınızda gerçek kazananı görürsünüz. Kritik nokta; doğru test tasarımı (segment eşlemesi, örneklem, süre), doğru raporlama katmanı (GA4/Looker) ve kazananı “tek metrik”le değil “kârlılık lensiyle” seçmektir.",
+    "sgeSummary": "Otel A/B testinde kazananı tıklama değil rezervasyon+gelir belirler. Dönüşüm oranı, RevPAR ve net katkı KPI’larıyla GA4/Looker raporlarını okuyup kalıcı stratejiye çevirin.",
+    "voiceAnswer": "A/B testte kazananı, dönüşümle birlikte gelir ve kârlılık KPI’larıyla seçmelisiniz.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, pazarlama, revenue, ajans",
+      "Entity seti: A/B Test, Variant, Offer, Segment, Conversion Rate, Revenue, RevPAR",
+      "Semantik ilişki: Test Variant → impacts → conversion & revenue",
+      "KPI çekirdeği: conversion, revenue, RevPAR, iptal riski (Varsayım), net katkı yaklaşımı",
+      "Geo bağlamı: Antalya / Belek / Side / Kemer / Bodrum (indirim vs benefit senaryoları)",
+      "Karar çıktısı: test planı + KPI tablosu + uplift okuması + hata listesi",
+      "Risk: kısa süre / düşük örneklem / yanlış KPI → yanlış kazanan ilanı"
+    ]
+  },
+  "h1": {
+    "title": "A/B Fiyat ve Kampanya Testlerini Dönüşüm Raporlarında Doğru Okumak",
+    "intro": "Otel pazarlamasında “%10 indirim mi daha iyi, yoksa ücretsiz transfer mi?” gibi kararlar çoğu zaman sezgiyle verilir. Ancak aynı sezgi, kârlılığı gizlice eritebilir: yüksek dönüşüm getiren teklif, daha düşük net gelir bırakabilir. A/B fiyat ve kampanya testleri, bu belirsizliği bitirir; iki farklı varyantı aynı dönemde benzer segmentlerde çalıştırıp dönüşüm, gelir ve kârlılık KPI’larıyla kazananı veriyle seçmenizi sağlar.\n\nBu yazıda otellere uyarlanmış A/B test mantığını, fiyat/teklif testlerinde doğru KPI’ları, test tasarımını (örneklem ve süre dahil), GA4 ve Looker Studio’da sonuçları okuma kurallarını ve test çıktısını kalıcı stratejiye taşıma adımlarını ele alacağız. Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlarda, farklı ülkeler için “indirim vs ekstra fayda” testlerinin teorik senaryolarıyla bağ kuracağız.",
+    "quickSummary": [
+      "1) Hipotezi yaz: “%10 indirim, conversion’ı artırır ama net geliri düşürebilir.”",
+      "2) Varyantı tekilleştir: sadece fiyat ya da sadece benefit değişsin.",
+      "3) Segmenti kilitle: ülke/cihaz/kanal eşlemesi (ör. Antalya resort → Almanya mobil).",
+      "4) Tracking’i kur: GA4 event’lerinde variant_id / offer_variant parametresi.",
+      "5) Raporu bağla: conversion + revenue + RevPAR + (Varsayım) net katkı lensi ile kazananı seç."
+    ],
+    "ctaPrimary": {
+      "label": "A/B Fiyat & Kampanya Testi Analizi Talep Et",
+      "text": "Fiyat/teklif kararlarını kârlılık lensiyle test etmek isteyen oteller için.",
+      "href": "/raporlama/satis-donusum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "A/B Fiyat & Kampanya Testi Analizi Talep Et",
+      "text": "İki teklif varyantının dönüşüm ve kârlılık etkisini doğru okumak isteyen oteller için.",
+      "href": "/raporlama/satis-donusum"
+    },
+    "secondary": {
+      "label": "A/B Test Tasarım & Raporlama Checklist’ini İndir",
+      "text": "Test brief, KPI seçimi ve kazanan ilanı kontrolünü tek listede toplar.",
+      "href": "/downloads/ab-test-tasarim-raporlama-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Reklam Raporlama",
+      "href": "/sem/reklam-raporlama"
+    },
+    {
+      "label": "Looker Studio",
+      "href": "/raporlama/looker-studio"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporları",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [],
+  "sections": [
+    {
+      "id": "ab-test-nedir-otellerde-kullanim",
+      "title": "A/B test nedir, otellerde fiyat ve kampanya için nasıl kullanılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : A/B test, aynı dönemde iki teklif varyantını (kontrol vs varyant) benzer segmentlere gösterip dönüşüm ve gelir KPI’larıyla kıyaslamaktır. Otellerde bu, fiyat (indirim oranı) veya teklif bileşeni (upgrade, transfer, ekstra gece) gibi unsurların rezervasyon ve kârlılık etkisini ölçmek için kullanılır."
+        },
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Otellerde A/B testin farkı şudur: “satın alma” tek adım değil; niyet, rezervasyon motoru sürtünmesi, iptal riski ve RevPAR gibi katmanlar vardır. Bu yüzden kazananı sadece tıklama veya dönüşümle değil, gelir ve net katkı merceğiyle seçmek gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Test edilebilecek varyant tipleri (örnekler)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat varyantı: %10 indirim vs %5 indirim",
+            "Paket varyantı: indirim vs “ekstra gece”",
+            "Benefit varyantı: ücretsiz transfer vs oda upgrade",
+            "Teklif metni: “erken rezervasyon” vurgusu vs “esnek iptal” vurgusu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Belek)"
+        },
+        {
+          "type": "p",
+          "text": "Belek’te Almanya pazarında “upgrade” daha ikna edici olabilirken, iç pazarda “%10 indirim” daha hızlı kapanış getirebilir. Segment eşlemesi yapılmadan test edilirse sonuç yanıltır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek bir testte tek ana değişken kuralını uyguluyorum",
+            "Varyantı fiyat mı teklif mi olarak net tanımladım",
+            "Kazanan KPI’sını dönüşüm + gelir ile birlikte belirledim",
+            "Segment (ülke/cihaz) eşlemesini planladım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Test değişkenini tekilleştirin (aynı anda 3 şey değiştirmeyin).",
+            "Varyantı “fiyat” veya “benefit” olarak net yazın.",
+            "Başarı metriklerini en baştan belirleyin (conversion + revenue).",
+            "Segmentleri sabitleyin (ülke/cihaz/pazar)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-ab-fiyat-kampanya-testi-kurulumu",
+      "title": "Otellerde A/B fiyat ve kampanya testi nasıl kurulur?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : Önce hipotezi ve varyantı tanımlayın, sonra hedef segmentleri eşleyip aynı dönemde kontrol ve varyantı çalıştırın. GA4’te varyant kimliğini (variant_id) event parametresi olarak taşıyın; Looker/raporda dönüşüm+gelir KPI’larını varyant bazında kıyaslayın."
+        },
+        {
+          "type": "h3",
+          "text": "5 adımlık net How-To listesi (kilitli istek)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hipotezi yaz: “%10 indirim, conversion’ı artırır ama net geliri düşürebilir.”",
+            "Varyantı tekilleştir: sadece fiyat ya da sadece benefit değişsin.",
+            "Segmenti kilitle: ülke/cihaz/kanal eşlemesi (ör. Antalya resort → Almanya mobil).",
+            "Tracking’i kur: GA4 event’lerinde variant_id / offer_variant parametresi.",
+            "Raporu bağla: conversion + revenue + RevPAR + (Varsayım) net katkı lensi ile kazananı seç."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya resort’ta “%10 indirim” vs “ücretsiz transfer” testinde, dönüşüm artışı benzer olsa bile gelir/rezervasyon ve iptal riski farklılaşabilir. Kazanan, net katkıya göre değişebilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hipotezim yazılı ve ölçülebilir",
+            "Segmentler aynı dönemde adil dağıtılıyor",
+            "GA4’te varyant parametresi taşınıyor",
+            "Raporlama metrikleri baştan tanımlı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Test brief şablonu kullanın (hipotez, segment, KPI).",
+            "Varyant parametresini GA4 event’lerine ekleyin.",
+            "Test süresince başka büyük değişiklikleri dondurun (fiyat kırma, büyük kampanya).",
+            "Sonuçları “uplift + gelir” birlikte okuyun."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "A/B Fiyat & Kampanya Testi Analizi Talep Et",
+          "text": "İki teklif varyantının dönüşüm ve kârlılık etkisini doğru okumak isteyen oteller için.",
+          "href": "/raporlama/satis-donusum"
+        }
+      ]
+    },
+    {
+      "id": "fiyat-kampanya-test-kpilari",
+      "title": "Fiyat ve kampanya testleri için KPI’lar (kazananı ne belirler?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A/B testte en büyük hata, “kolay ölçülen” metriğe aşırı odaklanmaktır. Otelde gerçek başarı, dönüşüm kadar gelir ve kârlılık katmanında ortaya çıkar."
+        },
+        {
+          "type": "h3",
+          "text": "KPI hiyerarşisi (önerilen)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Birincil KPI: Rezervasyon dönüşüm oranı (booking rate) + gelir (revenue)",
+            "İkincil KPI: RevPAR/ADR etkisi (Varsayım: rapor katmanına göre)",
+            "Risk KPI: İptal oranı / iade (Varsayım)",
+            "Kalite KPI: Gelir/rezervasyon, net katkı yaklaşımı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“Kazanan” kuralı (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Conversion ↑ ama revenue ↓ ise: indirim maliyeti veya sepet düşüşü var demektir.",
+            "Revenue ↑ ama conversion ↓ ise: daha az satışla daha değerli satış olabilir; hedefe bağlı.",
+            "Conversion ↑ ve revenue ↑ ise: net kazanan adayı.",
+            "Tüm KPI’lar karışık ise: segment kırılımında kazanan arayın (ülke/cihaz)."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Kontrol vs varyant KPI karşılaştırma tablosu",
+          "headers": [
+            "KPI",
+            "Kontrol",
+            "Varyant",
+            "Okuma"
+          ],
+          "rows": [
+            [
+              "Conversion",
+              "",
+              "",
+              "Conversion ↑ ama revenue ↓ ise: indirim maliyeti veya sepet düşüşü var demektir."
+            ],
+            [
+              "Revenue",
+              "",
+              "",
+              "Revenue ↑ ama conversion ↓ ise: daha az satışla daha değerli satış olabilir; hedefe bağlı."
+            ],
+            [
+              "Conversion + Revenue",
+              "",
+              "",
+              "Conversion ↑ ve revenue ↑ ise: net kazanan adayı."
+            ],
+            [
+              "Segment kırılımı",
+              "",
+              "",
+              "Tüm KPI’lar karışık ise: segment kırılımında kazanan arayın (ülke/cihaz)."
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "KPI’larım tek metrik değil (conversion+revenue+RevPAR)",
+            "Risk KPI’larını notluyorum (iptal/iadeler)",
+            "Segment kırılımında sonuç okuyorum",
+            "Kazanan kuralım yazılı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Kazananı conversion ile değil “conversion + revenue” ile seçin.",
+            "RevPAR/ADR etkisini mutlaka izleyin (revenue yönetimi ile birlikte).",
+            "İptal riskini kontrol edin (en azından trend).",
+            "Segment kırılımında sonuçları doğrulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "looker-studio-ga4-ab-sonuclari",
+      "title": "Looker Studio ve GA4’te A/B sonuçlarını nasıl okursunuz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : GA4’te varyant parametresiyle event’leri filtreleyip funnel adım dönüşümlerini varyant bazında kıyaslayın. Looker Studio’da kontrol vs varyant KPI kartları (conversion, revenue, RevPAR) ve uplift grafiği kurarak sonuçları tek sayfada okuyun."
+        },
+        {
+          "type": "h3",
+          "text": "GA4 okuma prensipleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Varyant parametresi (variant_id) ile segment oluştur",
+            "Funnel adımlarını (arama→checkout→purchase) varyant bazında karşılaştır",
+            "Cihaz/ülke kırılımında farklı davranışı kontrol et"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Looker Studio “A/B panel” yapısı "
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Üstte: test adı + tarih aralığı + segment filtreleri",
+            "Ortada: kontrol vs varyant KPI kartları",
+            "Altta: uplift grafiği (conversion uplift, revenue uplift)",
+            "Sağda: “yorum ve karar” kutusu (kazanan + neden)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "ab-test-kazanan-ilan-etme",
+      "title": "A/B test sonuçlarını ne zaman “kazanan” ilan etmeliyim?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kazanan ilanı, sadece “istatistik” değil, iş riski kararını da içerir. Otelde sezon dinamikleri, segment ve stok (availability) etkisi güçlü olduğu için acele kararlar pahalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Minimum örneklem ve süre (pratik yaklaşım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Testi çok kısa tutmayın; haftanın gün etkisi yanıltır.",
+            "Minimum örneklem yoksa, “kazanan” yerine “öğrenim” olarak etiketleyin.",
+            "Aynı dönemde büyük fiyat/kanal değişimleri varsa test kirlenir."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: İstatistiksel yöntem detayı (p-value vb.) kullanılabilir; ancak pratikte “yeterli hacim + tutarlı trend + risk KPI kontrolü” temel çerçevedir."
+        },
+        {
+          "type": "h3",
+          "text": "3 temel kontrol sorusu"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Segmentler adil mi? (ülke/cihaz dağılımı benzer mi?)",
+            "Revenue ve RevPAR birlikte iyi mi?",
+            "İptal/iadede risk artışı var mı?"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Testi yeterli süre çalıştırdım",
+            "Segment dağılımı adil",
+            "Risk KPI’ları kontrol edildi",
+            "Kazanan kararını yazılı gerekçelendirdim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Kazananı ilan etmeden önce segment adaletini kontrol edin.",
+            "Revenue/RevPAR iyi değilse “daha az indirim, daha çok net gelir” opsiyonunu düşünün.",
+            "Test kirlenmesini önlemek için büyük değişiklikleri dondurun.",
+            "Sonucu “kalıcı strateji”ye geçirmeden önce kısa bir doğrulama turu yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab-test-sonuclarini-kalici-stratejiye-tasimak",
+      "title": "Test sonuçlarını kalıcı stratejiye nasıl taşırsınız?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A/B testin değeri, tek bir kazanan seçmek değil; “öğrenimi” kalıcı stratejiye dönüştürmektir. Kazanan varyantı kalıcı yaparken, segment bazında farklı kazananlar olabileceğini unutmayın."
+        },
+        {
+          "type": "h3",
+          "text": "4 adımlı “kalıcılaştırma” planı"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kazananı segment bazında doğrula (ülke/cihaz).",
+            "Teklif metni/landing’i kazanana göre standardize et.",
+            "KPI hedeflerini güncelle (conversion + revenue).",
+            "Öğrenimleri “test kütüğü”ne ekle (kurumsal hafıza)."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3 hata — 3 doğru yaklaşım"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hata 1: Aynı anda fiyat + paket + metin değiştirmek → Doğru: Tek değişken, net hipotez",
+            "Hata 2: Tıklama artınca kazanan ilan etmek → Doğru: Rezervasyon + gelir + RevPAR ile karar",
+            "Hata 3: Test URL’lerini ayrı sayfa yapmak ve SEO’yu bozmak → Doğru: Parametre bazlı testte aynı URL’yi kullan; canonical’ı doğru yönet"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not: sadece parametre bazlı A/B testlerde aynı URL tercih edilir; canonical ayarlarına dikkat."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "Key Statistics / Data Point (yumuşatılmış)"
+        },
+        {
+          "type": "p",
+          "text": "Doğru kurgulanmış A/B testlerinde, bazı otellerde daha az indirim verip daha yüksek net gelir elde etmek mümkün olabilir; “mantıklı görünen” teklif her zaman kazanan çıkmaz. Bu yüzden test disiplininin değeri, kararları sezgiden veriye taşımasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Öğrenimi dokümante ettim (test kütüğü)",
+            "Kazananı segment bazında doğruladım",
+            "SEO/canonical risklerini yönettim",
+            "Kalıcı stratejiyi KPI hedefleriyle bağladım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Kazananı “kalıcılaştırmadan” önce segment doğrulaması yapın.",
+            "Teklif metnini ve landing’i kazanana göre güncelleyin.",
+            "KPI hedeflerini (conversion+revenue) yeni baseline’a göre revize edin.",
+            "Yeni test backlog’u oluşturun (bir sonraki hipotez)."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "A/B Fiyat & Kampanya Testi Analizi Talep Et",
+          "text": "Kontrol-varyant kurgusunu ve rapor okumasını birlikte kurmak isteyen oteller için.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "A/B Test Tasarım & Raporlama Checklist’ini İndir",
+          "text": "Test brief, KPI seçimi ve kazanan ilanı kontrolünü tek listede toplar.",
+          "href": "/downloads/ab-test-tasarim-raporlama-checklist-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ab-test-tasarim-raporlama-checklist",
+      "title": "A/B Test Tasarım & Raporlama Checklist’ini İndir — Satış & Dönüşüm Raporları",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "A/B Test Tasarım & Raporlama Checklist’ini İndir — Satış & Dönüşüm Raporları (v1.0)",
+          "purpose": "Bu checklist, otel fiyat ve kampanya A/B testlerini uçtan uca doğru kurmanız için (hipotez, segment, KPI, örneklem, rapor okuma, kazanan ilanı) standart bir kontrol listesi sağlar. Amaç, kısa süreli/yanlış KPI’lı testlerle hatalı karar vermeyi azaltıp, kazananı dönüşüm + gelir + kârlılık merceğiyle seçmektir.",
+          "whoFor": "GM/otel sahibi, pazarlama, revenue, ajans ve web/analytics ekipleri.",
+          "steps": [
+            "Test öncesi checklist’i doldurun ve “hazır” olmadan yayına çıkmayın.",
+            "Test süresince veri kalitesi ve segment adaletini kontrol edin.",
+            "Test sonunda kazananı ilan etmeden önce risk KPI’larını doğrulayın ve kalıcılaştırma planını uygulayın."
+          ],
+          "checklist": [
+            "Hipotez tek cümle ve ölçülebilir",
+            "Tek değişken kuralı (fiyat ya da benefit)",
+            "Segment eşleme (ülke/cihaz/kanal)",
+            "Birincil KPI: conversion + revenue",
+            "İkincil KPI: RevPAR/ADR",
+            "Risk KPI: iptal/iadeler (Varsayım)",
+            "Varyant tracking (variant_id) GA4’te taşınıyor",
+            "Test süresi planlandı (hafta etkisi düşünülmüş)",
+            "Test kirlenmesi riski (diğer kampanya/fiyat değişimi) donduruldu",
+            "Canonical/URL kuralı kontrol edildi (parametre bazlı testte aynı URL)"
+          ],
+          "href": "/downloads/ab-test-tasarim-raporlama-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "h3",
+          "text": "Deliverables listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "A/B test brief (hipotez, segment, KPI)",
+            "Tracking planı (variant_id)",
+            "Looker Studio A/B paneli",
+            "Kazanan kararı + gerekçe",
+            "Kalıcılaştırma planı + öğrenim kayıtları"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "A/B test nedir, otellerde fiyat ve kampanya için nasıl kullanılır?",
+      "a": "Aynı dönemde iki teklif varyantını benzer segmentlere gösterip dönüşüm ve gelir KPI’larıyla kıyaslamaktır. Otelde fiyat, paket veya benefit varyantlarının rezervasyon ve kârlılık etkisini ölçmek için kullanılır."
+    },
+    {
+      "q": "Hangi KPI’larla A/B fiyat testi sonuçlarını okumalıyım?",
+      "a": "Dönüşüm oranı ve gelir birincil KPI’lardır; RevPAR/ADR ikincil KPI olarak eklenmelidir. Mümkünse iptal/iadeler ve net katkı lensiyle risk kontrolü yapılır."
+    },
+    {
+      "q": "A/B test sonuçlarını ne zaman “kazanan” ilan etmeliyim?",
+      "a": "Yeterli süre ve örneklem oluşmadan kazanan ilan etmek risklidir. Segment dağılımı adil mi, revenue/RevPAR birlikte iyi mi ve risk KPI’ları bozuldu mu kontrol edilip sonra karar verilmelidir."
+    },
+    {
+      "q": "Kampanya testlerinden çıkan sonuçları kalıcı stratejiye nasıl taşırım?",
+      "a": "Kazananı segment bazında doğrulayıp landing/teklif metnini standardize edin, KPI hedeflerini yeni baseline’a göre güncelleyin ve öğrenimi test kütüğüne ekleyin. Parametre bazlı testlerde canonical/URL disiplinini koruyun."
+    },
+    {
+      "q": "%10 indirim mi upgrade mi daha iyi olur?",
+      "a": "Segment ve sezon bağlamına göre değişir; indirim conversion’ı artırırken net geliri düşürebilir, upgrade daha az satışla daha yüksek değer yaratabilir. A/B test bunu dönüşüm+gelir KPI’larıyla netleştirir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-hero-01.webp — Otel A/B test kontrol ve varyant karşılaştırmasını anlatan kapak görseli",
+        "h1-context — 1920×1080 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-h1-context-02.webp — A/B testin funnel adımlarına etkisini otel bağlamında gösteren görsel",
+        "divider-01 — 1600×1200 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-divider-03.webp — Kazanan ilanı ve yorumlama bölümüne geçişi ayıran görsel",
+        "divider-02 — 1600×1200 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-divider-04.webp — Stratejiye taşıma ve hata kutusuna geçişi ayıran görsel",
+        "diagram-05 — 1920×1080 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-diagram-05.webp — Kontrol ve varyant funnel şemasını gösteren A/B test diyagramı",
+        "checklist-06 — 1200×1200 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-checklist-06.webp — A/B test tasarım ve raporlama kontrol listesini özetleyen kart",
+        "kpi-07 — 1200×1200 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-kpi-07.webp — A/B test KPI uplift ve kazanan kararını özetleyen skor kart",
+        "proof-08 — 1200×1200 — ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak-proof-08.webp — A/B test raporu, panel ve karar çıktılarının teslimlerini gösteren proof kart",
+        "table-09 — Kontrol vs varyant KPI karşılaştırma tablosu (conversion, revenue, RevPAR, risk)",
+        "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+      ],
+      "technicalChecklist": []
+    }
+  }
+},
+
+"BlogOtelLtvAnaliziMusteriYasamBoyuDegeriniRaporlamak": {
+  "title": "Otel LTV: Kanal ve Pazar Değeri Raporu",
+  "slug": "otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak",
+  "department": "raporlama",
+  "subDepartment":"sales",  
+  "updatedAt": "20 Ağustos 2026",
+  "publishedAt": "2026-08-20",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Misafir LTV’yi PMS verisiyle hesaplayın; kanal/ülke bazında karşılaştırın. ROAS’ı LTV ile bağlayıp bütçe ve sadakat stratejisini gerçek değere göre kurun.",
+  "seo": {
+    "metaTitle": "Otel LTV: Kanal ve Pazar Değeri Raporu | DGTLFACE",
+    "metaDescription": "Misafir LTV’yi PMS verisiyle hesaplayın; kanal/ülke bazında karşılaştırın. ROAS’ı LTV ile bağlayıp bütçe ve sadakat stratejisini gerçek değere göre kurun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa (Hub) / URL: Satış ve Dönüşüm Raporları — /tr/raporlama/satis-donusum",
+      "Blog / URL: /tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak",
+      "Blog No: 12",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/raporlama/blog/otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak"
+    ],
+    "strategySummary": "Bu yazı, satış & dönüşüm silo’sunda “tek rezervasyon” bakışını kırıp bütçe kararlarını misafirin gerçek değerine bağlayan bir otorite içeriktir: LTV’yi (müşteri yaşam boyu değeri) ROAS ve dönüşüm raporlarına entegre ederek “hangi kanal/pazar gerçekten değerli?” sorusunu netleştirir. Hedef persona GM/otel sahibi, finans ve pazarlama ekipleridir; amaç, kısa vadeli ROAS optimizasyonunu uzun vadeli kârlılık ve sadakat stratejisiyle hizalamaktır. Funnel aşaması MoFu→BoFu’dur: ölçüm (LTV + cohort) → karar (bütçe, kanal karması, sadakat önceliği) köprüsü kurar. Ana iş sorusu: “Otel için LTV’yi nasıl hesaplarım; LTV’yi kanal/ülke bazında nasıl okurum; cohort raporlarıyla bütçe ve sadakat stratejisini nasıl kurarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-20",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "LTV (müşteri yaşam boyu değeri), bir misafirin ilk gelişinden itibaren 3–5 yıl boyunca otelinize bıraktığı toplam geliri (ve idealde net katkıyı) ölçer. Bu sayede sadece ilk rezervasyonun ROAS’ına değil, misafirin tekrar geliş, harcama ve sadakat potansiyeline bakarak hangi kanal ve pazardan gelen misafire daha çok yatırım yapmanız gerektiğini görürsünüz. PMS misafir geçmişi + kanal bilgisi + cohort raporları, LTV’yi satış ve dönüşüm raporlarına bağlamanın temelidir.",
+    "sgeSummary": "Otel LTV, misafirin 3–5 yılda bıraktığı toplam değeri ölçer. Kanal/ülke bazlı LTV kıyasıyla bütçe, kampanya ve sadakat önceliklerini ROAS yerine gerçek değerle hizalarsınız.",
+    "voiceAnswer": "LTV, misafirin yıllar içinde tekrar konaklama ve harcamalarıyla bıraktığı toplam değerdir.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, finans, pazarlama, revenue",
+      "Entity seti: Guest, Lifetime Value, Reservation, Channel, Country, Segment, Loyalty, Campaign",
+      "Semantik ilişki: High LTV Segment → deserves → more budget & retention effort",
+      "KPI çekirdeği: repeat rate, revenue per guest, retention, LTV, CAC/LTV yaklaşımı",
+      "Geo bağlamı: Antalya / Belek / Side / Kemer / Bodrum (iç pazar vs Avrupa repeat farkı)",
+      "Karar çıktısı: LTV formülü + cohort dashboard + kanal/pazar bütçe kuralı",
+      "Risk: sadece ROAS odaklı optimizasyon → uzun vadeli kârlılığı kaçırır"
+    ]
+  },
+  "h1": {
+    "title": "Otel LTV Analizi: Müşteri Yaşam Boyu Değerini Satış & Dönüşüm Raporlarına Bağlamak",
+    "intro": "Otel pazarlamasında başarı çoğu zaman “ilk rezervasyon” üzerinden ölçülür: ROAS iyi mi, CPA düştü mü, dönüşüm arttı mı? Bu metrikler önemlidir ama eksiktir; çünkü otel işi “tek seferlik” değil, tekrar konaklama ve çapraz harcamalarla (F&B, spa, upgrade, transfer, etkinlik) büyüyen bir ilişkidir. Bu yüzden asıl soru şudur: Hangi kanal ve pazardan gelen misafir, 3–5 yıl içinde otelinize daha fazla değer bırakıyor? LTV analizi, bu sorunun cevabını verir.\n\nLTV’yi satış & dönüşüm raporlarına bağladığınızda bütçe kararları değişir: OTA’dan gelen misafir ilk satışta daha düşük kârlı görünebilir; ama doğru sadakat stratejisiyle uzun vadede çok değerli olabilir. Tersi de mümkündür: direct misafir ilk satışta kârlı, tekrar düşük olabilir. Bu yazıda LTV’yi PMS verisiyle nasıl hesaplayacağınızı, kanal/ülke bazında nasıl kıyaslayacağınızı, cohort (dönem/ülke) raporlarıyla nasıl okuyacağınızı ve sonuçları bütçe + sadakat stratejisine nasıl taşıyacağınızı anlatacağız.",
+    "quickSummary": [
+      "1) LTV pencerenizi seçin (3 yıl ile başlayın, sonra 5 yıla genişletin).",
+      "2) LTV’yi kanal/ülke/segment kırılımıyla raporlayın.",
+      "3) LTV’yi sadakat hedefleriyle bağlayın (repeat artırma).",
+      "4) OTA komisyonunu “net LTV” lensine dahil edin (mümkünse).",
+      "5) Cohort raporlarını bütçe ve sadakat kararlarına bağlayın."
+    ],
+    "ctaPrimary": {
+      "label": "LTV & Cohort Bazlı Gelir Analizi Talep Et",
+      "text": "Bütçeyi “gerçek misafir değeri”ne göre yönetmek isteyen oteller için.",
+      "href": "/raporlama/satis-donusum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "LTV & Cohort Bazlı Gelir Analizi Talep Et",
+      "text": "Kanal ve pazarı LTV’ye göre önceliklendirmek isteyen oteller için.",
+      "href": "/raporlama/satis-donusum"
+    },
+    "secondary": {
+      "label": "Otel LTV Hesaplama & KPI Rehberini İndir",
+      "text": "LTV formülü, cohort şablonu ve kanal/pazar KPI setini tek rehberde toplar.",
+      "href": "/downloads/otel-ltv-hesaplama-kpi-rehberi-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporları",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "Satış Sonrası Destek",
+      "href": "/cagri-merkezi/satis-sonrasi-destek"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  ],
+  "relatedPosts": [],
+  "sections": [
+    {
+      "id": "musteri-yasam-boyu-degeri-ltv-nedir",
+      "title": "Müşteri yaşam boyu değeri (LTV) nedir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : LTV, bir misafirin ilk konaklamasından başlayarak belirli bir zaman penceresinde (genelde 3–5 yıl) otelinize bıraktığı toplam gelir değeridir; ideal durumda net katkı (komisyon, iptal, maliyet) katmanı da eklenir. Otelde LTV; tekrar konaklama, sezon davranışı ve ek harcamalar nedeniyle “ilk rezervasyon” metriklerinden daha doğru bir yatırım pusulası sunar."
+        },
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "LTV’yi anlamak, pazarlama ile sadakat/CRM’i aynı masaya getirir. Çünkü LTV sadece “ne kadar gelir bıraktı?” değil, “hangi segment tekrar gelir ve hangi teklifle tutulur?” sorusudur."
+        },
+        {
+          "type": "h3",
+          "text": "Otelde LTV’yi yükselten 4 sürücü"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Repeat (tekrar konaklama): kaç kez geri geliyor?",
+            "Sepet büyüklüğü: ADR/oda türü, paket, upsell",
+            "Ek harcama: F&B, spa, transfer, etkinlik (Varsayım)",
+            "Kanal maliyeti: OTA komisyonu ve acquisition maliyeti (Varsayım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya/Belek)"
+        },
+        {
+          "type": "p",
+          "text": "Belek’te aile segmenti tekrar ediyorsa, sadakat iletişimi ve doğru paketleme LTV’yi büyütür. Antalya’da bazı pazarlarda (Varsayım: Avrupa) erken planlama davranışı, tekrar potansiyelini farklılaştırabilir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "LTV’yi “tek rezervasyon”dan ayrı bir değer metriği olarak konumladım",
+            "LTV için zaman penceresini belirledim (3–5 yıl)",
+            "Repeat ve sepet büyüklüğünü ayrı ölçüyorum",
+            "Kanal maliyetini (komisyon/CAC) LTV’ye bağlamayı planladım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "LTV pencerenizi seçin (3 yıl ile başlayın, sonra 5 yıla genişletin).",
+            "LTV’yi kanal/ülke/segment kırılımıyla raporlayın.",
+            "LTV’yi sadakat hedefleriyle bağlayın (repeat artırma).",
+            "OTA komisyonunu “net LTV” lensine dahil edin (mümkünse)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oteller-icin-ltv-hesaplama",
+      "title": "Oteller için LTV nasıl hesaplanır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : En basit LTV, misafir bazında seçilen penceredeki toplam gelir (oda+ek harcama) toplamıdır; daha gelişmiş modelde komisyon ve maliyetlerle net katkı hesabına dönüştürülür. Pratikte PMS misafir geçmişi, rezervasyon tarihleri, gelir kalemleri ve ilk kazanım kanalı birleştirilerek hesaplanır."
+        },
+        {
+          "type": "h3",
+          "text": "Minimum uygulanabilir LTV formülü (MVP)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gross LTV (3 yıl) = 3 yıl içindeki toplam konaklama geliri (+ ek harcama, varsa)",
+            "Repeat rate = 3 yıl içinde ≥2 konaklama yapan misafir / toplam misafir",
+            "Revenue per guest = toplam gelir / misafir sayısı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Net LTV (gelişmiş yaklaşım – Varsayım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Net LTV = Gross LTV − (OTA komisyonları) − (acquisition maliyeti/CAC) − (iptal/iadeler etkisi)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Tüm maliyetler her otelde aynı olgunlukta izlenmez; ama komisyon ve iptal katmanı bile çok şey değiştirir."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek hesap mantığı (gerçek sayı iddiası olmadan)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Misafir A: ilk geliş direct, 3 yılda 2 kez geldi → toplam gelir yüksek → LTV yüksek",
+            "Misafir B: OTA’dan geldi, 1 kez geldi → LTV düşük",
+            "Misafir C: OTA’dan geldi, sadakat kampanyasıyla 2. geliş yaptı → LTV yükseldi"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden “OTA misafiri değersiz” genellemesi yerine “hangi OTA segmenti tekrar ediyor?” sorusu önemlidir."
+        },
+        {
+          "type": "table",
+          "caption": "LTV formülü + örnek set (gross vs net)",
+          "headers": [
+            "Model / Misafir",
+            "Hesap / Davranış",
+            "Yorum"
+          ],
+          "rows": [
+            [
+              "Gross LTV (3 yıl)",
+              "3 yıl içindeki toplam konaklama geliri (+ ek harcama, varsa)",
+              "Pencere içindeki toplam gelir"
+            ],
+            [
+              "Net LTV",
+              "Gross LTV − OTA komisyonları − acquisition maliyeti/CAC − iptal/iadeler etkisi",
+              "Gelişmiş yaklaşım – Varsayım"
+            ],
+            [
+              "Misafir A",
+              "ilk geliş direct, 3 yılda 2 kez geldi",
+              "toplam gelir yüksek → LTV yüksek"
+            ],
+            [
+              "Misafir B",
+              "OTA’dan geldi, 1 kez geldi",
+              "LTV düşük"
+            ],
+            [
+              "Misafir C",
+              "OTA’dan geldi, sadakat kampanyasıyla 2. geliş yaptı",
+              "LTV yükseldi"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "LTV’yi misafir bazında ve pencere bazında hesaplıyorum",
+            "İlk kazanım kanalı (first-touch channel) alanı var",
+            "Repeat ve revenue/guest KPI’larını ekledim",
+            "Net LTV için komisyon/CAC katmanını planladım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "PMS’te “guest_id” ile tekrar konaklamayı birleştirin.",
+            "İlk kazanım kanalını misafir kaydına bağlayın (direct/OTA/call).",
+            "Gross LTV ile başlayın; sonra net LTV katmanını ekleyin.",
+            "LTV raporunu her çeyrekte güncelleyin (trend görmek için)."
+          ]
+        },
+        {"type":"media","slot":"divider-02"}
+      ]
+    },
+    {
+      "id": "kanal-pazar-bazli-ltv-analizi",
+      "title": "Kanal ve pazar bazlı LTV analizi (OTA vs direct)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LTV’nin en değerli kullanımı, kanal ve pazar kararlarını düzeltmesidir. Bir kanal kısa vadede pahalı görünebilir ama yüksek LTV üretebilir; ya da kısa vadede kârlı görünüp uzun vadede zayıf kalabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Kanal bazlı LTV kıyası nasıl okunur?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Direct: komisyon avantajı + veri sahipliği → potansiyel net LTV yüksek",
+            "OTA: hacim + görünürlük → ilk satış marjı düşük olabilir; ama retention ile değer artabilir",
+            "Call center: kapanış gücü + upsell → yüksek sepetli satışlarda güçlü olabilir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Ülke/pazar kırılımı (iç pazar vs Avrupa)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya/Belek/Side gibi destinasyonlarda iç pazar ve Avrupa pazarının tekrar davranışı farklılaşabilir. Bu nedenle LTV’yi ülke bazında okumak, “hangi pazara sadakat yatırımı yapılmalı?” sorusunu netleştirir."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kanal bazlı LTV kıyasım var (direct vs OTA vs call)",
+            "Ülke/pazar bazlı LTV kıyasım var",
+            "LTV’yi ROAS/CAC kararlarına bağlayabiliyorum",
+            "“yüksek LTV segment” için yatırım kuralım var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Kanal bazlı LTV’yi “ilk satış” metriklerinden ayrı raporlayın.",
+            "Ülke/pazar kırılımını ekleyin (özellikle resort destinasyonlarda).",
+            "LTV yüksek segment için bütçe tavanını yükseltin (kontrollü).",
+            "LTV düşük segmentte retention yerine acquisition verimliliğine odaklanın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cohort-donem-ulke-bazli-ltv",
+      "title": "Cohort (dönem ve ülke bazlı) LTV raporları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cohort analizi, LTV’yi “zaman” boyutuna oturtur: farklı sezonlarda kazanılan misafirlerin tekrar davranışı ve değeri değişebilir. Otelde bu, özellikle yüksek sezon / düşük sezon dinamikleri nedeniyle çok önemlidir."
+        },
+        {
+          "type": "h3",
+          "text": "Cohort nedir? (otel pratik tanımı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Cohort = belirli dönemde ilk kez gelen misafir grubu (ör. 2025 Yaz cohort’u)",
+            "Cohort LTV = bu grubun 3 yıl içindeki toplam değeri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Cohort kırılımları (en pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yıl / sezon: yüksek sezon vs düşük sezon",
+            "Ülke/pazar: Almanya vs iç pazar",
+            "Kanal: OTA cohort’u vs direct cohort’u"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Bodrum’da yüksek sezon cohort’u “tek seferlik” davranabilirken, Antalya’da bazı segmentler tekrar edebilir (Varsayım). Cohort raporu bunu netleştirir."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Cohort tanımım “ilk geliş tarihi”ne göre",
+            "Sezon ve ülke kırılımı raporumda var",
+            "Kanal cohort’u (OTA vs direct) kıyaslanıyor",
+            "Cohort trendleri bütçe kararına bağlanıyor"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Cohort’u “ilk geliş” tarihine göre tanımlayın (tek standart).",
+            "Yüksek/düşük sezon cohort’larını ayrı okuyun.",
+            "Ülke ve kanal cohort’larını ekleyin (en çok değer burada çıkar).",
+            "Cohort raporunu yılda 2 kez strateji toplantısına taşıyın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ltv-butce-sadakat-stratejisi",
+      "title": "LTV sonuçlarını bütçe ve sadakat stratejisine bağlamak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : LTV yüksek segmentlere daha fazla bütçe ve retention (sadakat) yatırımı yapılır; düşük LTV segmentlerde acquisition verimliliği ve marj korunumu önceliklenir. LTV’yi ROAS/CAC ile birlikte okuyarak “kısa vadede pahalı ama uzun vadede değerli” segmentlere doğru yatırım yapılabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Bütçe kuralı (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "High LTV segment: CAC/ROAS toleransı daha yüksek olabilir (kontrollü)",
+            "Low LTV segment: daha sıkı CAC hedefi + kısa vadeli kârlılık"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sadakat önceliklendirme"
+        },
+        {
+          "type": "p",
+          "text": "Sadakat kampanyalarını “herkese aynı” yapmak yerine, LTV’ye göre önceliklendirmek daha rasyoneldir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "yüksek LTV + tekrar potansiyeli → özel teklif, erken erişim, paket avantajı",
+            "düşük LTV → düşük maliyetli iletişim ve otomasyon"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3 örnek LTV senaryosu"
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1 — Direct cohort LTV yüksek"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aksiyon: direct booking büyütme + CRM + tekrar teklifleri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2 — OTA cohort ilk satışta zayıf ama 2. gelişte güçlü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aksiyon: OTA’dan geleni direct’e taşıyan sadakat akışı (e-posta/WhatsApp)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3 — Ülke X LTV yüksek ama conversion düşük"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aksiyon: ülke dil/ödeme/ikna içerikleri + hedefli kampanya"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "Key Statistics / Data Point (yumuşatılmış)"
+        },
+        {
+          "type": "p",
+          "text": "Genelde OTA üzerinden kazanılan misafir ilk satışta daha düşük kârlı görünebilir; ancak doğru sadakat stratejisiyle uzun vadede çok değerli hale gelebilir—ya da tam tersi. Bu yüzden LTV, “kanal iyi/kötü” genellemesi yerine segment bazlı yatırım kararını mümkün kılar."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "LTV’yi bütçe ve sadakat kararına bağladım",
+            "Kanal ve ülke bazlı LTV farklarını görüyorum",
+            "Cohort raporu ile sezon etkisini ayırıyorum",
+            "LTV yüksek segmente özel retention planım var"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "LTV yüksek segment için “budget cap” ve retention planı belirleyin.",
+            "OTA’dan gelenleri direct/CRM’e taşımak için akış tasarlayın.",
+            "LTV raporunu ROAS raporuyla yan yana koyun (çelişki noktalarını bulun).",
+            "Sadakat kampanyalarını segment bazında test edin (A/B + cohort)."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "LTV & Cohort Bazlı Gelir Analizi Talep Et",
+          "text": "LTV’yi satış & dönüşüm raporlarına bağlamak isteyen oteller için.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Otel LTV Hesaplama & KPI Rehberini İndir",
+          "text": "LTV formülü, cohort şablonu ve kanal/pazar KPI setini tek rehberde toplar.",
+          "href": "/downloads/otel-ltv-hesaplama-kpi-rehberi-v1.0.pdf"
+        },
+         {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "otel-ltv-hesaplama-kpi-rehberi",
+      "title": "Otel LTV Hesaplama & KPI Rehberini İndir — Satış & Dönüşüm Raporları",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Otel LTV Hesaplama & KPI Rehberini İndir — Satış & Dönüşüm Raporları (v1.0)",
+          "purpose": "Bu mini rehber, otel LTV’yi PMS verisiyle hesaplamak, kanal/ülke bazında kıyaslamak ve cohort raporlarıyla okumak için hazır formül ve KPI seti sunar. Amaç, bütçe ve sadakat stratejisini “ilk rezervasyon” değil “3–5 yıllık gerçek misafir değeri” üzerinden yönetmektir.",
+          "whoFor": "Finans, pazarlama, revenue ve CRM/sadakat ekipleri.",
+          "steps": [
+            "LTV pencerenizi seçin (3 yıl ile başlayın) ve guest_id bazında gelirleri birleştirin.",
+            "Kanal/ülke cohort’larını çıkarıp LTV kıyas tablosunu doldurun.",
+            "High-LTV segmentler için bütçe ve sadakat önceliklerini belirleyip 90 gün sonra tekrar ölçün."
+          ],
+          "checklist": [
+            "Gross LTV: pencere içi toplam gelir",
+            "Net LTV (Varsayım): gross − komisyon − CAC − iptal etkisi",
+            "Cohort: belirli dönemde ilk gelen misafir grubu",
+            "Repeat rate: tekrar konaklama oranı",
+            "LTV by channel: direct / OTA / call",
+            "LTV by country: iç pazar / Avrupa (Varsayım: Almanya vb.)",
+            "Cohort LTV: sezon/yıl"
+          ],
+          "href": "/downloads/otel-ltv-hesaplama-kpi-rehberi-v1.0.pdf",
+          "buttonLabel": "Rehberi İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "LTV (müşteri yaşam boyu değeri) nedir, oteller için nasıl hesaplanır?",
+      "a": "LTV, misafirin belirli bir pencerede (genelde 3–5 yıl) otelinize bıraktığı toplam gelirdir; idealde komisyon ve maliyetlerle net katkı hesabına dönüştürülür. PMS misafir geçmişi ve gelir verileriyle guest_id bazında hesaplanır."
+    },
+    {
+      "q": "Hangi kanal ve pazardan gelen misafir daha yüksek LTV’ye sahip?",
+      "a": "Bu, tekrar konaklama ve sepet büyüklüğüne göre değişir. Direct misafir komisyon avantajıyla güçlü olabilir; OTA misafiri ilk satışta düşük kârlı görünse de doğru sadakat stratejisiyle LTV’si yükseltebilir."
+    },
+    {
+      "q": "LTV verisini reklam ve sadakat stratejisinde nasıl kullanırım?",
+      "a": "High-LTV segmentlere daha fazla bütçe ve retention yatırımı yapılır; low-LTV segmentlerde acquisition verimliliği ve marj korunumu önceliklenir. LTV, ROAS/CAC kararlarını uzun vadeli değerle hizalar."
+    },
+    {
+      "q": "Cohort bazlı LTV analizi nedir, neden önemlidir?",
+      "a": "Cohort, belirli dönemde ilk gelen misafir grubudur; bu grubun LTV’si zaman içinde izlenir. Otelde sezon ve pazar farkları güçlü olduğu için cohort analizi LTV’yi doğru bağlama oturtur."
+    },
+    {
+      "q": "OTA misafiri mi direct misafir mi daha değerli?",
+      "a": "Tek doğru yoktur; değer, tekrar konaklama ve toplam harcamayla belirlenir. LTV analizi, kanalın kısa vadeli kârını değil, uzun vadeli katkısını görmenizi sağlar."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-hero-01.webp — Otel LTV ve cohort analizini satış raporlarına bağlayan kapak görseli",
+        "h1-context — 1920×1080 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-h1-context-02.webp — LTV ile ROAS ve dönüşüm raporlarını bağlayan otel görseli",
+        "divider-01 — 1600×1200 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-divider-03.webp — Bütçe ve sadakat stratejisine geçişi ayıran LTV görseli",
+        "divider-02 — 1600×1200 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-divider-04.webp — Cohort raporlarına geçişi ayıran LTV görseli",
+        "diagram-05 — 1920×1080 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-diagram-05.webp — Cohort bazlı LTV okumasını gösteren otel diyagramı",
+        "checklist-06 — 1200×1200 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-checklist-06.webp — LTV hesaplama ve veri birleştirme kontrol listesini özetleyen kart",
+        "kpi-07 — 1200×1200 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-kpi-07.webp — Kanal ve ülke bazlı LTV KPI kartlarını özetleyen görsel",
+        "proof-08 — 1200×1200 — otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak-proof-08.webp — LTV dashboard ve cohort rapor teslimlerini gösteren proof kartı",
+        "table-09 — LTV formülü + örnek set (gross vs net)"
+      ],
+      "technicalChecklist": []
+    }
+  }
+},
+
+"BlogUpsellVeCrossSellDonusumRaporlama": {
+  "title": "Otel UpSell KPI’ları: Upgrade ve Yan Gelir Raporu",
+  "slug": "upsell-ve-cross-sell-donusum-raporlama",
+  "department": "raporlama",
+  "subDepartment":"sales",
+  "updatedAt": "20 Ağustos 2026",
+  "publishedAt": "2026-08-20",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Oda upgrade, geç çıkış ve spa satışlarını ölçün. Teklif→tıklama→satın alma dönüşümüyle kişi/oda başı ek geliri bulun; kârlılığı veriyle artırın.",
+  "seo": {
+    "metaTitle": "Otel UpSell KPI’ları: Upgrade ve Yan Gelir Raporu | DGTLFACE",
+    "metaDescription": "Oda upgrade, geç çıkış ve spa satışlarını ölçün. Teklif→tıklama→satın alma dönüşümüyle kişi/oda başı ek geliri bulun; kârlılığı veriyle artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa (Hub) / URL: Satış ve Dönüşüm Raporları — /tr/raporlama/satis-donusum",
+      "Blog / URL: /tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama",
+      "Blog No: 13",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/raporlama/blog/upsell-ve-cross-sell-donusum-raporlama"
+    ],
+    "strategySummary": "Bu yazı, satış & dönüşüm silo’sunda “yan gelir (ancillary)” performansını ölçülebilir hale getiren otorite içeriktir: oda upgrade, geç çıkış, spa ve benzeri upsell/cross-sell tekliflerinin teklif→tıklama→satın alma funnel’ında nerede kazandığını/kaybettiğini raporlamayı öğretir. Hedef persona GM/otel sahibi, satış-pazarlama, revenue ve operasyon ekipleridir; amaç “kaç kişi aldı?” seviyesinden çıkıp hangi teklifin hangi kanalda, hangi segmentte ve hangi fiyatla daha kârlı çalıştığını bulmaktır. Funnel aşaması MoFu→BoFu’dur: teşhis (upsell funnel + KPI) ile aksiyon (teklif tasarımı, kanal seçimi, takip) arasında köprü kurar. Ana iş sorusu: “Upsell/cross-sell dönüşümünü ve kişi/oda başı ek geliri nasıl ölçerim; sonuçları toplam gelir ve kârlılığa nasıl bağlarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-20",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "UpSell ve cross-sell dönüşüm raporları, oda upgrade, geç çıkış, spa gibi ek ürünlerin teklif edilme ve satın alınma oranlarını ölçerek kişi/oda başı ek geliri netleştirir. Sadece “kaç kişi aldı?” değil; teklifin kimlere, hangi kanaldan ve hangi fiyatla sunulduğunu analiz etmek gerekir. Doğru yaklaşım; teklif→tıklama→satın alma funnel’ını kurmak, upsell dönüşüm oranı ve ancillary revenue KPI’larını takip etmek ve sonuçları toplam gelir/kârlılık raporlarına bağlamaktır.",
+    "sgeSummary": "Upsell/cross-sell raporu; teklif→tıklama→satın alma dönüşümünü ve kişi/oda başı ek geliri ölçer. Hangi teklif ve kanal kombinasyonunun kârlı olduğunu gösterir.",
+    "voiceAnswer": "Upsell dönüşümü, teklifin kaç kez görülüp kaç kez satın alındığını ölçerek yan geliri büyütür.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, revenue, satış-pazarlama, operasyon",
+      "Entity seti: UpSell, Cross-Sell, Upgrade, Late Check-Out, Spa, Ancillary Revenue, Conversion Rate, Revenue per Guest",
+      "Semantik ilişki: UpSell Conversion → increases → ancillary revenue & profitability",
+      "KPI çekirdeği: offer view rate, click rate, purchase rate, revenue/guest, revenue/room",
+      "Geo bağlamı: Antalya / Belek / Side / Kemer / Bodrum (yan gelir potansiyeli yüksek resort)",
+      "Karar çıktısı: upsell funnel + teklif bazlı KPI tablosu + senaryolar",
+      "Risk: yalnız satış adedi bakmak → fiyat/segment/kârlılık gerçeğini kaçırır"
+    ]
+  },
+  "h1": {
+    "title": "UpSell & Cross-Sell Dönüşüm Raporlama: Oda Upgrade, Spa ve Geç Çıkış Satışlarını Ölçmek",
+    "intro": "Otel kârlılığını büyütmenin en güçlü yollarından biri, yalnızca oda satmak değil; misafirin konaklama deneyimini yükselten ek ürünleri doğru zamanda ve doğru kanaldan sunmaktır. Oda upgrade, geç çıkış, spa paketi, restoran deneyimi veya transfer gibi tekliflerde asıl oyun şudur: teklif doğru kişiye, doğru anda ve doğru fiyatta gidiyor mu? “Kaç kişi aldı?” sorusu tek başına yetmez; çünkü dönüşüm, teklifin görünürlüğü, tıklanması ve satın alma adımındaki sürtünmeyle şekillenir.\n\nBu yazıda upsell ve cross-sell kavramlarını otel bağlamında netleştirip, web motoru, e-posta ve call center üzerinden çalışan upsell akışlarını tek bir ölçüm çerçevesine alacağız. Teklif→tıklama→satın alma funnel’ını kuracağız, upsell dönüşüm oranı ve kişi/oda başı ek gelir KPI’larını tanımlayacağız ve sonuçları toplam satış ve kârlılık raporlarına bağlayacağız. Antalya, Belek, Side, Kemer ve Bodrum gibi resort destinasyonlarda yan gelir potansiyelinin toplam kârlılığa etkisini de senaryo bazında ele alacağız.",
+    "quickSummary": [
+      "1) Upsell/cross-sell ürün kataloğu oluşturun (fiyat + kapasite + kurallar).",
+      "2) Ürünleri segmentlere eşleyin (aile/çift/kurumsal).",
+      "3) “Ne zaman teklif edilir?” kuralını yazın (pre-stay/in-stay/post-stay).",
+      "4) Ölçüm için teklif ID ve kanal bilgisi hazırlayın.",
+      "5) “Dönüşüm + ek gelir” birleşik karar metriği kullanın."
+    ],
+    "ctaPrimary": {
+      "label": "UpSell & Cross-Sell Dönüşüm Analizi Talep Et",
+      "text": "Yan gelir potansiyelini KPI’larla büyütmek isteyen resort oteller için.",
+      "href": "/raporlama/satis-donusum"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "UpSell & Cross-Sell Dönüşüm Analizi Talep Et",
+      "text": "Upgrade, spa ve late check-out tekliflerinin net katkısını ölçmek isteyen oteller için.",
+      "href": "/raporlama/satis-donusum"
+    },
+    "secondary": {
+      "label": "UpSell KPI & Örnek Teklif Senaryoları Rehberini İndir",
+      "text": "Upsell funnel, KPI seti ve senaryo şablonlarını tek rehberde toplar.",
+      "href": "/downloads/upsell-kpi-ornek-teklif-senaryolari-rehberi-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporları",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Satış Sonrası Destek",
+      "href": "/cagri-merkezi/satis-sonrasi-destek"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    }
+  ],
+  "relatedPosts": [],
+  "sections": [
+    {
+      "id": "upsell-cross-sell-nedir",
+      "title": "UpSell ve cross-sell nedir, oteller için hangi ürünler öne çıkar?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : UpSell, misafiri daha yüksek değerli seçeneğe taşımaktır (oda upgrade, daha iyi manzara, premium paket). Cross-sell ise ek ürün satmaktır (spa, geç çıkış, transfer, restoran paketi). Otellerde bu teklifler doğru kurgulandığında kişi/oda başı yan geliri artırarak toplam kârlılığı büyütür."
+        },
+        { "type": "media",
+          "slot": "h1-context-02"},
+        {
+          "type": "h3",
+          "text": "Otellerde en yaygın upsell/cross-sell ürünleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "UpSell: oda upgrade (standart→suite), manzara/konum upgrade, premium paket",
+            "Cross-sell: geç çıkış, erken giriş, spa/hamam, transfer, özel yemek, etkinlik",
+            "Operasyonel not (Varsayım): availability ve kapasite (spa slot, late check-out kapasitesi) satışın sınırıdır"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Belek)"
+        },
+        {
+          "type": "p",
+          "text": "Belek’te aile segmentinde “geç çıkış + çocuk aktivitesi” paketi cross-sell olarak güçlü olabilir; çift segmentinde “spa + romantik akşam yemeği” daha iyi çalışabilir. Teklifin hedeflemesi, dönüşüm kadar önemlidir."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "UpSell ve cross-sell’i ayrı tanımladım",
+            "Satılabilir ürün listesini (upgrade, late check-out, spa) netleştirdim",
+            "Kapasite kısıtlarını (availability) hesaba kattım",
+            "Ürünleri segmente göre eşleştirmeyi planladım"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Upsell/cross-sell ürün kataloğu oluşturun (fiyat + kapasite + kurallar).",
+            "Ürünleri segmentlere eşleyin (aile/çift/kurumsal).",
+            "“Ne zaman teklif edilir?” kuralını yazın (pre-stay/in-stay/post-stay).",
+            "Ölçüm için teklif ID ve kanal bilgisi hazırlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upsell-donusum-orani",
+      "title": "Up-sell dönüşüm oranı nasıl ölçülür?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa cevap : Upsell dönüşümü, teklifin kaç kez görüntülendiği (offer view), kaç kez tıklandığı (click) ve kaç kez satın alındığı (purchase) adımlarının oranlarıyla ölçülür. Bu üç adım, “teklif görünürlüğü”, “ilgi” ve “kapanış” sürtünmesini ayrı ayrı gösterir."
+        },
+        {
+          "type": "h3",
+          "text": "Upsell funnel (teklif → tıklama → satın alma)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Offer Viewed: teklif görüntülendi (kimlere?)",
+            "Offer Clicked / Selected: teklif tıklandı/seçildi (ilgi)",
+            "Offer Purchased: satın alındı (kapanış)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Temel KPI seti (çekirdek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Offer View Rate: teklif gören kullanıcı / eligible kullanıcı (Varsayım: eligible tanımı kapasiteye göre)",
+            "Click Rate: tıklama / görüntülenme",
+            "Purchase Rate: satın alma / tıklama (veya / görüntülenme)",
+            "Ancillary Revenue: upsell geliri (toplam)",
+            "Revenue per Guest / Room: kişi/oda başı yan gelir",
+            "Attach Rate (Varsayım): upsell alan rezervasyon / toplam rezervasyon"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Key Statistics / Data Point (teorik, yumuşatılmış)"
+        },
+        {
+          "type": "p",
+          "text": "Doğru kurgulanmış upsell senaryolarında, oda veya kişi başı yan geliri teorik olarak %10–20 artırmanın toplam kârlılığa etkisi yüksek olabilir. Kritik nokta, dönüşümü tek başına değil dönüşüm + ek gelir birlikte raporlamaktır; düşük dönüşüm ama yüksek gelir bırakan teklif, bazı segmentlerde daha iyi strateji olabilir."
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Offer view/click/purchase adımlarını ayrı ölçüyorum",
+            "Attach rate ve revenue per guest KPI’ım var",
+            "Eligible tanımını netleştirdim (kimlere sunulur?)",
+            "Teklifi segment ve kanal bazında kırıyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Offer view/click/purchase event’lerini standardize edin.",
+            "Eligible kuralını yazın (kapasite ve koşullara göre).",
+            "KPI’ları segment bazında okuyun (ülke/cihaz/oda).",
+            "“Dönüşüm + ek gelir” birleşik karar metriği kullanın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-mail-call-center-upsell-hunisi",
+      "title": "Web, mail ve call center üzerinden up-sell hunisi nasıl kurulur?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Upsell sadece web motorunda olmaz. Pre-stay e-posta/WhatsApp teklifleri, call center upsell script’leri ve check-in öncesi hatırlatmalar çok güçlü olabilir. Bu yüzden kanal bazlı upsell hunisi kurmak gerekir."
+        },
+        {"type":"media","slot":"checklist-06"},
+        {
+          "type": "h3",
+          "text": "Web booking engine upsell"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Teklif ekranı: checkout sırasında upgrade/late check-out",
+            "Ölçüm: offer viewed → selected → purchased",
+            "Risk: checkout sürtünmesi artarsa ana dönüşüm zarar görebilir (denge önemli)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mail / WhatsApp upsell (pre-stay)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Teklif: spa, transfer, upgrade, geç çıkış",
+            "Ölçüm: mesaj gönderim → tıklama → satın alma/rezervasyon notu (Varsayım: CRM entegrasyonu)",
+            "Güç: segment bazlı kişiselleştirme (aile/çift)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Call center upsell (kapanış ve upsell)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Teklif: oda upgrade, paket, transfer",
+            "Ölçüm: teklif → kabul → satış",
+            "Güç: itiraz yönetimi, alternatif öneri"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya resort)"
+        },
+        {
+          "type": "p",
+          "text": "Antalya’da late check-out kapasitesi sınırlıysa, eligible segmenti “yüksek sepetli” misafirlerle sınırlamak hem deneyimi hem net katkıyı artırabilir. Bu karar, upsell raporundan çıkar."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Upsell’i kanala göre ayrı raporluyorum (web/mail/call)",
+            "Kanal bazlı click/purchase oranlarını görüyorum",
+            "Ana booking conversion’ı koruyacak dengeyi izliyorum",
+            "Kapasite/availability kuralını rapora not düşüyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Her kanal için ayrı upsell funnel kurun (web vs mail vs call).",
+            "Web’de upsell eklerken ana dönüşümü izleyin (zarar veriyor mu?).",
+            "Mail/WhatsApp’ta segment bazlı teklif yapın.",
+            "Call center script’lerini ölçümle güncelleyin (teklif→kabul oranı)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upsell-toplam-satis-karlilik",
+      "title": "Up-sell sonuçlarını toplam satış ve kârlılığa nasıl bağlarsınız?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Upsell raporu tek başına “ek gelir” gösterebilir; ama yönetim kararı için total satış ve kârlılık raporuna bağlanmalıdır. Burada iki kritik ilişki vardır:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Ana rezervasyon dönüşümü etkileniyor mu? (upsell checkout’u zorlaştırıyor mu?)",
+            "Net katkı artıyor mu? (ek gelir, operasyon maliyeti ve komisyon dengesi)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Birleşik raporlama yaklaşımı (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ana funnel KPI: booking conversion, revenue",
+            "Upsell KPI: attach rate, revenue/guest, offer conversion",
+            "Kârlılık lensi (Varsayım): operasyon maliyeti/kapasite etkisi notu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yönetim için “3 satırlık” özet"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kişi/oda başı yan gelir trendi",
+            "En iyi 3 teklif (gelir/guest)",
+            "Ana dönüşüm etkisi (booking conversion değişti mi?)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Teklif türü × dönüşüm × kişi/oda başı ek gelir",
+          "headers": [
+            "Teklif Türü",
+            "Dönüşüm",
+            "Kişi/Oda Başı Ek Gelir",
+            "Kritik Not"
+          ],
+          "rows": [
+            [
+              "Oda Upgrade",
+              "Offer conversion",
+              "Revenue per Guest / Room",
+              "Düşük dönüşüm ama yüksek gelir bırakabilir"
+            ],
+            [
+              "Late Check-Out",
+              "Offer conversion",
+              "Revenue per Guest / Room",
+              "Kapasite / eligible kuralı önemli"
+            ],
+            [
+              "Spa",
+              "Offer conversion",
+              "Revenue per Guest / Room",
+              "Fiyat/koşul netliği ve rezervasyon kolaylığı önemli"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Upsell KPI’larını ana funnel KPI’larıyla yan yana koydum",
+            "Ana dönüşümü bozmayan teklifleri seçiyorum",
+            "Revenue per guest/room metriğiyle karar veriyorum",
+            "Segment bazında en kârlı teklifi buluyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "Upsell raporunu ana satış raporunun yanına koyun (aynı panelde).",
+            "Ana dönüşüm zarar görüyorsa upsell teklifini yeniden tasarlayın.",
+            "En kârlı teklifleri segmentlere göre ölçekleyin.",
+            "Kapasite kısıtlarını (spa slot, late check-out) yönetin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upsell-teklif-senaryolari",
+      "title": "3 up-sell teklif senaryosu",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Senaryo 1 — Upgrade dönüşümü düşük ama gelir yüksek"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yorum: doğru segmentte ölçeklenmeli",
+            "Aksiyon: suite/upgrade landing + remarketing + değer anlatımı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2 — Late check-out dönüşümü yüksek ama kapasite sınırlı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yorum: eligible segment daralt, fiyat basamakla",
+            "Aksiyon: yüksek sepetli segmente öncelik + otomatik limit"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3 — Spa paketi tıklanıyor ama satın alma yok"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yorum: fiyat/koşul netliği veya rezervasyon kolaylığı sorunu",
+            "Aksiyon: paket içeriği netleştir + kolay rezervasyon + pre-stay teklif"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "En iyi teklifleri segment ve kanal bazında ayırıyorum",
+            "Kapasite yönetimini upsell raporuna bağlıyorum",
+            "Dönüşüm + ek gelir birleşik metriği kullanıyorum",
+            "Aksiyonları 2 haftalık sprintlere çeviriyorum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (3–6 aksiyon)",
+          "items": [
+            "3 teklif seçin ve 30 gün KPI takibi yapın.",
+            "Kârlı teklifi ölçekleyin, düşük katkıyı revize edin.",
+            "Spa/late check-out gibi kapasite ürünlerinde “eligible” kuralı koyun.",
+            "Sonuçları benchmark raporlarıyla kıyaslayın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "UpSell & Cross-Sell Dönüşüm Analizi Talep Et",
+          "text": "Yan geliri KPI’larla büyütmek isteyen oteller için.",
+          "href": "/raporlama/satis-donusum"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "UpSell KPI & Örnek Teklif Senaryoları Rehberini İndir",
+          "text": "Upsell funnel, KPI seti ve senaryo şablonlarını tek rehberde toplar.",
+          "href": "/downloads/upsell-kpi-ornek-teklif-senaryolari-rehberi-v1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "upsell-kpi-ornek-teklif-senaryolari-rehberi",
+      "title": "UpSell KPI & Örnek Teklif Senaryoları Rehberini İndir — Satış & Dönüşüm Raporları",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "UpSell KPI & Örnek Teklif Senaryoları Rehberini İndir — Satış & Dönüşüm Raporları (v1.0)",
+          "purpose": "Bu mini rehber, otellerde upsell/cross-sell tekliflerini funnel mantığıyla ölçmek için hazır KPI sözlüğü, teklif türleri matrisi ve senaryo şablonları sunar. Amaç, kişi/oda başı yan geliri artırırken ana booking dönüşümünü koruyacak “doğru teklif + doğru kanal + doğru segment” kombinasyonunu bulmaktır.",
+          "whoFor": "Revenue, satış-pazarlama, SPA/operasyon yöneticileri ve call center ekipleri.",
+          "steps": [
+            "Ürün kataloğunuzu (upgrade, late check-out, spa) şablona girin.",
+            "Offer view/click/purchase KPI’larını 30 gün izleyin ve revenue/guest hesaplayın.",
+            "En kârlı teklifleri segment bazında ölçekleyin; kapasite ürünlerinde eligible kuralı koyun."
+          ],
+          "checklist": [
+            "Offer View Rate, Click Rate, Purchase Rate",
+            "Attach Rate",
+            "Ancillary Revenue, Revenue per Guest, Revenue per Room",
+            "(Varsayım) Net katkı notu",
+            "Upgrade / Late check-out / Spa / Transfer / Restoran paketi",
+            "Kanal: web / mail / call",
+            "Segment: aile / çift / kurumsal"
+          ],
+          "href": "/downloads/upsell-kpi-ornek-teklif-senaryolari-rehberi-v1.0.pdf",
+          "buttonLabel": "Rehberi İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "UpSell ve cross-sell nedir, oteller için hangi ürünler öne çıkar?",
+      "a": "UpSell, misafiri daha yüksek değerli seçeneğe taşımaktır (oda upgrade gibi); cross-sell ise ek ürün satmaktır (spa, geç çıkış, transfer). Otellerde yan gelir ve kârlılığı büyütmek için kritik ürünlerdir."
+    },
+    {
+      "q": "Oda upgrade, geç çıkış ve spa satışlarını nasıl raporlarım?",
+      "a": "Teklif→tıklama→satın alma adımlarını ölçen bir upsell funnel kurun. Kanal (web/mail/call) ve segment kırılımında offer view/click/purchase KPI’larını ve revenue/guest metriğini raporlayın."
+    },
+    {
+      "q": "Up-sell teklif dönüşüm oranını nasıl hesaplarım?",
+      "a": "Offer view rate, click rate ve purchase rate şeklinde üç aşamalı ölçün. Ayrıca attach rate (upsell alan booking / toplam booking) ve kişi/oda başı ek gelir KPI’larını ekleyin."
+    },
+    {
+      "q": "Up-sell sonuçlarını toplam gelir ve kârlılığa nasıl bağlarım?",
+      "a": "Upsell KPI’larını ana booking funnel KPI’larıyla aynı panelde yan yana koyun. Ana dönüşüm etkileniyor mu ve yan gelir net katkıyı artırıyor mu sorularını birlikte cevaplayarak karar verin."
+    },
+    {
+      "q": "Upsell teklifleri ana rezervasyon dönüşümünü düşürürse ne yapmalıyım?",
+      "a": "Teklif adımını sadeleştirin, fiyat/koşulları netleştirin ve kapasite ürünlerinde eligible segmenti daraltın. Ana dönüşümü korumak, upsell kadar kritiktir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — upsell-ve-cross-sell-donusum-raporlama-hero-01.webp — Otel upsell ve cross sell dönüşüm raporlamasını anlatan kapak görseli",
+        "h1-context — 1920×1080 — upsell-ve-cross-sell-donusum-raporlama-h1-context-02.webp — Upgrade late check out spa tekliflerini funnel’a bağlayan otel görseli",
+        "divider-01 — 1600×1200 — upsell-ve-cross-sell-donusum-raporlama-divider-03.webp — Upsell KPI ve ölçüm bölümüne geçişi ayıran otel görseli",
+        "divider-02 — 1600×1200 — upsell-ve-cross-sell-donusum-raporlama-divider-04.webp — Upsell senaryo kutularına geçişi ayıran otel görseli",
+        "diagram-05 — 1920×1080 — upsell-ve-cross-sell-donusum-raporlama-diagram-05.webp — Teklif tıklama satın alma adımlarını gösteren upsell funnel diyagramı",
+        "checklist-06 — 1200×1200 — upsell-ve-cross-sell-donusum-raporlama-checklist-06.webp — Upsell KPI ve kapasite kuralını özetleyen checklist kartı",
+        "kpi-07 — 1200×1200 — upsell-ve-cross-sell-donusum-raporlama-kpi-07.webp — Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı",
+        "proof-08 — 1200×1200 — upsell-ve-cross-sell-donusum-raporlama-proof-08.webp — Upsell dashboard mockup ve raporlama teslimlerini gösteren proof kartı",
+        "table-09 — Teklif türü × dönüşüm × kişi/oda başı ek gelir"
+      ],
+      "technicalChecklist": []
+    }
+  }
 }
 
 }
