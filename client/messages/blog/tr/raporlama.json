@@ -1804,10 +1804,9 @@
         "Blog No / URL: Blog #4 — https://dgtlface.com/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi",
         "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic (Multi-Property)",
-        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
-        "Not (Varsayım): Sheet’te “Expert Strategy (Multi-Property)” yazsa da V2.3 kilidi gereği seviye Intermediate–Expert bandında üretilmiştir.",
-        "Refresh Cycle: 365 gün",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
       ],
       "strategySummary": "Bu içerik, Looker Studio Raporlama sayfasını grup otel mimarisi bağlamında destekleyen bir Bridge_Page olarak çalışır. Ana rolü; multi-property reporting, zincir otel KPI yapısı ve yönetim / tesis kırılımı mantığını açıklayarak okuyucuyu executive dashboard, benchmark analizi, PMS / OTA yönetimi, online satış ve dijital pazarlama performansı katmanlarına taşımaktır. Hedef persona, zincir GM’leri, merkez ofis yöneticileri, yatırımcı raporlama ekipleri ve ajans tarafında grup dashboard mimarisi kuran uzmanlardır. Ana iş sorusu: “Farklı tesisleri tek raporlama mimarisinde nasıl standartlaştırır, hangi dashboard katmanlarını ayırır ve yönetim kararını hangi KPI yapısıyla hızlandırırım?”"
     },
@@ -1832,7 +1831,7 @@
     },
     "h1": {
       "title": "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
-      "intro": "Bu yazıda multi-property raporlamayı “merkez ofis paneli + otel sayfaları” benzetmesiyle kuracağız. Önce property bazlı veri yapısını ve naming convention’ı netleştirip, sonra grup ve otel seviyesi dashboard katmanlarını tasarlayacağız. Ardından rol bazlı erişim, filtre/view yaklaşımı ve Antalya–Bodrum gibi destinasyon kırılımlarını ekleyerek ölçeklenebilir bir mimari çıkaracağız. Son bölümde “X otelli grup senaryosu” ile örnek panel akışını göstereceğiz.",
+      "intro": "Bu yazıda [çok otelli Looker Studio mimarisi](/tr/raporlama/looker-studio) yaklaşımını “merkez ofis paneli + otel sayfaları” benzetmesiyle kuracağız. Önce property bazlı veri yapısını ve naming convention’ı netleştirip, sonra grup ve otel seviyesi dashboard katmanlarını tasarlayacağız. Ardından rol bazlı erişim, filtre/view yaklaşımı ve Antalya–Bodrum gibi destinasyon kırılımlarını ekleyerek ölçeklenebilir bir mimari çıkaracağız. Son bölümde “X otelli grup senaryosu” ile örnek panel akışını göstereceğiz.",
       "quickSummary": [
         "1. Tek KPI sözlüğü: Occupancy/ADR/RevPAR tanımları grup çapında sabit",
         "2. Property ID standardı: Her veri kaynağı otel kimliğiyle eşleşir",
@@ -1843,14 +1842,14 @@
       "ctaPrimary": {
         "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
         "text": "Birden çok otelde KPI standardı ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için",
-        "href": "/tr/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
         "text": "Birden çok otelde KPI standardı, property veri modeli ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için",
-        "href": "/tr/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Multi-Property Otel Dashboard Örnek Şablonunu İndir",
@@ -2012,7 +2011,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Multi-property raporlamada en kritik konu, “veri kaynaklarının çoğalması” değil; düzenli çoğalmasıdır. Bu yüzden naming convention ve property sözlüğü, ilk günden kurulmalıdır."
+            "text": "Multi-property raporlamada en kritik konu, “veri kaynaklarının çoğalması” değil; düzenli çoğalmasıdır. Bu yüzden naming convention ve property sözlüğü, ilk günden kurulmalıdır. Özellikle [property bazlı dashboard yapısı](/tr/raporlama/looker-studio) kurarken veri modeli ile ekran mimarisini aynı anda düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -2380,11 +2379,14 @@
           "table-role-dashboard-matrix — (tablo) “Multi-Property Raporlama: Rol Bazlı Dashboard Matrisi”"
         ],
         "technicalChecklist": [
-          "Looker Studio money page bağlantısı toplam 2 kullanımda tutuldu; ek gövde içi tekrar yapılmadı.",
-          "Veri Analiz ve Raporlama hub bağlantısı yalnızca 1 kez, giriş sonrası multi-property reporting bağlamında kullanıldı.",
-          "Executive dashboard, çok dilli / çok para birimli panel ve BigQuery sibling bağlantıları kendi mimari bağlamlarında yerleştirildi.",
-          "Benchmark Analizi, PMS / OTA Yönetimi, Online Satış ve Otel Dijital Pazarlama linkleri tesis karşılaştırması ve grup performansı akışına bağlandı.",
-          "FAQ bağlantısı sonuç alanında 1 kez kullanıldı; secondary CTA download asset olarak standardize edildi ve vaka kutusundaki ekstra primary CTA kaldırıldı."
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Executive dashboard, çok dilli / çok para birimli panel ve BigQuery sibling linkleri doğru bölümlere yerleştirildi",
+          "Benchmark Analizi, PMS / OTA Yönetimi, Online Satış ve Otel Dijital Pazarlama bağlantıları grup performansı ve tesis kıyası bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "Çok otelli mimari, KPI standardı ve rol bazlı erişim karar destek diliyle anlatılacak"
         ]
       }
     }
@@ -2410,8 +2412,8 @@
         "Blog No / URL: Blog #5 — https://dgtlface.com/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama",
         "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic (C-Level)",
-        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
-        "Not (Varsayım): “Executive-Level Guide” içeriği C-level hedefli olsa da V2.3 kilidi gereği seviye Intermediate–Expert bandında, jargon minimumla üretildi.",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
         "Canonical: /tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
       ],
       "strategySummary": "Bu içerik, Looker Studio Raporlama hizmet sayfasını yönetim odaklı kullanım senaryosunda destekleyen bir Bridge_Page olarak konumlanır. Ana rolü; executive dashboard mantığını, otomatik raporlama disiplinini ve yönetim toplantılarında kullanılan KPI setini açıklayarak okuyucuyu çok otelli mimari, hedef-gerçekleşen KPI takibi, görsel tasarım, satış-dönüşüm, benchmark ve online satış katmanlarına taşımaktır. Hedef persona GM, sahip, merkez ofis yöneticileri ve yönetim toplantılarına veri hazırlayan satış–pazarlama/revenue ekipleridir. Ana iş sorusu: “Üst yönetim için hangi KPI’ları tek ekranda göstermeli, sapmaları nasıl okumalı ve bu paneli haftalık/aylık karar ritmine nasıl bağlamalıyım?”"
@@ -2437,18 +2439,18 @@
     },
     "h1": {
       "title": "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
-      "intro": "Bu yazı, yönetim raporlamasını “tek slide” mantığından “tek panel” mantığına taşır. Önce yönetimin gerçekten baktığı 10–15 KPI setini seçecek, sonra bu KPI’ları tek ekranda okutacak layout prensiplerini kuracağız. Ardından Looker Studio’da otomatik e-posta/PDF rapor döngüsünü (haftalık/aylık) planlayıp, toplantı akışını “panel → aksiyon listesi → takip” düzenine bağlayacağız.",
+      "intro": "Bu yazı, [yönetim odaklı Looker Studio paneli](/tr/raporlama/looker-studio) yaklaşımını “tek slide” mantığından “tek panel” mantığına taşır. Önce yönetimin gerçekten baktığı 10–15 KPI setini seçecek, sonra bu KPI’ları tek ekranda okutacak layout prensiplerini kuracağız. Ardından Looker Studio’da otomatik e-posta/PDF rapor döngüsünü (haftalık/aylık) planlayıp, toplantı akışını “panel → aksiyon listesi → takip” düzenine bağlayacağız.",
       "ctaPrimary": {
         "label": "Executive Dashboard Tasarım ve Kurulum Danışmanlığı Al",
         "text": "GM/Owner seviyesinde KPI standardı ve otomatik rapor rutini kurmak isteyen oteller için",
-        "href": "/tr/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Executive Dashboard Tasarım ve Kurulum Danışmanlığı Al",
         "text": "GM/Owner seviyesinde KPI standardı ve otomatik rapor rutini kurmak isteyen oteller için",
-        "href": "/tr/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Executive Dashboard Örnek Şablonunu İndir",
@@ -2691,7 +2693,7 @@
           },
           {
             "type": "p",
-            "text": "Executive paneli haftalık/aylık ritme bağlamak için Looker Studio’da raporu paylaşım kurallarıyla hazırlayın; ardından otomatik e-posta/PDF gönderim döngüsünü planlayın. Yönetimin aynı paneli aynı gün/saatte alması, karar takibini standardize eder."
+            "text": "Executive paneli haftalık/aylık ritme bağlamak için [otomatik yönetim raporlama modeli](/tr/raporlama/looker-studio) içinde dashboard’u paylaşım kurallarıyla hazırlayın; ardından e-posta/PDF gönderim döngüsünü planlayın. Yönetimin aynı paneli aynı gün/saatte alması, karar takibini standardize eder."
           },
           {
             "type": "h3",
@@ -3015,12 +3017,15 @@
           "Deliverables / Proof Card — 1:1 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-proof-08.webp | Alt: “Yönetim toplantısı karar akışı ve dashboard çıktıları kanıt kartı”"
         ],
         "tableStandard": "Tablo adı: “Executive KPI Seti (GM/Owner) — Kaynak & Karar”",
-        "ctaLock": [
-          "Looker Studio money page bağlantısı yalnızca 2 CTA kullanımında tutuldu; ek gövde içi tekrar yapılmadı.",
-          "Veri Analiz ve Raporlama hub bağlantısı 1 kez, girişte karar destek mimarisi bağlamında kullanıldı.",
-          "Çok otelli mimari, hedef-gerçekleşen KPI ve görsel tasarım sibling bağlantıları kendi doğal bölümlerine yerleştirildi.",
-          "Satış & Dönüşüm, Benchmark Analizi ve Online Satış bağlantıları yönetim toplantısı ve karar destek akışıyla ilişkilendirildi.",
-          "FAQ bağlantısı sonuç alanında 1 kez kullanıldı; secondary CTA’lar download asset olarak standardize edildi ve orta bölümdeki ekstra primary CTA kaldırıldı."
+        "technicalChecklist": [
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Çok otelli mimari, hedef-gerçekleşen KPI ve görsel tasarım sibling linkleri doğru bölümlere yerleştirildi",
+          "Satış & Dönüşüm, Benchmark Analizi ve Online Satış bağlantıları yönetim toplantısı ve karar destek akışıyla ilişkilendirildi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "Executive dashboard tek ekran okunabilirliği ve toplantı aksiyon mantığıyla anlatılacak"
         ]
       }
     }
@@ -13340,16 +13345,15 @@
           "table-segment-matrix — Pazar Segmentasyonu Matrisi: Ülke × Kanal × Oda Tipi"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-        "Money page hizmet linki intro ve gövde bağlamında standarda göre işlendi",
-        "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
-        "PMS / OTA, sezonluk performans ve çok dilli panel sibling linkleri doğru bağlama yerleştirildi",
-        "Benchmark, Online Satış ve Otel Dijital Pazarlama linkleri karar destek bağlamında işlendi",
-        "FAQ linki sonuç alanında 1 kez kullanıldı",
-        "Download asset CTA standardize edildi; fazla money page CTA'ları kaldırıldı",
-        "Tablo alanı segment matrisi olarak işlendi"
-      ]
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "PMS / OTA entegrasyonu, sezonluk performans ve çok dilli panel sibling linkleri doğru bölümlere yerleştirildi",
+          "Benchmark, Online Satış ve Otel Dijital Pazarlama linkleri segment bazlı karar desteği bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "Segmentasyon yalnız kırılım değil, kârlılık ve fiyat kararı ekseninde anlatılacak"
+        ]
       }
     }
   },
@@ -16254,15 +16258,14 @@
           "table-audit-score — Ops + dönüşüm skoru audit sheet"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak",
           "Money page içerikte maksimum 2 kez kullanıldı",
           "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
           "Otel satış hunisi, resepsiyon KPI paneli ve gerçek zamanlı operasyon sibling linkleri doğru bölümlere yerleştirildi",
-          "Çağrı Merkezi Hizmetleri, Performans Analizi ve Satış & Dönüşüm bağlantıları bağlamsal olarak işlendi",
+          "Çağrı Merkezi Hizmetleri, Performans Analizi ve Satış & Dönüşüm bağlantıları iletişimden rezervasyona dönüşüm bağlamında işlendi",
           "FAQ linki sonuç alanında 1 kez kullanıldı",
           "Danışmanlık CTA'ları genel iletişim rotasına alındı",
           "Download asset section korundu",
-          "Çağrı ve WhatsApp verileri mesaj içeriği yerine anonim outcome / kanal / dil seviyesinde ele alınacak"
+          "Çağrı ve WhatsApp verileri kişisel içerik yerine anonim outcome, kanal ve dil seviyesinde anlatılacak"
         ]
       }
     }
@@ -16285,15 +16288,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #13 — https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli",
-        "Blog Tipi: Core",
-        "Intent: Informational + Strategic (Team Management)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli"
+        "Blog Tipi: Support_Page",
+        "Intent: Informational + Operational Enablement",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/resepsiyon-ve-satis-ekipleri-icin-looker-studio-kpi-paneli"
       ],
-      "strategySummary": "Bu içerik, raporlama silosunda yalnız GM seviyesine değil, “işi yapan ekiplere” yönelik team performance panel standardı koyar: resepsiyon (operasyon) ve satış/revenue (gelir) için ayrı ama bağlantılı KPI panelleri önerir. Hedef persona; ön büro müdürü, satış–pazarlama/revenue lideri ve GM’dir; ajans tarafında panel kurgulayan ekipler de ikinci hedef kitledir. Funnel’da consideration → conversion bandında; günlük operasyon ve hedef–gerçekleşen yönetimini hızlandırır. Ana iş sorusu: “Resepsiyon ve satış ekipleri için hangi KPI’ları hangi ritimde takip etmeli ve Looker Studio’da iki paneli nasıl birbirine bağlamalıyım?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P2 öncelikli bir Blog / Support_Page olarak çalışır. Ana görevi; resepsiyon, satış ve rezervasyon ekipleri için ayrı ama bağlantılı KPI ekranları tasarlayarak performans yönetimini subjektif yorumdan veri temelli takibe taşımaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken çağrı merkezi verileri, executive dashboard, hedef-gerçekleşen KPI paneli, Rezervasyon Yönetimi, Çağrı Merkezi Performans Analizi ve Satış & Dönüşüm sayfalarına operasyon, ekip performansı, hedef-gerçekleşen farkı ve gelir takibi üzerinden güçlü bağlantılar kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -16316,7 +16319,7 @@
     },
     "h1": {
       "title": "Resepsiyon ve Satış Ekipleri İçin Looker Studio KPI Paneli Tasarlamak",
-      "intro": "GM paneli “sonuç”u gösterir; ama resepsiyon ve satış ekiplerinin ihtiyacı “bugün ne yapmalıyım?” sorusuna cevap veren operasyonel panellerdir. Bu yazıda iki panel yaklaşımını kuracağız: solda resepsiyon operasyon paneli, sağda satış/revenue gelir paneli. KPI setlerini 5–7 maddeyle netleştirip hedef–gerçekleşen, forecast ve günlük/haftalık ritmi Looker Studio’da nasıl standardize edeceğinizi göstereceğiz. Sonunda bu panellerle 7 soruyu 10 dakikada cevaplayabilirsiniz.",
+      "intro": "[Resepsiyon KPI paneli](/tr/raporlama/looker-studio) kurmadan ön büro ve satış ekiplerinin performansını günlük yorumlardan çıkarıp veriye taşımak zordur. Bu yazıda iki panel yaklaşımını kuracağız: solda resepsiyon operasyon paneli, sağda satış/revenue gelir paneli. KPI setlerini 5–7 maddeyle netleştirip hedef–gerçekleşen, forecast ve günlük/haftalık ritmi Looker Studio’da nasıl standardize edeceğinizi göstereceğiz. Sonunda bu panellerle 7 soruyu 10 dakikada cevaplayabilirsiniz.",
       "quickSummary": [
         "GM paneli “sonuç”u gösterir; ama resepsiyon ve satış ekiplerinin ihtiyacı “bugün ne yapmalıyım?” sorusuna cevap veren operasyonel panellerdir.",
         "Bu yazıda iki panel yaklaşımını kuracağız: solda resepsiyon operasyon paneli, sağda satış/revenue gelir paneli.",
@@ -16326,14 +16329,14 @@
       "ctaPrimary": {
         "label": "Resepsiyon & Satış KPI Paneli Tasarım Danışmanlığı Al",
         "text": "Ön büro ve satış ekipleri için KPI seti ve takip ritmini Looker Studio’da standardize etmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Resepsiyon & Satış KPI Paneli Tasarım Danışmanlığı Al",
         "text": "Ön büro ve satış/revenue ekipleri için KPI seti, hedef–gerçekleşen ve takip ritmini Looker Studio’da standardize etmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Resepsiyon ve Satış KPI Listesi PDF’ini İndir",
@@ -16343,27 +16346,44 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Çağrı merkezi verilerini Looker Studio’ya taşımak",
+        "href": "/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Executive dashboard ve otomatik raporlama",
+        "href": "/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
       },
       {
-        "label": "Rezervasyon Yönetimi",
-        "href": "/pms-ota/rezervasyon-yonetimi"
+        "label": "Bütçe ve hedef vs gerçekleşen KPI paneli",
+        "href": "/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio"
       },
       {
-        "label": "Performans Analizi",
-        "href": "/cagri-merkezi/performans-analizi"
+        "label": "Rezervasyon yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "Satış & Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "label": "Çağrı merkezi performans analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Satış dönüşüm analizi",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Çağrı Merkezi+WhatsApp KPI Paneli | Looker Studio",
+        "href": "/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak"
+      },
+      {
+        "title": "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
+        "href": "/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
+      },
+      {
+        "title": "Bütçe vs Actual: Otel Hedef KPI Paneli | Looker Studio | DGTLFACE",
+        "href": "/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio"
+      }
+    ],
     "sections": [
       {
         "id": "hangi-ekip-icin-hangi-kpilar",
@@ -16371,7 +16391,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aynı KPI setini tüm ekiplere göstermek, hem resepsiyonu hem satış ekibini “yanlış metrikle” boğar. Resepsiyon; hız, hata ve misafir akışını yönetir. Satış/revenue; gelir, kanal mix ve hedef sapmasını yönetir. Panel tasarımında ilk kural: Ekip → measuredBy → KPI mantığını netleştirmek."
+            "text": "Aynı KPI setini tüm ekiplere göstermek, hem resepsiyonu hem satış ekibini “yanlış metrikle” boğar. Resepsiyon; hız, hata ve misafir akışını yönetir. Satış/revenue; gelir, kanal mix ve hedef sapmasını yönetir. Panel tasarımında ilk kural: Ekip → measuredBy → KPI mantığını netleştirmek. Bu ayrımı [operasyon ve gelir takibi](/tr/veri-analiz-ve-raporlama) mantığıyla kurduğunuzda ön büro, rezervasyon ve satış ekipleri aynı veri sözlüğüyle konuşmaya başlar."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -16412,7 +16432,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Resepsiyon paneli, günlük operasyonu yönetmek için 5–7 KPI’a odaklanmalı: check-in süresi, no-show takibi, hatalı rezervasyon oranı, günlük doluluk ve forecast gibi metrikler tek ekranda görünmeli. Panel; vardiya bazlı kısa kontrol ve günlük kapanış rutiniyle çalışmalıdır."
+            "text": "Resepsiyon paneli, günlük operasyonu yönetmek için 5–7 KPI’a odaklanmalı: check-in süresi, no-show takibi, hatalı rezervasyon oranı, günlük doluluk ve forecast gibi metrikler tek ekranda görünmeli. Panel; vardiya bazlı kısa kontrol ve günlük kapanış rutiniyle çalışmalıdır. Bu yapıyı [rezervasyon ekibi KPI takibi](/tr/pms-ota/rezervasyon-yonetimi) ile birleştirdiğinizde oda uygunluğu, iptal/değişiklik ve ön büro akışı aynı kontrol ekranında görünür hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Telefon ve mesaj kanalından gelen talepleri de ön büro görünümüne eklemek için [çağrı ve WhatsApp verilerini KPI paneline taşımak](/tr/raporlama/blog/cagri-merkezi-verilerini-looker-studioya-tasimak) yaklaşımı, resepsiyon ile rezervasyon ekibinin aynı günlük talep yükünü tek panelden izlemesini kolaylaştırır."
           },
           {
             "type": "h3",
@@ -16465,7 +16489,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Satış/revenue paneli; kanal bazlı gelir, hedef–gerçekleşen farkı ve forecast sapmasını tek ekranda göstermelidir. 5–7 KPI ile başlayın; OTA/Web/Call Center kanal mix’i, kampanya sonuçları ve dönemsel karşılaştırma (haftalık/aylık) panelin çekirdeğidir."
+            "text": "[Satış ekibi dashboard](/tr/raporlama/looker-studio) kurgusunda kanal bazlı gelir, hedef–gerçekleşen farkı ve forecast sapması tek ekranda görünmelidir. 5–7 KPI ile başlayın; OTA/Web/Call Center kanal mix’i, kampanya sonuçları ve dönemsel karşılaştırma (haftalık/aylık) panelin çekirdeğidir."
+          },
+          {
+            "type": "p",
+            "text": "Burada amaç yalnız toplam geliri göstermek değil; [hedef gerçekleşen farkı](/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio) üzerinden hangi kanalın, hangi teklif yapısının veya hangi dönemin sapma ürettiğini ekip seviyesinde görünür hale getirmektir."
           },
           {
             "type": "h3",
@@ -16518,7 +16546,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Paneli kurmak yetmez; ritim olmazsa paneller “bakılıp geçilen” ekran olur. Resepsiyon günlük, satış haftalık/aylık ritimle çalışır."
+            "text": "Paneli kurmak yetmez; ritim olmazsa paneller “bakılıp geçilen” ekran olur. Resepsiyon günlük, satış haftalık/aylık ritimle çalışır. Bu operasyonel ekranları üst yönetim özetine bağlamak için [ekip KPI’larını executive dashboard’a taşımak](/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama) yaklaşımı oldukça faydalıdır."
           },
           {
             "type": "h3",
@@ -16567,7 +16595,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Performans görüşmeleri çoğu otelde “hissettiğim kadarıyla” ilerler. Oysa check-in süresi, hata oranı, hedef sapması gibi metrikler görünür olunca, görüşme daha somut ve adil hale gelir."
+            "text": "Performans görüşmeleri çoğu otelde “hissettiğim kadarıyla” ilerler. Oysa check-in süresi, hata oranı, hedef sapması gibi metrikler görünür olunca, görüşme daha somut ve adil hale gelir. Özellikle iletişim kanalı katkısını eklediğinizde [çağrıdan rezervasyona performans analizi](/tr/cagri-merkezi/performans-analizi) ile ön büro ve satış ekibinin aynı talepten nasıl farklı çıktılar ürettiğini daha net okuyabilirsiniz."
           },
           {
             "type": "h3",
@@ -16606,7 +16634,15 @@
             "variant": "primary",
             "label": "Resepsiyon & Satış KPI Paneli Tasarım Danışmanlığı Al",
             "text": "Ekip KPI’larını ve hedef–gerçekleşen standardını Looker Studio’da kurmak isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
+          },
+          {
+            "type": "p",
+            "text": "Bu panelin ticari etkisini yönetmek için [satış ekibi dönüşüm performansı](/tr/raporlama/satis-donusum) tarafında lead, teklif, rezervasyon, gelir ve ekip bazlı hedef sapmasını birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kurulum, ekip bazlı KPI tanımları, yetkilendirme ve dashboard bakımı için [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -16769,12 +16805,14 @@
           "table-ekip-bazli-kpi-seti — Resepsiyon vs Satış KPI Seti: Ne Ölçer, Ne Kararı Destekler?"
         ],
         "technicalChecklist": [
-          "Check-in süresi vardiya bazında görülebiliyor mu?",
-          "No-show ve hatalı rezervasyon aynı ekranda mı?",
-          "Kanal mix hem pay hem gelir olarak görünüyor mu?",
-          "Hedef sapması (Δ) ilk ekranda mı?",
-          "Panelin “sahibi” var mı? (kim bakar, kim günceller)",
-          "Haftalık toplantıda panelden aksiyon çıkıyor mu?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Çağrı merkezi verileri, executive dashboard ve hedef-gerçekleşen KPI sibling linkleri doğru bölümlere yerleştirildi",
+          "Rezervasyon Yönetimi, Çağrı Merkezi Performans Analizi ve Satış & Dönüşüm bağlantıları ekip KPI bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "Ekip performansı kişisel yorum yerine süreç, hedef ve dönüşüm verileriyle anlatılacak"
         ]
       }
     }
@@ -16797,15 +16835,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #14 — https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar",
-        "Blog Tipi: Core",
-        "Intent: Informational (Design & UX)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar"
+        "Blog Tipi: Support_Page",
+        "Intent: Informational + UX Education",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/looker-studio-gorsel-tasarim-en-iyi-uygulamalar"
       ],
-      "strategySummary": "Bu içerik, raporlama silosunda “doğru metrik var ama okunmuyor” problemini çözen dashboard design authority yazısıdır. Hedef persona GM/Owner, satış–pazarlama/revenue liderleri ve raporu hazırlayan ajans/analitik ekipleridir. Funnel’da awareness → consideration bandında; “tek bakışta karar” için görsel hiyerarşi, tipografi, renk ve mobil düzen standardı koyar. Ana iş sorusu: “Otel dashboard’unda hangi görsel düzen, hangi KPI hiyerarşisi ve hangi tema seçimleriyle GM ilk 10 saniyede doğru resmi görür?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P2 öncelikli bir Blog / Support_Page olarak çalışır. Ana görevi; Looker Studio dashboard tasarım ilkeleri, KPI-first yerleşim, okunabilir panel düzeni ve mobil uyumlu rapor ekranı mantığını otel örneği üzerinden açıklamaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken dashboard hataları, executive dashboard, temel Looker Studio rehberi, Satış & Dönüşüm ve SEO Raporlama sayfalarına rapor okunabilirliği, doğru KPI seçimi ve aksiyon alınabilir tasarım diliyle güçlü bağlantılar kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -16828,7 +16866,7 @@
     },
     "h1": {
       "title": "Looker Studio Dashboard Tasarımında Görsel En İyi Uygulamalar (Otel Örneği)",
-      "intro": "İyi dashboard, “güzel” olduğu için değil, hızlı karar ürettiği için iyidir. Bu yazıda otel örnekleriyle görsel hiyerarşi kuracağız: KPI kartları ilk ekranda, grafik sayısı sınırlı, renk paleti sade, tipografi tutarlı ve mobil görünüm okunabilir. Ayrıca “kötü tasarım vs iyi tasarım” karşılaştırması ve 3 adımda sadeleştirme mini rehberiyle mevcut panelinizi hızla iyileştireceksiniz.",
+      "intro": "[Dashboard tasarım ilkeleri](/tr/raporlama/looker-studio) iyi bir otel panelini yalnız estetik olarak değil, hızlı karar üreten bir yapı olarak tanımlar. Bu yazıda otel örnekleriyle görsel hiyerarşi kuracağız: KPI kartları ilk ekranda, grafik sayısı sınırlı, renk paleti sade, tipografi tutarlı ve mobil görünüm okunabilir. Ayrıca “kötü tasarım vs iyi tasarım” karşılaştırması ve 3 adımda sadeleştirme mini rehberiyle mevcut panelinizi hızla iyileştireceksiniz.",
       "quickSummary": [
         "İyi dashboard, “güzel” olduğu için değil, hızlı karar ürettiği için iyidir.",
         "KPI kartları ilk ekranda, grafik sayısı sınırlı, renk paleti sade, tipografi tutarlı ve mobil görünüm okunabilir.",
@@ -16838,14 +16876,14 @@
       "ctaPrimary": {
         "label": "Looker Studio Dashboard Tasarım Danışmanlığı Al",
         "text": "Mevcut panelini sadeleştirip yönetim için okunur hale getirmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Looker Studio Dashboard Tasarım Danışmanlığı Al",
         "text": "Otel dashboard’unu KPI-first, okunabilir ve mobil uyumlu hale getirmek isteyenler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Otel Dashboard Tasarım Rehberi PDF’ini İndir",
@@ -16855,23 +16893,40 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Looker Studio raporlarında yapılan hatalar",
+        "href": "/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Yönetim için executive dashboard ve otomatik raporlama",
+        "href": "/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
       },
       {
-        "label": "Satış & Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "label": "Looker Studio oteller için nedir nasıl çalışır",
+        "href": "/tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir"
       },
       {
-        "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "label": "Satış dönüşüm analizi",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio Raporlarında Sık Yapılan 10 Hata ve Nasıl Düzeltilir?",
+        "href": "/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar"
+      },
+      {
+        "title": "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
+        "href": "/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
+      },
+      {
+        "title": "Looker Studio Oteller İçin Nedir, Nasıl Çalışır? Temel Rehber",
+        "href": "/tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir"
+      }
+    ],
     "sections": [
       {
         "id": "iyi-dashboard-tasariminin-ilkeleri",
@@ -16879,7 +16934,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel yöneticisi (GM/Owner) dashboard’a “uzun analiz” için değil, hızlı kontrol ve karar için bakar. Bu yüzden tasarımın ilk hedefi “görsel şov” değil, okunabilirlik ve öncelik olmalıdır. Doluluk, gelir ve kanal mix; çoğu otelde ilk 10 saniyede görülmesi gereken çekirdek üçlüdür."
+            "text": "Otel yöneticisi (GM/Owner) dashboard’a “uzun analiz” için değil, hızlı kontrol ve karar için bakar. Bu yüzden tasarımın ilk hedefi “görsel şov” değil, [okunabilir panel](/tr/veri-analiz-ve-raporlama) mantığıyla önceliklendirilmiş karar ekranı olmalıdır. Doluluk, gelir ve kanal mix; çoğu otelde ilk 10 saniyede görülmesi gereken çekirdek üçlüdür."
           },
           {"type":"media", "slot":"h1-context-02"},
           {
@@ -16920,7 +16975,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Dashboard’u KPI-first kurgulayın: üstte kartlar, ortada 1–2 trend grafiği, altta tablo/segment kırılımı. Az renk paleti, tutarlı tipografi ve grid düzeni kullanın; mobilde tek sütun ve büyük kartlarla okunabilirliği koruyun. Her görsel öğeyi tek bir yönetim sorusuna bağlayın."
+            "text": "[KPI-first yerleşim](/tr/raporlama/looker-studio) mantığında dashboard’u üstte kartlar, ortada 1–2 trend grafiği, altta tablo/segment kırılımı olacak şekilde kurgulayın. Az renk paleti, tutarlı tipografi ve grid düzeni kullanın; mobilde tek sütun ve büyük kartlarla okunabilirliği koruyun. Her görsel öğeyi tek bir yönetim sorusuna bağlayın."
+          },
+          {
+            "type": "p",
+            "text": "Looker Studio’ya yeni başlayan ekipler için [Looker Studio temel panel mantığı](/tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir) önce veri kaynağı, sonra KPI kartı, sonra trend görselleştirmesi sırasını doğru kurmak açısından iyi bir başlangıç çerçevesi sunar."
           },
           {
             "type": "h3",
@@ -17012,7 +17071,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "KPI-first tasarımda üst sıra “çekirdek sonuçlar”, ikinci sıra “neden/kanal”, üçüncü sıra “detay” olur. Otel örneğinde çekirdek: doluluk, gelir, RevPAR, kanal mix ve dönüşüm."
+            "text": "KPI-first tasarımda üst sıra “çekirdek sonuçlar”, ikinci sıra “neden/kanal”, üçüncü sıra “detay” olur. Otel örneğinde çekirdek: doluluk, gelir, RevPAR, kanal mix ve dönüşüm. Özellikle GM ve sahip tarafında [yönetim için sade dashboard](/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama) yaklaşımı, ilk 5–10 saniyede ne olduğunu anlamayı kolaylaştırır."
           },
           {
             "type": "media",
@@ -17134,7 +17193,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Analitik yazılar genelde metrik anlatır; burada farkı görsel olarak netleştiriyoruz: kötü tasarım “kalabalık”, iyi tasarım “hiyerarşik”."
+            "text": "Analitik yazılar genelde metrik anlatır; burada farkı görsel olarak netleştiriyoruz: kötü tasarım “kalabalık”, iyi tasarım “hiyerarşik”. Bu problemlerin çoğu aslında [dashboard tasarım hataları](/tr/raporlama/blog/looker-studio-raporlarinda-yapilan-hatalar) olarak tekrar eder; görsel karmaşa kadar yanlış KPI önceliği de okunabilirliği bozar."
           },
           {
             "type": "h3",
@@ -17201,7 +17260,19 @@
             "variant": "primary",
             "label": "Looker Studio Dashboard Tasarım Danışmanlığı Al",
             "text": "Mevcut paneli okunur ve yönetim-dostu hale getirmek isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
+          },
+          {
+            "type": "p",
+            "text": "Ticari tarafta [satış KPI’larını öne çıkaran panel](/tr/raporlama/satis-donusum), lead, rezervasyon, gelir ve kanal katkısı gibi metrikleri üst sıraya taşıyarak ekibin gerçekten aksiyon alacağı sayıları görünür hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Organik performans ekranlarında ise [SEO raporlarında okunabilir KPI kartları](/tr/seo/seo-raporlama), Search Console ve landing page verilerini gereksiz grafik kalabalığı yaratmadan sunmak için iyi bir örnek çerçevedir."
+          },
+          {
+            "type": "p",
+            "text": "Kurulum, görsel düzen, KPI kartları, mobil görünüm ve dashboard bakımı için [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -17340,14 +17411,14 @@
           "table-kpi-chart-table-dengesi — Dashboard Öğeleri: Ne Zaman Kart, Ne Zaman Grafik, Ne Zaman Tablo?"
         ],
         "technicalChecklist": [
-          "İlk ekranda (scroll yapmadan) 10–15 KPI kartı görünüyor mu?",
-          "Her grafik bir soruyu mu cevaplıyor, yoksa sadece “var” mı?",
-          "Kart boyutları ve hizalar tutarlı mı?",
-          "Aynı sayfada 2–3 grafikten fazla var mı?",
-          "Üst sıradan “ne oldu?” çıkıyor mu?",
-          "Orta sıradan “neden?”e yaklaşabiliyor musunuz?",
-          "Mobilde ilk ekranda 3 KPI kartı okunuyor mu?",
-          "Tablo mobilde yatay kaydırma yaratıyor mu?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Dashboard hataları, executive dashboard ve temel rehber sibling linkleri doğru bölümlere yerleştirildi",
+          "Satış & Dönüşüm ve SEO Raporlama bağlantıları görsel hiyerarşi ve KPI önceliği bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "Görsel tasarım yalnız estetik değil, KPI önceliği ve aksiyon alınabilirlik ekseninde anlatılacak"
         ]
       }
     }
@@ -17370,16 +17441,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #15 — https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar",
-        "Blog Tipi: Core",
-        "Intent: Informational + Strategic (Data Governance)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Not (Varsayım): Sheet “Expert (Data Governance)” diyor; V2.3 kilidi gereği seviye Intermediate–Expert bandında uygulanmıştır.",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
+        "Blog Tipi: Support_Page",
+        "Intent: Informational + Data Governance Education",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
       ],
-      "strategySummary": "Bu yazı, raporlama silosunda “dashboard’lar büyüdükçe karışıyor” problemini kökten çözen data governance / naming authority içeriğidir. Hedef persona; otelde raporları kullanan ekipler (GM, satış–pazarlama, revenue) ve raporları kuran ajans/analitik ekipleridir; özellikle çok otelli yapılarda merkez ofis ekipleri önceliklidir. Funnel’da consideration → conversion bandında, sürdürülebilir raporlama altyapısı için standartları ve data dictionary’yi kurdurur. Ana iş sorusu: “GA4, Ads, PMS ve OTA alanlarını nasıl aynı dilde konuşturur, naming convention ve data dictionary ile raporlamayı nasıl ölçeklerim?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P2 öncelikli bir Blog / Support_Page olarak çalışır. Ana görevi; Looker Studio raporlarında naming convention, data dictionary, alan isim standardı ve sürdürülebilir raporlama yapısı kurarak büyüyen dashboard mimarilerinde karmaşayı azaltmaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken GA4 veri farkları, çok otelli dashboard mimarisi, BigQuery veri mimarisi, Benchmark Analizi ve PMS / OTA Yönetimi sayfalarına veri standardizasyonu ve data governance üzerinden güçlü bağlantılar kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -17402,7 +17472,7 @@
     },
     "h1": {
       "title": "Looker Studio İçin Veri İsimlendirme ve Standartlar: Otellerde Sürdürülebilir Raporlama",
-      "intro": "Dashboard’lar büyüdükçe en büyük problem KPI değil, “bu alan ne demek?” karmaşasıdır. GA4’te `source/medium`, PMS’te “kanal”, OTA’da “platform” farklı isimlerle gelince ekip aynı şeyi farklı görür. Bu rehberde naming convention kurallarını (boyut/metrik), GA4–Ads–PMS–OTA alanlarını uyumlu hale getirme yaklaşımını ve “data dictionary” ile governance modelini anlatacağız. Sonunda elinizde bir şablon olacak: yeni bir otel veya yeni bir dashboard eklendiğinde standart bozulmayacak.",
+      "intro": "İyi bir [naming convention](/tr/raporlama/looker-studio) olmadan dashboard’lar büyüdükçe en büyük problem KPI değil, “bu alan ne demek?” karmaşası olur. GA4’te `source/medium`, PMS’te “kanal”, OTA’da “platform” farklı isimlerle gelince ekip aynı şeyi farklı görür. Bu rehberde naming convention kurallarını (boyut/metrik), GA4–Ads–PMS–OTA alanlarını uyumlu hale getirme yaklaşımını ve “data dictionary” ile governance modelini anlatacağız. Sonunda elinizde bir şablon olacak: yeni bir otel veya yeni bir dashboard eklendiğinde standart bozulmayacak.",
       "quickSummary": [
         "Dashboard’lar büyüdükçe en büyük problem KPI değil, “bu alan ne demek?” karmaşasıdır.",
         "GA4’te `source/medium`, PMS’te “kanal”, OTA’da “platform” farklı isimlerle gelince ekip aynı şeyi farklı görür.",
@@ -17412,14 +17482,14 @@
       "ctaPrimary": {
         "label": "Veri Standartları & Naming Convention Danışmanlığı Al",
         "text": "GA4/Ads/PMS/OTA verisini tek sözlükle standardize etmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Veri Standartları & Naming Convention Danışmanlığı Al",
         "text": "GA4/Ads/PMS/OTA alanlarını tek sözlükte toplayıp sürdürülebilir raporlama kurmak isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Otel Raporlama Data Dictionary Şablonunu İndir",
@@ -17429,27 +17499,40 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "GA4 ve Looker Studio veri farkları",
+        "href": "/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari"
       },
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "label": "Çok otelli yapılarda Looker Studio mimarisi",
+        "href": "/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
       },
       {
-        "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "label": "BigQuery ve Looker Studio ile büyük otel veri mimarisi",
+        "href": "/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "label": "Benchmark analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "PMS ve OTA yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "GA4–Looker Studio Veri Farkı: Otel Çözüm Rehberi",
+        "href": "/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari"
+      },
+      {
+        "title": "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
+        "href": "/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
+      },
+      {
+        "title": "BigQuery + Looker Studio: Otel Veri Mimarisi | DGTLFACE",
+        "href": "/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi"
+      }
+    ],
     "sections": [
       {
         "id": "neden-veri-isimlendirme-standardi-sart",
@@ -17457,7 +17540,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Raporlama projeleri genelde “ilk dashboard” ile güzel başlar, sonra bozulur. Çünkü yeni kaynak eklenir, yeni ekip gelir, farklı isimler oluşur: `channel`, `kanal`, `sales_channel`, `source_medium`… Bir süre sonra kimse “doğru alan hangisi?” sorusunu cevaplayamaz."
+            "text": "Raporlama projeleri genelde “ilk dashboard” ile güzel başlar, sonra bozulur. Çünkü yeni kaynak eklenir, yeni ekip gelir, farklı isimler oluşur: `channel`, `kanal`, `sales_channel`, `source_medium`… Bir süre sonra kimse “doğru alan hangisi?” sorusunu cevaplayamaz. Bu yüzden [sürdürülebilir raporlama yapısı](/tr/veri-analiz-ve-raporlama), yalnız dashboard kurmakla değil; veri alanlarının, KPI adlarının ve kaynak tanımlarının standartlaştırılmasıyla mümkündür."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -17499,7 +17582,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çünkü Looker Studio’daki dashboard’lar “görünüm”, asıl kalite “veri katmanı”nda başlar. Naming convention; aynı iş kavramının (kanal, segment, oda tipi) her kaynakta aynı isimle temsil edilmesini sağlar ve dashboard’ların tutarlı kalmasına yardım eder. Data dictionary ise bu standardı ekip içinde okunabilir hale getirir."
+            "text": "Çünkü Looker Studio’daki dashboard’lar “görünüm”, asıl kalite “veri katmanı”nda başlar. Naming convention; aynı iş kavramının (kanal, segment, oda tipi) her kaynakta aynı isimle temsil edilmesini sağlar ve dashboard’ların tutarlı kalmasına yardım eder. [Data dictionary](/tr/raporlama/looker-studio) ise bu standardı ekip içinde okunabilir hale getirir."
           },
           {
             "type": "media",
@@ -17607,7 +17690,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, rakip içeriklerde genelde olmayan “eşleştirme matrisi” mantığını kurar. Amaç, her kaynağı olduğu gibi dashboard’a taşımak değil; ortak bir sözlüğe “normalize” etmektir."
+            "text": "Bu bölüm, rakip içeriklerde genelde olmayan “eşleştirme matrisi” mantığını kurar. Amaç, her kaynağı olduğu gibi dashboard’a taşımak değil; ortak bir sözlüğe “normalize” etmektir. Event, conversion ve source / medium tarafındaki küçük isim farklarının nasıl büyüdüğünü görmek için [GA4 event isimlendirme standardı](/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari) yaklaşımı özellikle kritik olur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle kanal adı, oda tipi, rezervasyon durumu ve gelir alanları söz konusu olduğunda PMS ve OTA verilerinin aynı sözlükte normalize edilmesi, dashboard katmanına taşınan verinin ekipler arasında aynı anlamda okunmasını sağlar."
           },
           {
             "type": "h3",
@@ -17669,7 +17756,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "İyi isim, hem teknik hem işletme için anlaşılırdır. Kötü isim, kısa vadede “çalışır” ama uzun vadede raporu çökertebilir."
+            "text": "İyi isim, hem teknik hem işletme için anlaşılırdır. Kötü isim, kısa vadede “çalışır” ama uzun vadede raporu çökertebilir. Aynı KPI’lar farklı otel, kanal veya dönem kırılımlarında kıyaslanacaksa [ortak KPI tanımıyla benchmark analizi](/tr/raporlama/benchmark-analizi) için bu isimlerin tek sözlükte birleşmesi gerekir."
           },
           {
             "type": "h3",
@@ -17733,7 +17820,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Naming convention tek seferlik doküman değil; bir süreçtir. Multi-property yapılarda (Antalya + Bodrum gibi) en kritik governance öğesi, `hotel_code` ve `location` standardıdır: yeni otel eklendiğinde raporlar bozulmamalı."
+            "text": "Naming convention tek seferlik doküman değil; bir süreçtir. Multi-property yapılarda (Antalya + Bodrum gibi) en kritik governance öğesi, `hotel_code` ve `location` standardıdır: yeni otel eklendiğinde raporlar bozulmamalı. Bu yapı, [çok otelli data governance yapısı](/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi) mantığıyla yönetilmediğinde aynı KPI’lar tesisler arasında güvenilir karşılaştırma vermez."
+          },
+          {
+            "type": "p",
+            "text": "Veri hacmi büyüyüp kaynak sayısı arttığında [merkezi veri modeli ve alan standardı](/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi), data dictionary’nin yalnız doküman değil, veri ambarı seviyesinde yönetilen bir kontrol katmanına dönüşmesini sağlar."
           },
           {
             "type": "h3",
@@ -17765,7 +17856,15 @@
             "variant": "primary",
             "label": "Veri Standartları & Naming Convention Danışmanlığı Al",
             "text": "Raporlamayı ölçeklemek ve ekip onboarding’ini hızlandırmak isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
+          },
+          {
+            "type": "p",
+            "text": "Operasyon tarafında [PMS ve OTA alan isim standardı](/tr/pms-ota-yonetimi), kanal, oda tipi, rezervasyon durumu ve gelir alanlarının raporlamaya uygun şekilde sabitlenmesi için doğal sonraki adımdır."
+          },
+          {
+            "type": "p",
+            "text": "Kurulum, veri kaynağı, alan adlandırma, rapor paylaşımı ve dashboard bakımı için [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -17920,17 +18019,14 @@
           "table-naming-convention-template — Naming Convention Template (Otel): Alan, Tanım, Kaynak, Not"
         ],
         "technicalChecklist": [
-          "Aynı kavram 2–3 farklı isimle mi geçiyor?",
-          "TR/EN karışık alan adları var mı?",
-          "Yeni biri raporu açınca “bu kolon ne?” diye soruyor mu?",
-          "“channel” alanı tüm kaynaklarda aynı şey mi?",
-          "“revenue” brüt mü net mi? tanımı var mı?",
-          "Kanalların değer seti sabit mi?",
-          "Multi-otel yapıda hotel_code her tabloda var mı?",
-          "GA4 channel grouping ile PMS kanal listesi uyuşuyor mu?",
-          "Oda tipi isimleri (Deluxe/Superior) tek sözlükte mi?",
-          "Aynı alanın iki farklı versiyonu var mı (revenue vs revenue_net)?",
-          "TR/EN karışımı temizlendi mi?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "GA4 veri farkları, çok otelli mimari ve BigQuery sibling linkleri doğru bölümlere yerleştirildi",
+          "Benchmark Analizi ve PMS / OTA Yönetimi bağlantıları alan standardı bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "İçerik naming convention'ı yalnız teknik isim değil; ortak veri dili ve rapor güveni olarak anlatacak"
         ]
       }
     }
@@ -17953,16 +18049,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #16 — https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari",
-        "Blog Tipi: Core",
-        "Intent: Informational + Transactional (Migration/Automation)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Not (Varsayım): Sheet “Beginner–Intermediate” dese de V2.3 seviye kilidi gereği Intermediate–Expert bandı uygulanmıştır.",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/excelden-looker-studioya-otel-raporlari"
+        "Blog Tipi: Support_Page",
+        "Intent: Informational + Operational Migration",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/excelden-looker-studioya-otel-raporlari"
       ],
-      "strategySummary": "Bu yazı, raporlama silosunda Excel bağımlı çalışan otelleri “manuel rapor üretimi”nden kurtarıp otomatik dashboard düzenine taşıyan migration authority içeriğidir. Hedef persona; Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda haftalık Excel raporu hazırlayan satış–pazarlama/revenue ekipleri ve GM/Owner’dır. Funnel’da consideration → conversion bandında, “tek doğru veri kaynağı” ve zaman tasarrufu hedefini netleştirir. Ana iş sorusu: “Excel’deki doluluk/gelir/kanal raporlarını nasıl temizler, Sheets/CSV ile Looker Studio’ya bağlar ve 3 gün içinde ilk otomatik otel panelini nasıl canlıya alırım?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P1 öncelikli bir Blog / Support_Page olarak çalışır. Ana görevi; Excel bağımlı manuel raporlama yapısından otomatik, güncel ve ortak kullanılabilir Looker Studio dashboard modeline geçişi anlatmaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken Veri Analiz ve Raporlama, Satış & Dönüşüm, Benchmark Analizi, Online Satış, veri standardı ve ajans-otel ortak iş akışı sayfalarına rapor otomasyonu ve tek doğru veri kaynağı mantığı üzerinden doğal bağlantılar kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -17985,7 +18080,7 @@
     },
     "h1": {
       "title": "Excel’den Looker Studio’ya: Otel Raporlarını Otomatik Panele Taşımak",
-      "intro": "Excel raporları “çalışır” ama ölçeklenmez: her hafta kopyala–yapıştır, formül hatası, versiyon karmaşası ve paylaşım stresi yaratır. Bu yazıda Excel verisini standardize edip (tarih/oda/kanal), Google Sheets veya CSV üzerinden Looker Studio’ya bağlayacak; doluluk, gelir, RevPAR ve kanal dağılımını tek panelde toplayacaksınız. Ayrıca “3 günde geçiş planı” ve örnek KPI setiyle ekibin Excel yerine panel kullanımına alışmasını kolaylaştıracağız.",
+      "intro": "Bu rehber, [Excel’den Looker Studio’ya geçiş](/tr/raporlama/looker-studio) sürecini otel ekipleri için sadeleştirir: her hafta kopyala–yapıştır, formül hatası, versiyon karmaşası ve paylaşım stresi yaratan Excel düzeninden; güncel, ortak ve aksiyon odaklı dashboard modeline geçişi anlatır. Excel verisini standardize edip (tarih/oda/kanal), Google Sheets veya CSV üzerinden Looker Studio’ya bağlayacak; doluluk, gelir, RevPAR ve kanal dağılımını tek panelde toplayacaksınız. Ayrıca “3 günde geçiş planı” ve örnek KPI setiyle ekibin Excel yerine panel kullanımına alışmasını kolaylaştıracağız.",
       "quickSummary": [
         "Excel raporları “çalışır” ama ölçeklenmez: her hafta kopyala–yapıştır, formül hatası, versiyon karmaşası ve paylaşım stresi yaratır.",
         "Excel verisini standardize edip (tarih/oda/kanal), Google Sheets veya CSV üzerinden Looker Studio’ya bağlayacaksınız.",
@@ -17995,14 +18090,14 @@
       "ctaPrimary": {
         "label": "Excel’den Looker Studio’ya Geçiş Danışmanlığı Al",
         "text": "Excel raporlarını otomatik panele taşıyıp tek doğru veri kaynağı kurmak isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Excel’den Looker Studio’ya Geçiş Danışmanlığı Al",
         "text": "Excel raporlarını otomatik panele taşıyıp sürdürülebilir raporlama kurmak isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Excel → Looker Studio Dönüşüm Şablonunu İndir",
@@ -18012,31 +18107,44 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Looker Studio temel rehberi",
+        "href": "/tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir"
       },
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "label": "Veri isimlendirme standartları",
+        "href": "/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Ajans-otel dashboard iş akışı",
+        "href": "/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi"
       },
       {
         "label": "Satış & Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Looker Studio: Türkiye Otelleri KPI Dashboard | DGTLFACE",
+        "href": "/tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir"
+      },
+      {
+        "title": "Otel Raporlamada Naming Convention ve Data Dictionary | DGTLFACE",
+        "href": "/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
+      },
+      {
+        "title": "Ajans–Otel Looker Studio İş Akışı ve Modeli | DGTLFACE",
+        "href": "/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi"
+      }
+    ],
     "sections": [
       {
         "id": "neden-excel-raporlari-yetersiz-kaliyor",
@@ -18044,7 +18152,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Excel, hızlı başlar; büyüdükçe sorun çıkarır: aynı dosyanın farklı versiyonları, yanlış formül, yanlış tarih filtresi, yanlış pivot… Özellikle Antalya/Belek/Side gibi sezonsal dalgalanması yüksek otellerde, “aynı dönem kıyası” ve “kanal karması” Excel’de çoğu zaman elle ve hataya açık yürür. Üstelik rapor üretmek 3–5 saati buluyorsa, ekip rapor üretmekten aksiyon almaya vakit bulamaz."
+            "text": "Excel, hızlı başlar; büyüdükçe sorun çıkarır: aynı dosyanın farklı versiyonları, yanlış formül, yanlış tarih filtresi, yanlış pivot… Özellikle Antalya/Belek/Side gibi sezonsal dalgalanması yüksek otellerde, “aynı dönem kıyası” ve “kanal karması” Excel’de çoğu zaman elle ve hataya açık yürür. Üstelik rapor üretmek 3–5 saati buluyorsa, ekip rapor üretmekten aksiyon almaya vakit bulamaz. Bu yüzden [tek doğru veri kaynağı](/tr/veri-analiz-ve-raporlama) mantığı, manuel dosya yönetiminden daha sürdürülebilir bir raporlama düzeni kurar."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -18086,7 +18194,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Excel verisini temizleyin ve alanları standardize edin (tarih, oda tipi, kanal). Dosyayı Google Sheets’e taşıyın veya CSV olarak düzenli export edin. Looker Studio’da bu kaynağı bağlayıp KPI setini (doluluk, RevPAR, kanal dağılımı, rezervasyon) tanımlayın. KPI-first tasarımla ilk paneli kurun ve ekibi dashboard kullanımına geçirmek için kısa bir geçiş planı uygulayın."
+            "text": "Excel verisini temizleyin ve alanları standardize edin (tarih, oda tipi, kanal). Dosyayı Google Sheets’e taşıyın veya CSV olarak düzenli export edin. Looker Studio’da bu kaynağı [rapor otomasyonu](/tr/raporlama/looker-studio) mantığıyla bağlayıp KPI setini (doluluk, RevPAR, kanal dağılımı, rezervasyon) tanımlayın. KPI-first tasarımla ilk paneli kurun ve ekibi dashboard kullanımına geçirmek için kısa bir geçiş planı uygulayın."
+          },
+          {
+            "type": "p",
+            "text": "Geçişi kolaylaştırmak için önce [Looker Studio temel panel mantığı](/tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir) içeriğindeki veri kaynağı, KPI ve dashboard akışını netleştirmek faydalıdır; böylece Excel’den gelen tablo alışkanlığı yerine panel mantığı daha hızlı oturur."
           },
           {
             "type": "h3",
@@ -18162,7 +18274,7 @@
           },
           {
             "type": "p",
-            "text": "Kritik not: Excel’de hesap yapmak yerine mümkün olduğunca “ham veri + açık tanım” tercih edin; Looker Studio’da KPI’ları hesaplayabilirsiniz."
+            "text": "Kritik not: Excel’de hesap yapmak yerine mümkün olduğunca “ham veri + açık tanım” tercih edin; Looker Studio’da KPI’ları hesaplayabilirsiniz. Bunu yapmadan önce [veri isimlendirme standardı](/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar) kurmak, kolon adlarının ve KPI tanımlarının panelde sürdürülebilir kalmasını sağlar."
           },
           {
             "type": "media",
@@ -18200,6 +18312,10 @@
           {
             "type": "p",
             "text": "Excel’i tek başına panele taşımak ilk adımdır. Asıl değer, Excel/PMS verisini GA4 ve Ads ile bağlayıp “talep → satış” köprüsünü kurmaktır. Ancak bunu ilk günde tam yapmak yerine kademeli ilerlemek daha sağlıklıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu geçiş tamamlandığında [otomatik panelde satış ve dönüşüm takibi](/tr/raporlama/satis-donusum), lead, rezervasyon, gelir ve kanal katkısını tek ekranda daha düzenli okumayı sağlar; böylece manuel rapor güncelleme yerine yorum ve aksiyon tarafı güçlenir."
           },
           {
             "type": "h3",
@@ -18241,7 +18357,7 @@
             "variant": "primary",
             "label": "Excel’den Looker Studio’ya Geçiş Danışmanlığı Al",
             "text": "Excel raporlarını otomatik panele taşıyıp sürdürülebilir raporlama kurmak isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
           }
         ]
       },
@@ -18304,7 +18420,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "En zor kısım teknik değil, alışkanlıktır. Excel’de herkes “kendi tablosuna” güvenir. Dashboard’a geçişin ana hedefi: “tek doğru kaynak” ve “aynı toplantı dili”."
+            "text": "En zor kısım teknik değil, alışkanlıktır. Excel’de herkes “kendi tablosuna” güvenir. Dashboard’a geçişin ana hedefi: “tek doğru kaynak” ve “aynı toplantı dili”. Bu yüzden [ortak dashboard iş akışı](/tr/raporlama/blog/ajans-ve-otel-ekibi-icin-looker-studio-is-akisi), Excel dosyalarının farklı kişilerde dağılması yerine aynı panele bakılan ortak bir çalışma düzeni kurar."
           },
           {
             "type": "h3",
@@ -18339,7 +18455,19 @@
             "variant": "primary",
             "label": "Excel’den Looker Studio’ya Geçiş Danışmanlığı Al",
             "text": "Geçişi 2–3 haftada sorunsuz tamamlamak isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
+          },
+          {
+            "type": "p",
+            "text": "Dönem, tesis ve kanal kıyaslarını Excel sekmeleri arasında taşımak yerine [manuel karşılaştırmadan benchmark paneline geçiş](/tr/raporlama/benchmark-analizi) yaklaşımıyla daha tutarlı okumak, ekip içindeki yorum farklarını da azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Booking engine ve doğrudan rezervasyon tarafında [online satış verilerini dashboard’a taşımak](/tr/pms-ota/online-satis), fiyat, rezervasyon ve gelir akışını aynı panelde güncel tutmayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Kurulum, veri kaynağı, otomasyon, paylaşım ve bakım adımlarında [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfası sonraki kontrol noktası olarak kullanılabilir."
           },
           {
             "type": "callout",
@@ -18496,19 +18624,14 @@
           "table-kpi-listesi — İlk Otel Performans Paneli KPI Seti (Excel → Dashboard)"
         ],
         "technicalChecklist": [
-          "Aynı raporu her hafta sıfırdan mı hazırlıyorsunuz?",
-          "“Son dosya hangisiydi?” tartışması oluyor mu?",
-          "Pivot/formül hatası yüzünden sayı tutmuyor mu?",
-          "Excel’de her satır “tek kayıt” mantığında mı?",
-          "Tarih alanı tek formatta mı?",
-          "Kanal isimleri tutarlı mı?",
-          "Kanal değerleri tek sözlükte mi? (Booking/Expedia = OTA)",
-          "Oda tipi isimleri karışmıyor mu? (Deluxe/Superior)",
-          "Gelir net/brüt tanımı var mı?",
-          "“Gelir” PMS mi, web mi? katmanlar net mi?",
-          "Kanal mix’i satış verisiyle uyumlu mu?",
-          "GM ilk ekranda “doluluk + gelir + kanal mix”i görüyor mu?",
-          "Grafikleri 2 ile sınırladınız mı?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki yalnız 1 kez kullanıldı",
+          "Temel rehber, veri standartları ve ajans-otel iş akışı sibling linkleri doğru bağlamlarda işlendi",
+          "Satış & Dönüşüm, Benchmark Analizi ve Online Satış bağlantıları manuel rapordan otomatik panele geçiş bağlamında yerleştirildi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset bölümü korundu",
+          "Excel kötülenmeden, manuel rapor sınırları ve otomasyon faydası dengeli anlatıldı"
         ]
       }
     }
@@ -18531,15 +18654,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #17 — https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio",
-        "Blog Tipi: Core",
-        "Intent: Informational + Strategic (Metasearch & Revenue)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio"
+        "Blog Tipi: Bridge_Page",
+        "Intent: Informational + Revenue Analytics",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio"
       ],
-      "strategySummary": "Bu içerik, raporlama silosunda metasearch’i “ürün tanımı” seviyesinden çıkarıp gerçek kârlılık (komisyon sonrası) kararına bağlayan authority yazıdır. Hedef persona; Antalya/Belek/Side/Kemer/Bodrum gibi uluslararası talep alan destinasyonlarda Google Hotel Ads ve metasearch bütçesi yöneten GM/Owner, revenue ve pazarlama ekipleridir. Funnel’da consideration → conversion bandında; “hangi kanal daha kârlı rezervasyon getiriyor?” sorusunu tek panelde cevaplar. Ana iş sorusu: “Hotel Ads ve metasearch metriklerini PMS gelir verisi ve OTA komisyonlarıyla birleştirip, OTA vs direct kârlılığını nasıl raporlarım?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P1 öncelikli bir Blog / Bridge_Page olarak çalışır. Ana görevi; Google Hotel Ads ve metasearch performansını Looker Studio’da PMS, online satış ve gelir verileriyle birlikte okuyarak gerçek kârlılığı görünür hale getirmektir. İçerik, Looker Studio Raporlama money page’ini desteklerken PMS / OTA entegrasyonu, sezonluk performans, hedef-gerçekleşen KPI, Satış & Dönüşüm, Online Satış ve Otel Reklam Yönetimi sayfalarına metasearch analitiği, OTA vs direkt rezervasyon kârlılığı ve komisyon sonrası gelir görünümü üzerinden güçlü bir gelir köprüsü kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -18562,7 +18685,7 @@
     },
     "h1": {
       "title": "Google Hotel Ads ve Metasearch Performansını Looker Studio’da Raporlamak",
-      "intro": "Metasearch, “yüksek niyetli” kullanıcıyı otelin fiyat ve müsaitlik ekranına taşır; ancak gerçek karar “kaç tıklama aldım?” değil, “kaç net kârlı rezervasyon geldi?” olmalıdır. Bu yazıda Google Hotel Ads ve metasearch metriklerini Looker Studio’ya bağlayacak, rezervasyon ve geliri PMS ile doğrulayacak ve OTA komisyonlarıyla direct satış netliğini aynı panelde kıyaslayacağız. Sonunda 3 örnek metasearch dashboard şablonu ve bütçe kararını destekleyen KPI seti elinizde olacak.",
+      "intro": "Bu rehber, [Google Hotel Ads dashboard](/tr/raporlama/looker-studio) mantığını otel gelir perspektifiyle ele alır: metasearch, “yüksek niyetli” kullanıcıyı otelin fiyat ve müsaitlik ekranına taşır; ancak gerçek karar “kaç tıklama aldım?” değil, “kaç net kârlı rezervasyon geldi?” olmalıdır. Bu yazıda Google Hotel Ads ve metasearch metriklerini Looker Studio’ya bağlayacak, rezervasyon ve geliri PMS ile doğrulayacak ve OTA komisyonlarıyla direct satış netliğini aynı panelde kıyaslayacağız. Sonunda 3 örnek metasearch dashboard şablonu ve bütçe kararını destekleyen KPI seti elinizde olacak.",
       "quickSummary": [
         "Metasearch, “yüksek niyetli” kullanıcıyı otelin fiyat ve müsaitlik ekranına taşır.",
         "Gerçek karar “kaç tıklama aldım?” değil, “kaç net kârlı rezervasyon geldi?” olmalıdır.",
@@ -18573,14 +18696,14 @@
       "ctaPrimary": {
         "label": "Metasearch & Google Hotel Ads Performans Analizi Talep Et",
         "text": "Metasearch kârlılığını net gelir ve RevPAR etkisiyle ölçmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Metasearch & Google Hotel Ads Performans Analizi Talep Et",
         "text": "Metasearch yatırımlarını net kârlılık ve RevPAR etkisiyle ölçmek isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Metasearch Performans Dashboard Örnek Şablonunu İndir",
@@ -18590,27 +18713,44 @@
     },
     "internalLinks": [
       {
-        "label": "Otel Reklam Yönetimi",
-        "href": "/otel/reklam-yonetimi"
+        "label": "PMS ve OTA verilerini Looker Studio’ya bağlamak",
+        "href": "/tr/raporlama/blog/pms-ota-verilerini-looker-studioya-baglamak"
       },
       {
-        "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "label": "Sezonluk otel performansı için Looker Studio panelleri",
+        "href": "/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri"
       },
       {
-        "label": "Satış & Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "label": "Bütçe ve hedef vs gerçekleşen KPI paneli",
+        "href": "/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Satış dönüşüm analizi",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Online satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel reklam yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek",
+        "href": "/tr/raporlama/blog/pms-ota-verilerini-looker-studioya-baglamak"
+      },
+      {
+        "title": "Sezonluk Otel KPI Panelleri: Looker Studio Rehberi",
+        "href": "/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri"
+      },
+      {
+        "title": "Bütçe vs Actual: Otel Hedef KPI Paneli | Looker Studio | DGTLFACE",
+        "href": "/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio"
+      }
+    ],
     "sections": [
       {
         "id": "metasearch-ve-google-hotel-ads-rolu",
@@ -18618,7 +18758,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Metasearch, kullanıcıya fiyat karşılaştırması yaptırdığı için “satın almaya yakın” trafiği getirir. Bu yüzden metasearch performansını sadece tıklama ve CPC ile okumak eksiktir; otel için kritik olan, rezervasyon ve net gelir etkisidir. Antalya ve Bodrum gibi güçlü uluslararası talep alan destinasyonlarda, pazar/ülke kırılımı ve kanal karması (OTA vs direct) metasearch stratejisini doğrudan değiştirir."
+            "text": "Metasearch, kullanıcıya fiyat karşılaştırması yaptırdığı için “satın almaya yakın” trafiği getirir. Bu yüzden metasearch performansını sadece tıklama ve CPC ile okumak eksiktir; otel için kritik olan, rezervasyon ve net gelir etkisidir. Antalya ve Bodrum gibi güçlü uluslararası talep alan destinasyonlarda, pazar/ülke kırılımı ve kanal karması (OTA vs direct) metasearch stratejisini doğrudan değiştirir. Bu nedenle [metasearch analitiği](/tr/veri-analiz-ve-raporlama), reklam görünürlüğünü PMS, OTA, direkt rezervasyon ve gelir verileriyle aynı karar mimarisinde okuma ihtiyacına dayanır."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -18665,7 +18805,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Metasearch veri kaynağını (Hotel Ads ve diğer ağlar) Looker Studio’ya bağlayın. Gösterim–tıklama–rezervasyon–gelir KPI’larını tek panelde tanımlayın. PMS gelir verisiyle rezervasyon/geliri doğrulayın ve OTA komisyonlarını ekleyerek net geliri hesaplayın. Son olarak OTA vs direct karşılaştırma sayfası ve metasearch funnel görselleştirmesiyle bütçe kararını veriye bağlayın."
+            "text": "Metasearch veri kaynağını (Hotel Ads ve diğer ağlar) Looker Studio’ya bağlayın. Gösterim–tıklama–rezervasyon–gelir KPI’larını tek panelde tanımlayın. PMS gelir verisiyle rezervasyon/geliri doğrulayın ve OTA komisyonlarını ekleyerek [komisyon sonrası gelir görünümü](/tr/raporlama/looker-studio) oluşturun. Son olarak OTA vs direct karşılaştırma sayfası ve metasearch funnel görselleştirmesiyle bütçe kararını veriye bağlayın."
           },
           {
             "type": "h3",
@@ -18716,7 +18856,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu panelin farkı, “kampanya raporu”ndan “gelir raporu”na geçmesidir. Bu yüzden 3 veri katmanı birlikte çalışmalı:"
+            "text": "Bu panelin farkı, “kampanya raporu”ndan “gelir raporu”na geçmesidir. Bu yüzden [metasearch verisini PMS ve OTA satış verisiyle karşılaştırmak](/tr/raporlama/blog/pms-ota-verilerini-looker-studioya-baglamak) kritik hale gelir ve 3 veri katmanı birlikte çalışmalıdır:"
           },
           {
             "type": "h3",
@@ -18786,7 +18926,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Metasearch’te KPI seti iki seviyeli olmalı:"
+            "text": "Metasearch’te KPI seti iki seviyeli olmalı: pazarlama verimi ve ticari verim. Bu iki katmanı birlikte izlemek için [metasearch bütçe ve hedef KPI takibi](/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio), Hotel Ads maliyeti, hedef rezervasyon, gerçekleşen gelir ve sapma oranını aynı panelde okumayı kolaylaştırır."
           },
           {
             "type": "list",
@@ -18848,7 +18988,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, rakip içeriklerin çoğunda eksik kalan “gerçek kârlılık” katmanını kapatır. OTA satışları hacim getirebilir; direct satış ise komisyon avantajı ve ilişki kontrolü getirir. Metasearch bütçesi çoğu zaman bu dengenin tam ortasında yer alır."
+            "text": "Bu bölüm, rakip içeriklerin çoğunda eksik kalan “gerçek kârlılık” katmanını kapatır. OTA satışları hacim getirebilir; direct satış ise komisyon avantajı ve ilişki kontrolü getirir. Metasearch bütçesi çoğu zaman bu dengenin tam ortasında yer alır. Özellikle [OTA vs direkt rezervasyon kârlılığı](/tr/pms-ota/online-satis) perspektifiyle bakıldığında booking engine performansı, doğrudan rezervasyon ve komisyon sonrası gelir farkı çok daha net görünür."
           },
           {
             "type": "h3",
@@ -18893,7 +19033,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Metasearch etkisini ölçmek için tek bir hafta yeterli değildir; sezon ve kampanya dönemlerini dikkate alarak kıyas yapmak gerekir. Otellerde doğru yaklaşım: “aynı dönem kıyası” + “kampanya etiketleri” + “net gelir” üçlüsü."
+            "text": "Metasearch etkisini ölçmek için tek bir hafta yeterli değildir; sezon ve kampanya dönemlerini dikkate alarak kıyas yapmak gerekir. Otellerde doğru yaklaşım: “aynı dönem kıyası” + “kampanya etiketleri” + “net gelir” üçlüsü. Bu yüzden [sezonluk metasearch performansı](/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri), erken rezervasyon, yüksek sezon, düşük sezon ve son dakika satış davranışlarını aynı analitik çerçevede okumak için güçlü bir tamamlayıcıdır."
           },
           {
             "type": "h3",
@@ -18964,7 +19104,19 @@
             "variant": "primary",
             "label": "Metasearch & Google Hotel Ads Performans Analizi Talep Et",
             "text": "Kârlılık odaklı ölçüm ve optimizasyon isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
+          },
+          {
+            "type": "p",
+            "text": "Kampanyaların ticari tarafını daha net görmek için [direkt rezervasyon gelir analizi](/tr/raporlama/satis-donusum), metasearch trafiğinin rezervasyon, gelir ve kanal katkısını satış etkisiyle birlikte okumayı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Optimizasyon ve bütçe tarafında [Hotel Ads reklam performansı](/tr/otel/reklam-yonetimi), teklif stratejisi, bütçe yönetimi ve görünürlük kararlarını net gelir verisiyle aynı çerçevede değerlendirmek için doğal sonraki adımdır."
+          },
+          {
+            "type": "p",
+            "text": "Metasearch verisi, PMS / OTA entegrasyonu, dashboard kurulumu ve rapor bakımı için [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -19115,19 +19267,14 @@
           "table-ota-vs-direct-gelir-komisyon — OTA vs Direkt Rezervasyon: Gelir, Komisyon ve Net Kârlılık"
         ],
         "technicalChecklist": [
-          "Metasearch’te “rezervasyon” ve “gelir” KPI’larını görüyor musunuz?",
-          "OTA komisyonunu net gelir hesaplarında dikkate alıyor musunuz?",
-          "Metasearch trafiğinin web dönüşüm oranı ölçülüyor mu?",
-          "Tarih aralıkları tüm kaynaklarda aynı mı?",
-          "Revenue tanımı (brüt/net) net mi?",
-          "Metasearch gelirini “gerçekleşen” gelirle kıyaslıyor musunuz?",
-          "Komisyon sonrası net gelir metrik mi?",
-          "CPC düşüyor ama net gelir artıyor mu? (asıl doğru soru)",
-          "Aynı bütçeyle daha çok net gelir getiren kampanyayı görebiliyor musunuz?",
-          "OTA payı artınca net gelir ne oluyor?",
-          "Direct payını artıracak metasearch stratejisi var mı?",
-          "YoY aynı dönem kıyasınız var mı?",
-          "Metasearch bütçesi arttığında RevPAR trendini birlikte görüyor musunuz?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "PMS / OTA entegrasyonu, sezonluk performans ve hedef-gerçekleşen KPI sibling linkleri doğru bölümlere yerleştirildi",
+          "Online Satış, Satış & Dönüşüm ve Otel Reklam Yönetimi bağlantıları kârlılık bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "Metasearch performansı yalnız reklam metriği değil, net gelir ve komisyon sonrası kârlılık olarak anlatıldı"
         ]
       }
     }
@@ -19150,15 +19297,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #18 — https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio",
-        "Blog Tipi: Core",
-        "Intent: Informational + Strategic (Budgeting)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio"
+        "Blog Tipi: Bridge_Page",
+        "Intent: Informational + Performance Management",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/butce-ve-hedef-vs-gerceklesen-kpi-paneli-looker-studio"
       ],
-      "strategySummary": "Bu içerik, raporlama silosunda “yıl sonunda neden tutmadı?” tartışmasını bitirip, yıl içinde sapma (variance) yakalayan budget vs actual panel standardı koyar. Hedef persona GM/Owner, revenue ve finans/pazarlama ekipleridir; özellikle Antalya/Bodrum gibi sezonsal destinasyon + şehir oteli karması olan gruplarda yönetim kararını hızlandırır. Funnel’da consideration → conversion bandında; hedef verisini (çoğunlukla Excel/Sheets) gerçekleşen KPI’larla (PMS/Ads/GA4) yan yana göstererek rota düzeltmeyi sağlar. Ana iş sorusu: “Hedef verisini Looker Studio’ya nasıl taşır, gerçekleşenle nasıl eşleştirir ve sapmayı (pozitif/negatif) görselleştirerek aksiyon üretirim?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P1 öncelikli bir Blog / Bridge_Page olarak çalışır. Ana görevi; bütçe, hedef ve gerçekleşen KPI’ları aynı panelde göstererek otel ekiplerinin yıl içi sapmaları erken fark etmesini ve hızlı aksiyon almasını sağlamaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken executive dashboard, sezonluk performans, Hotel Ads / metasearch, Satış & Dönüşüm, Benchmark Analizi ve Online Satış sayfalarına hedef-gerçekleşen performans, variance analizi, gelir ve doluluk hedef takibi üzerinden güçlü köprüler kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -19181,7 +19328,7 @@
     },
     "h1": {
       "title": "Looker Studio’da Bütçe ve Hedef vs Gerçekleşen KPI Paneli Tasarlamak",
-      "intro": "Hedef verisi Excel’de, gerçekleşen veriler PMS/Ads/GA4’te kalınca yönetim “iki farklı dünya” görür. Bu yazıda hedef tablosunu (Sheets/Excel) Looker Studio’ya taşıyıp gerçekleşen KPI’larla aynı eksende göstereceğiz: gelir, doluluk, RevPAR ve reklam performansı hedef–gerçekleşen karşılaştırmasıyla izlenecek. Sapmaları (variance) renk kodlu kartlarla gösterecek ve yıl ortasında rota düzeltmek için bakmanız gereken 5 grafikle kapatacağız.",
+      "intro": "Bu rehber, [hedef gerçekleşen paneli](/tr/raporlama/looker-studio) kurgusunu otel ekipleri için daha uygulanabilir hale getirir. Hedef verisi Excel’de, gerçekleşen veriler PMS/Ads/GA4’te kalınca yönetim “iki farklı dünya” görür. Bu yazıda hedef tablosunu (Sheets/Excel) Looker Studio’ya taşıyıp gerçekleşen KPI’larla aynı eksende göstereceğiz: gelir, doluluk, RevPAR ve reklam performansı hedef–gerçekleşen karşılaştırmasıyla izlenecek. Sapmaları (variance) renk kodlu kartlarla gösterecek ve yıl ortasında rota düzeltmek için bakmanız gereken 5 grafikle kapatacağız.",
       "quickSummary": [
         "Hedef verisi Excel’de, gerçekleşen veriler PMS/Ads/GA4’te kalınca yönetim “iki farklı dünya” görür.",
         "Hedef tablosunu (Sheets/Excel) Looker Studio’ya taşıyıp gerçekleşen KPI’larla aynı eksende göstereceğiz.",
@@ -19192,14 +19339,14 @@
       "ctaPrimary": {
         "label": "Bütçe & Hedef vs Gerçekleşen Panel Kurulum Danışmanlığı Al",
         "text": "Hedef sapmalarını yıl içinde görüp zamanında aksiyon almak isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Bütçe & Hedef vs Gerçekleşen Panel Kurulum Danışmanlığı Al",
         "text": "Hedef tablosu + gerçekleşen KPI birleşimiyle sapmayı erken yakalamak isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Bütçe ve Hedef KPI Şablonunu İndir",
@@ -19209,27 +19356,44 @@
     },
     "internalLinks": [
       {
-        "label": "Satış & Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "label": "Executive dashboard ve otomatik raporlama",
+        "href": "/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
       },
       {
-        "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "label": "Sezonluk otel performansı için Looker Studio panelleri",
+        "href": "/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri"
       },
       {
-        "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "label": "Google Hotel Ads ve metasearch performansı",
+        "href": "/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Satış dönüşüm analizi",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Benchmark analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Online satış",
+        "href": "/tr/pms-ota/online-satis"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
+        "href": "/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
+      },
+      {
+        "title": "Sezonluk Otel KPI Panelleri: Looker Studio Rehberi",
+        "href": "/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri"
+      },
+      {
+        "title": "Google Hotel Ads + Metasearch Raporu | Looker Studio | DGTLFACE",
+        "href": "/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio"
+      }
+    ],
     "sections": [
       {
         "id": "butce-ve-hedef-kavramlarini-netlestirmek",
@@ -19237,7 +19401,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hedef vs gerçekleşen raporu, tanım net değilse yanlış karar üretir. İlk adım; “hedef”in neyi ifade ettiğini yazılı hale getirmektir: aylık gelir hedefi mi, doluluk hedefi mi, yoksa kanal bazlı bütçe hedefi mi? Ayrıca “gerçekleşen” verinin kaynağı (PMS mi, web mi, OTA dahil mi) net olmalıdır."
+            "text": "Hedef vs gerçekleşen raporu, tanım net değilse yanlış karar üretir. İlk adım; “hedef”in neyi ifade ettiğini yazılı hale getirmektir: aylık gelir hedefi mi, doluluk hedefi mi, yoksa kanal bazlı bütçe hedefi mi? Ayrıca “gerçekleşen” verinin kaynağı (PMS mi, web mi, OTA dahil mi) net olmalıdır. Bu yapı, [budget vs actual dashboard](/tr/veri-analiz-ve-raporlama) mantığıyla bütçe, hedef, sapma ve aksiyon ihtiyacını aynı raporlama dilinde toplar."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -19247,6 +19411,10 @@
           {
             "type": "p",
             "text": "Bir pazarda hedeflenen RevPAR yıl ortasında %10 gerideyse, bunu erken görmek kampanya ve fiyat stratejisini revize etmeyi mümkün kılar; amaç kesin vaat değil, erken uyarı mantığıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu fark özellikle [sezonluk hedef sapması](/tr/raporlama/blog/sezonluk-otel-performansi-icin-looker-studio-panelleri) yüksek olan otellerde daha kritik hale gelir; yüksek sezon, düşük sezon, erken rezervasyon ve son dakika dönemleri ayrı ayrı okunmadığında sapmanın kaynağı yanlış yorumlanabilir."
           },
           {
             "type": "h3",
@@ -19279,7 +19447,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hedef datasını temizleyin ve standart tablo haline getirin. Looker Studio’ya Sheets/Excel üzerinden bağlayın. PMS/Ads/GA4’ten gelen gerçekleşen KPI’larla aynı boyutlarda eşleştirin (tarih, kanal, pazar). Variance hesap alanlarını kurun (actual−target ve yüzde sapma). Son olarak hedef–gerçekleşen grafikler ve sapma kartlarıyla yönetim panelini oluşturun."
+            "text": "Hedef datasını temizleyin ve standart tablo haline getirin. Looker Studio’ya Sheets/Excel üzerinden bağlayın. PMS/Ads/GA4’ten gelen gerçekleşen KPI’larla aynı boyutlarda eşleştirin (tarih, kanal, pazar). [Variance analizi](/tr/raporlama/looker-studio) için hesap alanlarını kurun (actual−target ve yüzde sapma). Son olarak hedef–gerçekleşen grafikler ve sapma kartlarıyla yönetim panelini oluşturun."
           },
           {
             "type": "h3",
@@ -19387,7 +19555,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hedef tablosu “plan”ı temsil eder; gerçekleşen veriler “gerçekliği”. Eşleştirme mantığı doğru kurulmazsa variance yanlış çıkar."
+            "text": "Hedef tablosu “plan”ı temsil eder; gerçekleşen veriler “gerçekliği”. Eşleştirme mantığı doğru kurulmazsa variance yanlış çıkar. Özellikle reklam tarafında [Hotel Ads bütçe ve gerçekleşen performans takibi](/tr/raporlama/blog/google-hotel-ads-ve-metasearch-performansi-looker-studio), hedef rezervasyon, reklam bütçesi, maliyet ve gerçekleşen gelir farklarını aynı model içinde okumak için değerli bir tamamlayıcıdır."
           },
           {
             "type": "h3",
@@ -19446,7 +19614,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Variance, panelin kalbidir. Yönetimin görmek istediği şey “kaç eksiğiz/kaç fazlayız” ve “nerede?”. İki temel sapma metrik seti gerekir:"
+            "text": "Variance, panelin kalbidir. Yönetimin görmek istediği şey “kaç eksiğiz/kaç fazlayız” ve “nerede?”. Özellikle [gelir ve doluluk hedef takibi](/tr/raporlama/satis-donusum), lead, rezervasyon, dönüşüm oranı, gelir ve kanal katkısını hedef-gerçekleşen mantığıyla birlikte okumanın ticari tarafını güçlendirir. İki temel sapma metrik seti gerekir:"
           },
           {
             "type": "list",
@@ -19506,6 +19674,10 @@
             "text": "3 örnek panel şablonu "
           },
           {
+            "type": "p",
+            "text": "Üst yönetim seviyesinde [yönetim için hedef-gerçekleşen KPI özeti](/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama), aylık toplantılarda yalnız sapma rakamını değil; sapmanın nedeni ve aksiyon sahibini de aynı ekranda gösterdiğinde daha işlevsel hale gelir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -19549,7 +19721,19 @@
             "variant": "primary",
             "label": "Bütçe & Hedef vs Gerçekleşen Panel Kurulum Danışmanlığı Al",
             "text": "Sapmaları yıl içinde yakalayıp bütçe/fiyat/kampanya kararını düzeltmek isteyen oteller için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
+          },
+          {
+            "type": "p",
+            "text": "Sapmanın göreli etkisini daha sağlıklı okumak için [hedef sapmasını benchmark ile yorumlamak](/tr/raporlama/benchmark-analizi), dönem, tesis, kanal ve pazar kıyaslarını hedef-gerçekleşen farkıyla bir araya getirir."
+          },
+          {
+            "type": "p",
+            "text": "Doğrudan rezervasyon ve booking engine tarafında [online satış hedef takibi](/tr/pms-ota/online-satis), online gelir, paket satış ve kanal bazlı satış hedeflerinin gerçekleşen performansla yan yana izlenmesini kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Kurulum, veri kaynağı, hedef KPI, bütçe takibi ve dashboard bakımı için [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -19718,19 +19902,14 @@
           "table-butce-gerceklesen-sapma — Target vs Actual: Bütçe, Gerçekleşen ve Sapma Tablosu"
         ],
         "technicalChecklist": [
-          "Hedef gelir “brüt mü net mi?” belli mi?",
-          "Gerçekleşen KPI kaynağı PMS mi, web mi?",
-          "Kanal bütçesi hedefiyle performans KPI’ları aynı eksende mi?",
-          "Hedef ve gerçekleşen aynı dönem (month) boyutunda mı?",
-          "Kanal isimleri mapping ile eşitlendi mi?",
-          "Variance % doğru hesaplanıyor mu?",
-          "Birleşik hücre yok mu?",
-          "Tarih formatı tek mi?",
-          "Kanal adları standard mı?",
-          "Revenue katmanı net mi? (PMS toplam vs web)",
-          "Ads spend kanal bazında hedefle uyumlu mu?",
-          "Variance % hesapları doğru mu? (0’a bölme kontrol)",
-          "Sapmaların “en kritik 3” listesi var mı?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Executive dashboard, sezonluk performans ve Hotel Ads sibling linkleri doğru bölümlere yerleştirildi",
+          "Satış & Dönüşüm, Benchmark Analizi ve Online Satış bağlantıları hedef-gerçekleşen bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "İçerik yalnız hedef ve gerçekleşeni değil; sapma nedeni, etkisi ve aksiyon mantığını da anlatıyor"
         ]
       }
     }
@@ -19753,15 +19932,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #19 — https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri",
-        "Blog Tipi: Core",
-        "Intent: Informational + Strategic (Internationalisation)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri"
+        "Blog Tipi: Bridge_Page",
+        "Intent: Informational + International Reporting",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri"
       ],
-      "strategySummary": "Bu blog, uluslararası pazarlara çalışan otellerde “tek dil + tek para birimi” raporlamanın yarattığı karar hatalarını azaltan international reporting authority içeriğidir. Hedef persona; Antalya/Bodrum gibi destinasyonlarda farklı ülkelere satış yapan zincir veya bağımsız otellerin GM/Owner’ları, revenue ekipleri ve yabancı yatırımcı/partnerlerdir. Funnel’da awareness → consideration bandında; panelin hem operasyon ekibi (TR) hem partner/yatırımcı (EN) tarafından aynı “tek doğru” veri zeminiyle okunmasını sağlar. Ana iş sorusu: “TR–EN gibi çok dilli etiketleri nasıl yönetir, EUR/USD/GBP/TRY gelirleri tek baz para biriminde (örn. EUR) nasıl normalize eder ve pazar filtreleriyle herkesin kendi perspektifinden aynı KPI’ları görmesini nasıl sağlarız?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P2 öncelikli bir Blog / Bridge_Page olarak çalışır. Ana görevi; uluslararası pazarlarda çalışan oteller için çok dilli dashboard, çok para birimli gelir raporu, FX dönüşümü ve uluslararası otel reporting yapısını açıklamaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken çok otelli mimari, pazar segmentasyonu, BigQuery veri mimarisi, PMS / OTA Yönetimi ve Otel Dijital Pazarlama sayfalarına pazar, dil, para birimi, kanal ve gelir raporlaması üzerinden stratejik köprüler kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -19784,7 +19963,7 @@
     },
     "h1": {
       "title": "Çok Dilli ve Çok Para Birimli Looker Studio Panelleri Nasıl Kurulur?",
-      "intro": "Uluslararası otellerde rapor karışıklığı iki yerden çıkar: dil (TR/EN etiketler) ve para birimi (EUR/USD/GBP/TRY). Bu rehberde paneli iki katmanda kurgulayacağız: Dil katmanı (etiket/tooltip) ve para birimi katmanı (FX dönüşümü + baz para birimi). Ülke/pazar filtreleriyle “aynı veriye farklı perspektiften” bakmayı mümkün kılacak; ayrıca yatırımcı görünümü (EN + EUR) ve operasyon görünümü (TR + seçilebilir) senaryolarını netleştireceğiz.",
+      "intro": "[Çok dilli dashboard](/tr/raporlama/looker-studio) kurgusunda uluslararası otellerde rapor karışıklığı iki yerden çıkar: dil (TR/EN etiketler) ve para birimi (EUR/USD/GBP/TRY). Bu rehberde paneli iki katmanda kurgulayacağız: dil katmanı (etiket/tooltip) ve para birimi katmanı (FX dönüşümü + baz para birimi). Ülke/pazar filtreleriyle “aynı veriye farklı perspektiften” bakmayı mümkün kılacak; ayrıca yatırımcı görünümü (EN + EUR) ve operasyon görünümü (TR + seçilebilir) senaryolarını netleştireceğiz.",
       "quickSummary": [
         "Uluslararası otellerde rapor karışıklığı iki yerden çıkar: dil (TR/EN etiketler) ve para birimi (EUR/USD/GBP/TRY).",
         "Paneli iki katmanda kurgulayacağız: Dil katmanı (etiket/tooltip) ve para birimi katmanı (FX dönüşümü + baz para birimi).",
@@ -19794,14 +19973,14 @@
       "ctaPrimary": {
         "label": "Çok Dilli & Çok Para Birimli Dashboard Tasarım Danışmanlığı Al",
         "text": "Uluslararası otel raporlarını TR–EN + baz para birimi standardına oturtmak isteyenler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Dilli & Çok Para Birimli Dashboard Tasarım Danışmanlığı Al",
         "text": "TR–EN görünüm, FX dönüşümü ve pazar filtreleriyle uluslararası raporlama standardı isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Multi-Language & Multi-Currency Panel Şablonunu İndir",
@@ -19811,27 +19990,40 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Çok otelli yapılarda Looker Studio mimarisi",
+        "href": "/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
       },
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "label": "Otel pazar segmentasyonu",
+        "href": "/tr/raporlama/blog/otel-pazar-segmentasyonu-looker-studio"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "label": "BigQuery ve Looker Studio ile büyük otel veri mimarisi",
+        "href": "/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi"
       },
       {
-        "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "label": "PMS / OTA yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
+        "href": "/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
+      },
+      {
+        "title": "Otel Segmentasyon: Ülke+Kanal+Oda Tipi Analizi",
+        "href": "/tr/raporlama/blog/otel-pazar-segmentasyonu-looker-studio"
+      },
+      {
+        "title": "BigQuery + Looker Studio: Otel Veri Mimarisi | DGTLFACE",
+        "href": "/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi"
+      }
+    ],
     "sections": [
       {
         "id": "uluslararasi-otellerde-raporlama-ihtiyaci",
@@ -19839,7 +20031,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Oteliniz aynı anda birden fazla pazara satış yapıyorsa, rapor “toplam gelir”i gösterse bile karar için yeterli olmayabilir. Çünkü EUR gelirle TRY geliri doğrudan toplamak veya pazarları farklı para birimlerinde kıyaslamak yanıltır. Aynı şekilde, dashboard’u sadece TR etiketlerle bırakmak; yabancı yatırımcı veya partnerin raporu “okuyamamasına” yol açar."
+            "text": "Oteliniz aynı anda birden fazla pazara satış yapıyorsa, rapor “toplam gelir”i gösterse bile karar için yeterli olmayabilir. Çünkü EUR gelirle TRY geliri doğrudan toplamak veya pazarları farklı para birimlerinde kıyaslamak yanıltır. Aynı şekilde, dashboard’u sadece TR etiketlerle bırakmak; yabancı yatırımcı veya partnerin raporu “okuyamamasına” yol açar. Bu nedenle [uluslararası otel reporting](/tr/veri-analiz-ve-raporlama) yaklaşımında ülke, dil ve para birimi katmanlarını aynı model içinde düşünmek gerekir."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -19881,7 +20073,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Önce panel dil katmanını kurun (TR–EN etiket/tooltip sözlüğü). Sonra gelir verisini baz para birimine çevirmek için FX oran tablosu ekleyin ve hesap alanlarını tanımlayın. Para birimi seçici + ülke/pazar filtreleriyle görünümleri yönetin. Son olarak “yatırımcı görünümü” (EN + EUR) ve “operasyon görünümü” (TR + esnek filtre) sayfalarını ayırarak aynı veriyi farklı kitlelere okutun."
+            "text": "Önce panel dil katmanını kurun (TR–EN etiket/tooltip sözlüğü). Sonra [çok para birimli gelir raporu](/tr/raporlama/looker-studio) üretmek için FX oran tablosu ekleyin ve hesap alanlarını tanımlayın. Para birimi seçici + ülke/pazar filtreleriyle görünümleri yönetin. Son olarak “yatırımcı görünümü” (EN + EUR) ve “operasyon görünümü” (TR + esnek filtre) sayfalarını ayırarak aynı veriyi farklı kitlelere okutun."
           },
           {
             "type": "h3",
@@ -19978,7 +20170,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Buradaki amaç, farklı para birimlerini “aynı anda toplamak” değil; hepsini bir base currency’ye dönüştürüp karşılaştırmaktır. Oteller için en yaygın örnek: EUR bazlı raporlama. (Baz para birimi şirket politikasına göre değişebilir.)"
+            "text": "Buradaki amaç, farklı para birimlerini “aynı anda toplamak” değil; hepsini bir base currency’ye dönüştürüp karşılaştırmaktır. Oteller için en yaygın örnek: EUR bazlı raporlama. (Baz para birimi şirket politikasına göre değişebilir.) Veri hacmi büyüdüğünde [FX dönüşümü ve merkezi veri modeli](/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi) bu standardın sürdürülebilir kalmasını kolaylaştırır."
           },
           {
             "type": "h3",
@@ -20039,7 +20231,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Uluslararası raporlama, “herkes her şeyi görsün” değil; doğru filtrelerle “doğru soru”ya hızlı gitmektir. Ülke/pazar filtresi, kanal filtresi ve para birimi katmanı birlikte çalışmalıdır."
+            "text": "Uluslararası raporlama, “herkes her şeyi görsün” değil; doğru filtrelerle “doğru soru”ya hızlı gitmektir. Ülke/pazar filtresi, kanal filtresi ve para birimi katmanı birlikte çalışmalıdır. Özellikle [ülke ve para birimi kırılımlı panel](/tr/raporlama/blog/otel-pazar-segmentasyonu-looker-studio) mantığıyla bakıldığında hangi pazarın hangi oda tipi ve kanal kombinasyonuyla daha verimli olduğu daha net görünür."
           },
           {
             "type": "h3",
@@ -20086,7 +20278,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Uluslararası otellerde aynı dashboard’u herkese aynı şekilde vermek, okunabilirliği düşürür. Bu yüzden iki görünüm önerilir:"
+            "text": "Uluslararası otellerde aynı dashboard’u herkese aynı şekilde vermek, okunabilirliği düşürür. Bu yüzden farklı ülke, tesis ve marka kırılımlarında [çok otelli dashboard mimarisi](/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi) yaklaşımına benzer biçimde iki görünüm önerilir:"
           },
           {
             "type": "h3",
@@ -20164,6 +20356,10 @@
             "text": "Bu yazının farkı: paneli pazar + FX + dil üçlüsüyle “operasyonel” hale getirmesi."
           },
           {
+            "type": "p",
+            "text": "Bu yapının sahada sağlıklı çalışması için [PMS ve OTA para birimi yönetimi](/tr/pms-ota-yonetimi) tarafında kanal, fiyat ve rezervasyon alanlarının standardize edilmesi; pazarlama tarafında ise [pazar bazlı dijital pazarlama raporu](/tr/otel-dijital-pazarlama) ile ülke ve dil bazlı kampanya kararlarının aynı veriyle beslenmesi gerekir. Kurulum ve bakım sorularını da [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasında ayrıca toparladık."
+          },
+          {
             "type": "media",
             "slot": "divider-04"
           },
@@ -20191,7 +20387,7 @@
             "variant": "primary",
             "label": "Çok Dilli & Çok Para Birimli Dashboard Tasarım Danışmanlığı Al",
             "text": "International raporlamayı tek standarda oturtmak isteyenler için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
           }
         ]
       },
@@ -20336,20 +20532,14 @@
           "table-fx-donusum — FX Dönüşümü: Geliri Baz Para Birimine Çevirme (Örnek Mantık)"
         ],
         "technicalChecklist": [
-          "Gelir raporları farklı para birimlerinde mi geliyor?",
-          "Yatırımcı/partner raporu EN görmek istiyor mu?",
-          "“Pazar karşılaştırması” yaparken para birimi farkını yönetiyor musunuz?",
-          "FX tablosu güncel mi (tarih alanı var mı)?",
-          "Baz para birimi tüm metriklerde tutarlı mı (revenue/ADR/RevPAR)?",
-          "Yatırımcı görünümünde gereksiz detay var mı?",
-          "“Revenue / Gelir” gibi çekirdek KPI başlıkları iki dilde tutarlı mı?",
-          "Para birimi metinleri açık mı (EUR base)?",
-          "FX tablonuzda tarih ve para birimi alanı var mı?",
-          "Revenue’nin orijinal para birimi alanı var mı?",
-          "Filtreler mobilde kullanılabilir mi (çok kalabalık mı)?",
-          "“Investor view”de sadece gerekli filtreler var mı?",
-          "Investor sayfası 1 ekranda okunuyor mu?",
-          "Operasyon sayfasında veri kalitesi kontrolü var mı?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Çok otelli mimari, pazar segmentasyonu ve BigQuery sibling linkleri doğru bölümlere yerleştirildi",
+          "PMS / OTA Yönetimi ve Otel Dijital Pazarlama bağlantıları uluslararası raporlama bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "İçerik yalnız çeviri değil; para birimi, pazar, FX dönüşümü ve yönetim kararı standardı olarak işlendi"
         ]
       }
     }
@@ -20372,16 +20562,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #20 — https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi",
-        "Blog Tipi: Core",
-        "Intent: Informational + Strategic (Data Architecture)",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Varsayım: Sheet’te “Expert (Data Architecture)” geçiyor; V2.3 seviye kilidi gereği Intermediate–Expert bandı uygulanmıştır.",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi"
+        "Blog Tipi: Bridge_Page",
+        "Intent: Informational + Data Architecture",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/bigquery-ve-looker-studio-ile-buyuk-otel-veri-mimarisi"
       ],
-      "strategySummary": "Bu yazı, “çok otelli ve yüksek hacimli veri” ile çalışan otel gruplarında raporlamayı Excel/CSV döngüsünden çıkarıp kurumsal veri ambarı (BigQuery) + görsel panel (Looker Studio) mimarisine taşıyan referans içeriktir. Hedef persona; Antalya/Bodrum gibi birden fazla tesisi olan gruplarda GM/Owner, merkez ofis revenue/finans ekipleri ve ajans/BI ekipleridir. Funnel’da consideration → conversion bandında, performans sorunlarını (yavaş rapor, tutarsız metrik, manuel aktarım) çözmek için bir “mimari karar çerçevesi” sunar. Bu blogun ana iş sorusu: “PMS/OTA/Call Center/GA4 verisini BigQuery’de tek modele toplayıp, Looker Studio’da hızlı ve tutarlı dashboard’ları nasıl üretiriz?”"
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P2 öncelikli bir Blog / Bridge_Page olarak çalışır. Ana görevi; büyük veri hacmi, grup otel yapıları, çok tesisli raporlama ve merkezi veri modeli ihtiyacını BigQuery + Looker Studio mimarisi üzerinden açıklamaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken çok otelli dashboard mimarisi, veri isimlendirme standartları, çok dilli / çok para birimli paneller, Benchmark Analizi, PMS / OTA Yönetimi ve Otel Dijital Pazarlama sayfalarına veri ambarı, multi-property analytics ve merkezi raporlama modeli üzerinden güçlü köprüler kurar."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -20404,7 +20593,7 @@
     },
     "h1": {
       "title": "BigQuery ve Looker Studio ile Büyük Otel Veri Mimarisi Nasıl Kurulur?",
-      "intro": "Büyük otel verisi mimarisi, “çok kaynak + çok otel + uzun tarih” gerçekliğini yönetmek içindir. Amaç; veriyi tek bir “warehouse” katmanında (BigQuery) merkezileştirip, Looker Studio’nun bu modele bağlanarak hızlı, tutarlı ve ölçeklenebilir paneller üretmesini sağlamaktır. Antalya/Bodrum gibi birden fazla tesis ve destinasyon barındıran yapılarda, aynı KPI’ların tüm otellerde aynı tanımla okunması ve dashboard’ların yavaşlamaması kritik hale gelir.",
+      "intro": "[BigQuery veri ambarı](/tr/raporlama/looker-studio) yaklaşımı, “çok kaynak + çok otel + uzun tarih” gerçekliğini yönetmek içindir. Amaç; veriyi tek bir warehouse katmanında (BigQuery) merkezileştirip Looker Studio’nun bu modele bağlanarak hızlı, tutarlı ve ölçeklenebilir paneller üretmesini sağlamaktır. Antalya ve Bodrum gibi birden fazla tesis ve destinasyon barındıran yapılarda, aynı KPI’ların tüm otellerde aynı tanımla okunması ve dashboard’ların yavaşlamaması kritik hale gelir.",
       "quickSummary": [
         "Büyük otel verisi mimarisi, “çok kaynak + çok otel + uzun tarih” gerçekliğini yönetmek içindir.",
         "Veriyi tek bir “warehouse” katmanında (BigQuery) merkezileştirin.",
@@ -20415,14 +20604,14 @@
       "ctaPrimary": {
         "label": "BigQuery + Looker Studio Veri Mimarisi Danışmanlığı Al",
         "text": "Çok otelli yapılarda veri ambarı kurup dashboard’ları hızlandırmak isteyenler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "BigQuery + Looker Studio Veri Mimarisi Danışmanlığı Al",
         "text": "Çok otelli yapılarda veri ambarı kurup dashboard’ları hızlandırmak isteyenler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Grup Oteller İçin BigQuery Veri Modeli Örnek Şemasını İndir",
@@ -20432,31 +20621,44 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "label": "Çok otelli yapılarda Looker Studio mimarisi",
+        "href": "/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
       },
       {
-        "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "label": "Veri isimlendirme ve standartlar",
+        "href": "/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "label": "Çok dilli ve çok para birimli Looker Studio panelleri",
+        "href": "/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri"
       },
       {
-        "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "label": "Benchmark analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "PMS / OTA yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
+        "href": "/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
+      },
+      {
+        "title": "Otel Raporlamada Naming Convention ve Data Dictionary | DGTLFACE",
+        "href": "/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
+      },
+      {
+        "title": "Çok Dilli & Çok Para Birimli Otel Dashboard’u | DGTLFACE",
+        "href": "/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri"
+      }
+    ],
     "sections": [
       {
         "id": "neden-bigquery-looker-studio-kombinasyonu",
@@ -20477,7 +20679,7 @@
           },
           {
             "type": "p",
-            "text": "BigQuery “tek model, tek sözlük” yaklaşımıyla veriyi merkezileştirir; Looker Studio ise bu modele bağlanıp yönetime uygun “tek panel” deneyimi sağlar."
+            "text": "BigQuery “tek model, tek sözlük” yaklaşımıyla veriyi merkezileştirir; Looker Studio ise bu modele bağlanıp yönetime uygun “tek panel” deneyimi sağlar. Bu yüzden [Looker Studio veri modeli](/tr/veri-analiz-ve-raporlama) yaklaşımı yalnız dashboard kurmak değil, veriyi önce merkezi, temiz ve ölçeklenebilir bir analiz katmanında toplamak anlamına gelir."
           },
           {
             "type": "h3",
@@ -20518,7 +20720,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Veriyi BigQuery’ye toplamak, “her şeyi bir yere yığmak” değil; kaynakları düzenli ve izlenebilir bir pipeline ile içeri almak demektir. Bu aşamada 4 kaynak ailesi için kısa bir strateji belirlemek yeterlidir."
+            "text": "Veriyi BigQuery’ye toplamak, “her şeyi bir yere yığmak” değil; kaynakları düzenli ve izlenebilir bir pipeline ile içeri almak demektir. Bu aşamada [PMS ve OTA verisini veri ambarına almak](/tr/pms-ota-yonetimi) dahil olmak üzere 4 kaynak ailesi için kısa bir strateji belirlemek yeterlidir."
           },
           {
             "type": "h3",
@@ -20611,7 +20813,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Büyük veri mimarisinde en kritik kalite unsuru, doğru veri modelidir. Oteller için en pratik model, fact + dimension yaklaşımıdır:"
+            "text": "Büyük veri mimarisinde en kritik kalite unsuru, doğru veri modelidir. Oteller için en pratik model, [data dictionary ve alan isim standardı](/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar) ile desteklenen fact + dimension yaklaşımıdır:"
           },
           {
             "type": "list",
@@ -20648,6 +20850,10 @@
               "`dim_room_type` (room_type_id, room_type_name, category)",
               "`dim_market` (country, market_group)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [FX dönüşümü ve çok para birimli veri modeli](/tr/raporlama/blog/cok-dilli-ve-cok-para-birimli-looker-studio-panelleri) kuracaksanız `currency`, `country`, `market_group` ve baz para birimi mantığını daha veri modeli aşamasında sabitlemek gerekir."
           },
           {
             "type": "h3",
@@ -20697,7 +20903,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Looker Studio’da büyük veriyle çalışmanın sırrı, ham tablolara değil view’lara bağlanmaktır. View, BigQuery tarafında “iş sorusuna göre hazırlanmış” özet katmandır. Bu yaklaşım; dashboard’ı hızlandırır, KPI tanımını sabitler."
+            "text": "Looker Studio’da büyük veriyle çalışmanın sırrı, ham tablolara değil [hotel data warehouse](/tr/raporlama/looker-studio) mantığıyla hazırlanmış view’lara bağlanmaktır. View, BigQuery tarafında “iş sorusuna göre hazırlanmış” özet katmandır. Bu yaklaşım dashboard’ı hızlandırır ve KPI tanımını sabitler."
           },
           {
             "type": "h3",
@@ -20755,7 +20961,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Zincir yapılarda en kritik iki standart:"
+            "text": "Zincir yapılarda [multi-property analytics](/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi) tarafında en kritik iki standart şunlardır:"
           },
           {
             "type": "list",
@@ -20775,7 +20981,7 @@
           },
           {
             "type": "p",
-            "text": "Veri ambarı kuran otel gruplarında, yeni dashboard üretim süresinin ve manuel CSV/Excel aktarma ihtiyacının belirgin şekilde azaldığı; ayrıca tarihsel veri derinliğinin arttığı sık görülen bir sonuçtur. Bu kazanım, KPI’ların tek modelde standardize edilmesinden gelir."
+            "text": "Veri ambarı kuran otel gruplarında, yeni dashboard üretim süresinin ve manuel CSV/Excel aktarma ihtiyacının belirgin şekilde azaldığı; ayrıca tarihsel veri derinliğinin arttığı sık görülen bir sonuçtur. Bu kazanım, KPI’ların tek modelde standardize edilmesinden gelir. Böylece [BigQuery ile benchmark analizi](/tr/raporlama/benchmark-analizi) tarafında tesis, kanal, dönem ve marka karşılaştırmaları daha güvenilir hale gelir."
           },
           {
             "type": "media",
@@ -20805,6 +21011,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Merkezi veri mimarisi yalnız raporlama hızını değil; [merkezi veriyle otel dijital pazarlama kararı](/tr/otel-dijital-pazarlama) tarafında kampanya bütçesi, kanal katkısı ve pazar performansını aynı veri zeminiyle yorumlama kabiliyetini de güçlendirir. Kurulum ve bakım adımlarını ise [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasında ayrıca toparladık."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Grup Oteller İçin BigQuery Veri Modeli Örnek Şemasını İndir",
@@ -20816,7 +21026,7 @@
             "variant": "primary",
             "label": "BigQuery + Looker Studio Veri Mimarisi Danışmanlığı Al",
             "text": "Çok otelli yapılarda veri ambarı kurup dashboard’ları hızlandırmak isteyenler için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
           }
         ]
       },
@@ -20971,21 +21181,14 @@
           "table-fact-dimension-modeli — Fact & Dimension Modeli: Otel Veri Ambarı Örnek Şeması"
         ],
         "technicalChecklist": [
-          "Dashboard’lar veri büyüdükçe yavaşlıyor mu?",
-          "“Gelir/rezervasyon” tanımı ekipten ekibe değişiyor mu?",
-          "Her ay CSV/Excel aktarımı yapılıyor mu?",
-          "Her kaynakta `hotel_code` ve `date` ortak mı?",
-          "Kanal isimleri tek sözlükte mi? (OTA/Web/Call Center)",
-          "GA4 export ve PMS gelir tanımı ayrıştırıldı mı?",
-          "Fact tablolar tarih ile partition edilmiş mi?",
-          "Otel ve kanal gibi boyutlar dimension olarak ayrıldı mı?",
-          "TR/EN alan isimleri tek standarda çekildi mi?",
-          "Looker Studio data source ham tablo mu, view mı?",
-          "Aynı KPI farklı sayfalarda farklı mı hesaplanıyor?",
-          "Dashboard’da filtreler performansı düşürüyor mu?",
-          "Tüm tesislerde aynı KPI tanımı var mı?",
-          "Hotel_code her tabloda zorunlu mu?",
-          "Yönetim raporu ile otel raporu ayrılmış mı?"
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Çok otelli mimari, veri isimlendirme standartları ve çok dilli / çok para birimli sibling linkleri doğru bölümlere yerleştirildi",
+          "Benchmark Analizi, PMS / OTA Yönetimi ve Otel Dijital Pazarlama bağlantıları merkezi veri mimarisi bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "BigQuery teknik ürün değil; ölçeklenebilir otel veri mimarisi ve karar destek altyapısı olarak anlatıldı"
         ]
       }
     }
@@ -21008,16 +21211,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #21 — https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri",
-        "Blog Tipi: Trend",
-        "Intent: Informational + Thought Leadership",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Refresh Cycle: 90 gün",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri"
+        "Blog Tipi: Bridge_Page",
+        "Intent: Informational + AI Reporting Trends",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/2026-ai-odakli-otel-raporlama-trendleri"
       ],
-      "strategySummary": "Bu blog, raporlama silosunda “dashboard = geçmişe bakış” yaklaşımını kırıp, 2026’da öne çıkan AI odaklı raporlama vizyonunu otel bağlamında çerçeveleyen thought leadership yazısıdır. Hedef persona; GM/Owner, revenue ve pazarlama ekipleri ile Avrupa pazarlarında (DE/UK/RU) çalışan otel gruplarıdır; ayrıca Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda sezon dalgalanması yaşayan resort oteller için “erken uyarı” bakışı kritiktir. Funnel’da awareness → consideration bandında; forecasting, anomaly detection ve AI destekli içgörü kartlarıyla “karar mekanizması”nı güçlendirmeyi hedefler. Ana iş sorusu: “AI trendleri otel raporlamasını nasıl dönüştürüyor ve Looker Studio panelleri bu yapıda nasıl bir ‘tek veri zemini’ rolü oynuyor?” Not: Bu trend yazısında ürün bazlı kesin özellik vaatlerinden kaçınılır; stratejik fayda ve hazırlık adımlarına odaklanılır."
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P3 öncelikli bir Blog / Bridge_Page olarak çalışır. Ana görevi; AI odaklı raporlama, tahminleme, anomali tespiti, AI içgörü kartları ve hotel analytics future yaklaşımını Looker Studio’nun gelecekteki rolüyle ilişkilendirmektir. İçerik, Looker Studio Raporlama money page’ini desteklerken gerçek zamanlı operasyon panelleri, sesli / sohbet tabanlı raporlama, ESG KPI’ları, Satış & Dönüşüm, PMS / OTA Yönetimi ve Otel Dijital Pazarlama sayfalarına AI destekli içgörü, tahminleme, gerçek zamanlı takip ve karar destek mantığı üzerinden köprü kurar. AI burada otomatik karar vaadi değil; insan kontrolü, veri kalitesi ve doğru KPI standardıyla çalışan bir karar destek katmanı olarak ele alınır."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -21040,7 +21242,7 @@
     },
     "h1": {
       "title": "2026’da AI Odaklı Otel Raporlama Trendleri ve Looker Studio’nun Rolü",
-      "intro": "2026’da dashboard’lar “olanı gösteren ekran” olmaktan çıkıp “olacak olanı işaretleyen” karar panosuna evriliyor. AI; tahminleme, anomali uyarıları ve içgörü kartlarıyla yönetime “ne oldu?” yerine “ne olacak, ne yapmalıyım?” dedirtiyor. Bu dönüşümde Looker Studio’nun rolü, PMS/OTA/GA4 gibi kaynakları tek zeminde toplayıp AI senaryolarına düzenli bir veri akışı sağlamaktır.",
+      "intro": "[AI odaklı raporlama](/tr/raporlama/looker-studio) yaklaşımında 2026’da dashboard’lar “olanı gösteren ekran” olmaktan çıkıp “olacak olanı işaretleyen” karar panosuna evriliyor. AI; tahminleme, anomali uyarıları ve içgörü kartlarıyla yönetime “ne oldu?” yerine “ne olabilir, neye dikkat etmeliyim?” sorusunu sorduruyor. Bu dönüşümde Looker Studio’nun rolü, PMS/OTA/GA4 gibi kaynakları tek zeminde toplayıp AI senaryolarına düzenli veri akışı sağlamak; nihai kararı ise insan kontrolü ve KPI standardı ile desteklemektir.",
       "quickSummary": [
         "2026’da dashboard’lar “olanı gösteren ekran” olmaktan çıkıp “olacak olanı işaretleyen” karar panosuna evriliyor.",
         "AI; tahminleme, anomali uyarıları ve içgörü kartlarıyla yönetime “ne oldu?” yerine “ne olacak, ne yapmalıyım?” dedirtiyor.",
@@ -21051,44 +21253,61 @@
       "ctaPrimary": {
         "label": "AI Odaklı Otel Raporlama Strateji Çağrısı Planla",
         "text": "AI + Looker Studio + otel verisi ile 90 günlük yol haritası çıkarmak isteyen GM/revenue ekipleri için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI Odaklı Otel Raporlama Strateji Çağrısı Planla",
         "text": "Forecasting, anomali ve içgörü kartlarını otel verinize göre 90 günlük planlamak isteyenler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "AI Destekli Dashboard Demo Talep Et",
         "text": "Örnek AI kartları ve uyarı bloklarıyla, panelin yönetim kararını nasıl hızlandırdığını görürsünüz.",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "Gerçek zamanlı otel operasyon panelleri",
+        "href": "/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Sesli ve sohbet tabanlı otel raporlama",
+        "href": "/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio"
       },
       {
-        "label": "Satış & Dönüşüm",
-        "href": "/raporlama/satis-donusum"
+        "label": "Sürdürülebilirlik ve ESG KPI raporları",
+        "href": "/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "label": "Satış dönüşüm analizi",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "label": "PMS / OTA yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Gerçek Zamanlı Otel Operasyon Paneli | Looker Studio | DGTLFACE",
+        "href": "/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio"
+      },
+      {
+        "title": "Sesli/Sohbet Otel Raporlama: AI + Looker Studio | DGTLFACE",
+        "href": "/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio"
+      },
+      {
+        "title": "ESG KPI Dashboard’u: Oteller İçin Looker Studio (2026) | DGTLFACE",
+        "href": "/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026"
+      }
+    ],
     "sections": [
       {
         "id": "2026-ai-odakli-otel-raporlama-trendleri-nelerdir",
@@ -21096,7 +21315,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aşağıdaki liste, “trend + otel karşılığı + Looker Studio rolü” mantığında, hızlı taranabilir şekilde özetlendi:"
+            "text": "Aşağıdaki liste, “trend + otel karşılığı + Looker Studio rolü” mantığında, hızlı taranabilir şekilde özetlendi. Burada [Looker Studio trendleri 2026](/tr/veri-analiz-ve-raporlama) tarafında önemli olan şey, AI’ı otomatik karar motoru gibi görmek değil; doğru veri modeli, KPI standardı ve insan kontrollü karar desteğiyle birlikte ele almaktır."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -21196,7 +21415,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Forecasting, otelde iki kritik kararı besler:"
+            "text": "[Tahminleme ve anomali tespiti](/tr/raporlama/looker-studio) yaklaşımı, otelde iki kritik kararı besler:"
           },
           {
             "type": "list",
@@ -21226,6 +21445,10 @@
           {
             "type": "p",
             "text": "Varsayım: AI destekli tahminleme ve anomali tespiti kullanan otellerde “talep tahmin hatası” teorik olarak %5–10 bandında azalabilir; bu da fiyatlandırma ve gelir planlamasında daha fazla esneklik sağlayabilir. Bu bir vaat değil, stratejik senaryo çerçevesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu senaryolar en çok [AI destekli satış ve dönüşüm içgörüleri](/tr/raporlama/satis-donusum) tarafında değer üretir; çünkü talep, rezervasyon ve gelir sinyalleri ancak ticari KPI’larla birlikte okunduğunda anlamlı aksiyona dönüşür."
           },
           {
             "type": "media",
@@ -21261,7 +21484,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Anomali tespiti, “her düşüş kriz” değildir; “normal dışı davranış”ı işaretleyip doğru soruyu sordurur. Otel bağlamında anomali listesi genelde şuraya düşer:"
+            "text": "Anomali tespiti, “her düşüş kriz” değildir; “normal dışı davranış”ı işaretleyip doğru soruyu sordurur. Özellikle [gerçek zamanlı AI içgörüleri](/tr/raporlama/blog/gercek-zamanli-otel-operasyon-panelleri-looker-studio) bağlamında otel tarafında anomali listesi genelde şuraya düşer:"
           },
           {
             "type": "list",
@@ -21290,6 +21513,10 @@
           {
             "type": "media",
             "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Bu sinyallerin güvenilir olması için [PMS ve OTA verisiyle tahminleme](/tr/pms-ota-yonetimi) tarafında rezervasyon, kanal, fiyat ve kontenjan verisinin temiz ve standart olması gerekir; aksi halde AI yalnızca zayıf veriyi daha hızlı yorumlamış olur."
           },
           {
             "type": "h3",
@@ -21341,6 +21568,10 @@
             "slot": "kpi-07"
           },
           {
+            "type": "p",
+            "text": "Bu mantık yalnız gelir tarafında değil, [2026 sürdürülebilirlik ve ESG KPI raporları](/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026) içinde de değerlidir; çünkü enerji, kaynak tüketimi ve operasyon verimliliği metriklerinde de aynı “uyarı → aksiyon → sorumlu” kurgusu gerekir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check:"
           },
@@ -21370,7 +21601,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölümde kritik nokta şu: Looker Studio tek başına “AI motoru” değildir; ancak doğru kurgulanmış paneller, AI iş akışlarına beslenen düzenli bir veri zeminidir. Otelde AI asistan senaryosu, genelde şu şekle evrilir:"
+            "text": "Bu bölümde kritik nokta şu: Looker Studio tek başına “AI motoru” değildir; ancak doğru kurgulanmış paneller, AI iş akışlarına beslenen düzenli bir veri zeminidir. Bu deneyim [sohbet tabanlı otel raporlaması](/tr/raporlama/blog/sesli-ve-sohbet-tabanli-otel-raporlama-ai-looker-studio) tarafında daha görünür hale gelir. Otelde AI asistan senaryosu genelde şu şekle evrilir:"
           },
           {
             "type": "list",
@@ -21415,18 +21646,22 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle pazarlama senaryolarında [hotel analytics future](/tr/otel-dijital-pazarlama) bakışı; kampanya bütçesi, hedefleme ve kanal katkısı kararlarını hızlandırır. Kurulum, veri kaynağı ve bakım tarafındaki temel çerçeveyi de [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasında ayrıca toparladık."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "AI Destekli Dashboard Demo Talep Et",
             "text": "AI kartları, forecast çizgisi ve anomali uyarı bloklarının nasıl çalışacağını örnek panel üzerinden görürsünüz.",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "AI Odaklı Otel Raporlama Strateji Çağrısı Planla",
             "text": "AI + Looker Studio + otel verisi ile 90 günlük yol haritası çıkarmak isteyen ekipler için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
           }
         ]
       },
@@ -21527,18 +21762,14 @@
           "table-ai-trend-veri-kpi-looker-studio — AI Trend → Veri Gereksinimi → KPI → Looker Studio Rolü (Otel)"
         ],
         "technicalChecklist": [
-          "Raporlarınız hâlâ “geçmiş” odaklı mı?",
-          "Sapmaları (doluluk/RevPAR/harcama) günler sonra mı fark ediyorsunuz?",
-          "KPI tanımlarınız ve kaynaklarınız tek sözlükte mi?",
-          "Forecast ekranında “gerçek vs tahmin” aynı grafikte mi?",
-          "Forecast sapması için alarm eşiğiniz var mı?",
-          "Anomali kartları “aksiyon”a bağlanıyor mu, yoksa sadece alarm mı?",
-          "Anomaliyi pazar/kana/oda tipi kırılımında doğruluyor musunuz?",
-          "Uyarılar “kim sahip?” sorusunu cevaplıyor mu?",
-          "Uyarılar için haftalık kapanış rutini var mı?",
-          "Secondary CTA türü Lead Magnet; Download Asset üretilmedi.",
-          "Trend içerik refresh cycle: 90 gün.",
-          "Ürün bazlı kesin AI özellik vaatlerinden kaçınılır; stratejik fayda ve hazırlık adımlarına odaklanılır."
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "Gerçek zamanlı operasyon, sohbet tabanlı raporlama ve ESG sibling linkleri doğru bölümlere yerleştirildi",
+          "Satış & Dönüşüm, PMS / OTA Yönetimi ve Otel Dijital Pazarlama bağlantıları AI karar desteği bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "CTA'lar genel iletişim rotasına alındı",
+          "Bu sayfada ayrı download asset üretilmedi, demo CTA korunarak iletişim rotasına çevrildi",
+          "AI içeriğinde otomatik karar vaadi verilmedi; veri kalitesi, KPI standardı ve insan kontrolü vurgulandı"
         ]
       }
     }
@@ -21561,16 +21792,15 @@
     "blueprint": {
       "sheetSummary": [
         "Silo: Veri Analizi & Raporlama",
-        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Sayfa (Hub): Looker Studio Raporlama",
         "Blog No / URL: Blog #22 — https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri",
-        "Blog Tipi: Trend",
-        "Intent: Informational + Strategic",
-        "Difficulty/Expertise: Intermediate–Expert",
-        "Word Count: 3000–3500",
-        "Refresh Cycle: 180 gün",
-        "Canonical: https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri"
+        "Blog Tipi: Bridge_Page",
+        "Intent: Informational + Cookieless Measurement",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/raporlama/blog/2026-cerezsiz-donem-ve-looker-studio-panelleri"
       ],
-      "strategySummary": "Bu blog, 2026’da çerezsiz (cookieless) ve gizlilik odaklı ölçüm dünyasında otel raporlarının “bozulduğu” algısını sakinleştirip, Looker Studio panellerini ayakta tutma stratejisini çerçeveleyen trend + pratik rehberdir. Hedef persona; Avrupa pazarına (DE/UK/RU) çalışan Antalya/Belek/Side/Kemer/Bodrum otellerinde GM/Owner, revenue ve pazarlama ekipleri ile ajans analitik ekipleridir. Funnel’da awareness → consideration bandında; consent mode, server-side tracking, first-party data ve modelleme (conversion modelling) etkisini doğru okumayı öğretir. Ana iş sorusu: “Çerezsiz dönemde ölçüm neden değişiyor, Looker Studio KPI’larını nasıl daha güvenilir hale getirir ve modelleme etkisini nasıl doğru yorumlarız?” Not: İçerik teknik ölçüm perspektifindedir; hukuki yorum üretmez."
+      "strategySummary": "Bu sayfa, Veri Analiz / Looker Studio Raporlama cluster’ında P3 öncelikli bir Blog / Bridge_Page olarak çalışır. Ana görevi; çerezsiz ölçümleme, consent mode, server-side tracking ve first-party data ile raporlama yaklaşımını Looker Studio panellerinin güvenilirliği açısından açıklamaktır. İçerik, Looker Studio Raporlama money page’ini desteklerken GA4 veri farkları, veri isimlendirme standartları, KVKK Veri Güvenliği, KVKK Uyum Hizmeti, Reklam Raporlama ve 2026 güvenilir KPI yapısı sayfalarına veri güveni, izinli ölçümleme ve reklam performansı takibi üzerinden köprü kurar. İçerik teknik-raporlama çerçevesiyle sınırlıdır; kesin hukuki yorum üretmez."
     },
     "byline": {
       "author": "DGTLFACE Editorial",
@@ -21593,7 +21823,7 @@
     },
     "h1": {
       "title": "2026’da Çerezsiz Dönemde Looker Studio Panellerini Ayakta Tutmak",
-      "intro": "Çerezsiz dönemde raporlar “bozuldu” gibi hissedilebilir ama bu genelde ölçümün doğasının değişmesidir: daha fazla izin (consent), daha fazla modelleme ve daha fazla first-party veri. Otel tarafında doğru yaklaşım, Looker Studio’yu “tek gerçeklik ekranı” olarak tutup, veri kalitesini consent mode + server-side tracking + PMS/CRM/call center katmanıyla güçlendirmektir.",
+      "intro": "[Çerezsiz ölçümleme](/tr/raporlama/looker-studio) döneminde raporlar “bozuldu” gibi hissedilebilir ama bu genelde ölçümün doğasının değişmesidir: daha fazla izin (consent), daha fazla modelleme ve daha fazla first-party veri. Otel tarafında doğru yaklaşım, Looker Studio’yu “tek gerçeklik ekranı” olarak tutup veri kalitesini consent mode, server-side tracking ve PMS/CRM/call center katmanıyla güçlendirmektir.",
       "quickSummary": [
         "Çerezsiz dönemde ölçümün doğası değişir: daha fazla izin (consent), daha fazla modelleme ve daha fazla first-party veri.",
         "KPI’ları “web” ve “satış gerçekliği” olarak iki katmanda okuyun.",
@@ -21604,14 +21834,14 @@
       "ctaPrimary": {
         "label": "Çerezsiz Dönem Ölçümleme Strateji Çağrısı Planla",
         "text": "Cookieless ölçümde KPI güvenini korumak ve 180 günlük yol haritası çıkarmak isteyen oteller için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çerezsiz Dönem Ölçümleme Strateji Çağrısı Planla",
         "text": "Consent mode, server-side ve first-party data ile KPI güvenini korumak isteyenler için",
-        "href": "/raporlama/looker-studio"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Server-Side Tracking ve First-Party Data Checklist’ini İndir",
@@ -21621,27 +21851,44 @@
     },
     "internalLinks": [
       {
-        "label": "Veri Analizi & Raporlama",
-        "href": "/raporlama"
+        "label": "GA4 ve Looker Studio veri farkları",
+        "href": "/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Veri isimlendirme ve standartlar",
+        "href": "/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
       },
       {
-        "label": "KVKK & Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "label": "Sürdürülebilirlik ve ESG KPI raporları",
+        "href": "/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026"
       },
       {
-        "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "label": "KVKK ve veri güvenliği raporlama",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "KVKK uyum hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Reklam raporlama",
+        "href": "/tr/sem/reklam-raporlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "GA4–Looker Studio Veri Farkı: Otel Çözüm Rehberi",
+        "href": "/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari"
+      },
+      {
+        "title": "Otel Raporlamada Naming Convention ve Data Dictionary | DGTLFACE",
+        "href": "/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar"
+      },
+      {
+        "title": "ESG KPI Dashboard’u: Oteller İçin Looker Studio (2026) | DGTLFACE",
+        "href": "/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026"
+      }
+    ],
     "sections": [
       {
         "id": "cerezsiz-donemde-looker-studio-panellerini-ayakta-tutmak",
@@ -21649,7 +21896,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aşağıdaki maddeler, çerezsiz dönemde “panelleri ayakta tutmanın” çekirdek modelidir:"
+            "text": "Aşağıdaki maddeler, çerezsiz dönemde “panelleri ayakta tutmanın” çekirdek modelidir. Burada [first-party data ile raporlama](/tr/veri-analiz-ve-raporlama) yaklaşımı, yalnız dashboard tasarımı değil; izinli veri toplama, veri standardı ve güvenilir ölçümleme yapısıyla birlikte düşünülmelidir."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -21711,6 +21958,10 @@
             "text": "Çerezsiz ortamda modellemeye dayalı dönüşüm sayıları, ham tıklama/rezervasyon verisinden doğal olarak sapma gösterebilir; bu sapma her zaman hata değil, yeni normalin parçası olabilir. Büyük ve ani sapmalarda ilk kontrol noktası çoğu zaman tarih/filtre/event tanımıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle attribution, tarih aralığı ve connector farklılıkları devreye girdiğinde [çerezsiz dönemde GA4 veri farkları](/tr/raporlama/blog/ga4-ve-looker-studio-veri-farklari) rehberi, bu sapmaları panik yerine sistematik kontrol mantığıyla yorumlamak için iyi bir referans olur."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check:"
           },
@@ -21740,7 +21991,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm teknik ölçüm perspektifindedir (hukuki yorum değildir). Amaç, ölçüm kalitesini artıran bileşenleri iş akışı gibi anlatmaktır."
+            "text": "Bu bölüm teknik ölçüm perspektifindedir ve hukuki yorum değildir. Amaç, [server-side tracking](/tr/raporlama/looker-studio) ile ölçüm kalitesini artıran bileşenleri iş akışı gibi anlatmaktır."
           },
           {
             "type": "h3",
@@ -21767,6 +22018,14 @@
               "Daha tutarlı event isimleri ve parametreleri sağlanabilir.",
               "Raporlar “daha temiz” olur; tutarsızlık azalır."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapının sağlıklı çalışması için [first-party data için veri isimlendirme standardı](/tr/raporlama/blog/looker-studio-icin-veri-isimlendirme-ve-standartlar) kritik olur; çünkü event, UTM, source / medium, campaign ve conversion adları tutarsız olduğunda server-side kurulum bile rapor güvenini tek başına koruyamaz."
+          },
+          {
+            "type": "p",
+            "text": "Consent ve izinli ölçümleme tarafında ise [KVKK uyumlu ölçümleme çerçevesi](/tr/yazilim/kvkk-uyum-hizmeti) ile teknik kurgu arasındaki sınırın net olması gerekir. Buradaki hedef, açık rıza ve veri işleme süreçlerini hukuki karar vermeden, raporlama güvenilirliğini destekleyen teknik çerçeve içinde düşünmektir."
           },
           {
             "type": "media",
@@ -21859,7 +22118,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Cookieless dönemde otellerin en güçlü kozu first-party veridir: PMS, CRM, call center, WhatsApp ve rezervasyon motoru verisi. Bu kaynaklar; “satış gerçekliği” ve “niyet sinyali” sağlar."
+            "text": "Cookieless dönemde otellerin en güçlü kozu first-party veridir: PMS, CRM, call center, WhatsApp ve rezervasyon motoru verisi. Bu kaynaklar “satış gerçekliği” ve “niyet sinyali” sağlar. Ancak bu veri katmanını kurarken [first-party data güvenliği](/tr/raporlama/kvkk-veri-guvenligi) tarafında erişim kontrolü, kişisel veri hassasiyeti ve güvenli raporlama mantığı da aynı derecede önemlidir."
           },
           {
             "type": "h3",
@@ -21908,6 +22167,10 @@
             "text": "Cookieless dönem “tek proje” değil, ritim gerektirir. Trend yazısı olduğu için hedef, 180 günlük bir iyileştirme döngüsü önermektir."
           },
           {
+            "type": "p",
+            "text": "Bu yol haritası aynı zamanda [2026’da güvenilir KPI raporlama](/tr/raporlama/blog/surdurulebilirlik-esg-kpilari-looker-studio-2026) mantığıyla da kesişir; çünkü veri güveni, ölçüm tutarlılığı ve açıklanabilir KPI yapısı yalnız reklam ve satışta değil, ESG ve sürdürülebilirlik katmanında da belirleyicidir."
+          },
+          {
             "type": "h3",
             "text": "Şimdi uygulayabileceğiniz 5 teknik adım "
           },
@@ -21942,7 +22205,7 @@
             "variant": "primary",
             "label": "Çerezsiz Dönem Ölçümleme Strateji Çağrısı Planla",
             "text": "2026 cookieless ölçüm stratejisini otel verinize göre planlamak isteyenler için",
-            "href": "/raporlama/looker-studio"
+            "href": "/contact"
           },
           {
             "type": "callout",
@@ -21955,6 +22218,10 @@
               "Server-side pilotu tek bir dönüşüm akışında başlat.",
               "180 günlük revizyon döngüsü kur (trend + teknik değişim)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Reklam tarafında consent, modelleme ve dönüşüm eksikleri doğrudan yorum farkı yaratabileceği için [reklam raporlarında çerezsiz ölçümleme](/tr/sem/reklam-raporlama) yaklaşımı önem kazanır. Kurulum, veri kaynağı ve bakım tarafındaki temel soruları da [Looker Studio Raporlama hakkında sık sorulan sorular](/tr/raporlama/looker-studio-sss) sayfasında ayrıca toparladık."
           }
         ]
       },
@@ -22098,20 +22365,14 @@
           "table-first-party-data-kaynaklari — First-Party Data Kaynakları: Cookieless Dönemde KPI Güçlendirme"
         ],
         "technicalChecklist": [
-          "Rezervasyon KPI’larınız sadece web ölçümüne mi dayanıyor?",
-          "CRM/call center/PMS verisi panelde “satış gerçekliği” olarak var mı?",
-          "Consent etkisini ekip biliyor mu (modelleme okuması)?",
-          "KPI’ları “mutlak doğru” gibi mi, yoksa trend/ kıyas gibi mi okuyorsunuz?",
-          "Modelleme etkisini açıklayan kısa not var mı?",
-          "Rezervasyon event isimleri standart mı?",
-          "Dönüşüm tanımı (booking_complete vs lead) net mi?",
-          "Aynı KPI iki farklı yerde iki farklı mı görünüyor?",
-          "Panelde “observed vs modelled” ayrımı işaretlenmiş mi?",
-          "PMS gelir verisi dashboard’da “ana gerçeklik” olarak var mı?",
-          "Call center/WhatsApp dönüşümü ölçülüyor mu?",
-          "Trend içerik refresh cycle: 180 gün.",
-          "İçerik teknik ölçüm perspektifindedir; hukuki yorum üretmez.",
-          "Secondary CTA türü Download Asset; checklist üretildi."
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "Hub linki /tr/veri-analiz-ve-raporlama bağlamında 1 kez kullanıldı",
+          "GA4 veri farkları, veri isimlendirme standartları ve ESG sibling linkleri doğru bölümlere yerleştirildi",
+          "KVKK Veri Güvenliği, KVKK Uyum Hizmeti ve Reklam Raporlama bağlantıları cookieless ölçüm bağlamında işlendi",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Danışmanlık CTA'ları genel iletişim rotasına alındı",
+          "Download asset section korundu",
+          "İçerik hukuki yorum yerine veri güvenliği, izinli ölçümleme ve rapor güvenilirliği çerçevesinde kaldı"
         ]
       }
     }
