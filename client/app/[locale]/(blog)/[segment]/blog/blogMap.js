@@ -1072,7 +1072,17 @@ export const BLOG_MAP = {
     "grup-otellerde-satis-ve-donusum-raporlarini-konsolide-etmek":"BlogGrupOtellerdeSatisVeDonusumRaporlariniKonsolideEtmek",
     "ab-fiyat-ve-kampanya-testlerini-donusum-raporlarinda-okumak":"BlogAbFiyatVeKampanyaTestleriniDonusumRaporlarindaOkumak",
     "otel-ltv-analizi-musteri-yasam-boyu-degerini-raporlamak":"BlogOtelLtvAnaliziMusteriYasamBoyuDegeriniRaporlamak",
-    "upsell-ve-cross-sell-donusum-raporlama":"BlogUpsellVeCrossSellDonusumRaporlama"
+    "upsell-ve-cross-sell-donusum-raporlama":"BlogUpsellVeCrossSellDonusumRaporlama",
+    "kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi":"BlogKurumsalVeGrupSegmentiDonusumRaporlariRfpAnalizi",
+    "crm-ve-email-pazarlama-donusum-raporlari-sadakat":"BlogCrmVeEmailPazarlamaDonusumRaporlariSadakat",
+    "sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon":"BlogSezonlukSatisVeDonusumAnaliziYuksekSezonDusukSezon",
+    "mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama":"BlogMobilRezervasyonDonusumuVeMobilUxRaporlama",
+    "metasearch-ve-google-hotel-ads-donusum-raporlari":"BlogMetasearchVeGoogleHotelAdsDonusumRaporlari",
+    "goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak":"BlogGoruntulenmeVeTiklamaFazlaSatisAzRaporuDogruOkumak",
+    "satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek":"BlogSatisVeDonusumRaporlariniAylikAksiyonPlaninaCevirmek",
+    "2026-ai-destekli-satis-ve-donusum-optimizasyonu":"Blog2026AiDestekliSatisVeDonusumOptimizasyonu",
+    "2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme":"Blog2026CerezsizDunyadaDonusumOlcumuVeModelleme",
+    "2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing":"Blog2026GercekZamanliFiyatVeDonusumDonguleriDynamicPricing"
   },
 
 

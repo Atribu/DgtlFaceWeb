@@ -171736,6 +171736,2580 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi",
+
+      "name": "Kurumsal ve Grup Segmenti Dönüşüm Raporları: RFP’den Konaklamaya Giden Yol",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "RFP" },
+
+        { "@type": "Thing", "name": "Corporate Segment" },
+
+        { "@type": "Thing", "name": "Group" },
+
+        { "@type": "Thing", "name": "MICE" },
+
+        { "@type": "Thing", "name": "Quote" },
+
+        { "@type": "Thing", "name": "Won/Lost Deal" },
+
+        { "@type": "Thing", "name": "Revenue" },
+
+        { "@type": "Thing", "name": "Segment" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#article",
+
+      "headline": "Kurumsal ve Grup Segmenti Dönüşüm Raporları: RFP’den Konaklamaya Giden Yol",
+
+      "description": "RFP → teklif → kazanılan/kaybedilen vaka hunisini raporlayarak kurumsal ve grup segmentinde kaç talebin gerçek konaklamaya dönüştüğünü ve hangi acente/şirketin daha yüksek gelir ve kârlılık getirdiğini görün.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Kurumsal ve Grup Segmenti Dönüşüm Raporları: RFP’den Konaklamaya Giden Yol",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal ve grup segmenti dönüşüm raporu nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RFP’leri tekil ID ile toplayıp RFP→teklif→won/lost durumlarıyla takip edin. Quote rate, win rate, SLA ve kişi/gece geliri KPI’larıyla süreç verimi ve değer kalitesini raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RFP → teklif → kazanılan vaka hunisi hangi KPI’larla ölçülmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RFP sayısı, teklif oranı, kazanma oranı, lead-to-won oranı, ilk yanıt süresi ve kişi/gece geliri temel KPI’lardır. Kayıp nedenleri kodlanarak aksiyona çevrilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi acente veya kurumsal müşteri daha kârlı, nasıl anlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Win rate ve kişi/gece geliri birlikte okunmalı; cycle time ve kayıp nedenleri de dikkate alınmalıdır. Skor kart ile değerli partnerler ayrıştırılıp satış zamanı doğru fırsatlara yönlendirilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup & MICE taleplerini gelir raporlarına nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Won deal’leri oda/gece ve toplam gelirle eşleştirip kişi/gece geliri KPI’ı ile raporlayın. Kontrat süresi ve yenileme potansiyeli LTV yaklaşımıyla uzun vadeli değer okuması sağlar."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"crm-ve-email-pazarlama-donusum-raporlari-sadakat":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat",
+
+      "name": "CRM ve E-posta Pazarlama Dönüşüm Raporları: Tekrar Rezervasyon ve Sadakati Ölçmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "CRM" },
+
+        { "@type": "Thing", "name": "Email Marketing" },
+
+        { "@type": "Thing", "name": "Repeat Booking" },
+
+        { "@type": "Thing", "name": "Loyalty" },
+
+        { "@type": "Thing", "name": "Booking Rate" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#article",
+
+      "headline": "CRM ve E-posta Pazarlama Dönüşüm Raporları: Tekrar Rezervasyon ve Sadakati Ölçmek",
+
+      "description": "CRM ve e-posta kampanyalarınızı gönderim → açılma → tıklama → rezervasyon hunisiyle ölçün; tekrar rezervasyon ve sadakat KPI’larıyla hangi segment ve kampanyanın gerçekten gelir getirdiğini görün.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CRM ve E-posta Pazarlama Dönüşüm Raporları: Tekrar Rezervasyon ve Sadakati Ölçmek",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/crm-ve-email-pazarlama-donusum-raporlari-sadakat#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CRM ve e-posta pazarlama dönüşüm raporu nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanyaları tür ve segment etiketiyle ayırıp gönderim→açılma→tıklama→rezervasyon funnel’ını ölçün. Open/click yanında booking rate, repeat booking ve gelir/email KPI’larını raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar önemli: open rate mi, booking rate mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Open rate ve click rate ilgi sinyalidir; iş sonucu booking rate ile görülür. Sadakat için ayrıca repeat booking sayısı/payını ve LTV etkisini izlemek gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tekrar rezervasyon ve sadakati nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Repeat booking count, repeat share ve segment bazlı booking rate temel KPI’lardır. Zaman içinde cohort okumasıyla tekrar davranışı ve LTV trendi takip edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "E-posta kampanyası sonuçlarını gelir ve LTV raporlarına nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya kaynaklı booking ve geliri ölçüp segment bazında repeat share ve cohort LTV ile birlikte okuyun. Böylece kısa vadeli satış ile uzun vadeli değer aynı raporda birleşir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon",
+
+      "name": "Sezonluk Satış ve Dönüşüm Analizi: Yüksek Sezon vs Düşük Sezon",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Seasonality" },
+
+        { "@type": "Thing", "name": "High Season" },
+
+        { "@type": "Thing", "name": "Low Season" },
+
+        { "@type": "Thing", "name": "Shoulder Season" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Revenue" },
+
+        { "@type": "Thing", "name": "Channel" },
+
+        { "@type": "Thing", "name": "Country" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#article",
+
+      "headline": "Sezonluk Satış ve Dönüşüm Analizi: Yüksek Sezon vs Düşük Sezon",
+
+      "description": "Sezon bazlı satış & dönüşüm analizi ile yüksek sezon, düşük sezon ve shoulder dönemlerde trafik, doluluk ve dönüşüm oranlarınızı karşılaştırın; fiyat ve kampanya kararlarınızı sezona göre veriyle ayarlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Sezonluk Satış ve Dönüşüm Analizi: Yüksek Sezon vs Düşük Sezon",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sezonluk satış ve dönüşüm analizi nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüksek sezon, düşük sezon ve shoulder dönemlerde trafik, doluluk, fiyat ve dönüşüm KPI’larının nasıl değiştiğini ölçüp kıyaslamaktır. Amaç, sezona göre kanal ve kampanya rolünü doğru okumaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yüksek sezon ve düşük sezonda hangi KPI’lara bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüksek sezonda ADR/RevPAR ve kanal karması, düşük sezonda pazar/segment uyumu, booking rate ve kampanya verimliliği daha kritiktir. Her iki dönemde de aynı KPI setiyle kıyas yapmak gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sezon bazlı dönüşüm verisini fiyat ve kampanya stratejisine nasıl taşırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Geçen yıl aynı dönemle kıyaslayarak hangi pazarda hangi kanalda dönüşümün güçlendiğini bulun ve fiyat/kampanyayı sezona göre ayarlayın. Shoulder dönemde benefit/paket testleriyle değer koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sezonluk analizde tarih aralıklarını nasıl seçmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tutarlı aralık seçin: geçen yıl aynı dönem vs bu yıl aynı dönem. Sezon tanımlarını rapor sözlüğünde sabitlemek, yanlış kıyas riskini azaltır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama",
+
+      "name": "Mobil Rezervasyon Dönüşümü ve Mobil UX’i Satış Raporlarına Doğru Yansıtmak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Mobile Conversion" },
+
+        { "@type": "Thing", "name": "Mobile UX" },
+
+        { "@type": "Thing", "name": "Booking Engine" },
+
+        { "@type": "Thing", "name": "Device Segment" },
+
+        { "@type": "Thing", "name": "Revenue" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#article",
+
+      "headline": "Mobil Rezervasyon Dönüşümü ve Mobil UX’i Satış Raporlarına Doğru Yansıtmak",
+
+      "description": "Mobil dönüşüm analizinde mobilde gelen trafiğin kaçının rezervasyona döndüğünü ve hangi adımda terk edildiğini görün; mobil UX ve tekliflerinizi veriye göre optimize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Mobil Rezervasyon Dönüşümü ve Mobil UX’i Satış Raporlarına Doğru Yansıtmak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil rezervasyon dönüşüm oranı nedir, oteller için neden kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobilde rezervasyon yapan kullanıcı oranıdır ve mobil trafik genellikle yüksek olduğu için toplam gelir üzerinde büyük etkisi vardır. Mobil dönüşüm düşerse, yüksek trafik bile satışa dönüşmeyebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil ve masaüstü dönüşümü nasıl kıyaslamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobile vs desktop booking rate’i karşılaştırın ve funnel adım drop-off’larını cihaz bazında görün. Farkın hangi adımda oluştuğunu bulmadan kampanya kararına geçmeyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil UX hataları satış funnel’ını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yavaşlık, uzun formlar, küçük butonlar ve ödeme sürtünmesi checkout terkini artırır. Bu sürtünmeler funnel’da belirli bir adımda drop-off olarak görünür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobilde trafik var ama satış yok, en sık neden nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En sık neden checkout/ödeme adımındaki sürtünmedir. Adım terk oranlarıyla hangi noktada kopuş olduğunu bulup 2 haftalık UX sprint ile düzeltmek gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"metasearch-ve-google-hotel-ads-donusum-raporlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari",
+
+      "name": "Metasearch ve Google Hotel Ads Dönüşüm Raporları: Yüksek Niyetli Trafiği Okumak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Google Hotel Ads" },
+
+        { "@type": "Thing", "name": "Metasearch" },
+
+        { "@type": "Thing", "name": "OTA" },
+
+        { "@type": "Thing", "name": "Direct Booking" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Revenue" },
+
+        { "@type": "Thing", "name": "Commission" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#article",
+
+      "headline": "Metasearch ve Google Hotel Ads Dönüşüm Raporları: Yüksek Niyetli Trafiği Okumak",
+
+      "description": "Metasearch ve Google Hotel Ads verilerini gösterim, tıklama, rezervasyon ve net gelir KPI’larıyla raporlayarak bu yüksek niyetli trafiğin OTA mı yoksa direkt rezervasyona mı daha çok katkı verdiğini görün.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Metasearch ve Google Hotel Ads Dönüşüm Raporları: Yüksek Niyetli Trafiği Okumak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/metasearch-ve-google-hotel-ads-donusum-raporlari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Metasearch ve Google Hotel Ads dönüşüm raporu nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Impressions, clicks, bookings, revenue ve spend KPI’larını tek panelde toplayın; OTA vs direct kırılımı ekleyin. Komisyon ve maliyet katmanıyla net katkı alanı oluşturup karar verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lara bakmalıyım: impression, click, booking, revenue?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Impression/click görünürlük, booking/revenue satış etkisi, cost/ROAS verimliliği gösterir. Karar için net katkı lensi (komisyon+maliyet) eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Google Hotel Ads trafiği OTA mı, web mi daha çok besliyor?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yönlendirme ve booking kaynağını OTA vs direct kırılımında raporlayın. Ülke/cihaz segmentlerinde farklı davranışı da kontrol ederek gerçek kanal rolünü görün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Metasearch performansını gelir ve kârlılık açısından nasıl okurum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Brüt gelir yanında reklam maliyetini ve OTA komisyonunu ekleyerek net katkı hesaplayın. Payı küçük görünen metasearch’ün net gelir açısından kritik olup olmadığını böyle anlarsınız."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak",
+
+      "name": "Görüntülenme ve Tıklama Fazla, Satış Az Olduğunda Raporu Doğru Okumak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Impressions" },
+
+        { "@type": "Thing", "name": "Clicks" },
+
+        { "@type": "Thing", "name": "Sessions" },
+
+        { "@type": "Thing", "name": "Funnel" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Price" },
+
+        { "@type": "Thing", "name": "Offer Quality" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#article",
+
+      "headline": "Görüntülenme ve Tıklama Fazla, Satış Az Olduğunda Raporu Doğru Okumak",
+
+      "description": "Çok trafik, az satış durumunda önce trafik kalitesine, sonra UX/funnel kayıplarına ve son olarak fiyat/teklif rekabetine bakarak sorunun kaynağını bulun ve sadece o noktayı iyileştirin.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Görüntülenme ve Tıklama Fazla, Satış Az Olduğunda Raporu Doğru Okumak",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok trafik var ama satış yok ne anlama gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genellikle trafik kalitesi, UX/funnel sürtünmesi veya fiyat/teklif rekabetinden en az birinde problem olduğuna işaret eder. Doğru KPI sırasıyla teşhis yapılmadan çözüm denemeleri yanıltıcı olabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sorunun trafikte mi UX’te mi fiyat/teklifte mi olduğunu nasıl anlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce trafik kalitesini (engagement ve niyet event’leri), sonra adım terk oranlarını (funnel drop-off), en son fiyat/teklif parity sinyallerini kontrol edin. Bu sıra yanlış teşhisi azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi iyileştirme adımlarını hangi sırayla denemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Trafik hedefleme düzeltmesi → funnel drop-off’u azaltacak UX sprint → fiyat/teklif netliği/parity iyileştirmesi sırasını izleyin. Her seferinde tek değişiklik yapıp yeniden ölçün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Google Ads tıklama var ama rezervasyon yok, en sık neden nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En sık neden, niyet uyumsuz hedefleme veya checkout/ödeme adımındaki sürtünmedir. Tıklama→checkout→purchase zincirinde drop-off’u bulup önce o adımı düzeltmek gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek",
+
+      "name": "Satış ve Dönüşüm Raporlarını Aylık Aksiyon Planına Çevirmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Reporting Cycle" },
+
+        { "@type": "Thing", "name": "KPI" },
+
+        { "@type": "Thing", "name": "Action Plan" },
+
+        { "@type": "Thing", "name": "Experimentation" },
+
+        { "@type": "Thing", "name": "Continuous Improvement" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#article",
+
+      "headline": "Satış ve Dönüşüm Raporlarını Aylık Aksiyon Planına Çevirmek",
+
+      "description": "Satış ve dönüşüm raporlarından her ay 3–5 net problem ve aksiyon çıkar; backlog’a yaz, sorumlu ata, 30 gün sonra aynı KPI’larla sonucu ölç ve rapor→aksiyon→tekrar ölçüm döngüsünü standart hâle getir.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Satış ve Dönüşüm Raporlarını Aylık Aksiyon Planına Çevirmek",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Satış ve dönüşüm raporlarını aksiyona nasıl dönüştürürüm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’lardan en büyük 3–5 problem alanını seçin, hipotez yazın ve aksiyonu owner+deadline ile backlog’a alın. 30 gün sonra aynı KPI’larla sonucu ölçerek döngüyü tamamlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aylık satış ve dönüşüm review toplantısı nasıl yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI özet → problem seçimi → hipotez/aksiyon → owner/tarih akışıyla yürümeli ve çıktısı mutlaka aksiyon tablosu olmalıdır. Aksi halde rapor okuma seviyesinde kalır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KPI → problem → aksiyon zincirini otelimde nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her aksiyonu tek bir KPI düşüşüne bağlayın, problemi tek cümleyle yazın ve test edilebilir hipotez kurun. Aksiyon küçük, teslim edilebilir ve ölçülebilir olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Test ve iyileştirme sonuçlarını raporlarla nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce/sonra KPI kıyası yapın ve 30 gün sonra aynı KPI setiyle tekrar ölçün. Öğrenimi dokümante ederek sonraki ayın backlog’una girdiye çevirin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-ai-destekli-satis-ve-donusum-optimizasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@id": "https://dgtlface.com/#organization"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": {
+
+        "@id": "https://dgtlface.com/#organization"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu",
+
+      "name": "2026’da AI Destekli Satış & Dönüşüm Optimizasyonu: Otomatik İçgörü Kartları",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#breadcrumb"
+
+      },
+
+      "mainEntity": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#article"
+
+      },
+
+      "about": [
+
+        { "@type": "Thing", "name": "AI Insight Engine" },
+
+        { "@type": "Thing", "name": "Conversion Optimisation" },
+
+        { "@type": "Thing", "name": "Funnel" },
+
+        { "@type": "Thing", "name": "Test & Learn" },
+
+        { "@type": "Thing", "name": "Revenue Uplift" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#article",
+
+      "headline": "2026’da AI Destekli Satış & Dönüşüm Optimizasyonu: Otomatik İçgörü Kartları",
+
+      "description": "AI destekli satış ve dönüşüm optimizasyonu, GA4, PMS, OTA ve çağrı merkezi verisini birleştirip sorun+neden+aksiyon içeren içgörü kartları üretir; tahminleme ve next best action ile karar hızını artırır.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#webpage"
+
+      },
+
+      "author": {
+
+        "@id": "https://dgtlface.com/#organization"
+
+      },
+
+      "publisher": {
+
+        "@id": "https://dgtlface.com/#organization"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Veri Analizi & Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "Satış ve Dönüşüm Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "2026’da AI Destekli Satış & Dönüşüm Optimizasyonu: Otomatik İçgörü Kartları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-destekli-satis-ve-donusum-optimizasyonu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "2026’da AI satış ve dönüşüm optimizasyonunu otellerde nasıl değiştirecek?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI, raporları otomatik içgörü kartlarına çevirerek sorun+neden+aksiyon formatında karar hızını artırır ve ekiplerin doğru testlere odaklanmasını sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otomatik içgörü kartları hangi KPI’lar üzerinden üretilecek?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Funnel adım terkleri, kanal karması, segment performansı (ülke/cihaz), ROAS/net katkı ve lead→booking dönüşümleri gibi KPI’lar içgörü kartlarının temelini oluşturur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi veriler AI modelleri için kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 funnel event’leri, PMS gelir/segment verisi, OTA komisyon/iptal katmanı ve call center kapanış KPI’ları kritik veri setleridir; en büyük değer bu kaynakların tek modelde birleşmesiyle çıkar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI önerilerini uygularken insan onayı ve kontrol nasıl korunmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI öneri üretir; uygulama owner onayı, guardrail kuralları ve audit log ile kontrol edilir. Otomatik uygulama yerine kontrollü “öner–onayla–uygula” akışı tercih edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme",
+
+      "name": "2026’da Çerezsiz Dünyada Dönüşüm Ölçümü ve Modelleme",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#breadcrumb"
+
+      },
+
+      "mainEntity": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#article"
+
+      },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Privacy-First Measurement" },
+
+        { "@type": "Thing", "name": "Cookieless" },
+
+        { "@type": "Thing", "name": "Modeled Conversions" },
+
+        { "@type": "Thing", "name": "Consent Mode" },
+
+        { "@type": "Thing", "name": "Server-Side Tracking" },
+
+        { "@type": "Thing", "name": "GA4" },
+
+        { "@type": "Thing", "name": "Looker Studio" },
+
+        { "@type": "Thing", "name": "PMS Reservation" },
+
+        { "@type": "Thing", "name": "OTA Booking" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#article",
+
+      "headline": "2026’da Çerezsiz Dünyada Dönüşüm Ölçümü ve Modelleme",
+
+      "description": "Çerezsiz dönemde dönüşüm verisinin bir kısmı modellemeye dayanır. Consent mode, server-side tracking ve OTA/PMS doğrulamasıyla observed vs modeled KPI’ları ayrı okuyarak rapor güvenini koruyun.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Satış ve Dönüşüm Raporları", "item": "https://dgtlface.com/tr/raporlama/satis-donusum" },
+
+        { "@type": "ListItem", "position": 4, "name": "2026’da Çerezsiz Dünyada Dönüşüm Ölçümü ve Modelleme", "item": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çerezsiz dünyada otel dönüşümlerini nasıl doğru ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Consent mode, server-side tracking ve first-party veriyle ölçümü güçlendirin; GA4’te observed vs modeled dönüşümleri ayrı gösterin. PMS/OTA gerçek rezervasyon verisiyle raporu çapraz kontrol edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4’te modeled conversions ne anlama gelir, raporlarda nasıl gösterilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Modeled conversions, gözlenemeyen dönüşümlerin tahmini katmanıdır. Raporlarda observed ve modeled ayrı katman olarak gösterilmeli; kararlar trend ve oranlarla verilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Consent mode ve server-side tracking raporları nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Consent mode gözlenen veriyi azaltıp modelleme ihtiyacını artırabilir; server-side kritik event’lerin kalitesini daha tutarlı kılabilir. Bu nedenle rapor observed+modeled olarak tasarlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA/PMS verisiyle dönüşüm modellemesini nasıl dengelerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS/OTA verisini gerçek satış katmanı olarak kullanın; GA4’ü funnel teşhisi için konumlayın. Çelişkili sinyalde önce kapsam ve ölçüm katmanını kontrol edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing",
+
+      "name": "2026’da Gerçek Zamanlı Fiyat & Dönüşüm Döngüleri: Dynamic Pricing’i Raporlarla Birleştirmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Dynamic Pricing" },
+
+        { "@type": "Thing", "name": "Revenue Management" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Real-Time Monitoring" },
+
+        { "@type": "Thing", "name": "Price Elasticity" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#article",
+
+      "headline": "2026’da Gerçek Zamanlı Fiyat & Dönüşüm Döngüleri: Dynamic Pricing’i Raporlarla Birleştirmek",
+
+      "description": "Fiyat değişikliklerinin web, OTA ve call center dönüşüm oranını nasıl etkilediğini gerçek zamanlı izleyerek dynamic pricing kararlarını gelir ve doluluk dengesini koruyacak biçimde ince ayarlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#webpage"
+
+      },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Satış ve Dönüşüm Raporları", "item": "https://dgtlface.com/tr/raporlama/satis-donusum" },
+
+        { "@type": "ListItem", "position": 4, "name": "2026’da Gerçek Zamanlı Fiyat & Dönüşüm Döngüleri: Dynamic Pricing’i Raporlarla Birleştirmek", "item": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dynamic pricing kararlarımı satış ve dönüşüm raporlarıyla nasıl entegre ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat değişimlerini loglayıp aynı pencerede funnel KPI’larını ve PMS gelirini izleyin. Web/OTA/call kanal kırılımında dönüşüm etkisini görüp test et–ölç–güncelle ritmiyle karar verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Fiyat artışı dönüşüm oranını ne kadar düşürebilir, hangi noktadan sonra gelir kaybı başlar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir evrensel eşik yoktur; otelinize özgü elastikiyet trendle bulunur. Küçük artışta conversion düşüp gelir artabilir; eşik sonrası conversion düşüşü geliri de aşağı çeker."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Revenue management sistemi GA4 ve PMS verisiyle nasıl beslenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 davranış ve drop-off sinyali sağlar, PMS ise gerçek gelir ve doluluk doğrulamasıdır. Revenue motoru bu iki katmanı kanal ve oda tipi kırılımıyla okuyarak güncellenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Her gün küçük fiyat testleri 2026’da oteller için ne anlama geliyor?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rastgele fiyat oynamak değil; tek değişkenli küçük değişiklikleri 24–72 saat izleyip sonuçla güncelleme yapmaktır. Guardrail ve owner/onay disipliniyle yürütülmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 

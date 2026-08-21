@@ -55470,14 +55470,515 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-7.webp",
-      alt: "    Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı",
-      caption: "    Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı"
+      alt: "Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı",
+      caption: "Kişi oda başı ek gelir ve upsell dönüşümünü özetleyen KPI kartı"
     },
 
           "proof-08": {
       src: "/images/blog/analysisReporting/Reporting3-13/Reporting3-13-8.webp",
       alt: "Upsell dashboard mockup ve raporlama teslimlerini gösteren proof kartı",
       caption: "Upsell dashboard mockup ve raporlama teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "kurumsal-ve-grup-segmenti-donusum-raporlari-rfp-analizi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-1.webp",
+      alt: "Kurumsal ve Grup Segmenti Dönüşüm Raporları: RFP’den Konaklamaya Giden Yol",
+      caption: "Kurumsal ve Grup Segmenti Dönüşüm Raporları: RFP’den Konaklamaya Giden Yol"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-2.webp",
+      alt: "Kurumsal ve grup RFP hunisini satış raporlarına bağlayan görsel",
+      caption: "Kurumsal ve grup RFP hunisini satış raporlarına bağlayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-3.webp",
+      alt: "Acenta ve şirket bazlı performans okumasına geçişi ayıran görsel",
+      caption: "Acenta ve şirket bazlı performans okumasına geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-4.webp",
+      alt: "Senaryo bazlı B2B dönüşüm yorumlarına geçişi ayıran görsel",
+      caption: "Senaryo bazlı B2B dönüşüm yorumlarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-5.webp",
+      alt: "RFP teklif won lost akışını ve gelire bağını gösteren B2B diyagramı",
+      caption: "RFP teklif won lost akışını ve gelire bağını gösteren B2B diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-6.webp",
+      alt: "RFP KPI ve CRM alan standardını özetleyen checklist kartı",
+      caption: "RFP KPI ve CRM alan standardını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-7.webp",
+      alt: "Win rate kişi gece geliri ve pipeline KPI kartlarını özetleyen görsel",
+      caption: "Win rate kişi gece geliri ve pipeline KPI kartlarını özetleyen görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-14/Reporting3-14-8.webp",
+      alt: "RFP dashboard mockup ve raporlama teslimlerini gösteren proof kartı",
+      caption: "RFP dashboard mockup ve raporlama teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "crm-ve-email-pazarlama-donusum-raporlari-sadakat":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-1.webp",
+      alt: "CRM ve E-posta Pazarlama Dönüşüm Raporları: Tekrar Rezervasyon ve Sadakati Ölçmek",
+      caption: "CRM ve E-posta Pazarlama Dönüşüm Raporları: Tekrar Rezervasyon ve Sadakati Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-2.webp",
+      alt: "Email kampanyasını booking rate ve sadakat KPI’larına bağlayan görsel",
+      caption: "Email kampanyasını booking rate ve sadakat KPI’larına bağlayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-3.webp",
+      alt: "LTV ve gelir raporuna bağlama bölümüne geçişi ayıran görsel",
+      caption: "LTV ve gelir raporuna bağlama bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-4.webp",
+      alt: "CRM kampanya senaryolarına geçişi ayıran görsel",
+      caption: "CRM kampanya senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-5.webp",
+      alt: "Gönderim açılma tıklama rezervasyon adımlarını gösteren email funnel diyagramı",
+      caption: "Gönderim açılma tıklama rezervasyon adımlarını gösteren email funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-6.webp",
+      alt: "Email funnel ve sadakat KPI kontrol listesini özetleyen kart",
+      caption: "Email funnel ve sadakat KPI kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-7.webp",
+      alt: "Repeat booking ve booking rate KPI’larını gösteren sadakat dashboard kartı",
+      caption: "Repeat booking ve booking rate KPI’larını gösteren sadakat dashboard kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-15/Reporting3-15-8.webp",
+      alt: "CRM email raporu ve teslimlerini gösteren proof kartı",
+      caption: "CRM email raporu ve teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "sezonluk-satis-ve-donusum-analizi-yuksek-sezon-dusuk-sezon":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-1.webp",
+      alt: "Sezonluk Satış ve Dönüşüm Analizi: Yüksek Sezon vs Düşük Sezon",
+      caption: "Sezonluk Satış ve Dönüşüm Analizi: Yüksek Sezon vs Düşük Sezon"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-2.webp",
+      alt: "Yüksek düşük shoulder sezon KPI setini ve kıyas mantığını gösteren görsel",
+      caption: "Yüksek düşük shoulder sezon KPI setini ve kıyas mantığını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-3.webp",
+      alt: "Düşük sezon ve shoulder KPI okumasına geçişi ayıran görsel",
+      caption: "Düşük sezon ve shoulder KPI okumasına geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-4.webp",
+      alt: "Sezon optimizasyon senaryolarına geçişi ayıran görsel",
+      caption: "Sezon optimizasyon senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-5.webp",
+      alt: "Sezonlara göre kanal rolü ve funnel değişimini gösteren otel diyagramı",
+      caption: "Sezonlara göre kanal rolü ve funnel değişimini gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-6.webp",
+      alt: "Sezon KPI ve YoY kıyas kontrol listesini özetleyen kart",
+      caption: "Sezon KPI ve YoY kıyas kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-7.webp",
+      alt: "Sezon bazlı funnel KPI kartlarını gösteren dashboard görseli",
+      caption: "Sezon bazlı funnel KPI kartlarını gösteren dashboard görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-16/Reporting3-16-8.webp",
+      alt: "Sezonluk analiz raporu ve teslimlerini gösteren proof kartı",
+      caption: "Sezonluk analiz raporu ve teslimlerini gösteren proof kartı"
+    },
+  },
+
+
+  "mobil-rezervasyon-donusumu-ve-mobil-ux-raporlama":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-1.webp",
+      alt: "Mobil Rezervasyon Dönüşümü ve Mobil UX’i Satış Raporlarına Doğru Yansıtmak",
+      caption: "Mobil Rezervasyon Dönüşümü ve Mobil UX’i Satış Raporlarına Doğru Yansıtmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-2.webp",
+      alt: "Mobil funnel adımlarını ve satış raporuna bağını gösteren otel görseli",
+      caption: "Mobil funnel adımlarını ve satış raporuna bağını gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-3.webp",
+      alt: "Mobil UX sorunlarını teşhis bölümüne geçişi ayıran görsel",
+      caption: "Mobil UX sorunlarını teşhis bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-4.webp",
+      alt: "Mobil optimizasyon senaryolarına geçişi ayıran görsel",
+      caption: "Mobil optimizasyon senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-5.webp",
+      alt: "Mobil rezervasyon hunisini arama oda seçimi checkout purchase olarak gösteren diyagram",
+      caption: "Mobil rezervasyon hunisini arama oda seçimi checkout purchase olarak gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-6.webp",
+      alt: "Mobil UX kontrol listesi ve funnel KPI’larını özetleyen checklist kartı",
+      caption: "Mobil UX kontrol listesi ve funnel KPI’larını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-7.webp",
+      alt: "Mobil dönüşüm oranı ve adım terkini özetleyen KPI kartı",
+      caption: "Mobil dönüşüm oranı ve adım terkini özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-17/Reporting3-17-8.webp",
+      alt: "Mobil funnel raporu ve iyileştirme teslimlerini gösteren proof kartı",
+      caption: "Mobil funnel raporu ve iyileştirme teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "metasearch-ve-google-hotel-ads-donusum-raporlari":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-1.webp",
+      alt: "Metasearch ve Google Hotel Ads Dönüşüm Raporları: Yüksek Niyetli Trafiği Okumak",
+      caption: "Metasearch ve Google Hotel Ads Dönüşüm Raporları: Yüksek Niyetli Trafiği Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-2.webp",
+      alt: "Metasearch trafiğinin OTA ve direct kanallara akışını gösteren görsel",
+      caption: "Metasearch trafiğinin OTA ve direct kanallara akışını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-3.webp",
+      alt: "Metasearch net katkı okumasına geçişi ayıran görsel",
+      caption: "Metasearch net katkı okumasına geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-4.webp",
+      alt: "Metasearch optimizasyon senaryolarına geçişi ayıran görsel",
+      caption: "Metasearch optimizasyon senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-5.webp",
+      alt: "Metasearch web veya OTA yönlendirmesiyle rezervasyona giden funnel diyagramı",
+      caption: "Metasearch web veya OTA yönlendirmesiyle rezervasyona giden funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-6.webp",
+      alt: "Metasearch KPI ve net gelir kontrol listesini özetleyen kart",
+      caption: "Metasearch KPI ve net gelir kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-7.webp",
+      alt: "Impression click booking revenue ve net katkı KPI kartlarını özetleyen görsel",
+      caption: "Impression click booking revenue ve net katkı KPI kartlarını özetleyen görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-18/Reporting3-18-8.webp",
+      alt: "Metasearch dashboard mockup ve raporlama teslimlerini gösteren proof kartı",
+      caption: "Metasearch dashboard mockup ve raporlama teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "goruntulenme-ve-tiklama-fazla-satis-az-raporu-dogru-okumak":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-1.webp",
+      alt: "Görüntülenme ve Tıklama Fazla, Satış Az Olduğunda Raporu Doğru Okumak",
+      caption: "Görüntülenme ve Tıklama Fazla, Satış Az Olduğunda Raporu Doğru Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-2.webp",
+      alt: "Teşhis sırasını trafik kalite UX fiyat olarak gösteren otel görseli",
+      caption: "Teşhis sırasını trafik kalite UX fiyat olarak gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-3.webp",
+      alt: "Funnel adım teşhisine geçişi ayıran görsel",
+      caption: "Funnel adım teşhisine geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-4.webp",
+      alt: "Problem tipi ve çözüm senaryolarına geçişi ayıran görsel",
+      caption: "Problem tipi ve çözüm senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-5.webp",
+      alt: "Trafik UX fiyat ayrımını yapan karar ağacı teşhis diyagramı",
+      caption: "Trafik UX fiyat ayrımını yapan karar ağacı teşhis diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-6.webp",
+      alt: "Adım adım KPI checklist kontrol listesini özetleyen kart",
+      caption: "Adım adım KPI checklist kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-7.webp",
+      alt: "Funnel drop-off ve dönüşüm KPI’larını özetleyen skor kartı",
+      caption: "Funnel drop-off ve dönüşüm KPI’larını özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-19/Reporting3-19-8.webp",
+      alt: "Teşhis raporu ve iyileştirme teslimlerini gösteren proof kartı",
+      caption: "Teşhis raporu ve iyileştirme teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-1.webp",
+      alt: "Satış ve Dönüşüm Raporlarını Aylık Aksiyon Planına Çevirmek",
+      caption: "Satış ve Dönüşüm Raporlarını Aylık Aksiyon Planına Çevirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-2.webp",
+      alt: "KPI problem aksiyon tekrar ölçüm döngüsünü gösteren otel görseli",
+      caption: "KPI problem aksiyon tekrar ölçüm döngüsünü gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-3.webp",
+      alt: "Aylık review toplantı akışına geçişi ayıran görsel",
+      caption: "Aylık review toplantı akışına geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-4.webp",
+      alt: "30 günlük aksiyon planı kutusuna geçişi ayıran görsel",
+      caption: "30 günlük aksiyon planı kutusuna geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-5.webp",
+      alt: "Raporun aksiyon motoruna dönüşmesini gösteren süreç diyagramı",
+      caption: "Raporun aksiyon motoruna dönüşmesini gösteren süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-6.webp",
+      alt: "Aylık review ve takip checklist’ini özetleyen kart",
+      caption: "Aylık review ve takip checklist’ini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-7.webp",
+      alt: "30 günlük aksiyon döngüsü KPI kartlarını gösteren görsel",
+      caption: "30 günlük aksiyon döngüsü KPI kartlarını gösteren görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-20/Reporting3-20-8.webp",
+      alt: "Aylık aksiyon planı teslimleri ve şablon çıktıları proof kartı",
+      caption: "Aylık aksiyon planı teslimleri ve şablon çıktıları proof kartı"
+    },
+  },
+
+  "2026-ai-destekli-satis-ve-donusum-optimizasyonu":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-1.webp",
+      alt: "2026’da AI Destekli Satış & Dönüşüm Optimizasyonu: Otomatik İçgörü Kartları",
+      caption: "2026’da AI Destekli Satış & Dönüşüm Optimizasyonu: Otomatik İçgörü Kartları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-2.webp",
+      alt: "GA4 PMS OTA çağrı verisini birleştiren AI içgörü akışı görseli",
+      caption: "GA4 PMS OTA çağrı verisini birleştiren AI içgörü akışı görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-3.webp",
+      alt: "AI ile fırsat ve sorun tespitine geçişi ayıran sade bölüm görseli",
+      caption: "AI ile fırsat ve sorun tespitine geçişi ayıran sade bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-4.webp",
+      alt: "Yönetişim ve insan onayı bölümüne geçişi ayıran sade görsel",
+      caption: "Yönetişim ve insan onayı bölümüne geçişi ayıran sade görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-5.webp",
+      alt: "Veri kaynakları ve AI içgörü kartı üretimini gösteren akış diyagramı",
+      caption: "Veri kaynakları ve AI içgörü kartı üretimini gösteren akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-6.webp",
+      alt: "AI içgörü kartlarına hazırlık için 5 adımı özetleyen otel checklist kartı",
+      caption: "AI içgörü kartlarına hazırlık için 5 adımı özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-7.webp",
+      alt: "İçgörü kartı KPI etkisi ve öncelik puanını gösteren skor kart",
+      caption: "İçgörü kartı KPI etkisi ve öncelik puanını gösteren skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-21/Reporting3-21-8.webp",
+      alt: "AI içgörü kartları ve aksiyon yol haritası teslimlerini anlatan proof kart",
+      caption: "AI içgörü kartları ve aksiyon yol haritası teslimlerini anlatan proof kart"
+    },
+  },
+  
+  "2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-1.webp",
+      alt: "2026’da Çerezsiz Dünyada Dönüşüm Ölçümü ve Modelleme",
+      caption: "2026’da Çerezsiz Dünyada Dönüşüm Ölçümü ve Modelleme"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-2.webp",
+      alt: "Observed + modeled KPI katmanlarını ve PMS doğrulamasını gösteren görsel",
+      caption: "Observed + modeled KPI katmanlarını ve PMS doğrulamasını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-3.webp",
+      alt: "Cookieless etkileri ve rapor okuma bölümüne geçiş görseli",
+      caption: "Cookieless etkileri ve rapor okuma bölümüne geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-4.webp",
+      alt: "Yol haritası ve teknik adımlara geçiş görseli",
+      caption: "Yol haritası ve teknik adımlara geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-5.webp",
+      alt: "Tarayıcı → server-side → GA4 → Looker Studio cookieless ölçüm akışı",
+      caption: "Tarayıcı → server-side → GA4 → Looker Studio cookieless ölçüm akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-6.webp",
+      alt: "Cookieless ölçüm için 5 teknik adımı özetleyen checklist kartı",
+      caption: "Cookieless ölçüm için 5 teknik adımı özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-7.webp",
+      alt: "Observed vs modeled KPI’ların ve trend okumanın özet kartı",
+      caption: "Observed vs modeled KPI’ların ve trend okumanın özet kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-22/Reporting3-22-8.webp",
+      alt: "Checklist + ölçüm mimarisi + dashboard teslimlerini anlatan proof kartı",
+      caption: "Checklist + ölçüm mimarisi + dashboard teslimlerini anlatan proof kartı"
+    },
+  },
+
+  "2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-1.webp",
+      alt: "2026’da Gerçek Zamanlı Fiyat & Dönüşüm Döngüleri: Dynamic Pricing’i Raporlarla Birleştirmek",
+      caption: "2026’da Gerçek Zamanlı Fiyat & Dönüşüm Döngüleri: Dynamic Pricing’i Raporlarla Birleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-2.webp",
+      alt: "Fiyat değişimi ve funnel KPI ilişkisini gösteren bağlam görseli",
+      caption: "Fiyat değişimi ve funnel KPI ilişkisini gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-3.webp",
+      alt: "Revenue sistemi GA4 PMS veri birleşimine geçişi ayıran görsel",
+      caption: "Revenue sistemi GA4 PMS veri birleşimine geçişi ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-4.webp",
+      alt: "Fiyat test senaryolarına geçişi ayıran görsel",
+      caption: "Fiyat test senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-5.webp",
+      alt: "Fiyat değişimi dönüşüm oranı gelir etkisi döngüsünü gösteren diyagram",
+      caption: "Fiyat değişimi dönüşüm oranı gelir etkisi döngüsünü gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-6.webp",
+      alt: "Test et ölç güncelle ritmini ve guardrail kurallarını özetleyen checklist kartı",
+      caption: "Test et ölç güncelle ritmini ve guardrail kurallarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-7.webp",
+      alt: "Dynamic pricing ve funnel KPI’larını birlikte gösteren skor kart",
+      caption: "Dynamic pricing ve funnel KPI’larını birlikte gösteren skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-23/Reporting3-23-8.webp",
+      alt: "Fiyat testleri ve dashboard teslimlerini gösteren proof kartı",
+      caption: "Fiyat testleri ve dashboard teslimlerini gösteren proof kartı"
     },
   }
   
