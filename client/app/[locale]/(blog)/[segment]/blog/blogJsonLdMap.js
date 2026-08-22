@@ -174310,6 +174310,1396 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+
+      "name": "Satış ve Dönüşüm Raporları",
+
+      "serviceType": "Satış ve Dönüşüm Raporları",
+
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri",
+
+      "name": "2026’da Voice & Chat Commerce: Sesli ve Sohbet Tabanlı Rezervasyon Dönüşümlerini Ölçmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "Voice Commerce" },
+
+        { "@type": "Thing", "name": "Chat Commerce" },
+
+        { "@type": "Thing", "name": "WhatsApp Booking" },
+
+        { "@type": "Thing", "name": "WebChat" },
+
+        { "@type": "Thing", "name": "Conversation Funnel" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#article",
+
+      "headline": "2026’da Voice & Chat Commerce: Sesli ve Sohbet Tabanlı Rezervasyon Dönüşümlerini Ölçmek",
+
+      "description": "WhatsApp, webchat ve sesli asistan üzerinden gelen rezervasyon taleplerini ayrı bir voice & chat commerce funnel’ında ölçün; soru→teklif→rezervasyon dönüşümünü web ve OTA ile kıyaslayarak kanalın gerçek değerini görün.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#webpage" },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Satış ve Dönüşüm Raporları", "item": "https://dgtlface.com/tr/raporlama/satis-donusum" },
+
+        { "@type": "ListItem", "position": 4, "name": "2026’da Voice & Chat Commerce: Sesli ve Sohbet Tabanlı Rezervasyon Dönüşümlerini Ölçmek", "item": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "WhatsApp ve webchat üzerinden gelen rezervasyon taleplerini nasıl raporlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Enquiry→quote→link→booking adımlarını funnel olarak kurun ve response time, quote rate, booking rate, revenue/enquiry KPI’larını kanal bazında raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Chatbot ve insan operatörü kombinasyonunda dönüşüm KPI’ları neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bot için qualification tamamlanma ve doğru yönlendirme; insan için quote→booking close rate, SLA ve gelir KPI’ları izlenmelidir. Handoff kuralları net olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Voice ve chat funnel’ını web/OTA dönüşümleriyle birlikte nasıl okuyabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Chat/voice kanalını ayrı bir kanal olarak ekleyip booking rate ve revenue per enquiry ile ölçün; web/OTA ile aynı KPI diliyle kıyaslayın ve net katkı lensiyle kanal rolünü belirleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Chat kanalında en kritik KPI hangisidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İlk yanıt süresi (SLA) ve quote→booking close rate genelde en kritik iki kaldıraçtır; chat’te niyet hızlı soğur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "sameAs": []
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek",
+
+      "name": "2026’da ESG ve Sürdürülebilirlik KPI’larını Satış & Dönüşüm Raporlarına Entegre Etmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#breadcrumb" },
+
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#article" },
+
+      "about": [
+
+        { "@type": "Thing", "name": "ESG" },
+
+        { "@type": "Thing", "name": "Sustainability" },
+
+        { "@type": "Thing", "name": "Conversion Rate" },
+
+        { "@type": "Thing", "name": "Campaign" },
+
+        { "@type": "Thing", "name": "Corporate Travel" },
+
+        { "@type": "Thing", "name": "Green Hotel" }
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#article",
+
+      "headline": "2026’da ESG ve Sürdürülebilirlik KPI’larını Satış & Dönüşüm Raporlarına Entegre Etmek",
+
+      "description": "ESG KPI’larını satış & dönüşüm raporlarına entegre ederek yeşil performansın hangi pazarda ve kanalda talep ve rezervasyon davranışını etkilediğini ölçün; kurumsal RFP ve eco kampanya etkisini segment bazında raporlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#webpage" },
+
+      "author": { "@id": "https://dgtlface.com/#organization" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Veri Analizi & Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "Satış ve Dönüşüm Raporları", "item": "https://dgtlface.com/tr/raporlama/satis-donusum" },
+
+        { "@type": "ListItem", "position": 4, "name": "2026’da ESG ve Sürdürülebilirlik KPI’larını Satış & Dönüşüm Raporlarına Entegre Etmek", "item": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "ESG KPI’ları satış ve dönüşüm raporlarına nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "ESG KPI setini satış KPI’larıyla aynı panelde, aynı kırılımlarla (pazar/kanal/segment) gösterin. Eco kampanyaları ve kurumsal RFP’leri etiketleyerek dönüşüm etkisini ölçün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yüksek ESG skorunun kurumsal RFP dönüşümüne etkisi nasıl ölçülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RFP hunisinde ESG vurgusu olan teklifleri etiketleyip win rate ve kişi/gece gelir KPI’larıyla kıyaslayın. Ülke ve sektör kırılımıyla etkiyi segment bazında görün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eco-friendly kampanyalar rezervasyon oranlarını artırır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bazı pazarlarda artırabilir; etki segment bazında değişir. Booking rate ve revenue KPI’larıyla ölçüp sadece tıklama değil rezervasyon ve değer etkisine göre karar verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "ESG skorundaki artışı kanal ve pazar bazlı satış sonuçlarıyla birlikte nasıl okurum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "ESG skor trendini booking rate, channel mix ve RFP win rate trendiyle yan yana koyun. Etkiyi genel değil Avrupa/kurumsal gibi hedef segmentlerde arayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"erisim-loglari-ve-izleme-dashboardlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari",
+
+      "name": "Erişim Logları ve İzleme Dashboard’ları: Oteller İçin KVKK Uyumlu Takip Yapısı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Access Log",
+
+        "PMS",
+
+        "Server",
+
+        "Admin Panel",
+
+        "Monitoring",
+
+        "Incident Analysis"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari",
+
+      "headline": "Erişim Logları ve İzleme Dashboard’ları: Oteller İçin KVKK Uyumlu Takip Yapısı",
+
+      "name": "Erişim Logları ve İzleme Dashboard’ları: Oteller İçin KVKK Uyumlu Takip Yapısı",
+
+      "description": "PMS, sunucu ve admin panel erişim loglarını standartlaştırın: alan seti, saklama/koruma, saat senkronu ve KVKK denetimi için izleme dashboard’ları.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "erisim logu kvkk",
+
+        "pms ve sunucu log standartlari",
+
+        "guvenlik izleme dashboardi",
+
+        "access log standards hotel",
+
+        "pms logging kvkk compliance",
+
+        "security monitoring dashboard hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Erişim Logları, İzleme Dashboard’ları ve Olay İnceleme Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari#howto",
+
+      "name": "Otel için KVKK uyumlu erişim logu ve izleme dashboard’u nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kritik sistemleri belirleyin",
+
+          "text": "PMS, admin panel, sunucu/veritabanı ve entegrasyon noktalarını log kapsamına alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Log alan setini standardize edin",
+
+          "text": "User/role, action, timestamp, IP, system ve result alanlarını tüm sistemlerde ortak formatta tutun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Saat senkronu ve saklama prensibini kurun",
+
+          "text": "Tek timestamp formatı kullanın; logların saklama süresi, erişimi ve korunmasını yazılı hale getirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dashboard KPI’larını oluşturun",
+
+          "text": "Fail login oranı, olağan dışı saat/IP ve export/rol değişimi trendlerini günlük izleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Denetim ve olay inceleme paketini hazırlayın",
+
+          "text": "Log örnekleri, log politikası ve yetki matrisiyle KVKK denetim kanıt setini tamamlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Erişim Logları ve İzleme Dashboard’ları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erişim logu nedir, oteller için neden zorunludur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Erişim logu; PMS, sunucu ve panellere kimin, ne zaman, nereden ve hangi işlemle girdiğini kaydeden kanıt kayıtlarıdır. KVKK denetimi ve olay incelemede 'kim erişti?' sorusunu kanıtla yanıtlamak için kritiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi sistemlerde log tutulmalı (PMS, sunucu, panel)?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En az PMS/rezervasyon paneli, web admin/CMS panelleri ve sunucu erişimleri (SSH/RDP) loglanmalıdır. Export işlemleri ve entegrasyon çağrıları gibi kritik transfer noktaları da kapsama alınmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erişim loglarında hangi alanlar yer almalıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum alan seti user_id/role, action, timestamp, ip_address, system ve result (success/fail) alanlarını içerir. Olay inceleme için object, session ve fail nedeni gibi alanlar da faydalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Log verisini KVKK denetimi ve güvenlik dashboard’larında nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Denetimde log örnekleri ve log politikası kanıt setini oluşturur. Dashboard’larda fail login oranı, olağan dışı saat/IP, export trendleri ve rol değişimleri gibi sinyallerle günlük izleme yapılır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari",
+
+      "name": "Veri Saklama Süreleri ve Silme/Anonimleştirme Raporları Nasıl Yönetilir?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Data Retention",
+
+        "Deletion",
+
+        "Anonymisation",
+
+        "Log",
+
+        "Policy"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari",
+
+      "headline": "Veri Saklama Süreleri ve Silme/Anonimleştirme Raporları Nasıl Yönetilir?",
+
+      "name": "Veri Saklama Süreleri ve Silme/Anonimleştirme Raporları Nasıl Yönetilir?",
+
+      "description": "Veri saklama matrisi, silme/anonimleştirme logları ve yıllık temizlik raporu: KVKK’nın “gerektiği kadar sakla” ilkesini otel sistemlerinde kanıtlanabilir hale getirin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "kvkk veri saklama suresi raporu",
+
+        "silme ve anonimlestirme loglari",
+
+        "otel veri temizligi planlama",
+
+        "data retention policy hotel kvkk",
+
+        "deletion and anonymisation logging",
+
+        "personal data retention matrix hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Veri Saklama, Silme/Anonimleştirme ve Retention Raporlama Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari#howto",
+
+      "name": "Otel için KVKK uyumlu veri saklama ve silme/anonimleştirme raporları nasıl yönetilir?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Retention politikasını tanımlayın",
+
+          "text": "Veri türü ve sistem bazında saklama kararlarını (süre + yöntem) retention matrisinde standardize edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Silme/anonimleştirme işlemlerini planlayın",
+
+          "text": "Süresi dolan kayıtlar için silme veya anonimleştirme job’larını takvimleyin ve otomasyona bağlayın (mümkünse)."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İşlemleri loglayın",
+
+          "text": "Her job için sistem, veri seti, kriter, yöntem, etkilenen kayıt adedi ve sonuç alanlarıyla kanıtlanabilir log kaydı üretin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Periyodik rapor üretin",
+
+          "text": "Çeyreklik temizlik raporu ve yıllık özetle policy + execution + summary paketini KVKK denetimine hazır hale getirin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Veri Saklama ve Silme Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri saklama süresi nedir, KVKK’ya göre neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri saklama süresi, her veri türünün amacına uygun olarak ne kadar süre tutulacağını belirleyen politikadır. KVKK’nın ‘gerektiği kadar saklama’ prensibini uygular ve gereksiz veri yükünü azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde misafir ve rezervasyon verileri ne kadar saklanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kesin süreler hukuki değerlendirme gerektirir; bu nedenle hukuk birimiyle birlikte belirlenmelidir. Önemli olan süreyi policy’de net yazmak ve süre dolunca silme/anonimleştirmeyi kanıtlanabilir şekilde uygulamaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Silme ve anonimleştirme işlemleri nasıl loglanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Job bazlı log tutulur: sistem, veri seti, kriter, yöntem (delete/anonymise), etkilenen kayıt adedi, zaman damgası ve sonuç alanlarıyla; ayrıca kanıt/rapor linki eklenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Periyodik silme/anonimleştirme raporları KVKK denetiminde nasıl sunulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Retention matrisi (policy), job log örnekleri (execution) ve çeyreklik/yıllık temizlik raporu (summary) birlikte sunulmalıdır; bu paket ‘uygulanıyor mu?’ sorusuna kanıt üretir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"rol-tabanli-erisim-ve-yetki-matrisi-raporlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari",
+
+      "name": "Rol Tabanlı Erişim ve Yetki Matrisi Raporları Nasıl Hazırlanır?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Role-Based Access Control",
+
+        "Permission Matrix",
+
+        "User Management",
+
+        "PMS",
+
+        "CRM"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari",
+
+      "headline": "Rol Tabanlı Erişim ve Yetki Matrisi Raporları Nasıl Hazırlanır?",
+
+      "name": "Rol Tabanlı Erişim ve Yetki Matrisi Raporları Nasıl Hazırlanır?",
+
+      "description": "Rol tabanlı erişim (RBAC) ile PMS/CRM/panel yetkilerini “en az yetki” prensibiyle düzenleyin. Yetki matrisi, değişiklik logları ve denetim rapor seti.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "rol tabanli erisim yetki matrisi",
+
+        "pms kullanici yetkileri raporu",
+
+        "kvkk icin rol bazli erisim",
+
+        "rbac permission matrix hotel",
+
+        "user access review hospitality",
+
+        "pms role based access control"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "RBAC ve Yetki Matrisi Yönetimi Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari#howto",
+
+      "name": "Otel için rol tabanlı erişim ve yetki matrisi raporu nasıl hazırlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rolleri ve sistemleri listeleyin",
+
+          "text": "Reception, reservation, muhasebe, IT ve satış gibi rolleri ve PMS/CRM/panel gibi sistemleri çıkarın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yetki seviyelerini standardize edin",
+
+          "text": "R/W/D/A gibi seviyelerle rol–sistem izinlerini ortak formatta tanımlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yetki matrisini raporlayın",
+
+          "text": "Rol–sistem–yetki tablosunu oluşturun; admin/delete gibi yüksek riskli izinleri işaretleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Değişiklikleri ve review sürecini izleyin",
+
+          "text": "Kullanıcı/rol değişiklik loglarını ve aylık/çeyreklik yetki review raporlarını denetim paketine ekleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "RBAC Yetki Matrisi Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rol tabanlı erişim (RBAC) nedir, oteller için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RBAC, erişimleri role göre yönetir ve her role yalnız gerekli izinleri verir. KVKK kapsamında kişisel verilere erişimi iş ihtiyacıyla sınırlayarak gereksiz erişim riskini azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yetki matrisi raporu nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rolleri ve sistemleri listeler, izin seviyelerini (R/W/D/A) standardize eder ve rol–sistem tablosunu doldurursunuz. Yüksek riskli admin/delete izinlerini işaretleyip review aksiyon planı çıkarırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi departman hangi sistemde hangi yetkiye sahip olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reception ve Reservation PMS’te operasyonel R/W yetkiler alabilir; Accounting ERP’de R/W alırken PMS’te sınırlı görünümle kalmalıdır. Marketing, kimlik/ödeme gibi alanlara gereksiz erişim almamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK denetiminde yetki kayıtlarını nasıl sunmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yetki matrisi, aktif kullanıcı listesi, son 90 gün değişiklik log özeti ve periyodik review raporu birlikte sunulmalıdır; bu paket erişim yönetiminin kanıt setini oluşturur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 

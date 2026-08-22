@@ -1082,7 +1082,12 @@ export const BLOG_MAP = {
     "satis-ve-donusum-raporlarini-aylik-aksiyon-planina-cevirmek":"BlogSatisVeDonusumRaporlariniAylikAksiyonPlaninaCevirmek",
     "2026-ai-destekli-satis-ve-donusum-optimizasyonu":"Blog2026AiDestekliSatisVeDonusumOptimizasyonu",
     "2026-cerezsiz-dunyada-donusum-olcumu-ve-modelleme":"Blog2026CerezsizDunyadaDonusumOlcumuVeModelleme",
-    "2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing":"Blog2026GercekZamanliFiyatVeDonusumDonguleriDynamicPricing"
+    "2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing":"Blog2026GercekZamanliFiyatVeDonusumDonguleriDynamicPricing",
+    "2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri":"Blog2026VoiceVeChatCommerceOtelRezervasyonDonusumleri",
+    "2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek":"Blog2026EsgVeSurdurulebilirKpiLariniSatisRaporlarinaEntegreEtmek",
+    "erisim-loglari-ve-izleme-dashboardlari":"BlogErisimLoglariVeIzlemeDashboardlari",
+    "veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari":"BlogVeriSaklamaSureleriVeSilmeAnonimlestirmeRaporlari",
+    "rol-tabanli-erisim-ve-yetki-matrisi-raporlari":"BlogRolTabanliErisimVeYetkiMatrisiRaporlari"
   },
 
 

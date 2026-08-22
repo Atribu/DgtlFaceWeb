@@ -55980,6 +55980,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Fiyat testleri ve dashboard teslimlerini gösteren proof kartı",
       caption: "Fiyat testleri ve dashboard teslimlerini gösteren proof kartı"
     },
+  },
+
+  "2026-voice-ve-chat-commerce-otel-rezervasyon-donusumleri":{ 
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-1.webp",
+      alt: "2026’da Voice & Chat Commerce: Sesli ve Sohbet Tabanlı Rezervasyon Dönüşümlerini Ölçmek",
+      caption: "2026’da Voice & Chat Commerce: Sesli ve Sohbet Tabanlı Rezervasyon Dönüşümlerini Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-2.webp",
+      alt: "WhatsApp webchat voice taleplerini web OTA raporuna bağlayan görsel",
+      caption: "WhatsApp webchat voice taleplerini web OTA raporuna bağlayan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-3.webp",
+      alt: "Kanal kıyası ve birleşik raporlama bölümüne geçişi ayıran görsel",
+      caption: "Kanal kıyası ve birleşik raporlama bölümüne geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-4.webp",
+      alt: "Voice chat commerce senaryolarına geçişi ayıran görsel",
+      caption: "Voice chat commerce senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-5.webp",
+      alt: "Soru teklif link rezervasyon adımlarını gösteren conversation funnel diyagramı",
+      caption: "Soru teklif link rezervasyon adımlarını gösteren conversation funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-6.webp",
+      alt: "SLA handoff ve KPI setini özetleyen voice chat checklist kartı",
+      caption: "SLA handoff ve KPI setini özetleyen voice chat checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-7.webp",
+      alt: "Chat dönüşüm oranı ve kişi başı gelir KPI kartlarını özetleyen görsel",
+      caption: "Chat dönüşüm oranı ve kişi başı gelir KPI kartlarını özetleyen görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-24/Reporting3-24-8.webp",
+      alt: "Voice chat funnel raporu ve teslimlerini gösteren proof kartı",
+      caption: "Voice chat funnel raporu ve teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-1.webp",
+      alt: "2026’da ESG ve Sürdürülebilirlik KPI’larını Satış & Dönüşüm Raporlarına Entegre Etmek",
+      caption: "2026’da ESG ve Sürdürülebilirlik KPI’larını Satış & Dönüşüm Raporlarına Entegre Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-2.webp",
+      alt: "ESG skor trendi ile kanal pazar dönüşümünü birlikte gösteren görsel",
+      caption: "ESG skor trendi ile kanal pazar dönüşümünü birlikte gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-3.webp",
+      alt: "Kurumsal RFP ve ESG etkisine geçişi ayıran görsel",
+      caption: "Kurumsal RFP ve ESG etkisine geçişi ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-4.webp",
+      alt: "ESG odaklı satış senaryolarına geçişi ayıran görsel",
+      caption: "ESG odaklı satış senaryolarına geçişi ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-5.webp",
+      alt: "ESG KPI ve satış dönüşüm KPI’larını birleştiren akış diyagramı",
+      caption: "ESG KPI ve satış dönüşüm KPI’larını birleştiren akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-6.webp",
+      alt: "ESG satış raporlama çerçevesi için kontrol listesini özetleyen kart",
+      caption: "ESG satış raporlama çerçevesi için kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-7.webp",
+      alt: "ESG skor enerji su karbon ile booking rate gelir KPI’larını birlikte gösteren kart",
+      caption: "ESG skor enerji su karbon ile booking rate gelir KPI’larını birlikte gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-25/Reporting3-25-8.webp",
+      alt: "ESG+satış dashboard ve framework teslimlerini gösteren proof kartı",
+      caption: "ESG+satış dashboard ve framework teslimlerini gösteren proof kartı"
+    },
+  },
+
+  "erisim-loglari-ve-izleme-dashboardlari":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-1.webp",
+      alt: "Erişim Logları ve İzleme Dashboard’ları: Oteller İçin KVKK Uyumlu Takip Yapısı",
+      caption: "Erişim Logları ve İzleme Dashboard’ları: Oteller İçin KVKK Uyumlu Takip Yapısı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-2.webp",
+      alt: "Kim, ne zaman, nereden, hangi işlem: log alan seti ve dashboard bağlantısı",
+      caption: "Kim, ne zaman, nereden, hangi işlem: log alan seti ve dashboard bağlantısı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-3.webp",
+      alt: "Erişim logu neden kritik, denetim kanıtı ve olay inceleme faydasını özetler",
+      caption: "Erişim logu neden kritik, denetim kanıtı ve olay inceleme faydasını özetler"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-4.webp",
+      alt: "Otel için izleme senaryoları, yönetim ve teknik ekip için ortak dil kurar",
+      caption: "Otel için izleme senaryoları, yönetim ve teknik ekip için ortak dil kurar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-5.webp",
+      alt: "Kullanıcı → sistem → log → dashboard akışı, KVKK uyumlu izleme mantığını gösterir",
+      caption: "Kullanıcı → sistem → log → dashboard akışı, KVKK uyumlu izleme mantığını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-6.webp",
+      alt: "Log alan standardı checklist’i, PMS ve sunucu loglarını aynı çerçevede toplar",
+      caption: "Log alan standardı checklist’i, PMS ve sunucu loglarını aynı çerçevede toplar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-7.webp",
+      alt: "Şüpheli erişim KPI’ları, günlük izleme rutini için anlaşılır panel sunar",
+      caption: "Şüpheli erişim KPI’ları, günlük izleme rutini için anlaşılır panel sunar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-6/Reporting4-6-8.webp",
+      alt: "Log standardı, dashboard şablonu ve denetim kanıt seti çıktıları kartı",
+      caption: "Log standardı, dashboard şablonu ve denetim kanıt seti çıktıları kartı"
+    },
+  },
+
+  "veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-1.webp",
+      alt: "Veri Saklama Süreleri ve Silme/Anonimleştirme Raporları Nasıl Yönetilir?",
+      caption: "Veri Saklama Süreleri ve Silme/Anonimleştirme Raporları Nasıl Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-2.webp",
+      alt: "Retention policy ve silme/anonimleştirme log akışı, denetimde kanıt üretir",
+      caption: "Retention policy ve silme/anonimleştirme log akışı, denetimde kanıt üretir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-3.webp",
+      alt: "Saklama politikası karar mantığı, veri türü ve sistem bazında net çerçeve sunar",
+      caption: "Saklama politikası karar mantığı, veri türü ve sistem bazında net çerçeve sunar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-4.webp",
+      alt: "Yıllık veri temizliği checklist’i, otel ekipleri için uygulanabilir plan sağlar",
+      caption: "Yıllık veri temizliği checklist’i, otel ekipleri için uygulanabilir plan sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-5.webp",
+      alt: "Retention matrisi → silme job → log → rapor akışı, KVKK uyumlu yönetimi gösterir",
+      caption: "Retention matrisi → silme job → log → rapor akışı, KVKK uyumlu yönetimi gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-6.webp",
+      alt: "Silme ve anonimleştirme log alanları checklist’i, kanıt üretimini standardize eder",
+      caption: "Silme ve anonimleştirme log alanları checklist’i, kanıt üretimini standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-7.webp",
+      alt: "Silinen kayıt trendi ve başarısız job KPI’ları, veri minimizasyonunu ölçer",
+      caption: "Silinen kayıt trendi ve başarısız job KPI’ları, veri minimizasyonunu ölçer"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-7/Reporting4-7-8.webp",
+      alt: "Retention matrisi, job logları ve yıllık rapor deliverables kartı, denetim paketi oluşturur",
+      caption: "Retention matrisi, job logları ve yıllık rapor deliverables kartı, denetim paketi oluşturur"
+    },
+  },
+
+  "rol-tabanli-erisim-ve-yetki-matrisi-raporlari":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-1.webp",
+      alt: "Rol Tabanlı Erişim ve Yetki Matrisi Raporları Nasıl Hazırlanır?",
+      caption: "Rol Tabanlı Erişim ve Yetki Matrisi Raporları Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-2.webp",
+      alt: "Role, permission ve system ilişkisi, otel erişim yönetimini sade biçimde açıklar",
+      caption: "Role, permission ve system ilişkisi, otel erişim yönetimini sade biçimde açıklar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-3.webp",
+      alt: "RBAC’in faydaları: least privilege, sirkülasyon yönetimi ve denetim kanıtı",
+      caption: "RBAC’in faydaları: least privilege, sirkülasyon yönetimi ve denetim kanıtı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-4.webp",
+      alt: "Yetki hatası senaryoları ve düzeltme yaklaşımı, yönetici gözüyle okunur",
+      caption: "Yetki hatası senaryoları ve düzeltme yaklaşımı, yönetici gözüyle okunur"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-5.webp",
+      alt: "Yetki review akışı: envanter → matris → düzeltme → denetim paketi",
+      caption: "Yetki review akışı: envanter → matris → düzeltme → denetim paketi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-6.webp",
+      alt: "Yetki matrisi Mini Check, admin/delete izinlerini azaltma odaklı",
+      caption: "Yetki matrisi Mini Check, admin/delete izinlerini azaltma odaklı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-7.webp",
+      alt: "Kullanıcı/rol değişiklik log dashboard’u, yetki yönetimini izlenebilir kılar",
+      caption: "Kullanıcı/rol değişiklik log dashboard’u, yetki yönetimini izlenebilir kılar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-8/Reporting4-8-8.webp",
+      alt: "Yetki matrisi, review raporu ve değişiklik logları çıktıları, denetim kanıt seti üretir",
+      caption: "Yetki matrisi, review raporu ve değişiklik logları çıktıları, denetim kanıt seti üretir"
+    },
   }
   
 };
