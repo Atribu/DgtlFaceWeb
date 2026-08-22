@@ -27566,9 +27566,14 @@
         "id": "destinasyon-benchmark-amaci",
         "title": "Destinasyon benchmark’ının amacı nedir?",
         "blocks": [
+          {"type":"media","slot":"h1-context-02"},
           {
             "type": "p",
             "text": "Destinasyon benchmark’ın amacı “rakipten iyi miyim?” demekten daha geniştir: pazarın gerçek şartlarını görmektir. Rakip setiniz doğru olabilir; ama pazar ortalaması (market average) size şunu söyler: “Bu hafta/ay/sezon, destinasyonun genel eğrisi nereye gidiyor?” Eğer pazar yükselirken siz düşüyorsanız, sorun “sadece talep” değildir. Pazar düşerken siz sabitseniz, göreli olarak iyi yönetiyorsunuzdur."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, [destinasyon benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımını yalnızca rakip setle değil, pazarın genel eğrisiyle birlikte okumayı mümkün kılar."
           },
           {
             "type": "p",
@@ -27586,6 +27591,10 @@
           {
             "type": "p",
             "text": "Bu üçlü sayesinde, sadece sonuç değil “neden”e giden yol açılır: fiyat bandı, kanal karması, ürün/segment uyumu, kampanya takvimi ve web–OTA dengesini birlikte görürsünüz."
+          },
+          {
+            "type": "p",
+            "text": "Bu katmanları aynı modelde yorumlamak, [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde konumlanan bir [otel benchmark analizi](/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir) yaklaşımının temelini oluşturur."
           },
           {
             "type": "media",
@@ -27805,6 +27814,10 @@
             "text": "Burada kritik hata şudur: Belek’teki bir tesisi “Antalya geneli” ile kıyaslayıp yanlış fiyat/kanal kararı almak. Benchmark’ta önce doğru pazar tanımı gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [Antalya, Belek, Side kıyası](/tr/raporlama/benchmark-analizi) yaparken önce doğru alt destinasyonu ve pazar ortalamasını sabitlemek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Talep trendlerini okuma: 3 sinyal"
           },
@@ -27872,6 +27885,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle resort bölgelerinde [destinasyon bazlı fiyat konumu](/tr/raporlama/blog/ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma) ile OTA fiyat bandını rakip set üzerinden görmek, ADR yorumunu daha sağlam hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Kanal stratejisi: pazarın satış davranışına uyum"
           },
@@ -27889,12 +27906,20 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Kanal payını yorumlarken [destinasyon bazlı online satış performansı](/tr/pms-ota/online-satis) verisini PMS ve OTA rezervasyon akışıyla birlikte okumak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Ürün/segment vaadi: pazarın beklentisiyle eşleşme"
           },
           {
             "type": "p",
             "text": "Pazar ortalaması “fiyat”tır ama arkasında beklenti seti vardır: aile/çocuk, yetişkin, spa, gastronomi, etkinlik, destinasyon deneyimi… Eğer ürün vaadi pazar beklentisiyle uyuşmuyorsa, en iyi fiyat bile doluluğu taşıyamayabilir."
+          },
+          {
+            "type": "p",
+            "text": "Talep tarafını genişletmek için [bölgesel sosyal medya görünürlüğü](/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi) verisini de aynı benchmark çerçevesine eklemek faydalıdır."
           },
           {
             "type": "h3",
@@ -27984,16 +28009,20 @@
             "text": "Pazar ortalamasıyla gerideyseniz, sadece fiyat düzeltmek yetmez; dijital pazarlama ve içerik/teklif kalitesi de etkiler. /tr/otel-dijital-pazarlama hattına bağlanan bir “destinasyon mesajı” kurgusu, özellikle Antalya/Belek/Side gibi destinasyon kelimelerinde görünürlüğü güçlendirebilir."
           },
           {
+            "type": "p",
+            "text": "Destinasyon kelimelerinde [bölgesel arama görünürlüğü](/tr/seo/yerel-seo) ve genel [otel SEO performansı](/tr/otel/seo) birlikte izlendiğinde, hangi sayfa ve teklif yapısının talep ürettiği daha net görünür."
+          },
+          {
+            "type": "p",
+            "text": "Bu içgörüleri [otel dijital pazarlama kararları](/tr/otel-dijital-pazarlama) seviyesine taşıdığınızda, bölgeye göre kampanya planı ve konumlandırma mesajı daha isabetli kurulabilir."
+          },
+          {
             "type": "h3",
             "text": "Key Statistics / Data Point (sheet’ten, örnek band ile)"
           },
           {
             "type": "p",
             "text": "Birçok resort destinasyonunda yüksek sezonda pazar doluluğu %80–90 bandına çıkarken, bazı otellerin %60–65’te kalması; fiyat konumlama veya dağıtım stratejisinde iyileştirme gerekliliğine işaret edebilir. (Bu bandlar örnek amaçlıdır; destinasyon ve sezon koşullarına göre değişir.)"
-          },
-          {
-            "type": "media",
-            "slot": "proof-08"
           },
           {
             "type": "cta",
@@ -28008,6 +28037,10 @@
             "label": "Destinasyon Benchmark Analizi Talep Et",
             "text": "Otel KPI’larını pazar ortalamasıyla kıyaslayıp fiyat/kampanya/kanal planını netleştirmek isteyen oteller için",
             "href": "/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Rakip set, pazar ortalaması ve ölçüm yöntemiyle ilgili temel sorular için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           },
           {
             "type": "table",
@@ -28162,14 +28195,6 @@
             "label": "Destinasyon Benchmark Analizi Talep Et",
             "text": "Pazar ortalaması + alt destinasyon farklarıyla fiyat/kanal planını birlikte kuralım.",
             "href": "/raporlama/benchmark-analizi"
-          },
-          {
-            "type": "media",
-            "slot": "checklist-06"
-          },
-          {
-            "type": "media",
-            "slot": "diagram-05"
           },
           {
             "type": "media",
@@ -28358,6 +28383,10 @@
             "text": "Yan gelir benchmark’ı; spa, F&B ve ekstra hizmetlerden oda veya kişi başına elde edilen geliri rakip/pazarla kıyaslayarak upsell potansiyelini ortaya çıkarır. Amaç, oda gelirinin ötesinde toplam kârlılığı büyütmek için doğru kalemi ve doğru teklifi seçmektir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [yan gelir benchmarkı](/tr/raporlama/benchmark-analizi), oda gelirinin ötesindeki kârlılık alanlarını rakip set ve pazar ortalamasıyla birlikte okumak için kritik bir referans çerçevesi sağlar."
+          },
+          {
             "type": "media",
             "slot": "divider-01"
           },
@@ -28395,6 +28424,10 @@
             "text": "Takipçi gibi “ego metriği” değil; doğrudan kârlılık sinyali veren KPI’lar gerekir. Oteller için pratik KPI seti:"
           },
           {
+            "type": "p",
+            "text": "Bu KPI setini [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde konumlandırıp [oda başı ek gelir](/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) ile toplam gelir tablosuna bağlamak, yan gelirin gerçek katkısını daha net gösterir."
+          },
+          {
             "type": "h3",
             "text": "RevPAG (Revenue per Available Guest) – kişi başı gelir"
           },
@@ -28427,12 +28460,20 @@
             "text": "Varsayım: Upsell teklifine maruz kalan misafirlerin kaçının satın aldığı. Bu metrik, teklif kalitesi ve ekip performansını gösterir."
           },
           {
+            "type": "p",
+            "text": "Buradaki [upsell gelir potansiyeli](/tr/raporlama/satis-donusum) yalnızca teklif sayısıyla değil, hangi teklifin satışa dönüştüğü ve oda başı ek gelire ne kadar katkı yaptığıyla ölçülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Sepet etkisi (AOV) ve net kârlılık"
           },
           {
             "type": "p",
             "text": "Paket satışlarda “gelir” kadar maliyet de önemlidir. Net kâr, asıl karar KPI’sıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle operasyon yoğun tesislerde [yan gelir ve maliyet dengesi](/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi) birlikte okunmadığında, yüksek ciroya rağmen net katkı zayıf kalabilir."
           },
           {
             "type": "media",
@@ -28506,6 +28547,10 @@
           {
             "type": "p",
             "text": "Burada kritik nokta board tipidir: UAI’da “dahil” F&B’nin satış stratejisi “premiumlaştırma” ile; BB/HB’da ise “upsell ile genişleme” ile büyür. Bu yüzden benchmark raporunda board tipi mutlaka yer almalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Sağlıklı bir [spa ve F&B kıyası](/tr/raporlama/benchmark-analizi) yapabilmek için board tipi, kategori kodu ve misafir segmenti aynı kıyas sepetinde tutulmalıdır."
           },
           {
             "type": "media",
@@ -28735,6 +28780,10 @@
             "text": "Benchmark’ın çıktısı, “daha çok sat” değil; doğru anda doğru teklifi sunmaktır. Upsell stratejisini 3 katmanda kurabilirsiniz:"
           },
           {
+            "type": "p",
+            "text": "Bu yapıda kampanya zamanlaması ile teklif dönüşümünü birlikte okumak, spa ve F&B tarafındaki ek satışların hangi anda büyüdüğünü daha net gösterir."
+          },
+          {
             "type": "h3",
             "text": "1) Yolculuk anları: pre-stay / in-stay / post-stay"
           },
@@ -28756,12 +28805,20 @@
             "text": "Bazı pazarlarda spa daha yüksek kabul görür; bazı pazarlarda gastronomi/deneyim öne çıkar. Bu yüzden upsell, tek mesajla değil segment/ülke kırılımıyla tasarlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle [paket satışlarda yan gelir](/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler) etkisini görmek, erken rezervasyon ve son dakika tekliflerinin spa/F&B tarafına ne taşıdığını anlamayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "3) Ekip ve süreç"
           },
           {
             "type": "p",
             "text": "Call center ve satış sonrası destek süreçleri, upsell’in “kapanış” kalitesini belirler. Bu nedenle /tr/cagri-merkezi/satis-sonrasi-destek ile süreç ve KPI’lar bağlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kapanış kalitesini artırmak için [rezervasyon sonrası upsell](/tr/cagri-merkezi/satis-sonrasi-destek) akışını çağrı merkezi scriptleri ve follow-up planıyla birlikte ele almak gerekir."
           },
           {
             "type": "callout",
@@ -28802,6 +28859,10 @@
             "label": "Yan Gelir & Upsell Benchmark Analizi Talep Et",
             "text": "Spa/F&B/upsell gelirini rakip setle kıyaslayıp kârlı büyüme planı isteyen oteller için",
             "href": "/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Bu içgörüleri [otel dijital pazarlama kararları](/tr/otel-dijital-pazarlama) ile birleştirdiğinizde, hangi segmentte hangi spa/F&B teklifinin öne çıkarılacağı daha net planlanabilir; ayrıca yöntem ve KPI tanımları için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -29035,6 +29096,10 @@
             "text": "Ancak benchmark yapmak için bu formülü tek başına kullanmak yetmez; çünkü aynı dönüşüm oranı, farklı kaynak kalitesiyle (reklam/organik/OTA yönlendirmesi) bambaşka anlam taşır. Bu nedenle otel dönüşüm benchmark’ı, dönüşümü şu iki katmanda okur:"
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşım, [web dönüşüm benchmarkı](/tr/raporlama/benchmark-analizi) kurgusunu [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde ele alıp tek oran yerine kaynak, cihaz ve funnel kırılımlarını birlikte yorumlamayı gerektirir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -29166,6 +29231,10 @@
             "text": "Benchmark, “tek sayı kıyası” değil; ölçüm disiplini + karşılaştırma setidir."
           },
           {
+            "type": "p",
+            "text": "Sağlıklı bir kıyas için [booking engine performansı](/tr/raporlama/benchmark-analizi) ile motor başlangıcı, oda/tarih seçimi ve ödeme adımlarındaki kaybı ayrı okumak gerekir."
+          },
+          {
             "type": "h3",
             "text": "AEO – 4–5 adım özet"
           },
@@ -29203,6 +29272,10 @@
           {
             "type": "p",
             "text": "Dönüşüm benchmark’ı için “kritik sayfalar” şunlardır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu sayfaların her biri, [funnel iyileştirme fırsatı](/tr/raporlama/satis-donusum) olarak ayrı raporlandığında hangi adımın direct rezervasyon gelirini daha çok etkilediği netleşir."
           },
           {
             "type": "list",
@@ -29319,6 +29392,10 @@
             "href": "/yazilim/web-sitesi-gelistirme"
           },
           {
+            "type": "p",
+            "text": "Start rate veya ödeme adımındaki kayıplar çoğu zaman [booking engine ve web sitesi UX iyileştirmeleri](/tr/yazilim/web-sitesi-gelistirme) ile çözülebilecek sürtünmelere işaret eder."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -29378,6 +29455,10 @@
             "text": "Mobilde kullanıcı; önce “güvenilir mi?” sonra “kolay mı?” sorusunu sorar. Bu yüzden hız (teknik), teklif (ticari) ve güven (itibar/şeffaflık) üçlüsü birlikte ele alınmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu farkı kalıcı olarak azaltmak için [mobil vs masaüstü dönüşüm](/tr/raporlama/blog/web-performansi-ve-core-web-vitals-benchmarki) verisini hız ve Core Web Vitals katmanıyla birlikte okumak gerekir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -29424,6 +29505,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Direct satışın toplam dağılımdaki yerini görmek için [web kanalının direkt rezervasyon payı](/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center) ayrıca izlenmeli; böylece OTA ve call center dengesiyle birlikte daha doğru yorum yapılabilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [kampanya dönemlerinde web dönüşümü](/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler) ve [reklam trafiği dönüşümü](/tr/otel/reklam-yonetimi) birlikte izlendiğinde, hangi teklifin gerçekten direct rezervasyon getirdiği daha net görünür."
+          },
+          {
             "type": "h3",
             "text": "Hemen test edebileceğiniz 5 dönüşüm iyileştirme fikri"
           },
@@ -29456,6 +29545,10 @@
             "label": "Web Dönüşüm Oranı & Funnel Benchmark Analizi Talep Et",
             "text": "En zayıf adımı bulup 14 günlük testlerle dönüşümü büyütmek isteyen oteller için",
             "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktıları [otel dijital pazarlama kararları](/tr/otel-dijital-pazarlama) seviyesine taşıdığınızda kanal yatırımı ve direct rezervasyon öncelikleri daha netleşir; ayrıca yöntem ve KPI detayları için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasına da bakabilirsiniz."
           }
         ]
       },
@@ -29666,6 +29759,10 @@
           },
           {
             "type": "p",
+            "text": "Sağlıklı bir [repeat guest benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, bu veriyi [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde yalnızca tekrar sayısı olarak değil; segment, kanal, memnuniyet ve lifetime value potansiyeliyle birlikte okumayı gerektirir."
+          },
+          {
+            "type": "p",
             "text": "Repeat guest metriklerini okurken iki hata yaygındır:"
           },
           {
@@ -29675,6 +29772,10 @@
               "Repeat’i tek sayı zannetmek (oysa ülke/segment/kanal farkı büyüktür).",
               "Repeat’i “başarı” diye tek başına kutlamak (kârlılık ve sezon etkisi de okunmalıdır)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu resmi tamamlamak için [misafir memnuniyeti ve tekrar rezervasyon](/tr/raporlama/blog/otel-yorum-ve-puan-benchmarki-reputation-score) ilişkisini yorum, puan ve deneyim kalitesi verileriyle birlikte değerlendirmek gerekir."
           },
           {
             "type": "media",
@@ -29712,6 +29813,10 @@
           {
             "type": "p",
             "text": "Repeat guest oranı, temel formül olarak basittir; önemli olan PMS’de misafir kimliğini doğru birleştirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle PMS ve rezervasyon geçmişi tarafında [tekrar gelen misafir oranı](/tr/pms-ota/rezervasyon-yonetimi) tanımının net olması, ölçüm kalitesini doğrudan etkiler."
           },
           {
             "type": "h3",
@@ -29775,6 +29880,10 @@
           {
             "type": "p",
             "text": "Repeat benchmark, sadece “oran” değil, kırılım ve kıyas demektir."
+          },
+          {
+            "type": "p",
+            "text": "Gerçek bir [sadakat kıyası](/tr/raporlama/benchmark-analizi), repeat oranını ülke, segment ve kanal kırılımında pazar bandıyla birlikte yorumlayarak hangi misafir grubunda zayıfladığınızı görünür kılar."
           },
           {
             "type": "h3",
@@ -29915,6 +30024,10 @@
             "text": "Bazı pazarlarda repeat oranının %20–30 bandına çıkması; pazarlama maliyetlerini düşürüp lifetime value’yu artırabilecek bir sadakat sinyali olarak görülebilir. Bu band, otel tipi, destinasyon ve hedef pazara göre değişir; “hedef” değil, benchmark konuşması için örnek banddır."
           },
           {
+            "type": "p",
+            "text": "Aynı kıyas içinde [iptal ve no-show davranışı](/tr/raporlama/blog/iptal-ve-no-show-orani-benchmarki) da izlenirse, yeni misafirle repeat misafirin rezervasyon disiplini arasındaki fark daha net okunabilir."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -29973,12 +30086,20 @@
             "text": "Repeat’i indirimle değil, “değer”le büyütmek daha sürdürülebilirdir: oda upgrade, spa kredisi, transfer, özel deneyim."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [sadık misafirin yan gelir potansiyeli](/tr/raporlama/blog/yan-gelir-benchmarki-spa-fb-upsell-gelirleri) daha görünür hale gelir; çünkü spa, F&B ve upsell teklifleri repeat misafirde genelde daha yüksek kabul görebilir."
+          },
+          {
             "type": "h3",
             "text": "3) Satış sonrası destek ve call center rolü"
           },
           {
             "type": "p",
             "text": "Satış sonrası destek; iptal kurtarma, değişiklik yönetimi ve memnuniyet toparlama ile repeat’i doğrudan etkileyebilir. Bu nedenle süreç /tr/cagri-merkezi/satis-sonrasi-destek ile birlikte ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Düzenli [konaklama sonrası sadakat takibi](/tr/cagri-merkezi/satis-sonrasi-destek) ile teşekkür mesajı, memnuniyet geri bildirimi ve tekrar rezervasyon teşvikleri aynı akışta yönetilebilir."
           },
           {
             "type": "callout",
@@ -30040,6 +30161,10 @@
             "text": "Basit bir mantık örneği (kesin vaat değil): aynı doluluk/trafik seviyesinde repeat payı arttığında, “yeniden kazanım” maliyeti genelde düşer; bu da kârlılığı destekleyebilir. Otel tipine göre değişir; ama benchmark, bu etkiyi görünür kılar."
           },
           {
+            "type": "p",
+            "text": "Bu veriyi [CRM ve loyalty performansı](/tr/otel-dijital-pazarlama) bakışıyla kullandığınızda, yeniden pazarlama bütçesi, sadakat segmentleri ve repeat teklif mesajları daha doğru şekillenir."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -30056,6 +30181,10 @@
             "label": "Repeat Guest & Sadakat Benchmark Analizi Talep Et",
             "text": "Repeat’i pazar/segment kırılımında artıracak teklif ve iletişim planı isteyen oteller için",
             "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm tanımı, pazar bandı ve sadakat kıyasıyla ilgili temel detaylar için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -30263,6 +30392,10 @@
           },
           {
             "type": "p",
+            "text": "Sağlıklı bir [operasyonel verimlilik benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, housekeeping, vardiya ve kalite sinyallerini [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde birlikte okumayı gerektirir."
+          },
+          {
+            "type": "p",
             "text": "İyi bir benchmark yaklaşımı üç katman içerir:"
           },
           {
@@ -30326,6 +30459,10 @@
           {
             "type": "p",
             "text": "Bu KPI, “kaynak” tarafını gösterir; tek başına yorumlanmaz."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [oda başı personel](/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran) verisini ciroya oran ve vardiya yüküyle birlikte okumak, kaynak planlamasının finansal tarafını daha net gösterir."
           },
           {
             "type": "h3",
@@ -30418,12 +30555,20 @@
             "text": "Resort’larda oda tipleri ve alanlar daha büyük olabilir, “turn-down” gibi ek işler olabilir; yoğun check-in/out günlerinde housekeeping yükü artar. City otellerde ise daha kısa konaklama döngüsü ve daha sık oda dönüşü olabilir. Bu yüzden “housekeeping kaç oda temizlemeli” sorusu, otel tipi ve oda standardı ile birlikte değerlendirilmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [housekeeping üretkenliği](/tr/raporlama/benchmark-analizi) yalnızca dakika ve oda adediyle değil, hizmet standardı ve kalite eşiğiyle birlikte yorumlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Antalya/Belek/Side sezon farkı"
           },
           {
             "type": "p",
             "text": "Yüksek sezonda doluluk ve check-in/out yoğunluğu artar; aynı verimlilik KPI’sı farklı stres altında çalışır. Bu yüzden benchmark raporu sezon penceresiyle yapılmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu planlamada [PMS ve OTA verileriyle operasyon takibi](/tr/pms-ota-yonetimi) oda durumu, rezervasyon akışı ve kanal bazlı yoğunluk tahminini aynı çerçevede görmeyi kolaylaştırır."
           },
           {
             "type": "table",
@@ -30580,6 +30725,10 @@
             "text": "Housekeeping yükü check-out günlerinde artar; teknik servis yoğunluğu sezon ve kullanım yoğunluğuyla değişir. Benchmark, vardiya planının “ortalama gün” yerine “pik gün”e göre ayarlanmasını gerektirir."
           },
           {
+            "type": "p",
+            "text": "Özellikle etkinlik ve grup trafiğinin arttığı dönemlerde [operasyonel kaynak kullanımı](/tr/raporlama/blog/mice-ve-toplanti-geliri-benchmarki) toplantı, banquet ve ortak alan yüküyle birlikte yeniden değerlendirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Outsourcing: nerede mantıklı?"
           },
@@ -30588,12 +30737,20 @@
             "text": "Dış kaynak, pik dönemlerde kapasite esnekliği sağlar; ancak kalite kontrol ve SOP’lar net değilse şikâyet artabilir. Benchmark’ta outsourcing’i saat/FTE KPI’larına dahil etmek gerekir."
           },
           {
+            "type": "p",
+            "text": "Benzer şekilde [misafir iletişimi ve operasyon yükü](/tr/cagri-merkezi-hizmetleri) dengesi doğru kurulursa, ön büro ve saha ekiplerinin üzerindeki baskı daha sürdürülebilir hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Kalite kontrolleri: verimlilik artarken koruma kalkanı"
           },
           {
             "type": "p",
             "text": "Temizlik checklist’i, oda teslim kontrolü, teknik test planı gibi kontroller; “hızlanırken bozulma” riskini düşürür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [maliyet kalite dengesi](/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi) oda başı enerji, fatura ve operasyon giderleriyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -30635,6 +30792,10 @@
             "text": "Verimlilik benchmark’ı yapan otellerde; vardiya ve süreç iyileştirmesiyle personel maliyetini düşürürken misafir memnuniyetini korumanın mümkün olabileceği teorik senaryolarla gösterilebilir. (Etki otel tipine, sezona ve süreç olgunluğuna göre değişir.)"
           },
           {
+            "type": "p",
+            "text": "Kapasite ve hizmet standardı netleştiğinde, [otel dijital pazarlama kararları](/tr/otel-dijital-pazarlama) da daha doğru verilir; çünkü satabileceğiniz talep ile taşıyabileceğiniz operasyon seviyesi aynı stratejide buluşur."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -30651,6 +30812,10 @@
             "label": "Operasyonel Verimlilik & Personel Benchmark Analizi Talep Et",
             "text": "Maliyet–kalite dengesini veriyle kurmak isteyen oteller için",
             "href": "/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm tanımı, personel KPI’ları ve benchmark yöntemiyle ilgili temel noktalar için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -30869,6 +31034,10 @@
           },
           {
             "type": "p",
+            "text": "Sağlıklı bir [personel maliyeti benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, bu veriyi [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde ciro, doluluk, departman yükü ve hizmet standardıyla birlikte okumayı gerektirir."
+          },
+          {
+            "type": "p",
             "text": "Bu ayrımı netleştirmek için benchmark üç soruya cevap verir:"
           },
           {
@@ -30963,6 +31132,10 @@
             "text": "Doluluk değişimini kontrol ettiği için benchmark’ta çok değerlidir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [ciroya oran personel gideri](/tr/raporlama/benchmark-analizi) değerlendirilirken yalnızca payroll toplamı değil, satılan oda gecesi ve gelir kompozisyonu da birlikte okunmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Departman bazlı personel maliyet payı (FO/HK/F&B)"
           },
@@ -31033,6 +31206,10 @@
           {
             "type": "p",
             "text": "Resort’larda sezonluk kapasite artışı, personel maliyetini aylık bazda dalgalandırabilir. City otelde daha stabil bir yıl profili olabilir. Bu yüzden Antalya/Belek gibi sezon ağırlığı yüksek destinasyonlarda KPI’ları “yüksek sezon / düşük sezon” diye iki panelde okumak daha doğru olur."
+          },
+          {
+            "type": "p",
+            "text": "Bu sezon etkisini doğru yönetmek için [rezervasyon verisiyle personel planlama](/tr/pms-ota-yonetimi) yaklaşımıyla doluluk, kanal akışı ve operasyon yoğunluğu aynı tabloda görülmelidir."
           },
           {
             "type": "table",
@@ -31139,6 +31316,10 @@
             "text": "Oda standardı, check-out dalgası ve kalite kontrol, üretkenliği doğrudan etkiler. “Hız” artırılırken şikâyet artıyorsa yanlış optimizasyondur."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [oda başı personel verimliliği](/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri) ile housekeeping üretkenliği birlikte okunduğunda, maliyet sapmasının personel sayısından mı süreçten mi geldiği daha net anlaşılır."
+          },
+          {
             "type": "h3",
             "text": "F&B"
           },
@@ -31224,12 +31405,20 @@
             "text": "Bu yüzden personel benchmark raporu, satış ve RevPAR raporlarıyla birlikte okunmalıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle [gelir ve verimlilik analizi](/tr/raporlama/satis-donusum) ile personel giderinin satış performansı ve dönüşüm kalitesi üzerindeki etkisi daha doğru yorumlanabilir."
+          },
+          {
             "type": "h3",
             "text": "Örnek band notu (sheet’ten, teorik):"
           },
           {
             "type": "p",
             "text": "Toplam personel gideri / toplam gelir oranı, bazı resort otellerde teorik olarak %25–35 bandında konuşulabilir; belirgin sapmalar verimlilik veya fiyatlandırma/gelir sorunu olduğuna işaret edebilir. (Bandlar örnek amaçlıdır; tesis ve pazara göre değişir.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu tabloyu [oda başı operasyonel maliyet](/tr/raporlama/blog/enerji-ve-fatura-benchmarki-enerji-maliyeti-oda-basi) verisiyle birlikte okumak, personel yükünün toplam gider yapısındaki gerçek etkisini daha net gösterir."
           },
           {
             "type": "callout",
@@ -31280,12 +31469,24 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu sprintin sağlıklı ilerlemesi için [personel bütçesi ve forecast farkı](/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki) düzenli izlenmeli; planlanan kadro ile gerçekleşen gider arasındaki sapma aynı dönemde ölçülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış):"
           },
           {
             "type": "p",
             "text": "İyi kurgulanmış personel benchmark çalışmasında, oda başı personel maliyetinin pazar bandına çekilmesiyle kârlılıkta %3–5 puan iyileşme senaryo bazlı teorik olarak gösterilebilir. (Bu, garanti değil; otel tipine, sezona ve gelir yapısına bağlıdır.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu kapasite ve kalite resmi, [otel dijital pazarlama kararları](/tr/otel-dijital-pazarlama) tarafında hangi kampanya yoğunluğunu güvenle taşıyabileceğinizi de belirler."
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm mantığı, departman kırılımı ve benchmark yöntemiyle ilgili temel noktalar için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -31561,6 +31762,10 @@
             "text": "Enerji gideri çoğu otelde “kaçınılmaz” gibi görülür; oysa benchmark ile iki kritik şeyi netleştirirsiniz:"
           },
           {
+            "type": "p",
+            "text": "Sağlıklı bir [enerji maliyeti benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, faturaları yalnızca muhasebe kalemi olarak değil; [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde doluluk, sezon, tüketim yoğunluğu ve yatırım geri dönüşüyle birlikte okumayı gerektirir."
+          },
+          {
             "type": "media",
             "slot": "h1-context-02"
           },
@@ -31575,6 +31780,10 @@
           {
             "type": "p",
             "text": "Resort otellerde havuz, spa, ısıtma/soğutma ve geniş açık alanlar enerji yoğunluğu yaratır. City otelde ise yoğun HVAC ve sürekli işletim farklı profil üretir. Bu yüzden benchmark, resort–city ayrımı ve sezon penceresi olmadan anlamlı değildir."
+          },
+          {
+            "type": "p",
+            "text": "Bu tabloyu [operasyonel enerji verimliliği](/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri) ile birlikte okumak, housekeeping, ortak alan ve HVAC yükünün faturaya etkisini daha net gösterir."
           },
           {
             "type": "h3",
@@ -31638,6 +31847,10 @@
           {
             "type": "p",
             "text": "Doluluk etkisini kontrol ettiği için kıyasta güçlüdür."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [oda başı elektrik su gideri](/tr/raporlama/benchmark-analizi) kıyasını doluluk, sezon ve kullanım yoğunluğu ile birlikte yorumlamak gerekir."
           },
           {
             "type": "h3",
@@ -31822,6 +32035,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Aynı resmi [toplam operasyonel maliyet](/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran) bakışıyla görmek, enerji sapmasının diğer gider kalemleriyle nasıl birleştiğini daha doğru yorumlamayı sağlar."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -31915,6 +32132,10 @@
             "text": "Benchmark, tasarruf potansiyelini “pazar bandına yaklaşma” hedefiyle görünür kılar."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşım, [sürdürülebilir maliyet yönetimi](/tr/raporlama/blog/2026-esg-ve-surdurulebilirlik-benchmark-frameworkleri) tarafında enerji, su ve yatırım KPI’larını daha kontrollü bir ESG çerçevesine taşımaya yardımcı olur."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "3 örnek enerji verimliliği senaryosu",
@@ -31957,6 +32178,14 @@
           {
             "type": "p",
             "text": "Doğru enerji benchmark’ı yapan otellerde, belirli projelerle enerji maliyetini teorik olarak %10–20 azaltmanın oda başı kârlılığa etkisi senaryo bazlı gösterilebilir. (Bu oranlar örnek amaçlıdır; fiyatlar, tesis tipi ve sezona göre değişir.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktılar, [sürdürülebilirlik iletişimi ve otel pazarlaması](/tr/otel-dijital-pazarlama) tarafında abartısız ve doğrulanmış mesajlarla markaya değer katabilir."
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm mantığı, oda başı gider yaklaşımı ve benchmark yöntemiyle ilgili temel noktalar için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -31977,6 +32206,14 @@
               "Hafta 3: bakım/kaçak/otomasyon kontrol listesi",
               "Hafta 4: yeniden ölçüm + payback adaylarını sıralama"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Fatura, sayaç ve doluluk kayıtları tek yerde toplanıyorsa [fatura ve tüketim verisi güvenliği](/tr/raporlama/kvkk-veri-guvenligi) ilk günden tanımlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Dashboard ve raporlama katmanında [raporlama altyapısı güvenliği](/tr/yazilim/sunucu-guvenlik) sağlanmadan enerji verisini farklı kaynaklardan toplamak ileride erişim ve saklama riski yaratabilir."
           }
         ]
       },
@@ -32209,6 +32446,10 @@
             "text": "MICE (Meeting, Incentive, Conference, Exhibition) segmenti; sadece “salon kiralamak” değil, oda, F&B, teknik ekipman ve yan gelirleri birlikte büyüten bir paket gelir modelidir. Şehir otelinde hafta içi kurumsal toplantılar, resort’ta ise sezon dışı gruplar ve teşvik (incentive) etkinlikleri önemli olabilir. Bu nedenle MICE performansını oda KPI’larıyla değil; alan KPI’ları ve paket geliri ile okumak gerekir."
           },
           {
+            "type": "p",
+            "text": "Sağlıklı bir [MICE gelir benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, bu veriyi [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde yalnızca salon satışı olarak değil; kullanım oranı, m² başı gelir, teklif dönüşümü ve operasyon yüküyle birlikte okumayı gerektirir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -32274,6 +32515,10 @@
           {
             "type": "p",
             "text": "Bu KPI, büyük ama boş duran salonları net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [m² başı gelir](/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) mantığını otelin toplam gelir performansı, doluluk ve RevPAR resmiyle birlikte değerlendirmek daha sağlıklı olur."
           },
           {
             "type": "h3",
@@ -32352,6 +32597,10 @@
               "Rakip/pazar bandını benzer segmentte kıyaslayın; şehir oteli/resort ayrımını koruyun.",
               "Düşük kullanılan salonlar için fiyat/paket ve hedefleme aksiyonları çıkarın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Gerçek bir [toplantı salonu kullanımı](/tr/raporlama/benchmark-analizi) kıyası, salon tipi, müsait saat ve sezon etkisini aynı standartta toplayıp hangi alanın düşük verimle çalıştığını görünür kılar."
           },
           {
             "type": "h3",
@@ -32455,6 +32704,10 @@
             "text": "Salon verimliliği önemli; ama yönetim kararında “toplam gelir içindeki pay” da kritik. MICE payı şehir otellerinde daha yüksek olabilir; resort’ta ise sezon dışı stratejik değer taşır. Bu nedenle benchmark raporuna “MICE payı” paneli eklemek, hedef koymayı kolaylaştırır."
           },
           {
+            "type": "p",
+            "text": "Lead kalitesi, teklif hızı ve kapanış oranı birlikte izlendiğinde [etkinlik satış dönüşümü](/tr/raporlama/satis-donusum) daha net ölçülür."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -32512,12 +32765,24 @@
             "text": "Kurumsal segmentte weekday doluluk; acentelerde ise sezon dışı grup getirme potansiyeli olabilir. Benchmark, hangi kaynağın daha verimli olduğunu gösterir."
           },
           {
+            "type": "p",
+            "text": "Weekday boşluklarını doldurmak için [kurumsal etkinlik kampanyaları](/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler) ve dönemsel paket teklifleri ayrı test edilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Paket stratejisi: konaklama + toplantı"
           },
           {
             "type": "p",
             "text": "Paket performansı, kişi başı geliri artırır ve salonları daha kârlı kullanır. Ancak paket maliyetleri ve operasyon kapasitesi net olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu paketlerin sahadaki karşılığını görmek için [salon kullanım oranı ve operasyonel kaynak planlama](/tr/raporlama/blog/operasyonel-verimlilik-benchmarki-oda-basi-personel-saatleri) birlikte izlenmeli; servis, kurulum ve ekip yoğunluğu aynı tabloda değerlendirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Deneyim ve teslimat kalitesinde [kurumsal etkinlik performansı](/tr/creative/etkinlik-produksiyonu) da belirleyicidir; çünkü prodüksiyon kalitesi zayıfsa yüksek fiyatı korumak zorlaşır."
           },
           {
             "type": "callout",
@@ -32554,6 +32819,14 @@
             "label": "MICE & Toplantı Geliri Benchmark Analizi Talep Et",
             "text": "RevPASM ve kullanım oranına göre fiyat/paket ve hedeflemeyi optimize etmek isteyen oteller için",
             "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "p",
+            "text": "Bu sonuçlar [MICE satışları için otel dijital pazarlama](/tr/otel-dijital-pazarlama) tarafında kurumsal hedefleme, B2B içerik ve marka konumlandırmasını daha somut hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Metodoloji, KPI tanımları ve kıyas mantığı için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -32783,6 +33056,10 @@
             "text": "İptal ve no-show aynı şey değildir; risk türleri farklıdır."
           },
           {
+            "type": "p",
+            "text": "Sağlıklı bir [iptal ve no-show benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, bu veriyi [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde kanal, pazar, ön ödeme ve gelir etkisiyle birlikte okumayı gerektirir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -32830,6 +33107,10 @@
           {
             "type": "p",
             "text": "İptal/no-show KPI’ları “kalite KPI’larıdır”; çünkü hedef, brüt rezervasyon değil net gerçekleşen rezervasyonudur."
+          },
+          {
+            "type": "p",
+            "text": "Gerçek bir [rezervasyon kalitesi](/tr/raporlama/benchmark-analizi) kıyası, iptal ve no-show oranlarını net stay rate ile birlikte okuyup hangi kanalın gerçekten gelir ürettiğini görünür kılar."
           },
           {
             "type": "h3",
@@ -33014,6 +33295,10 @@
             "text": "İptal ve no-show davranışı; kanalın esnekliği, pazarın planlama alışkanlığı ve fiyat/teklif netliğiyle değişir. Bu nedenle “tek oran” yerine kırılım benchmark’ı şarttır."
           },
           {
+            "type": "p",
+            "text": "Bu farkı [kanal bazlı iptal riski](/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center) yaklaşımıyla izlemek, OTA, web ve call center kaynaklı rezervasyonların kalite farkını daha net gösterir."
+          },
+          {
             "type": "h3",
             "text": "OTA vs Direct vs Call Center"
           },
@@ -33035,12 +33320,20 @@
             "text": "Bazı pazarlarda iptal pencereleri daha erken, bazı pazarlarda daha geç olabilir. Resort’larda sezon ve uçuş/paket etkisi; city otelde iş seyahati esnekliği farklı risk profili yaratır (Varsayım: genel davranış)."
           },
           {
+            "type": "p",
+            "text": "Özellikle [sadık misafirlerde iptal davranışı](/tr/raporlama/blog/tekrar-gelen-misafir-benchmarki-repeat-guest-orani) ile yeni veya kampanya kaynaklı misafir davranışı karşılaştırıldığında, rezervasyon kalitesinin hangi segmentte güçlendiği daha iyi anlaşılır."
+          },
+          {
             "type": "h3",
             "text": "Esnek vs non-refundable ürün karması"
           },
           {
             "type": "p",
             "text": "Non-refundable ürün, iptal riskini düşürür; ama talebi sınırlayabilir. Bu yüzden benchmark, risk azaltma ile talep üretimi dengesini kurmayı hedefler."
+          },
+          {
+            "type": "p",
+            "text": "Bu dengeyi [online satış kanallarında rezervasyon kalitesi](/tr/pms-ota/online-satis) tarafında ödeme modeli, kanal kaynağı ve kampanya tipiyle birlikte izlemek gerekir."
           },
           {
             "type": "media",
@@ -33091,6 +33384,10 @@
           {
             "type": "p",
             "text": "Bu yüzden benchmark raporuna “gelir etkisi” paneli eklemek faydalıdır: net gerçekleşen oda gecesi, kayıp gelir tahmini (Varsayım: basit model) ve politika testlerinin etkisi."
+          },
+          {
+            "type": "p",
+            "text": "Bu [gerçekleşen gelir etkisi](/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) doluluk, ADR ve RevPAR tarafında da okunmadıkça iptal riskinin toplam performansa ne kadar zarar verdiği eksik kalır."
           },
           {
             "type": "h3",
@@ -33149,6 +33446,10 @@
             "text": "Riskli kanallarda kart garantisi ve ön ödeme oranı (Varsayım) net stay’i artırabilir. Ancak dönüşümü düşürmemek için bunu segment/pazar bazında kademeli yapmak gerekir."
           },
           {
+            "type": "p",
+            "text": "Doğru [ön ödeme politikası](/tr/pms-ota/rezervasyon-yonetimi) yalnızca tahsilatı değil; garanti, iptal takibi ve rezervasyon kalitesini de birlikte yönetmelidir."
+          },
+          {
             "type": "h3",
             "text": "İptal penceresi (cancellation window)"
           },
@@ -33195,6 +33496,14 @@
             "label": "İptal & No-Show Benchmark Analizi Talep Et",
             "text": "Rezervasyon kalitesini artırıp gelir riskini düşürmek isteyen oteller için",
             "href": "/pms-ota/rezervasyon-yonetimi"
+          },
+          {
+            "type": "p",
+            "text": "Bu risk farkını [reklam kaynaklı rezervasyon kalitesi](/tr/otel/reklam-yonetimi) açısından da izlemek gerekir; çünkü kampanya trafiği yüksekse iptal ve no-show davranışı kaynak bazında değişebilir."
+          },
+          {
+            "type": "p",
+            "text": "Metodoloji, kanal kırılımları ve politika mantığı için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -33410,6 +33719,10 @@
             "text": "Bütçe, genellikle yıllık/Sezonluk plan; forecast ise daha sık güncellenen “en güncel tahmin”dir. Doğruluk ise bu iki planın gerçekleşene yakınlığıdır. Otellerde kritik hata şudur: tek bir sapma sayısını görmek ve hemen “tahminci başarısız” demek. Oysa sapmanın üç boyutu vardır:"
           },
           {
+            "type": "p",
+            "text": "Sağlıklı bir [forecast doğruluk benchmarkı](/tr/raporlama/benchmark-analizi) yaklaşımı, bu veriyi [veri analiz ve raporlama mimarisi](/tr/veri-analiz-ve-raporlama) içinde yalnızca tahmin kontrolü olarak değil; dönem, pazar, kanal ve maliyet sapmalarıyla birlikte okumayı gerektirir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -33472,6 +33785,10 @@
             "text": "Variance, sapmanın yönünü; MAPE, hatanın büyüklüğünü daha temiz gösterir. Otelde bu KPI’ları hem gelir hem doluluk hem ADR için hesaplamak gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu [bütçe ve forecast sapması](/tr/raporlama/benchmark-analizi) yalnızca tahmin kalitesini değil, hangi KPI’da sistematik hata yaptığınızı da görünür kılar."
+          },
+          {
             "type": "h3",
             "text": "Hangi metriklerde hesaplanmalı?"
           },
@@ -33484,6 +33801,10 @@
               "ADR",
               "(İsteğe bağlı) RevPAR (birleşik doğrulama)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [gelir forecast’i](/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) doluluk, ADR ve RevPAR ile birlikte okunmadığında sapmanın kök nedenini ayırmak zorlaşır."
           },
           {
             "type": "h3",
@@ -33593,12 +33914,20 @@
             "text": "OTA, direct web ve call center farklı davranır. Kampanya dönemlerinde kanal karması değişirse forecast sapar."
           },
           {
+            "type": "p",
+            "text": "Özellikle dönemsel tekliflerde [kampanya forecast sapması](/tr/raporlama/blog/kampanya-performansi-benchmarki-erken-rezervasyon-son-dakika-paketler) ayrı izlendiğinde hangi kampanya hedefinin gerçek talep yerine iyimser varsayıma dayandığı daha net anlaşılır."
+          },
+          {
             "type": "h3",
             "text": "Kırılım 3: Zaman (lead time)"
           },
           {
             "type": "p",
             "text": "Erken rezervasyon penceresinde doğru giden tahmin, son dakika dalgasında bozulabilir. Bu yüzden lead time kırılımı (Varsayım: PMS/CRS verisiyle) forecast’i güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kırılımı [online satış verileriyle forecast kontrolü](/tr/pms-ota/online-satis) yaklaşımıyla izlemek, pickup dalgası ve kanal bazlı talep değişimini daha erken görmeyi sağlar."
           },
           {
             "type": "media",
@@ -33695,6 +34024,10 @@
             "text": "Tahmin doğruluğu bir “model” kadar bir “ritim”dir. Başarılı planlama disiplini genelde şunları yapar:"
           },
           {
+            "type": "p",
+            "text": "Aynı disiplin, [personel bütçesi ve gerçekleşen maliyet farkı](/tr/raporlama/blog/personel-maliyeti-benchmarki-ciroya-oran) gibi operasyon tarafındaki sapmaların da planlama kalitesine nasıl etki ettiğini görünür kılar."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -33740,6 +34073,10 @@
           {
             "type": "p",
             "text": "Benchmark’ın en değerli çıktısı; bir sonraki planlama döngüsünün daha isabetli olmasıdır. Bunun için 3 adım yeterli:"
+          },
+          {
+            "type": "p",
+            "text": "Lead, teklif ve kapanış kalitesini [variance analizi](/tr/raporlama/satis-donusum) ile birlikte okumak, forecast hatasının satış performansından mı talep varsayımından mı kaynaklandığını ayırmayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -33791,6 +34128,14 @@
             "label": "Bütçe & Forecast Doğruluk Benchmark Analizi Talep Et",
             "text": "Forecast sapmasını düşürüp planlama disiplinini güçlendirmek isteyen oteller için",
             "href": "/raporlama/satis-donusum"
+          },
+          {
+            "type": "p",
+            "text": "Bu sonuçlar [planlama isabeti](/tr/otel-dijital-pazarlama) tarafında kampanya bütçesi, kanal yatırımı ve talep yönetimi kararlarını daha sağlam temele oturtur."
+          },
+          {
+            "type": "p",
+            "text": "Metodoloji, KPI tanımları ve kıyas mantığı için [Benchmark Analizi hakkında sık sorulan sorular](/tr/raporlama/benchmark-analiz-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
