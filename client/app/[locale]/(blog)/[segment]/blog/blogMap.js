@@ -1087,7 +1087,13 @@ export const BLOG_MAP = {
     "2026-esg-ve-surdurulebilir-kpi-larini-satis-raporlarina-entegre-etmek":"Blog2026EsgVeSurdurulebilirKpiLariniSatisRaporlarinaEntegreEtmek",
     "erisim-loglari-ve-izleme-dashboardlari":"BlogErisimLoglariVeIzlemeDashboardlari",
     "veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari":"BlogVeriSaklamaSureleriVeSilmeAnonimlestirmeRaporlari",
-    "rol-tabanli-erisim-ve-yetki-matrisi-raporlari":"BlogRolTabanliErisimVeYetkiMatrisiRaporlari"
+    "rol-tabanli-erisim-ve-yetki-matrisi-raporlari":"BlogRolTabanliErisimVeYetkiMatrisiRaporlari",
+    "tedarikci-ve-veri-isleyen-risk-raporlari":"BlogTedarikciVeVeriIsleyenRiskRaporlari",
+    "yedekleme-arsiv-ve-restore-sureclerini-raporlamak":"BlogYedeklemeArsivVeRestoreSurecleriniRaporlamak",
+    "kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization":"BlogKvkkVePazarlamaVerisiSegmentasyonDataMinimization",
+    "bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme":"BlogBulutVeSunucuLokasyonuOtelVerisiIcinTeknikDegerlendirme",
+    "rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi":"BlogRaporVeDashboardlardaVeriMaskelemeAnonimKpi",
+    "raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari":"BlogRaporlamaVeDashboardIcinKvkkEgitimKpiLari"
   },
 
 

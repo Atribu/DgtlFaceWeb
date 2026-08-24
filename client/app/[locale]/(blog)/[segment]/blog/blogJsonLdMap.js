@@ -175700,6 +175700,1926 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"tedarikci-ve-veri-isleyen-risk-raporlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari",
+
+      "name": "Veri İşleyen ve Tedarikçi Risk Raporları: OTA, PMS Sağlayıcısı ve Çağrı Merkezi İş Ortakları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Data Processor",
+
+        "Vendor Risk",
+
+        "OTA",
+
+        "PMS Provider",
+
+        "Call Center Partner"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari",
+
+      "headline": "Veri İşleyen ve Tedarikçi Risk Raporları: OTA, PMS Sağlayıcısı ve Çağrı Merkezi İş Ortakları",
+
+      "name": "Veri İşleyen ve Tedarikçi Risk Raporları: OTA, PMS Sağlayıcısı ve Çağrı Merkezi İş Ortakları",
+
+      "description": "OTA, PMS sağlayıcısı ve çağrı merkezi için vendor risk matrisi kurun: lokasyon, güvenlik, loglama ve SLA ile risk skoru çıkarın; KVKK raporunda önceliklendirin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "veri isleyen tedarikci risk raporu",
+
+        "ota ve pms saglayici kvkk degerlendirme",
+
+        "vendor risk matrisi otel",
+
+        "vendor risk assessment hospitality",
+
+        "data processor risk report hotel",
+
+        "ota pms call center kvkk risk"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Tedarikçi ve Veri İşleyen Risk Analizi Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari#howto",
+
+      "name": "Otel için veri işleyen ve tedarikçi risk raporu nasıl hazırlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Vendor envanteri çıkarın",
+
+          "text": "OTA, PMS sağlayıcısı, hosting ve çağrı merkezi gibi veri işleyenleri ve işlenen veri setlerini listeleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Risk kriterlerini standardize edin",
+
+          "text": "Lokasyon, güvenlik kontrolleri (şifreleme/loglama) ve SLA/olay yanıtı kriterlerini belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Risk skorunu hesaplayın",
+
+          "text": "Kriterleri 0–5 ölçeğinde puanlayıp toplam skoru çıkarın ve önceliklendirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Aksiyon planı oluşturun",
+
+          "text": "Yüksek riskli vendor’lar için teknik ve operasyonel tedbirleri owner+tarih ile rapora bağlayın ve çeyreklik review planlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Tedarikçi ve Veri İşleyen Risk Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri işleyen ve tedarikçi risk analizi nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Vendor risk analizi, otelin misafir verisini işleyen üçüncü tarafların risk seviyesini lokasyon, güvenlik ve SLA gibi kriterlerle ölçüp önceliklendirmesidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA ve PMS sağlayıcılarının KVKK açısından riskleri nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İşlenen veri setleri, lokasyon, şifreleme, loglama/izlenebilirlik ve SLA/olay yanıtı kriterleri puanlanır; toplam skorla yüksek riskli sağlayıcılar belirlenip aksiyon planı yazılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tedarikçi risk matrisi nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Vendor envanteri çıkarılır, kriter seti standardize edilir ve her vendor 0–5 ölçeğiyle puanlanır. Toplam skor önceliğe çevrilir ve ilk 3 vendor için aksiyon planı oluşturulur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi sağlayıcılar için ek teknik ve sözleşmesel tedbirler almalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Skoru yüksek çıkan vendor’lar için log kanıtı, erişim raporları, şifreleme doğrulaması ve SLA/olay yanıt süresi netliği gibi ek kontroller önceliklendirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"yedekleme-arsiv-ve-restore-sureclerini-raporlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak",
+
+      "name": "KVKK Uyumlu Yedekleme, Arşiv ve Restore Süreçlerini Raporlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Backup",
+
+        "Archive",
+
+        "Restore",
+
+        "PMS",
+
+        "Disaster Recovery"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak",
+
+      "headline": "KVKK Uyumlu Yedekleme, Arşiv ve Restore Süreçlerini Raporlamak",
+
+      "name": "KVKK Uyumlu Yedekleme, Arşiv ve Restore Süreçlerini Raporlamak",
+
+      "description": "PMS ve kritik sistemlerde yedekleme politikası, lokasyon/şifreleme, saklama süresi ve restore test kayıtları: KVKK denetimine uygun rapor seti oluşturun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "kvkk uyumlu yedekleme politikasi",
+
+        "pms ve kritik sistem yedek raporlari",
+
+        "restore testi ve raporlama",
+
+        "backup and restore reporting hotel",
+
+        "kvkk compliant backup policy",
+
+        "disaster recovery test logs hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Yedekleme, Arşiv ve Restore Süreçleri Raporlama Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak#howto",
+
+      "name": "Otel için KVKK uyumlu yedekleme ve restore raporları nasıl hazırlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kritik sistemleri belirleyin",
+
+          "text": "PMS, web, e-posta, panel ve veritabanı gibi kritik sistemleri yedekleme kapsamına alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yedekleme politikasını raporlayın",
+
+          "text": "Sıklık, lokasyon, şifreleme, saklama ve erişim rollerini sistem bazlı tabloda standardize edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Restore testlerini kayıt altına alın",
+
+          "text": "Test tarihi, kullanılan yedek kaynağı, kapsam, süre ve sonuç alanlarıyla restore test raporu üretin ve aksiyonları bağlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Denetim paketi oluşturun",
+
+          "text": "Policy + test raporları + KPI dashboard’u birlikte sunarak KVKK denetiminde kanıt seti sağlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Yedekleme ve Restore Raporları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yedekleme ve arşiv süreçleri KVKK açısından neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yedekleme ve arşiv, veri erişilebilirliğini ve güvenliğini teknik olarak göstermek için önemlidir. Politika, lokasyon/şifreleme, erişim ve restore test raporları denetimde kanıt seti oluşturur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS ve kritik sistemler için yedekleme politikası nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sistem bazında sıklık, lokasyon, şifreleme, saklama ve erişim rolleri tabloda sunulur; ayrıca son backup ve son restore testi bilgileri eklenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Restore testlerini nasıl kayıt altına almalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Test tarihi, kullanılan yedek kaynağı, kapsam, süre, sonuç ve bulgular ile aksiyonlar (owner+tarih) raporlanmalıdır; başarısız testler iyileştirme planına bağlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yedeklerin lokasyonu ve saklama süresi KVKK raporlarında nasıl gösterilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Lokasyon (on-prem/cloud/region), şifreleme durumu, erişim rolleri ve saklama prensibi sistem bazlı tabloda net yazılmalı; böylece denetimde hızlı cevap verilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization",
+
+      "name": "KVKK ve Pazarlama Verisi: Segmentasyon Yaparken Data Minimization Nasıl Sağlanır?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Marketing Data",
+
+        "Data Minimization",
+
+        "CRM",
+
+        "Segmentation",
+
+        "Consent"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization",
+
+      "headline": "KVKK ve Pazarlama Verisi: Segmentasyon Yaparken Data Minimization Nasıl Sağlanır?",
+
+      "name": "KVKK ve Pazarlama Verisi: Segmentasyon Yaparken Data Minimization Nasıl Sağlanır?",
+
+      "description": "Otel pazarlamasında minimum veriyle segmentasyon kurun: CRM alanlarını sadeleştirin, hassas veriyi marketing katmanına taşımayın, raporları segment bazlı KPI’larla yönetin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "pazarlama verisi kvkk",
+
+        "data minimization segmentasyon",
+
+        "crm alanlarini sadeleştirme",
+
+        "kvkk marketing data minimization hotel",
+
+        "crm field reduction hospitality",
+
+        "privacy friendly segmentation tourism"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Pazarlama Verisi Governance ve Data Minimization Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization#howto",
+
+      "name": "Otel için KVKK uyumlu pazarlama segmentasyonu ve data minimization nasıl yapılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Minimum alan setini belirleyin",
+
+          "text": "Segmentasyon için e-posta, ülke/dil, izin durumu ve ilgi alanı gibi minimum veri alanlarını standardize edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CRM alanlarını sadeleştirin",
+
+          "text": "Kullanılmayan ve hassas alanları marketing katmanından çıkarın; PMS→CRM→Email/Ads akışında whitelist uygulayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Raporlamayı segment KPI’larına taşıyın",
+
+          "text": "Kişi bazlı export yerine segment büyüklüğü, dönüşüm ve opt-out trendi gibi aggregate KPI’larla dashboard kurun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Review ve kontrol planı ekleyin",
+
+          "text": "30 gün sonra alan kullanımını yeniden ölçün ve minimization yaklaşımını periyodik review ile sürdürün."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "KVKK ve Pazarlama Verisi: Data Minimization",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK’ya göre pazarlama verisinde data minimization ne demek?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pazarlama amaçlı yalnızca gerekli kişisel veriyi işlemek ve gereksiz/hassas veriyi toplamayıp risk azaltmaktır. Segmentasyonu minimum alanlarla kurup raporu segment KPI’larına taşımak pratik uygulamadır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller segmentasyon yaparken hangi veri alanlarını gerçekten kullanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genelde e-posta, ülke/dil, izin durumu, ilgi alanı ve recency gibi alanlar yeterlidir. Doğum tarihi, pasaport ve serbest notlar çoğu senaryoda gereksiz risk üretir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CRM ve e-posta pazarlama sistemlerinde gereksiz kişisel verileri nasıl azaltırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Alan envanteri çıkarın, minimum alan setini onaylayın ve PMS→CRM→Email/Ads akışında whitelist uygulayın. Serbest metinleri kısıtlayın ve kişi bazlı export izinlerini rol bazlı yönetin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Pazarlama raporlarında kişisel veri yerine hangi anonim KPI’ları kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Segment büyüklüğü (izinli evren), açılma/tıklama oranı, segment bazlı dönüşüm, gelir bandı ve opt-out trendi gibi aggregate KPI’lar kullanılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme",
+
+      "name": "Bulut ve Sunucu Lokasyonu: Otel Verisi İçin Teknik Değerlendirme ve KVKK Raporlaması",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Cloud Provider",
+
+        "Data Center",
+
+        "Location",
+
+        "Encryption",
+
+        "Access Control",
+
+        "Backup"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme",
+
+      "headline": "Bulut ve Sunucu Lokasyonu: Otel Verisi İçin Teknik Değerlendirme ve KVKK Raporlaması",
+
+      "name": "Bulut ve Sunucu Lokasyonu: Otel Verisi İçin Teknik Değerlendirme ve KVKK Raporlaması",
+
+      "description": "Bulut PMS/CRM için veri merkezi lokasyonu, şifreleme, erişim/loglama ve yedek lokasyonunu değerlendirin. KVKK raporuna kısa teknik özet ve tabloyla ekleyin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "bulut pms sunucu lokasyonu",
+
+        "kvkk acisindan cloud degerlendirme",
+
+        "data center teknik raporlama",
+
+        "cloud pms data center location kvkk",
+
+        "hotel data residency assessment",
+
+        "cloud security questions hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Bulut ve Sunucu Lokasyonu Teknik Değerlendirme Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme#howto",
+
+      "name": "Otel için bulut ve sunucu lokasyonu KVKK raporu nasıl hazırlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Lokasyon ve yedek lokasyonlarını doğrulayın",
+
+          "text": "PMS/CRM gibi sistemlerin üretim ve yedek verisinin hangi ülke/region’da tutulduğunu netleştirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Güvenlik kontrollerini değerlendirin",
+
+          "text": "Şifreleme (in transit/at rest), erişim kontrolü, loglama ve incident SLA kriterlerini sağlayıcıdan doğrulayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Değerlendirme tablosunu doldurun",
+
+          "text": "Sistem bazında lokasyon, şifreleme, log kanıtı ve aksiyon alanlarıyla cloud değerlendirme tablosu oluşturun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KVKK raporu teknik özetini yazın",
+
+          "text": "Kısa ve doğrulanabilir bir paragrafla lokasyon + kontrol setini ve kanıt durumunu rapora ekleyin; belirsiz alanları aksiyon planına bağlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Bulut ve Sunucu Lokasyonu",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bulut ve sunucu lokasyonu KVKK açısından neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Verinin hangi ülke/region’da tutulduğu ve hangi teknik kontrollerle korunduğu denetimde kanıtlanmalıdır. Lokasyon, şifreleme, erişim/loglama ve yedek lokasyonu birlikte değerlendirilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel olarak bulut PMS veya CRM kullanırken hangi teknik soruları sormalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Üretim ve yedek lokasyonu, in transit/at rest şifreleme, MFA, erişim logları, log saklama süresi, incident SLA ve restore test kanıtı gibi sorular kritik minimum seti oluşturur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yurt dışı sunucularda tutulan verileri KVKK raporlarında nasıl göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hukuki yorum yapmadan üretim/yedek lokasyonunu, şifrelemeyi, erişim kontrolünü ve log kanıtını teknik özet formatında yazıp değerlendirme tablosunu rapora eklemelisiniz; belirsiz alanları aksiyon planına bağlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sunucu lokasyonu ve güvenlik özelliklerini tablo hâlinde nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sistem bazında sağlayıcı, üretim lokasyonu, yedek lokasyonu, şifreleme, log kanıtı ve SLA alanlarını aynı tabloda toplayın; bu tablo yönetim ve denetim için hızlı görünürlük sağlar."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi",
+
+      "name": "KVKK Uyumlu Raporlama: Dashboard’larda Veri Maskeleme ve Anonim KPI Kullanımı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Data Masking",
+
+        "Anonymised KPIs",
+
+        "Dashboard",
+
+        "Role-Based Views"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi",
+
+      "headline": "KVKK Uyumlu Raporlama: Dashboard’larda Veri Maskeleme ve Anonim KPI Kullanımı",
+
+      "name": "KVKK Uyumlu Raporlama: Dashboard’larda Veri Maskeleme ve Anonim KPI Kullanımı",
+
+      "description": "Raporlarda ad/e-posta/telefonu maskeleyin, çoğu rol için segment bazlı anonim KPI’lara geçin. Rol bazlı görünüm seviyeleriyle screenshot ve açık ekran riskini azaltın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "kvkk uyumlu dashboard tasarimi",
+
+        "veri maskeleme ve anonim kpi",
+
+        "rapor ekraninda kisisel veri gizleme",
+
+        "dashboard data masking hotel",
+
+        "anonymous kpi reporting hospitality",
+
+        "role based views personal data protection"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "KVKK Uyumlu Dashboard Tasarımı ve Veri Maskeleme Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi#howto",
+
+      "name": "Otel dashboard’larında KVKK uyumlu veri maskeleme ve anonim KPI nasıl uygulanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "PII alanlarını tespit edin",
+
+          "text": "Ad, e-posta, telefon ve serbest not gibi kişisel veri alanlarını rapor modelinde belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Maskeleme desenlerini uygulayın",
+
+          "text": "A*** K****, a***@d***.com ve +90 *** ** ** gibi standart desenlerle varsayılan görünümü maskeleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Anonim KPI görünümünü kurun",
+
+          "text": "Dashboard ana sayfasını segment/kanal/ülke bazlı KPI özetlerine taşıyın; kişi listelerini ayrı ve kısıtlı sekmeye alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rol bazlı görünüm seviyeleri tanımlayın",
+
+          "text": "KPI view, masked detail ve restricted detail seviyeleriyle hangi rolün neyi göreceğini belirleyin; export izinlerini sınırlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Dashboard Veri Maskeleme ve Anonim KPI",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dashboard ve raporlarda veri maskeleme neden gereklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rapor ekranları açık ekran ve screenshot gibi operasyonel risklere açıktır. Maskeleme, kişi bazlı verinin görünürlüğünü azaltarak sızıntı etkisini düşürür ve KVKK uyumunu destekler."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel raporlarında ad, e-posta ve telefon gibi alanları nasıl maskelemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ad soyadı A*** K****, e-postayı a***@d***.com ve telefonu +90 *** ** ** ** gibi kısmi desenlerle maskeleyebilir; rezervasyon ID’lerde kısmi gösterim kullanabilirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi rol hangi seviyede kişisel veri görmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu rol için KPI/segment özetleri yeterlidir; departman seviyesinde PII gösterilmez. Yönetimde maskeli detay listesi açılabilir; tam PII çok sınırlı özel yetkiyle ve loglanarak sunulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK’ya uygun anonim KPI örnekleri nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Segment büyüklüğü (izinli evren), kanal bazlı dönüşüm, ülke/dil bazlı talep, iptal oranı trendi ve opt-out trendi gibi aggregate KPI’lar KVKK uyumlu raporlama için uygundur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari",
+
+      "name": "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "KVKK Training",
+
+        "Awareness",
+
+        "Culture",
+
+        "Incident Reporting",
+
+        "Dashboard"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi_lari",
+
+      "headline": "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek",
+
+      "name": "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek",
+
+      "description": "KVKK kültürünü ölçün: eğitim katılımı, test/quiz başarıları, olay bildirimi ve davranış metrikleriyle departman skorları üretin; yönetim dashboard’larında izleyin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "kvkk egitim kpi",
+
+        "farkindalik skoru ve raporlama",
+
+        "otel icin kvkk kultur olgunlugu",
+
+        "kvkk awareness training metrics",
+
+        "privacy culture kpi hospitality",
+
+        "data protection training dashboard"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "KVKK Eğitim ve Farkındalık KPI Tasarımı Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari#howto",
+
+      "name": "Otel için KVKK eğitim ve farkındalık KPI’ları dashboard’da nasıl ölçülür?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KPI setini belirleyin",
+
+          "text": "Katılım, başarı, davranış ve olay bildirimi metriklerini seçip departman kırılımını tanımlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Olgunluk skorunu kurgulayın",
+
+          "text": "KPI’ları ağırlıklandırarak departman bazlı KVKK kültür skorunu (0–100) üretin ve trend izleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dashboard görsellerini kurun",
+
+          "text": "Yönetim skor kartı, departman ısı haritası ve eğitim/test zaman çizelgesini tek pakette gösterin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Aksiyon planına bağlayın",
+
+          "text": "Düşük skorlu departmanlar için 30 günlük iyileştirme adımlarını owner+tarih ile tanımlayın ve review yapın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "KVKK Eğitim KPI’ları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK eğitim ve farkındalık KPI’ları nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Eğitim katılım oranı, quiz/test başarı oranı, yeni başlayanların tamamlama oranı, açık terminal/ekran kilidi gibi davranış metrikleri ve şüpheli olay bildirimleri temel KPI setini oluşturur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller KVKK kültürünü nasıl ölçebilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Katılım–başarı–davranış–bildirim KPI’larını departman bazlı toplayıp olgunluk skoru üreterek; skor kartı ve ısı haritasıyla zayıf alanları görünür kılarak ölçebilirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eğitim katılım ve test sonuçlarını dashboard’larda nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yönetim skor kartı, departman ısı haritası ve trend grafikleriyle raporlayın; düşük skorları owner+tarih aksiyon planına bağlayarak ölçümü eyleme dönüştürün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Farkındalık arttıkça veri ihlali riski gerçekten düşer mi, nasıl görürüm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Garanti değildir; ancak basit insan hatası kaynaklı bulguların ve tekrar eden olayların zaman içinde azalması teorik olarak beklenir. Trend KPI’ları ve olay raporlarıyla bu ilişkiyi izleyebilirsiniz."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 

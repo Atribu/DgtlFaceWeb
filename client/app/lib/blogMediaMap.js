@@ -56230,6 +56230,306 @@ export const BLOG_MEDIA_MAP = {
       alt: "Yetki matrisi, review raporu ve değişiklik logları çıktıları, denetim kanıt seti üretir",
       caption: "Yetki matrisi, review raporu ve değişiklik logları çıktıları, denetim kanıt seti üretir"
     },
+  },
+
+  "tedarikci-ve-veri-isleyen-risk-raporlari":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-1.webp",
+      alt: "Veri İşleyen ve Tedarikçi Risk Raporları: OTA, PMS Sağlayıcısı ve Çağrı Merkezi İş Ortakları",
+      caption: "Veri İşleyen ve Tedarikçi Risk Raporları: OTA, PMS Sağlayıcısı ve Çağrı Merkezi İş Ortakları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-2.webp",
+      alt: "Data controller ve data processor ayrımı, otel verisinin vendor’lara akışını açıklar",
+      caption: "Data controller ve data processor ayrımı, otel verisinin vendor’lara akışını açıklar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-3.webp",
+      alt: "Vendor risk analizi adımları: envanter, kriter, skor ve aksiyon planı",
+      caption: "Vendor risk analizi adımları: envanter, kriter, skor ve aksiyon planı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-4.webp",
+      alt: "Tedarikçi risk senaryoları ve önceliklendirme, yönetim ve teknik ekibe ortak dil kurar",
+      caption: "Tedarikçi risk senaryoları ve önceliklendirme, yönetim ve teknik ekibe ortak dil kurar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-5.webp",
+      alt: "Veri işleyen haritası ve risk kriterleri, vendor risk raporunun mantığını gösterir",
+      caption: "Veri işleyen haritası ve risk kriterleri, vendor risk raporunun mantığını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-6.webp",
+      alt: "Vendor risk kriterleri checklist’i, lokasyon-güvenlik-SLA değerlendirmesini standardize eder",
+      caption: "Vendor risk kriterleri checklist’i, lokasyon-güvenlik-SLA değerlendirmesini standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-7.webp",
+      alt: "Vendor risk skorları ve öncelik listesi, aksiyon sırasını netleştirir",
+      caption: "Vendor risk skorları ve öncelik listesi, aksiyon sırasını netleştirir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-9/Reporting4-9-8.webp",
+      alt: "Risk matrisi, aksiyon planı ve KVKK rapor eki deliverables kartı",
+      caption: "Risk matrisi, aksiyon planı ve KVKK rapor eki deliverables kartı"
+    },
+  },
+
+  "yedekleme-arsiv-ve-restore-sureclerini-raporlamak":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-1.webp",
+      alt: "KVKK Uyumlu Yedekleme, Arşiv ve Restore Süreçlerini Raporlamak",
+      caption: "KVKK Uyumlu Yedekleme, Arşiv ve Restore Süreçlerini Raporlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-2.webp",
+      alt: "BackupPolicy ve restore test raporu akışı, denetimde kanıt üretir",
+      caption: "BackupPolicy ve restore test raporu akışı, denetimde kanıt üretir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-3.webp",
+      alt: "Yedekleme neden KVKK’da kritik, erişilebilirlik ve kanıt seti perspektifi",
+      caption: "Yedekleme neden KVKK’da kritik, erişilebilirlik ve kanıt seti perspektifi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-4.webp",
+      alt: "3 kritik yedekleme sorusu, yönetim ve teknik ekip için ortak kontrol",
+      caption: "3 kritik yedekleme sorusu, yönetim ve teknik ekip için ortak kontrol"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-5.webp",
+      alt: "Production → backup/archive → restore test topolojisi, otel sürekliliğini açıklar",
+      caption: "Production → backup/archive → restore test topolojisi, otel sürekliliğini açıklar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-6.webp",
+      alt: "Restore testi checklist’i, test adımlarını ve kanıt alanlarını standardize eder",
+      caption: "Restore testi checklist’i, test adımlarını ve kanıt alanlarını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-7.webp",
+      alt: "Restore başarı oranı ve geri dönüş süresi KPI’ları, operasyon ve KVKK için görünür ölçüm sağlar",
+      caption: "Restore başarı oranı ve geri dönüş süresi KPI’ları, operasyon ve KVKK için görünür ölçüm sağlar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-10/Reporting4-10-8.webp",
+      alt: "Yedekleme politikası, restore test raporu ve denetim sunum paketi çıktıları",
+      caption: "Yedekleme politikası, restore test raporu ve denetim sunum paketi çıktıları"
+    },
+  },
+
+  "kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-1.webp",
+      alt: "KVKK ve Pazarlama Verisi: Segmentasyon Yaparken Data Minimization Nasıl Sağlanır?",
+      caption: "KVKK ve Pazarlama Verisi: Segmentasyon Yaparken Data Minimization Nasıl Sağlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-2.webp",
+      alt: "Kimlikten segmente geçiş: alan sadeleştirme ve segment KPI raporlama şeması",
+      caption: "Kimlikten segmente geçiş: alan sadeleştirme ve segment KPI raporlama şeması"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-3.webp",
+      alt: "Data minimization prensibi: gerekli alanlar, hassas veri ayrımı ve rapor yaklaşımı",
+      caption: "Data minimization prensibi: gerekli alanlar, hassas veri ayrımı ve rapor yaklaşımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-4.webp",
+      alt: "Sadeleştirme senaryoları, otel pazarlama ekibi için hızlı uygulanabilir aksiyonlar",
+      caption: "Sadeleştirme senaryoları, otel pazarlama ekibi için hızlı uygulanabilir aksiyonlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-5.webp",
+      alt: "Minimum veri alanlarıyla segmentasyon şeması, CRM ve e-posta akışını sadeleştirir",
+      caption: "Minimum veri alanlarıyla segmentasyon şeması, CRM ve e-posta akışını sadeleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-6.webp",
+      alt: "CRM alan azaltma checklist’i, gereksiz kişisel veri toplama riskini düşürür",
+      caption: "CRM alan azaltma checklist’i, gereksiz kişisel veri toplama riskini düşürür"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-7.webp",
+      alt: "KVKK uyumlu segment KPI raporu, kişi yerine segment bazlı ölçüm sunar",
+      caption: "KVKK uyumlu segment KPI raporu, kişi yerine segment bazlı ölçüm sunar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-11/Reporting4-11-8.webp",
+      alt: "Minimum alan seti, segment KPI dashboard ve checklist çıktıları, denetimde olgunluk gösterir",
+      caption: "Minimum alan seti, segment KPI dashboard ve checklist çıktıları, denetimde olgunluk gösterir"
+    },
+  },
+
+  "bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-1.webp",
+      alt: "Bulut ve Sunucu Lokasyonu: Otel Verisi İçin Teknik Değerlendirme ve KVKK Raporlaması",
+      caption: "Bulut ve Sunucu Lokasyonu: Otel Verisi İçin Teknik Değerlendirme ve KVKK Raporlaması"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-2.webp",
+      alt: "Otel sistemleri cloud provider’da hangi lokasyonda saklanır, yedek lokasyonlarıyla birlikte gösterir",
+      caption: "Otel sistemleri cloud provider’da hangi lokasyonda saklanır, yedek lokasyonlarıyla birlikte gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-3.webp",
+      alt: "Lokasyon neden kritik: denetim şeffaflığı, güvenlik ve iş sürekliliği etkileri",
+      caption: "Lokasyon neden kritik: denetim şeffaflığı, güvenlik ve iş sürekliliği etkileri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-4.webp",
+      alt: "Cloud değerlendirme tablosu ve risk senaryoları, yönetim ve IT için ortak dil sağlar",
+      caption: "Cloud değerlendirme tablosu ve risk senaryoları, yönetim ve IT için ortak dil sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-5.webp",
+      alt: "Otel sistemleri → cloud provider → data center ve backup location akışı, KVKK raporlamasıyla uyumlu",
+      caption: "Otel sistemleri → cloud provider → data center ve backup location akışı, KVKK raporlamasıyla uyumlu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-6.webp",
+      alt: "Sağlayıcıya sorulacak 10 teknik soru checklist’i, belirsizlikleri azaltır",
+      caption: "Sağlayıcıya sorulacak 10 teknik soru checklist’i, belirsizlikleri azaltır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-7.webp",
+      alt: "KVKK raporu teknik özet mockup’ı, lokasyon ve kontrol kanıtlarını netleştirir",
+      caption: "KVKK raporu teknik özet mockup’ı, lokasyon ve kontrol kanıtlarını netleştirir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-12/Reporting4-12-8.webp",
+      alt: "Soru seti, değerlendirme matrisi ve rapor özeti çıktıları, denetimde kanıt seti oluşturur",
+      caption: "Soru seti, değerlendirme matrisi ve rapor özeti çıktıları, denetimde kanıt seti oluşturur"
+    },
+  },
+
+  "rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-1.webp",
+      alt: "KVKK Uyumlu Raporlama: Dashboard’larda Veri Maskeleme ve Anonim KPI Kullanımı",
+      caption: "KVKK Uyumlu Raporlama: Dashboard’larda Veri Maskeleme ve Anonim KPI Kullanımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-2.webp",
+      alt: "Rol bazlı görünüm: yönetimde detay, ekiplerde anonim KPI yaklaşımı",
+      caption: "Rol bazlı görünüm: yönetimde detay, ekiplerde anonim KPI yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-3.webp",
+      alt: "Maskeleme neden gerekli: açık ekran ve screenshot riskini azaltır, raporu sadeleştirir",
+      caption: "Maskeleme neden gerekli: açık ekran ve screenshot riskini azaltır, raporu sadeleştirir"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-4.webp",
+      alt: "KVKK uyumlu 3 dashboard tasarımı, rol bazlı görünüm seviyelerini örnekler",
+      caption: "KVKK uyumlu 3 dashboard tasarımı, rol bazlı görünüm seviyelerini örnekler"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-5.webp",
+      alt: "Rol bazlı dashboard görünüm hiyerarşisi, hangi rol hangi detayı görür gösterir",
+      caption: "Rol bazlı dashboard görünüm hiyerarşisi, hangi rol hangi detayı görür gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-6.webp",
+      alt: "Maskeleme desenleri checklist’i, ad-mail-telefon gibi PII alanlarını standardize eder",
+      caption: "Maskeleme desenleri checklist’i, ad-mail-telefon gibi PII alanlarını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-7.webp",
+      alt: "Anonim KPI dashboard örneği, segment/kanal bazlı özetle KVKK riskini azaltır",
+      caption: "Anonim KPI dashboard örneği, segment/kanal bazlı özetle KVKK riskini azaltır"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-13/Reporting4-13-8.webp",
+      alt: "Maskeleme rehberi, rol görünüm şeması ve KPI seti çıktıları, denetimde olgunluk gösterir",
+      caption: "Maskeleme rehberi, rol görünüm şeması ve KPI seti çıktıları, denetimde olgunluk gösterir"
+    },
+  },
+
+  "raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-1.webp",
+      alt: "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek",
+      caption: "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-2.webp",
+      alt: "Eğitimden davranışa giden ölçüm akışı, KVKK olgunluğu için net çerçeve sunar",
+      caption: "Eğitimden davranışa giden ölçüm akışı, KVKK olgunluğu için net çerçeve sunar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-3.webp",
+      alt: "KPI kümeleri: katılım, başarı, davranış ve bildirim metrikleriyle kültürü ölçer",
+      caption: "KPI kümeleri: katılım, başarı, davranış ve bildirim metrikleriyle kültürü ölçer"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-4.webp",
+      alt: "KVKK kültürü iyileştirme adımları, otel departmanları için uygulanabilir aksiyonlar",
+      caption: "KVKK kültürü iyileştirme adımları, otel departmanları için uygulanabilir aksiyonlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-5.webp",
+      alt: "Eğitim ve test periyodu zaman çizelgesi, ölçüm ve review döngüsünü gösterir",
+      caption: "Eğitim ve test periyodu zaman çizelgesi, ölçüm ve review döngüsünü gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-6.webp",
+      alt: "Departman bazlı KVKK olgunluk ısı haritası, zayıf alanları hızlı görünür kılar",
+      caption: "Departman bazlı KVKK olgunluk ısı haritası, zayıf alanları hızlı görünür kılar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-7.webp",
+      alt: "KVKK eğitim ve farkındalık skor kartı, yönetim dashboard’u için anlaşılır ölçüm sağlar",
+      caption: "KVKK eğitim ve farkındalık skor kartı, yönetim dashboard’u için anlaşılır ölçüm sağlar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-14/Reporting4-14-8.webp",
+      alt: "Dashboard şablonu, KPI seti ve skor modeli çıktıları, denetimde olgunluk gösterir",
+      caption: "Dashboard şablonu, KPI seti ve skor modeli çıktıları, denetimde olgunluk gösterir"
+    },
   }
   
 };

@@ -51880,6 +51880,3570 @@
       ]
     }
   }
-}
+},
+
+  "BlogTedarikciVeVeriIsleyenRiskRaporlari": {
+    "title": "Otel Tedarikçi KVKK Risk Raporu (OTA/PMS/CC)",
+    "slug": "tedarikci-ve-veri-isleyen-risk-raporlari",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Vendor risk raporu; veri işleyenleri lokasyon, güvenlik ve SLA kriterleriyle puanlar. OTA/PMS/çağrı merkezi için risk matrisi çıkarır, KVKK raporunda öncelikli aksiyonları belirler.",
+    "seo": {
+      "metaTitle": "Otel Tedarikçi KVKK Risk Raporu (OTA/PMS/CC) | DGTLFACE",
+      "metaDescription": "OTA, PMS sağlayıcısı ve çağrı merkezi için vendor risk matrisi kurun: lokasyon, güvenlik, loglama ve SLA ile risk skoru çıkarın; KVKK raporunda önceliklendirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 9",
+        "Blog / URL: /tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Governance",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari"
+      ],
+      "strategySummary": "Bu içerik, KVKK uyumunu “otel içi süreçler”den çıkarıp, misafir verisinin paylaşıldığı OTA, PMS sağlayıcısı, barındırma firması ve çağrı merkezi gibi veri işleyen/tedarikçi ekosistemine genişleten bir “Vendor Risk” rehberidir. Hedef persona; GM/otel sahibi, IT/teknik ekip, operasyon ve ajans yöneticisidir: “hangi tedarikçiyle riskimiz yüksek, nereden başlamalıyız?” sorusuna risk skoru ile cevap arar. Antalya ve turizm bölgelerinde yabancı menşeli PMS/OTA kullanan otellerde lokasyon (yurt içi/yurt dışı), şifreleme, loglama ve SLA kriterleri üzerinden risklerin daha görünür olduğu senaryolarla bağ kurar. Ana iş sorusu: “Veri sorumlusu–veri işleyen ayrımını otelde nasıl oturtur, tedarikçileri hangi kriterlerle puanlar ve KVKK raporunda vendor risk görünümünü nasıl sunarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Veri işleyen ve tedarikçi risk raporları, OTA, PMS sağlayıcısı, barındırma firması ve çağrı merkezi gibi iş ortaklarınızla paylaşılan kişisel verinin hangi riskler altında olduğunu görünür kılar. Lokasyon (yurt içi/yurt dışı), güvenlik kontrolleri (şifreleme, loglama), SLA ve sözleşmesel çerçeve gibi kriterlerle risk skoru üretir; böylece hangi tedarikçiye önce teknik kontrol, sözleşme iyileştirmesi veya alternatif arayışı gerektiğini önceliklendirirsiniz.",
+      "sgeSummary": "Vendor risk raporu; veri işleyenleri lokasyon, güvenlik ve SLA kriterleriyle puanlar. OTA/PMS/çağrı merkezi için risk matrisi çıkarır, KVKK raporunda öncelikli aksiyonları belirler.",
+      "voiceAnswer": "OTA ve PMS gibi veri işleyenleri lokasyon, güvenlik ve SLA’ya göre puanlayıp risk matrisiyle raporlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, IT/teknik ekip, operasyon, ajans yöneticisi",
+        "Ana KPI: Yüksek riskli vendor sayısı, aksiyon kapanış süresi, SLA uyumu, log/şifreleme kapsama puanı",
+        "Entity/İlişki (AIO): Vendor → processes → hotel guest data with certain risk level; Data Controller ↔ Data Processor rol ayrımı",
+        "GEO: Türkiye + Antalya/Belek/Side; yabancı menşeli PMS/OTA senaryosu",
+        "Funnel: Governance → risk analizi/danışmanlık",
+        "Çıktı: Vendor risk matrisi + veri işleyen haritası + 3 risk senaryosu + aksiyon planı"
+      ]
+    },
+    "h1": {
+      "title": "Veri İşleyen ve Tedarikçi Risk Raporları: OTA, PMS Sağlayıcısı ve Çağrı Merkezi İş Ortakları",
+      "intro": "Otel misafir verisi sadece otelin içinde kalmaz; OTA platformları, bulut PMS sağlayıcıları, barındırma firmaları ve çağrı merkezi iş ortakları bu veriye farklı seviyelerde temas eder. KVKK uyumunda kritik soru şudur: Hangi tedarikçi hangi veriyi hangi koşullarda işliyor ve bu süreçte riskimiz nedir? Bu rehber, hukuki sözleşme detayına boğulmadan; lokasyon, güvenlik kontrolleri, loglama/izlenebilirlik ve SLA gibi teknik/operasyonel kriterlerle vendor risk skoru üretmeyi ve bunu KVKK raporlarına “görünür” şekilde koymayı anlatır.",
+      "quickSummary": [
+        "1) Vendor envanteri çıkarın (kim, ne işliyor).",
+        "2) Risk kriterlerini standardize edin (aşağıda).",
+        "3) Skorla ve ilk 3 vendor’a aksiyon planı yazın.",
+        "4) Lokasyon + loglama + SLA’yı “çekirdek” kriter yapın.",
+        "5) Her vendor için 1 sayfalık özet üretin (risk + aksiyon)."
+      ],
+      "ctaPrimary": {
+        "label": "Tedarikçi & Veri İşleyen Risk Analizi Talep Et",
+        "text": "Vendor matrisinizi puanlayıp, ilk 90 gün aksiyon planını birlikte çıkaralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Tedarikçi & Veri İşleyen Risk Analizi Talep Et",
+        "text": "Vendor matrisinizi puanlayıp, ilk 90 gün aksiyon planını birlikte çıkaralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Tedarikçi Risk Matrisi & Rapor Şablonunu İndir",
+        "text": "Şablonla vendor envanteri ve risk matrisini hızlıca kurar, KVKK raporuna eklenebilir hale getirirsiniz.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "PMS & OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "veri-isleyen-tedarikci-risk-analizi-nedir",
+        "title": "Veri işleyen ve tedarikçi risk analizi nedir?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Vendor risk analizi, otelin misafir verisini işleyen üçüncü tarafların (vendor) risk seviyesini ölçmek ve yönetmektir. Bu analiz, “kötü vendor var mı?” gibi sezgisel sorudan; “hangi kriterde risk yüksek ve hangi aksiyonla düşer?” sorusuna geçiş sağlar. KVKK bağlamında kritik ayrım şudur: Otel çoğu senaryoda veri sorumlusu, vendor ise veri işleyen rolündedir; bu rol ayrımı risk yönetiminin çerçevesini belirler."
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığı:"
+          },
+          {
+            "type": "p",
+            "text": "Vendor → processes → hotel guest data with certain risk level"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden vendor risk raporu; verinin vendor’a hangi kanaldan gittiğini, vendor’ın hangi kontrollerle işlediğini ve risk skorunu göstermek zorundadır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için tipik veri işleyen/vendor örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA platformları (rezervasyon akışı, misafir bilgileri)",
+              "PMS sağlayıcısı (misafir profili, rezervasyon, operasyon verisi)",
+              "Barındırma/bulut (sunucu, veri tabanı, yedekleme)",
+              "Çağrı merkezi iş ortağı (iletişim, talep, teklif, notlar)",
+              "E-posta/SMS sağlayıcıları (kampanya, transactional mesajlar) (Varsayım: varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya)"
+          },
+          {
+            "type": "p",
+            "text": "Yabancı menşeli bir PMS ile çalışan otelde veri lokasyonu (yurt içi/yurt dışı) ve loglama/izlenebilirlik seviyesi, risk skorunu belirgin etkiler. Bu nedenle “vendor risk” raporu, lokasyon + kontrol seti üzerinden önceliklendirme yapar."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (vendor risk tanımı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Vendor listesi çıkarıldı mı (OTA, PMS, call center, hosting)?",
+              "Her vendor için “hangi veri seti işleniyor?” yazıldı mı?",
+              "Lokasyon + güvenlik + SLA kriterleri tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Vendor envanteri çıkarın (kim, ne işliyor).",
+              "Risk kriterlerini standardize edin (aşağıda).",
+              "Skorla ve ilk 3 vendor’a aksiyon planı yazın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "tedarikci-risk-raporu-nasil-hazirlanir",
+        "title": "Oteliniz için tedarikçi risk raporunu nasıl hazırlarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm “uygulanabilir” bir çerçeve verir: kriter seti, puanlama ve rapor formatı."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 1 — Vendor envanteri ve veri işleyen haritası çıkarın"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Vendor adı + hizmet türü (OTA/PMS/Call Center/Hosting)",
+              "İşlenen veri setleri (kimlik/iletişim/rezervasyon/ödeme durumu)",
+              "Veri akışı (otel → vendor → alt vendor’lar) (Varsayım: sub-processor varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 2 — Risk kriterlerini belirleyin (kriter seti)"
+          },
+          {
+            "type": "p",
+            "text": "Temel kriter grupları (sheet ile uyumlu):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokasyon: yurt içi / yurt dışı (ve operasyonel etkisi)",
+              "Güvenlik kontrolleri: şifreleme, erişim kontrolü, loglama, yedekleme",
+              "SLA & operasyon: kesinti, destek, olay yönetimi yanıt süresi",
+              "Sözleşmesel çerçeve (yüksek seviye): veri işleme sözleşmesi var mı (detaya girmeden)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Bu içerik hukuki sözleşme maddelerine girmez; “var/yok ve operasyonel kanıt” üzerinden ilerler."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 3 — Risk skoru ve önceliklendirme (örnek ölçek)"
+          },
+          {
+            "type": "p",
+            "text": "Basit ve yönetilebilir bir model:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her kriter 0–5 arası puan (0 iyi, 5 riskli gibi)",
+              "Toplam skor = kriter toplamı",
+              "Eşik: düşük/orta/yüksek (örnek)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokasyon riski yüksek (yurt dışı) + loglama zayıf + SLA belirsiz → yüksek skor",
+              "Lokasyon orta + şifreleme güçlü + loglama var + SLA net → orta/düşük skor"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (metodoloji)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kriterler 3–4 grup altında toplandı mı?",
+              "Puanlama aynı ölçekle yapılıyor mu?",
+              "Skor çıktısı aksiyon planına bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce “basit skor” ile başlayın; mükemmelleştirmeyin.",
+              "İlk raporda sadece 5–10 vendor değerlendirin.",
+              "Sonra sub-processor ve entegrasyonları ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "tedarikci-risk-kriterleri",
+        "title": "Tedarikçi risk kriterleri (lokasyon, güvenlik, SLA) nasıl seçilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Kriter seçiminin amacı “her şeyi ölçmek” değil; riskin en çok toplandığı alanları görünür kılmaktır. Otel özelinde pratikte üç alan belirleyicidir: lokasyon, güvenlik/izlenebilirlik, operasyonel süreklilik (SLA)."
+          },
+          {
+            "type": "h3",
+            "text": "Lokasyon kriteri (yurt içi/yurt dışı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri nerede işleniyor/saklanıyor? (yüksek seviye)",
+              "Vendor’ın alt tedarikçileri var mı? (Varsayım)",
+              "Turizm bölgelerinde (Antalya/Belek) sezon yoğunluğu nedeniyle “kesinti” ve “destek” etkisi büyür"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Güvenlik kriteri (şifreleme, loglama, erişim)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şifreleme: veri aktarımında ve depoda (yüksek seviye)",
+              "Loglama: erişim ve kritik işlemler izlenebilir mi?",
+              "Erişim: rol tabanlı kontrol, admin erişim sınırı (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SLA kriteri (operasyonel risk)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kesinti süreleri ve destek kanalları",
+              "Olay yönetimi: ihlal/şüpheli durumda kim, ne kadar sürede yanıt verir?",
+              "Change yönetimi: kritik güncellemeler nasıl planlanır?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Side)"
+          },
+          {
+            "type": "p",
+            "text": "Çağrı merkezi iş ortağı yoğun dönemde CRM üzerinden misafir verisine erişiyor; eğer erişim logları vendor tarafında görünür değilse, olay incelemesi uzar. Bu nedenle “loglama/izlenebilirlik” kriteri yüksek ağırlıkla puanlanır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (kriter seçimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokasyon bilgisi raporda var mı?",
+              "Loglama/izlenebilirlik kriteri ölçülüyor mu?",
+              "SLA/olay yanıtı kriteri var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Lokasyon + loglama + SLA’yı “çekirdek” kriter yapın.",
+              "Her vendor için 1 sayfalık özet üretin (risk + aksiyon).",
+              "Yüksek skorlu vendor’lara aksiyon planı tanımlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tedarikci-risk-matrisi",
+        "title": "Tedarikçi risk matrisi nasıl hazırlanır? (Örnek tablo)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu tablo, yönetim için en hızlı “nereden başlamalıyız?” cevabını verir."
+          },
+          {
+            "type": "table",
+            "caption": "Tedarikçi risk matrisi",
+            "headers": [
+              "Vendor",
+              "Tür",
+              "İşlenen Veri",
+              "Lokasyon",
+              "Güvenlik (0–5)",
+              "Loglama (0–5)",
+              "SLA (0–5)",
+              "Toplam",
+              "Öncelik",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "OTA-A",
+                "OTA",
+                "Rezervasyon+İletişim",
+                "Yurt dışı",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "PMS-B",
+                "PMS",
+                "Misafir+Rezervasyon",
+                "Yurt dışı/yurt içi",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "CC-C",
+                "Call Center",
+                "İletişim+Not",
+                "Yurt içi",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Host-D",
+                "Hosting",
+                "DB/Backup",
+                "Yurt içi",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Skorlar otelin kendi kriter ağırlıklarıyla doldurulacaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Risk skoru çıktılarını aksiyona bağlama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek risk: ek teknik kontrol + sık review + alternatif değerlendirme",
+              "Orta risk: kontrol iyileştirme planı + SLA netleştirme",
+              "Düşük risk: rutin review + yılda 1 denetim paketi güncelleme"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-raporlarinda-tedarikci-risk-gorunumu",
+        "title": "KVKK raporlarında tedarikçi risk görünümü nasıl sunulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK rapor setinde vendor risk görünümü; “liste” değil, önceliklendirilmiş yönetim çıktısı olmalıdır. Pratik paket:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Vendor envanteri (kim, ne işliyor?)",
+              "Risk matrisi (skor + öncelik)",
+              "Yüksek riskli 3 vendor için aksiyon planı (owner + tarih)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3 örnek tedarikçi risk senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Senaryo: Yurt dışı PMS + belirsiz loglama → Risk: olay inceleme uzar → Aksiyon: log kapsamı kanıtı + erişim raporu talebi",
+              "Senaryo: OTA’da veri aktarımı çok kanallı → Risk: veri seti büyür → Aksiyon: veri minimizasyonu + aktarım noktalarını haritalama",
+              "Senaryo: Çağrı merkezi export yapıyor → Risk: kontrolsüz kopya → Aksiyon: export log + prosedür + rol kısıtı"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Tedarikçi & Veri İşleyen Risk Analizi Talep Et",
+            "text": "Vendor matrisinizi puanlayıp, ilk 90 gün aksiyon planını birlikte çıkaralım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Tedarikçi Risk Matrisi & Rapor Şablonunu İndir",
+            "text": "Şablonla vendor envanteri ve risk matrisini hızlıca kurar, KVKK raporuna eklenebilir hale getirirsiniz.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: Bu içerik /tr/raporlama/kvkk-veri-guvenligi ile bağlanmalı; teknik hazırlık için /tr/yazilim/kvkk-uyum-hizmeti ve entegrasyon bağlamı için /tr/pms-ota-yonetimi sayfalarına yönlendirilmelidir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "tedarikci-risk-matrisi-rapor-sablonu",
+        "title": "Tedarikçi Risk Matrisi & Rapor Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Tedarikçi Risk Matrisi & Rapor Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu audit sheet, otellerin OTA, PMS sağlayıcısı, hosting ve çağrı merkezi gibi veri işleyen tedarikçileri tek çerçevede değerlendirmesini sağlar. Lokasyon, güvenlik (şifreleme/loglama) ve SLA kriterleriyle risk skoru üretir; yüksek riskli vendor’lar için aksiyon planını (owner+tarih) rapora bağlar. Amaç; KVKK raporlarına “vendor risk görünümü” eklemek ve önceliklendirmeyi netleştirmektir.",
+            "whoFor": "GM/otel sahibi, IT/teknik ekip, satınalma/operasyon lideri, ajans yöneticisi.",
+            "steps": [
+              "Vendor envanterini çıkarın ve işlenen veri setlerini yazın.",
+              "Kriterleri 0–5 ölçeğinde puanlayıp toplam skoru hesaplayın.",
+              "İlk 3 yüksek riskli vendor için aksiyon planı oluşturun ve çeyreklik review takvimi koyun."
+            ],
+            "checklist": [
+              "A) Ölçek Tanımı",
+              "0–5 puan: 0 düşük risk, 5 yüksek risk (Varsayım: kurum içi ağırlıklandırma yapılabilir)",
+              "Toplam skor: kriter toplamı",
+              "Öncelik: Yüksek / Orta / Düşük (eşik kurum tarafından belirlenir)",
+              "B) Vendor Envanteri ve Skor Tablosu",
+              "C) Kırmızı/Sarı/Yeşil Yorum Alanları",
+              "Kırmızı (yüksek risk): __________________________",
+              "Sarı (orta risk): ______________________________",
+              "Yeşil (düşük risk): _____________________________",
+              "D) İlk 10 Aksiyon Listesi (owner + tarih)",
+              "(Opsiyonel) Alternatif vendor araştırması başlatıldı",
+              "E) Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "Vendor risk matrisi (skor + öncelik)",
+              "İlk 10 aksiyon listesi",
+              "Çeyreklik review planı"
+            ],
+            "href": "/downloads/tedarikci-risk-matrisi-rapor-sablonu-v1.0.pdf",
+            "buttonLabel": "Tedarikçi Risk Matrisi & Rapor Şablonunu İndir"
+          },
+             {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Veri işleyen ve tedarikçi risk analizi nedir?",
+        "a": "Vendor risk analizi, otelin misafir verisini işleyen üçüncü tarafların risk seviyesini kriterlerle ölçüp önceliklendirmesidir. Lokasyon, güvenlik kontrolleri, loglama ve SLA gibi ölçütlerle risk skoru çıkarılır ve aksiyon planına bağlanır."
+      },
+      {
+        "q": "OTA ve PMS sağlayıcılarının KVKK açısından riskleri nasıl raporlanır?",
+        "a": "İşlenen veri setleri (rezervasyon/iletişim), lokasyon (yurt içi/yurt dışı), şifreleme ve loglama gibi kontroller ve SLA/olay yanıtı kriterleri puanlanır. Toplam skorla yüksek riskli sağlayıcılar belirlenip iyileştirme aksiyonları yazılır."
+      },
+      {
+        "q": "Tedarikçi risk matrisi nasıl hazırlanır?",
+        "a": "Vendor envanteri çıkarılır, kriter seti standardize edilir ve her vendor 0–5 ölçeğiyle puanlanır. Toplam skor “yüksek/orta/düşük” önceliğe çevrilir ve ilk 3 vendor için aksiyon planı oluşturulur."
+      },
+      {
+        "q": "Hangi sağlayıcılar için ek teknik ve sözleşmesel tedbirler almalıyım?",
+        "a": "Skoru yüksek çıkan vendor’lar için ek kontroller (log kanıtı, erişim raporları, şifreleme doğrulaması) ve operasyonel netlik (SLA/olay yanıt süresi) önceliklendirilmelidir. Sözleşme detayına girmeden, kanıt ve süreç iyileştirmesi üzerinden ilerlemek pratik bir başlangıçtır."
+      },
+      {
+        "q": "Vendor risk analizi ne sıklıkla güncellenmeli?",
+        "a": "Tedarikçi portföyü ve teknoloji seçimleri değiştikçe güncellenmelidir; pratikte yılda bir kapsamlı güncelleme ve yüksek riskli vendor’lar için çeyreklik review uygulanabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — tedarikci-ve-veri-isleyen-risk-raporlari-hero-01.webp — Alt: “OTA, PMS ve çağrı merkezi tedarikçileri için vendor risk matrisi, otel KVKK uyumunu güçlendirir”",
+          "h1-context — 1920×1080 — tedarikci-ve-veri-isleyen-risk-raporlari-h1-context-02.webp — Alt: “Data controller ve data processor ayrımı, otel verisinin vendor’lara akışını açıklar”",
+          "divider-01 — 1600×1200 — tedarikci-ve-veri-isleyen-risk-raporlari-divider-03.webp — Alt: “Vendor risk analizi adımları: envanter, kriter, skor ve aksiyon planı”",
+          "divider-02 — 1600×1200 — tedarikci-ve-veri-isleyen-risk-raporlari-divider-04.webp — Alt: “Tedarikçi risk senaryoları ve önceliklendirme, yönetim ve teknik ekibe ortak dil kurar”",
+          "diagram-05 — 1920×1080 — tedarikci-ve-veri-isleyen-risk-raporlari-diagram-05.webp — Alt: “Veri işleyen haritası ve risk kriterleri, vendor risk raporunun mantığını gösterir”",
+          "checklist-06 — 1200×1200 — tedarikci-ve-veri-isleyen-risk-raporlari-checklist-06.webp — Alt: “Vendor risk kriterleri checklist’i, lokasyon-güvenlik-SLA değerlendirmesini standardize eder”",
+          "kpi-07 — 1200×1200 — tedarikci-ve-veri-isleyen-risk-raporlari-kpi-07.webp — Alt: “Vendor risk skorları ve öncelik listesi, aksiyon sırasını netleştirir”",
+          "proof-08 — 1200×1200 — tedarikci-ve-veri-isleyen-risk-raporlari-proof-08.webp — Alt: “Risk matrisi, aksiyon planı ve KVKK rapor eki deliverables kartı”",
+          "table-vendor-risk-matrix — Tedarikçi risk matrisi (vendor, kriterler, skor, öncelik, aksiyon)"
+        ],
+        "technicalChecklist": [
+          "Vendor listesi çıkarıldı mı (OTA, PMS, call center, hosting)?",
+          "Her vendor için “hangi veri seti işleniyor?” yazıldı mı?",
+          "Lokasyon + güvenlik + SLA kriterleri tanımlı mı?",
+          "Kriterler 3–4 grup altında toplandı mı?",
+          "Puanlama aynı ölçekle yapılıyor mu?",
+          "Skor çıktısı aksiyon planına bağlanıyor mu?",
+          "Lokasyon bilgisi raporda var mı?",
+          "Loglama/izlenebilirlik kriteri ölçülüyor mu?",
+          "SLA/olay yanıtı kriteri var mı?"
+        ]
+      }
+    }
+  },
+
+  "BlogYedeklemeArsivVeRestoreSurecleriniRaporlamak": {
+    "title": "KVKK Uyumlu Yedekleme & Restore Raporu (Otel)",
+    "slug": "yedekleme-arsiv-ve-restore-sureclerini-raporlamak",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KVKK uyumlu backup raporu; plan, lokasyon/şifreleme, saklama ve restore test sonuçlarını kanıtlar. PMS ve kritik sistemlerde geri dönüş kapasitesi, hem operasyon hem denetim için görünür olur.",
+    "seo": {
+      "metaTitle": "KVKK Uyumlu Yedekleme & Restore Raporu (Otel) | DGTLFACE",
+      "metaDescription": "PMS ve kritik sistemlerde yedekleme politikası, lokasyon/şifreleme, saklama süresi ve restore test kayıtları: KVKK denetimine uygun rapor seti oluşturun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 10",
+        "Blog / URL: /tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/yedekleme-arsiv-ve-restore-sureclerini-raporlamak"
+      ],
+      "strategySummary": "Bu içerik, yedekleme konusunu “sadece teknik süreklilik”ten çıkarıp KVKK uyumunda kritik olan kanıtlanabilir yedekleme politikası + restore test kayıtları odağına taşır. Hedef persona; GM/otel sahibi, IT/teknik ekip, operasyon ve ajans yöneticisidir: PMS, web, e-posta gibi kritik sistemlerde “ne sıklıkla yedek alıyoruz, nerede saklıyoruz, geri yüklemeyi test ettik mi?” sorularına raporla cevap vermek ister. Antalya ve turizm destinasyonlarında sezon ortasında yaşanabilecek veri kaybının rezervasyon ve satış süreçlerine etkisi örneklenerek iş sürekliliği–KVKK köprüsü kurulur. Ana iş sorusu: “Otelimde KVKK uyumlu yedekleme/arsiv/restore politikasını nasıl raporlar, restore testlerini nasıl kayıt altına alır ve denetimde nasıl sunarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yedekleme ve arşiv süreçleri yalnızca felaket kurtarma için değil, KVKK uyumu için de kritiktir. Oteller; PMS ve diğer kritik sistemlerin ne sıklıkla yedeklendiğini, yedeklerin nerede (lokasyon) ve nasıl korunduğunu (şifreleme, erişim) ve periyodik restore testlerinin sonuçlarını raporlayarak hem veri kaybı riskini hem de hukuki riski azaltabilir. “Şu tarihte şu yedekten şu sistem geri yüklendi” kayıtları denetimde güçlü kanıttır.",
+      "sgeSummary": "KVKK uyumlu backup raporu; plan, lokasyon/şifreleme, saklama ve restore test sonuçlarını kanıtlar. PMS ve kritik sistemlerde geri dönüş kapasitesi, hem operasyon hem denetim için görünür olur.",
+      "voiceAnswer": "Yedek planınızı, yedek lokasyonunu ve restore test sonuçlarını raporlayın; KVKK’da kanıt budur.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, IT/teknik ekip, operasyon, ajans yöneticisi",
+        "Ana KPI: Restore test başarı oranı, geri dönüş süresi (RTO), veri kaybı penceresi (RPO), yedek kapsama oranı, erişim uyumu",
+        "Entity/İlişki (AIO): BackupPolicy → ensures → data availability & compliance; RestoreTest → documentedBy → TestReport",
+        "GEO: Türkiye + Antalya/Belek; sezon ortasında PMS veri kaybı senaryosu",
+        "Funnel: Operasyonel hazırlık → analiz/danışmanlık",
+        "Çıktı: Topoloji diyagramı + rapor tablosu + restore checklist + 3 kritik soru kutusu"
+      ]
+    },
+    "h1": {
+      "title": "KVKK Uyumlu Yedekleme, Arşiv ve Restore Süreçlerini Raporlamak",
+      "intro": "Otel işletmelerinde yedekleme çoğu zaman “alıyoruz” diye düşünülür; ama denetimde ve kriz anında asıl farkı yaratan şey kanıtlanabilir süreçtir: hangi sistem yedekleniyor, ne sıklıkla, yedekler nerede ve nasıl korunuyor, saklama süresi nedir ve en önemlisi restore testleri gerçekten yapıldı mı? Bu rehber; PMS, web, e-posta ve kritik paneller için yedekleme–arşiv–restore raporlamasını KVKK uyumlu bir kanıt setine dönüştürmeyi anlatır. (Not: Bu içerik hukuki danışmanlık değil; teknik/operasyonel raporlama rehberidir.)",
+      "quickSummary": [
+        "1) “Yedek var” değil, “restore testli yedek var” hedefi koyun.",
+        "2) Yedek politikası ve rapor formatını standardize edin.",
+        "3) Restore testini “yapıldı” değil “kanıtlı” hale getir.",
+        "4) RTO/RPO göstergelerini rapora ekleyin.",
+        "5) Yönetim raporunu 1 tabloyla görünür kılın."
+      ],
+      "ctaPrimary": {
+        "label": "Yedekleme & Restore Süreç Analizi Talep Et",
+        "text": "Otelinizin yedekleme politikasını, lokasyon/şifreleme ayarlarını ve restore test planını birlikte çıkaralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yedekleme & Restore Süreç Analizi Talep Et",
+        "text": "PMS ve kritik sistemlerde yedekleme/restore raporlamasını otelinize özel standardize edelim.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Yedekleme Politikası & Restore Testi Rapor Şablonunu İndir",
+        "text": "Politika tablosu ve test raporu şablonuyla kanıt setini hızla kurar, denetimde net sunum yaparsınız.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "yedekleme-arsiv-kvkk-neden-onemli",
+        "title": "Yedekleme ve arşiv kavramları KVKK açısından neden önemlidir?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Yedekleme (backup), sistemlerin geri yüklenebilir kopyasını üretmektir; arşiv (archive) ise verinin daha uzun süreli, daha az erişilen biçimde saklanmasıdır. KVKK açısından kritik nokta, “veri güvenliği” ve “kanıt” boyutudur: veri kaybı veya ihlal şüphesi durumunda, hangi verinin kaybolduğunu/geri geldiğini gösterebilmek ve süreçleri kayıt altına almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığı:"
+          },
+          {
+            "type": "p",
+            "text": "BackupPolicy → ensures → data availability & compliance"
+          },
+          {
+            "type": "p",
+            "text": "Yani yedekleme politikası sadece “IT rutini” değil; veri erişilebilirliği ve uyumun teknik teminatıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için KVKK + operasyon köprüsü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Operasyon: PMS çalışmazsa check-in, oda atama, ödeme/rezervasyon aksar",
+              "KVKK: veri kaybı/erişilemezlik ve denetimde kanıt eksikliği risk yaratır",
+              "Çözüm: politika + rapor + restore test kayıtları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya sezon ortası)"
+          },
+          {
+            "type": "p",
+            "text": "Sezonda PMS kesintisi yaşandığında, rezervasyon bilgisine erişememek sadece IT sorunu değil; misafir memnuniyeti ve gelir kaybı problemidir. Restore testleri düzenli yapılmışsa, geri dönüş süresi (RTO) düşer; bu da operasyon ve KVKK tarafında riskleri azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (neden önemli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yedek alınıyor mu, kanıtı var mı (rapor)?",
+              "Yedeklerin korunması (şifreleme/erişim) yazılı mı?",
+              "Restore testleri yapılıyor mu ve kayıt altına alınıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Yedek var” değil, “restore testli yedek var” hedefi koyun.",
+              "Yedek politikası ve rapor formatını standardize edin.",
+              "Denetim paketine (audit pack) yedekleme/restore raporunu ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-uyumlu-yedekleme-politikasi",
+        "title": "KVKK uyumlu yedekleme politikası nasıl olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde “tek doğru” yok; ama denetimde aranacak temel bileşenler vardır: kapsam, sıklık, lokasyon, şifreleme, erişim, saklama ve test."
+          },
+          {
+            "type": "h3",
+            "text": "Politikanın 7 bileşeni (yüksek seviye)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kapsam: PMS, web, e-posta, panel, DB (kritik sistem listesi)",
+              "Sıklık: günlük/haftalık plan (job takvimi)",
+              "Lokasyon: yedek nerede tutuluyor (on-prem/cloud/region)",
+              "Şifreleme: yedek dosyaları ve transferi nasıl korunuyor",
+              "Erişim: kim erişebilir (rol bazlı, minimum kişi)",
+              "Saklama: yedeklerin saklama süresi (planlı, yazılı)",
+              "Restore testi: periyodik geri yükleme ve sonuç kaydı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kritik sistemler (otel odağı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS & rezervasyon paneli",
+              "Web sitesi/CMS (formlar + içerik)",
+              "E-posta (rezervasyon teyitleri, transactional akışlar)",
+              "Veritabanı",
+              "Raporlama/BI konfigürasyonları (Varsayım: varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (politika)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapsam listesi yazılı mı?",
+              "Lokasyon ve şifreleme belirtilmiş mi?",
+              "Erişim rolleri ve saklama prensibi var mı?",
+              "Restore testi takvimi net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Politika dokümanını 1 sayfaya indir (yönetim için).",
+              "Teknik eki ayrı tut (job ayrıntıları).",
+              "Restore testini “yapıldı” değil “kanıtlı” hale getir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "restore-testlerini-kayit-altina-almak",
+        "title": "Restore testlerini nasıl kayıt altına almalısınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yedeklemenin gerçek değeri, restore testinde ortaya çıkar. Test yoksa, yedek “varsayım”dır. Bu yüzden restore test raporu, KVKK uyumlu kanıt setinin merkezidir."
+          },
+          {
+            "type": "h3",
+            "text": "Restore test raporunda olması gereken alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "test_id",
+              "test_date/time",
+              "system (PMS/Web/Email/DB)",
+              "backup_source (hangi yedek, hangi tarih)",
+              "restore_scope (tam/partial)",
+              "result (success/fail)",
+              "duration (RTO göstergesi)",
+              "data_loss_window (RPO göstergesi) (Varsayım: ölçülebiliyorsa)",
+              "issues & actions (bulgu + aksiyon)",
+              "approver/owner"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Şu tarihte şu yedekten şu sistem geri yüklendi” kayıt örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "test_date: 2026-01-12 03:30 (+03:00)",
+              "system: PMS",
+              "backup_source: 2026-01-11 nightly backup",
+              "restore_scope: partial (reservation module)",
+              "result: success",
+              "duration: 38 dk",
+              "issues: none",
+              "owner: IT Manager"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Belek)"
+          },
+          {
+            "type": "p",
+            "text": "Sezonda PMS üzerinde küçük bir veri bozulması yaşandığında, “partial restore” testleri daha hızlı kurtarma sağlar. Bu testler raporlanırsa, yönetim “geri dönebiliyoruz” güvencesi alır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (restore testi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Testte hangi yedeğin kullanıldığı yazıyor mu?",
+              "Süre ve sonuç ölçülüyor mu?",
+              "Başarısız testler aksiyona bağlanıyor mu?",
+              "Sahip ve onay alanı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ayda en az 1 kritik sistemde restore testi planlayın (Varsayım).",
+              "Başarısız testi gizlemeyin; aksiyon listesi üretin.",
+              "RTO/RPO göstergelerini rapora ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "yedek-lokasyonu-saklama-suresi-kvkk-raporu",
+        "title": "Yedeklerin lokasyonu ve saklama süresi KVKK raporlarında nasıl gösterilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Denetimde “yedek nerede?” ve “ne kadar saklanıyor?” soruları iki nedenle önemlidir: güvenlik (erişim/koruma) ve yönetim (risk profilini görme). Bu yüzden raporda lokasyon ve saklama, “teknik detay” olarak değil; net bir tabloda sunulmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek yedekleme/restore raporu tablosu (yönetim görünümü)"
+          },
+          {
+            "type": "table",
+            "caption": "Örnek yedekleme/restore raporu tablosu (yönetim görünümü)",
+            "headers": [
+              "Sistem",
+              "Sıklık",
+              "Lokasyon",
+              "Şifreleme",
+              "Saklama (Not)",
+              "Son Test",
+              "Sonuç"
+            ],
+            "rows": [
+              [
+                "PMS",
+                "Günlük",
+                "Cloud/On-prem",
+                "Var",
+                "Planlı (yazılı)",
+                "",
+                ""
+              ],
+              [
+                "Web/CMS",
+                "Haftalık",
+                "Cloud",
+                "Var",
+                "Planlı (yazılı)",
+                "",
+                ""
+              ],
+              [
+                "E-posta",
+                "Günlük",
+                "Provider",
+                "Var",
+                "Planlı (yazılı)",
+                "",
+                ""
+              ],
+              [
+                "DB",
+                "Günlük",
+                "Cloud",
+                "Var",
+                "Planlı (yazılı)",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Saklama sürelerinin kesin rakamı, kurum politikası ve hukuk/uyum değerlendirmesiyle netleşmelidir; burada rapor formatı hedeflenir."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Periyodik restore testleri yapan otellerde, felaket anında geri dönüş süresinin ve veri kaybı ihtimalinin anlamlı biçimde düşmesi teorik olarak beklenir; bu da operasyon ve KVKK tarafında pozitif etki yaratır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (lokasyon + saklama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokasyon raporda açık mı (on-prem/cloud/region)?",
+              "Şifreleme ve erişim rolü belirtilmiş mi?",
+              "Saklama prensibi yazılı mı?",
+              "Son restore testi tarihi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yönetim raporunu 1 tabloyla görünür kılın.",
+              "Teknik eki ayrı tutun (job detayları).",
+              "Lokasyon ve erişim risklerini vendor risk raporuyla ilişkilendirin (Varsayım: gerekiyorsa)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yedekleme-restore-raporlarini-yonetim-denetime-sunmak",
+        "title": "Yedekleme & restore raporlarını yönetim ve denetime sunmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İyi bir sunum paketi “çok doküman” değil, doğru yapılandırılmış 3 parçadır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Policy (politika özeti): kapsam, sıklık, lokasyon, şifreleme, saklama, test",
+              "Execution (kanıt): backup job log + restore test raporları",
+              "Summary (dashboard): son test tarihi, başarı oranı, RTO/RPO trendleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3 kritik yedekleme sorusu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yedek var mı? → “Kanıtlı job log’u var mı?”",
+              "Geri dönebiliyor muyuz? → “Restore test raporu var mı?”",
+              "Yedek güvenli mi? → “Lokasyon + şifreleme + erişim rolü net mi?”"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yedekleme Politikası & Restore Testi Rapor Şablonunu İndir",
+            "text": "Politika tablosu ve test raporu şablonuyla kanıt setini hızla kurar, denetimde net sunum yaparsınız.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yedekleme & Restore Süreç Analizi Talep Et",
+            "text": "PMS ve kritik sistemlerde yedekleme/restore raporlamasını otelinize özel standardize edelim.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: Teknik derinleşme için /tr/yazilim/sunucu-guvenlik, uyum çerçevesi için /tr/yazilim/kvkk-uyum-hizmeti ve silo sayfası /tr/raporlama/kvkk-veri-guvenligi ile bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "yedekleme-politikasi-restore-testi-rapor-sablonu",
+        "title": "Yedekleme Politikası & Restore Testi Rapor Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Yedekleme Politikası & Restore Testi Rapor Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu audit sheet, otellerin PMS ve kritik sistemlerde yedekleme politikasını (kapsam, sıklık, lokasyon, şifreleme, saklama, erişim) standardize etmesini ve restore testlerini kanıtlanabilir rapor formatında kaydetmesini sağlar. Amaç; “yedek alıyoruz” söylemini “restore testli, raporlu ve denetime hazır” bir kanıt setine dönüştürmektir. Ayrıca ilk 10 aksiyon listesi ve KPI takibi içerir.",
+            "whoFor": "IT/teknik ekip, operasyon lideri, GM (yönetim görünümü), ajans yöneticisi.",
+            "steps": [
+              "Sistem bazında yedekleme politikası tablosunu doldurun (sıklık, lokasyon, şifreleme, saklama).",
+              "Ayda/çeyrekte en az bir restore testi yapıp test raporunu kayıt altına alın.",
+              "KPI’ları izleyin (başarı oranı, RTO, RPO) ve başarısız testleri aksiyon planına bağlayın."
+            ],
+            "checklist": [
+              "AUDIT SHEET – Yedekleme Politikası Tablosu",
+              "AUDIT SHEET – Restore Test Raporu (tek test kaydı)",
+              "test_id: __________________________",
+              "test_date (ISO + TZ): _____________",
+              "system: PMS / Web / Email / DB",
+              "backup_source (tarih/sürüm): ______",
+              "restore_scope: full / partial",
+              "duration (dk): ____________________",
+              "result: success / fail",
+              "issues: ___________________________",
+              "actions (owner+tarih): ____________",
+              "approver: _________________________",
+              "Kırmızı/Sarı/Yeşil Yorum Alanları",
+              "Kırmızı: Restore testi yok / başarısız / lokasyon-erişim belirsiz",
+              "Sarı: Yedek var ama test seyrek / rapor eksik",
+              "Yeşil: Politika net + testli + raporlu + erişim kontrollü",
+              "İlk 10 Aksiyon Listesi (owner + tarih)",
+              "PMS için “son restore testi” takvimi oluştur | Owner: __ | Due: __",
+              "Yedek lokasyonu ve şifreleme kanıtını dokümante et | Owner: __ | Due: __",
+              "Erişim rolleri (kim görebilir) netleştir | Owner: __ | Due: __",
+              "Başarısız test senaryosu için prosedür yaz | Owner: __ | Due: __",
+              "Yönetim dashboard’u (RTO/RPO) kur | Owner: __ | Due: __",
+              "… (toplam 10)",
+              "Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "Yedekleme politikası tablosu (sistem bazlı)",
+              "Restore test raporu kayıtları",
+              "KPI takip tablosu + aksiyon planı"
+            ],
+            "href": "/downloads/yedekleme-politikasi-restore-testi-rapor-sablonu-v1.0.pdf",
+            "buttonLabel": "Yedekleme Politikası & Restore Testi Rapor Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yedekleme ve arşiv süreçleri KVKK açısından neden önemlidir?",
+        "a": "Çünkü KVKK’da veri güvenliği ve erişilebilirlik teknik olarak gösterilmelidir. Yedek planı, lokasyon/şifreleme, erişim ve restore test kayıtları; hem veri kaybı riskini azaltır hem de denetimde kanıt üretir."
+      },
+      {
+        "q": "PMS ve kritik sistemler için yedekleme politikası nasıl raporlanır?",
+        "a": "Sistem bazında sıklık, lokasyon, şifreleme, saklama ve erişim rolleri tek tabloda toplanır. Ayrıca “son backup” ve “son restore testi” alanları eklenerek operasyonel görünürlük sağlanır."
+      },
+      {
+        "q": "Restore testlerini nasıl kayıt altına almalıyım?",
+        "a": "Test tarihi, kullanılan yedek kaynağı, kapsam (full/partial), süre, sonuç ve bulgular ile aksiyonlar (owner+tarih) raporlanmalıdır. Başarısız testler saklanmalı ve iyileştirme planına bağlanmalıdır."
+      },
+      {
+        "q": "Yedeklerin lokasyonu ve saklama süresi KVKK raporlarında nasıl gösterilir?",
+        "a": "Lokasyon (on-prem/cloud/region), şifreleme durumu, erişim rolleri ve saklama prensibi sistem bazlı tabloda net yazılmalıdır. Böylece denetimde “nerede, nasıl korunuyor, ne kadar tutuluyor?” soruları hızlı cevaplanır."
+      },
+      {
+        "q": "Restore testleri ne sıklıkta yapılmalı?",
+        "a": "Varsayım: Kritik sistemlerde düzenli periyotta (aylık/çeyreklik) test yapmak iyi pratiktir; önemli olan periyodun yazılı olması ve testin kanıtlı raporlanmasıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-hero-01.webp — Alt: “KVKK uyumlu yedekleme ve restore raporları, otel veri kaybı riskini azaltır”",
+          "h1-context — 1920×1080 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-h1-context-02.webp — Alt: “BackupPolicy ve restore test raporu akışı, denetimde kanıt üretir”",
+          "divider-01 — 1600×1200 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-divider-03.webp — Alt: “Yedekleme neden KVKK’da kritik, erişilebilirlik ve kanıt seti perspektifi”",
+          "divider-02 — 1600×1200 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-divider-04.webp — Alt: “3 kritik yedekleme sorusu, yönetim ve teknik ekip için ortak kontrol”",
+          "diagram-05 — 1920×1080 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-diagram-05.webp — Alt: “Production → backup/archive → restore test topolojisi, otel sürekliliğini açıklar”",
+          "checklist-06 — 1200×1200 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-checklist-06.webp — Alt: “Restore testi checklist’i, test adımlarını ve kanıt alanlarını standardize eder”",
+          "kpi-07 — 1200×1200 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-kpi-07.webp — Alt: “Restore başarı oranı ve geri dönüş süresi KPI’ları, operasyon ve KVKK için görünür ölçüm sağlar”",
+          "proof-08 — 1200×1200 — yedekleme-arsiv-ve-restore-sureclerini-raporlamak-proof-08.webp — Alt: “Yedekleme politikası, restore test raporu ve denetim sunum paketi çıktıları”",
+          "table-backup-restore-report — Yedekleme/restore raporu tablosu (sistem, sıklık, lokasyon, şifreleme, saklama, test)"
+        ],
+        "technicalChecklist": [
+          "Yedek alınıyor mu, kanıtı var mı (rapor)?",
+          "Yedeklerin korunması (şifreleme/erişim) yazılı mı?",
+          "Restore testleri yapılıyor mu ve kayıt altına alınıyor mu?",
+          "Kapsam listesi yazılı mı?",
+          "Lokasyon ve şifreleme belirtilmiş mi?",
+          "Erişim rolleri ve saklama prensibi var mı?",
+          "Restore testi takvimi net mi?",
+          "Testte hangi yedeğin kullanıldığı yazıyor mu?",
+          "Süre ve sonuç ölçülüyor mu?",
+          "Başarısız testler aksiyona bağlanıyor mu?",
+          "Sahip ve onay alanı var mı?",
+          "Lokasyon raporda açık mı (on-prem/cloud/region)?",
+          "Şifreleme ve erişim rolü belirtilmiş mi?",
+          "Saklama prensibi yazılı mı?",
+          "Son restore testi tarihi var mı?"
+        ]
+      }
+    }
+  },
+
+   "BlogKvkkVePazarlamaVerisiSegmentasyonDataMinimization": {
+    "title": "KVKK Uyumlu Segmentasyon: Data Minimization (Otel)",
+    "slug": "kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization",
+    "department": "raporlama",
+    "subDepartment,":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KVKK uyumu için segmentasyon minimum alanlarla tasarlanır; hassas veriler pazarlama katmanına taşınmaz. Raporlar kişi değil segment bazlı KPI’larla okunur; risk ve karmaşa azalır.",
+    "seo": {
+      "metaTitle": "KVKK Uyumlu Segmentasyon: Data Minimization (Otel) | DGTLFACE",
+      "metaDescription": "Otel pazarlamasında minimum veriyle segmentasyon kurun: CRM alanlarını sadeleştirin, hassas veriyi marketing katmanına taşımayın, raporları segment bazlı KPI’larla yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 11",
+        "Blog / URL: /tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization"
+      ],
+      "strategySummary": "Bu içerik, KVKK’yı “hukuk” ve pazarlamayı “performans” ekseninde ayrı anlatmak yerine, otellerde gerçek problem olan gereksiz kişisel verinin pazarlama katmanına taşınması üzerinden birleştiren “Marketing Data Governance” rehberidir. Hedef persona; GM/otel sahibi, satış-pazarlama yöneticisi ve ajans/CRM ekibidir: segmentasyon yaparken minimum veriyle nasıl çalışacağını ve raporlamayı kişi bazından segment bazına nasıl çekeceğini bilmek ister. Türkiye/KVKK bağlamında, Antalya ve turizm odaklı otellerde CRM/e-posta/ads katmanına gereksiz alanların taşınmasının riskleri senaryolarla anlatılır. Ana iş sorusu: “Segmentasyon için gerçekten hangi alanlara ihtiyacım var, CRM alanlarını nasıl sadeleştiririm ve raporlamayı anonim/aggregate KPI’lara nasıl taşırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Data minimization ilkesi, otellerin pazarlama amaçlı yalnızca gerçekten ihtiyaç duyduğu kişisel verileri toplamasını ve raporlarında mümkün olduğunca anonim/aggregate veri kullanmasını gerektirir. CRM ve e-posta sistemlerinde alanları sadeleştirmek, doğum tarihi/pasaport gibi hassas verileri marketing katmanından uzak tutmak ve raporlarda kişi bazlı değil segment bazlı KPI’lar kullanmak KVKK riskini anlamlı biçimde azaltır. Segmentasyonu “kimlik” değil “özellik seti” üzerinden kurmak en pratik yaklaşımdır.",
+      "sgeSummary": "KVKK uyumu için segmentasyon minimum alanlarla tasarlanır; hassas veriler pazarlama katmanına taşınmaz. Raporlar kişi değil segment bazlı KPI’larla okunur; risk ve karmaşa azalır.",
+      "voiceAnswer": "Segmentasyonu minimum alanlarla kurun; hassas veriyi marketing’e taşımayın, raporları segment KPI’larına çevirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış-pazarlama, CRM/e-posta yöneticisi, ajans",
+        "Ana KPI: Segment performansı, izinli evren büyüklüğü, alan sadeleşme oranı, kişi bazlı rapor kullanımının azalması",
+        "Entity/İlişki (AIO): Segment → definedBy → limited attributes; CRM/Email Marketing → stores → minimal personal data; Consent → enables → lawful marketing",
+        "GEO: Türkiye + Antalya/Belek/Side; turizm otellerinde gereksiz veri alanı birikimi",
+        "Funnel: MoFu→Strategic (governance) → analiz/danışmanlık",
+        "Çıktı: “Gereken/gerekmeyen” alan tablosu + minimum veri şeması + 3 sadeleştirme senaryosu + segment KPI raporu"
+      ]
+    },
+    "h1": {
+      "title": "KVKK ve Pazarlama Verisi: Segmentasyon Yaparken Data Minimization Nasıl Sağlanır?",
+      "intro": "Otellerde pazarlama performansı için veri gerekir; ama her veri alanı pazarlama için gerekli değildir. KVKK açısından risk, çoğu zaman “çok veri toplamak”tan değil; gereksiz ve hassas veriyi CRM/e-posta/ads katmanına taşımaktan büyür. Bu rehber; segmentasyonu minimum alanlarla tasarlamayı, CRM alanlarını sadeleştirmeyi, hassas veriyi marketing katmanından uzak tutmayı ve raporlamayı kişi bazından segment bazlı anonim KPI’lara taşımayı anlatır. (Not: Bu içerik hukuki danışmanlık değildir; teknik/operasyonel pazarlama veri yönetimi rehberidir.)",
+      "quickSummary": [
+        "1) “Segmentasyon alan seti”ni yazılı hale getirin (minimum).",
+        "2) CRM’de kullanılmayan alanları “kapat/taşıma” listesine alın.",
+        "3) PMS→CRM→Email/Ads akışında whitelist uygulayın.",
+        "4) Dashboard’ları segment KPI’larına çevirin.",
+        "5) Kişi bazlı export’ları kısıtlayın (role + log)."
+      ],
+      "ctaPrimary": {
+        "label": "Pazarlama Verisi & Data Minimization Analizi Talep Et",
+        "text": "CRM ve pazarlama araçlarınızı denetleyip minimum alan seti ve segment KPI rapor şablonunu birlikte kuralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Pazarlama Verisi & Data Minimization Analizi Talep Et",
+        "text": "Otelinizde CRM/e-posta/ads veri akışını minimization prensibiyle birlikte optimize edelim.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "CRM Alanları & KVKK Uyumlu Segmentasyon Checklist’ini İndir",
+        "text": "Minimum alan setini çıkarır, CRM alanlarını sadeleştirir ve raporu segment KPI’larına çevirirsiniz.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "SMM Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "pazarlama-verisinde-data-minimization",
+        "title": "Pazarlama verisinde data minimization ilkesi nedir?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Data minimization, pazarlama için sadece gerekli kişisel veriyi işlemek demektir. Bunun iki pratik sonucu vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "CRM/e-posta/ads sistemlerinde gereksiz alanlar kapatılır, toplanmaz, taşınmaz.",
+              "Raporlamada kişi bazlı detay yerine anonim/aggregate KPI kullanılır."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, segmentasyonu “kimlik” değil özellik seti üzerinden kurar:"
+          },
+          {
+            "type": "p",
+            "text": "Segment → definedBy → limited attributes"
+          },
+          {
+            "type": "p",
+            "text": "Örneğin “Almanca konuşan + son 12 ay konaklayan + kampanyaya izinli” gibi bir segment, doğum tarihi/pasaport gibi veriye ihtiyaç duymadan çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "Data minimization’ı 5 maddede özet"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gereksiz alanı toplama (form/CRM alanlarını sadeleştir)",
+              "Hassas veriyi marketing katmanına taşıma",
+              "Segmentasyon kriterlerini “minimum alan seti”ne indir",
+              "Raporları kişi değil segment KPI’larına çevir",
+              "Consent (izin) ve evren notunu rapora dahil et"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya turizm oteli)"
+          },
+          {
+            "type": "p",
+            "text": "CRM’de onlarca alan açılmış ama kampanyalarda sadece e-posta, ülke, dil ve ilgi alanı kullanılıyor. Kullanılmayan alanlar risk ve karmaşa üretir. Pratikte birçok otelde pazarlama alanlarının %20–30’u segmentasyon için hiç kullanılmıyor gibi düşünülebilir; bu alanları kapatmak KVKK riskini azaltır (teorik örnek)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (minimization)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segmentasyon kriterleri 8–12 alanla sınırlı mı?",
+              "Hassas alanlar marketing katmanında var mı? (varsa risk)",
+              "Raporlar kişi bazlı mı, segment bazlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Segmentasyon alan seti”ni yazılı hale getirin (minimum).",
+              "CRM’de kullanılmayan alanları “kapat/taşıma” listesine alın.",
+              "Dashboard’ları segment KPI’larına çevirin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "segmentasyon-icin-gerekli-veri-alanlari",
+        "title": "Oteller segmentasyon için hangi veri alanlarına gerçekten ihtiyaç duyar?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Segmentasyon için “az ama doğru” alanlar yeterlidir. Otel pazarlamasında pratik minimum set, iletişim ve davranış/tercih sinyallerini taşır; kimlik ve ödeme gibi yüksek riskli alanları taşımaz."
+          },
+          {
+            "type": "h3",
+            "text": "“Gereken / gerekmeyen” alanlar tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "“Gereken / gerekmeyen” alanlar tablosu",
+            "headers": [
+              "Alan",
+              "Segmentasyon için gerekli mi?",
+              "Neden",
+              "Öneri"
+            ],
+            "rows": [
+              [
+                "E-posta",
+                "Evet",
+                "İletişim kanalı",
+                "Marketing katmanında kalır"
+              ],
+              [
+                "Telefon",
+                "Opsiyonel",
+                "WhatsApp/SMS",
+                "Gerekiyorsa, kontrolle"
+              ],
+              [
+                "Ülke / Dil",
+                "Evet",
+                "Pazara göre teklif",
+                "Minimum alan"
+              ],
+              [
+                "İlgi alanı / tercih",
+                "Evet",
+                "İçerik/paket eşleme",
+                "Kategori bazlı"
+              ],
+              [
+                "Son konaklama tarihi (ay/yıl)",
+                "Evet",
+                "Recency",
+                "Gün değil dönem"
+              ],
+              [
+                "Harcama bandı (segment)",
+                "Opsiyonel",
+                "Upsell",
+                "Kişi değil band"
+              ],
+              [
+                "Doğum tarihi",
+                "Genelde hayır",
+                "Çoğu kampanyada gerekmez",
+                "Marketing’den çıkar"
+              ],
+              [
+                "Pasaport/Kimlik",
+                "Hayır",
+                "Operasyonel zorunluluk",
+                "PMS/operasyonda kalır"
+              ],
+              [
+                "Plakalı notlar / serbest metin",
+                "Hayır",
+                "Kontrolsüz hassas veri",
+                "Yasakla/temizle"
+              ],
+              [
+                "Tam adres",
+                "Genelde hayır",
+                "Pazarlama için nadir",
+                "Kaldır/opsiyonel"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Operasyonun ihtiyaç duyduğu veriler (kimlik/pasaport vb.) ayrı katmanda kalmalıdır; pazarlama katmanı bunu kopyalamamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum veri şeması (segment “özellik seti” ile)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Contact: email (ve gerekiyorsa phone)",
+              "Locale: country, language",
+              "Preferences: interest_category",
+              "Recency: last_stay_month/quarter",
+              "Consent: marketing_opt_in (evet/hayır)",
+              "ID: internal_customer_id (PII olmayan)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (alan seti)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segmentler 6–10 alanla tanımlanabiliyor mu?",
+              "Serbest metin alanları kontrol altında mı?",
+              "Hassas veri alanları marketing sistemine kopyalanmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Segment kriterlerini tabloyla standardize edin.",
+              "Serbest metin alanlarını kısıtlayın veya sözlüğe çevirin (kategori).",
+              "“Hassas veri” alanlarını PMS’te bırakıp marketing’e taşımayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "crm-email-gereksiz-kisisel-veri-azaltma",
+        "title": "CRM ve e-posta pazarlama sistemlerinde gereksiz kişisel verileri nasıl azaltırım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “teori”den “uygulama”ya geçiştir. İki ana kaldıraç vardır: alan yönetimi ve veri akışı."
+          },
+          {
+            "type": "h3",
+            "text": "1) CRM alanlarını yeniden tasarlama (field governance)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanılmayan alanları tespit et (raporla)",
+              "Alanları “zorunlu/opsiyonel/yasak” olarak sınıflandır",
+              "Serbest metin yerine seçimli alan (dropdown) kullan",
+              "Hassas alanları “marketing view”dan kaldır (mask/deny)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Veri akışında minimization (PMS → CRM → Email/Ads)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS’ten CRM’e giden alanları whitelist ile sınırla",
+              "CRM’den e-posta/ads platformlarına giden alanları daha da daralt",
+              "Export işlemlerini kontrol et (log + onay)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Side)"
+          },
+          {
+            "type": "p",
+            "text": "CRM’den e-posta aracına “doğum tarihi” alanı otomatik gidiyorsa, kampanyada kullanılmıyorsa gereksiz risk yaratır. Whitelist ile bu alanı akıştan çıkarırsınız; raporlama ise “doğum günü kampanyası” gibi özel bir use-case varsa, segment bandıyla (ay/gün aralığı) yapılabilir (Varsayım: anonimleştirilmiş yaklaşım)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (azaltma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS→CRM alan whitelist’i var mı?",
+              "CRM→Email/Ads alan listesi daha dar mı?",
+              "Export işlemleri loglanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Alan envanteri çıkarın: hangi alan nerede yaşıyor?",
+              "Whitelist kuralı koyun (minimum set).",
+              "Export ve entegrasyonları izleyin (log + izin)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pazarlama-raporlarinda-anonim-kpi",
+        "title": "Pazarlama raporlarında kişisel veri yerine hangi anonim KPI’ları kullanmalıyım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK uyumlu pazarlama raporlamasında amaç, kişisel veri satırlarını çoğaltmak değil; yönetimin karar alacağı segment performansını ölçmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Segment bazlı KPI seti (anonim/aggregate)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment büyüklüğü (izinli evren)",
+              "Açılma / tıklama oranı (segment bazlı)",
+              "Rezervasyon dönüşümü (segment bazlı)",
+              "Gelir bandı veya ADR bandı (kişi değil segment)",
+              "Kampanya frekansı ve yorgunluk metriği (opt-out trend)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Remarketing ve lookalike mantığını teknik seviyede “minimization” ile açıklama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Remarketing: mümkünse “izinli evren” ve minimum tanımlayıcılarla (hash/ID)",
+              "Lookalike: kişi bazlı veri taşımak yerine segment sinyali ve platformun kendi modeli (Varsayım: platform özelliklerine bağlı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Temel prensip: marketing katmanında kimlik değil segment sinyali."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (raporlama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard kişi listesi yerine segment KPI gösteriyor mu?",
+              "“İzinli evren” notu var mı?",
+              "Opt-out trendi izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporları “segment performansı”na çevirin.",
+              "Kişi bazlı export’ları kısıtlayın (role + log).",
+              "Rapor şablonuna “KVKK uyum notu” ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-uyumlu-pazarlama-raporlama-onerileri",
+        "title": "KVKK uyumlu pazarlama & raporlama önerileri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, rehberi aksiyona bağlar ve rakip boşluğunu kapatır: “minimum veriyle çalışan pazarlama sistemi”."
+          },
+          {
+            "type": "h3",
+            "text": "3 örnek sadeleştirme senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Senaryo: CRM’de 40 alan var, kampanyada 8’i kullanılıyor → Aksiyon: 20–30 alanı kapat/taşıma, minimum set standardı",
+              "Senaryo: PMS’ten marketing’e kimlik/pasaport alanı akıyor → Aksiyon: whitelist ile kes, PMS’te tut, marketing view’da maskele",
+              "Senaryo: Raporlar kişi bazlı excel export ile dönüyor → Aksiyon: segment KPI dashboard + export log + rol kısıtı"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CRM Alanları & KVKK Uyumlu Segmentasyon Checklist’ini İndir",
+            "text": "Minimum alan setini çıkarır, CRM alanlarını sadeleştirir ve raporu segment KPI’larına çevirirsiniz.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Pazarlama Verisi & Data Minimization Analizi Talep Et",
+            "text": "Otelinizde CRM/e-posta/ads veri akışını minimization prensibiyle birlikte optimize edelim.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti ve raporlama bağlamı için /tr/smm/analiz-raporlama sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "crm-alanlari-kvkk-segmentasyon-checklist",
+        "title": "CRM Alanları & KVKK Uyumlu Segmentasyon Checklist’ini İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_plan",
+            "version": "v1.0",
+            "title": "CRM Alanları & KVKK Uyumlu Segmentasyon Checklist’ini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu checklist, otellerin pazarlama katmanında (CRM, e-posta, Ads) gereksiz kişisel veriyi azaltmasını ve segmentasyonu minimum alan setiyle yeniden kurgulamasını sağlar. Amaç; hassas veriyi marketing sistemlerinden uzak tutmak, raporları kişi bazından segment bazlı KPI’lara çevirmek ve KVKK riskini düşürmektir. 14 günlük sadeleştirme sprint planı ile uygulamayı hızlandırır.",
+            "whoFor": "Satış-pazarlama lideri, CRM yöneticisi, ajans, IT (akış/entegrasyon için).",
+            "steps": [
+              "CRM alan envanterini çıkarın; kullanılan/kullanılmayan alanları işaretleyin.",
+              "Minimum segmentasyon alan setini onaylayın ve whitelist uygulayın (PMS→CRM→Email/Ads).",
+              "Segment KPI dashboard’u kurup kişi bazlı export’ları kısıtlayın (rol + log)."
+            ],
+            "checklist": [
+              "A) Alan Sadeleştirme Checklist’i",
+              "CRM alan envanteri çıkarıldı (toplam alan sayısı)",
+              "Segmentasyon için minimum alan seti belirlendi (6–10 alan)",
+              "“Gerekmeyen/hassas” alanlar listelendi (doğum tarihi, pasaport, serbest not vb.)",
+              "PMS→CRM alan whitelist’i uygulandı",
+              "CRM→Email/Ads alan listesi daha da daraltıldı",
+              "Serbest metin alanları kısıtlandı (dropdown/kategoriye çevrildi)",
+              "Kişi bazlı export izinleri rol bazlı sınırlandı",
+              "Segment KPI dashboard’u hazır (anonim/aggregate)",
+              "Opt-out trendi ve izinli evren notu rapora eklendi",
+              "30 gün sonra “alan kullanım raporu” ile tekrar kontrol planlandı",
+              "B) Problem → Kök Neden → Çözüm (özet)",
+              "C) 14 Günlük Sprint Planı",
+              "D) Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "Minimum segmentasyon alan seti",
+              "CRM alan sadeleştirme listesi",
+              "Segment KPI dashboard şablonu",
+              "Export/rol kısıt önerileri"
+            ],
+            "href": "/downloads/crm-alanlari-kvkk-uyumlu-segmentasyon-checklist-v1.0.pdf",
+            "buttonLabel": "CRM Alanları & KVKK Uyumlu Segmentasyon Checklist’ini İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK’ya göre pazarlama verisinde data minimization ne demek?",
+        "a": "Pazarlama amaçlı yalnızca gerçekten gerekli kişisel veriyi işlemek ve gereksiz/hassas veriyi toplamayarak risk azaltmaktır. Segmentasyonu minimum alan setiyle kurup raporları segment KPI’larına taşımak pratik uygulamadır."
+      },
+      {
+        "q": "Oteller segmentasyon yaparken hangi veri alanlarını gerçekten kullanmalı?",
+        "a": "Genelde e-posta, ülke/dil, izin durumu, ilgi alanı ve recency (son konaklama dönemi) gibi alanlar yeterlidir. Doğum tarihi, pasaport, serbest not gibi alanlar çoğu segmentasyon senaryosunda gereksiz risk üretir ve marketing katmanına taşınmamalıdır."
+      },
+      {
+        "q": "CRM ve e-posta pazarlama sistemlerinde gereksiz kişisel verileri nasıl azaltırım?",
+        "a": "Alan envanteri çıkarıp kullanılan/kullanılmayan alanları belirleyin; minimum alan setini onaylayın ve PMS→CRM→Email/Ads akışında whitelist uygulayın. Serbest metin alanlarını kısıtlayın ve kişi bazlı export izinlerini rol bazlı yönetin."
+      },
+      {
+        "q": "Pazarlama raporlarında kişisel veri yerine hangi anonim KPI’ları kullanmalıyım?",
+        "a": "Segment büyüklüğü (izinli evren), açılma/tıklama oranı, segment bazlı dönüşüm, gelir/ADR bandı ve opt-out trendi gibi aggregate KPI’lar kullanılmalıdır. Böylece raporlar kişi değil segment performansını ölçer."
+      },
+      {
+        "q": "Hassas veriyi marketing katmanından uzak tutmak neden önemli?",
+        "a": "Çünkü marketing sistemleri daha fazla kullanıcı/entegrasyon içerir; gereksiz hassas veri taşımak hem risk yüzeyini hem de olası ihlalde etkiyi büyütür. Katman ayrımı ve minimization bu etkiyi düşürür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-hero-01.webp — Alt: “KVKK uyumlu segmentasyon, minimum veriyle pazarlama performansını yönetilebilir kılar”",
+          "h1-context — 1920×1080 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-h1-context-02.webp — Alt: “Kimlikten segmente geçiş: alan sadeleştirme ve segment KPI raporlama şeması”",
+          "divider-01 — 1600×1200 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-divider-03.webp — Alt: “Data minimization prensibi: gerekli alanlar, hassas veri ayrımı ve rapor yaklaşımı”",
+          "divider-02 — 1600×1200 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-divider-04.webp — Alt: “Sadeleştirme senaryoları, otel pazarlama ekibi için hızlı uygulanabilir aksiyonlar”",
+          "diagram-05 — 1920×1080 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-diagram-05.webp — Alt: “Minimum veri alanlarıyla segmentasyon şeması, CRM ve e-posta akışını sadeleştirir”",
+          "checklist-06 — 1200×1200 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-checklist-06.webp — Alt: “CRM alan azaltma checklist’i, gereksiz kişisel veri toplama riskini düşürür”",
+          "kpi-07 — 1200×1200 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-kpi-07.webp — Alt: “KVKK uyumlu segment KPI raporu, kişi yerine segment bazlı ölçüm sunar”",
+          "proof-08 — 1200×1200 — kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization-proof-08.webp — Alt: “Minimum alan seti, segment KPI dashboard ve checklist çıktıları, denetimde olgunluk gösterir”",
+          "table-required-unrequired-fields — Gereken/Gerekmeyen alanlar tablosu (segmentasyon alanları)"
+        ],
+        "technicalChecklist": [
+          "Segmentasyon kriterleri 8–12 alanla sınırlı mı?",
+          "Hassas alanlar marketing katmanında var mı? (varsa risk)",
+          "Raporlar kişi bazlı mı, segment bazlı mı?",
+          "Segmentler 6–10 alanla tanımlanabiliyor mu?",
+          "Serbest metin alanları kontrol altında mı?",
+          "Hassas veri alanları marketing sistemine kopyalanmıyor mu?",
+          "PMS→CRM alan whitelist’i var mı?",
+          "CRM→Email/Ads alan listesi daha dar mı?",
+          "Export işlemleri loglanıyor mu?",
+          "Dashboard kişi listesi yerine segment KPI gösteriyor mu?",
+          "“İzinli evren” notu var mı?",
+          "Opt-out trendi izleniyor mu?"
+        ]
+      }
+    }
+  },
+
+  "BlogBulutVeSunucuLokasyonuOtelVerisiIcinTeknikDegerlendirme": {
+    "title": "Bulut Lokasyonu KVKK Raporu: Otel Verisi Teknik",
+    "slug": "bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Cloud lokasyonu KVKK’da önemlidir: veri nerede tutuluyor, nasıl şifreleniyor, kim erişiyor, log var mı, yedek nerede? Bu soruları tabloyla değerlendirip rapora özetleyin.",
+    "seo": {
+      "metaTitle": "Bulut Lokasyonu KVKK Raporu: Otel Verisi Teknik | DGTLFACE",
+      "metaDescription": "Bulut PMS/CRM için veri merkezi lokasyonu, şifreleme, erişim/loglama ve yedek lokasyonunu değerlendirin. KVKK raporuna kısa teknik özet ve tabloyla ekleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 12",
+        "Blog / URL: /tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme"
+      ],
+      "strategySummary": "Bu içerik, “bulut kullanıyoruz” cümlesini KVKK açısından anlamlı hale getiren şeyi ele alır: veri merkezi lokasyonu + güvenlik kontrolleri + raporlama formatı. Hedef persona; GM/otel sahibi, IT/teknik ekip ve ajans yöneticisidir: bulut PMS/CRM/raporlama araçlarında verinin hangi ülkede tutulduğunu, nasıl şifrelendiğini, kimlerin eriştiğini ve yedeklerin nerede durduğunu kanıtlanabilir biçimde belgelemek ister. Türkiye/KVKK kapsamında özellikle Antalya ve turizm bölgelerinde yabancı bulut sağlayıcılarla çalışan oteller için “yurt dışı lokasyon” senaryoları örneklenir ve teknik soru seti ile belirsizlik azaltılır. Ana iş sorusu: “Cloud provider’ı lokasyon, şifreleme, erişim, loglama ve yedekleme lokasyonu açısından nasıl değerlendirir ve KVKK raporuna kısa/net teknik özet olarak nasıl yazarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Bulut ve sunucu lokasyonu, otel verisinin hangi ülkede ve hangi teknik önlemlerle saklandığını gösterir; KVKK raporlamasında kritik yer tutar. PMS, CRM veya raporlama altyapısı bulutta çalışırken veri merkezi lokasyonu (yurt içi/yurt dışı), aktarımda ve saklamada şifreleme, erişim kontrolleri, loglama ve yedekleme lokasyonları teknik olarak değerlendirilmelidir. Bu değerlendirme, sağlayıcıya sorulacak net sorularla yapılır ve KVKK raporuna kısa ama kanıtlı özet olarak yazılır.",
+      "sgeSummary": "Cloud lokasyonu KVKK’da önemlidir: veri nerede tutuluyor, nasıl şifreleniyor, kim erişiyor, log var mı, yedek nerede? Bu soruları tabloyla değerlendirip rapora özetleyin.",
+      "voiceAnswer": "Verinin ülke lokasyonunu, şifreleme ve yedek lokasyonunu netleştirip KVKK raporuna teknik özet yazın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, IT/teknik ekip, ajans/entegrasyon ekibi",
+        "Ana KPI: Lokasyon şeffaflığı, şifreleme kapsama puanı, erişim/log kanıtı, yedek lokasyon uyumu",
+        "Entity/İlişki (AIO): Cloud Provider → stores → hotel data in specific jurisdictions; Backup Location → affects → recovery plan",
+        "GEO: Türkiye + Antalya/Belek/Side; yabancı bulut sağlayıcı senaryoları",
+        "Funnel: Strategic (risk & seçim) → teknik analiz/danışmanlık",
+        "Çıktı: Değerlendirme matrisi + bulut akış diyagramı + 10 teknik soru kutusu + KVKK rapor özet şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Bulut ve Sunucu Lokasyonu: Otel Verisi İçin Teknik Değerlendirme ve KVKK Raporlaması",
+      "intro": "Bulut PMS, CRM, mailing ve raporlama araçları otellerde hız ve ölçek sağlar; ancak KVKK uyumunda kritik soru şudur: veri hangi ülkede hangi teknik kontrollerle tutuluyor? Lokasyon tek başına “iyi/kötü” değildir; asıl resim, lokasyonun yanında şifreleme, erişim, loglama ve yedekleme lokasyonu ile tamamlanır. Bu rehber, hukuk detaylarına girmeden; sağlayıcıyı teknik açıdan değerlendirmek için soru seti sunar ve KVKK raporlarında kullanılabilecek kısa/net “teknik özet” formatı verir.",
+      "quickSummary": [
+        "1) Veri merkezi ülke/region bilgisini netleştirin.",
+        "2) Üretim ve yedek lokasyonlarını ayrı ayrı raporlayın.",
+        "3) Şifreleme, erişim ve loglama kanıtlarını doğrulayın.",
+        "4) Sağlayıcıya 10 teknik soruyu yazılı olarak yöneltin.",
+        "5) Belirsiz alanları aksiyon planına bağlayıp KVKK raporuna teknik özet ekleyin."
+      ],
+      "ctaPrimary": {
+        "label": "Bulut & Sunucu Lokasyonu Teknik Değerlendirme Analizi Talep Et",
+        "text": "PMS/CRM/bulut altyapınızı lokasyon+güvenlik kriterleriyle puanlayıp KVKK rapor özetini birlikte hazırlayalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Bulut & Sunucu Lokasyonu Teknik Değerlendirme Analizi Talep Et",
+        "text": "Cloud provider’larınızı lokasyon+kontrol setiyle puanlayıp KVKK raporunu otelinize özel kurgulayalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Bulut Sağlayıcı Teknik Soru & Değerlendirme Tablosunu İndir",
+        "text": "10 soru seti ve tabloyla lokasyon+güvenlik değerlendirmesini hızla yapar, rapora eklenebilir çıktı üretirsiniz.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "bulut-sunucu-lokasyonu-neden-kritik",
+        "title": "Bulut ve sunucu lokasyonu neden kritik?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Bulut lokasyonu kritik çünkü veri “nerede” sorusu, hem risk yönetimini hem de denetimde kanıt setini etkiler. Otel verisi; PMS kayıtları, rezervasyon akışı, CRM segmentleri ve bazen e-posta iletişimlerini içerir. Bu veriler birden fazla ülke/yargı alanında işleniyorsa, raporlamada belirsizlik büyür. Ayrıca lokasyon, felaket senaryolarında geri dönüş planıyla da bağlantılıdır: yedekler başka lokasyondaysa, restore süreci ve süreleri etkilenir."
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığı:"
+          },
+          {
+            "type": "p",
+            "text": "Cloud Provider → stores → hotel data in specific jurisdictions"
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle KVKK raporu “bulutta” demekle yetinmez; ülke/region + kontrol seti ister."
+          },
+          {
+            "type": "h3",
+            "text": "Otelde lokasyonun etkilediği 3 alan"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Denetim şeffaflığı: veri nerede, kim erişiyor?",
+              "Güvenlik yüzeyi: erişim/loglama kanıtı var mı?",
+              "İş sürekliliği: yedek lokasyonu ve geri dönüş planı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya sezon)"
+          },
+          {
+            "type": "p",
+            "text": "Sezon ortasında PMS performans problemi yaşanır ve vendor “region değişimi” yapar. Eğer lokasyon ve yedek lokasyonları raporlanmıyorsa, denetimde “veri nerede işlendi?” sorusuna net cevap verilemez. Bu yüzden lokasyon değişimleri bile raporlanabilir bir politika konusu olmalıdır (Varsayım: vendor izin veriyorsa)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (kritiklik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri merkezi ülke/region bilgisi net mi?",
+              "Yedek lokasyonları ayrı yazılı mı?",
+              "Erişim/log kanıtı talep ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Lokasyon”u tek satır değil, tablo alanı yapın.",
+              "Yedek lokasyonlarını ayrıca raporlayın.",
+              "Sağlayıcıdan kanıt türlerini isteyin (log, politika, sertifika vs. yüksek seviye)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "bulut-saglayici-teknik-degerlendirme",
+        "title": "Bulut sağlayıcınızı teknik açıdan nasıl değerlendirirsiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Değerlendirme, “cloud iyi mi?” gibi genel sorudan değil; ölçülebilir kriterlerden oluşmalıdır. Oteller için pratik çerçeve 5 başlıkta toplanır: lokasyon, şifreleme, erişim, loglama, yedekleme/restore."
+          },
+          {
+            "type": "h3",
+            "text": "1) Lokasyon (Data Center Location)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri merkezi ülke/region nedir?",
+              "Üretim ve yedek aynı yerde mi, farklı mı?",
+              "Alt sağlayıcı/sub-processor var mı? (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Şifreleme (Encryption)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aktarım sırasında (in transit) şifreleme var mı?",
+              "Saklama halinde (at rest) şifreleme var mı?",
+              "Anahtar yönetimi (yüksek seviye) nasıl? (Varsayım: provider yönetiyor / müşteri yönetiyor)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Erişim kontrolü (Access Control)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Admin erişimleri rol bazlı mı?",
+              "MFA/2FA kullanımı var mı? (Varsayım)",
+              "Ayrılan vendor personeli erişimleri nasıl kapanıyor? (Varsayım: süreç kanıtı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Loglama ve izlenebilirlik (Logging)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Kim, ne zaman, ne yaptı?” logları var mı?",
+              "Loglar ne kadar saklanıyor? (policy)",
+              "Olay incelemede rapor/çıktı verilebiliyor mu? (yüksek seviye)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "5) Yedekleme lokasyonu ve restore"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yedekler nerede tutuluyor? (ülke/region)",
+              "Restore testleri yapılıyor mu? (kanıt)",
+              "RTO/RPO yaklaşımı (yüksek seviye) net mi? (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (değerlendirme)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokasyon + yedek lokasyonu net yazıldı mı?",
+              "Şifreleme (in transit/at rest) ayrı ayrı doğrulandı mı?",
+              "Log ve erişim kanıtı raporda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sağlayıcı değerlendirme tablosunu doldurun (aşağıda).",
+              "Belirsiz alanları “kanıt talebi” aksiyonuna bağlayın.",
+              "Yüksek riskli belirsizlikleri vendor risk raporuna taşıyın (Blog-9 ile bağ)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "yurt-ici-yurt-disi-sunucu-teknik-soru-seti",
+        "title": "Yurt içi / yurt dışı sunucular için teknik soru seti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, pratikte en hızlı değer üreten kısımdır: “sağlayıcıya sorulacak sorular” listesi. Amaç, belirsizliği azaltıp raporu kanıtlanabilir hale getirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Sağlayıcıya sorulacak 10 teknik soru"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Üretim verisi hangi ülke/region’da tutuluyor?",
+              "Yedekler hangi ülke/region’da tutuluyor? (aynı mı farklı mı?)",
+              "Aktarımda (in transit) şifreleme var mı?",
+              "Depoda (at rest) şifreleme var mı?",
+              "Admin erişimlerinde MFA/2FA zorunlu mu?",
+              "Erişim logları (kim/ne zaman/ne yaptı) sağlanabiliyor mu?",
+              "Log saklama süresi ve erişim yetkisi nasıl?",
+              "Olay yönetimi (incident) için SLA/yanıt süresi nedir?",
+              "Sub-processor/alt sağlayıcı kullanılıyor mu? (yüksek seviye)",
+              "Restore testi yapılıyor mu, rapor/kanıt var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (yurt dışı PMS)"
+          },
+          {
+            "type": "p",
+            "text": "“Sunucumuz yurt dışında” tek başına karar verdirmez; ama “yedek de yurt dışında, log kanıtı yok, MFA belirsiz” gibi cevaplar toplamda riski büyütür. Bu nedenle soru seti “lokasyon + kontrol” bütünlüğüyle ele alınır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (soru seti)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "10 sorunun en az 8’ine yazılı cevap var mı?",
+              "Yedek lokasyonu ayrı soruldu mu?",
+              "Log ve restore kanıtı istendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bu soru setini vendor onboarding dokümanına ekleyin.",
+              "Cevapları “kanıt linki” ile saklayın (policy/pdf vs.).",
+              "Eksik cevapları “aksiyon planı”na bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "sunucu-lokasyonunu-kvkk-raporlarina-yazmak",
+        "title": "Sunucu lokasyonunu KVKK raporlarına nasıl yazarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK raporlarında ideal hedef “çok teknik açıklama” değil, kısa ve doğrulanabilir teknik özettir. Yönetim ve denetim için okunabilir format:"
+          },
+          {
+            "type": "h3",
+            "text": "KVKK raporu teknik özet şablonu (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sistem/Hizmet: Bulut PMS / CRM / Mailing / Raporlama",
+              "Veri lokasyonu: Ülke/region (üretim)",
+              "Yedek lokasyonu: Ülke/region",
+              "Şifreleme: in transit / at rest (var/yok)",
+              "Erişim kontrolü: rol bazlı + MFA (yüksek seviye)",
+              "Loglama: erişim logu var mı + saklama notu",
+              "Not: Belirsiz alanlar ve aksiyonlar (kanıt talebi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Kısa ama net” rapor örneği (tek paragraf)"
+          },
+          {
+            "type": "p",
+            "text": "“Bulut PMS sistemimizde üretim verisi X ülke/region’da tutulur; yedekler Y ülke/region’da saklanır. Aktarımda ve depoda şifreleme uygulanır; erişim rol bazlı yönetilir ve loglama kanıtı denetim paketine eklenir. Eksik kanıt alanları için sağlayıcıdan yazılı doğrulama talep edilmiştir.”"
+          },
+          {
+            "type": "p",
+            "text": "Not: Bu metin “hukuki yorum” yapmaz; teknik gerçekleri ve kanıt durumunu belirtir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (raporlama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üretim lokasyonu ve yedek lokasyonu ayrı yazıldı mı?",
+              "Şifreleme ve loglama “var/yok” net mi?",
+              "Belirsiz alanlar aksiyona bağlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tüm sistemler için aynı özet formatını kullanın (standart).",
+              "Özetin altına “kanıt dosyası” referansı ekleyin (audit pack).",
+              "Yılda 1 güncelleme takvimi koyun (Refresh 365)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-cloud-degerlendirme-tablosu",
+        "title": "Oteller için örnek cloud değerlendirme tablosu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo, hem satınalma/management hem IT için ortak dil üretir."
+          },
+          {
+            "type": "table",
+            "caption": "Oteller için örnek cloud değerlendirme tablosu",
+            "headers": [
+              "Sistem",
+              "Sağlayıcı Türü",
+              "Üretim Lokasyonu",
+              "Yedek Lokasyonu",
+              "Şifreleme",
+              "Loglama",
+              "SLA/Incident",
+              "Risk Notu",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "PMS",
+                "Bulut PMS",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "CRM",
+                "Bulut CRM",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Mailing",
+                "E-posta aracı",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Raporlama",
+                "BI/Tool",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Doğru değerlendirilmeyen sunucu lokasyonları; hem denetimde belirsizlik (kanıt eksikliği) hem de felaket senaryolarında geri dönüş süresi açısından problem yaratabilir. Bu nedenle lokasyon + yedek lokasyonu + restore kanıtı birlikte ele alınmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "3 pratik risk senaryosu (mini bölüm – competitor gap’i kapatır)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Senaryo 1: Üretim lokasyonu net, yedek lokasyonu belirsiz → Risk: restore planı zayıf → Aksiyon: yedek lokasyonu kanıtı + test raporu",
+              "Senaryo 2: Şifreleme var deniyor ama kanıt yok → Risk: denetimde boşluk → Aksiyon: teknik doküman talebi",
+              "Senaryo 3: Log sağlanmıyor → Risk: olay inceleme uzar → Aksiyon: log export/rapor yeteneği şartı"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Bulut Sağlayıcı Teknik Soru & Değerlendirme Tablosunu İndir",
+            "text": "10 soru seti ve tabloyla lokasyon+güvenlik değerlendirmesini hızla yapar, rapora eklenebilir çıktı üretirsiniz.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Bulut & Sunucu Lokasyonu Teknik Değerlendirme Analizi Talep Et",
+            "text": "Cloud provider’larınızı lokasyon+kontrol setiyle puanlayıp KVKK raporunu otelinize özel kurgulayalım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/yazilim/sunucu-guvenlik, /tr/raporlama/kvkk-veri-guvenligi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "bulut-saglayici-teknik-soru-degerlendirme-tablosu",
+        "title": "Bulut Sağlayıcı Teknik Soru & Değerlendirme Tablosunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Bulut Sağlayıcı Teknik Soru & Değerlendirme Tablosunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu audit sheet, otellerin bulut PMS/CRM/mailing/raporlama sağlayıcılarını veri merkezi lokasyonu ve güvenlik kontrolleri açısından standart biçimde değerlendirmesini sağlar. Amaç; lokasyon + şifreleme + erişim/loglama + yedek lokasyonu verilerini kanıtlanabilir şekilde toplamak ve KVKK raporuna “kısa teknik özet” olarak eklemektir. Yüksek riskli belirsizlikler aksiyon planına bağlanır.",
+            "whoFor": "IT/teknik ekip, ajans/entegrasyon ekibi, GM (onay), satınalma/operasyon lideri.",
+            "steps": [
+              "Sağlayıcıdan 10 sorunun cevaplarını yazılı alın ve tabloyu doldurun.",
+              "Belirsiz veya kanıtsız alanları “yüksek risk” olarak işaretleyip aksiyon planı yazın.",
+              "KVKK raporuna teknik özet paragrafını ve tabloyu ekleyin; yılda bir güncelleyin (Refresh 365)."
+            ],
+            "checklist": [
+              "AUDIT SHEET – Sağlayıcı Teknik Soru Seti (kopyala–yapıştır)",
+              "1. Üretim verisi hangi ülke/region’da tutuluyor?",
+              "2. Yedekler hangi ülke/region’da tutuluyor?",
+              "3. Aktarımda şifreleme (in transit) var mı?",
+              "4. Depoda şifreleme (at rest) var mı?",
+              "5. Anahtar yönetimi modeli (yüksek seviye) nedir?",
+              "6. Admin erişimlerinde MFA/2FA zorunlu mu?",
+              "7. Erişim logları “kim/ne zaman/ne yaptı” sağlanabiliyor mu?",
+              "8. Log saklama süresi ve erişim rolleri nedir?",
+              "9. Olay yönetimi SLA/yanıt süresi nedir?",
+              "10. Restore testleri yapılır mı, rapor/kanıt verilir mi?",
+              "AUDIT SHEET – Cloud Değerlendirme Tablosu",
+              "İlk 10 Aksiyon Listesi (owner + tarih)",
+              "Üretim lokasyonu kanıtı alındı | Owner: __ | Due: __",
+              "Yedek lokasyonu kanıtı alındı | Owner: __ | Due: __",
+              "Log export/rapor kanıtı alındı | Owner: __ | Due: __",
+              "MFA zorunluluğu doğrulandı | Owner: __ | Due: __",
+              "Restore test raporu talep edildi | Owner: __ | Due: __",
+              "… (toplam 10)",
+              "Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "10 soru cevap seti",
+              "Cloud değerlendirme tablosu",
+              "KVKK raporu teknik özet paragrafı + aksiyon planı"
+            ],
+            "href": "/downloads/bulut-saglayici-teknik-soru-degerlendirme-tablosu-v1.0.pdf",
+            "buttonLabel": "Bulut Sağlayıcı Teknik Soru & Değerlendirme Tablosunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Bulut ve sunucu lokasyonu KVKK açısından neden önemlidir?",
+        "a": "Çünkü verinin hangi ülkede/region’da tutulduğu ve hangi kontrollerle korunduğu denetimde kanıtlanmalıdır. Lokasyon, şifreleme, erişim/loglama ve yedek lokasyonu birlikte değerlendirilir."
+      },
+      {
+        "q": "Otel olarak bulut PMS veya CRM kullanırken hangi teknik soruları sormalıyım?",
+        "a": "Üretim ve yedek lokasyonları, in transit/at rest şifreleme, MFA, erişim logları, log saklama süresi, incident SLA ve restore test kanıtı gibi sorular kritik minimum seti oluşturur."
+      },
+      {
+        "q": "Yurt dışı sunucularda tutulan verileri KVKK raporlarında nasıl göstermeliyim?",
+        "a": "Hukuki yorum yapmadan; üretim lokasyonu, yedek lokasyonu, şifreleme, erişim kontrolü ve log kanıtını “teknik özet” formatında yazmalı ve değerlendirme tablosunu rapora eklemelisiniz. Belirsiz alanlar aksiyon planına bağlanmalıdır."
+      },
+      {
+        "q": "Sunucu lokasyonu ve güvenlik özelliklerini tablo hâlinde nasıl raporlarım?",
+        "a": "Sistem bazında sağlayıcı, üretim lokasyonu, yedek lokasyonu, şifreleme, loglama kanıtı ve SLA alanlarını aynı tabloda toplayın. Bu tablo, yönetim ve denetim için hızlı görünürlük sağlar."
+      },
+      {
+        "q": "Lokasyon doğru değerlendirilmezse ne olur?",
+        "a": "Denetimde belirsizlik ve kanıt eksikliği oluşabilir; ayrıca felaket senaryolarında yedek/restore planı zayıflayarak geri dönüş süresi uzayabilir. Bu nedenle lokasyon + yedek lokasyonu + restore kanıtı birlikte ele alınmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-hero-01.webp — Alt: “Bulut lokasyonu ve güvenlik kontrolleri, otel verisi için KVKK raporlamasını güçlendirir”",
+          "h1-context — 1920×1080 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-h1-context-02.webp — Alt: “Otel sistemleri cloud provider’da hangi lokasyonda saklanır, yedek lokasyonlarıyla birlikte gösterir”",
+          "divider-01 — 1600×1200 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-divider-03.webp — Alt: “Lokasyon neden kritik: denetim şeffaflığı, güvenlik ve iş sürekliliği etkileri”",
+          "divider-02 — 1600×1200 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degererlendirme-divider-04.webp — Alt: “Cloud değerlendirme tablosu ve risk senaryoları, yönetim ve IT için ortak dil sağlar”",
+          "diagram-05 — 1920×1080 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-diagram-05.webp — Alt: “Otel sistemleri → cloud provider → data center ve backup location akışı, KVKK raporlamasıyla uyumlu”",
+          "checklist-06 — 1200×1200 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-checklist-06.webp — Alt: “Sağlayıcıya sorulacak 10 teknik soru checklist’i, belirsizlikleri azaltır”",
+          "kpi-07 — 1200×1200 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-kpi-07.webp — Alt: “KVKK raporu teknik özet mockup’ı, lokasyon ve kontrol kanıtlarını netleştirir”",
+          "proof-08 — 1200×1200 — bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme-proof-08.webp — Alt: “Soru seti, değerlendirme matrisi ve rapor özeti çıktıları, denetimde kanıt seti oluşturur”",
+          "table-cloud-assessment — Cloud değerlendirme tablosu (lokasyon, şifreleme, loglama, yedek)"
+        ],
+        "technicalChecklist": [
+          "Veri merkezi ülke/region bilgisi net mi?",
+          "Yedek lokasyonları ayrı yazılı mı?",
+          "Erişim/log kanıtı talep ediliyor mu?",
+          "Lokasyon + yedek lokasyonu net yazıldı mı?",
+          "Şifreleme (in transit/at rest) ayrı ayrı doğrulandı mı?",
+          "Log ve erişim kanıtı raporda var mı?",
+          "10 sorunun en az 8’ine yazılı cevap var mı?",
+          "Yedek lokasyonu ayrı soruldu mu?",
+          "Log ve restore kanıtı istendi mi?",
+          "Üretim lokasyonu ve yedek lokasyonu ayrı yazıldı mı?",
+          "Şifreleme ve loglama “var/yok” net mi?",
+          "Belirsiz alanlar aksiyona bağlandı mı?"
+        ]
+      }
+    }
+  },
+
+   "BlogRaporVeDashboardlardaVeriMaskelemeAnonimKpi": {
+    "title": "KVKK Uyumlu Dashboard: Veri Maskeleme & Anonim KPI",
+    "slug": "rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Dashboard’larda kişisel veriyi maskeleyin; çoğu rol için anonim KPI’larla çalışın. Detay kişi listesi yalnız gerekli rollerde olsun. Böylece screenshot/açık ekran riskleri düşer.",
+    "seo": {
+      "metaTitle": "KVKK Uyumlu Dashboard: Veri Maskeleme & Anonim KPI | DGTLFACE",
+      "metaDescription": "Raporlarda ad/e-posta/telefonu maskeleyin, çoğu rol için segment bazlı anonim KPI’lara geçin. Rol bazlı görünüm seviyeleriyle screenshot ve açık ekran riskini azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 13",
+        "Blog / URL: /tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Design/Governance",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi"
+      ],
+      "strategySummary": "Bu içerik, KVKK uyumunu “dashboard’larda herkes her şeyi görsün” anlayışından çıkarıp, otel rapor ekranlarında veri maskeleme + anonim KPI ile risk azaltan bir “Reporting & Privacy” çerçevesine taşır. Hedef persona; GM/otel sahibi, operasyon yöneticisi, raporlama/BI ekibi ve ajanstır: aynı raporlara çok sayıda personelin baktığı (Antalya/turizm ölçeği) yapılarda açık ekran ve ekran görüntüsü (screenshot) riskini yönetmek ister. Raporlamayı kişi bazından segment/kanal bazlı özetlere çevirerek hem KVKK riskini hem de rapor karmaşasını azaltmayı hedefler. Ana iş sorusu: “Dashboard’larda hangi kişisel alanları nasıl maskelemeli, hangi rol hangi detay seviyesini görmeli ve anonim KPI setiyle karar almayı nasıl sürdürmeliyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "KVKK uyumlu raporlama, dashboard’larda tüm kullanıcıların tüm kişisel verileri görmesi değil; mümkün olan her yerde kişi bazlı veriyi maskeleyip karar almak için gerekli anonim/aggregate KPI’lara odaklanmaktır. Ad, telefon ve e-posta gibi alanları maskelemek (A*** K****, +90 *** ** **), çoğu rol için yalnız segment/kanal bazlı özetler göstermek ve sadece gerçekten ihtiyaç duyan sınırlı roller için detay görünümü tanımlamak; hem veri sızıntısı etkisini hem de rapor karmaşasını azaltır.",
+      "sgeSummary": "Dashboard’larda kişisel veriyi maskeleyin; çoğu rol için anonim KPI’larla çalışın. Detay kişi listesi yalnız gerekli rollerde olsun. Böylece screenshot/açık ekran riskleri düşer.",
+      "voiceAnswer": "Kişisel alanları maskeleyin, segment KPI’larına geçin; detay kişi görünümünü sadece gerekli rollere açın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, BI/raporlama ekibi, departman yöneticileri, ajans",
+        "Ana KPI: Maskeleme kapsamı, kişi bazlı rapor kullanımının azalması, segment KPI benimsemesi, screenshot risk senaryosu sayısı",
+        "Entity/İlişki (AIO): Masked Dashboard → reduces → privacy risk; Role → allowedToView → masked/unmasked view; Aggregation → replaces → personal data listing",
+        "GEO: Antalya/turizm; çok personelli rapor kullanımı ve açık ekran riski",
+        "Funnel: Governance + design → analiz/danışmanlık",
+        "Çıktı: Maskeleme desen tablosu + rol bazlı görünüm şeması + 3 dashboard tasarım senaryosu"
+      ]
+    },
+    "h1": {
+      "title": "KVKK Uyumlu Raporlama: Dashboard’larda Veri Maskeleme ve Anonim KPI Kullanımı",
+      "intro": "Otel rapor ekranları, KVKK açısından en çok “görünür risk” üreten yerlerden biridir: açık resepsiyon ekranı, paylaşılan BI linki, ekran görüntüsüyle WhatsApp’ta rapor paylaşımı gibi pratikler kişisel veriyi istemeden yayabilir. KVKK uyumlu yaklaşım “raporu kapatmak” değil; maskeleme + anonim KPI + rol bazlı görünüm ile raporu güvenli hale getirmektir. Bu rehber; hangi alanları nasıl maskeleyeceğinizi, hangi rolün hangi detay seviyesini görmesi gerektiğini ve otel raporlarında kullanılabilecek anonim KPI setlerini pratik biçimde sunar.",
+      "quickSummary": [
+        "1) Varsayılan görünümü anonim KPI’lara çevirin.",
+        "2) PII alanlarını default olarak maskeleyin veya kaldırın.",
+        "3) Kişi listelerini yalnız “need-to-know” rollere açın.",
+        "4) Rol bazlı dashboard görünüm seviyelerini tanımlayın.",
+        "5) Paylaşıma uygun “safe view” oluşturup kişi bazlı export’ları kısıtlayın."
+      ],
+      "ctaPrimary": {
+        "label": "KVKK Uyumlu Dashboard & Veri Maskeleme Analizi Talep Et",
+        "text": "Otel raporlarınızı role göre maskeleyip anonim KPI setini birlikte kurgulayalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "KVKK Uyumlu Dashboard & Veri Maskeleme Analizi Talep Et",
+        "text": "Rol bazlı görünüm, maskeleme desenleri ve anonim KPI setini otelinize özel kuralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Veri Maskeleme Desenleri & Anonim KPI Rehberini İndir",
+        "text": "Desen seti ve KPI şablonuyla raporlarınızı hızlıca KVKK uyumlu hale getirirsiniz.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "dashboardlarda-neden-veri-maskeleme",
+        "title": "Dashboard’larda neden veri maskeleme yapmalısınız?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Dashboard’larda maskeleme, “kötü niyetli erişim” kadar “gündelik operasyon kazası”na karşı koruma sağlar. Otellerde raporlara çok sayıda kişi bakar; aynı rapor linki farklı departmanlarda açılır; sezon yoğunluğunda ekranlar açık kalabilir. Bu ortamda kişi bazlı veriyi maskelemek, olası sızıntı etkisini düşürür ve denetimde “least privilege” yaklaşımının raporlama katmanında da uygulandığını gösterir."
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığı:"
+          },
+          {
+            "type": "p",
+            "text": "Masked Dashboard → reduces → privacy risk"
+          },
+          {
+            "type": "p",
+            "text": "Maskeleme; riski sıfırlamaz ama “etkiyi” düşürür: ad-soyad yerine A*** K****, telefon yerine +90 *** ** ** gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Otelde maskelemenin 3 pratik faydası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açık ekran riski azalır: resepsiyon/office ekranlarında",
+              "Screenshot paylaşımı daha güvenli olur: WhatsApp/Slack paylaşım pratiklerinde",
+              "Rapor okunabilirliği artar: “kim” yerine “segment/KPI” odak"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya – çok personelli yapı)"
+          },
+          {
+            "type": "p",
+            "text": "Looker Studio dashboard’u birçok departmanda açık. Eğer listelerde e-posta/telefon görünüyorsa, bir ekran görüntüsü bile “kişisel veri ifşası” riskini büyütür. Maskeleme ile aynı ekran, yönetim için değer üretirken ekipler için de güvenli kalır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (neden maskeleme)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard linkini gören kişi sayısı yüksek mi?",
+              "Rapor ekranı fiziksel olarak görünür alanlarda açılıyor mu?",
+              "Ekran görüntüsü paylaşımı yaygın mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Varsayılan görünümü anonim KPI’lara çevirin.",
+              "Kişi listelerini yalnız “need-to-know” rollere açın.",
+              "Maskeleme desenlerini standardize edin (aşağıda)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-alanlar-nasil-maskelenmeli",
+        "title": "Hangi alanlar nasıl maskeleme ile gösterilmeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Maskeleme “her şeyi yıldızlamak” değildir; doğru desen, hem karar aldırır hem kimliği gizler. Otel raporlarında en sık kişisel alanlar: ad/soyad, e-posta, telefon, rezervasyon kodu/ID, notlar."
+          },
+          {
+            "type": "h3",
+            "text": "Maskeleme desenleri tablosu (örnek)"
+          },
+          {
+            "type": "table",
+            "caption": "Maskeleme desenleri tablosu (örnek)",
+            "headers": [
+              "Alan",
+              "Maskeleme Deseni",
+              "Örnek",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Ad Soyad",
+                "İlk harf + yıldız",
+                "A* K****",
+                "Tam adı gösterme"
+              ],
+              [
+                "E-posta",
+                "Kullanıcı adı maskeli",
+                "a*@d***.com**",
+                "Domain de kısmen maskeli"
+              ],
+              [
+                "Telefon",
+                "Ülke kodu + mask",
+                "**+90 *** ** ** **",
+                "Son 2 haneyi açık tutma opsiyonel"
+              ],
+              [
+                "Rezervasyon ID",
+                "Kısmi gösterim",
+                "#1289*",
+                "Tam ID yerine kısa"
+              ],
+              [
+                "Serbest not",
+                "Kısıt/temizle",
+                "(mümkünse yok)",
+                "Not alanı en riskli"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Maskeleme desenleri araç ve veri modeline göre değişebilir; amaç desen standardını ekipte sabitlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "“Maskeleme mi, hiç göstermemek mi?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Maskele: yönetim kararı için “kim” sinyali gerekiyorsa (nadir)",
+              "Hiç gösterme: çoğu ekip için kişi listesi gerekmiyorsa"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratikte otellerde kişi listeleri çoğu rolde gereksizdir; segment KPI’ları yeterlidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (alanlar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "E-posta/telefon gibi alanlar varsayılan görünümde kapalı mı?",
+              "Serbest metin not alanları raporda yer alıyor mu? (risk)",
+              "Rezervasyon ID tam mı, kısmi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "PII alanlarını default olarak maskele veya kaldır.",
+              "“Detay sayfası”nı ayrı yetkili rol ile sınırla.",
+              "Serbest not alanlarını raporlamadan çıkar (gerekirse temizle)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "kisi-bazli-gorunumler-yerine-anonim-kpi",
+        "title": "Kişi bazlı görünümler yerine anonim KPI’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK uyumlu raporlama için “karar almak için gerekli minimum bilgi” hedeflenir. Otel yönetimi çoğu zaman şu sorulara cevap ister: kanal bazında dönüşüm, ülke bazında talep, segment performansı, şikayet trendi. Bunlar kişi bazlı liste gerektirmez."
+          },
+          {
+            "type": "h3",
+            "text": "Otel raporlarında kullanılabilecek anonim KPI örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment büyüklüğü (izinli evren)",
+              "Kanal bazında dönüşüm oranı (OTA/Direct/Call Center)",
+              "Ülke/dil bazında talep",
+              "Rezervasyon pace (haftalık trend)",
+              "İptal oranı ve neden dağılımı (kategori)",
+              "NPS/yorum puanı trendi (kişi değil dönem/segment)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Kişi listesi” gerektiğinde nasıl sınırlarız?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sadece yönetim veya çok sınırlı operasyon rolü",
+              "Liste ekranı, ayrı bir “detail view” olarak tasarlanır",
+              "Export kapalı/izne bağlı; erişim loglanır (RBAC blogu ile uyumlu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Satış ekibi “yeniden arama listesi” istiyor olabilir. Bu durumda kişi listesi yalnız ilgili rolde, maskeleme kısmen azaltılarak ve export izinleri kontrol edilerek sunulur."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (KPI geçişi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard’un ana sayfası KPI/segment odaklı mı?",
+              "Kişi listesi ayrı bir sekmede ve kısıtlı mı?",
+              "Export ve paylaşım izinleri kontrol altında mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dashboard homepage’i “anonim KPI” yapın.",
+              "Detay görünümü role göre açın (aşağıdaki hiyerarşi).",
+              "Paylaşım kurallarını yazılı hale getirin (screenshot pratiği dahil)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "hangi-rol-hangi-seviyede-kisisel-veri-gormeli",
+        "title": "Hangi rol hangi seviyede kişisel veri görmeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kısım, RBAC yaklaşımını raporlama katmanına taşır: rol bazlı dashboard görünümleri."
+          },
+          {
+            "type": "h3",
+            "text": "Rol bazlı görünüm hiyerarşisi (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seviye 0 (Genel): yalnız KPI/segment/kanal özetleri",
+              "Seviye 1 (Departman): daha detay KPI, fakat PII yok",
+              "Seviye 2 (Yönetim): maskeleme açık (kısmi PII), sınırlı liste",
+              "Seviye 3 (Özel Yetki): gerekirse tam PII (çok sınırlı, loglu)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: “Tam PII” görünümü çoğu otelde gereksizdir; iş ihtiyacı varsa süreçle tanımlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Screenshot ve paylaşım pratikleri (otelde gerçek hayat)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard paylaşımı “link” ile değil “PDF/ekran” ile oluyorsa risk artar",
+              "Çözüm: paylaşıma uygun “masked view” oluştur",
+              "Raporların üzerine “KVKK: Maskeleme Aktif” notu ekle (tasarım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (rol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tüm roller aynı ekranı mı görüyor? (risk)",
+              "Yönetim için ayrı “detail view” var mı?",
+              "Paylaşım için “safe view” oluşturuldu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol bazlı görünüm seviyelerini yazılı hale getirin.",
+              "“Safe share view” oluşturup varsayılan yapın.",
+              "Kişi listesi export’unu role/izne bağlayın ve loglayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-uyumlu-dashboard-tasarimlari",
+        "title": "3 örnek KVKK uyumlu dashboard tasarımı",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "GM Dashboard (Seviye 2): Gelir/kanal/ülke KPI’ları + sınırlı maskeli liste",
+              "Pazarlama Dashboard (Seviye 1): Segment KPI’ları + opt-in evren notu + kişi listesi yok",
+              "Operasyon Dashboard (Seviye 1): İptal/şikayet trendi + SLA metrikleri + kişi listesi yok"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Veri maskeleme uygulayan otellerde, ekran görüntüsü veya yetkisiz erişim durumunda “sızıntı etkisinin” önemli ölçüde azalması teorik olarak beklenir; çünkü görünen veri kişi bazlı değil özet KPI’dır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Veri Maskeleme Desenleri & Anonim KPI Rehberini İndir",
+            "text": "Desen seti ve KPI şablonuyla raporlarınızı hızlıca KVKK uyumlu hale getirirsiniz.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "KVKK Uyumlu Dashboard & Veri Maskeleme Analizi Talep Et",
+            "text": "Rol bazlı görünüm, maskeleme desenleri ve anonim KPI setini otelinize özel kuralım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/raporlama, /tr/raporlama/kvkk-veri-guvenligi, /tr/raporlama/benchmark-analizi ve /tr/raporlama/satis-donusum sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "veri-maskeleme-desenleri-anonim-kpi-rehberi",
+        "title": "Veri Maskeleme Desenleri & Anonim KPI Rehberini İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "mini_guide",
+            "version": "v1.0",
+            "title": "Veri Maskeleme Desenleri & Anonim KPI Rehberini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu mini rehber, otel dashboard’larında kişisel veriyi maskeleyerek KVKK riskini azaltmak ve raporlamayı anonim KPI setlerine taşımak için pratik bir standart sunar. Amaç; ad/e-posta/telefon gibi alanlarda maskeleme desenlerini ekipte sabitlemek, rol bazlı görünüm seviyelerini tanımlamak ve paylaşıma uygun “safe view” kurgusunu devreye almaktır.",
+            "whoFor": "BI/raporlama ekibi, IT, departman yöneticileri, ajans.",
+            "steps": [
+              "PII alanlarını tespit edin ve maskeleme desenlerini uygulayın.",
+              "Dashboard’u rol bazlı seviyelere bölün (KPI view / masked detail / restricted detail).",
+              "Segment KPI setini standartlaştırıp kişi bazlı export’ları kısıtlayın."
+            ],
+            "checklist": [
+              "MINI GUIDE (5 bölüm)",
+              "1) Prensipler (1 sayfa)",
+              "2) Maskeleme Desenleri (tablo)",
+              "3) Anonim KPI Seti (örnek)",
+              "4) 3 Sık Hata + Çözüm",
+              "5) Next Step",
+              "Rol bazlı görünüm seviyelerini yazılı hale getir",
+              "Benchmark ve satış dönüşüm raporlarını “anonim KPI” formatına standardize et",
+              "KVKK raporlama sayfasına kanıt seti olarak ekle",
+              "10 Maddelik Hızlı Kazanım Checklist’i",
+              "KPI homepage oluşturuldu",
+              "PII alanları maskelendi",
+              "Telefon/e-posta desenleri standardize edildi",
+              "Kişi listesi ayrı sekmeye alındı",
+              "Export izinleri kısıtlandı",
+              "“Safe view” paylaşıma hazır",
+              "Segment KPI seti sabitlendi",
+              "Opt-out trendi eklendi",
+              "Screenshot uyarı notu eklendi",
+              "30 gün sonra review planlandı"
+            ],
+            "href": "/downloads/veri-maskeleme-desenleri-anonim-kpi-rehberi-v1.0.pdf",
+            "buttonLabel": "Veri Maskeleme Desenleri & Anonim KPI Rehberini İndir"
+          },
+
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Dashboard ve raporlarda veri maskeleme neden gereklidir?",
+        "a": "Çünkü rapor ekranları açık ekran ve screenshot gibi operasyonel risklere açıktır. Maskeleme, kişi bazlı verinin görünürlüğünü azaltarak sızıntı etkisini düşürür ve KVKK uyumunda “en az görünürlük” yaklaşımını destekler."
+      },
+      {
+        "q": "Otel raporlarında ad, e-posta ve telefon gibi alanları nasıl maskelemeliyim?",
+        "a": "Ad soyadı ilk harf + yıldızla (A*** K****), e-postayı kısmi (a***@d***.com), telefonu +90 *** ** ** ** formatında maskeleyebilirsiniz. Rezervasyon ID gibi alanlarda da kısmi gösterim tercih edilir."
+      },
+      {
+        "q": "Hangi rol hangi seviyede kişisel veri görmeli?",
+        "a": "Çoğu rol için KPI/segment özetleri yeterlidir; departman seviyesinde PII gösterilmez. Yönetim için maskeli detay listesi açılabilir; tam PII gerekiyorsa çok sınırlı özel yetkiyle ve loglanarak sunulmalıdır."
+      },
+      {
+        "q": "KVKK’ya uygun anonim KPI örnekleri nelerdir?",
+        "a": "Segment büyüklüğü (izinli evren), kanal bazlı dönüşüm, ülke/dil bazlı talep, iptal oranı trendi ve opt-out trendi gibi aggregate KPI’lar KVKK uyumlu raporlama için uygundur."
+      },
+      {
+        "q": "Screenshot paylaşımı riskini nasıl azaltırım?",
+        "a": "Paylaşıma uygun “safe view” oluşturup varsayılan yapın; PII alanlarını maskeli/kapalı tutun ve kişi listelerini yalnız gerekli rollere açın. Raporlara “KVKK: Maskeleme Aktif” notu eklemek de pratik fayda sağlar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-hero-01.webp — Alt: “KVKK uyumlu dashboard, kişisel veriyi maskeleyip anonim KPI ile karar aldırır”",
+          "h1-context — 1920×1080 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-h1-context-02.webp — Alt: “Rol bazlı görünüm: yönetimde detay, ekiplerde anonim KPI yaklaşımı”",
+          "divider-01 — 1600×1200 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-divider-03.webp — Alt: “Maskeleme neden gerekli: açık ekran ve screenshot riskini azaltır, raporu sadeleştirir”",
+          "divider-02 — 1600×1200 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-divider-04.webp — Alt: “KVKK uyumlu 3 dashboard tasarımı, rol bazlı görünüm seviyelerini örnekler”",
+          "diagram-05 — 1920×1080 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-diagram-05.webp — Alt: “Rol bazlı dashboard görünüm hiyerarşisi, hangi rol hangi detayı görür gösterir”",
+          "checklist-06 — 1200×1200 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-checklist-06.webp — Alt: “Maskeleme desenleri checklist’i, ad-mail-telefon gibi PII alanlarını standardize eder”",
+          "kpi-07 — 1200×1200 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-kpi-07.webp — Alt: “Anonim KPI dashboard örneği, segment/kanal bazlı özetle KVKK riskini azaltır”",
+          "proof-08 — 1200×1200 — rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi-proof-08.webp — Alt: “Maskeleme rehberi, rol görünüm şeması ve KPI seti çıktıları, denetimde olgunluk gösterir”",
+          "table-masking-patterns — Maskeleme desenleri tablosu (alan → desen → örnek)"
+        ],
+        "technicalChecklist": [
+          "Dashboard linkini gören kişi sayısı yüksek mi?",
+          "Rapor ekranı fiziksel olarak görünür alanlarda açılıyor mu?",
+          "Ekran görüntüsü paylaşımı yaygın mı?",
+          "E-posta/telefon gibi alanlar varsayılan görünümde kapalı mı?",
+          "Serbest metin not alanları raporda yer alıyor mu? (risk)",
+          "Rezervasyon ID tam mı, kısmi mi?",
+          "Dashboard’un ana sayfası KPI/segment odaklı mı?",
+          "Kişi listesi ayrı bir sekmede ve kısıtlı mı?",
+          "Export ve paylaşım izinleri kontrol altında mı?",
+          "Tüm roller aynı ekranı mı görüyor? (risk)",
+          "Yönetim için ayrı “detail view” var mı?",
+          "Paylaşım için “safe view” oluşturuldu mu?"
+        ]
+      }
+    }
+  },
+
+  "BlogRaporlamaVeDashboardIcinKvkkEgitimKpiLari": {
+    "title": "KVKK Eğitim KPI’ları: Otel Kültür Skoru Dashboard’u",
+    "slug": "raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KVKK kültürü; eğitim katılımı, test başarısı, olay bildirimi ve davranış metrikleriyle ölçülür. Departman skor kartı ve ısı haritası, zayıf alanları hızla görünür kılar.",
+    "seo": {
+      "metaTitle": "KVKK Eğitim KPI’ları: Otel Kültür Skoru Dashboard’u | DGTLFACE",
+      "metaDescription": "KVKK kültürünü ölçün: eğitim katılımı, test/quiz başarıları, olay bildirimi ve davranış metrikleriyle departman skorları üretin; yönetim dashboard’larında izleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 14",
+        "Blog / URL: /tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Culture",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Varsayım: Sheet’te “Intermediate (Culture & Awareness)” yazsa da V2.3 seviye kilidi gereği Intermediate–Expert ve 3000–3500 bandı uygulanmıştır.",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari"
+      ],
+      "strategySummary": "KVKK uyumu sadece politika ve teknik kontrollerle değil, otel çalışanlarının günlük davranışıyla sürdürülebilir; bu nedenle “kültür”ün ölçülmesi gerekir. Bu içerik, IK/HR ve IT ekiplerinin aynı dashboard dilinde buluşmasını sağlayacak şekilde eğitim katılımı, test başarısı, olay bildirimleri ve davranış metrikleriyle KVKK olgunluğunu sayısallaştırmayı hedefler. Antalya ve turizm otellerinde yüksek çalışan sirkülasyonu, kültürün hızlı zayıflamasına yol açabilir; düzenli eğitim + KPI takibi bu riski azaltır. Ana iş sorusu: “KVKK eğitim ve farkındalık KPI’larını nasıl seçer, departman bazlı skor üretir ve yönetim dashboard’larında nasıl gösteririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "KVKK uyumu yalnız doküman ve teknik tedbirlerle değil, çalışanların günlük davranışıyla mümkündür. Eğitim ve farkındalık KPI’larını (katılım oranı, test/quiz başarı oranı, bildirilen şüpheli olay sayısı, açık terminal/ekran kilidi davranış metrikleri) dashboard’lara taşıyarak hangi departmanın güçlü veya zayıf olduğunu görürsünüz. Böylece “ölçülmeyen iyileşmez” yaklaşımıyla, eğitimlerin davranışa dönüşüp dönüşmediğini ve basit insan hatası riskinin azalıp azalmadığını izleyebilirsiniz.",
+      "sgeSummary": "KVKK kültürü; eğitim katılımı, test başarısı, olay bildirimi ve davranış metrikleriyle ölçülür. Departman skor kartı ve ısı haritası, zayıf alanları hızla görünür kılar.",
+      "voiceAnswer": "Eğitim katılımı, test başarısı ve olay bildirimlerini ölçüp departman bazlı KVKK skorunu dashboard’da izleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, IK/HR, IT/güvenlik, departman yöneticileri, ajans",
+        "Ana KPI: Eğitim katılımı, test başarı oranı, reported incident sayısı, davranış uyumu (ekran kilidi vb.), departman olgunluk skoru",
+        "Entity/İlişki (AIO): Higher Awareness Score → correlates → fewer basic mistakes; Training → improves → Awareness; Incident Reporting → signals → maturity",
+        "GEO: Antalya/turizm; yüksek sirkülasyon ve sezonluk personel riski",
+        "Funnel: Culture → operasyonel iyileştirme → analiz/danışmanlık",
+        "Çıktı: KPI kartları + eğitim/test zaman çizelgesi + departman ısı haritası + 3 kültür iyileştirme adımı"
+      ]
+    },
+    "h1": {
+      "title": "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek",
+      "intro": "KVKK’da en pahalı riskler çoğu zaman “sofistike saldırılar”dan değil; basit insan hatalarından doğar: yanlış alıcıya mail, açık terminal, kayıp cihaz, gereksiz veri paylaşımı gibi. Bu nedenle otellerde KVKK uyumu, sadece doküman ve teknik kontrol değil; davranış ve alışkanlıkların yönetimidir. Bu rehber; eğitim katılımı, mini testler (phishing/quiz), olay bildirimi ve davranış metriklerini birleştirip departman bazlı bir “KVKK olgunluk skoru” üretmeyi ve bunu yönetim dashboard’larında izlemeyi anlatır. (Not: Hukuki danışmanlık değil; ölçüm ve operasyonel kültür raporlama rehberidir.)",
+      "quickSummary": [
+        "1. KPI setini 10–12 metrikle başlatın (fazla kompleks yapmayın).",
+        "2. Departman bazlı kırılımı zorunlu tutun.",
+        "3. İlk 90 gün hedefi: “ölçümü oturtmak”, cezalandırma değil.",
+        "4. Skoru “trend” olarak takip edin (tek seferlik değil).",
+        "5. En düşük 2 departman için 30 günlük aksiyon planı çıkarın."
+      ],
+      "ctaPrimary": {
+        "label": "KVKK Eğitim & Farkındalık KPI Analizi Talep Et",
+        "text": "Otelinizde eğitim programını, KPI setini ve dashboard tasarımını birlikte kurgulayalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "KVKK Eğitim & Farkındalık KPI Analizi Talep Et",
+        "text": "KPI setini, skor modelini ve dashboard tasarımını otelinize özel kuralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir",
+        "text": "Skor kartı, ısı haritası ve periyot planıyla kültürü ölçmeye hemen başlarsınız.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "kvkk-egitim-farkindalik-kpi-lari",
+        "title": "KVKK eğitim ve farkındalık için hangi KPI’lara bakmalısınız?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Kültür KPI’ları, “eğitim verdik” demek için değil; eğitimlerin davranışa dönüşüp dönüşmediğini görmek içindir. KPI setini 4 kümeye ayırmak pratik olur: katılım, öğrenme, davranış, olay sinyali."
+          },
+          {
+            "type": "h3",
+            "text": "1) Eğitim katılım KPI’ları (Participation)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katılım oranı (departman bazlı)",
+              "Tamamlama süresi (ortalama)",
+              "Yeni başlayanların ilk 30 gün tamamlama oranı (sirkülasyon göstergesi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Başarı KPI’ları (Knowledge)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Quiz başarı oranı (ortalama ve dağılım)",
+              "“Kritik soru” hatası oranı (örn. yanlış alıcıya mail)",
+              "Mini tekrar testlerinde (aylık 3 soru) trend"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Davranış KPI’ları (Behavior)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ekran kilitleme uyumu (Varsayım: denetim/spot-check verisi)",
+              "Açık terminal bulgu sayısı (haftalık)",
+              "PII içeren ekran görüntüsü paylaşımı uyarı sayısı (Varsayım: süreç varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Olay bildirimi KPI’ları (Incident Reporting)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bildirilen şüpheli mail sayısı (phishing report)",
+              "Kayıp cihaz/şüpheli erişim bildirimi sayısı",
+              "“Near-miss” (olay olmadı ama riskli durum) bildirimi sayısı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Bildirim sayısı başlangıçta artabilir; bu her zaman kötü değildir. Olgunlaşma, “sorun yok” demek değil; sorunları erken görüp bildirebilmek demektir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya – sezonluk ekip)"
+          },
+          {
+            "type": "p",
+            "text": "Yeni personel onboarding döneminde quiz başarıları düşükse ve açık terminal bulguları artıyorsa, eğitim “tamamlandı” görünse bile davranışa dönüşmemiş demektir. KPI seti bu boşluğu yakalar."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (KPI seçimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katılım + başarı + davranış + bildirim birlikte ölçülüyor mu?",
+              "Departman kırılımı var mı?",
+              "Yeni başlayanlar için ayrı KPI var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI setini 10–12 metrikle başlatın (fazla kompleks yapmayın).",
+              "Departman bazlı kırılımı zorunlu tutun.",
+              "İlk 90 gün hedefi: “ölçümü oturtmak”, cezalandırma değil."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-kpi-dashboard-gosterimi",
+        "title": "Bu KPI’ları dashboard’da nasıl gösterirsiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dashboard tasarımında hedef; IK/HR ve IT’nin aynı ekranda anlaşmasıdır. Bu yüzden 3 katman önerilir: yönetim özeti, departman ısı haritası, detay drill-down."
+          },
+          {
+            "type": "h3",
+            "text": "Yönetim skor kartı (1 ekran)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KVKK kültür skoru (0–100)",
+              "Eğitim katılımı %",
+              "Quiz başarı %",
+              "Davranış uyumu (spot-check)",
+              "Bildirilen şüpheli olay trendi (7/30 gün)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Departman bazlı ısı haritası (heatmap)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Satırlar: departmanlar (Ön Büro, Rezervasyon, Muhasebe, IT, Satış, Çağrı Merkezi vb.)",
+              "Sütunlar: katılım, başarı, davranış, bildirim",
+              "Renk: düşük/orta/yüksek (yönetim hızlı görür)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Zaman çizelgesi (period timeline)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eğitim periyodu (aylık/çeyreklik)",
+              "Phishing simülasyonu (Varsayım: varsa)",
+              "Mini quiz döngüsü",
+              "Review toplantısı tarihi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (dashboard)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetim özeti tek ekranda mı?",
+              "Isı haritası departman karşılaştırması sağlıyor mu?",
+              "Trend grafikleri var mı (iyileşme için)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk dashboard’u “skor kartı + ısı haritası” ile başlatın.",
+              "Drill-down’u sadece ihtiyaç olunca açın.",
+              "KPI’ları “ceza” değil “iyileştirme” diliyle paylaşın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "departman-bazli-kvkk-olgunluk-skoru",
+        "title": "Departman bazlı KVKK olgunluk skoru nasıl üretilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Skorun amacı “puanlamak” değil; önceliklendirmek ve takip etmektir. Basit bir ağırlıklandırma modeli (örnek):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katılım %30",
+              "Başarı %30",
+              "Davranış %25",
+              "Bildirim olgunluğu %15"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Ağırlıklar otelin risk profiline göre değişebilir; kritik olan tutarlılık ve periyodik takip."
+          },
+          {
+            "type": "table",
+            "caption": "B) Departman Bazlı Skor Tablosu (template)",
+            "headers": [
+              "Departman",
+              "Katılım %",
+              "Quiz Başarı %",
+              "Davranış Uyumu %",
+              "Bildirim Olgunluğu",
+              "Skor (0–100)",
+              "Not/Aksiyon"
+            ],
+            "rows": [
+              [
+                "Ön Büro",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Rezervasyon",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Satış",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Muhasebe",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "IT",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Çağrı Merkezi",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Bildirimin artması” nasıl yorumlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Bildirilen şüpheli mail sayısı bir süre artabilir; bu, farkındalığın yükseldiğine işaret edebilir. Olgunluk, zamanla “basit hata” kaynaklı olayların azalması ve bildirimlerin daha erken yapılmasıyla güçlenir."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "İyi tasarlanmış eğitim programı ve KPI takip yapısına sahip otellerde, basit insan hatası kaynaklı olayların zaman içinde azalması teorik olarak beklenir; çünkü riskli davranışlar görünür hale gelir ve düzeltici aksiyonlar hızlanır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (skor)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Skor bileşenleri herkesçe anlaşılır mı?",
+              "Departman bazlı sonuçlar aksiyona bağlanıyor mu?",
+              "Sirkülasyon dönemlerinde (sezon) ayrı takip var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Skoru “trend” olarak takip edin (tek seferlik değil).",
+              "En düşük 2 departman için 30 günlük aksiyon planı çıkarın.",
+              "Yeni başlayanlar için hızlandırılmış eğitim modülü uygulayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "surekli-farkindalik-rutin-testler",
+        "title": "Sürekli farkındalık için rutin testler (phishing, mini quiz)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitim bir defalık olursa, özellikle turizm otellerinde sirkülasyon yüzünden kültür hızla zayıflar. Bu nedenle küçük ama düzenli testler daha etkilidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini quiz döngüsü (aylık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3 soru / 2 dakika",
+              "Kritik senaryolar: yanlış mail, açık ekran, veri paylaşımı",
+              "Sonuç: departman bazlı başarı trendi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Phishing simülasyonu (Varsayım: uygulanıyorsa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tıklama oranı (risk göstergesi)",
+              "Bildirim oranı (olgunluk göstergesi)",
+              "Tekrar eğitim tetikleyicisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (rutin test)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Test periyodu var mı (aylık/çeyreklik)?",
+              "Sonuçlar dashboard’a giriyor mu?",
+              "Düşük skor departmanlara aksiyon planı çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık mini quiz’i standart yapın.",
+              "Sezon başında (Antalya/Belek) onboarding testini zorunlu kılın.",
+              "Sonuçları “gelişim” diliyle duyurun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kvkk-kulturu-iyilestirme-adimlari",
+        "title": "3 örnek KVKK kültürü iyileştirme adımı",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Açık terminal oranı yüksekse: resepsiyon ekran kilidi + 1 dakikalık mikro eğitim + haftalık spot-check",
+              "Quiz başarısı düşükse: “en çok hata yapılan 5 soru” mini ders + departman koçu",
+              "Bildirilen olay azsa: “nasıl bildirim yapılır” tek sayfa rehber + basit bildirim kanalı"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir",
+            "text": "Skor kartı, ısı haritası ve periyot planıyla kültürü ölçmeye hemen başlarsınız.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "KVKK Eğitim & Farkındalık KPI Analizi Talep Et",
+            "text": "KPI setini, skor modelini ve dashboard tasarımını otelinize özel kuralım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/yazilim/sunucu-guvenlik sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-egitim-farkindalik-dashboard-sablonu",
+        "title": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_plan",
+            "version": "v1.0",
+            "title": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, otellerin KVKK kültürünü “eğitim verdik mi?” seviyesinden çıkarıp, katılım–başarı–davranış–bildirim metrikleriyle ölçmesini sağlar. Amaç; departman bazlı olgunluk skorunu dashboard’a taşımak, zayıf alanları ısı haritasıyla görünür kılmak ve 30 günlük iyileştirme aksiyonlarını KPI’lara bağlamaktır. Yüksek sirkülasyonlu turizm otellerinde sürdürülebilir kültür için periyot planı da içerir.",
+            "whoFor": "IK/HR, IT/güvenlik, departman yöneticileri, GM.",
+            "steps": [
+              "Eğitim katılımı ve test sonuçlarını departman bazlı toplayın.",
+              "Davranış ve incident metriklerini (spot-check + bildirim) ekleyin.",
+              "Olgunluk skorunu üretip ısı haritası ve skor kartı ile yönetime sunun."
+            ],
+            "checklist": [
+              "A) Ölçüm & Önceliklendirme Checklist’i",
+              "KPI seti 4 kümeye ayrıldı (katılım/başarı/davranış/bildirim)",
+              "Departman kırılımı eklendi (Ön Büro, Rezervasyon, IT, Muhasebe, Satış, Çağrı Merkezi…)",
+              "Yeni başlayanlar için “ilk 30 gün tamamlama” KPI’ı eklendi",
+              "Mini quiz (aylık) ve review toplantısı periyodu belirlendi",
+              "Phishing simülasyonu metrikleri (Varsayım: varsa) tanımlandı",
+              "“Open terminal” spot-check metriği tanımlandı (Varsayım)",
+              "Incident reporting kanalı ve ölçümü netleştirildi",
+              "Dashboard’da “trend” (30/90 gün) alanı eklendi",
+              "KPI’lar ceza değil iyileştirme diliyle paylaşılacak şekilde notlandı",
+              "30 gün sonra ilk review tarihi planlandı",
+              "B) Departman Bazlı Skor Tablosu (template)",
+              "C) 30 Günlük Sprint Planı (kültür iyileştirme)",
+              "D) Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "Yönetim skor kartı",
+              "Departman ısı haritası",
+              "Zaman çizelgesi (eğitim/test periyodu)",
+              "Aksiyon planı (owner+tarih)"
+            ],
+            "href": "/downloads/kvkk-egitim-ve-farkindalik-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK eğitim ve farkındalık KPI’ları nelerdir?",
+        "a": "Eğitim katılım oranı, quiz/test başarı oranı, yeni başlayanların ilk 30 gün tamamlama oranı, açık terminal/ekran kilidi gibi davranış metrikleri ve şüpheli olay bildirimleri (phishing, kayıp cihaz) temel KPI setini oluşturur."
+      },
+      {
+        "q": "Oteller KVKK kültürünü nasıl ölçebilir?",
+        "a": "KPI’ları katılım–başarı–davranış–bildirim kümelerinde toplayıp departman bazlı olgunluk skoru üreterek ölçebilirsiniz. Isı haritası, hangi departmanın zayıf olduğunu hızlı görünür kılar."
+      },
+      {
+        "q": "Eğitim katılım ve test sonuçlarını dashboard’larda nasıl raporlarım?",
+        "a": "Yönetim skor kartı + departman ısı haritası + trend grafikleri ile raporlayın. Drill-down’u sınırlı tutup aksiyon planını (owner+tarih) dashboard’a bağlamak ölçümü eyleme dönüştürür."
+      },
+      {
+        "q": "Farkındalık arttıkça veri ihlali riski gerçekten düşer mi, nasıl görürüm?",
+        "a": "Tek başına garanti vermez; ancak basit insan hatası kaynaklı bulguların (açık terminal, yanlış paylaşım) ve tekrar eden olayların zaman içinde azalması teorik olarak beklenir. Trend KPI’ları ve olay raporlarıyla bu ilişkiyi izleyebilirsiniz."
+      },
+      {
+        "q": "Bildirilen şüpheli mail sayısının artması kötü mü?",
+        "a": "Her zaman kötü değildir; başlangıçta farkındalığın arttığını gösterebilir. Olgunluk, bildirimlerin erken yapılması ve zaman içinde “basit hata” kaynaklı olayların azalmasıyla güçlenir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-hero-01.webp — Alt: “KVKK eğitim KPI’ları, otel kültürünü skor kartıyla ölçülebilir hale getirir”",
+          "h1-context — 1920×1080 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-h1-context-02.webp — Alt: “Eğitimden davranışa giden ölçüm akışı, KVKK olgunluğu için net çerçeve sunar”",
+          "divider-01 — 1600×1200 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-divider-03.webp — Alt: “KPI kümeleri: katılım, başarı, davranış ve bildirim metrikleriyle kültürü ölçer”",
+          "divider-02 — 1600×1200 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-divider-04.webp — Alt: “KVKK kültürü iyileştirme adımları, otel departmanları için uygulanabilir aksiyonlar”",
+          "diagram-05 — 1920×1080 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-diagram-05.webp — Alt: “Eğitim ve test periyodu zaman çizelgesi, ölçüm ve review döngüsünü gösterir”",
+          "checklist-06 — 1200×1200 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-checklist-06.webp — Alt: “Departman bazlı KVKK olgunluk ısı haritası, zayıf alanları hızlı görünür kılar”",
+          "kpi-07 — 1200×1200 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-kpi-07.webp — Alt: “KVKK eğitim ve farkındalık skor kartı, yönetim dashboard’u için anlaşılır ölçüm sağlar”",
+          "proof-08 — 1200×1200 — raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari-proof-08.webp — Alt: “Dashboard şablonu, KPI seti ve skor modeli çıktıları, denetimde olgunluk gösterir”",
+          "table-department-kvkk-maturity — Departman bazlı KVKK olgunluk matrisi (katılım/başarı/davranış/bildirim)"
+        ],
+        "technicalChecklist": [
+          "Katılım + başarı + davranış + bildirim birlikte ölçülüyor mu?",
+          "Departman kırılımı var mı?",
+          "Yeni başlayanlar için ayrı KPI var mı?",
+          "Yönetim özeti tek ekranda mı?",
+          "Isı haritası departman karşılaştırması sağlıyor mu?",
+          "Trend grafikleri var mı (iyileşme için)?",
+          "Skor bileşenleri herkesçe anlaşılır mı?",
+          "Departman bazlı sonuçlar aksiyona bağlanıyor mu?",
+          "Sirkülasyon dönemlerinde (sezon) ayrı takip var mı?",
+          "Test periyodu var mı (aylık/çeyreklik)?",
+          "Sonuçlar dashboard’a giriyor mu?",
+          "Düşük skor departmanlara aksiyon planı çıkıyor mu?"
+        ]
+      }
+    }
+  }
 
 }
