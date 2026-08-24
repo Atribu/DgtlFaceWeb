@@ -56530,6 +56530,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "Dashboard şablonu, KPI seti ve skor modeli çıktıları, denetimde olgunluk gösterir",
       caption: "Dashboard şablonu, KPI seti ve skor modeli çıktıları, denetimde olgunluk gösterir"
     },
+  },
+
+  "kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-1.webp",
+      alt: "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek",
+      caption: "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-2.webp",
+      alt: "Detay uyum raporlarından executive KPI kartlarına geçiş, yönetim diliyle özetler",
+      caption: "Detay uyum raporlarından executive KPI kartlarına geçiş, yönetim diliyle özetler"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-3.webp",
+      alt: "Yönetim için KVKK KPI seti, envanter-risk-aksiyon-olay-eğitim-vendor özetini verir",
+      caption: "Yönetim için KVKK KPI seti, envanter-risk-aksiyon-olay-eğitim-vendor özetini verir"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-4.webp",
+      alt: "KVKK aylık yönetim ajandası, toplantıda karar aldıran akışı netleştirir",
+      caption: "KVKK aylık yönetim ajandası, toplantıda karar aldıran akışı netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-5.webp",
+      alt: "Executive dashboard wireframe’i, 4–6 kart düzenini görselleştirir",
+      caption: "Executive dashboard wireframe’i, 4–6 kart düzenini görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-6.webp",
+      alt: "Top 10 aksiyon panosu ve risk önceliklendirme, yönetim için uygulanabilir kontrol sağlar",
+      caption: "Top 10 aksiyon panosu ve risk önceliklendirme, yönetim için uygulanabilir kontrol sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-7.webp",
+      alt: "KVKK executive KPI tablosu, 6 kartla ilerleme ve risk görünümünü sunar",
+      caption: "KVKK executive KPI tablosu, 6 kartla ilerleme ve risk görünümünü sunar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-15/Reporting4-15-8.webp",
+      alt: "Dashboard şablonu, KPI seti ve ajanda çıktıları, yönetimde standart oluşturur",
+      caption: "Dashboard şablonu, KPI seti ve ajanda çıktıları, yönetimde standart oluşturur"
+    },
+  },
+
+  "kamera-kayitlari-cctv-kvkk-raporlama":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-1.webp",
+      alt: "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı",
+      caption: "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-2.webp",
+      alt: "CCTV erişim logu ve retention döngüsü, denetimde kanıt üretir",
+      caption: "CCTV erişim logu ve retention döngüsü, denetimde kanıt üretir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-3.webp",
+      alt: "CCTV KVKK çerçevesi: envanter, politika, log ve rapor bileşenleri",
+      caption: "CCTV KVKK çerçevesi: envanter, politika, log ve rapor bileşenleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-4.webp",
+      alt: "Kat planı üzerinde kamera noktaları, resort otelde lokasyon ve amaç şeffaflığı sağlar",
+      caption: "Kat planı üzerinde kamera noktaları, resort otelde lokasyon ve amaç şeffaflığı sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-5.webp",
+      alt: "Talep→onay→izleme/export→log→rapor akışı, CCTV erişimini kontrol edilebilir kılar",
+      caption: "Talep→onay→izleme/export→log→rapor akışı, CCTV erişimini kontrol edilebilir kılar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-6.webp",
+      alt: "CCTV envanter ve erişim logu checklist’i, kim-ne zaman-hangi görüntü kanıtını standardize eder",
+      caption: "CCTV envanter ve erişim logu checklist’i, kim-ne zaman-hangi görüntü kanıtını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-7.webp",
+      alt: "Erişim ve export sayıları, silme job başarısı gibi KPI’lar CCTV riskini izler",
+      caption: "Erişim ve export sayıları, silme job başarısı gibi KPI’lar CCTV riskini izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-16/Reporting4-16-8.webp",
+      alt: "CCTV envanteri, yıllık rapor ve denetim paketi çıktıları, kurumsal hafızayı güçlendirir",
+      caption: "CCTV envanteri, yıllık rapor ve denetim paketi çıktıları, kurumsal hafızayı güçlendirir"
+    },
+  },
+
+  "cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-1.webp",
+      alt: "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak",
+      caption: "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-2.webp",
+      alt: "Aramadan arşive kayıt akışı, maskeleme ve erişim kontrol noktalarını gösterir",
+      caption: "Aramadan arşive kayıt akışı, maskeleme ve erişim kontrol noktalarını gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-3.webp",
+      alt: "KVKK uyumlu kayıt çerçevesi: amaç, saklama, erişim ve loglama bileşenleri",
+      caption: "KVKK uyumlu kayıt çerçevesi: amaç, saklama, erişim ve loglama bileşenleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-4.webp",
+      alt: "3 kritik risk ve 3 kontrol, call center kayıt riskini azaltır",
+      caption: "3 kritik risk ve 3 kontrol, call center kayıt riskini azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-5.webp",
+      alt: "Ses kayıt akış diyagramı: aramadan arşive ve rapora giden süreç",
+      caption: "Ses kayıt akış diyagramı: aramadan arşive ve rapora giden süreç"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-6.webp",
+      alt: "Mute/mask noktaları ve saklama-erişim matrisi checklist’i, hassas veriyi kayıttan uzak tutar",
+      caption: "Mute/mask noktaları ve saklama-erişim matrisi checklist’i, hassas veriyi kayıttan uzak tutar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-7.webp",
+      alt: "Erişim, export ve silme job KPI’ları, çağrı kayıt riskini dashboard’da izler",
+      caption: "Erişim, export ve silme job KPI’ları, çağrı kayıt riskini dashboard’da izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-17/Reporting4-17-8.webp",
+      alt: "Saklama ve erişim matrisi raporu, denetimde kanıt seti oluşturur",
+      caption: "Saklama ve erişim matrisi raporu, denetimde kanıt seti oluşturur"
+    },
+  },
+
+
+   "misafir-wifi-erisim-loglari-kvkk-raporlama":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-1.webp",
+      alt: "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi",
+      caption: "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-2.webp",
+      alt: "Teknik log ile pazarlama verisi ayrımı, misafir Wi-Fi akışında netleştirilir",
+      caption: "Teknik log ile pazarlama verisi ayrımı, misafir Wi-Fi akışında netleştirilir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-3.webp",
+      alt: "Wi-Fi’de toplanan veri katmanları, teknik log ve login verisini ayırır",
+      caption: "Wi-Fi’de toplanan veri katmanları, teknik log ve login verisini ayırır"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-4.webp",
+      alt: "Wi-Fi veri toplama hataları ve çözümler, KVKK riskini azaltır",
+      caption: "Wi-Fi veri toplama hataları ve çözümler, KVKK riskini azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-5.webp",
+      alt: "Misafir cihazından log raporuna Wi-Fi erişim akışı, kontrol noktalarını gösterir",
+      caption: "Misafir cihazından log raporuna Wi-Fi erişim akışı, kontrol noktalarını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-6.webp",
+      alt: "Wi-Fi log alanları ve saklama checklist’i, minimum veri yaklaşımını standardize eder",
+      caption: "Wi-Fi log alanları ve saklama checklist’i, minimum veri yaklaşımını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-7.webp",
+      alt: "Anonim Wi-Fi KPI kartı, pazarlama ve operasyon için güvenli özet sunar",
+      caption: "Anonim Wi-Fi KPI kartı, pazarlama ve operasyon için güvenli özet sunar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-18/Reporting4-18-8.webp",
+      alt: "Checklist ve denetim rapor paketi, Wi-Fi KVKK uyum kanıtı oluşturur",
+      caption: "Checklist ve denetim rapor paketi, Wi-Fi KVKK uyum kanıtı oluşturur"
+    },
   }
   
 };

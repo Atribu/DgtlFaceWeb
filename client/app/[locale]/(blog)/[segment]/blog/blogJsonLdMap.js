@@ -177620,6 +177620,1290 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek",
+
+      "name": "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "KVKK Executive Dashboard",
+
+        "Risk Score",
+
+        "Data Inventory",
+
+        "Incident",
+
+        "Training",
+
+        "Vendor Risk"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek",
+
+      "headline": "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek",
+
+      "name": "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek",
+
+      "description": "Yönetim için KVKK büyük resim paneli: veri envanteri, risk analizi, açık aksiyonlar, olaylar, eğitim skoru ve tedarikçi risk KPI’larını 4–6 kartta birleştirin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "yonetim icin kvkk dashboard",
+
+        "kvkk kpi seti ve risk skoru",
+
+        "buyuk resmi gosterenn ozet panel",
+
+        "executive kvkk dashboard hotel",
+
+        "data protection kpi board",
+
+        "privacy risk score reporting hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "KVKK Yönetim Dashboard ve KPI Tasarımı Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek#howto",
+
+      "name": "Otel için KVKK yönetim dashboard’u KPI’larla nasıl tasarlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "6 KPI setini belirleyin",
+
+          "text": "Envanter, risk kapsamı, açık aksiyon, incident trendi, eğitim skoru ve vendor/backup durumu KPI’larını seçin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Wireframe’i kurun",
+
+          "text": "4–6 kart düzeniyle yönetim ekranını tasarlayın; her karta trend ve next action ekleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Aksiyon panosunu bağlayın",
+
+          "text": "Top 10 açık konu panosunu owner ve due date ile yönetin; risk puanına göre önceliklendirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Toplantı ritmine oturtun",
+
+          "text": "Aylık yönetim ajandasıyla paneli düzenli okutup karar çıkarın ve KPI’ları 30/90/365 gün trendleriyle izleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "KVKK Yönetim Dashboard’ı",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK uyumu için yönetim dashboard’u nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "4–6 KPI kartıyla büyük resim hedeflenir: envanter, risk kapsamı, açık aksiyonlar, incident trendi, eğitim skoru ve vendor/backup durumu. Detay raporlar drill-down olarak arkada kalır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar üst yönetim için yeterli ve anlamlıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Envanter % tamamlanma, risk analizi kapsamı, açık/kapalı aksiyonlar, son 12 ay incident sayısı, eğitim skoru ve vendor/backup-test özeti genellikle yeterlidir; her KPI next action ile aksiyona bağlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK proje ilerleme durumunu dashboard’da nasıl gösteririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Envanter ve risk kapsamı KPI’larıyla birlikte Top 10 açık konu panosu oluşturun; owner, due date ve geciken aksiyon sayısı ilerlemeyi yönetim dilinde görünür kılar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK KPI’larını diğer risk ve performans raporlarıyla nasıl birleştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Zaman pencerelerini (30/90/365 gün) tutarlı yapıp risk→aksiyon→trend zincirini ortaklaştırın; benchmark ve satış raporlarıyla aynı owner/aksiyon kapanış sistemiyle bağlayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kamera-kayitlari-cctv-kvkk-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama",
+
+      "name": "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "CCTV",
+
+        "Camera Recording",
+
+        "Retention",
+
+        "Access Log",
+
+        "Hotel Security"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama",
+
+      "headline": "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı",
+
+      "name": "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı",
+
+      "description": "CCTV envanteri, saklama süresi, erişim yetkisi ve loglama ile otel kamera kayıtlarını KVKK uyumlu yönetin. Silme/üzerine yazma ve olay inceleme raporları oluşturun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "kamera kayitlari kvkk",
+
+        "otel cctv saklama ve raporlama",
+
+        "kamera erisim logu olusturma",
+
+        "hotel cctv kvkk uyumu",
+
+        "camera footage retention reporting",
+
+        "cctv access log best practices hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "CCTV Envanteri, Saklama ve Erişim Logu Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama#howto",
+
+      "name": "Otel için KVKK uyumlu CCTV saklama ve raporlama yapısı nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CCTV envanterini çıkarın",
+
+          "text": "Her kameranın lokasyonunu, amacını ve saklama grubunu envanter tablosunda kayıt altına alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Saklama ve erişim politikasını tanımlayın",
+
+          "text": "Saklama süresini grup bazında belirleyin; erişimi role göre sınırlayın ve export işlemlerini incident_id ile şartlandırın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişim ve silme süreçlerini loglayın",
+
+          "text": "Görüntü izleme/export işlemlerini erişim loguyla, silme/üzerine yazma süreçlerini job raporuyla kanıtlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Denetim paketini hazırlayın",
+
+          "text": "Envanter + erişim log özeti + silme job raporu + olay inceleme export listesiyle audit pack oluşturun."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri_guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CCTV Saklama ve Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kamera kayıtları (CCTV) KVKK açısından nasıl yönetilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CCTV yönetimi envanter + saklama politikası + role-based erişim + erişim/export logları ile yapılmalıdır. Her kameranın lokasyonu ve amacı kayıt altına alınmalı, erişimler loglanmalı ve süre dolan kayıtlar otomatik silme/üzerine yazma raporuyla kanıtlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otellerde kamera kayıtları ne kadar saklanmalı, nasıl raporlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kesin süreler hukuk birimiyle belirlenmelidir. Pratikte kamera grupları için saklama politikası tanımlanır; süre dolunca otomatik silme/üzerine yazma job’ları raporlanır ve denetimde envanter + job raporu + erişim log özeti birlikte sunulur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CCTV erişim loglarında hangi bilgiler tutulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kullanıcı/rol, tarih-saat, camera_id/lokasyon, işlem türü (view/export), incident_id (gerekçe) ve sonuç (success/fail) alanları tutulmalıdır; export işlemleri ayrıca listelenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri ihlali durumunda kamera kayıtlarıyla ilgili hangi kayıtlar önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Olay zaman aralığına ait erişim logları, hangi görüntünün kim tarafından export edildiği, export dosyasının nerede saklandığı ve saklama politikasının uygulandığını gösteren job raporları önemlidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk",
+
+      "name": "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Call Center Recording",
+
+        "Screen Recording",
+
+        "Retention",
+
+        "Access Log",
+
+        "Masking"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk",
+
+      "headline": "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak",
+
+      "name": "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak",
+
+      "description": "Ses ve ekran kayıtlarını KVKK uyumlu yönetin: amaç, saklama süresi, rol bazlı erişim, maskeleme/mute ve erişim loglarıyla denetimde sunulabilir rapor seti oluşturun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "cagri merkezi ses kaydi kvkk",
+
+        "ekran kaydi ve maskeleme",
+
+        "call center recording raporlama",
+
+        "call center voice recording kvkk",
+
+        "screen recording privacy hotel",
+
+        "mute and mask credit card calls"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Çağrı Merkezi Ses/Ekran Kayıtları Governance Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk#howto",
+
+      "name": "Otel çağrı merkezi ses ve ekran kayıtları KVKK uyumlu nasıl raporlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kayıt kapsamını ve amacı tanımlayın",
+
+          "text": "Rezervasyon/şikâyet çağrılarının hangi amaçla kaydedildiğini belirleyin ve çağrı türlerine göre sınıflandırın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Saklama ve erişim politikasını kurun",
+
+          "text": "Saklama süresini yazılı hale getirin; erişimi role göre sınırlayın ve export işlemlerini incident_id ile şartlandırın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Maskeleme/mute kontrol noktalarını uygulayın",
+
+          "text": "Hassas bilgi anlarında mute/mask/blur gibi kontrolleri prosedürle netleştirip uygulanabilir hale getirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişim ve silme süreçlerini loglayın",
+
+          "text": "Dinleme/izleme/export işlemlerini access log ile; silme/anonim süreçlerini job raporuyla kanıtlayın ve aylık rapora taşıyın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Çağrı Merkezi Kayıtları KVKK Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çağrı merkezi ses kayıtları KVKK’ya göre nasıl yönetilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kayıt amaçları tanımlanmalı, saklama süresi yazılı hale getirilmeli, erişim role göre sınırlandırılmalı ve dinleme/export işlemleri access log ile kanıtlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi çağrılar ne amaçla kaydedilebilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon ve şikâyet çağrıları kalite ve olay inceleme için kaydedilebilir; eğitim için hedefli örnekleme tercih edilmeli ve saklama politikası çağrı türüne göre sınıflandırılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ses ve ekran kayıtlarına erişim logları nasıl tutulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "User/rol, tarih-saat, recording_id, işlem türü (listen/view/export), gerekçe (incident_id/training_batch) ve sonuç alanlarıyla tutulmalıdır; export işlemleri ayrıca listelenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kredi kartı ve hassas bilgiler konuşulurken neler yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mümkünse ödeme anında ses kaydını mute etmek ve ekran kaydında hassas alanları maskelemek/blur etmek gerekir (sistem destekliyorsa). Bu kontrol noktaları prosedürle netleştirilmeli ve kanıtlanabilir şekilde raporlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"misafir-wifi-erisim-loglari-kvkk-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama",
+
+      "name": "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Wi-Fi Access Logs",
+
+        "MAC Address",
+
+        "IP",
+
+        "Device",
+
+        "Authentication",
+
+        "Anonymisation"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama",
+
+      "headline": "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi",
+
+      "name": "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi",
+
+      "description": "Misafir Wi-Fi loglarını KVKK’ya uygun yönetin: zorunlu teknik alanlar, minimum login verisi, şifreli/süreli saklama ve anonim raporlama.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "misafir wifi kvkk",
+
+        "erisim loglari ve kimlik dogrulama",
+
+        "wifi verisini anonim kullanma",
+
+        "hotel guest wifi logs kvkk",
+
+        "wifi authentication data minimisation",
+
+        "anonymous wifi analytics hospitality"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Misafir Wi-Fi Logları ve KVKK Teknik Governance Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama#howto",
+
+      "name": "Otel misafir Wi-Fi logları KVKK uyumlu nasıl raporlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Minimum veri alan setini belirleyin",
+
+          "text": "Teknik log alanlarını zorunlu/opsiyonel olarak sınıflandırın ve login ekranındaki PII alanlarını minimuma indirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Logları güvenli ve süreli saklayın",
+
+          "text": "Logları şifreli saklayın, erişimi role-based sınırlandırın ve retention policy’yi yazılı hale getirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Anonim raporlama katmanı oluşturun",
+
+          "text": "Pazarlama ve analitik için ham MAC/IP yerine saatlik yoğunluk ve segment bazlı aggregate KPI’lar üretin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Denetim paketi hazırlayın",
+
+          "text": "Wi-Fi log alan tablosu, erişim yetkisi, erişim logu özeti ve silme/temizleme kanıtlarıyla audit pack oluşturun."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Misafir Wi-Fi Logları KVKK Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafir Wi-Fi erişim logları KVKK’ya göre nasıl yönetilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Wi-Fi logları minimum teknik alan setiyle tutulmalı, şifreli ve sınırlı süre saklanmalı, erişim rol bazlı sınırlandırılmalı ve pazarlamaya yalnız anonim/aggregate KPI aktarılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi Wi-Fi log alanları zorunlu, hangileri gereksiz risk yaratır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Zorunlu alanlar genelde zaman, oturum, IP ve erişim noktası gibi teknik loglardır. İsim/doğum tarihi/kimlik gibi alanlar erişim için gereksizdir ve risk yaratır; toplanmamalı veya pazarlamaya aktarılmamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Login ekranında oda no/telefon gibi bilgileri nasıl sınırlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum doğrulama yaklaşımıyla yalnız erişim yetkilendirmesi için gerekli alanları kullanın. Oda no/telefon kullanılıyorsa amaç ve saklama net olmalı; bu veriler pazarlamaya kişi bazlı taşınmamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Wi-Fi verisini pazarlama/analitik tarafına nasıl anonimleştirerek aktarırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ham MAC/IP listeleri yerine saatlik yoğunluk, AP bazlı kullanım ve ortalama oturum süresi gibi aggregate KPI’lar üretin; pazarlama yalnız bu anonim metriklerle çalışmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 

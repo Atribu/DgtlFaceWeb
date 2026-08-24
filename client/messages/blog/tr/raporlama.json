@@ -55657,5 +55657,2620 @@
         ]
       }
     }
+  },
+
+   "BlogKvkkUyumundaYonetimDashboardiKpiIleBuyukResmiGormek": {
+    "title": "KVKK Yönetim Dashboard’u: 6 KPI ile Büyük Resim",
+    "slug": "kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Executive KVKK dashboard; envanter, risk analizi, aksiyonlar, olay trendi, eğitim skoru ve vendor/backup durumunu 4–6 kartta toplar. Yönetim toplantılarında net karar aldırır.",
+    "seo": {
+      "metaTitle": "KVKK Yönetim Dashboard’u: 6 KPI ile Büyük Resim | DGTLFACE",
+      "metaDescription": "Yönetim için KVKK büyük resim paneli: veri envanteri, risk analizi, açık aksiyonlar, olaylar, eğitim skoru ve vendor/backup özetini 4–6 kartta birleştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 15",
+        "Blog / URL: /tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (Executive)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek"
+      ],
+      "strategySummary": "KVKK uyumunun “gerçekten yönetilip yönetilmediğini” yalnız hukuk/IT değil, otel yönetimi ve yatırımcı da tek bakışta görmelidir. Bu içerik, dağınık uyum çıktılarını (veri envanteri, risk analizi, eğitim, olaylar, tedarikçi riskleri, yedek/restore testleri) 4–6 ana KPI kartına indirerek “büyük resmi” görünür kılan bir Executive View rehberidir. Antalya ve turizm bölgelerinde birden fazla oteli olan gruplar için, grup seviyesinde risk skorlarını tek panelden izleme senaryosuyla organizasyonel bağlam kurar. Ana iş sorusu: “Yönetim dashboard’unda hangi 4–6 KVKK KPI seçilmeli, proje ilerleme + açık aksiyonlar nasıl gösterilmeli ve bu KPI’lar diğer yönetim raporlarıyla nasıl birleştirilmeli?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "KVKK uyumunun yönetim tarafından izlenebilmesi için karmaşık teknik/hukuki detaylar yerine 4–6 KPI kartıyla “büyük resim” gösteren bir executive dashboard gerekir. Veri envanteri tamamlama oranı, risk analizi kapsamı, açık/kapalı aksiyonlar, son 12 ay olay/ihlal trendi, eğitim-farkındalık skoru ve vendor/backup-test durum özetleri; yönetimin “neredeyiz, hangi risk açık, hangi aksiyon bitti?” sorularına tek ekranda cevap verir.",
+      "sgeSummary": "Executive KVKK dashboard; envanter, risk analizi, aksiyonlar, olay trendi, eğitim skoru ve vendor/backup durumunu 4–6 kartta toplar. Yönetim toplantılarında net karar aldırır.",
+      "voiceAnswer": "KVKK yönetim panelinde envanter, risk, aksiyon, olay, eğitim ve vendor/backup KPI’larını 6 kartta toplayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, grup yöneticisi, yatırımcı, hukuk/IT liderleri",
+        "Ana KPI: Envanter %; risk analizi kapsamı; açık aksiyon sayısı; incident count (12 ay); training score; vendor/backup status",
+        "Entity/İlişki (AIO): Executive Dashboard → aggregates → many detailed reports into few KPIs; Risk Score → drives → action prioritization",
+        "GEO/Organizasyon: Antalya/turizm grupları; multi-otel tek panel senaryosu",
+        "Funnel: Executive strateji → dashboard tasarımı/danışmanlık",
+        "Çıktı: Wireframe (4–6 kart) + ilerleme panosu + aylık yönetim ajandası + indirilebilir şablon"
+      ]
+    },
+    "h1": {
+      "title": "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek",
+      "intro": "KVKK uyumu otelde sadece “dosyalar hazır mı?” sorusu değildir; yönetim açısından bu, operasyonel risk ve itibar riskinin yönetimi demektir. Bu yüzden iyi bir KVKK yönetim dashboard’u; hukuk ve IT’nin detay raporlarını tek ekranda anlaşılır 4–6 KPI kartına indirir ve yönetimin şu sorularına hızlı cevap verir: Neredeyiz? Hangi riskler açık? Hangi aksiyonlar bitti? Son dönemde olay trendi nasıl? Bu rehber, teknik detaya boğulmadan executive seviyede doğru KPI seçimini, layout’u ve raporların birleştirme mantığını anlatır.",
+      "quickSummary": [
+        "1. 6 KPI’yı “çekirdek set” ilan edin.",
+        "2. Detay raporları arkaya koyun (drill-down).",
+        "3. Her KPI için owner belirleyin (kimin sorumluluğu).",
+        "4. İlk ekranda 4–6 kartla büyük resmi gösterin.",
+        "5. KPI’ları risk → aksiyon → trend zinciriyle yönetime bağlayın."
+      ],
+      "ctaPrimary": {
+        "label": "KVKK Yönetim Dashboard & KPI Tasarım Danışmanlığı Al",
+        "text": "Otel/grup yapınıza uygun 6 KPI setini ve yönetim panelini birlikte tasarlayalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "KVKK Yönetim Dashboard & KPI Tasarım Danışmanlığı Al",
+        "text": "Grup/otel yapınıza uygun KPI’ları netleştirip paneli yayına alalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "KVKK Executive KPI & Dashboard Şablonunu İndir",
+        "text": "6 kart wireframe’i ve ajanda ile yönetim panelini hızlıca kurar, toplantılarda net karar alırsınız.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "yonetim-icin-kvkk-kpi-secimi",
+        "title": "Yönetim için hangi KVKK KPI’ları seçilmeli?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Executive KPI seçiminin kuralı: az ama karar verdiren. Yönetim; “hangi departman hangi log alanını tutuyor?” seviyesinde değil, “risk kapanıyor mu?” seviyesinde karar verir. Bu nedenle KPI’lar 6 başlıkta toplanabilir (4–6 kart hedefiyle)."
+          },
+          {
+            "type": "h3",
+            "text": "1) Veri envanteri tamamlama oranı (Coverage)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Envanter % (tamamlanan sistem/kaynak oranı)",
+              "Son güncelleme tarihi",
+              "Grup yapısında: otel bazlı kırılım (Antalya/Belek/Side gibi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Risk analizi kapsamı (Risk Coverage)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk analizi tamamlanan sistem sayısı",
+              "Yüksek riskli sistem sayısı (Varsayım: eşik tanımlı)",
+              "Trend: son 90 günde artış/azalış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3) Aksiyon panosu (Open/Closed Actions)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açık aksiyon sayısı",
+              "Bu ay kapanan aksiyon sayısı",
+              "Geciken aksiyon sayısı (owner + due date)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4) Olay/ihlal trendi (Incident Count – 12 ay)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 12 ay olay sayısı",
+              "Son 30 gün trend",
+              "Olay kategorileri (mail, açık terminal, yetkisiz erişim vb.)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "5) Eğitim ve farkındalık skoru (Training Score)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kurum skoru (0–100)",
+              "En düşük 2 departman (Varsayım: departman matrisi var)",
+              "Sezon onboarding etkisi (turizm sirkülasyonu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "6) Vendor + Backup/Test durum özeti (External & Resilience)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek riskli tedarikçi sayısı",
+              "Son restore testi tarihi (kritik sistem)",
+              "Backup kapsamı “yeşil/sarı/kırmızı” (yüksek seviye)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Multi-otel grup)"
+          },
+          {
+            "type": "p",
+            "text": "Bir grup otelde aynı PMS kullanılıyor ama farklı çağrı merkezi partnerleri var. Yönetim paneli, vendor risk skorunu tek kartta gösterip “hangi otelde tedarikçi riski daha yüksek?” sorusunu görünür kılar."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (KPI seçimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI sayısı 4–6 kartta kalıyor mu?",
+              "Her KPI “aksiyon”a bağlanıyor mu?",
+              "Otel/grup kırılımı gerektiğinde drill-down var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6 KPI’yı “çekirdek set” ilan edin.",
+              "Detay raporları arkaya koyun (drill-down).",
+              "Her KPI için owner belirleyin (kimin sorumluluğu)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-yonetim-dashboard-tasarimi",
+        "title": "KVKK yönetim dashboard’unu nasıl tasarlarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dashboard tasarımında amaç; yönetim toplantısında 5–7 dakikada “neredeyiz?” cevabını vermek ve karar çıkarmaktır. Bu yüzden wireframe basit olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "4–6 kart wireframe (önerilen layout)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üst sıra (3 kart): Envanter %, Risk kapsamı, Açık aksiyon",
+              "Alt sıra (3 kart): Incident trend, Eğitim skoru, Vendor+Backup status",
+              "Kartların altında kısa not: “Son güncelleme / owner / next action”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI kart tasarım prensibi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek sayı + trend oku (↑ ↓)",
+              "Eşik renkleri (yeşil/sarı/kırmızı) (Varsayım: kurum eşikleri)",
+              "“Next action” satırı (1 cümle)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KVKK proje ilerleme ve açık konular panosu"
+          },
+          {
+            "type": "p",
+            "text": "Yönetim için en değerli ikinci ekran:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açık aksiyon listesi (top 10)",
+              "Owner + due date + durum",
+              "Risk puanına göre sıralı (Varsayım: risk skoru var)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Risk analizi tamamlanan sistem sayısı artıyor ama açık aksiyonlar kapanmıyorsa; panel bunu net gösterir ve toplantı aksiyon çıkarır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (tasarım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk ekranda 4–6 kart var mı?",
+              "Her kart “trend + owner + next action” içeriyor mu?",
+              "Aksiyon panosu risk puanına göre sıralı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce wireframe’i onaylayın (kart sayısı sabit).",
+              "Sonra veri kaynaklarını bağlayın (envanter, risk, incident, eğitim).",
+              "Haftalık/aylık toplantı ritmine göre güncelleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-kpi-diger-yonetim-raporlari",
+        "title": "KVKK KPI’larını diğer yönetim raporlarıyla nasıl birleştirirsiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK paneli, “tek başına bir compliance ekranı” olmamalı; risk ve performans raporlarıyla aynı yönetim dilinde konuşmalı. Birleştirme mantığı:"
+          },
+          {
+            "type": "h3",
+            "text": "Birleştirme için 3 pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI’lar aynı zaman penceresinde olsun (30/90/365 gün)",
+              "KPI’lar aynı “owner” sistemine bağlı olsun (aksiyon kapanışı)",
+              "“Risk → aksiyon → trend” zinciri net olsun"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Raporlar arası bağlantı örnekleri (iç link mantığı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Benchmark analizi: operasyonel olgunluk ↔ KVKK olgunluk",
+              "Satış-dönüşüm raporları: ölçüm evreni ↔ consent/maskeleme",
+              "KVKK uyum hizmeti: aksiyon planı ↔ uygulama desteği"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (birleştirme)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KVKK paneli “risk yönetimi” diline bağlandı mı?",
+              "Aksiyon kapanışı diğer yönetim panolarıyla aynı mı?",
+              "KPI pencereleri tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KVKK panelini “risk yönetimi” sekmesine konumlandırın.",
+              "Her karttan ilgili detay rapora link verin (hub).",
+              "Yönetim toplantısında aynı ajanda ile okutun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-executive-kvkk-dashboard",
+        "title": "Oteller için örnek Executive KVKK dashboard’u (kart içeriği)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıda kartların örnek metinleri yer alır (yönetim dilinde):"
+          },
+          {
+            "type": "h3",
+            "text": "Kart 1 — Veri Envanteri"
+          },
+          {
+            "type": "p",
+            "text": "“Envanter Tamamlanma: %78 (↑ +6 puan / 30 gün) Next: Çağrı merkezi + mailing araçları envantere eklenecek.”"
+          },
+          {
+            "type": "h3",
+            "text": "Kart 2 — Risk Analizi Kapsamı"
+          },
+          {
+            "type": "p",
+            "text": "“Risk Analizi: 12/18 sistem (↑ +2) Next: PMS entegrasyonları için risk matrisi tamamlanacak.”"
+          },
+          {
+            "type": "h3",
+            "text": "Kart 3 — Açık Aksiyonlar"
+          },
+          {
+            "type": "p",
+            "text": "“Açık Aksiyon: 27 | Geciken: 6 Next: En riskli 5 aksiyon bu hafta kapatılacak.”"
+          },
+          {
+            "type": "h3",
+            "text": "Kart 4 — Olay Trendleri"
+          },
+          {
+            "type": "p",
+            "text": "“Son 12 Ay Olay: 9 | Son 30 gün: 1 Next: Yanlış mail senaryosu için mikro eğitim.”"
+          },
+          {
+            "type": "h3",
+            "text": "Kart 5 — Eğitim Skoru"
+          },
+          {
+            "type": "p",
+            "text": "“KVKK Kültür Skoru: 72/100 Next: Ön Büro ve Çağrı Merkezi için onboarding quiz.”"
+          },
+          {
+            "type": "h3",
+            "text": "Kart 6 — Vendor + Backup/Test"
+          },
+          {
+            "type": "p",
+            "text": "“Yüksek Riskli Vendor: 2 | Son Restore Test: 30 gün önce Next: Yedek lokasyonu kanıtı + vendor review.”"
+          },
+          {
+            "type": "table",
+            "caption": "Yönetim toplantısı özet KPI tablosu",
+            "headers": [
+              "KPI",
+              "Değer",
+              "Trend / Durum",
+              "Next Action"
+            ],
+            "rows": [
+              [
+                "Veri Envanteri",
+                "%78",
+                "↑ +6 puan / 30 gün",
+                "Çağrı merkezi + mailing araçları envantere eklenecek."
+              ],
+              [
+                "Risk Analizi Kapsamı",
+                "12/18 sistem",
+                "↑ +2",
+                "PMS entegrasyonları için risk matrisi tamamlanacak."
+              ],
+              [
+                "Açık Aksiyonlar",
+                "27",
+                "Geciken: 6",
+                "En riskli 5 aksiyon bu hafta kapatılacak."
+              ],
+              [
+                "Olay Trendleri",
+                "Son 12 Ay Olay: 9",
+                "Son 30 gün: 1",
+                "Yanlış mail senaryosu için mikro eğitim."
+              ],
+              [
+                "Eğitim Skoru",
+                "72/100",
+                "",
+                "Ön Büro ve Çağrı Merkezi için onboarding quiz."
+              ],
+              [
+                "Vendor + Backup/Test",
+                "Yüksek Riskli Vendor: 2",
+                "Son Restore Test: 30 gün önce",
+                "Yedek lokasyonu kanıtı + vendor review."
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-aylik-yonetim-toplantisi-ajandasi",
+        "title": "KVKK için aylık yönetim toplantısı ajandası",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "6 KPI kartı (5 dk)",
+              "Açık aksiyonlar: top 10 (10 dk)",
+              "Incident/olay özeti: son 30 gün (5 dk)",
+              "Vendor + Backup/Test: kritik riskler (5 dk)",
+              "Önümüzdeki 30 gün planı (5 dk)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "KVKK Executive KPI & Dashboard Şablonunu İndir",
+            "text": "6 kart wireframe’i ve ajanda ile yönetim panelini hızlıca kurar, toplantılarda net karar alırsınız.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "KVKK Yönetim Dashboard & KPI Tasarım Danışmanlığı Al",
+            "text": "Grup/otel yapınıza uygun KPI’ları netleştirip paneli yayına alalım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/raporlama, /tr/raporlama/benchmark-analizi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-executive-kpi-dashboard-sablonu",
+        "title": "KVKK Executive KPI & Dashboard Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_plan",
+            "version": "v1.0",
+            "title": "KVKK Executive KPI & Dashboard Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, otellerin KVKK uyumunu yönetim seviyesinde 4–6 KPI kartıyla izleyebilmesi için “executive dashboard” iskeleti sunar. Amaç; envanter, risk, aksiyon, olay, eğitim ve vendor/backup durumlarını tek bakışta görünür kılmak ve aylık yönetim toplantılarında “neredeyiz, hangi risk açık, hangi aksiyon bitti?” sorularını birkaç kartla yanıtlamaktır. Multi-otel gruplar için otel bazlı drill-down alanı da önerir.",
+            "whoFor": "GM/otel sahibi, grup yöneticisi, hukuk/IT liderleri, yatırımcı sunum ekibi.",
+            "steps": [
+              "6 KPI kartının veri kaynaklarını belirleyin (envanter, risk, incident, eğitim, vendor, backup).",
+              "Kartlara eşik (yeşil/sarı/kırmızı) ve “next action” satırı ekleyin.",
+              "Aylık toplantı ajandasıyla paneli ritme bağlayın ve top 10 aksiyon panosunu güncel tutun."
+            ],
+            "checklist": [
+              "A) Executive 6 KPI Kart Şablonu (kopyala–yapıştır)",
+              "1. Envanter Tamamlanma (%)",
+              "Değer: ____ | Trend (30 gün): ____ | Owner: ____ | Next: ____",
+              "2. Risk Analizi Kapsamı (X/Y sistem)",
+              "Değer: ____ | Trend: ____ | Owner: ____ | Next: ____",
+              "3. Açık Aksiyonlar (Toplam / Geciken)",
+              "Değer: ____ / ____ | Owner: ____ | Next: ____",
+              "4. Incident (Son 12 Ay / Son 30 Gün)",
+              "Değer: ____ / ____ | Owner: ____ | Next: ____",
+              "5. Eğitim & Farkındalık Skoru (0–100)",
+              "Değer: ____ | En düşük departman: ____ | Next: ____",
+              "6. Vendor + Backup/Test Durumu",
+              "Yüksek risk vendor: ____ | Son restore testi: ____ | Next: ____",
+              "B) KVKK Proje İlerleme & Açık Konular Panosu (Top 10)",
+              "C) Aylık Yönetim Ajandası (30 dk)",
+              "D) 30 Günlük Sprint Planı (paneli canlıya alma)",
+              "E) Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "6 kart wireframe",
+              "Top 10 aksiyon panosu",
+              "Aylık ajanda + sprint planı"
+            ],
+            "href": "/downloads/kvkk-executive-kpi-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "KVKK Executive KPI & Dashboard Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK uyumu için yönetim dashboard’u nasıl tasarlanır?",
+        "a": "4–6 KPI kartıyla büyük resim hedeflenir: envanter, risk kapsamı, açık aksiyonlar, olay trendi, eğitim skoru ve vendor/backup durumu. Detay raporlar arkada drill-down olarak kalır; toplantıda karar aldıran panel önde olur."
+      },
+      {
+        "q": "Hangi KPI’lar üst yönetim için yeterli ve anlamlıdır?",
+        "a": "Envanter % tamamlanma, risk analizi kapsamı, açık/kapalı aksiyonlar, son 12 ay incident sayısı, eğitim-farkındalık skoru ve vendor/backup-test özeti genellikle yeterlidir. Her KPI “next action” ile aksiyona bağlanmalıdır."
+      },
+      {
+        "q": "KVKK proje ilerleme durumunu dashboard’da nasıl gösteririm?",
+        "a": "“Top 10 açık konu” panosu ve envanter/risk kapsamı KPI’ları ile gösterin. Owner, due date ve geciken aksiyon sayısı yönetim için en kritik ilerleme göstergeleridir."
+      },
+      {
+        "q": "KVKK KPI’larını diğer risk ve performans raporlarıyla nasıl birleştiririm?",
+        "a": "Zaman pencerelerini (30/90/365 gün) tutarlı hale getirip “risk→aksiyon→trend” zincirini ortaklaştırın. Benchmark ve satış-dönüşüm raporlarıyla aynı yönetim dilinde, aynı owner/aksiyon kapanış sistemiyle bağlayın."
+      },
+      {
+        "q": "Multi-otel gruplarda KVKK dashboard’u nasıl kurgulanmalı?",
+        "a": "Grup seviyesinde 6 KPI kartı + otel bazlı drill-down önerilir. Böylece hangi otelde risk skoru yüksek, hangi otelde aksiyonlar gecikiyor tek panelden izlenir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-hero-01.webp — Alt: “KVKK yönetim dashboard’u, 6 KPI kartıyla büyük resmi tek bakışta gösterir”",
+          "h1-context — 1920×1080 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-h1-context-02.webp — Alt: “Detay uyum raporlarından executive KPI kartlarına geçiş, yönetim diliyle özetler”",
+          "divider-01 — 1600×1200 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-divider-03.webp — Alt: “Yönetim için KVKK KPI seti, envanter-risk-aksiyon-olay-eğitim-vendor özetini verir”",
+          "divider-02 — 1600×1200 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-divider-04.webp — Alt: “KVKK aylık yönetim ajandası, toplantıda karar aldıran akışı netleştirir”",
+          "diagram-05 — 1920×1080 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-diagram-05.webp — Alt: “Executive dashboard wireframe’i, 4–6 kart düzenini görselleştirir”",
+          "checklist-06 — 1200×1200 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-checklist-06.webp — Alt: “Top 10 aksiyon panosu ve risk önceliklendirme, yönetim için uygulanabilir kontrol sağlar”",
+          "kpi-07 — 1200×1200 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-kpi-07.webp — Alt: “KVKK executive KPI tablosu, 6 kartla ilerleme ve risk görünümünü sunar”",
+          "proof-08 — 1200×1200 — kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek-proof-08.webp — Alt: “Dashboard şablonu, KPI seti ve ajanda çıktıları, yönetimde standart oluşturur”",
+          "table-executive-kvkk-kpi-summary — Yönetim toplantısı özet KPI tablosu (6 KPI + trend + next action)"
+        ],
+        "technicalChecklist": [
+          "KPI sayısı 4–6 kartta kalıyor mu?",
+          "Her KPI “aksiyon”a bağlanıyor mu?",
+          "Otel/grup kırılımı gerektiğinde drill-down var mı?",
+          "İlk ekranda 4–6 kart var mı?",
+          "Her kart “trend + owner + next action” içeriyor mu?",
+          "Aksiyon panosu risk puanına göre sıralı mı?",
+          "KVKK paneli “risk yönetimi” diline bağlandı mı?",
+          "Aksiyon kapanışı diğer yönetim panolarıyla aynı mı?",
+          "KPI pencereleri tutarlı mı?",
+          "6 KPI kartının veri kaynakları tanımlı mı?",
+          "Kartlarda eşik ve next action alanı var mı?",
+          "Top 10 aksiyon panosu güncel mi?",
+          "Aylık yönetim toplantısı ritmi tanımlı mı?",
+          "Multi-otel yapıda otel bazlı drill-down mevcut mu?"
+        ]
+      }
+    }
+  },
+
+   "BlogKameraKayitlariCctvKvkkRaporlama": {
+    "title": "Otel CCTV KVKK Raporlama: Saklama ve Erişim Logu",
+    "slug": "kamera-kayitlari-cctv-kvkk-raporlama",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CCTV uyumu; kamera envanteri + saklama süresi + erişim logu + silme/üzerine yazma raporudur. Olay incelemede dışa aktarılan görüntüler ayrı izlenir ve kanıt seti oluşur.",
+    "seo": {
+      "metaTitle": "Otel CCTV KVKK Raporlama: Saklama ve Erişim Logu | DGTLFACE",
+      "metaDescription": "CCTV envanteri, saklama süresi, erişim yetkisi ve loglama ile otel kamera kayıtlarını KVKK uyumlu yönetin. Silme/üzerine yazma ve olay inceleme raporları oluşturun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 16",
+        "Blog / URL: /tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/kamera-kayitlari-cctv-kvkk-raporlama"
+      ],
+      "strategySummary": "CCTV kayıtları, otellerde güvenlik için zorunlu ama KVKK açısından en hassas veri setlerinden biridir; bu nedenle “kamera var” demek yetmez, envanter + erişim logu + saklama/silme raporu gerekir. Hedef persona; GM/otel sahibi, güvenlik yöneticisi, IT/teknik ekip ve operasyon yöneticisidir: hangi kameranın nerede ne amaçla kayıt aldığını, kaydın ne kadar saklandığını ve kimlerin hangi şartlarda eriştiğini kanıtlamak ister. Antalya ve resort otellerde (havuz, lobi, asansör önü, ortak alanlar) kamera sayısı arttıkça yönetim zorlaşır; bu içerik karmaşayı “standart rapor seti” ile azaltmayı hedefler. Ana iş sorusu: “CCTV saklama, erişim ve olay inceleme süreçlerini nasıl standardize eder, loglar ve denetimde rapor olarak sunarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otellerde CCTV kayıtları güvenlik için gerekli olsa da KVKK açısından en hassas veri setlerinden biridir. KVKK uyumlu yönetim; her kamerayı lokasyon ve amaç bilgisiyle envantere almak, saklama süresi ve erişim yetkilerini role göre sınırlandırmak, görüntüye erişim ve dışa aktarma işlemlerini loglamak ve süre dolan kayıtların silinmesini/üzerine yazılmasını raporlamaktır. Böylece denetimde ve olay incelemede “kim, neye, ne zaman erişti?” kanıtlanır.",
+      "sgeSummary": "CCTV uyumu; kamera envanteri + saklama süresi + erişim logu + silme/üzerine yazma raporudur. Olay incelemede dışa aktarılan görüntüler ayrı izlenir ve kanıt seti oluşur.",
+      "voiceAnswer": "Her kamerayı envantere alın, saklama süresi ve erişimi sınırlayın, görüntü erişimlerini loglayıp raporlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, güvenlik, IT, operasyon",
+        "Ana KPI: Envanter tamlığı, erişim log kapsamı, dışa aktarma sayısı, silme/üzerine yazma job başarı oranı, olay inceleme süresi",
+        "Entity/İlişki (AIO): CCTV → captures → visual personal data; AccessLog → records → who viewed which footage",
+        "GEO: Türkiye + Antalya resort; yoğun kamera alanları (havuz, lobi, asansör önü)",
+        "Funnel: Operasyonel governance → risk analizi/danışmanlık",
+        "Çıktı: Kat planı şeması + CCTV envanter tablosu + yıllık rapor mockup + 3 risk senaryosu"
+      ]
+    },
+    "h1": {
+      "title": "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı",
+      "intro": "CCTV sistemleri otellerde güvenlik, olay inceleme ve operasyonel kontrol için vazgeçilmez olabilir; ancak KVKK açısından kamera görüntüsü, çoğu zaman görsel kişisel veri niteliği taşır. Bu yüzden kritik olan “kamera sayısı” değil; hangi kameranın nerede, hangi amaçla kayıt aldığı, ne kadar saklandığı, kimlerin hangi şartlarda erişebildiği ve erişim/çıktı alma işlemlerinin nasıl loglandığıdır. Bu rehber, hukuki metin detayı yerine teknik/operasyonel governance yaklaşımıyla; CCTV envanteri, saklama–silme/üzerine yazma döngüsü, erişim logu ve denetimde sunulacak rapor setini adım adım kurar.",
+      "quickSummary": [
+        "1. Envanteri çıkarın (kamera→lokasyon→amaç).",
+        "2. Saklama ve erişim politikasını yazılı hale getirin.",
+        "3. Erişim ve export işlemlerini loglayın.",
+        "4. Silme/üzerine yazma job raporlarını düzenli üretin.",
+        "5. CCTV denetim paketini envanter + politika + log + rapor yapısıyla standardize edin."
+      ],
+      "ctaPrimary": {
+        "label": "CCTV Envanteri & KVKK Risk Analizi Talep Et",
+        "text": "Kamera envanterinizi, saklama–erişim politikanızı ve log/rapor setinizi otelinize özel kuralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CCTV Envanteri & KVKK Risk Analizi Talep Et",
+        "text": "Resort otelinizin CCTV envanterini, saklama politikasını ve denetim rapor setini birlikte çıkaralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir",
+        "text": "Envanter tablosu ve erişim log alanlarıyla CCTV rapor paketini hızla kurarsınız.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "kamera-kayitlari-kvkk-uyumlu-cerceve",
+        "title": "Kamera kayıtları için KVKK uyumlu çerçeve nedir?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "KVKK uyumlu CCTV çerçevesi, “kamera çalışıyor mu?”dan çok daha fazlasıdır. En iyi pratik yaklaşım; CCTV’yi envanter + politika + log + rapor şeklinde dört parçaya bölmektir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Envanter: Hangi kamera nerede, hangi amaçla kayıt alıyor?",
+              "Politika: Saklama süresi, erişim koşulları, dışa aktarma kuralları nedir?",
+              "Log: Kim, hangi görüntüye, ne zaman, hangi işlemle erişti?",
+              "Rapor: Silme/üzerine yazma ve olay inceleme çıktıları denetime nasıl sunulur?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığı:"
+          },
+          {
+            "type": "p",
+            "text": "CCTV → captures → visual personal data"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden CCTV verisi, hem erişim hem de saklama açısından “yüksek hassasiyet” sınıfında yönetilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otellerde CCTV kurulum alanları ve amaçlar (yüksek seviye)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Giriş, lobby: güvenlik ve olay inceleme",
+              "Koridor ve asansör önü: güvenlik kritik geçiş noktaları",
+              "Ortak alanlar (havuz, restoran girişleri): güvenlik ve yoğunluk kontrolü (Varsayım: operasyonel gerekçe)",
+              "Depo/arka alan: varlık güvenliği",
+              "Kasa/finans alanı çevresi: yüksek riskli alanlar (Varsayım: varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya resort)"
+          },
+          {
+            "type": "p",
+            "text": "Havuz ve lobi gibi alanlarda kamera sayısı artar. Bu artış, envanter yoksa “hangi kameranın görüntüsü nerede tutuluyor, kim erişiyor?” sorusunu kaosa çevirir. Envanter + erişim logu yaklaşımı bu karmaşayı düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kamera envanteri var mı (lokasyon + amaç)?",
+              "Saklama süresi yazılı mı (politika)?",
+              "Erişim logları var mı (kim/ne zaman/niçin)?",
+              "Olay inceleme export’ları ayrı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Envanteri çıkarın (kamera→lokasyon→amaç).",
+              "Saklama ve erişim politikasını yazılı hale getirin.",
+              "Erişim ve export işlemlerini loglayın; denetim klasörüne raporlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "cctv-saklama-erisim-surecleri",
+        "title": "CCTV saklama ve erişim süreçlerini nasıl raporlamalısınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, otellerin en çok zorlandığı yerdir: saklama ve erişim “sözde” kalırsa denetimde kanıt üretilemez. Ama raporlanırsa hem risk azalır hem operasyon hızlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Saklama süresi (Retention) — “ne kadar” sorusu"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehber, kesin süre rakamı vermez; çünkü saklama süreleri hukuk birimi ve işletme ihtiyaçlarıyla belirlenmelidir. Ancak raporlama mantığı nettir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Saklama süresi “kamera grubu” bazında tanımlanır (kritik alan vs. genel alan)",
+              "Süre dolunca kayıt otomatik silinir/üzerine yazılır",
+              "Bu süreç “job” olarak loglanır ve rapora girer"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Erişim yetkisi (Access) — “kim” sorusu"
+          },
+          {
+            "type": "p",
+            "text": "En iyi pratik; CCTV erişimini role göre sınırlamak:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Güvenlik yöneticisi: olay bazlı görüntü erişimi",
+              "IT/Admin: sistem yönetimi (görüntü izleme değil, Varsayım: sınırlı)",
+              "GM/Üst yönetim: sadece gerekirse, olay bazlı onay mekanizması",
+              "Genel personel: erişim yok"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Loglama — “ne zaman/ne yaptı” sorusu"
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığını bağlayalım:"
+          },
+          {
+            "type": "p",
+            "text": "AccessLog → records → who viewed which footage"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden erişim loglarında en az şu alanlar olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "user/role",
+              "timestamp",
+              "camera_id / location",
+              "action (view/export/delete)",
+              "reason (incident_id)",
+              "result (success/fail)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (saklama+erişim)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Saklama politika dokümanı var mı?",
+              "Role-based erişim listesi net mi?",
+              "Export işlemleri loglanıyor mu?",
+              "Silme/üzerine yazma “job” raporu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Saklama politikasını kamera gruplarıyla yazın.",
+              "Erişim onay akışını (incident_id) zorunlu kılın.",
+              "Export sayısını KPI olarak izleyin (risk sinyali)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "cctv-envanteri-nasil-cikarilir",
+        "title": "CCTV envanterini nasıl çıkarırsınız? (kamera–lokasyon–amaç)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Envanter, CCTV yönetiminin omurgasıdır. Kamera sayısı arttıkça “kurumsal hafıza” kaybolur; envanter bunu sabitler."
+          },
+          {
+            "type": "h3",
+            "text": "CCTV envanter tablosu (örnek)"
+          },
+          {
+            "type": "table",
+            "caption": "CCTV envanter tablosu (örnek)",
+            "headers": [
+              "Camera ID",
+              "Lokasyon",
+              "Alan Tipi",
+              "Amaç",
+              "Saklama Grubu",
+              "Erişim Rolleri",
+              "Export Yetkisi",
+              "Not"
+            ],
+            "rows": [
+              [
+                "C-001",
+                "Lobby giriş",
+                "Ortak",
+                "Güvenlik",
+                "G1",
+                "SecMgr",
+                "Olay bazlı",
+                ""
+              ],
+              [
+                "C-014",
+                "Asansör önü",
+                "Kritik geçiş",
+                "Güvenlik",
+                "G1",
+                "SecMgr",
+                "Olay bazlı",
+                ""
+              ],
+              [
+                "C-032",
+                "Havuz alanı",
+                "Ortak",
+                "Güvenlik/kalabalık",
+                "G2",
+                "SecMgr",
+                "Olay bazlı",
+                ""
+              ],
+              [
+                "C-041",
+                "Depo kapısı",
+                "Arka alan",
+                "Varlık",
+                "G1",
+                "SecMgr",
+                "Olay bazlı",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Saklama grupları (G1/G2) işletme ve hukukla netleşir; raporlama için grup mantığı yeterlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Kat planı üstünde kamera noktaları"
+          },
+          {
+            "type": "p",
+            "text": "Otelin kat planı üzerinde kamera noktalarını işaretleyen illüstratif bir şema, denetimde ve olay incelemede hız sağlar. Bu şema “kamera var mı?” değil, “hangi kamera nerede?” sorusunu tek bakışta cevaplar."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (envanter)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her kameranın ID’si ve lokasyonu var mı?",
+              "Amaç ve saklama grubu yazıldı mı?",
+              "Erişim rolleri ve export kuralı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Envanteri 1 gün içinde çıkarın (minimum viable).",
+              "Kamera noktalarını plan üzerinde işaretleyin.",
+              "Envanteri yılda 1 güncelleyin (Refresh 365)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "cctv-silme-uzerine-yazma-raporlama",
+        "title": "CCTV silme/üzerine yazma süreçlerini raporlamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CCTV’de en kritik kanıt seti; saklama süresi dolan kayıtların otomatik silinmesi/üzerine yazılması ve bunun loglanmasıdır. Bu, “gerektiği kadar saklama” prensibini operasyonel hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Silme/üzerine yazma job log alanları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "job_id",
+              "executed_at",
+              "camera_group (G1/G2)",
+              "retention_policy_version (Varsayım)",
+              "records_affected (saat/gün bazlı)",
+              "result (success/fail)",
+              "evidence_link (rapor dosyası)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek kayıt"
+          },
+          {
+            "type": "p",
+            "text": "“2026-01-12 tarihinde G2 kamera grubunun saklama süresi dolan kayıtları otomatik üzerine yazma ile temizlendi; job success.”"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (silme raporu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Job log’u var mı?",
+              "Hangi grup/kamera kapsamı net mi?",
+              "Başarısız job’lar aksiyona bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Job loglarını aylık rapora ekleyin.",
+              "Başarısız job için alarm/aksiyon tanımlayın.",
+              "Retention politika değişikliklerini versiyonlayın (Varsayım: mümkünse)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cctv-denetim-olay-inceleme-raporlari",
+        "title": "Denetim ve olay incelemede kullanılacak CCTV raporları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Denetimde “CCTV var mı?” sorusu değil; “kontrol edilebilir mi?” sorusu gelir. Olay incelemede ise “hangi görüntü çıkarıldı, kim erişti, nerede saklandı?” soruları kritikleşir."
+          },
+          {
+            "type": "h3",
+            "text": "Denetim paketi (audit pack) için minimum CCTV rapor seti"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "CCTV envanteri (kamera–lokasyon–amaç)",
+              "Saklama politikası özeti (gruplar)",
+              "Erişim log özeti (son 90 gün)",
+              "Export/çıktı alma listesi (incident_id ile)",
+              "Silme/üzerine yazma job raporu (aylık/yıllık)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3 örnek CCTV risk senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Risk: Çok fazla kişi erişiyor → Çözüm: rol bazlı erişim + onay + log",
+              "Risk: Export’lar kontrolsüz → Çözüm: incident_id zorunlu + export listesi raporu",
+              "Risk: Saklama süresi belirsiz → Çözüm: grup bazlı politika + job raporu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Kamera sayısı arttıkça “nerede saklanıyor ve kim erişiyor?” yönetimi zorlaşır; envanter + erişim logu yaklaşımı bu karmaşayı azaltarak denetimde daha net yanıt üretmeyi teorik olarak kolaylaştırır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir",
+            "text": "Envanter tablosu ve erişim log alanlarıyla CCTV rapor paketini hızla kurarsınız.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CCTV Envanteri & KVKK Risk Analizi Talep Et",
+            "text": "Resort otelinizin CCTV envanterini, saklama politikasını ve denetim rapor setini birlikte çıkaralım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: Teknik altyapı ve loglama yaklaşımı için /tr/yazilim/sunucu-guvenlik; uyum çerçevesi için /tr/yazilim/kvkk-uyum-hizmeti; silo sayfası için /tr/raporlama/kvkk-veri-guvenligi."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kamera-saklama-erisim-logu-sablonu",
+        "title": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, otellerin CCTV kayıtlarını KVKK uyumlu şekilde yönetebilmesi için kamera envanteri, saklama grupları, erişim rolleri ve erişim/export loglarını tek formatta toplamayı sağlar. Amaç; “hangi kamera nerede, kim erişti, ne kadar saklandı” sorularını denetimde hızlı yanıtlamak ve olay incelemede export edilen görüntülerin izini kaybetmemektir.",
+            "whoFor": "Güvenlik yöneticisi, IT/teknik ekip, operasyon lideri, GM (onay).",
+            "steps": [
+              "Kamera envanterini lokasyon–amaç–saklama grubu ile doldurun.",
+              "Erişim ve export işlemlerini incident_id ile loglayın.",
+              "Aylık job raporu (silme/üzerine yazma) ile kanıt setini tamamlayın."
+            ],
+            "checklist": [
+              "TEMPLATE – CCTV Envanter Tablosu (kopyala–yapıştır)",
+              "TEMPLATE – CCTV Erişim Logu (kopyala–yapıştır)",
+              "TEMPLATE – Silme/Üzerine Yazma Job Raporu",
+              "10 Maddelik CCTV Mini Check",
+              "Kamera envanteri tamamlandı",
+              "Kat planı şeması güncel",
+              "Saklama grupları tanımlı",
+              "Erişim rolleri role-based",
+              "Export incident_id ile takip ediliyor",
+              "Erişim logları düzenli kontrol ediliyor",
+              "Silme/üzerine yazma job raporu üretiliyor",
+              "Başarısız job aksiyona bağlanıyor",
+              "Olay inceleme export listesi tutuluyor",
+              "Yıllık CCTV raporu audit pack’e ekleniyor",
+              "Deliverables",
+              "CCTV envanteri",
+              "Erişim/export logları",
+              "Job raporu + yıllık özet"
+            ],
+            "href": "/downloads/kamera-saklama-suresi--erisim-logu-sablonu-v1.0.pdf",
+            "buttonLabel": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kamera kayıtları (CCTV) KVKK açısından nasıl yönetilmeli?",
+        "a": "Envanter + saklama politikası + erişim yetkisi + erişim/export logları birlikte yönetilmelidir. Her kameranın lokasyonu ve amacı kayıt altına alınmalı, erişim role göre sınırlandırılmalı ve görüntüye erişimler loglanmalıdır."
+      },
+      {
+        "q": "Otellerde kamera kayıtları ne kadar saklanmalı, nasıl raporlanmalı?",
+        "a": "Kesin süreler hukuk birimiyle belirlenmelidir; pratikte kamera grupları için saklama politikası tanımlanır ve süre dolunca otomatik silme/üzerine yazma job’ları raporlanır. Denetimde envanter + job raporu + erişim log özeti birlikte sunulur."
+      },
+      {
+        "q": "CCTV erişim loglarında hangi bilgiler tutulmalı?",
+        "a": "Kullanıcı/rol, tarih-saat, camera_id/lokasyon, işlem türü (view/export), incident_id (gerekçe) ve sonuç (success/fail) alanları tutulmalıdır. Export işlemleri ayrıca listelenmelidir."
+      },
+      {
+        "q": "Veri ihlali durumunda kamera kayıtlarıyla ilgili hangi kayıtlar önemli?",
+        "a": "Olayın zaman aralığına ait erişim logları, hangi görüntünün kim tarafından export edildiği, export dosyasının nerede saklandığı ve saklama politikasının uygulandığını gösteren job raporları önemlidir."
+      },
+      {
+        "q": "Çok kamera olan otellerde yönetim neden zorlaşır?",
+        "a": "Kamera sayısı arttıkça lokasyon/amaç ve erişim sahipliği belirsizleşebilir. Envanter + log yaklaşımı bu karmaşayı azaltır ve denetimde daha hızlı, net yanıt üretir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kamera-kayitlari-cctv-kvkk-raporlama-hero-01.webp — Alt: “Otel CCTV kayıt yönetimi, KVKK uyumlu saklama ve erişim logu ile kontrol edilir”",
+          "h1-context — 1920×1080 — kamera-kayitlari-cctv-kvkk-raporlama-h1-context-02.webp — Alt: “CCTV erişim logu ve retention döngüsü, denetimde kanıt üretir”",
+          "divider-01 — 1600×1200 — kamera-kayitlari-cctv-kvkk-raporlama-divider-03.webp — Alt: “CCTV KVKK çerçevesi: envanter, politika, log ve rapor bileşenleri”",
+          "divider-02 — 1600×1200 — kamera-kayitlari-cctv-kvkk-raporlama-divider-04.webp — Alt: “Kat planı üzerinde kamera noktaları, resort otelde lokasyon ve amaç şeffaflığı sağlar”",
+          "diagram-05 — 1920×1080 — kamera-kayitlari-cctv-kvkk-raporlama-diagram-05.webp — Alt: “Talep→onay→izleme/export→log→rapor akışı, CCTV erişimini kontrol edilebilir kılar”",
+          "checklist-06 — 1200×1200 — kamera-kayitlari-cctv-kvkk-raporlama-checklist-06.webp — Alt: “CCTV envanter ve erişim logu checklist’i, kim-ne zaman-hangi görüntü kanıtını standardize eder”",
+          "kpi-07 — 1200×1200 — kamera-kayitlari-cctv-kvkk-raporlama-kpi-07.webp — Alt: “Erişim ve export sayıları, silme job başarısı gibi KPI’lar CCTV riskini izler”",
+          "proof-08 — 1200×1200 — kamera-kayitlari-cctv-kvkk-raporlama-proof-08.webp — Alt: “CCTV envanteri, yıllık rapor ve denetim paketi çıktıları, kurumsal hafızayı güçlendirir”",
+          "table-cctv-inventory — CCTV envanter tablosu (kamera, lokasyon, amaç, saklama, erişim, log)"
+        ],
+        "technicalChecklist": [
+          "Kamera envanteri var mı (lokasyon + amaç)?",
+          "Saklama süresi yazılı mı (politika)?",
+          "Erişim logları var mı (kim/ne zaman/niçin)?",
+          "Olay inceleme export’ları ayrı izleniyor mu?",
+          "Saklama politika dokümanı var mı?",
+          "Role-based erişim listesi net mi?",
+          "Export işlemleri loglanıyor mu?",
+          "Silme/üzerine yazma “job” raporu var mı?",
+          "Her kameranın ID’si ve lokasyonu var mı?",
+          "Amaç ve saklama grubu yazıldı mı?",
+          "Erişim rolleri ve export kuralı net mi?",
+          "Job log’u var mı?",
+          "Hangi grup/kamera kapsamı net mi?",
+          "Başarısız job’lar aksiyona bağlanıyor mu?",
+          "Kat planı şeması güncel mi?",
+          "Yıllık CCTV raporu audit pack’e ekleniyor mu?"
+        ]
+      }
+    }
+  },
+
+  "BlogCagriMerkeziSesKayitlariEkranKayitlariKvkk": {
+    "title": "Otel Çağrı Kaydı KVKK Raporu: Ses/Ekran Kayıt",
+    "slug": "cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ses/ekran kayıtları için uyum; amaç + saklama + rol bazlı erişim + maskeleme/mute + erişim logudur. Kredi kartı gibi hassas bilgiler konuşulurken kayıt sınırı ve kanıt raporu şarttır.",
+    "seo": {
+      "metaTitle": "Otel Çağrı Kaydı KVKK Raporu: Ses/Ekran Kayıt | DGTLFACE",
+      "metaDescription": "Ses ve ekran kayıtlarını KVKK uyumlu yönetin: amaç, saklama süresi, rol bazlı erişim, maskeleme/mute ve erişim loglarıyla denetimde sunulabilir rapor seti oluşturun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 17",
+        "Blog / URL: /tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk"
+      ],
+      "strategySummary": "Çağrı merkezi ses kayıtları ve ekran kayıtları, rezervasyon ve şikâyet yönetiminde yüksek değer üretir; ancak konuşma sırasında paylaşılan kişisel ve finansal bilgiler nedeniyle KVKK açısından “yüksek risk” sınıfındadır. Bu içerik, otel çağrı merkezi özelinde “hangi çağrı neden kaydedilir”, “ne kadar saklanır”, “kim erişir” ve “kredi kartı/hassas bilgi konuşulurken maskeleme/mute nasıl uygulanır” sorularını log + rapor yaklaşımıyla yönetilebilir hale getirir. Antalya ve turizm destinasyonlarında yoğun telefon/WhatsApp trafiği olan oteller için, kayıtların hem kalite hem uyum amacıyla kontrollü kullanılmasının önemi senaryolarla bağlanır. Ana iş sorusu: “Ses/ekran kayıtlarını saklama–erişim–maskeleme ilkeleriyle nasıl standardize eder, erişimleri loglar ve denetimde rapor olarak nasıl sunarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Çağrı merkezi ses kayıtları ve ekran kayıtları, rezervasyon ve şikâyet yönetimi için değerli olsa da konuşma sırasında paylaşılan kişisel ve finansal bilgiler nedeniyle KVKK açısından yüksek risk taşır. KVKK uyumlu raporlama; hangi çağrıların hangi amaçla kaydedildiğini, saklama süresini, role göre erişim yetkilerini ve hassas bilgi anlarında maskeleme/mute noktalarını netleştirir. Erişim ve export işlemleri loglanır; süre dolan kayıtlar silme/anonimleştirme raporlarıyla kanıtlanır.",
+      "sgeSummary": "Ses/ekran kayıtları için uyum; amaç + saklama + rol bazlı erişim + maskeleme/mute + erişim logudur. Kredi kartı gibi hassas bilgiler konuşulurken kayıt sınırı ve kanıt raporu şarttır.",
+      "voiceAnswer": "Kayıtların amacını belirleyin, saklama süresi ve erişimi sınırlayın; hassas anlarda mute/maskeleme uygulayın ve loglayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Call center yöneticisi, kalite ekibi, IT, GM/otel sahibi",
+        "Ana KPI: Kayıt erişim sayısı, export sayısı, mute/maskeleme uyumu, silme job başarı oranı, kalite örneklem oranı",
+        "Entity/İlişki (AIO): Recording → contains → voice personal data, must be → protected & limited; AccessLog → records → who accessed which recording",
+        "GEO: Antalya/turizm; yoğun rezervasyon/şikâyet çağrıları ve WhatsApp trafiği",
+        "Funnel: Operasyonel governance → analiz/danışmanlık",
+        "Çıktı: Ses kayıt akış diyagramı + saklama/erişim matrisi + 3 risk/3 kontrol kutusu + indirilebilir şablon"
+      ]
+    },
+    "h1": {
+      "title": "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak",
+      "intro": "Otel çağrı merkezlerinde ses kayıtları; rezervasyon kalitesi, şikâyet yönetimi ve eğitim için büyük değer üretir. Ancak aynı kayıtlar, konuşma sırasında e-posta/telefon/kimlik ve bazen ödeme bilgileri paylaşıldığı için KVKK açısından yüksek risk taşır. Bu nedenle hedef “kayıtları kapatmak” değil; amaç–saklama–erişim–maskeleme/mute–log–rapor zinciriyle kayıtları kontrol edilebilir hale getirmektir. Bu rehber, ses ve ekran kayıtlarını hem kaliteyi koruyacak hem KVKK riskini azaltacak şekilde yönetmek için pratik bir raporlama standardı sunar. (Not: PCI-DSS gibi kart verisi standartlarının adı geçse bile burada sertifikasyon/hukuki yorum yapılmaz; yalnız mute/maskeleme ve erişim sınırı teknik düzeyde ele alınır.)",
+      "quickSummary": [
+        "1. Çağrı türlerine göre kayıt politikasını yazın.",
+        "2. Erişim rolünü “minimum”a indirin (quality + yöneticiler).",
+        "3. Export ve dinleme işlemlerini access log ile izleyin.",
+        "4. Hassas anlarda mute/mask kontrolü uygulayın.",
+        "5. Aylık recording governance raporu üretin."
+      ],
+      "ctaPrimary": {
+        "label": "Ses & Ekran Kayıtları KVKK Analizi Talep Et",
+        "text": "Call center kayıt akışınızı, saklama/erişim/mute noktalarıyla birlikte denetleyip rapor setini kuralım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Ses & Ekran Kayıtları KVKK Analizi Talep Et",
+        "text": "Call center kayıtlarınızı KVKK uyumlu governance çerçevesine oturtalım.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir",
+        "text": "Saklama–erişim–maskeleme matrisini hızla çıkarır, denetim paketine ekleriniz.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Çağrı Merkezi Performans Analizi",
+        "href": "/cagri-merkezi/performans-analizi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "cagri-merkezi-ses-kayitlari-kvkk-cerceve",
+        "title": "Çağrı merkezi ses kayıtları için KVKK uyumlu çerçeve",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "KVKK uyumlu çerçeve, üç soruyu net cevaplar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hangi çağrı, neden kaydedilir? (amaç)",
+              "Ne kadar saklanır ve ne zaman silinir/anonimleşir? (retention)",
+              "Kim erişir ve erişim nasıl kanıtlanır? (role-based access + access log)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "AIO mantığı:"
+          },
+          {
+            "type": "p",
+            "text": "Recording → contains → voice personal data, must be → protected & limited"
+          },
+          {
+            "type": "p",
+            "text": "Yani kayıt, “değerli bir eğitim materyali” kadar “yüksek hassasiyetli veri seti”dir."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi çağrılar neden kaydedilir? (yüksek seviye)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon çağrıları: kalite ve süreç iyileştirme",
+              "Şikâyet çağrıları: olay inceleme ve müşteri deneyimi",
+              "Eğitim örnekleri: hedefli dinleme (tam evren değil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya yoğun sezon)"
+          },
+          {
+            "type": "p",
+            "text": "Aynı gün yüzlerce çağrı alındığında, kalite ekibinin hepsini dinlemesi mümkün değildir. Bu yüzden “daha az ama hedefli dinleme” yaklaşımı; hem operasyon verimliliğini hem KVKK riskini iyileştirir (kayıt erişimi azalır)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kayıt amacı çağrı türüne göre tanımlı mı?",
+              "Saklama süresi ve silme job’ı var mı?",
+              "Erişim rol bazlı mı ve loglanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Çağrı türlerine göre kayıt politikasını yazın.",
+              "Erişim rolünü “minimum”a indirin (quality + yöneticiler).",
+              "Export ve dinleme işlemlerini access log ile izleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "ses-ekran-kayitlari-saklama-erisim",
+        "title": "Ses/ekran kayıtları nasıl saklanır, kimler erişir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “saklama” ve “erişim”i birlikte ele alır; çünkü kayıtların riskini asıl büyüten şey, geniş erişim ve kontrolsüz export’tur."
+          },
+          {
+            "type": "h3",
+            "text": "Saklama süresi (Retention) yaklaşımı"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehber, kesin süre rakamı vermez; süreler hukuk birimiyle belirlenmelidir. Ancak raporlama standardı şudur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çağrı türüne göre saklama sınıfı (rezervasyon/şikâyet)",
+              "Süre dolunca otomatik silme/anonimleştirme job’u",
+              "Job log ve aylık rapor"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rol bazlı erişim (Role-based views)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kalite ekibi: örnekleme bazlı dinleme/izleme",
+              "Call center yönetimi: performans koçluğu için sınırlı erişim",
+              "IT/Admin: sistem yönetimi (kayıt içeriği değil, mümkünse)",
+              "GM: olay bazlı onayla sınırlı erişim",
+              "Genel personel: erişim yok"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Export kuralı (en kritik kontrol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Export sadece incident_id veya eğitim onayıyla yapılır",
+              "Export listesi ayrıca raporlanır",
+              "Export dosyası saklama yeri ve erişim rolleri tanımlıdır"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "AUDIT SHEET – Saklama & Erişim Matrisi",
+            "headers": [
+              "Çağrı Türü",
+              "Kayıt Türü (Ses/Ekran)",
+              "Amaç",
+              "Saklama (Not)",
+              "Maskeleme/Mute Noktası",
+              "Erişim Rolleri",
+              "Export Kuralı",
+              "Log Kanıtı"
+            ],
+            "rows": [
+              [
+                "Rezervasyon",
+                "Ses",
+                "Kalite/Eğitim",
+                "Hukukla belirlenir",
+                "Ödeme anı mute (Varsayım)",
+                "Quality, Lead",
+                "incident_id / training_batch",
+                "access_log"
+              ],
+              [
+                "Şikâyet",
+                "Ses+Ekran",
+                "Olay inceleme",
+                "Hukukla belirlenir",
+                "Hassas alan blur (Varsayım)",
+                "SecMgr, Lead",
+                "incident_id zorunlu",
+                "export_log"
+              ],
+              [
+                "Bilgi/Genel",
+                "Ses",
+                "Süreç iyileştirme",
+                "Kısa (Varsayım)",
+                "PII maskeleme",
+                "Quality",
+                "export yok",
+                "access_log"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (saklama+erişim)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erişim rol listesi yazılı mı?",
+              "Export izinleri sınırlı mı?",
+              "Silme/anonim job raporu var mı?",
+              "Erişim logları düzenli kontrol ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yetki matrisini çıkarın (rol→işlem).",
+              "Export’u “kırmızı alan” kabul edin; incident_id zorunlu kılın.",
+              "Silme job’larını KPI olarak izleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "kredi-karti-hassas-bilgiler-maskeleme-mute",
+        "title": "Kredi kartı ve hassas bilgiler konuşulurken neler yapılmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kart verisi ve hassas bilgiler konuşulurken temel hedef, bu bilgilerin kayıtta mümkün olduğunca bulunmamasıdır. Burada “PCI-DSS” gibi standartların adı geçebilir; ancak bu rehber sadece teknik pratikleri anlatır:"
+          },
+          {
+            "type": "h3",
+            "text": "Maskeleme / Mute noktaları (pratik kontrol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ödeme adımında ses kaydını mute etmek (Varsayım: sistem destekliyorsa)",
+              "Ekran kaydında hassas alanı blur/mask etmek (Varsayım: sistem destekliyorsa)",
+              "Agent’e “hassas bilgi okuma” yerine güvenli akış yönlendirmesi (operasyonel eğitim)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hassas veri alanlarını raporlama katmanından uzak tutma"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ses kaydı metadata: çağrı kimliği, tarih, süre, agent id (PII değil)",
+              "Eğitim raporu: kişi listesi yerine segment/tema bazlı bulgular"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon sırasında kart bilgisi konuşuluyorsa, kayıt sisteminde “mute window” uygulanması riski ciddi azaltır. Mute pencereleri loglanıp raporlandığında denetimde güçlü kanıt olur (Varsayım: destekleniyorsa)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (hassas bilgi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mute/mask destekleniyor mu?",
+              "Ödeme anı için prosedür var mı?",
+              "Mute uygulaması loglanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Hassas an” prosedürü yazın (ödemede kayıt kontrolü).",
+              "Mute/mask yeteneğini sağlayıcıyla netleştirin.",
+              "Eğitim ekibinin dinleme erişimini örnekleme ile sınırlandırın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "ses-ekran-kayitlarini-loglama-raporlama",
+        "title": "Ses/ekran kayıtlarını loglama ve raporlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Denetimde kritik soru “kayıt var mı?” değil; “kim erişti, ne yaptı?”dır. Bu yüzden erişim logları ve periyodik raporlar şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Access log alanları (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "user_id / role",
+              "timestamp",
+              "recording_id (call_id)",
+              "action (listen/view/export/delete)",
+              "reason (incident_id / training_batch)",
+              "result (success/fail)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Periyodik rapor seti (aylık/yıllık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Toplam kayıt sayısı (çağrı türüne göre)",
+              "Dinlenen kayıt sayısı (kalite örneklemi)",
+              "Export edilen kayıt sayısı + gerekçe",
+              "Silinen/anonimleşen kayıt job raporu",
+              "Mute/mask uygulama uyumu (Varsayım: ölçülebiliyorsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Kalite ekiplerinin kayıtları daha az ama daha hedefli dinlemesi; rol bazlı erişim ve maskeleme ile birleştiğinde KVKK riskini azaltırken eğitim kalitesini korumayı teorik olarak mümkün kılar."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (log+rapor)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Access log’lar düzenli raporlanıyor mu?",
+              "Export listesi ayrı tutuluyor mu?",
+              "Silme job raporu var mı?",
+              "Örnekleme stratejisi tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık “recording governance raporu” üretin.",
+              "Export’u yönetim onayına bağlayın (Varsayım: süreç).",
+              "Eğitim dinlemelerini örneklemeye çekin; kişi bazlı değil tema bazlı raporlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kritik-kvkk-riskleri-kontroller",
+        "title": "3 kritik KVKK riski / 3 kontrol",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Risk: Kayıtlara çok kişi erişiyor → Kontrol: RBAC + access log + periyodik review",
+              "Risk: Hassas bilgi kayıtta kalıyor → Kontrol: mute/mask + eğitim prosedürü + örnek kontroller",
+              "Risk: Export kontrolsüz → Kontrol: incident_id zorunlu + export listesi raporu + saklama yeri/erişim rolü"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir",
+            "text": "Saklama–erişim–maskeleme matrisini hızla çıkarır, denetim paketine ekleriniz.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Ses & Ekran Kayıtları KVKK Analizi Talep Et",
+            "text": "Call center kayıtlarınızı KVKK uyumlu governance çerçevesine oturtalım.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi ve /tr/raporlama/kvkk-veri-guvenligi sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "ses-kayit-saklama-erisim-matrisi-sablonu",
+        "title": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir — Çağrı Merkezi (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir — Çağrı Merkezi (v1.0)",
+            "purpose": "Bu audit sheet, otel çağrı merkezi ses ve ekran kayıtlarını KVKK uyumlu şekilde yönetmek için saklama süreleri, erişim rolleri, maskeleme/mute kontrol noktaları ve erişim/export log alanlarını tek tabloda standartlaştırır. Amaç; kalite ve eğitim değerini korurken, hassas veri riskini azaltmak ve denetimde “kim erişti, ne kadar saklandı, nasıl korundu?” sorularına kanıt sunmaktır.",
+            "whoFor": "Çağrı merkezi yöneticisi, kalite ekibi lideri, IT/güvenlik, GM (onay).",
+            "steps": [
+              "Çağrı türlerine göre saklama sınıfları ve maskeleme/mute kurallarını tanımlayın.",
+              "Erişim rolleri ve export kuralını incident_id/training_batch ile şartlandırın.",
+              "Aylık raporda erişim/export sayıları ve silme job sonuçlarını KPI olarak izleyin."
+            ],
+            "checklist": [
+              "AUDIT SHEET – Saklama & Erişim Matrisi",
+              "AUDIT SHEET – Access/Export Log Alanları",
+              "AUDIT SHEET – Silme/Anonim Job Raporu",
+              "İlk 10 Aksiyon Listesi (owner + tarih)",
+              "Ödeme anı mute/mask prosedürü yazıldı | Owner: __ | Due: __",
+              "Export incident_id zorunlu hale getirildi | Owner: __ | Due: __",
+              "Kalite dinleme örneklemi tanımlandı | Owner: __ | Due: __",
+              "Aylık access/export raporu otomasyonu | Owner: __ | Due: __",
+              "Silme job raporu audit pack’e eklendi | Owner: __ | Due: __",
+              "Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "Saklama & erişim matrisi",
+              "Access/export log formatı",
+              "Aylık KPI raporu şablonu"
+            ],
+            "href": "/downloads/ses-kayit-saklama-erisim-matrisi-sablonu-v1.0.pdf",
+            "buttonLabel": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir"
+          },
+          {
+            "type": "table",
+            "caption": "AUDIT SHEET – Saklama & Erişim Matrisi",
+            "headers": [
+              "Çağrı Türü",
+              "Kayıt Türü (Ses/Ekran)",
+              "Amaç",
+              "Saklama (Not)",
+              "Maskeleme/Mute Noktası",
+              "Erişim Rolleri",
+              "Export Kuralı",
+              "Log Kanıtı"
+            ],
+            "rows": [
+              [
+                "Rezervasyon",
+                "Ses",
+                "Kalite/Eğitim",
+                "Hukukla belirlenir",
+                "Ödeme anı mute (Varsayım)",
+                "Quality, Lead",
+                "incident_id / training_batch",
+                "access_log"
+              ],
+              [
+                "Şikâyet",
+                "Ses+Ekran",
+                "Olay inceleme",
+                "Hukukla belirlenir",
+                "Hassas alan blur (Varsayım)",
+                "SecMgr, Lead",
+                "incident_id zorunlu",
+                "export_log"
+              ],
+              [
+                "Bilgi/Genel",
+                "Ses",
+                "Süreç iyileştirme",
+                "Kısa (Varsayım)",
+                "PII maskeleme",
+                "Quality",
+                "export yok",
+                "access_log"
+              ]
+            ]
+          },
+
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çağrı merkezi ses kayıtları KVKK’ya göre nasıl yönetilmeli?",
+        "a": "Kayıt amaçları (kalite, eğitim, olay inceleme) net tanımlanmalı; saklama süresi ve silme süreçleri yazılı hale getirilmeli; erişim role göre sınırlandırılmalı ve tüm dinleme/export işlemleri access log ile kanıtlanmalıdır."
+      },
+      {
+        "q": "Hangi çağrılar ne amaçla kaydedilebilir?",
+        "a": "Rezervasyon ve şikâyet çağrıları kalite ve olay inceleme için kaydedilebilir; ancak her çağrıyı sınırsız süre saklamak yerine amaç ve saklama politikasına göre sınıflandırmak gerekir. Eğitim için hedefli örnekleme yaklaşımı tercih edilmelidir."
+      },
+      {
+        "q": "Ses ve ekran kayıtlarına erişim logları nasıl tutulmalı?",
+        "a": "User/rol, tarih-saat, recording_id, işlem türü (listen/view/export), gerekçe (incident_id/training_batch) ve sonuç alanlarıyla tutulmalıdır. Export işlemleri ayrıca listelenmelidir."
+      },
+      {
+        "q": "Kredi kartı ve hassas bilgiler konuşulurken neler yapılmalı?",
+        "a": "Mümkünse ödeme anında ses kaydını mute etmek ve ekran kaydında hassas alanları maskelemek/blur etmek gerekir (sistem destekliyorsa). Ayrıca bu kontrol noktaları prosedürle netleştirilmeli ve uygulama kanıtı raporlanmalıdır."
+      },
+      {
+        "q": "Eğitim amaçlı kayıt kullanımı KVKK açısından nasıl sınırlandırılmalı?",
+        "a": "Tüm kayıtları yaygın dinlemek yerine örnekleme ile seçmek, erişimi kalite ekibiyle sınırlamak ve raporlamayı kişi bazlı değil tema/segment bazlı yapmak risk azaltır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-hero-01.webp — Alt: “Otel çağrı merkezi ses ve ekran kayıtları, KVKK uyumlu saklama ve erişim loglarıyla yönetilir”",
+          "h1-context — 1920×1080 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-h1-context-02.webp — Alt: “Aramadan arşive kayıt akışı, maskeleme ve erişim kontrol noktalarını gösterir”",
+          "divider-01 — 1600×1200 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-divider-03.webp — Alt: “KVKK uyumlu kayıt çerçevesi: amaç, saklama, erişim ve loglama bileşenleri”",
+          "divider-02 — 1600×1200 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-divider-04.webp — Alt: “3 kritik risk ve 3 kontrol, call center kayıt riskini azaltır”",
+          "diagram-05 — 1920×1080 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-diagram-05.webp — Alt: “Ses kayıt akış diyagramı: aramadan arşive ve rapora giden süreç”",
+          "checklist-06 — 1200×1200 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-checklist-06.webp — Alt: “Mute/mask noktaları ve saklama-erişim matrisi checklist’i, hassas veriyi kayıttan uzak tutar”",
+          "kpi-07 — 1200×1200 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-kpi-07.webp — Alt: “Erişim, export ve silme job KPI’ları, çağrı kayıt riskini dashboard’da izler”",
+          "proof-08 — 1200×1200 — cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk-proof-08.webp — Alt: “Saklama ve erişim matrisi raporu, denetimde kanıt seti oluşturur”",
+          "table-recording-retention-access — Ses/Ekran kayıt saklama ve erişim matrisi (çağrı türü, süre, erişim rolü, maskeleme)",
+          "table-access-export-log — Access/Export Log Alanları",
+          "table-delete-anonym-job — Silme/Anonim Job Raporu"
+        ],
+        "technicalChecklist": [
+          "Kayıt amacı çağrı türüne göre tanımlı mı?",
+          "Saklama süresi ve silme job’ı var mı?",
+          "Erişim rol bazlı mı ve loglanıyor mu?",
+          "Erişim rol listesi yazılı mı?",
+          "Export izinleri sınırlı mı?",
+          "Silme/anonim job raporu var mı?",
+          "Erişim logları düzenli kontrol ediliyor mu?",
+          "Mute/mask destekleniyor mu?",
+          "Ödeme anı için prosedür var mı?",
+          "Mute uygulaması loglanıyor mu?",
+          "Access log’lar düzenli raporlanıyor mu?",
+          "Export listesi ayrı tutuluyor mu?",
+          "Silme job raporu var mı?",
+          "Örnekleme stratejisi tanımlı mı?",
+          "Ödeme anı mute/mask prosedürü yazıldı mı?",
+          "Export incident_id zorunlu hale getirildi mi?",
+          "Kalite dinleme örneklemi tanımlandı mı?",
+          "Aylık access/export raporu otomasyonu var mı?",
+          "Silme job raporu audit pack’e eklendi mi?"
+        ]
+      }
+    }
+  },
+
+  "BlogMisafirWifiErisimLoglariKvkkRaporlama": {
+    "title": "Otel Misafir Wi-Fi Logları: KVKK Uyumlu Raporlama",
+    "slug": "misafir-wifi-erisim-loglari-kvkk-raporlama",
+    "department": "raporlama",
+    "subDepartment":"kvkk",
+    "updatedAt": "24 Ağustos 2026",
+    "publishedAt": "2026-08-24",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Wi-Fi logları teknik kalmalı: minimum login verisi, zorunlu log alanları, şifreli/süreli saklama ve rol bazlı erişim. Pazarlamaya yalnız anonim/aggregate metrik aktarın.",
+    "seo": {
+      "metaTitle": "Otel Misafir Wi-Fi Logları: KVKK Uyumlu Raporlama | DGTLFACE",
+      "metaDescription": "Misafir Wi-Fi loglarını KVKK’ya uygun yönetin: zorunlu teknik alanlar, minimum login verisi, şifreli/süreli saklama ve anonim raporlama. Checklist ile denetime hazır olun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: KVKK & Veri Güvenliği Raporlama — /tr/raporlama/kvkk-veri-guvenligi",
+        "Blog No: 18",
+        "Blog / URL: /tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama"
+      ],
+      "strategySummary": "Misafir Wi-Fi ağları, teknik olarak zorunlu loglar (IP, zaman, cihaz bilgisi) üretirken; kimlik doğrulama (oda no, SMS, telefon) ve pazarlama amaçlı “fazla veri toplama” riski de taşır. Bu içerik, otellerde Wi-Fi loglarını KVKK uyumlu şekilde yönetmek için “zorunlu teknik log” ile “pazarlama PII dump” ayrımını netleştirir; saklama, şifreleme, erişim yetkisi ve raporlama standardı kurar. Antalya ve tatil bölgelerinde yoğun Wi-Fi kullanımının olduğu resort otellerde, gereksiz veri toplamanın riskleri ve minimal loglama yaklaşımı örneklenir. Ana iş sorusu: “Wi-Fi login ve erişim loglarını minimum veri + süreli saklama + rol bazlı erişim + anonim analitik prensibiyle nasıl raporlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-24",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Misafir Wi-Fi ağları zorunlu teknik loglar (IP, zaman, cihaz/MAC) üretirken; kimlik doğrulama ve pazarlama amaçlı fazla veri toplama riski taşır. KVKK uyumunun temeli; yalnız gerekli teknik logları ve minimum kimlik bilgisini tutmak, logları şifreli ve sınırlı süre saklamak, erişimi rol bazlı sınırlandırmak ve pazarlama katmanına sadece anonim/aggregate veri aktarmaktır. Böylece hem sistem karmaşası hem KVKK risk profili düşer.",
+      "sgeSummary": "Wi-Fi logları teknik kalmalı: minimum login verisi, zorunlu log alanları, şifreli/süreli saklama ve rol bazlı erişim. Pazarlamaya yalnız anonim/aggregate metrik aktarın.",
+      "voiceAnswer": "Wi-Fi’de minimum login verisi tutun, zorunlu logları şifreli saklayın ve pazarlamaya anonim metrik verin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, IT/ağ ekibi, güvenlik, pazarlama lideri",
+        "Ana KPI: Log alan minimizasyonu, erişim log kapsamı, saklama uyumu, pazarlamaya aktarılan anonim metrik seti",
+        "Entity/İlişki (AIO): Wi-Fi Logs → should remain → technical, not marketing PII dump; Authentication → should be → minimal",
+        "GEO: Antalya/resort; yüksek Wi-Fi yoğunluğu ve paylaşımlı cihaz riskleri",
+        "Funnel: Teknik governance → analiz/danışmanlık",
+        "Çıktı: Wi-Fi akış diyagramı + log alan tablosu + 3 hata/3 çözüm kutusu + indirilebilir checklist"
+      ]
+    },
+    "h1": {
+      "title": "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi",
+      "intro": "Misafir Wi-Fi altyapısı otelde “görünmez” bir servis gibi görünür; ama KVKK açısından iki kritik noktaya sahiptir: (1) teknik log zorunluluğu ve (2) gereksiz veri toplama riski. Wi-Fi login ekranında oda no/telefon gibi bilgileri sınırsız toplamak veya Wi-Fi loglarını pazarlama katmanına “ham PII” olarak aktarmak, risk yüzeyini büyütür. Bu rehber; Wi-Fi loglarını “minimum veri + süreli saklama + rol bazlı erişim + anonim analitik” prensibiyle yönetmek ve KVKK raporlarına kısa/kanıtlı çıktı üretmek için pratik bir standart sunar.",
+      "quickSummary": [
+        "1. Wi-Fi’de “teknik log” ve “login verisi”ni iki farklı tabloyla envantere alın.",
+        "2. Login alanlarını minimuma indirin (oda no veya token; gereksiz PII yok).",
+        "3. Logları şifreli saklayın ve erişimi IT/güvenlik rolleriyle sınırlandırın.",
+        "4. Retention policy ve silme/temizleme job raporunu standardize edin.",
+        "5. Pazarlamaya yalnız anonim/aggregate metrik aktarın."
+      ],
+      "ctaPrimary": {
+        "label": "Misafir Wi-Fi Log & KVKK Analizi Talep Et",
+        "text": "Wi-Fi login akışınızı, log alan setinizi ve saklama/erişim politikanızı birlikte denetleyelim.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Misafir Wi-Fi Log & KVKK Analizi Talep Et",
+        "text": "Wi-Fi login ve log akışınızı KVKK uyumlu şekilde optimize edelim.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      "secondary": {
+        "label": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir",
+        "text": "Minimum alan seti ve saklama kurallarıyla Wi-Fi log yönetimini hızla standardize edersiniz.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/raporlama"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "misafir-wifi-aglarinda-toplanan-veriler",
+        "title": "Misafir Wi-Fi ağlarında hangi veriler toplanır?",
+        "blocks": [
+          {"type":"media","slot":"h1-context-02"},
+          {
+            "type": "p",
+            "text": "Wi-Fi altyapısı iki katmanda veri üretir: ağ katmanı logları ve kimlik doğrulama (captive portal) verileri. KVKK uyumu için önce “hangi veri nerede oluşuyor?” sorusunu yanıtlamak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "1) Zorunlu/teknik log alanları (ağ katmanı)"
+          },
+          {
+            "type": "p",
+            "text": "Teknik logların amacı; ağ güvenliği, kapasite yönetimi ve olay incelemedir. Tipik alanlar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "MAC adresi (cihaz kimliği)",
+              "IP adresi (atama bilgisi)",
+              "Bağlantı zamanı (start/end)",
+              "AP/SSID bilgisi (hangi erişim noktasından)",
+              "Oturum/Session ID",
+              "Cihaz bilgisi (User-Agent/OS) (Varsayım: bazı sistemler)",
+              "Toplam trafik (aggregate seviyede)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2) Kimlik doğrulama verileri (login)"
+          },
+          {
+            "type": "p",
+            "text": "Login ekranında toplanan veri, “teknik log”tan farklı olarak kimlikle ilişkilidir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda numarası (room no)",
+              "Telefon/SMS doğrulama (Varsayım: kullanım)",
+              "İsim/soyisim (bazı otellerde)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu alanlar minimum tutulmalıdır; aksi halde Wi-Fi, pazarlama PII deposuna dönüşür."
+          },
+          {
+            "type": "h3",
+            "text": "3) “Zorunlu loglar” vs “fazla toplanan veriler”"
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrım, raporun omurgasıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu teknik log: güvenlik/operasyon için gerekli",
+              "İsteğe bağlı pazarlama veri toplama: ek risk ve ek sorumluluk getirir"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "AIO çerçevesi: Wi-Fi Logs → should remain → technical, not marketing PII dump."
+          },
+          {
+            "type": "table",
+            "caption": "Wi-Fi erişim log alanları tablosu (zorunlu vs opsiyonel)",
+            "headers": [
+              "Alan",
+              "Sınıf",
+              "Kullanım / Not",
+              "Öneri"
+            ],
+            "rows": [
+              [
+                "timestamp (start/end)",
+                "Zorunlu/teknik",
+                "Bağlantı zamanı",
+                "Tut"
+              ],
+              [
+                "session_id",
+                "Zorunlu/teknik",
+                "Oturum bilgisi",
+                "Tut"
+              ],
+              [
+                "IP address",
+                "Zorunlu/teknik",
+                "IP atama bilgisi",
+                "Tut"
+              ],
+              [
+                "SSID/AP",
+                "Zorunlu/teknik",
+                "Erişim noktası",
+                "Tut"
+              ],
+              [
+                "device_type",
+                "Zorunlu/teknik",
+                "Varsayım: mümkünse",
+                "Tut"
+              ],
+              [
+                "result (success/fail)",
+                "Zorunlu/teknik",
+                "Varsayım",
+                "Tut"
+              ],
+              [
+                "MAC address",
+                "Dikkatli/opsiyonel",
+                "Mümkünse hash/mask, Varsayım",
+                "Gerekçe ile tut"
+              ],
+              [
+                "Oda numarası",
+                "Dikkatli/opsiyonel",
+                "Minimum doğrulama, pazarlamaya gitmez",
+                "Gerekçe ile tut"
+              ],
+              [
+                "Telefon/SMS",
+                "Dikkatli/opsiyonel",
+                "Kullanılıyorsa amaç+süre net",
+                "Gerekçe ile tut"
+              ],
+              [
+                "Ad-soyad",
+                "Gereksiz risk",
+                "Erişim için gereksiz",
+                "Tutma / pazarlamaya aktarma"
+              ],
+              [
+                "Doğum tarihi",
+                "Gereksiz risk",
+                "Erişim için gereksiz",
+                "Tutma / pazarlamaya aktarma"
+              ],
+              [
+                "Pasaport/kimlik",
+                "Gereksiz risk",
+                "Erişim için gereksiz",
+                "Tutma / pazarlamaya aktarma"
+              ],
+              [
+                "Serbest not alanları",
+                "Gereksiz risk",
+                "Kontrolsüz veri riski",
+                "Tutma / pazarlamaya aktarma"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya resort)"
+          },
+          {
+            "type": "p",
+            "text": "Misafir Wi-Fi’ye bağlanmak için isim + doğum tarihi + telefon isteniyorsa, bu verilerin çoğu ağ erişimi için gereksizdir. Bu gereksizlik hem risk hem de operasyonel sürtünme üretir. “Minimum login” ile hem misafir deneyimi hem KVKK uyumu güçlenir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teknik log alanları ile login verileri ayrıldı mı?",
+              "Login ekranında yalnız minimum alanlar var mı?",
+              "Wi-Fi verisi pazarlamaya ham PII olarak aktarılmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Wi-Fi’de “teknik log” ve “login verisi”ni iki farklı tabloyla envantere alın.",
+              "Login alanlarını minimuma indirin (oda no veya token; gereksiz PII yok).",
+              "Pazarlamaya yalnız anonim/aggregate metrik aktarın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "wifi-erisim-loglarini-kvkk-uygun-raporlama",
+        "title": "Wi-Fi erişim loglarını KVKK’ya uygun nasıl raporlarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KVKK uyumlu raporlama; (a) minimizasyon, (b) güvenli saklama, (c) erişim kontrolü, (d) raporlanabilir kanıt dörtlemesiyle kurulur."
+          },
+          {
+            "type": "h3",
+            "text": "Adım 1 — Log alanlarını standardize edin (minimum set)"
+          },
+          {
+            "type": "p",
+            "text": "Wi-Fi log raporlarında amaç, “her alanı” değil, “kanıt için yeterli alanı” tutmaktır. Minimum alan seti örneği:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "timestamp (start/end)",
+              "MAC (maskeli/hashed, mümkünse) (Varsayım)",
+              "IP",
+              "SSID/AP",
+              "session_id",
+              "result (success/fail) (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 2 — Logları güvenli saklayın (şifreleme + sınırlı erişim)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Log verisi şifreli saklanmalı (at rest)",
+              "Log erişimi rol bazlı olmalı (IT/güvenlik)",
+              "Pazarlama ekibi loglara doğrudan erişmemeli; yalnız anonim özet almalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 3 — Saklama süresi ve rapor kanıtı"
+          },
+          {
+            "type": "p",
+            "text": "Kesin süre rakamı vermiyoruz; süreler hukuk birimiyle belirlenir. Ancak raporlama standardı net:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "retention policy (Wi-Fi logları için)",
+              "aylık silme/temizleme job raporu (Varsayım: otomasyon varsa)",
+              "erişim logu (kim erişti?)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Adım 4 — Anonim raporlama katmanı"
+          },
+          {
+            "type": "p",
+            "text": "Wi-Fi verisini pazarlamada kullanmak istiyorsanız, prensip:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "kişi bazlı değil aggregate metrik",
+              "“hangi misafir” değil “hangi segment/ülke/dil yoğunluğu”",
+              "remarketing için ham Wi-Fi kimliği değil, izinli evren + anonim sinyaller (yüksek seviye)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Wi-Fi loglarını sadeleştirip yalnız teknik olarak gerekli alanları tutan otellerde, hem sistem karmaşasının hem de KVKK risk profilinin anlamlı şekilde iyileşmesi teorik olarak beklenir; çünkü gereksiz PII yüzeyi azalır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Loglar şifreli mi ve erişim rolleri sınırlı mı?",
+              "Retention policy + job raporu var mı?",
+              "Pazarlamaya ham log değil anonim metrik gidiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Wi-Fi loglarını “IT/güvenlik kanıt seti” olarak konumlandırın.",
+              "Pazarlama için ayrı “anonim Wi-Fi dashboard” üretin.",
+              "Login alanlarını minimizasyonla yeniden tasarlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "wifi-login-ekrani-oda-no-telefon-sinirlama",
+        "title": "Login ekranında oda no/telefon gibi bilgileri nasıl sınırlamalıyım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Login ekranı (captive portal), KVKK riskinin en hızlı büyüdüğü noktadır. Çünkü burada toplanan her alan, doğrudan kimlikle ilişkilidir. Hedef, minimum kimlik doğrulamadır."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum kimlik doğrulama seçenekleri (yüksek seviye)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda no + soyadın ilk harfi gibi minimal doğrulama (Varsayım)",
+              "Tek kullanımlık voucher/token (front office verir)",
+              "SMS doğrulama (kullanılıyorsa: minimum alan + açık amaç)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Zorunlu” ve “nice-to-have” ayrımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu: erişimi yetkilendirmek için gerekli minimum veri",
+              "Nice-to-have: pazarlama/analitik için ek veri → ayrı değerlendirme ve ek risk"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Oda numarası ile giriş “doğru mu?”"
+          },
+          {
+            "type": "p",
+            "text": "Tek bir doğru yok; ama prensip şudur: oda numarası, tek başına “kimlik” değilse bile misafirle ilişkilendirilebilir. Bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "oda no + ek minimal doğrulama",
+              "saklama süresini sınırlama",
+              "pazarlamada kişi bazlı kullanılmama"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Resort otelde aile üyeleri aynı odada farklı cihazlarla bağlanır. Oda no’yu “kişisel profil” gibi pazarlamaya taşımak gereksiz risk doğurur. Wi-Fi login verisi, erişim yetkilendirme dışında büyütülmemelidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Login ekranında gereksiz alanlar kaldırıldı mı?",
+              "SMS/telefon kullanılıyorsa amaç ve saklama net mi?",
+              "Login verisi pazarlamaya kişi bazlı taşınmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Login alanlarını minimuma indirin ve yazılı hale getirin.",
+              "Token/voucher yaklaşımını değerlendirin (Varsayım).",
+              "Login verisini retention policy ile sınırlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wifi-verisi-pazarlama-analitik-anonimlestirme",
+        "title": "Wi-Fi verisini pazarlama/analitik tarafına nasıl anonimleştirerek aktarırsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wi-Fi’nin pazarlamaya katkısı, “kim bağlandı?” değil “hangi saatlerde/hangi bölgelerde yoğunluk var?” gibi aggregate içgörüdür. KVKK uyumlu yaklaşım; kişisel veri yerine anonim KPI kullanmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Anonim/aggregate Wi-Fi KPI örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük bağlantı sayısı (toplam)",
+              "Saatlik yoğunluk (heatmap)",
+              "SSID/AP bazlı yoğunluk (lobi/havuz)",
+              "Cihaz türü dağılımı (iOS/Android) (Varsayım)",
+              "Ortalama oturum süresi (aggregate)",
+              "Kampanya döneminde “izinli evren” artışı (Varsayım: consent ile bağlıysa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pazarlama ile paylaşım için sınır çizgisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ham MAC/IP listesi pazarlamaya gitmez",
+              "Oda no/telefon gibi login verisi pazarlamaya gitmez",
+              "Paylaşım: yalnız “anonim dashboard” ve gerektiğinde dönemsel rapor"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Antalya)"
+          },
+          {
+            "type": "p",
+            "text": "Havuz alanı Wi-Fi yoğunluğu artıyorsa, operasyon bunu personel planlamasına kullanabilir. Pazarlama ise “kampanya günü yoğunluk artışı” gibi aggregate KPI ile çalışır; kişisel listeye ihtiyaç duymaz."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazarlama raporları tamamen aggregate mı?",
+              "Wi-Fi ham logları yalnız IT/güvenlikte mi?",
+              "Paylaşım “safe view” üzerinden mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Wi-Fi pazarlama çıktısını sadece KPI seviyesinde üretin.",
+              "Ham log erişimini RBAC ile sınırlandırın.",
+              "“Anonim Wi-Fi dashboard”u raporlama hub’ına bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "wifi-veri-toplama-hatalari-cozumler",
+        "title": "3 Wi-Fi veri toplama hatası / 3 çözüm",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hata: Login ekranında gereksiz PII (isim+doğum tarihi vb.) → Çözüm: Minimum login alan seti + token/voucher opsiyonu",
+              "Hata: Ham MAC/IP loglarını pazarlama sistemine aktarmak → Çözüm: Pazarlamaya yalnız anonim/aggregate KPI; ham log IT’de kalır",
+              "Hata: Log saklama süresi belirsiz, erişim kontrolü zayıf → Çözüm: Retention policy + şifreli saklama + rol bazlı erişim + erişim logu"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir",
+            "text": "Minimum alan seti ve saklama kurallarıyla Wi-Fi log yönetimini hızla standardize edersiniz.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Misafir Wi-Fi Log & KVKK Analizi Talep Et",
+            "text": "Wi-Fi login ve log akışınızı KVKK uyumlu şekilde optimize edelim.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "p",
+            "text": "İç link notu: /tr/raporlama, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik ve /tr/otel-dijital-pazarlama sayfalarına bağlayın."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "wifi-erisim-log-alanlari-saklama-checklist",
+        "title": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir — Misafir Wi-Fi (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_plan",
+            "version": "v1.0",
+            "title": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir — Misafir Wi-Fi (v1.0)",
+            "purpose": "Bu checklist, otellerin misafir Wi-Fi loglarını KVKK uyumlu şekilde “minimum veri + süreli saklama + rol bazlı erişim” prensibiyle standardize etmesini sağlar. Amaç; zorunlu teknik log alanlarını netleştirmek, login ekranındaki kimlik verisini minimumda tutmak, logları şifreli ve kontrollü saklamak ve pazarlamaya yalnız anonim/aggregate metrik aktarmaktır.",
+            "whoFor": "IT/ağ ekibi, güvenlik, GM (onay), pazarlama lideri (anonim KPI tüketicisi).",
+            "steps": [
+              "Log alan setini “zorunlu/opsiyonel” olarak sınıflandırın ve minimumu kilitleyin.",
+              "Login ekranındaki alanları minimizasyonla sadeleştirin; erişim yetkilerini RBAC ile sınırlandırın.",
+              "Aylık raporda erişim logu, saklama job’u ve anonim KPI çıktısını birlikte sunun."
+            ],
+            "checklist": [
+              "A) Wi-Fi Log Alanları Checklist’i (Zorunlu vs Riskli)",
+              "Zorunlu/teknik (tut)",
+              "timestamp (start/end)",
+              "session_id",
+              "IP address",
+              "SSID/AP",
+              "device_type (Varsayım: mümkünse)",
+              "result (success/fail) (Varsayım)",
+              "Dikkatli/opsiyonel (gerekçe ile)",
+              "MAC address (mümkünse hash/mask, Varsayım)",
+              "oda numarası (minimum doğrulama, pazarlamaya gitmez)",
+              "telefon/SMS (kullanılıyorsa amaç+süre net)",
+              "Gereksiz risk (tutma / pazarlamaya aktarma)",
+              "ad-soyad",
+              "doğum tarihi",
+              "pasaport/kimlik",
+              "serbest not alanları",
+              "B) Log Saklama & Erişim Checklist’i",
+              "Loglar şifreli saklanıyor (at rest)",
+              "Erişim role-based (IT/Güvenlik)",
+              "Erişim logu tutuluyor (kim, ne zaman erişti)",
+              "Retention policy yazılı (hukukla belirlenir)",
+              "Silme/temizleme job raporu var (Varsayım: otomasyon)",
+              "C) Pazarlama/Analitik İçin Anonim KPI Seti (öneri)",
+              "Günlük bağlantı sayısı",
+              "Saatlik yoğunluk ısı haritası",
+              "AP/SSID bazlı yoğunluk (lobi/havuz)",
+              "Ortalama oturum süresi (aggregate)",
+              "Kampanya döneminde yoğunluk trendi",
+              "D) 14 Günlük Sprint Planı (kurulum)",
+              "E) Öncesi/Sonrası KPI Tablosu",
+              "Deliverables",
+              "Minimum Wi-Fi log alan seti",
+              "Login minimizasyon kuralı",
+              "Anonim KPI dashboard şablonu",
+              "Denetim için aylık rapor paketi"
+            ],
+            "href": "/downloads/wi-fi-erisim-log-alanlari-saklama-checklist-v1.0.pdf",
+            "buttonLabel": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Misafir Wi-Fi erişim logları KVKK’ya göre nasıl yönetilmeli?",
+        "a": "Wi-Fi logları teknik amaçla minimum alan setiyle tutulmalı, şifreli ve sınırlı süre saklanmalı, erişim rol bazlı sınırlandırılmalı ve erişimler loglanmalıdır. Pazarlama tarafına ham log değil anonim/aggregate KPI aktarılmalıdır."
+      },
+      {
+        "q": "Hangi Wi-Fi log alanları zorunlu, hangileri gereksiz risk yaratır?",
+        "a": "Zorunlu alanlar genelde zaman, oturum, IP ve erişim noktası gibi teknik loglardır. İsim, doğum tarihi, kimlik gibi alanlar erişim için gereksizdir ve risk yaratır; toplanmamalı veya pazarlamaya aktarılmamalıdır."
+      },
+      {
+        "q": "Login ekranında oda no/telefon gibi bilgileri nasıl sınırlamalıyım?",
+        "a": "Minimum doğrulama yaklaşımıyla yalnız erişim yetkilendirmesi için gerekli alanları kullanmalısınız. Oda no/telefon kullanılıyorsa amaç ve saklama net olmalı; bu bilgiler pazarlama katmanına kişi bazlı taşınmamalıdır."
+      },
+      {
+        "q": "Wi-Fi verisini pazarlama/analitik tarafına nasıl anonimleştirerek aktarırım?",
+        "a": "Ham MAC/IP listelerini pazarlamaya vermek yerine, saatlik yoğunluk, AP bazlı kullanım, ortalama oturum süresi gibi aggregate KPI’lar üretin. Böylece pazarlama içgörü alır, kişisel veri yüzeyi büyümez."
+      },
+      {
+        "q": "Wi-Fi loglarının saklama süresi nasıl belirlenmeli?",
+        "a": "Kesin süreler hukuk birimiyle belirlenmelidir; önemli olan sürenin yazılı olması, süre dolunca silme/temizleme işleminin kanıtlanabilir şekilde raporlanması ve erişimin kısıtlı olmasıdır."
+      },
+      {
+        "q": "MAC adresi kişisel veri sayılır mı, nasıl yönetmeliyim?",
+        "a": "MAC adresi cihazı işaret edebildiği için riskli bir tanımlayıcıdır; mümkünse hash/mask yaklaşımıyla korunmalı ve yalnız teknik amaçla sınırlı erişimde tutulmalıdır (Varsayım: altyapı destekliyorsa)."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — misafir-wifi-erisim-loglari-kvkk-raporlama-hero-01.webp — Alt: “Otel misafir Wi-Fi logları, KVKK uyumlu teknik raporlama ile yönetilir”",
+          "h1-context — 1920×1080 — misafir-wifi-erisim-loglari-kvkk-raporlama-h1-context-02.webp — Alt: “Teknik log ile pazarlama verisi ayrımı, misafir Wi-Fi akışında netleştirilir”",
+          "divider-01 — 1600×1200 — misafir-wifi-erisim-loglari-kvkk-raporlama-divider-03.webp — Alt: “Wi-Fi’de toplanan veri katmanları, teknik log ve login verisini ayırır”",
+          "divider-02 — 1600×1200 — misafir-wifi-erisim-loglari-kvkk-raporlama-divider-04.webp — Alt: “Wi-Fi veri toplama hataları ve çözümler, KVKK riskini azaltır”",
+          "diagram-05 — 1920×1080 — misafir-wifi-erisim-loglari-kvkk-raporlama-diagram-05.webp — Alt: “Misafir cihazından log raporuna Wi-Fi erişim akışı, kontrol noktalarını gösterir”",
+          "checklist-06 — 1200×1200 — misafir-wifi-erisim-loglari-kvkk-raporlama-checklist-06.webp — Alt: “Wi-Fi log alanları ve saklama checklist’i, minimum veri yaklaşımını standardize eder”",
+          "kpi-07 — 1200×1200 — misafir-wifi-erisim-loglari-kvkk-raporlama-kpi-07.webp — Alt: “Anonim Wi-Fi KPI kartı, pazarlama ve operasyon için güvenli özet sunar”",
+          "proof-08 — 1200×1200 — misafir-wifi-erisim-loglari-kvkk-raporlama-proof-08.webp — Alt: “Checklist ve denetim rapor paketi, Wi-Fi KVKK uyum kanıtı oluşturur”",
+          "table-wifi-log-fields — Wi-Fi erişim log alanları tablosu (zorunlu vs opsiyonel)"
+        ],
+        "technicalChecklist": [
+          "Teknik log alanları ile login verileri ayrıldı mı?",
+          "Login ekranında yalnız minimum alanlar var mı?",
+          "Wi-Fi verisi pazarlamaya ham PII olarak aktarılmıyor mu?",
+          "Loglar şifreli mi ve erişim rolleri sınırlı mı?",
+          "Retention policy + job raporu var mı?",
+          "Pazarlamaya ham log değil anonim metrik gidiyor mu?",
+          "Login ekranında gereksiz alanlar kaldırıldı mı?",
+          "SMS/telefon kullanılıyorsa amaç ve saklama net mi?",
+          "Login verisi pazarlamaya kişi bazlı taşınmıyor mu?",
+          "Pazarlama raporları tamamen aggregate mı?",
+          "Wi-Fi ham logları yalnız IT/güvenlikte mi?",
+          "Paylaşım “safe view” üzerinden mi?",
+          "Log alan seti zorunlu/opsiyonel olarak sınıflandırıldı mı?",
+          "MAC address mümkünse hash/mask uygulanıyor mu?",
+          "Erişim role-based (IT/Güvenlik) olarak sınırlandırıldı mı?",
+          "Erişim logu tutuluyor mu (kim, ne zaman erişti)?",
+          "Silme/temizleme job raporu üretiliyor mu?",
+          "Anonim Wi-Fi dashboard hazır mı?",
+          "Denetim için aylık rapor paketi oluşturuldu mu?"
+        ]
+      }
+    }
   }
 }

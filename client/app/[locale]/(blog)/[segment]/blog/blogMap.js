@@ -1093,7 +1093,11 @@ export const BLOG_MAP = {
     "kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization":"BlogKvkkVePazarlamaVerisiSegmentasyonDataMinimization",
     "bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme":"BlogBulutVeSunucuLokasyonuOtelVerisiIcinTeknikDegerlendirme",
     "rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi":"BlogRaporVeDashboardlardaVeriMaskelemeAnonimKpi",
-    "raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari":"BlogRaporlamaVeDashboardIcinKvkkEgitimKpiLari"
+    "raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari":"BlogRaporlamaVeDashboardIcinKvkkEgitimKpiLari",
+    "kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek":"BlogKvkkUyumundaYonetimDashboardiKpiIleBuyukResmiGormek",
+    "kamera-kayitlari-cctv-kvkk-raporlama":"BlogKameraKayitlariCctvKvkkRaporlama",
+    "cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk":"BlogCagriMerkeziSesKayitlariEkranKayitlariKvkk",
+    "misafir-wifi-erisim-loglari-kvkk-raporlama":"BlogMisafirWifiErisimLoglariKvkkRaporlama"
   },
 
 
