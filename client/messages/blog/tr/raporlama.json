@@ -58272,5 +58272,4252 @@
         ]
       }
     }
+  },
+
+  "BlogMobilCheckinDijitalAnahtarVerileriKVKKRaporlama": {
+  "title": "Mobil Check-in & Dijital Anahtar KVKK Raporu",
+  "slug": "mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Mobil check-in ve dijital anahtar sistemleri, uygulama–PMS–kilit sistemi arasında yeni kişisel veri akışları ve oda erişim logları oluşturur. KVKK uyumlu raporlama; uygulamada tutulan kimlik/iletişim verilerini, oda ataması ve anahtar üretimi/iptal loglarını, cihaz ID ve push token gibi teknik alanları; saklama süresi ve rol bazlı erişimle yönetmeyi gerektirir.",
+  "seo": {
+    "metaTitle": "Mobil Check-in & Dijital Anahtar KVKK Raporu | DGTLFACE",
+    "metaDescription": "Mobil check-in ve dijital anahtar verisini KVKK uyumlu yönetin: veri akışı haritası, anahtar logları, saklama/erişim kuralları ve olay inceleme rapor seti."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 19 — https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama",
+      "Blog Tipi: Core",
+      "Intent: Informational + Technical",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500"
+    ],
+    "strategySummary": "Mobil check-in ve dijital anahtar çözümleri misafir deneyimini hızlandırırken, uygulama–PMS–kilit sistemi arasında yeni veri akışları ve “oda erişim logları” üretir. Bu içerik, yeni teknolojiyi “veri haritası + saklama/erişim + log raporu” üçlüsüyle KVKK uyumuna bağlar: hangi kişisel veriler mobil uygulamada tutuluyor, dijital anahtar atama/iptal logları kimlerin erişiminde ve ne kadar süre saklanıyor? Antalya ve modern resort otellerde mobil check-in/dijital anahtar kullanımının artması, bu logların hem güvenlik olaylarında hem “benim odamı kim açtı?” gibi misafir taleplerinde kritik kanıt olmasını sağlar. Ana iş sorusu: “Mobil check-in/dijital anahtar verisini nasıl haritalar, rol bazlı erişim ve retention ile yönetir ve denetimde/olay incelemede raporlarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Mobil check-in ve dijital anahtar sistemleri, uygulama–PMS–kilit sistemi arasında yeni kişisel veri akışları ve oda erişim logları oluşturur. KVKK uyumlu raporlama; uygulamada tutulan kimlik/iletişim verilerini, oda ataması ve anahtar üretimi/iptal loglarını, cihaz ID ve push token gibi teknik alanları; saklama süresi ve rol bazlı erişimle yönetmeyi gerektirir. Dijital anahtar logları, olay inceleme ve misafir taleplerinde kritik kanıt olduğu için erişim ve export işlemleri loglanmalıdır.",
+    "sgeSummary": "Dijital anahtar verisi; uygulama→PMS→kilit sisteminde akar. Anahtar atama/iptal ve oda açma loglarını saklama/erişim kurallarıyla raporlayın; denetim ve olay inceleme kolaylaşır.",
+    "voiceAnswer": "Mobil check-in akışını veri haritasına ekleyin; dijital anahtar loglarını saklama ve erişim kurallarıyla raporlayın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, IT, ön büro, güvenlik, misafir ilişkileri",
+      "Ana KPI: Anahtar log erişim sayısı, iptal/yeniden atama sayısı, olay inceleme süresi, retention uyumu",
+      "Entity/İlişki (AIO): Digital Key Logs → show → room access events by device/time; Mobile App → sends → check-in data to PMS",
+      "GEO: Antalya/resort; mobil check-in kullanım oranı artan oteller",
+      "Funnel: Teknik governance → analiz/danışmanlık",
+      "Çıktı: Veri akış diyagramı + anahtar log tablosu + 3 ihlal senaryosu/3 kontrol kutusu + indirilebilir şablon"
+    ]
+  },
+  "h1": {
+    "title": "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak",
+    "intro": "Mobil check-in ve dijital anahtar, misafirin resepsiyonda beklemesini azaltır; fakat aynı zamanda “oda erişimi” gibi kritik bir olayı dijital loglara taşır. Bu loglar güvenlik olaylarında ve misafir taleplerinde (ör. “odamı kim açtı?”) kanıt niteliği taşır. KVKK uyumu için hedef; bu yeni veri akışını görünür kılmak (data map), hangi verinin nerede ne kadar yaşadığını belirlemek (retention), kimlerin hangi loglara erişebildiğini sınırlamak (RBAC) ve erişim/export işlemlerini raporlamak (access log + audit pack) olmalıdır. Bu rehber, mobil uygulama–PMS–kilit sistemi arasındaki veri akışını ve raporlama setini pratik şekilde kurar.",
+    "quickSummary": [
+      "Mobil check-in veri akışını data map’e ekleyin.",
+      "Anahtar loglarını “yüksek hassasiyet” sınıfında yönetin.",
+      "Erişimi ve export’u loglayın.",
+      "“Unlock log” erişimini sadece güvenlik/özel role verin.",
+      "Retention politikasını yıllık güncelleyin (Refresh 365)."
+    ],
+    "ctaPrimary": {
+      "label": "Mobil Check-in & Dijital Anahtar KVKK Analizi Talep Et",
+      "text": "Mobil check-in ve anahtar log yönetiminizi otelinize özel kuralım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Mobil Check-in & Dijital Anahtar KVKK Analizi Talep Et",
+      "text": "Mobil check-in ve anahtar log yönetiminizi otelinize özel kuralım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    "secondary": {
+      "label": "Mobil Check-in Veri Haritası & Anahtar Log Şablonunu İndir",
+      "text": "Data map ve log şablonuyla raporlamayı hızla standardize edersiniz.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "PMS Kurulum",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "label": "Otel PMS Entegrasyonu",
+      "href": "/otel/pms-entegrasyonu"
+    },
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "PMS Kurulum",
+      "href": "/pms-ota/pms-kurulum"
+    },
+    {
+      "title": "Otel PMS Entegrasyonu",
+      "href": "/otel/pms-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "mobil-checkin-dijital-anahtar-verileri",
+      "title": "Mobil check-in/dijital anahtar çözümlerinde hangi veriler toplanır?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Mobil check-in ve dijital anahtar tarafında veri ikiye ayrılır: (1) check-in verisi ve (2) anahtar/oda erişim olay logları. KVKK raporlama için önce bu iki katmanı ayırmak gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "1) Mobil check-in’de işlenen veri türleri (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kimlik/iletişim (misafirin uygulamada verdiği bilgiler)",
+            "Rezervasyon referansı / check-in doğrulama bilgisi",
+            "Oda ataması ile ilişkili bilgiler (room assignment)",
+            "Zaman bilgisi (check-in/out timestamp)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Dijital anahtar verisi ve logları (kritik kanıt seti)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dijital anahtar üretimi (issue) ve iptal (revoke) olayları",
+            "Anahtar yeniden atama (re-issue)",
+            "Oda kapısı açma olayları (unlock events)",
+            "Cihaz ID ve/veya push token gibi teknik alanlar",
+            "Yetkili kullanıcı/rol (kim atadı, kim iptal etti) (Varsayım: sistem logluyorsa)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "AUDIT SHEET – Dijital Anahtar Log Alanları Tablosu",
+          "headers": [
+            "Alan",
+            "Açıklama",
+            "Örnek"
+          ],
+          "rows": [
+            [
+              "event_id",
+              "Tekil olay",
+              "key_001"
+            ],
+            [
+              "event_type",
+              "issue/revoke/reissue/unlock",
+              "unlock"
+            ],
+            [
+              "timestamp",
+              "Olay zamanı",
+              "2026-01-12T10:15+03:00"
+            ],
+            [
+              "room_id",
+              "Oda",
+              "1207"
+            ],
+            [
+              "device_id",
+              "Cihaz kimliği",
+              "dev_xxx"
+            ],
+            [
+              "actor_role",
+              "Kim tetikledi",
+              "guest/app / staff"
+            ],
+            [
+              "result",
+              "success/fail",
+              "success"
+            ],
+            [
+              "reason",
+              "incident_id (varsa)",
+              "INC-2026-014"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) “Teknik alanlar” ile “PII” ayrımı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Teknik: cihaz ID, token, session (operasyon kanıtı)",
+            "PII: misafir kimlik/iletişim (minimize edilmesi gerekir)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu ayrım raporda net olmalı; aksi halde anahtar logları “kimlik deposuna” dönüşür."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya modern resort)"
+        },
+        {
+          "type": "p",
+          "text": "Mobil check-in yaygınlaştıkça “anahtar iptali” ve “yeniden atama” olayları artabilir (telefon değişti, uygulama kapandı). Bu olayların loglanması, hem güvenlik hem misafir deneyimi için kritiktir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Check-in verisi ile anahtar logları ayrıldı mı?",
+            "Cihaz ID/token gibi alanlar yalnız teknik amaçla mı tutuluyor?",
+            "Oda açma logları erişim kısıtıyla korunuyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mobil check-in veri akışını data map’e ekleyin.",
+            "Anahtar loglarını “yüksek hassasiyet” sınıfında yönetin.",
+            "Misafir kimlik verisini log sistemine gereksiz taşımayın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "kvkk-uyumlu-raporlama",
+      "title": "Bu verileri KVKK’ya uygun nasıl raporlarsınız?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KVKK uyumlu raporlama, 4 parçaya bölünür: data map, retention, role-based access, incident/audit raporu."
+        },
+        {
+          "type": "h3",
+          "text": "1) Mobil check-in akışını veri haritasına eklemek (data map)"
+        },
+        {
+          "type": "p",
+          "text": "Uygulama → PMS → Kilit sistemi akışını tek şemada gösterin:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Misafir uygulamada check-in → PMS doğrular → oda atanır → dijital anahtar üretilir → kilit sistemiyle eşleşir → oda açma olayları loglanır"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Saklama süresi (Retention) – “ne kadar yaşar?”"
+        },
+        {
+          "type": "p",
+          "text": "Kesin süre rakamı vermek yerine (hukukla belirlenmeli), raporlama standardı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-in verisi: operasyonel ihtiyaç bitince minimize edilir",
+            "Anahtar logları: olay inceleme ve kanıt ihtiyacı için politika ile saklanır",
+            "Süre dolunca silme/anonimleştirme job’u (Varsayım: uygulanabiliyorsa) ve kanıt raporu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Erişim yetkisi (RBAC) – “kim görür?”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ön Büro: check-in operasyonu",
+            "Güvenlik: olay inceleme (unlock log)",
+            "IT: sistem yönetimi (loglara sınırlı)",
+            "Yönetim: sadece olay bazlı onayla rapor (Varsayım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) Erişim/export logları – “kim, ne yaptı?”"
+        },
+        {
+          "type": "p",
+          "text": "Anahtar loglarına erişim ve export, CCTV ve call center kayıtlarında olduğu gibi “kırmızı alan”dır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "access log: user/role, timestamp, log_id, action, reason, result",
+            "export listesi: incident_id ile"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Data map çizildi mi?",
+            "Retention policy yazılı mı?",
+            "Unlock log erişimi role-based mi?",
+            "Export işlemleri incident_id ile izleniyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Unlock event log’larını “audit pack” içinde ayrı klasör olarak tutun.",
+            "Erişimi ve export’u loglayın.",
+            "Check-in verisini pazarlama katmanına “minimum” şekilde aktarın (Varsayım: gerekiyorsa)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "dijital-anahtar-log-saklama-erisim",
+      "title": "Dijital anahtar logları ne kadar saklanmalı, kimler erişmeli?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu sorunun cevabı, otelin risk profili ve hukuk/uyum değerlendirmesine bağlıdır; ancak pratik prensipler sabittir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Saklama süresi “olay inceleme ihtiyacı” ve “gerektiği kadar saklama” dengesiyle belirlenir",
+            "Erişim, en az yetki (least privilege) ile sınırlandırılır",
+            "Misafir taleplerinde (ör. “odam açıldı”) kanıt üretmek için loglar korunur; ama herkesin erişimine açılmaz"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“Benim odamı kim açtı?” talebi için rapor yaklaşımı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tam logu paylaşmak yerine, yetkili ekip tarafından olay raporu üretilir",
+            "Logdan ilgili zaman aralığı çıkarılır",
+            "Rapor, gerekli minimum bilgiyi içerir (kimlik ifşası üretmeden)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Misafir “odama biri girdi” dediğinde, anahtar logları güvenlik için hızlı kanıt sağlar. Ama bu logları geniş erişime açmak yeni risk doğurur. Çözüm, “rapor üretimi” ve erişim loglamasıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Erişim rolleri net mi?",
+            "Misafir talepleri için “rapor üretim” prosedürü var mı?",
+            "Retention job raporu var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Unlock log” erişimini sadece güvenlik/özel role verin.",
+            "Misafir talebi için standart rapor şablonu kullanın.",
+            "Retention politikasını yıllık güncelleyin (Refresh 365)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olay-ihlal-inceleme-raporlari",
+      "title": "Olay ve ihlal incelemelerinde kullanılacak raporlar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mobil check-in ve dijital anahtar sistemleri, “incident response” için yeni kanıt kaynakları oluşturur. Denetimde ve olay incelemede minimum rapor seti:"
+        },
+        {
+          "type": "h3",
+          "text": "Minimum audit/incident rapor seti"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Mobil check-in veri akışı haritası (data map)",
+            "Dijital anahtar log alan seti (schema)",
+            "Son 90 gün erişim/export log özeti",
+            "Anahtar iptal/yeniden atama raporu (trend)",
+            "Retention/silme kanıtı (Varsayım: job raporu)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3 tip ihlal senaryosu / 3 kontrol"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Senaryo: Yetkisiz anahtar yeniden atama → Kontrol: RBAC + re-issue log + onay",
+            "Senaryo: Loglara geniş erişim → Kontrol: role-based view + access log + periyodik review",
+            "Senaryo: Cihaz/token verisi pazarlamaya sızıyor → Kontrol: minimization + anonim KPI yaklaşımı"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): Dijital anahtar logları, güvenlik olaylarında ve misafir taleplerinde kritik kanıt kaynağıdır; bu nedenle doğru saklama ve raporlama, hem operasyonel netlik hem KVKK riski açısından değer üretir."
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Mobil Check-in Veri Haritası & Anahtar Log Şablonunu İndir",
+          "text": "Data map ve log şablonuyla raporlamayı hızla standardize edersiniz.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Mobil Check-in & Dijital Anahtar KVKK Analizi Talep Et",
+          "text": "Mobil check-in ve anahtar log yönetiminizi otelinize özel kuralım.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/pms-ota/pms-kurulum, /tr/otel/pms-entegrasyonu, /tr/raporlama/kvkk-veri-guvenligi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "mobil-checkin-audit-sheet",
+      "title": "Mobil Check-in Veri Haritası & Anahtar Log Şablonunu İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Mobil Check-in Veri Haritası & Anahtar Log Şablonunu İndir — Mobile & Key Data (v1.0)",
+          "purpose": "Bu audit sheet, otellerin mobil check-in ve dijital anahtar süreçlerinde oluşan veri akışını (uygulama→PMS→kilit sistemi) haritalamasını ve anahtar erişim olaylarını kanıtlanabilir log şemasıyla raporlamasını sağlar. Amaç; anahtar atama/iptal/yeniden atama ve oda açma olaylarını rol bazlı erişim, retention ve export kontrolüyle yöneterek denetim ve olay incelemede netlik üretmektir.",
+          "whoFor": "IT/entegrasyon ekibi, ön büro, güvenlik, GM (onay).",
+          "steps": [
+            "Data map şablonuna sistemleri ve veri setlerini yazın (check-in verisi vs key logs).",
+            "Anahtar log alan setini doldurun; erişim ve export’u incident_id ile şartlandırın.",
+            "Aylık raporda erişim/export sayısı ve iptal/yeniden atama trendlerini KPI olarak izleyin."
+          ],
+          "checklist": [
+            "Unlock log erişimi role-based sınırlandı | Owner: __ | Due: __",
+            "Re-issue işlemleri onay akışına bağlandı (Varsayım) | Owner: __ | Due: __",
+            "Export incident_id zorunlu | Owner: __ | Due: __",
+            "Retention policy yazıldı | Owner: __ | Due: __",
+            "Aylık KPI raporu kuruldu | Owner: __ | Due: __"
+          ],
+          "href": "/downlods/mobil-check-in-veri-haritasi-anahtar-log-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Mobil check-in ve dijital anahtar sistemlerinde hangi kişisel veriler işlenir?",
+      "a": "Mobil uygulamada minimum kimlik/iletişim verileri, rezervasyon doğrulama bilgileri ve check-in zaman verileri işlenebilir. Dijital anahtar tarafında ise anahtar üretimi/iptali ve oda açma olayları cihaz-zaman-oda bağlamında loglanır."
+    },
+    {
+      "q": "Dijital anahtar logları ne kadar saklanmalı, kimler erişmeli?",
+      "a": "Kesin süreler hukuk/uyum değerlendirmesiyle belirlenmelidir; önemli olan politikayı yazılı hale getirip role-based erişimle sınırlandırmaktır. Unlock log’lara erişim genellikle güvenlik ve sınırlı IT rolünde olmalı; export işlemleri incident_id ile izlenmelidir."
+    },
+    {
+      "q": "Mobil check-in akışını KVKK veri haritasına nasıl eklerim?",
+      "a": "Uygulama→PMS→kilit sistemi veri akışını adım adım yazıp her adımda veri seti, aktarım türü, erişim rolü ve saklama notunu ekleyin. Böylece denetimde “hangi veri nerede yaşıyor?” sorusu netleşir."
+    },
+    {
+      "q": "Olası bir ihlalde mobil check-in verilerini nasıl raporlarım?",
+      "a": "İlgili zaman aralığında anahtar issue/revoke/unlock loglarını çıkarın, erişim/export loglarını ekleyin ve etkilenen veri setlerini sınıflandırın. Rapor; incident_id, timeline, kanıt log listesi ve aksiyon planını içermelidir."
+    },
+    {
+      "q": "“Benim odamı kim açtı?” talebinde doğru yaklaşım nedir?",
+      "a": "Tam ham logu paylaşmak yerine yetkili ekip tarafından olay raporu üretilmeli; ilgili zaman aralığı ve olay türleri doğrulanmalı ve minimum gerekli bilgiyle süreç yönetilmelidir. Log erişimleri ayrıca kayıt altına alınmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-hero-01.webp — Mobil check-in ve dijital anahtar verileri, KVKK uyumlu veri akışı ve loglarla yönetilir",
+        "h1-context — 1920×1080 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-h1-context-02.webp — Uygulama–PMS–kilit sistemi arasında anahtar atama ve oda açma olayları netleştirilir",
+        "divider-01 — 1600×1200 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-divider-03.webp — Toplanan veriler: check-in verisi ve dijital anahtar erişim logları ayrımı",
+        "divider-02 — 1600×1200 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-divider-04.webp — İhlal senaryoları ve kontroller, dijital anahtar riskini azaltır",
+        "diagram-05 — 1920×1080 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-diagram-05.webp — Mobil check-in veri akışı: uygulama → PMS → kilit sistemi, raporlama noktalarıyla",
+        "checklist-06 — 1200×1200 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-checklist-06.webp — Dijital anahtar log alanları ve erişim checklist’i, kanıt setini standardize eder",
+        "kpi-07 — 1200×1200 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-kpi-07.webp — Anahtar iptali/yeniden atama ve erişim KPI’ları, olay inceleme performansını izler",
+        "proof-08 — 1200×1200 — mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama-proof-08.webp — Data map, log schema ve audit rapor paketi çıktıları, denetimde kanıt üretir"
+      ],
+      "technicalChecklist": [
+        "Check-in verisi ile anahtar logları ayrıldı mı?",
+        "Cihaz ID/token gibi alanlar yalnız teknik amaçla mı tutuluyor?",
+        "Data map çizildi mi?",
+        "Retention policy yazılı mı?",
+        "Unlock log erişimi role-based mi?",
+        "Export işlemleri incident_id ile izleniyor mu?",
+        "Misafir talepleri için “rapor üretim” prosedürü var mı?",
+        "Retention job raporu var mı?"
+      ]
+    }
   }
+},
+
+"BlogCocukVerisiVeAileRezervasyonlariKVKKRaporlama": {
+  "title": "Aile Rezervasyonunda Çocuk Verisi KVKK Raporu",
+  "slug": "cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Çocuk verileri, aile rezervasyonlarında sık işlendiği için KVKK açısından daha yüksek hassasiyet gerektirir. Teknik yaklaşım; çocukla ilgili alanları iş ihtiyacı kadar sınırlamak, PMS’te gereksiz isim gibi alanları pazarlama/raporlama katmanına taşımamak, çocuk verisine erişimi rol bazlı daraltmak ve raporlarda çocuk isimleri yerine anonim göstergeler kullanmaktır.",
+  "seo": {
+    "metaTitle": "Aile Rezervasyonunda Çocuk Verisi KVKK Raporu | DGTLFACE",
+    "metaDescription": "Çocuk verisini minimum alanlarla yönetin: PMS çocuk alanlarını sınırlayın, raporda isim yerine yaş grubu/oda sayısı kullanın; erişim, maskeleme ve silme loglarıyla KVKK kanıtı üretin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 20 — https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama",
+      "Blog Tipi: Core",
+      "Intent: Informational + Governance",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500"
+    ],
+    "strategySummary": "Çocuk verisi, KVKK kapsamında daha yüksek hassasiyetle yönetilmesi gereken bir veri grubudur; otellerde bu veri en çok aile rezervasyonlarında “çocuk yaşı, oda dağılımı ve bazen isim” alanları üzerinden sisteme girer. Bu içerik, hukuki yorum yapmadan teknik/operasyonel çerçevede; PMS ve rezervasyon sistemlerinde çocuk alanlarını minimuma indirmeyi, raporlarda çocuk isimleri yerine yaş grubu/oda sayısı gibi anonim göstergelere geçmeyi ve çocuk verisine erişimi rol bazlı sıkılaştırmayı anlatır. Aile konsepti güçlü Antalya/Belek/Side otellerinde çocuk alanları daha yoğun kullanıldığı için, yanlış ekran paylaşımı ve bölüm dışı erişim riski artar; maskeleme + erişim kısıtı bu etkiyi azaltır. Ana iş sorusu: “Aile rezervasyonlarında çocuk verisini minimum alanla nasıl sınırlar, erişim/saklama/maskeleme ile nasıl raporlar ve silme/anonimleştirme kanıtını nasıl üretirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Çocuk verileri, aile rezervasyonlarında sık işlendiği için KVKK açısından daha yüksek hassasiyet gerektirir. Teknik yaklaşım; çocukla ilgili alanları “iş ihtiyacı kadar” sınırlamak (çoğunlukla yaş grubu ve oda dağılımı), PMS’te gereksiz isim gibi alanları pazarlama/raporlama katmanına taşımamak, çocuk verisine erişimi rol bazlı daraltmak ve raporlarda çocuk isimleri yerine anonim göstergeler (yaş grubu, çocuk sayısı, oda tipi) kullanmaktır. Saklama süresi dolan kayıtlar silme/anonimleştirme loglarıyla raporlanmalıdır.",
+    "sgeSummary": "Çocuk verisi için minimizasyon şart: yaş grubu/oda sayısı gibi anonim alanlarla çalışın, isimleri raporda göstermeyin. Erişimi sıkılaştırın, saklama ve silme işlemlerini loglayın.",
+    "voiceAnswer": "Çocuk verisini minimum alanlarla toplayın; raporda isim yerine yaş grubu kullanın ve erişimi sıkılaştırın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, ön büro, rezervasyon, IT, misafir ilişkileri",
+      "Ana KPI: Çocuk isimli kayıt oranı (azalmalı), maskeleme kapsamı, erişim ihlali riski, silme/anonim job başarı oranı",
+      "Entity/İlişki (AIO): Child Data → requires → stricter access & anonymised reporting; PMS Field → contains → child attributes",
+      "GEO: Antalya/Belek/Side aile konseptli resort oteller",
+      "Funnel: Governance → analiz/danışmanlık",
+      "Çıktı: Aile rezervasyonu alan tablosu + maskeleme örnekleri + 3 risk/3 kontrol kutusu + indirilebilir checklist"
+    ]
+  },
+  "h1": {
+    "title": "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı",
+    "intro": "Aile rezervasyonları oteller için kritik bir gelir segmentidir; ancak bu segment, sistemlere daha fazla hassas veri girmesi riskini de artırır. Çocukla ilgili yaş/oda dağılımı bilgisi çoğu zaman operasyon için gereklidir; fakat çocuk ismi gibi alanlar, raporlama ve pazarlama katmanına taşındığında gereksiz risk üretir. KVKK uyumlu teknik yaklaşım; çocuk verisini minimum alan ile sınırlamak, erişimi rol bazlı daraltmak, raporlarda isim yerine anonim göstergeler kullanmak ve saklama/silme süreçlerini kanıtlanabilir loglarla raporlamaktır. Bu rehber, özellikle aile konsepti güçlü Antalya/Belek/Side resort oteller için pratik bir raporlama standardı sunar. (Not: Hukuki yorum yapmadan teknik/operasyonel çerçevede kalınır; süreler ve zorunluluklar hukuk birimiyle netleştirilmelidir.)",
+    "quickSummary": [
+      "“Gerekli alan seti”ni yazılı hale getirin.",
+      "Çocuk ismini raporlama katmanından çıkarın.",
+      "Varsayılan dashboard’u anonim KPI yapın.",
+      "Çocuk verisi için ayrı “masking standardı” yayınlayın.",
+      "Silme/anonim job’larını aylık rapora ekleyin."
+    ],
+    "ctaPrimary": {
+      "label": "Çocuk Verisi & Aile Rezervasyonu KVKK Analizi Talep Et",
+      "text": "PMS ve rezervasyon ekranlarınızda çocuk alanlarını minimize edip maskeleme/erişim rapor setini birlikte kuralım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Çocuk Verisi & Aile Rezervasyonu KVKK Analizi Talep Et",
+      "text": "Aile konseptli otelinizde çocuk verisini minimizasyon + maskeleme + erişim raporlarıyla güvenceye alalım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    "secondary": {
+      "label": "Çocuk Verisi İçeren Alanlar & Maskeleme Checklist’ini İndir",
+      "text": "PMS alanlarını sadeleştirip rapor maskeleme standardını hızla uygularsınız.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "Satış Sonrası Destek",
+      "href": "/cagri-merkezi/satis-sonrasi-destek"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "aile-rezervasyonlarinda-cocuk-verileri",
+      "title": "Aile rezervasyonlarında hangi çocuk verileri teknik olarak işleniyor?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Aile rezervasyonlarında çocuk verisi genelde “oda planlaması ve fiyatlandırma” için kullanılır. Teknik olarak işlenen alanları üç gruba ayırmak iyi pratiktir: gerekli, opsiyonel ve riskli."
+        },
+        {
+          "type": "h3",
+          "text": "1) Çoğunlukla gerekli alanlar (operasyon odaklı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk sayısı",
+            "Yaş grubu / yaş bandı (örn. 0–2, 3–6, 7–12 gibi)",
+            "Oda dağılımı (kaç yetişkin + kaç çocuk)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Opsiyonel alanlar (gerekçe ile)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk yaşı (tam yaş) (Varsayım: fiyatlandırma/aktivite için gerekiyorsa)",
+            "Özel ihtiyaç bilgisi (serbest metin yerine kategori tercih edilir)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Gereksiz risk üreten alanlar (raporda göstermemek / minimize etmek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk adı/soyadı (çoğu raporda gereksiz)",
+            "Kimlik/pasaport gibi alanlar (çocuk için de yüksek risk)",
+            "Serbest notlarda çocukla ilgili detaylar (kontrolsüz PII riski)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO mantığı: Child Data → requires → stricter access & anonymised reporting"
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden çocuk verisi içeren alanlar, raporlama katmanında özellikle “maskeli/anonim” tasarlanmalıdır."
+        },
+        {
+          "type": "table",
+          "caption": "Aile rezervasyonu veri alanları tablosu",
+          "headers": [
+            "Kategori",
+            "Alan",
+            "Yaklaşım"
+          ],
+          "rows": [
+            [
+              "Gerekli",
+              "Çocuk sayısı",
+              "Tut"
+            ],
+            [
+              "Gerekli",
+              "Yaş grubu / yaş bandı",
+              "Tut"
+            ],
+            [
+              "Gerekli",
+              "Oda dağılımı",
+              "Tut"
+            ],
+            [
+              "Opsiyonel",
+              "Çocuk yaşı (tam yaş)",
+              "Gerekçe ile"
+            ],
+            [
+              "Opsiyonel",
+              "Özel ihtiyaç bilgisi",
+              "Kategori tercih edilir"
+            ],
+            [
+              "Riskli",
+              "Çocuk adı/soyadı",
+              "Raporda göstermemek / minimize etmek"
+            ],
+            [
+              "Riskli",
+              "Kimlik/pasaport gibi alanlar",
+              "Raporda göstermemek / minimize etmek"
+            ],
+            [
+              "Riskli",
+              "Serbest notlarda çocukla ilgili detaylar",
+              "Raporda göstermemek / minimize etmek"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Belek aile oteli)"
+        },
+        {
+          "type": "p",
+          "text": "Mini club ve aktivite planlamasında “yaş grubu” yeterlidir; çocuğun ismi çoğu yönetim raporunda gereksizdir. İsim alanının raporlarda görünmesi, screenshot veya yanlış paylaşımda ihlal etkisini büyütür."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Yaş grubu/çocuk sayısı alanları yeterli mi?",
+            "Çocuk ismi raporlarda görünüyor mu? (risk)",
+            "Serbest notlarda çocukla ilgili PII birikiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Gerekli alan seti”ni yazılı hale getirin.",
+            "Çocuk ismini raporlama katmanından çıkarın.",
+            "Serbest notları kategoriye çevirin (Varsayım)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "pms-cocuk-alanlari-raporlama",
+      "title": "PMS’de çocuk alanlarını nasıl sınırlamalı ve raporlamalıyım?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çocuk alanlarını sınırlamak, KVKK uyumunda “data minimization” prensibinin pratik karşılığıdır. Burada iki hedef var:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "PMS/rezervasyon ekranında gereksiz alanları doldurmamak",
+            "Rapor katmanında çocuk verisini anonimleştirmek ve maskelemek"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "PMS/rezervasyon ekranında “minimum çocuk alan seti”"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk sayısı",
+            "Yaş grubu/bant",
+            "Oda dağılımı (occupancy)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bunun dışındaki alanlar “iş ihtiyacı” ile gerekçelenmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Raporlama yaklaşımı: çocuk ismi yerine anonim göstergeler"
+        },
+        {
+          "type": "p",
+          "text": "Otel raporlarında şu göstergeler genelde yeterlidir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yaş grubu dağılımı (0–2 / 3–6 / 7–12)",
+            "Aile rezervasyonu oranı (toplam içinde)",
+            "Oda tipi bazlı çocuklu rezervasyon oranı",
+            "Sezon/hafta bazlı “çocuk sayısı trendi” (aggregate)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "“Side’da aile yoğunluğu arttı” raporu; isim listesi değil, yaş grubu ve oda tipi kırılımı ister. Bu hem karar aldırır hem PII riskini azaltır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Raporlar isim/kimlik içermeden çalışıyor mu?",
+            "Çocuk verisi olan kayıtlar için erişim daha kısıtlı mı?",
+            "Export’lar (excel) kontrol altında mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Çocuk verisi içeren kayıt” etiketini raporda kullanın (Varsayım: flag).",
+            "Varsayılan dashboard’u anonim KPI yapın.",
+            "Detay görünümü sadece gerekli role açın (RBAC yaklaşımı)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "cocuk-verisi-erisim-maskeleme",
+      "title": "Çocuk verisini erişim ve raporlama açısından nasıl yönetirsiniz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çocuk verisi “daha sıkı erişim ve daha anonim raporlama” gerektirir. Uygulanabilir üç katman:"
+        },
+        {
+          "type": "h3",
+          "text": "1) Rol bazlı erişim (Access Right)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ön büro/rezervasyon: operasyon için minimum",
+            "Pazarlama: çocuk PII’ye erişim yok; yalnız aggregate KPI",
+            "IT: sistem yönetimi (PII görüntüleme değil)",
+            "Yönetim: yalnız KPI/aggregate; gerekirse olay bazlı rapor"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Maskeleme (Masking)"
+        },
+        {
+          "type": "p",
+          "text": "Maskeleme örnekleri (raporda):"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk adı varsa: C* ** (mümkünse hiç gösterme)",
+            "Yaş: tam yaş yerine yaş grubu",
+            "Oda no: gerekiyorsa kısmi (#12***)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Export ve paylaşım kontrolü (riskin büyüdüğü yer)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk verisi içeren raporlarda export kısıt",
+            "“Safe view” (maskeli) paylaşım",
+            "Export/access log (kim indirdi?) (Varsayım: altyapı destekliyorsa)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): Çocuk verisini maskeleyen ve erişimi kısıtlayan otellerde, yanlış ekran paylaşımı veya bölüm dışı erişim durumunda ihlal etkisinin ciddi ölçüde azalması teorik olarak beklenir; çünkü görünen veri isim değil anonim göstergedir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Çocuk verisi içeren raporlar “safe view” ile mi paylaşılıyor?",
+            "Pazarlama katmanında çocuk PII var mı? (olmasın)",
+            "Export işlemleri izleniyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Çocuk verisi için ayrı “masking standardı” yayınlayın.",
+            "Çocuk PII’yi rapor katmanından çıkarın.",
+            "Aylık erişim review raporu oluşturun (RBAC + export)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "cocuk-verisi-saklama-silme-anonimlestirme",
+      "title": "Çocuk verisi içeren kayıtlarda saklama ve silme/anonimleştirme raporları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Saklama süresi kesin rakamlarla değil, “policy + kanıt” olarak ele alınır. Önemli olan:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çocuk verisi içeren kayıtların saklama politikasının yazılı olması",
+            "Süre dolunca silme/anonimleştirme job’larının loglanması",
+            "Denetimde “policy + execution + summary” paketinin sunulması"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Silme/anonim job log alanları (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "job_id, executed_at",
+            "data_set: family_booking_child_fields",
+            "criteria: retention_expired",
+            "method: delete/anonymise",
+            "records_affected",
+            "result"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Çocuk isimleri raporlardan kaldırılmış olsa bile, PMS’te geçmiş kayıtlar kalabilir. Silme/anonim job raporu, “gerektiği kadar saklama” prensibini kanıtlar."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Retention policy yazılı mı?",
+            "Job raporu var mı?",
+            "Çocuk alanları anonimleştirilebiliyor mu? (Varsayım)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Çocuk alanlarını “yüksek hassasiyet” etiketiyle ayrı izleyin.",
+            "Silme/anonim job’larını aylık rapora ekleyin.",
+            "Denetim paketine 1 yıllık özet koyun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocuk-verisi-risk-senaryolari",
+      "title": "3 çocuk verisi risk senaryosu / 3 kontrol",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Risk: Raporlarda çocuk isimleri görünür → Kontrol: isim kaldır + yaş grubu KPI + safe view",
+            "Risk: Pazarlama araçlarına çocuk PII akıyor → Kontrol: whitelist + minimization + sadece aggregate KPI",
+            "Risk: Export ile dosya dışarı çıkıyor → Kontrol: export kısıt + access log + role-based erişim review"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Çocuk Verisi İçeren Alanlar & Maskeleme Checklist’ini İndir",
+          "text": "PMS alanlarını sadeleştirip rapor maskeleme standardını hızla uygularsınız.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Çocuk Verisi & Aile Rezervasyonu KVKK Analizi Talep Et",
+          "text": "Aile konseptli otelinizde çocuk verisini minimizasyon + maskeleme + erişim raporlarıyla güvenceye alalım.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/pms-ota/rezervasyon-yonetimi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/cagri-merkezi/satis-sonrasi-destek sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "cocuk-verisi-maskeleme-checklist",
+      "title": "Çocuk Verisi İçeren Alanlar & Maskeleme Checklist’ini İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Çocuk Verisi İçeren Alanlar & Maskeleme Checklist’ini İndir — Family Booking (v1.0)",
+          "purpose": "Bu checklist, otellerin aile rezervasyonlarında çocuk verisini minimum alan setiyle yönetmesini ve raporlarda çocuk isimleri yerine yaş grubu/oda sayısı gibi anonim göstergelere geçmesini sağlar. Amaç; çocuk verisine erişimi sıkılaştırmak, yanlış ekran paylaşımı ve bölüm dışı erişim riskini düşürmek ve saklama/silme/anonimleştirme kanıtını loglarla üretmektir.",
+          "whoFor": "Ön büro, rezervasyon, IT/raporlama ekibi, GM (onay).",
+          "steps": [
+            "PMS/rezervasyon ekranında çocuk alanlarını “minimum set”e indirin.",
+            "Dashboard’larda çocuk isimlerini kapatıp yaş grubu KPI’larına geçin; safe view oluşturun.",
+            "Çocuk verisi içeren kayıtlar için erişim review + silme/anonim job raporunu aylık izleyin."
+          ],
+          "checklist": [
+            "Gerekli (tut): Çocuk sayısı",
+            "Gerekli (tut): Yaş grubu/bant",
+            "Gerekli (tut): Oda dağılımı",
+            "Opsiyonel (gerekçe ile): Tam yaş (fiyat/aktivite gerekçesiyle)",
+            "Opsiyonel (gerekçe ile): Özel ihtiyaç (kategori ile)",
+            "Riskli (raporda gösterme / minimizasyon): Çocuk adı/soyadı",
+            "Riskli (raporda gösterme / minimizasyon): Kimlik/pasaport alanları",
+            "Riskli (raporda gösterme / minimizasyon): Serbest notlarda çocuk PII",
+            "Çocuk isimleri raporda kapalı",
+            "Yaş grubu KPI’ları aktif",
+            "Oda/rezervasyon ID kısmi gösterim (#12***)",
+            "Çocuk verisi içeren raporlarda export kısıtlı",
+            "Erişim logu tutuluyor (kim erişti) (Varsayım: altyapı)",
+            "Safe view paylaşım standardı var"
+          ],
+          "href": "/downloads/cocuk-verisi-iceren-alanlar-maskeleme-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "h3",
+          "text": "14 Günlük Sprint Planı (uygulama)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1–2: Çocuk alan envanteri + kullanım analizi",
+            "Gün 3–5: Minimum alan seti kararı + ekran düzeni",
+            "Gün 6–8: Dashboard maskeleme + KPI dönüşümü",
+            "Gün 9–11: Erişim rolleri + export kısıt",
+            "Gün 12–14: Retention/silme job raporu + audit pack güncellemesi"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Aile rezervasyonlarında çocuk verisi KVKK’ya göre nasıl ele alınmalı?",
+      "a": "Teknik olarak minimizasyon uygulanmalı: çocuk sayısı ve yaş grubu gibi operasyon için gerekli alanlar tutulur, çocuk isimleri raporlama/pazarlama katmanına taşınmaz. Erişim rol bazlı sınırlandırılır ve saklama/silme işlemleri loglanır."
+    },
+    {
+      "q": "PMS’de çocuk alanlarını nasıl sınırlamalı ve raporlamalıyım?",
+      "a": "Minimum alan setiyle başlayın (çocuk sayısı, yaş grubu, oda dağılımı). Raporlarda çocuk isimleri yerine yaş grubu ve çocuklu rezervasyon oranı gibi aggregate KPI’lar kullanın; detay görünümü sadece gerekli roller için tanımlayın."
+    },
+    {
+      "q": "Rapor ekranlarında çocuk isimlerini göstermek yerine hangi anonim göstergeler kullanılabilir?",
+      "a": "Yaş grubu dağılımı, çocuk sayısı trendi, aile rezervasyonu oranı, oda tipi bazlı çocuklu rezervasyon oranı ve sezon bazlı segment KPI’ları kullanılabilir. Bu göstergeler karar aldırır, kişisel veri riskini azaltır."
+    },
+    {
+      "q": "Çocuk verisi içeren kayıtları saklama ve silme/anonimleştirme süreçlerini nasıl loglarım?",
+      "a": "Retention policy’ye göre job bazlı log tutulur: job_id, tarih, data_set, kriter (süre doldu), yöntem (delete/anonymise), etkilenen kayıt sayısı ve sonuç alanlarıyla kanıt üretilir. Aylık/yıllık özet rapor denetim paketine eklenir."
+    },
+    {
+      "q": "Çocuk verisi erişimini neden daha sıkı sınırlamalıyım?",
+      "a": "Çünkü çocuk verisi daha yüksek hassasiyet gerektirir; bölüm dışı erişim veya yanlış ekran paylaşımı ihlal etkisini büyütür. Maskeli raporlama ve role-based erişim, bu etkiyi azaltır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-hero-01.webp — Aile rezervasyonlarında çocuk verisi, KVKK uyumlu minimizasyon ve maskeleme ile yönetilir",
+        "h1-context — 1920×1080 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-h1-context-02.webp — Çocuk alanları PMS’te minimumda tutulur, raporda yaş grubu KPI’larına dönüşür",
+        "divider-01 — 1600×1200 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-divider-03.webp — Gerekli–opsiyonel–riskli çocuk veri alanları ayrımı, teknik raporlama için temel çerçeve sunar",
+        "divider-02 — 1600×1200 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-divider-04.webp — Çocuk verisi risk senaryoları ve kontroller, aile otellerinde KVKK riskini azaltır",
+        "diagram-05 — 1920×1080 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-diagram-05.webp — Aile rezervasyonu veri akışı: PMS child fields → anonim rapor KPI’ları",
+        "checklist-06 — 1200×1200 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-checklist-06.webp — Çocuk verisi maskeleme ve raporlama checklist’i, isim yerine yaş grubu kullanımını standardize eder",
+        "kpi-07 — 1200×1200 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-kpi-07.webp — Yaş grubu dağılımı ve çocuklu rezervasyon trendi KPI’ları, kişisel veri göstermeden karar aldırır",
+        "proof-08 — 1200×1200 — cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama-proof-08.webp — Çocuk verisi minimizasyon ve maskeleme çıktıları, denetimde kanıt seti oluşturur",
+        "table-family-booking-child-fields — Aile rezervasyonu veri alanları tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+      ],
+      "technicalChecklist": [
+        "Yaş grubu/çocuk sayısı alanları yeterli mi?",
+        "Çocuk ismi raporlarda görünüyor mu? (risk)",
+        "Serbest notlarda çocukla ilgili PII birikiyor mu?",
+        "Raporlar isim/kimlik içermeden çalışıyor mu?",
+        "Çocuk verisi olan kayıtlar için erişim daha kısıtlı mı?",
+        "Export’lar (excel) kontrol altında mı?",
+        "Çocuk verisi içeren raporlar “safe view” ile mi paylaşılıyor?",
+        "Pazarlama katmanında çocuk PII var mı? (olmasın)",
+        "Export işlemleri izleniyor mu?",
+        "Retention policy yazılı mı?",
+        "Job raporu var mı?",
+        "Çocuk alanları anonimleştirilebiliyor mu? (Varsayım)"
+      ]
+    }
+  }
+},
+
+"Blog2026AiKvkkDenetimCoPilotlariLogAnalizi": {
+  "title": "2026 AI KVKK Denetim Co-Pilot: Log Analizi",
+  "slug": "2026-ai-kvkk-denetim-co-pilotlari-log-analizi",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "AI destekli KVKK denetim co-pilot’ları, PMS, sunucu, admin panel ve çağrı merkezi loglarını ön-analiz ederek şüpheli erişim, eksik log alanları ve tekrar eden risk paternlerini görünür kılar. Maskeleme, rol bazlı erişim ve insan onayıyla denetim hazırlığını hızlandıran kontrollü bir analiz katmanı oluşturur.",
+  "seo": {
+    "metaTitle": "2026 AI KVKK Denetim Co-Pilot: Log Analizi | DGTLFACE",
+    "metaDescription": "AI co-pilot’larla log/olay kayıtlarını ön-analiz edin: şüpheli erişim, eksik log alanı ve risk skorunu hızlı görün. Maskeleme + insan onayıyla KVKK sınırını koruyun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 21 — https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Trend)",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 90 gün"
+    ],
+    "strategySummary": "2026’da KVKK ve veri güvenliği tarafında yükselen trend, log ve olay kayıtlarını tek tek manuel taramak yerine AI destekli “denetim co-pilot”larının ön-analiz yapmasıdır. Hedef persona; otel sahibi/GM, IT-güvenlik lideri ve denetim hazırlığından sorumlu yöneticidir: PMS/sunucu/panel/çağrı merkezi gibi kaynaklardan gelen yüksek log hacminde “şüpheli erişim”, “eksik log alanı”, “tekrar eden ihlal paterni” gibi sinyalleri hızlı görmek ister. Antalya ve turizm bölgelerinde zincir/grup otellerde log hacmi büyüdüğü için, AI ile “ön özet + uyarı kartı” yaklaşımı zaman kazandırabilir; ancak son karar ve sorumluluk insan ekiplerde kalmalıdır. Ana iş sorusu: “AI co-pilot logları nasıl ön-analiz eder, hangi çıktıları üretir, kim onaylar ve KVKK sınırlarını (maskeleme/rol bazlı erişim) nasıl korurum?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "AI destekli KVKK “denetim co-pilot”ları, PMS/sunucu/panel/çağrı merkezi loglarını ve olay kayıtlarını önceden tarayıp şüpheli erişim, anomali, eksik log alanları ve tekrar eden ihlal paternlerini özetleyen uyarı kartları üretir. Amaç hukuki karar vermek değil; denetim öncesi iç kontrolü hızlandırıp insan ekibin dikkatini yüksek riskli alanlara yönlendirmektir. Girdi verisi maskeleme/rol bazlı erişimle korunur; son onay insan ekiplerde kalır.",
+    "sgeSummary": "AI co-pilot, logları ön-analiz eder; şüpheli erişim ve eksik alanları özetler. Maskeleme + insan onayıyla denetim hazırlığını hızlandırır, karar verici değildir.",
+    "voiceAnswer": "AI co-pilot logları özetler, şüpheli sinyalleri işaretler; doğrulama ve karar insan ekiplerdedir.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, IT/güvenlik, denetim hazırlık lideri",
+      "KPI: manuel inceleme yükü, yüksek risk sinyal sayısı, doğrulanan bulgu oranı, kapanan aksiyon sayısı",
+      "Entity: AI Audit Assistant, Access Log, Incident Record, Risk Score, Human Reviewer, PMS, Server Log",
+      "GEO: Türkiye (Antalya ve zincir oteller) — yüksek log hacmi",
+      "Funnel: Thought leadership + strateji → danışmanlık",
+      "Çıktı: AI akış diyagramı + uyarı kartları + governance onay akışı + “5 soru” kutusu"
+    ]
+  },
+  "h1": {
+    "title": "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi",
+    "intro": "Denetim hazırlığında en pahalı kaynak genelde “bilgi” değil, zamandır: PMS, sunucu, admin panel ve çağrı merkezi logları büyüdükçe manuel tarama günlere yayılabilir. 2026 trendi, AI destekli “co-pilot”ların log/olay kayıtlarını ön-analiz ederek şüpheli erişimleri, eksik log alanlarını ve tekrar eden risk paternlerini “uyarı kartlarına” dönüştürmesidir. Bu yaklaşım hukuki karar vermek için değil, iç kontrolü hızlandırmak ve insan ekibi yüksek riskli alanlara odaklamak içindir. (Not: Son değerlendirme/karar insan ekiplerde kalır; girdi/çıktı maskeleme ve rol bazlı erişimle sınırlandırılır.)",
+    "quickSummary": [
+      "Co-pilot’u karar verici değil, ön-analiz ve özetleme katmanı olarak konumlandırın.",
+      "PMS + panel + sunucu gibi 2–3 kritik log kaynağıyla başlayın.",
+      "Maskeleme ve role-based erişimi AI pipeline’ın zorunlu katmanı yapın.",
+      "Her bulguyu risk skoru + kanıt + insan onayıyla yönetin.",
+      "Kuralları ve eşikleri 90 günlük refresh döngüsüyle gözden geçirin."
+    ],
+    "ctaPrimary": {
+      "label": "AI Destekli KVKK Denetim & Log Analizi Danışmanlığı Al",
+      "text": "AI ön-analiz mimarisini ve governance onay akışını otelinize özel kuralım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "AI Destekli KVKK Denetim & Log Analizi Danışmanlığı Al",
+      "text": "AI ön-analiz mimarisini ve governance onay akışını otelinize özel kuralım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    "secondary": {
+      "label": "AI KVKK Co-Pilot Örnek Kullanım Senaryoları Dokümanını İndir",
+      "text": "5 senaryo + uyarı kartı şablonlarıyla denetim öncesi iç kontrol panelini hızla kurarsınız.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-kvkk-denetim-copilot-nedir",
+      "title": "AI KVKK denetim co-pilot’u nedir ve nasıl çalışır?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "AI co-pilot; logları “okuyup karar veren” bir hakim değil, ön-analiz yapan bir asistan gibi düşünülmelidir. Birden çok kaynaktan gelen erişim loglarını ve olay kayıtlarını birleştirir, temel sinyalleri çıkarır ve insan ekibin incelemesi için “özet + şüphe gerekçesi + kanıt linki” üretir."
+        },
+        {
+          "type": "h3",
+          "text": "4–5 maddede çalışma mantığı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Log/olay kayıtlarını toplar (PMS/sunucu/panel/çağrı merkezi).",
+            "Maskeli/anonimleştirilmiş şekilde indeksler (PII azaltımı).",
+            "Anomali ve patern arar: olağan dışı saat, çoklu IP, tekrar eden deneme, eksik alan.",
+            "Risk skorunu ve “neden şüpheli” açıklamasını üretir.",
+            "İnsan reviewer onayıyla aksiyon listesine dönüşür."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Gece 03:20’de admin paneline 12 başarısız giriş denemesi → aynı kullanıcıyla 3 farklı IP → co-pilot “brute force/credential stuffing olasılığı” diye işaretler, ilgili log satırlarını ve zaman aralığını tek kartta toplar."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Co-pilot’un rolü “karar verici” değil “ön-analiz” mi?",
+            "Çıktı kartı kanıt linki içeriyor mu?",
+            "İnsan onayı olmadan aksiyon kapatılmıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Co-pilot’u “özetleyici” rolüne koyun, otomatik karar vermesin.",
+            "Her bulguya “kanıt yolu + insan onayı” şartı ekleyin.",
+            "İlk etapta sadece 2–3 log kaynağıyla başlayın (PMS + sunucu + panel)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "erisim-loglari-ai-on-analiz",
+      "title": "Erişim logları ve olay kayıtlarını AI ile nasıl ön-analiz edebilirsiniz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI ön-analizin gücü, tek tek satır okumak yerine “olay örgüsünü” çıkarmasıdır: kim, ne zaman, nereden, ne yaptı — ve bu normal mi?"
+        },
+        {
+          "type": "h3",
+          "text": "Ön-analiz tipleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Anomali tespiti: olağan dışı saatler, alışılmadık ülke/IP, beklenmeyen yoğunluk.",
+            "Patern tespiti: aynı hata kodu, tekrar eden export, sürekli yetki yükseltme.",
+            "Eksik log alanı tespiti: timestamp var ama role yok; export var ama reason yok.",
+            "Cross-source korelasyon: panelde rol değişimi → ardından veri export → ardından farklı IP’den giriş."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "PMS’te role_change → 10 dk sonra CRM export artışı → co-pilot “yetki yükseltme sonrası veri çıkarımı” paternini işaretler; ekip yalnız bu zinciri inceler."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Aynı olayı birden fazla kaynaktan bağlayabiliyor musunuz?",
+            "“Eksik log alanı” bulgusu üretebiliyor musunuz?",
+            "Export/erişim gibi kırmızı aksiyonlar ayrı takipte mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “export / role_change / fail_login” gibi kırmızı aksiyonları etiketleyin.",
+            "Co-pilot’a patern kuralları verin (ör. role_change→export).",
+            "Eksik alanları “aksiyon”a çevirin: log şemasını düzelt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supheli-davranis-anomali-riskleri",
+      "title": "Şüpheli davranış ve anomali tespiti hangi riskleri daha hızlı gösterir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Co-pilot’un hızlı değer ürettiği yerler, “yüksek hacim + düşük sinyal” alanlarıdır. Otellerde tipik hızlı kazanım alanları:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yetkisiz erişim denemeleri: fail login spike, olağan dışı saat.",
+            "Aşırı veri çıkarımı: export/download artışı, rapor paylaşım paterni.",
+            "Yetki suistimali: admin sayısının artması, role_change yoğunluğu.",
+            "Eksik kontrol: log saklama policy boşluğu, yedek/restore kanıt eksikliği.",
+            "Tekrarlayan küçük hatalar: yanlış mail/yanlış export gibi incident paternleri."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (teorik aralıklarla): Yüksek log hacminde manuel tarama günler sürebilirken, AI ön-analizle “ilk özet”in dakikalar–saatler bandına çekilmesi teorik olarak mümkündür. Varsayım: süreç olgunluğuna göre insan ekibin manuel tarama yükünde %40–70 bandında azalma ve incelemenin “yüksek riskli %10–20 alana odaklanması” gibi verim kazanımları görülebilir (kuruma/log kalitesine bağlı)."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "“Hızlı kazanım” riskleri tanımlı mı (fail login, export, role_change)?",
+            "Sinyaller için eşikleriniz var mı (yeşil/sarı/kırmızı)?",
+            "Çıktılar KPI kartına dönüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "5 risk tipini “kırmızı sinyal” olarak kilitleyin.",
+            "Co-pilot çıktısını “risk skoru + kanıt + öneri aksiyon” formatına zorlayın.",
+            "Haftalık review toplantısında sadece kırmızı kartları okutun."
+          ]
+        },
+
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "oteller-ai-kvkk-copilot-kullanim-senaryolari",
+      "title": "Oteller için AI KVKK co-pilot kullanım senaryoları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aşağıdaki 5 soru, co-pilot’un yönetim/güvenlik ekibine “hemen değer” sağlayacağı taranabilir bir set sunar:"
+        },
+        {
+          "type": "h3",
+          "text": "Bu co-pilot ile cevaplayabileceğiniz 5 soru"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Son 30 günde en şüpheli 10 oturum hangileri? (nedenleriyle)",
+            "Hangi sistemlerde log alanı eksik ve denetim kanıtı zayıf?",
+            "Hangi tedarikçi/entegrasyon hattında anomali artıyor?",
+            "Hangi departmanda basit hatalar tekrarlanıyor? (incident paternleri)",
+            "Son restore test kanıtı olmayan kritik sistem var mı?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (zincir otel)"
+        },
+        {
+          "type": "p",
+          "text": "Grup panelinde “otel A: vendor risk yüksek + restore testi gecikmiş” kartı kırmızıya düşer. Yönetim, tek bakışta aksiyonu doğru otele yönlendirir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "5 soruya cevap üreten dashboard kartları var mı?",
+            "Her kart “owner + due date” ile aksiyona bağlanıyor mu?",
+            "Multi-otel drill-down mümkün mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk sürümde sadece bu 5 soruyu hedefleyin (scope kontrol).",
+            "Her karta “kanıt linki” ve “insan onayı” ekleyin.",
+            "Co-pilot’u denetimden önce “iç kontrol” aracı olarak konumlandırın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "ai-ciktilari-onay-governance",
+      "title": "AI çıktıları nasıl ve kim tarafından onaylanmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu başlık, KVKK sınırlarını koruyan “governance çekirdeği”dir. AI bulgu önerir, insan doğrular."
+        },
+        {
+          "type": "h3",
+          "text": "Önerilen onay zinciri (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "AI → ön bulgu + kanıt satırları + risk skoru",
+            "Human Reviewer (IT/güvenlik) → doğrulama, false positive eleme",
+            "Process Owner (departman sahibi) → aksiyon planı ve uygulama",
+            "Yönetim → KPI kartlarında kapanış ve risk trendi"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "AIO mantığı: AI → pre-analyses → logs, Human → validates → findings"
+        },
+        {
+          "type": "table",
+          "caption": "AI co-pilot girdi/çıktı kontrol matrisi",
+          "headers": [
+            "Aşama",
+            "Kaynak / Veri",
+            "Maskeleme / Erişim",
+            "Çıktı",
+            "Onay"
+          ],
+          "rows": [
+            [
+              "Log kaynağı",
+              "PMS / sunucu / panel / çağrı merkezi",
+              "Role-based erişim",
+              "Ham log / olay kaydı",
+              "Sistem sahibi"
+            ],
+            [
+              "Ön işleme",
+              "Log ve olay alanları",
+              "PII maskeleme / anonimleştirme",
+              "İndekslenmiş veri",
+              "IT / güvenlik"
+            ],
+            [
+              "AI ön-analiz",
+              "Maskeli log seti",
+              "Yetkili co-pilot erişimi",
+              "Risk skoru + şüphe gerekçesi + kanıt",
+              "Human Reviewer"
+            ],
+            [
+              "Aksiyon",
+              "Doğrulanmış bulgu",
+              "Process Owner erişimi",
+              "Aksiyon planı + owner + due date",
+              "Process Owner"
+            ],
+            [
+              "Kapanış",
+              "Aksiyon ve KPI sonucu",
+              "Yönetim görünümü",
+              "Risk trendi / kapanış kartı",
+              "Yönetim"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Co-pilot “şüpheli export” dedi; reviewer inceler ve bunun planlı bir rapor olduğunu görür → false positive olarak işaretler → model kuralı güncellenir (export + approved_job etiketi)."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "AI bulgusu insan onayı olmadan aksiyona dönüşmüyor mu?",
+            "False positive yönetimi var mı?",
+            "Erişim/role kısıtı AI pipeline’ında da geçerli mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Onaysız aksiyon yok” kuralını yazılı hale getirin.",
+            "False positive’leri geri besleyin (kural iyileştirme).",
+            "Reviewer rolü için ayrı eğitim ve checklist oluşturun."
+          ]
+        },
+
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "ai-kvkk-riskler-sinirlar",
+      "title": "Riskler ve sınırlar (hukuki değil, teknik perspektif)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI co-pilot’ların riski genelde “AI yanlış karar verdi” değil; yanlış veri ile yanlış bağlamdır."
+        },
+        {
+          "type": "h3",
+          "text": "Başlıca riskler"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PII sızıntısı: loglar maskelenmeden AI’a giderse risk büyür.",
+            "Model drift: sistem/alan değişince bulgular bozulabilir.",
+            "Yanlış alarm yorgunluğu: çok alarm → kimse bakmaz.",
+            "Erişim suistimali: co-pilot çıktısı herkese açılırsa, maskeleme boşa düşer."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sınır prensipleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Maskeleme/anonimleştirme zorunlu (özellikle isim/telefon/e-posta).",
+            "Role-based erişim (kim hangi kartı görebilir).",
+            "Kısa ve kanıtlı çıktı (uzun metin değil, kart)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "AI’a giden veri maskelemeden geçiyor mu?",
+            "Alarm sayısı yönetilebilir mi?",
+            "Çıktılar role-based mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "AI pipeline’a maskeleme katmanı ekleyin.",
+            "Alarm eşiklerini azaltıp kaliteyi artırın (top 10 kırmızı).",
+            "90 günde bir model/kurallar gözden geçirme planı koyun."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "denetim-oncesi-ic-kontrol-playbook",
+      "title": "Kurulum ve raporlama: denetim öncesi “iç kontrol” playbook’u",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Trend içeriklerde en iyi yaklaşım: küçük başla, kanıt üret, sonra genişlet."
+        },
+        {
+          "type": "h3",
+          "text": "14 günlük başlangıç sprinti (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1–3: kaynak seçimi (PMS + panel + sunucu)",
+            "Gün 4–6: maskeleme + log şeması standardı",
+            "Gün 7–10: 5 soru kartı + risk skoru",
+            "Gün 11–14: onay akışı + aylık rapor + audit pack entegrasyonu"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "AI KVKK Co-Pilot Örnek Kullanım Senaryoları Dokümanını İndir",
+          "text": "5 senaryo + uyarı kartı şablonlarıyla denetim öncesi iç kontrol panelini hızla kurarsınız.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "AI Destekli KVKK Denetim & Log Analizi Danışmanlığı Al",
+          "text": "AI ön-analiz mimarisini ve governance onay akışını otelinize özel kuralım.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "ai-kvkk-copilot-mini-guide",
+      "title": "AI KVKK Co-Pilot Örnek Kullanım Senaryoları Dokümanını İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "AI KVKK Co-Pilot Örnek Kullanım Senaryoları Dokümanını İndir — Veri Analizi & Raporlama (v1.0)",
+          "purpose": "Bu mini rehber, otellerin KVKK denetimi öncesinde log ve olay kayıtlarını AI ile ön-analiz ederek “uyarı kartları” üretmesini, ancak nihai doğrulama ve kararın insan ekiplerde kalmasını sağlayan governance çerçevesini sunar. Amaç; yüksek log hacminde zaman kazanmak, eksik log alanlarını hızla tespit etmek ve riskli paternleri aksiyon panosuna dönüştürmektir.",
+          "whoFor": "IT/güvenlik lideri, denetim hazırlık sorumlusu, GM (yönetim görünümü).",
+          "steps": [
+            "2–3 kritik log kaynağı seçin (PMS + panel + sunucu).",
+            "Maskeleme + role-based erişimle AI ön-analizi güvenli hale getirin.",
+            "Bulgu kartlarını insan reviewer onayıyla aksiyona bağlayın."
+          ],
+          "checklist": [
+            "Top 10 kırmızı kart listesi",
+            "Export/role_change etiketleri",
+            "Maskeleme katmanı aktif",
+            "Reviewer checklist’i",
+            "Aksiyon kapanış panosu"
+          ],
+          "href": "/downloads/ai-kvkk-co-pilot-ornek-kullanim-senaryolari-dokumanlari-v1.0.pdf",
+          "buttonLabel": "Dokümanı İndir"
+        },
+        {
+          "type": "h3",
+          "text": "Mini Guide (5 bölüm)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Mimari: kaynaklar → maskeleme → ön-analiz → kartlar → onay",
+            "5 Soru Seti: şüpheli oturum, export, eksik log, vendor sinyali, restore kanıtı",
+            "Kart Şablonu: risk skoru + kanıt + öneri aksiyon + owner",
+            "Governance: AI önerir, insan doğrular; false positive geri besleme",
+            "90 Gün Refresh: log şeması değişimi, eşikler, kural güncellemesi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "10 maddelik hızlı kazanım"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Top 10 kırmızı kart listesi",
+            "Export/role_change etiketleri",
+            "Maskeleme katmanı aktif",
+            "Reviewer checklist’i",
+            "Aksiyon kapanış panosu"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "AI KVKK denetim co-pilot’u nedir?",
+      "a": "Log ve olay kayıtlarını ön-analiz edip şüpheli sinyalleri özetleyen, kanıt satırlarını bir araya getiren ve insan ekibi yüksek riskli alanlara yönlendiren yardımcı analiz katmanıdır; karar verici değildir."
+    },
+    {
+      "q": "Log ve olay kayıtlarını AI ile nasıl ön-analiz edebilirim?",
+      "a": "Önce kritik kaynakları seçip (PMS/panel/sunucu), veriyi maskeleyerek indeksleyin. Co-pilot anomali/patern çıkarıp risk kartları üretir; insan reviewer doğrular ve aksiyon planına bağlar."
+    },
+    {
+      "q": "Oteller için AI log analizi hangi riskleri daha hızlı gösterir?",
+      "a": "Fail login artışı, olağan dışı saat/IP, role_change sonrası export, eksik log alanları ve tekrar eden incident paternleri gibi yüksek hacimli sinyalleri daha hızlı görünür kılabilir."
+    },
+    {
+      "q": "AI kullanırken insan kontrolü ve KVKK sınırlarını nasıl korurum?",
+      "a": "Maskeleme/anonimleştirme, role-based erişim, onaysız aksiyon yasağı ve false positive geri besleme mekanizmasıyla. AI bulgu önerir; doğrulama ve karar insan ekiplerdedir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-hero-01.webp — AI destekli KVKK co-pilot, log ön-analiziyle denetim hazırlığını hızlandırır",
+        "h1-context — 1920×1080 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-h1-context-02.webp — AI→log→uyarı kartı→insan onayı akışı, otel KVKK iç kontrolünü netleştirir",
+        "divider-01 — 1600×1200 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-divider-03.webp — Co-pilot çalışma mantığı: kaynaklar, maskeleme ve risk skoru üretimi",
+        "divider-02 — 1600×1200 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-divider-04.webp — Governance onay akışı ve 90 gün refresh planı, AI risklerini kontrol eder",
+        "diagram-05 — 1920×1080 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-diagram-05.webp — AI log ön-analiz diyagramı: korelasyon, anomali ve kanıt kartları",
+        "checklist-06 — 1200×1200 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-checklist-06.webp — Co-pilot ile cevaplanacak 5 soru checklist’i, denetim öncesi iç kontrol sağlar",
+        "kpi-07 — 1200×1200 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-kpi-07.webp — Manuel inceleme süresi vs AI ön-özet KPI kartı, zaman tasarrufu ve risk odağını gösterir",
+        "proof-08 — 1200×1200 — 2026-ai-kvkk-denetim-co-pilotlari-log-analizi-proof-08.webp — AI KVKK co-pilot içgörü kartı, risk açıklaması ve öneri aksiyonu tek ekranda sunar",
+        "table-ai-copilot-input-output-control-matrix — AI co-pilot girdi/çıktı kontrol matrisi"
+      ],
+      "technicalChecklist": [
+        "Co-pilot’un rolü “karar verici” değil “ön-analiz” mi?",
+        "Çıktı kartı kanıt linki içeriyor mu?",
+        "İnsan onayı olmadan aksiyon kapatılmıyor mu?",
+        "Aynı olayı birden fazla kaynaktan bağlayabiliyor musunuz?",
+        "“Eksik log alanı” bulgusu üretebiliyor musunuz?",
+        "Export/erişim gibi kırmızı aksiyonlar ayrı takipte mi?",
+        "Sinyaller için eşikler tanımlı mı (yeşil/sarı/kırmızı)?",
+        "Her kart owner + due date ile aksiyona bağlanıyor mu?",
+        "False positive yönetimi var mı?",
+        "Erişim/role kısıtı AI pipeline’ında da geçerli mi?",
+        "AI’a giden veri maskelemeden geçiyor mu?",
+        "Alarm sayısı yönetilebilir mi?",
+        "Çıktılar role-based mi?",
+        "90 günde bir model/kurallar gözden geçirme planı var mı?"
+      ]
+    }
+  }
+},
+
+"Blog2026PrivacyUxVeIzinDeneyimiOtelWeb": {
+  "title": "2026 Privacy UX: Otel Sitelerinde İzin Deneyimi",
+  "slug": "2026-privacy-ux-ve-izin-deneyimi-otel-web",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Privacy UX, otel web sitelerinde misafirin neye, neden ve nasıl izin verdiğini netleştiren; KVKK uyumunu ve rezervasyon dönüşümünü aynı anda gözeten izin deneyimi tasarımıdır. 2026 yaklaşımı; Analytics, Pazarlama ve Kişiselleştirme izinlerini anlaşılır kategorilere ayırmak, preference center ile kontrol sağlamak ve mobilde sürtünmesi düşük bir akış kurmaktır.",
+  "seo": {
+    "metaTitle": "2026 Privacy UX: Otel Sitelerinde İzin Deneyimi | DGTLFACE",
+    "metaDescription": "Cookie banner’dan öteye geçin: çok aşamalı izin deneyimi, preference center, TR–EN net metinler ve mobil tasarım trendleriyle KVKK uyumu + rezervasyon dönüşümünü birlikte yönetin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 22 — https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Trend & UX)",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 180 gün"
+    ],
+    "strategySummary": "2026’da otel web sitelerinde “cookie banner koyduk bitti” yaklaşımı yetmiyor; misafirin neye neden izin verdiğini anlayabildiği, kolay yönetilebilir bir Privacy UX tasarlamak gerekiyor. Hedef persona; GM/otel sahibi, satış-pazarlama yöneticisi, e-ticaret/revenue ve ajans/UX ekibidir: KVKK uyumunu korurken rezervasyon dönüşümünü boğmayan bir izin deneyimi ister. Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda mobil ağırlıklı kullanıcı profili ve çok dilli trafik (TR–EN) nedeniyle, izin metni ve tercih merkezi tasarımı doğrudan dönüşüme etki eder. Ana iş sorusu: “Analytics/pazarlama/kişiselleştirme izinlerini nasıl ayırırım, mobilde hangi layout’la sunarım ve izin oranı ile dönüşüm KPI’larını birlikte nasıl optimize ederim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Privacy UX, otel web sitelerinde misafirin neye, neden ve nasıl izin verdiğini netleştiren; KVKK uyumunu ve rezervasyon dönüşümünü aynı anda gözeten izin deneyimi tasarımıdır. 2026 yaklaşımı; tek satırlık “Tümünü kabul et” yerine kategorileri (Analytics/Pazarlama/Kişiselleştirme) açık anlatan, kolay yönetilen bir preferences center ve mobilde sürtünmesi düşük çok aşamalı akış kullanmaktır. Ölçümde izin oranı ile dönüşüm KPI’ları birlikte izlenir; son karar kullanıcı kontrolünde kalır.",
+    "sgeSummary": "Privacy UX; izinleri anlaşılır kategori ve gerekçeyle sunar, preference center ile yönetilebilir kılar. Amaç: güveni artırırken dönüşümü korumak; KPI’larla test edip iyileştirmek.",
+    "voiceAnswer": "Privacy UX, izinleri anlaşılır kategorilerle sunup preference center’da yönetilebilir kılar; dönüşümü KPI’larla test eder.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, e-commerce/revenue, satış-pazarlama, UX/ajans",
+      "KPI: Consent opt-in oranı, rezervasyon dönüşüm oranı, drop-off (banner/prefs), tercihini değiştiren kullanıcı oranı",
+      "Entity/İlişki (AIO): Good Privacy UX → increases → trust, maintains → conversion; Preference Center → enables → control",
+      "GEO: Antalya/Belek/Side/Kemer/Bodrum (mobil + çok dilli kullanıcı)",
+      "Funnel: Trend/ToFu → stratejik plan → danışmanlık",
+      "Çıktı: iyi/kötü banner mockup, preference center şeması, izin vs dönüşüm grafiği, 3 iyileştirme adımı"
+    ]
+  },
+  "h1": {
+    "title": "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?",
+    "intro": "Otel web sitelerinde izin deneyimi çoğu zaman “hukuki zorunluluk” diye eklenen bir katman gibi görülüyor. Oysa 2026’da izin deneyimi, misafirin güvenini ve rezervasyon dönüşümünü aynı anda etkileyen ürün tasarımı haline geldi. Misafir; Analytics’i “siteyi iyileştirmek”, pazarlama iznini “kampanya görmek” ve kişiselleştirmeyi “daha iyi deneyim” olarak anlayabiliyorsa; izin verirken daha az şüphe yaşar, siteyi daha güvenilir bulur. Hedef; KVKK uyumunu “metinle” değil, şeffaflık + kontrol + minimum sürtünme ile sağlamak ve bunu KPI’larla yönetmektir.",
+    "quickSummary": [
+      "Privacy UX hedefini güven + kontrol + minimum sürtünme olarak tanımlayın.",
+      "Banner’ı kısa giriş, preference center’ı kategori bazlı karar alanı olarak kurgulayın.",
+      "Analytics, Pazarlama ve Kişiselleştirme izinlerini ayrı yönetin.",
+      "Mobilde compact banner + sheet/modal yaklaşımını test edin.",
+      "Consent funnel ve rezervasyon dönüşüm KPI’larını birlikte izleyin."
+    ],
+    "ctaPrimary": {
+      "label": "Privacy UX & İzin Deneyimi Analizi Talep Et",
+      "text": "KVKK uyumunu bozmadan izin oranı ve rezervasyon dönüşümünü birlikte optimize edecek privacy UX tasarımını kuralım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Privacy UX & İzin Deneyimi Analizi Talep Et",
+      "text": "Antalya/Belek/Side gibi destinasyon trafiğinde izin deneyimini test edip optimize edelim.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    "secondary": {
+      "label": "Privacy UX Tasarım & KPI Checklist’ini İndir",
+      "text": "Banner, preference center ve KPI’larla izin deneyimini dönüşüm dostu standarda oturtursunuz.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "sections": [
+    {
+      "id": "privacy-ux-oteller",
+      "title": "Privacy UX oteller için ne ifade eder?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Privacy UX; misafirin “gizlilik”le ilgili kararını anlaşılır hale getiren, kararın sonuçlarını (ölçüm, kişiselleştirme, kampanya) basitçe açıklayan ve misafire kontrol veren tasarım yaklaşımıdır. Oteller için bu özellikle kritiktir; çünkü rezervasyon süreci güven ister ve siteyle ilk temas genellikle “fiyat/odalar/rezervasyon” üçlüsünde olur. İzin deneyimi bu ana akışı boğarsa, dönüşüm kaybı; aşırı agresif olursa güven kaybı yaşanabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Privacy UX’in 3 temel ilkesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Şeffaflık: Ne yapıyorsun? Neden yapıyorsun? (kısa, anlaşılır)",
+            "Kontrol: Kullanıcı kategori bazlı seçebilmeli ve sonra değiştirebilmeli",
+            "Sürtünme yönetimi: Mobilde tek ekranda boğmadan, adım adım"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Otel bağlamında “iyi” ve “kötü” farkı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kötü: “Tümünü kabul et / reddet” ikilemi; kategori açıklaması yok; kapatma zor",
+            "İyi: Kategoriler net; “tercihleri yönet” hızlı; “sonra değiştir” kolay"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Kemer)"
+        },
+        {
+          "type": "p",
+          "text": "Mobilde banner ekranı kaplamış ve “reddet” seçeneği gizliyse, kullanıcı rezervasyon ekranına ulaşana kadar yorulur. Bu yorgunluk, dönüşümden önce kayıp üretir. İyi privacy UX, kullanıcıyı “kandırmadan” hızlıca karar verebilir hale getirir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Kullanıcı “neden izin” verdiğini 1 cümlede anlayabiliyor mu?",
+            "Kategori bazlı seçim var mı?",
+            "“Sonradan değiştir” yolu görünür mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Privacy UX hedefini yazın: “güven + kontrol + minimum sürtünme”.",
+            "Banner’ı “tek ekran karar” yerine “kısa giriş + tercih merkezi” yapın.",
+            "Preference center linkini footer + banner’da görünür kılın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "cookie-banner-rizaya-giden-yol",
+      "title": "Cookie banner’dan rızaya giden yol nasıl kurgulanır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "2026’da en iyi pratik, banner’ı tek başına bir “rızanın kendisi” gibi değil, rızaya giden kapı gibi kurgulamaktır. Banner; kısa bir özet + “tercihleri yönet” çağrısı verir. Tercih merkezi (preference center) ise kategorileri, açıklamaları ve seçenekleri net sunar."
+        },
+        {
+          "type": "h3",
+          "text": "Çok aşamalı izin deneyimi (high-level akış)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kısa banner: “Neyi ölçüyoruz ve neden?” (1–2 cümle)",
+            "Preference center: Kategori bazlı seçim (Analytics/Pazarlama/Kişiselleştirme)",
+            "Onay ekranı: “Seçimlerin kaydedildi” + “değiştir” yolu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "TR–EN mikro metin örnekleri (kısa, UX odaklı)"
+        },
+        {
+          "type": "p",
+          "text": "Analytics (TR): “Siteyi geliştirmek için anonim ölçüm.”"
+        },
+        {
+          "type": "p",
+          "text": "Analytics (EN): “Anonymous measurement to improve the site.”"
+        },
+        {
+          "type": "p",
+          "text": "Marketing (TR): “Kampanya ve reklam kişiselleştirme.”"
+        },
+        {
+          "type": "p",
+          "text": "Marketing (EN): “Personalised ads and offers.”"
+        },
+        {
+          "type": "p",
+          "text": "Personalisation (TR): “Tercihlerinize göre deneyim.”"
+        },
+        {
+          "type": "p",
+          "text": "Personalisation (EN): “A tailored experience based on preferences.”"
+        },
+        {
+          "type": "p",
+          "text": "Not: Metin “hukuki metin” değildir; UX açıklamasıdır. Hukuki metinler KVKK sayfalarında kalır."
+        },
+        {
+          "type": "h3",
+          "text": "“Tümünü kabul” yerine granular seçim"
+        },
+        {
+          "type": "p",
+          "text": "Granular seçim, dönüşümü mutlaka düşürmek zorunda değildir. Doğru kurguda kullanıcı “kontrol hissi” kazandığı için, izin verme eşiği düşebilir. Burada hedef; pazarlama iznini zorlamadan, analytics için açıklamayı sade yapmak ve ölçümü doğru konumlandırmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Side)"
+        },
+        {
+          "type": "p",
+          "text": "“Tercihleri yönet” ekranında her kategoriye 1 cümle açıklama koymak, kullanıcıya güven verir. “Kabul etmezsen hiçbir şey çalışmaz” gibi korkutma metinleri ise hem güveni hem dönüşümü düşürebilir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Banner, preference center’a net yönlendiriyor mu?",
+            "Kategoriler anlaşılır mı (jargon yok)?",
+            "TR–EN metinleri kısa ve tutarlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Banner metnini 2 cümleyle sınırla; asıl detay preference center’da olsun.",
+            "Kategori açıklamalarını “fayda + kontrol” şeklinde yaz.",
+            "TR–EN metinleri eşit kalitede ver (çeviri değil, uyarlama)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "izin-kategorileri",
+      "title": "Analytics, pazarlama ve kişiselleştirme izinlerini nasıl ayırmalıyım?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kategorileri ayırmak, hem ölçümü hem de güveni yönetmenin temelidir. Otel sitesinde üç ana kategori pratikte yeterli bir başlangıç sağlar:"
+        },
+        {
+          "type": "h3",
+          "text": "1) Analytics"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Amaç: siteyi geliştirme, performans ölçme",
+            "UX: “anonim/aggregate” vurgusu",
+            "KPI: opt-in oranı, ölçüm kapsama oranı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Pazarlama"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Amaç: kampanya/remarketing",
+            "UX: “reklam ve teklif” ifadesi net olmalı",
+            "KPI: pazarlama opt-in, kampanya performansı (izinli evren)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Kişiselleştirme"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Amaç: dil/para birimi/tercih hatırlama (Varsayım: site özelliği)",
+            "UX: “kolaylık” vurgusu",
+            "KPI: tekrar ziyaret oranı, preference kullanım oranı"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "İzin kategorileri ve mikro metin tablosu",
+          "headers": [
+            "Kategori",
+            "Amaç",
+            "TR Mikro Metin",
+            "EN Mikro Metin",
+            "KPI"
+          ],
+          "rows": [
+            [
+              "Analytics",
+              "Siteyi geliştirme, performans ölçme",
+              "Siteyi geliştirmek için anonim ölçüm.",
+              "Anonymous measurement to improve the site.",
+              "Opt-in oranı, ölçüm kapsama oranı"
+            ],
+            [
+              "Pazarlama",
+              "Kampanya/remarketing",
+              "Kampanya ve reklam kişiselleştirme.",
+              "Personalised ads and offers.",
+              "Pazarlama opt-in, kampanya performansı (izinli evren)"
+            ],
+            [
+              "Kişiselleştirme",
+              "Dil/para birimi/tercih hatırlama (Varsayım: site özelliği)",
+              "Tercihlerinize göre deneyim.",
+              "A tailored experience based on preferences.",
+              "Tekrar ziyaret oranı, preference kullanım oranı"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“İzin vermezse hiç mi ölçemem?” sorusunu doğru çerçevelemek"
+        },
+        {
+          "type": "p",
+          "text": "Bu soruya yanıt, hukuki detay değil, UX doğruluğudur: kullanıcı izin vermezse, ölçüm kapsamınız daralır; bu nedenle raporlarda “izinli evren” notu görünür olmalıdır. Ama kullanıcıyı korkutmak yerine, “seçim sizde; ayarlardan değiştirebilirsiniz” mesajı daha iyi çalışır."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Bodrum)"
+        },
+        {
+          "type": "p",
+          "text": "Kullanıcı pazarlamayı reddedip analytics’i kabul edebilir. Bu, site optimizasyonu için ölçümü korurken kullanıcıya kontrol verir. Dönüşüm dostu yaklaşım, kategorileri ayırarak kullanıcıya “orta yol” sunmaktır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Analytics/pazarlama/kişiselleştirme net ayrıldı mı?",
+            "Her kategori için 1 cümle fayda var mı?",
+            "Raporlarda “izinli evren” notu planlandı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kategori sayısını 3’te tutarak netlik sağlayın.",
+            "Pazarlama iznini “gizlemeyin”, ama “zorlamayın”.",
+            "Dönüşüm raporlarına “izinli evren” katmanını ekleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mobil-izin-deneyimi",
+      "title": "Mobilde iyi bir izin deneyimi nasıl olmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otel trafiği mobil ağırlıklı olduğu için (özellikle Antalya/Belek resort aramalarında), banner ve preference center tasarımı mobilde test edilmeden “tamam” sayılmamalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Mobil pattern’lar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Banner (compact): ekranın altından, 2 satır metin + 2 buton",
+            "Sheet / modal: tercihler için açılır panel (kaydırmalı)",
+            "Preference center sayfası: “Ayarlar” gibi ayrı sayfa, kolay erişim"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mobilde iyi pratikler"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kapatma butonunu saklamamak",
+            "“Tercihleri yönet”i 1 tık uzaklıkta tutmak",
+            "Metni kısa tutmak; scrollda boğmamak",
+            "Seçimleri kaydettikten sonra kullanıcıyı rezervasyon akışına geri döndürmek"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya)"
+        },
+        {
+          "type": "p",
+          "text": "Mobilde kullanıcı oda fiyatına bakarken banner ekranın %40’ını kaplıyorsa, kullanıcı “kapanmıyor” hissiyle çıkar. Bu nedenle compact banner + sheet preference center kombinasyonu, dönüşüm dostu bir denge sunar."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Mobilde banner ekranı “boğmuyor” mu?",
+            "Preference center 1 tıkta açılıyor mu?",
+            "Kaydet sonrası kullanıcı ana akışa dönüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mobilde 3 senaryo test edin: anasayfa, oda detay, ödeme adımı.",
+            "Banner kaplama oranını düşürün; tercihi sheet’e taşıyın.",
+            "Preference center’ı footer + menüye sabitleyin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "izin-orani-rezervasyon-donusumu",
+      "title": "İzin oranı ile rezervasyon dönüşümünü nasıl dengelerim?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu denge, “izin oranını artırmak” veya “dönüşümü korumak” diye tek hedefle yönetilmez. İkisini birlikte izlemek gerekir:"
+        },
+        {
+          "type": "h3",
+          "text": "Temel KPI seti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Consent opt-in oranı (Analytics / Pazarlama ayrı)",
+            "Banner görme → preference center açma oranı",
+            "Preference center → kaydetme oranı",
+            "Rezervasyon dönüşüm oranı (site geneli + mobil)",
+            "Drop-off (oda detay → ödeme) değişimi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Test mantığı (A/B değil, “A/B + davranış”)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Banner metni değişince opt-in artabilir ama drop-off da artabilir",
+            "En iyi tasarım, opt-in ve dönüşümün birlikte dengelendiği tasarımdır"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Teorik KPI aralığı (yumuşatılmış): İyi tasarlanmış privacy UX’te, kullanıcı kontrolü arttığı için izin oranı düşmeden de dönüşüm korunabilir; agresif ve zorlayıcı banner’lar ise hem güveni hem dönüşümü zedeleyebilir. Varsayım: site/profil farkına göre opt-in ve dönüşümde pozitif/negatif birkaç puanlık değişimler görülebilir; bu yüzden ölçüm ve iterasyon şarttır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Opt-in KPI’ları dönüşüm KPI’larıyla birlikte mi izleniyor?",
+            "Banner/prefs funnel’ı ölçülüyor mu?",
+            "Mobilde ayrı rapor var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Consent funnel”ı ayrı raporlayın (banner→prefs→save).",
+            "Pazarlama opt-in ve dönüşümü birlikte okuyun (izinli evren).",
+            "180 günde bir UX güncelleme planı koyun (Refresh 180)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "iyi-kotu-privacy-ux",
+      "title": "2026 için otel sitelerinde iyi/kötü Privacy UX örnekleri",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "İyi örnek"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kısa banner + net kategori açıklaması",
+            "Preference center’da 3 kategori + tek satır fayda",
+            "Kaydet sonrası geri dönüş (rezervasyona devam)",
+            "TR–EN metin uyarlaması"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kötü örnek"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek seçenek: “Kabul et” (reddet gizli)",
+            "Kategori yok, açıklama yok",
+            "Mobilde ekranı kaplıyor",
+            "Kullanıcı “sonra değiştir”i bulamıyor"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3 Privacy UX iyileştirme adımı"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kategorileri sadeleştir: 3 kategori + 1 cümle açıklama",
+            "Preference center’ı görünür yap: footer + menü + banner",
+            "Raporla ve iyileştir: consent funnel + dönüşüm KPI’ları birlikte"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Privacy UX Tasarım & KPI Checklist’ini İndir",
+          "text": "Banner, preference center ve KPI’larla izin deneyimini dönüşüm dostu standarda oturtursunuz.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Privacy UX & İzin Deneyimi Analizi Talep Et",
+          "text": "Antalya/Belek/Side gibi destinasyon trafiğinde izin deneyimini test edip optimize edelim.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama/satis-donusum sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "privacy-ux-tasarim-kpi-checklist",
+      "title": "Privacy UX Tasarım & KPI Checklist’ini İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Privacy UX Tasarım & KPI Checklist’ini İndir — Trend (v1.0)",
+          "purpose": "Bu checklist, otel web sitelerinde cookie banner’dan öteye geçip, kategori bazlı izin deneyimini (Analytics/Pazarlama/Kişiselleştirme) dönüşüm dostu bir preference center ile yönetmek için pratik bir tasarım ve KPI çerçevesi sunar. Amaç; misafir güvenini artırırken rezervasyon akışını boğmayan, mobil odaklı bir privacy UX kurmak ve bunu consent funnel + dönüşüm KPI’larıyla birlikte optimize etmektir.",
+          "whoFor": "UX/ajans ekibi, e-commerce/revenue, satış-pazarlama, IT/analytics.",
+          "steps": [
+            "Banner + preference center tasarımını 3 kategoriyle standardize edin.",
+            "TR–EN mikro metin setini hazırlayıp mobilde test edin.",
+            "Consent funnel ve rezervasyon dönüşüm KPI’larını birlikte izleyip iterasyon yapın."
+          ],
+          "checklist": [
+            "Banner metni 1–2 cümle, jargon yok",
+            "“Tercihleri yönet” 1 tık uzaklıkta",
+            "3 kategori var (Analytics / Pazarlama / Kişiselleştirme)",
+            "Her kategoriye 1 cümle fayda açıklaması eklendi",
+            "TR–EN metinler uyarlanmış (literal çeviri değil)",
+            "Preference center footer ve menüde erişilebilir",
+            "Mobilde banner ekranı boğmuyor (compact)",
+            "Kaydet sonrası kullanıcı akışa geri dönüyor",
+            "Safe-share (maskeli) ekran görüntüsü prensibi yazıldı (Varsayım)",
+            "180 günlük refresh planı var",
+            "Analytics opt-in oranı",
+            "Marketing opt-in oranı",
+            "Banner → prefs açılma oranı",
+            "Prefs → kaydetme oranı",
+            "Rezervasyon dönüşüm oranı (mobil/desktop)",
+            "Drop-off (oda detay → ödeme)",
+            "Tercihini değiştiren kullanıcı oranı"
+          ],
+          "href": "/downloads/privacy-ux-tasarim-kpi-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Cookie banner dışında privacy UX nedir?",
+      "a": "Privacy UX, misafirin neye neden izin verdiğini anlayabildiği, kategori bazlı seçim yapabildiği ve tercihlerini sonradan yönetebildiği izin deneyimi tasarımıdır. Banner yalnızca giriş kapısıdır; asıl deneyim preference center’da yaşar."
+    },
+    {
+      "q": "Analytics, pazarlama ve kişiselleştirme izinlerini nasıl ayırmalıyım?",
+      "a": "Üç kategori yeterli bir başlangıçtır: Analytics (siteyi geliştirme), Pazarlama (kampanya/reklam), Kişiselleştirme (tercih hatırlama). Her kategoriye 1 cümle fayda yazıp kullanıcıya kontrol vermek dönüşüm dostu bir yaklaşımdır."
+    },
+    {
+      "q": "İzin oranı ile rezervasyon dönüşümünü nasıl dengelerim?",
+      "a": "Consent funnel (banner→prefs→save) ve rezervasyon dönüşüm KPI’larını birlikte izleyin. Hedef, kontrol hissini artırıp sürtünmeyi azaltarak hem opt-in hem dönüşümü korumaktır; agresif banner’lardan kaçının."
+    },
+    {
+      "q": "Mobilde iyi bir izin deneyimi nasıl olmalı?",
+      "a": "Compact banner + tercihler için sheet/modal + her zaman erişilebilir preference center kombinasyonu iyi pratiktir. Kaydet sonrası kullanıcı rezervasyon akışına geri dönmeli ve metinler kısa olmalıdır."
+    },
+    {
+      "q": "“İzin vermezse hiç mi ölçemem?” nasıl anlatılmalı?",
+      "a": "Korkutma yerine şeffaflık kullanılmalı: izin verilmezse ölçüm kapsamı daralır; ama seçim kullanıcıdadır ve ayarlardan değiştirilebilir. Raporlamada “izinli evren” notu görünür olmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-hero-01.webp — 2026 otel privacy UX, KVKK uyumu ve dönüşümü birlikte yönetir",
+        "h1-context — 1920×1080 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-h1-context-02.webp — Cookie banner’dan preference center’a giden izin yolculuğu, otel rezervasyon akışına uyarlanır",
+        "divider-01 — 1600×1200 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-divider-03.webp — Privacy UX prensipleri: şeffaflık, kontrol ve düşük sürtünme ile misafir güveni",
+        "divider-02 — 1600×1200 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-divider-04.webp — İyi ve kötü banner örnekleri, mobilde izin deneyimi hatalarını görünür kılar",
+        "diagram-05 — 1920×1080 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-diagram-05.webp — Banner → preference center → kayıt akışı, KVKK uyumlu izin deneyimini gösterir",
+        "checklist-06 — 1200×1200 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-checklist-06.webp — Mobil privacy UX checklist’i, izin deneyimini dönüşüm dostu hale getirir",
+        "kpi-07 — 1200×1200 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-kpi-07.webp — İzin oranı ve rezervasyon dönüşümü ilişkisi, KPI kartıyla izlenebilir",
+        "proof-08 — 1200×1200 — 2026-privacy-ux-ve-izin-deneyimi-otel-web-proof-08.webp — Preference center şeması ve KPI checklist’i, denetimde ve optimizasyonda kanıt üretir",
+        "table-consent-categories-microcopy — İzin kategorileri ve mikro metin tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+      ],
+      "technicalChecklist": [
+        "Kullanıcı “neden izin” verdiğini 1 cümlede anlayabiliyor mu?",
+        "Kategori bazlı seçim var mı?",
+        "“Sonradan değiştir” yolu görünür mü?",
+        "Banner, preference center’a net yönlendiriyor mu?",
+        "Kategoriler anlaşılır mı (jargon yok)?",
+        "TR–EN metinleri kısa ve tutarlı mı?",
+        "Analytics/pazarlama/kişiselleştirme net ayrıldı mı?",
+        "Her kategori için 1 cümle fayda var mı?",
+        "Raporlarda “izinli evren” notu planlandı mı?",
+        "Mobilde banner ekranı “boğmuyor” mu?",
+        "Preference center 1 tıkta açılıyor mu?",
+        "Kaydet sonrası kullanıcı ana akışa dönüyor mu?",
+        "Opt-in KPI’ları dönüşüm KPI’larıyla birlikte mi izleniyor?",
+        "Banner/prefs funnel’ı ölçülüyor mu?",
+        "Mobilde ayrı rapor var mı?",
+        "Preference center footer ve menüde erişilebilir mi?",
+        "180 günlük refresh planı var mı?"
+      ]
+    }
+  }
+},
+
+"Blog2026SinirOtesiVeriAktarimiVeVeriYerelligiMonitoring": {
+  "title": "2026 Data Residency Monitoring: Otel Veri Akışı",
+  "slug": "2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da sınır ötesi veri aktarımında kritik ihtiyaç, verinin fiilen nereye gittiğini teknik olarak görünür kılmaktır. PMS, OTA, channel manager ve cloud entegrasyonlarındaki endpoint’leri ülke/region bazında izleyerek TR içi ve TR dışı veri akışlarını dashboard ve log kanıtlarıyla raporlayın.",
+  "seo": {
+    "metaTitle": "2026 Data Residency Monitoring: Otel Veri Akışı | DGTLFACE",
+    "metaDescription": "PMS/OTA/cloud entegrasyonlarında “TR içi/dışı” veri akışını endpoint ve loglarla izleyin. Ülke bazlı dashboard kurup KVKK raporunu teknik kanıtla güçlendirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 23 — https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Trend)",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 180 gün"
+    ],
+    "strategySummary": "2026’da sınır ötesi veri aktarımı tartışması “kağıt üzerinde” değil, teknik görünürlük üzerinden yönetiliyor: otel PMS/OTA/cloud entegrasyonlarında hangi veri, hangi ülkeye/region’a gidiyor? sorusu log ve dashboard’larla cevaplanmak zorunda. Hedef persona; GM/otel sahibi, IT/güvenlik lideri ve uyum/denetim hazırlık sorumlusudur: veri yerelliği (data residency) stratejisini “varsayım” değil endpoint + region + log kanıtı ile yönetmek ister. Antalya ve turizm otellerinde yaygın cloud PMS/CRM kullanımı, çok sayıda endpoint ve alt sağlayıcı (sub-processor) ihtimali doğurduğundan, monitoring yaklaşımı risk yönetimini veri temelli hale getirir. Ana iş sorusu: “PMS/OTA/cloud veri akışını ülke bazlı nasıl izler, dashboard’da nasıl görünür kılar ve KVKK raporlarını teknik kanıtla nasıl beslerim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026’da sınır ötesi veri aktarımında kritik ihtiyaç, “verinin fiilen nereye gittiğini” teknik olarak görünür kılmaktır. Oteller; PMS, OTA, channel manager ve cloud entegrasyonlarındaki endpoint’leri ülke/region bazında loglayıp dashboard’larda izleyerek “TR içi / TR dışı” veri akışını kanıtlayabilir. Bu, hukuki karar vermek için değil; KVKK raporlarını teknik verilerle beslemek, risk skorunu gerçek akışa göre güncellemek ve yüksek riskli entegrasyonları önceliklendirmek içindir.",
+    "sgeSummary": "Data residency monitoring; endpoint/region/IP loglarıyla verinin hangi ülkeye gittiğini gösterir. Otel PMS/OTA/cloud akışını “TR içi/dışı” dashboard’la görünür kılar ve raporlamayı güçlendirir.",
+    "voiceAnswer": "Endpoint ve region loglarıyla verinin hangi ülkeye gittiğini izleyin; dashboard’da TR içi/dışı akışı görünür kılın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, IT/güvenlik, denetim hazırlık lideri",
+      "KPI: TR dışı endpoint çağrısı oranı, yüksek riskli entegrasyon sayısı, kanıtlanmış region/lokasyon netliği",
+      "Entity/İlişki (AIO): Logs → reveal → where data is sent/stored; Endpoint → locatedIn → Country/Region",
+      "GEO: Antalya ve turizm bölgeleri; yoğun cloud PMS/CRM kullanımı",
+      "Funnel: Trend/strateji → monitoring kurulumu → danışmanlık",
+      "Çıktı: ülke bazlı veri akış haritası + monitoring dashboard mockup + “3 senaryo” kutusu"
+    ]
+  },
+  "h1": {
+    "title": "2026’da Sınır Ötesi Veri Aktarımı ve Veri Yerelliği Monitoring: Otel Sistemleri İçin Yeni Pratikler",
+    "intro": "Sınır ötesi veri aktarımı konuşulduğunda, çoğu ekip “sözleşme ve politika” tarafında kalıyor; ama 2026 trendi, bunun teknik karşılığını ölçmek: veri akışının fiilen hangi ülkeye gittiğini log ve dashboard’larla görünür kılmak. Otellerde PMS/OTA/channel manager/cloud CRM entegrasyonları; endpoint, region ve IP katmanında karmaşık bir ağ oluşturur. Bu rehber; hukuki yorum yerine teknik görünürlük yaklaşımıyla “TR içi / TR dışı” akışları izlemek, kanıt üretmek ve KVKK raporlarını gerçek akışla beslemek için pratik bir monitoring çerçevesi verir.",
+    "quickSummary": [
+      "PMS + OTA/Channel + cloud CRM için endpoint envanteri çıkarın.",
+      "Loglara destination_country/region ve data_class alanlarını ekleyin.",
+      "TR içi / TR dışı akışları yönetim ve IT dashboard’larında ayrı izleyin.",
+      "Unknown lokasyon ve yeni ülke/region sinyallerini aksiyona bağlayın.",
+      "Envanter ve monitoring kurallarını 180 günlük refresh döngüsüyle güncelleyin."
+    ],
+    "ctaPrimary": {
+      "label": "Data Residency & Sınır Ötesi Veri Akışı Analizi Talep Et",
+      "text": "Otel sistemlerinizde ülke bazlı veri akışı görünürlüğünü kurup risk önceliklendirme panelini birlikte tasarlayalım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Data Residency & Sınır Ötesi Veri Akışı Analizi Talep Et",
+      "text": "PMS/OTA/cloud veri akışlarınızı ülke bazlı görünür kılıp raporlarınızı teknik kanıtla güçlendirelim.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    "secondary": {
+      "label": "Data Residency Monitoring & Dashboard Şablonunu İndir",
+      "text": "Ülke bazlı akış tablosu ve KPI kartlarıyla monitoring panelini hızla kurarsınız.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sinir-otesi-veri-aktarimi-teknik-izleme",
+      "title": "Sınır ötesi veri aktarımı ve veri yerelliği teknik olarak nasıl izlenir?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Buradaki hedef “veri transferi var mı?” diye varsaymak değil; hangi sistem hangi endpoint’e ne sıklıkla gidiyor sorusunu kanıtlamak. Teknik izleme, üç katmana dayanır:"
+        },
+        {
+          "type": "h3",
+          "text": "1) Endpoint & Region envanteri (nereye gidiyor?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PMS API endpoint’leri",
+            "OTA / channel manager endpoint’leri",
+            "Cloud CRM/mailing/analytics endpoint’leri",
+            "Alt servisler (webhook, CDN, monitoring) (Varsayım: varsa)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Log katmanı (ne zaman, ne kadar?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "request timestamp",
+            "source system (PMS/CRM/web)",
+            "destination endpoint (domain)",
+            "destination region/country (Varsayım: resolvable)",
+            "response code (başarı/başarısız)",
+            "payload class (PII içerir/içermez gibi “etiket”) (Varsayım: data classification)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Dashboard katmanı (TR içi/dışı görünürlük)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "TR içi çağrı oranı vs TR dışı çağrı oranı",
+            "En çok çağrı giden 10 endpoint (ülke kırılımıyla)",
+            "“Yeni görülen ülke/region” uyarısı (anomali)",
+            "PII sınıfı taşıyan akışlarda risk uyarısı (Varsayım: sınıflandırma varsa)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya zincir otel)"
+        },
+        {
+          "type": "p",
+          "text": "Aynı PMS kullanılıyor; ama bir otelde ek bir CRM entegrasyonu devrede. Monitoring dashboard’u “TR dışı endpoint çağrı oranı”nı o otelde yükselmiş gösterir; yönetim böylece “hangi entegrasyon bizi nereye bağlıyor?” sorusunu veriyle cevaplar."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Endpoint/region envanteri çıkarıldı mı?",
+            "Loglarda destination ülke/region alanı var mı?",
+            "“TR içi/dışı” dashboard KPI’ı tanımlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce 3 kaynak seç: PMS + OTA/Channel + cloud CRM.",
+            "Endpoint envanteri çıkar ve loglara “destination_country” ekle (Varsayım).",
+            "İlk dashboard’u 5 KPI ile başlat (aşağıda)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "data-residency-monitoring-adimlari",
+      "title": "Otelinizde data residency monitoring için hangi adımları izlemelisiniz?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, kurulumu “pratik” bir kontrol listesine indirir."
+        },
+        {
+          "type": "h3",
+          "text": "Adım 1 — Veri akışını ülke bazlı sınıflandır (TR içi / TR dışı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her entegrasyonu bir satır yap: sistem → endpoint → ülke/region",
+            "“Bilinmiyor” kalan alanları aksiyona bağla (kanıt talebi)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Adım 2 — Log şemasını standardize et"
+        },
+        {
+          "type": "p",
+          "text": "Minimum alan seti:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "event_time",
+            "source_system",
+            "dest_endpoint",
+            "dest_country/region",
+            "data_class (PII/Non-PII/Unknown) (Varsayım)",
+            "status_code",
+            "volume indicator (request count / bytes) (Varsayım)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Adım 3 — Monitoring panelini kur (yönetim + IT ortak dil)"
+        },
+        {
+          "type": "p",
+          "text": "Panel 2 görünümden oluşmalı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yönetim görünümü: TR dışı akış oranı, top vendor/endpoint, risk uyarıları",
+            "IT görünümü: endpoint bazlı detay, hata kodları, yeni ülke uyarıları"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Adım 4 — KVKK raporlarını teknik verilerle besle"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Ülke bazlı veri akışı tablosu” rapora ek",
+            "“Yeni ülke/region görüldü” gibi değişim logları (Varsayım)",
+            "Yüksek riskli akışlar için aksiyon planı (owner + due date)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): Data residency monitoring kuran otellerde, sınır ötesi veri akışları en azından görünür hale gelir; bu da risk analizinin “varsayım” yerine “akıĢ verisi”yle yapılmasını teorik olarak mümkün kılar."
+        },
+        {"type":"media","slot":"checklist-06"},
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Yönetim panelinde 4–6 KPI var mı?",
+            "IT panelinde endpoint detayları var mı?",
+            "Bilinmeyen lokasyonlar aksiyon listesine düşüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Unknown country” oranını KPI yap.",
+            "TR dışı endpoint’ler için “risk review” ritmi koy (aylık).",
+            "180 gün refresh planı ile envanteri güncelle."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    },
+    {
+      "id": "ulke-bazli-veri-akisi-gosterimi",
+      "title": "Log ve raporlarda veri akışının ülke bazlı gösterimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu, denetimde en çok işe yarayan “kanıt formatı”dır: “hangi sistem, hangi ülkeye gidiyor?”"
+        },
+        {
+          "type": "h3",
+          "text": "Ülke bazlı akış tablosu (örnek)"
+        },
+        {
+          "type": "table",
+          "caption": "Ülke bazlı akış tablosu (örnek)",
+          "headers": [
+            "Kaynak Sistem",
+            "Entegrasyon",
+            "Dest Endpoint",
+            "Ülke/Region",
+            "Veri Sınıfı",
+            "Sıklık",
+            "Not/Aksiyon"
+          ],
+          "rows": [
+            [
+              "PMS",
+              "OTA sync",
+              "api.ota.example",
+              "TR dışı",
+              "PII",
+              "Yüksek",
+              "vendor review"
+            ],
+            [
+              "CRM",
+              "Mailing",
+              "api.mail.example",
+              "TR dışı",
+              "PII/Unknown",
+              "Orta",
+              "data_class netleştir"
+            ],
+            [
+              "Web",
+              "Analytics",
+              "analytics.example",
+              "TR dışı",
+              "Non-PII",
+              "Yüksek",
+              "ok"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Veri sınıfı (PII/Non-PII) etiketleri, data classification sürecinizle netleşir."
+        },
+        {
+          "type": "h3",
+          "text": "Ülke bazlı akış haritası (viz)"
+        },
+        {
+          "type": "p",
+          "text": "Ülke bazlı harita; yönetimin “büyük resim” görmesini sağlar: TR içi/ dışı endpoint kümeleri ve yoğunluk."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "2026-veri-yerelligi-monitoring-araclari",
+      "title": "2026’da veri yerelliği monitoring araçları ve pratik yaklaşım",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ürün adı vermeden pratik çerçeve:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Egress monitoring: hangi servisten dışarı hangi ülkeye çağrı gidiyor?",
+            "DNS/Geo resolution: endpoint ülke/region görünürlüğü (Varsayım)",
+            "Log pipeline: merkezi log toplayıcı + dashboard",
+            "Alerting: yeni ülke/region, anormal artış, unknown lokasyon"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Bir gün içinde “yeni ülke” uyarısı çıkarsa, bu her zaman “kötü” değildir; yeni bir CDN/servis devreye girmiş olabilir. Kritik olan, bu değişimin raporlanması ve onay akışıyla yönetilmesidir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Yeni ülke/region alarmı var mı?",
+            "Unknown lokasyon alarmı var mı?",
+            "Değişiklikler audit pack’e düşüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Yeni ülke” alarmını önce bilgi (info), sonra risk sınıfına bağla.",
+            "Unknown lokasyonları 7 gün içinde kapatma hedefi koy (Varsayım).",
+            "Aylık “data residency review” toplantısı ekle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sinir-otesi-veri-akisi-senaryolari",
+      "title": "3 örnek sınır ötesi veri akışı senaryosu",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Senaryo: PMS → OTA endpoint TR dışı yoğun çağrı → Kontrol: endpoint envanteri + veri sınıfı etiketi + vendor risk review",
+            "Senaryo: CRM → mailing aracı ülkesi belirsiz (unknown) → Kontrol: kanıt talebi + log alanı iyileştirme + aksiyon panosu",
+            "Senaryo: Yeni entegrasyon ile “yeni ülke” ortaya çıktı → Kontrol: change log + yönetim onayı + dashboard notu"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Data Residency Monitoring & Dashboard Şablonunu İndir",
+          "text": "Ülke bazlı akış tablosu ve KPI kartlarıyla monitoring panelini hızla kurarsınız.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Data Residency & Sınır Ötesi Veri Akışı Analizi Talep Et",
+          "text": "PMS/OTA/cloud veri akışlarınızı ülke bazlı görünür kılıp raporlarınızı teknik kanıtla güçlendirelim.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "data-residency-monitoring-dashboard-template",
+      "title": "Data Residency Monitoring & Dashboard Şablonunu İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Data Residency Monitoring & Dashboard Şablonunu İndir — Trend (v1.0)",
+          "purpose": "Bu şablon, otel PMS/OTA/cloud entegrasyonlarında sınır ötesi veri akışını ülke/region bazlı izlemek için standart log alan seti ve yönetim/IT dashboard iskeleti sağlar. Amaç; “hangi veri, hangi ülkeye gidiyor?” sorusuna teknik kanıt üretmek, unknown lokasyonları aksiyona bağlamak ve KVKK raporlarını log temelli görünürlükle beslemektir.",
+          "whoFor": "IT/güvenlik, entegrasyon ekibi, GM (yönetim görünümü), uyum/denetim hazırlık sorumlusu.",
+          "steps": [
+            "Endpoint envanterini çıkarıp ülke/region alanlarını doldurun.",
+            "Log şemasına destination_country/region ve data_class etiketini ekleyin (Varsayım).",
+            "Dashboard KPI’larını kurup aylık data residency review toplantısına bağlayın."
+          ],
+          "checklist": [
+            "TR dışı endpoint çağrı oranı (%)",
+            "Unknown lokasyon oranı (%)",
+            "Top 10 TR dışı endpoint (ülke kırılımı)",
+            "PII sınıfı taşıyan TR dışı akış sayısı (Varsayım: etiket varsa)",
+            "Yeni ülke/region uyarısı (30 gün)",
+            "Açık aksiyon sayısı (owner + due date)",
+            "Yeni ülke/region görüldü → review",
+            "Unknown lokasyon → kanıt talebi",
+            "TR dışı PII akışı artışı → risk review"
+          ],
+          "href": "/downloads/data-residency-monitoring-dashboard-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "h3",
+          "text": "14 Günlük Sprint (kurulum)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1–3: endpoint envanteri",
+            "Gün 4–6: log alan seti",
+            "Gün 7–10: dashboard KPI’ları",
+            "Gün 11–14: alarm + rapor + audit pack entegrasyonu"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Sınır ötesi veri aktarımı oteller için teknik olarak ne anlama geliyor?",
+      "a": "PMS/OTA/cloud entegrasyonlarındaki endpoint’ler üzerinden verinin farklı ülke/region’lara gidebilmesi demektir. Teknik olarak bu akış, endpoint envanteri ve log alanlarıyla görünür kılınmalı ve dashboard’da izlenmelidir."
+    },
+    {
+      "q": "PMS ve cloud çözümlerinde verinin hangi ülkede tutulduğunu nasıl izlerim?",
+      "a": "Sağlayıcı lokasyon beyanını endpoint/region görünürlüğüyle birleştirip, loglarda destination_country/region alanlarıyla takip edebilirsiniz. Ayrıca yedek lokasyonlarını ayrı bir satır olarak raporlamak iyi pratiktir."
+    },
+    {
+      "q": "“Türkiye içi / dışı” veri akışını dashboard’da nasıl gösterebilirim?",
+      "a": "TR içi/dışı çağrı oranı, top 10 TR dışı endpoint ve “yeni ülke/unknown lokasyon” uyarılarıyla. Yönetim ekranı KPI, IT ekranı endpoint detay odaklı kurgulanır."
+    },
+    {
+      "q": "Data residency monitoring araçları KVKK raporlamasını teknik olarak nasıl destekler?",
+      "a": "KVKK raporuna “ülke bazlı veri akış tablosu”, değişim logları (yeni ülke) ve yüksek riskli akışlar için aksiyon listesi eklemenizi sağlar. Böylece risk analizi varsayımdan çıkar, akış verisiyle beslenir."
+    },
+    {
+      "q": "Unknown lokasyon görürsem ne yapmalıyım?",
+      "a": "Önce kanıt/şeffaflık talebiyle lokasyonu netleştirin, sonra verinin sınıfını (PII/Non-PII) ve akışın hacmini değerlendirip aksiyon planına bağlayın. Bu yaklaşım teknik risk görünürlüğünü artırır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-hero-01.webp — Otel sistemlerinde data residency monitoring, TR içi/dışı veri akışını görünür kılar",
+        "h1-context — 1920×1080 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-h1-context-02.webp — PMS/OTA/cloud endpoint’leri ülke bazında izleyen yaklaşım, KVKK raporlamasını güçlendirir",
+        "divider-01 — 1600×1200 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-divider-03.webp — Teknik izleme: endpoint envanteri, log şeması ve dashboard katmanı",
+        "divider-02 — 1600×1200 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-divider-04.webp — Sınır ötesi veri akışı senaryoları ve kontroller, yönetim ve IT için ortak dil kurar",
+        "diagram-05 — 1920×1080 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-diagram-05.webp — Ülke bazlı veri akış haritası, TR içi/dışı endpoint’leri yoğunlukla gösterir",
+        "checklist-06 — 1200×1200 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-checklist-06.webp — Data residency monitoring checklist’i, unknown lokasyon ve yeni ülke alarmlarını standardize eder",
+        "kpi-07 — 1200×1200 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-kpi-07.webp — TR dışı oran, unknown oran ve top endpoint KPI’ları, risk görünürlüğü sağlar",
+        "proof-08 — 1200×1200 — 2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring-proof-08.webp — Monitoring dashboard şablonu ve ülke bazlı akış tablosu çıktıları, denetimde kanıt üretir",
+        "table-country-data-flow-summary — Ülke bazlı veri akış özet tablosu"
+      ],
+      "technicalChecklist": [
+        "Endpoint/region envanteri çıkarıldı mı?",
+        "Loglarda destination ülke/region alanı var mı?",
+        "“TR içi/dışı” dashboard KPI’ı tanımlı mı?",
+        "Yönetim panelinde 4–6 KPI var mı?",
+        "IT panelinde endpoint detayları var mı?",
+        "Bilinmeyen lokasyonlar aksiyon listesine düşüyor mu?",
+        "Yeni ülke/region alarmı var mı?",
+        "Unknown lokasyon alarmı var mı?",
+        "Değişiklikler audit pack’e düşüyor mu?",
+        "Unknown country oranı KPI olarak izleniyor mu?",
+        "TR dışı endpoint’ler için aylık risk review ritmi var mı?",
+        "Endpoint envanteri 180 günlük refresh planıyla güncelleniyor mu?"
+      ]
+    }
+  }
+},
+
+"Blog2026SentetikVeriVeAnonimTestOrtamlariOtelProjeleri": {
+  "title": "2026 Sentetik Veri: Otel Test Ortamı KVKK Rehberi",
+  "slug": "2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da otel projelerinde test ve geliştirme ortamlarında gerçek misafir verisi kullanmak yüksek KVKK riski doğurur. Sentetik veya anonimleştirilmiş dataset’lerle PMS, CRM, web ve entegrasyon testleri yaparak gerçek PII’yi test ortamından uzaklaştırın; veri sözlüğü, leak test ve temizleme job loglarıyla kanıt üretin.",
+  "seo": {
+    "metaTitle": "2026 Sentetik Veri: Otel Test Ortamı KVKK Rehberi | DGTLFACE",
+    "metaDescription": "Test/sandbox’ta gerçek misafir verisini kaldırın: sentetik/anonim dataset üretin, alan sözlüğü ve saklama kurallarıyla yönetin. KVKK raporunda kanıt seti oluşturun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 24 — https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Technical (Trend)",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 180 gün"
+    ],
+    "strategySummary": "2026’da otel projelerinde test ve geliştirme ortamlarında gerçek misafir verisi kullanmak, giderek daha büyük bir KVKK riski olarak görülüyor; çünkü sandbox ortamlarının erişim yüzeyi çoğu zaman prod kadar sıkı değil. Bu içerik, PMS/CRM/web ve entegrasyon projelerinde gerçek veriyi testten tamamen uzaklaştırmanın yolu olarak sentetik veri ve/veya anonimleştirilmiş dataset yaklaşımını anlatır. Antalya ve turizm bölgelerindeki büyük otel gruplarında, birden çok ajans/ekip test ortamına erişebildiği için risk büyür; sentetik veri ile “test ihlali olsa bile misafir verisi zarar görmez” mantığı güçlenir. Ana iş sorusu: “Testte gerçek PII’yi nasıl sıfırlarım, sentetik/anonym dataset’i nasıl üretirim ve bunu KVKK raporlarında nasıl kanıtlarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026’da otel projelerinde test ve geliştirme ortamlarında gerçek misafir verisi kullanmak, yüksek KVKK riski doğurur. Sentetik veya anonimleştirilmiş dataset’lerle PMS, CRM, web ve entegrasyon testleri yapmak; geliştirici ekibe gerçekçi senaryo sağlar ama kişisel veriyi test ortamından uzak tutar. KVKK uyumlu yaklaşım; test env’de gerçek PII olmaması, alan sözlüğü ve saklama kuralları, maskeleme/anonimleştirme doğrulama raporu ve “test verisi üretim/temizleme” job loglarıyla kanıt üretmektir.",
+    "sgeSummary": "Test ortamında gerçek PII yok: sentetik/anonim dataset üret, alan sözlüğünü kilitle, saklama süresini tanımla, temizleme job’larını logla. Böylece sandbox riski KVKK’ya dönüşmez.",
+    "voiceAnswer": "Testte gerçek misafir verisi kullanmayın; sentetik/anonim dataset üretin, saklayın ve temizlemeyi loglayın.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, IT, yazılım ekibi/ajans, veri/BI ekibi",
+      "Ana KPI: Testte gerçek PII = 0, dataset kapsama oranı, temizleme job başarı oranı, sandbox erişim riski etkisi",
+      "Entity/İlişki (AIO): TestEnv → should contain → no real personal data; Synthetic Data → enables → safe realistic testing",
+      "GEO: Antalya ve turizm bölgelerinde büyük otel grupları (çok ekipli dev projeler)",
+      "Funnel: Teknik trend → süreç tasarımı → danışmanlık",
+      "Çıktı: gerçek vs sentetik tablo, test akış diyagramı, test verisi üretim/temizleme checklist’i, 3 senaryo kutusu"
+    ]
+  },
+  "h1": {
+    "title": "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
+    "intro": "Otel projelerinde “test ortamına prod verisinin kopyası” yaklaşımı, hızlı başlatır ama uzun vadede KVKK riskini büyütür: test/sandbox erişimleri, loglama ve RBAC çoğu zaman prod kadar sıkı değildir; ajanslar, geliştiriciler, üçüncü taraf entegrasyon ekipleri testte daha geniş yetkilere sahip olabilir. 2026 trendi, test ortamını gerçek PII’den arındırmak: sentetik veri (kurgusal) veya anonimleştirilmiş dataset ile PMS/CRM/web/entegrasyon testlerini güvenli hale getirmek. Bu rehber; otel projelerinde sentetik dataset üretimini, veri sözlüğünü, saklama/temizleme job’larını ve KVKK raporlamasında kanıt setini teknik/operasyonel çerçevede anlatır.",
+    "quickSummary": [
+      "“Testte gerçek PII = 0” hedefini politika haline getirin.",
+      "PII alanlarını işaretleyen bir data dictionary oluşturun.",
+      "PII sentetik, operasyonel alanları gerçekçi olan hibrit dataset yaklaşımını değerlendirin.",
+      "PII leak test ve dataset refresh/clean job’larını düzenli çalıştırıp loglayın.",
+      "Dataset versiyonu, erişim rolleri ve test kanıtlarını audit pack içinde izleyin."
+    ],
+    "ctaPrimary": {
+      "label": "Sentetik Veri & Test Ortamı KVKK Analizi Talep Et",
+      "text": "Test/sandbox ortamınızı gerçek PII’den arındırıp sentetik veri mimarisini otelinize özel kuralım.",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Sentetik Veri & Test Ortamı KVKK Analizi Talep Et",
+      "text": "Test/sandbox riskini düşürüp sentetik veri pipeline’ını otelinize özel tasarlayalım.",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    "secondary": {
+      "label": "Sentetik/Anonim Test Dataset’i Tasarım Checklist’ini İndir",
+      "text": "Testte gerçek PII=0 hedefi için veri sözlüğü, leak test ve temizleme job’larını hızla kurarsınız.",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "Web Sitesi Geliştirme",
+      "href": "/yazilim/web-sitesi-gelistirme"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "title": "Web Sitesi Geliştirme",
+      "href": "/yazilim/web-sitesi-gelistirme"
+    }
+  ],
+  "sections": [
+    {
+      "id": "test-ortamlarinda-sentetik-veri",
+      "title": "Test ortamlarında neden sentetik veri kullanmalısınız?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Sentetik veri kullanmanın temel gerekçesi “daha güvenli” olmaktan öte, risk etkisini sıfırlamaya yaklaşmaktır: test ortamı ihlali olsa bile gerçek misafir verisi etkilenmez."
+        },
+        {
+          "type": "p",
+          "text": "AIO mantığı: TestEnv → should contain → no real personal data"
+        },
+        {
+          "type": "p",
+          "text": "Bu nedenle amaç, testte “maskeleme” ile yetinmek değil; mümkünse gerçek PII’yi tamamen kaldırmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Gerçek misafir verisi testte neden risklidir?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sandbox erişim kontrolü genelde zayıftır (çok kişi/çok ekip)",
+            "Log ve izlenebilirlik prod kadar güçlü değildir",
+            "Export/indir işlemleri daha kolaydır",
+            "Hata ayıklama için veriler paylaşılır (email/slack/whatsapp riski)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya grup otel)"
+        },
+        {
+          "type": "p",
+          "text": "Web sitesi geliştirmesinde ajans ekibi test ortamına tam DB erişimi alır. Eğer DB’de gerçek misafir e-posta/telefon varsa, “yetkisiz sızıntı” etkisi büyür. Sentetik veriyle bu risk “veri etkisi” olarak sıfıra yaklaşır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Test ortamında gerçek e-posta/telefon/kimlik var mı?",
+            "Test DB export edilebiliyor mu?",
+            "Test erişimleri kimlerde (ajans/vendor)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Testte gerçek PII = 0” hedefini politika haline getirin.",
+            "Sentetik dataset üretim pipeline’ı kurun.",
+            "Testte logların hangisinin açık/kapalı olacağını belirleyin (aşağıda)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "sentetik-anonim-veri-seti-hazirlama",
+      "title": "Otel sistemleri için sentetik/anonim veri seti nasıl hazırlanır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm “uygulanabilir yol haritası”dır: veri sözlüğü, üretim teknikleri, kalite kontrol ve kanıt."
+        },
+        {
+          "type": "h3",
+          "text": "1) Veri sözlüğü (data dictionary) çıkarın"
+        },
+        {
+          "type": "p",
+          "text": "PMS/CRM/web rezervasyon akışında alanları sınıflandırın:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PII: ad, e-posta, telefon, kimlik/pasaport",
+            "Operasyonel: oda tipi, tarih, kanal, fiyat bandı",
+            "Teknik: id, session, device (PII olmayan)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Hedef: test dataset’inde PII alanları sentetik olmalı; operasyonel alanlar gerçekçi dağılımda olabilir."
+        },
+        {
+          "type": "h3",
+          "text": "2) Üretim teknikleri (yüksek seviye)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tam sentetik: tamamen kurgusal müşteri ve rezervasyon kayıtları",
+            "Anonimleştirilmiş: prod dağılımını koruyup kimliği kaldırmak (mask/hash)",
+            "Hibrit: PII sentetik, operasyon metrikleri gerçekçi (en pratik)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Hibrit yaklaşım, otel projelerinde çoğu kez en hızlı uygulanabilir."
+        },
+        {
+          "type": "h3",
+          "text": "3) PMS/CRM/Web senaryoları için gerçekçilik kuralları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ülke/dil dağılımı (TR/EN gibi)",
+            "Sezon yoğunluğu (yüksek/orta/düşük dönem)",
+            "Aile/çocuk segmenti (çocuk yaş grubu sentetik)",
+            "Kanal dağılımı (Direct/OTA/Call Center)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) Doğrulama (PII leak test)"
+        },
+        {
+          "type": "p",
+          "text": "Sentetik veri üretildiğinde “kanıt” gerekir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "E-posta formatları gerçek domain değil, test domain (ör. example.test)",
+            "Telefonlar gerçek numara formatına benzese de çalışmayan blok (Varsayım)",
+            "Kimlik/pasaport alanları boş veya sentetik pattern",
+            "PII taraması: dataset’te gerçek domain/numara var mı?"
+          ]
+        },
+
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "table",
+          "caption": "Gerçek vs sentetik veri örnek tablosu",
+          "headers": [
+            "Alan",
+            "Gerçek Veri Riski",
+            "Sentetik / Anonim Test Yaklaşımı"
+          ],
+          "rows": [
+            [
+              "Ad / Soyad",
+              "Gerçek misafir kimliği",
+              "Kurgusal isim"
+            ],
+            [
+              "E-posta",
+              "Gerçek misafir e-posta adresi",
+              "Test domain — ör. example.test"
+            ],
+            [
+              "Telefon",
+              "Gerçek ve ulaşılabilir telefon numarası",
+              "Çalışmayan sentetik numara bloğu (Varsayım)"
+            ],
+            [
+              "Kimlik / Pasaport",
+              "Doğrudan tanımlayıcı veri",
+              "Boş veya sentetik pattern"
+            ],
+            [
+              "Oda tipi / Tarih / Kanal",
+              "Operasyonel senaryo bilgisi",
+              "Gerçekçi dağılımda sentetik/hibrit değer"
+            ],
+            [
+              "Çocuk segmenti",
+              "Gerçek çocuk verisi riski",
+              "Sentetik yaş grubu / segment"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Data dictionary var mı (PII işaretli)?",
+            "PII leak test yapılıyor mu?",
+            "Hibrit dataset prod senaryolarını temsil ediyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce 20–30 alanlık “çekirdek dataset” üretin.",
+            "PII leak test’i otomatikleştirin (Varsayım: script).",
+            "Dataset sürümleyin: v1.0, v1.1 (değişiklik izlenebilirliği)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "pms-crm-web-sentetik-veri-senaryolari",
+      "title": "PMS, CRM ve web projelerinde sentetik veri kullanım senaryoları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, otel projelerinde “nerede kullanırım?” sorusunu cevaplar."
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 1 — PMS entegrasyon testi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda atama, check-in/out, rezervasyon güncelleme",
+            "Sentetik misafir + gerçekçi tarihler/oda tipleri",
+            "Log: API çağrıları, hata kodları (PII yok)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 2 — CRM segmentasyon ve kampanya testi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Segment kuralları: ülke/dil/kanal/recency",
+            "Çocuk/ailesiz segment senaryosu",
+            "Çıktı: aggregate KPI (kişisel liste değil)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Senaryo 3 — Web rezervasyon ve ödeme akışı testi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Form alanları: sentetik e-posta/telefon",
+            "Dönüşüm funnel testleri",
+            "Ekran görüntüsü paylaşımı riski düşer (PII yok)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): Gerçek veriyi test ortamından çıkaran otellerde, olası test/sandbox erişim ihlallerinin misafir verisine zarar vermemesi teorik olarak beklenir; bu da KVKK risk profilini belirgin şekilde iyileştirir."
+        }
+      ]
+    },
+    {
+      "id": "kvkk-test-sandbox-raporlama",
+      "title": "KVKK açısından test/sandbox raporlaması nasıl yapılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Test ortamı da “yönetilmesi gereken bir varlık”tır. KVKK raporlama açısından hedef; “testte gerçek PII yok” kanıtını düzenli üretmek."
+        },
+        {
+          "type": "h3",
+          "text": "Test ortamı kanıt seti (audit pack)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Test data policy: “No real PII” kuralı",
+            "Data dictionary + sınıflandırma (PII alanları işaretli)",
+            "Sentetik dataset versiyonları ve üretim tarihi",
+            "PII leak test raporu (scan sonucu)",
+            "Test data temizleme job logları (silme/refresh)",
+            "Test erişim rolleri (kim erişiyor?) (Varsayım: RBAC)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Testte hangi loglar açık/kapalı olmalı? (yüksek seviye)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açık: teknik hata logları, performans metrikleri",
+            "Kapalı/sınırlı: ham request payload logları (Varsayım: PII sızdırabilir)",
+            "Maskeleme: debug çıktılarında PII mask (Varsayım)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "“No real PII” kanıt raporu var mı?",
+            "Dataset versiyonu ve üretim tarihi izleniyor mu?",
+            "Test erişimleri sınırlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Aylık PII leak test raporu üretin.",
+            "Test dataset refresh’ini job log ile kanıtlayın.",
+            "Test erişimlerini vendor/ajans bazında raporlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentetik-veri-senaryolari",
+      "title": "3 örnek sentetik veri senaryosu",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Senaryo: Ajans test DB export aldı → Çözüm: DB sentetik → misafir verisi etkilenmez + erişim logu",
+            "Senaryo: Debug log’da e-posta göründü → Çözüm: payload log kapalı + maskeleme + leak test alarmı",
+            "Senaryo: CRM kampanya testi gerçek domain’e mail attı → Çözüm: test domain zorunlu + outbound blok (Varsayım) + sentetik e-posta"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Sentetik/Anonim Test Dataset’i Tasarım Checklist’ini İndir",
+          "text": "Testte gerçek PII=0 hedefi için veri sözlüğü, leak test ve temizleme job’larını hızla kurarsınız.",
+          "href": "/yazilim/kvkk-uyum-hizmeti"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Sentetik Veri & Test Ortamı KVKK Analizi Talep Et",
+          "text": "Test/sandbox riskini düşürüp sentetik veri pipeline’ını otelinize özel tasarlayalım.",
+          "href": "/yazilim/kvkk-uyum-hizmeti"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/raporlama/kvkk-veri_guvenligi, /tr/yazilim/kvkk-uyum-hizmeti, /tr/yazilim/web-sitesi-gelistirme ve /tr/pms-ota-yonetimi sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        }
+      ]
+    },
+    {
+      "id": "sentetik-anonim-test-dataset-checklist",
+      "title": "Sentetik/Anonim Test Dataset’i Tasarım Checklist’ini İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Sentetik/Anonim Test Dataset’i Tasarım Checklist’ini İndir — Trend (v1.0)",
+          "purpose": "Bu checklist, otel projelerinde test/sandbox ortamlarında gerçek misafir verisini tamamen devre dışı bırakmak için sentetik veya anonim dataset tasarımını standardize eder. Amaç; PII leak’i sıfırlamak, gerçekçi senaryoları korumak, test verisi üretim/temizleme job’larını kanıtlanabilir loglarla raporlamak ve KVKK denetim paketine “no real PII” kanıtını eklemektir.",
+          "whoFor": "IT + yazılım ekibi, ajans, veri/BI ekibi, GM (policy onayı).",
+          "steps": [
+            "Data dictionary çıkarın ve PII alanlarını işaretleyin.",
+            "Hibrit sentetik dataset üretin (PII sentetik, operasyon gerçekçi).",
+            "PII leak test + refresh job log’u ile kanıt üretin ve audit pack’e ekleyin."
+          ],
+          "checklist": [
+            "PMS alanları sınıflandı (PII/operasyon/teknik)",
+            "CRM alanları sınıflandı",
+            "Web rezervasyon alanları sınıflandı",
+            "“Riskli alanlar” listesi çıkarıldı (email/phone/id/passport)",
+            "Email domain “test” (example.test)",
+            "Telefonlar gerçek numara değil (Varsayım)",
+            "İsimler kurgusal",
+            "Rezervasyon tarihleri sezon dağılımını temsil ediyor",
+            "Çocuk/ailesiz segment senaryoları var",
+            "Gerçek domain/numara taraması",
+            "Serbest not alanı taraması",
+            "Export örnekleri kontrol edildi",
+            "Sonuç raporu üretildi (pass/fail)",
+            "Job takvimi (haftalık/aylık)",
+            "Job log alanları (job_id, time, records, result)",
+            "Başarısız job alarmı (Varsayım)"
+          ],
+          "href": "/downloads/sentetik-anonim-test-dataseti-tasarim-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Sentetik veri nedir, otel projelerinde neden önem kazandı?",
+      "a": "Sentetik veri, gerçek misafir verisini taklit eden kurgusal dataset’tir. Test ortamında gerçek PII kullanmadan gerçekçi senaryo test etmeyi sağlar ve KVKK riskini düşürür."
+    },
+    {
+      "q": "Test ve sandbox ortamlarında gerçek veri yerine sentetik veri nasıl üretilir?",
+      "a": "Önce data dictionary çıkarılıp PII alanları işaretlenir; sonra hibrit yaklaşım ile PII sentetik üretilir, operasyon alanları gerçekçi dağılımda oluşturulur. Leak test raporu ile gerçek PII kalmadığı doğrulanır."
+    },
+    {
+      "q": "PMS ve CRM testlerinde hangi alanlar mutlaka maskeleme/anonimleştirme gerektirir?",
+      "a": "Ad-soyad, e-posta, telefon, kimlik/pasaport gibi doğrudan tanımlayıcı alanlar. Bu alanlar testte ya tamamen sentetik olmalı ya da anonimleştirilmiş şekilde bulunmalıdır."
+    },
+    {
+      "q": "Sentetik veri kullanımını KVKK raporlarında nasıl gösteririm?",
+      "a": "“No real PII” test data policy, data dictionary, sentetik dataset versiyon kaydı ve PII leak test raporunu audit pack’e ekleyerek. Ayrıca refresh/clean job loglarıyla süreklilik kanıtlanır."
+    },
+    {
+      "q": "Neden sadece maskeleme yetmez?",
+      "a": "Maskeleme hataya açıktır; testte debug/export süreçlerinde PII sızabilir. Sentetik veri yaklaşımı, test ihlali olsa bile gerçek misafir verisinin etkilenmemesini sağlar."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-hero-01.webp — Sentetik veri, otel test ortamlarında gerçek misafir verisini korumanın yoludur",
+        "h1-context — 1920×1080 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-h1-context-02.webp — Prod veriyi testte kullanmadan gerçekçi senaryo üretimi, KVKK riskini azaltır",
+        "divider-01 — 1600×1200 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-divider-03.webp — Gerçek veri vs sentetik veri karşılaştırması, test ihlali etkisini görünür kılar",
+        "divider-02 — 1600×1200 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-divider-04.webp — Sentetik veri senaryoları ve çözümler, otel projelerinde pratik uygulanabilirlik sağlar",
+        "diagram-05 — 1920×1080 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-diagram-05.webp — Test veri akışı: üretim modelinden sentetik dataset ve temizleme job’larına giden süreç",
+        "checklist-06 — 1200×1200 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-checklist-06.webp — Test verisi üretim ve temizleme checklist’i, no real PII prensibini standardize eder",
+        "kpi-07 — 1200×1200 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-kpi-07.webp — PII leak test sonucu ve refresh KPI’ları, test ortamı güvence kanıtı sunar",
+        "proof-08 — 1200×1200 — 2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri-proof-08.webp — Sentetik dataset, leak test raporu ve policy çıktıları denetimde kanıt üretir",
+        "table-real-vs-synthetic-data — Gerçek vs sentetik veri örnek tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+      ],
+      "technicalChecklist": [
+        "Test ortamında gerçek e-posta/telefon/kimlik var mı?",
+        "Test DB export edilebiliyor mu?",
+        "Test erişimleri kimlerde (ajans/vendor)?",
+        "Data dictionary var mı (PII işaretli)?",
+        "PII leak test yapılıyor mu?",
+        "Hibrit dataset prod senaryolarını temsil ediyor mu?",
+        "“No real PII” kanıt raporu var mı?",
+        "Dataset versiyonu ve üretim tarihi izleniyor mu?",
+        "Test erişimleri sınırlı mı?",
+        "PMS alanları PII/operasyon/teknik olarak sınıflandı mı?",
+        "CRM alanları sınıflandı mı?",
+        "Web rezervasyon alanları sınıflandı mı?",
+        "Gerçek domain/numara taraması yapılıyor mu?",
+        "Serbest not alanları PII açısından taranıyor mu?",
+        "Export örnekleri kontrol ediliyor mu?",
+        "PII leak test sonucu pass/fail olarak raporlanıyor mu?",
+        "Test data refresh/clean job takvimi tanımlı mı?",
+        "Job loglarında job_id, time, records ve result alanları var mı?",
+        "Başarısız job alarmı tanımlı mı? (Varsayım)"
+      ]
+    }
+  }
+},
+
+"Blog2026AnlikPrivacyRiskSkorlamasiVeDashboardlar": {
+  "title": "2026 KVKK Risk Skoru: Erken Uyarı Dashboard’u",
+  "slug": "2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar",
+  "department": "raporlama",
+  "subDepartment":"kvkk",
+  "updatedAt": "25 Ağustos 2026",
+  "publishedAt": "2026-08-25",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2026’da KVKK ve privacy yönetiminde trend, statik risk analizi yerine log, olay, eğitim ve vendor verilerini birleştiren dinamik “privacy risk skoru” ve dashboard’larla erken uyarı sistemine geçmek. Oteller; incident sayısı, açık aksiyonlar, yüksek riskli vendor, eksik log tespitleri ve eğitim skorlarını ağırlıklandırarak tek bir risk puanı üretip trafik ışığı (yeşil/sarı/kırmızı) ile izleyebilir.",
+  "seo": {
+    "metaTitle": "2026 KVKK Risk Skoru: Erken Uyarı Dashboard’u | DGTLFACE",
+    "metaDescription": "KVKK risk skorunu dinamik izleyin: olaylar, açık aksiyonlar, log kapsamı, eğitim skoru ve vendor riskini tek puanda toplayın. Trafik ışığı paneliyle erken uyarı kurun."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Veri Analizi & Raporlama",
+      "Sayfa Adı + Sayfa URL: KVKK & Veri Güvenliği Raporlama — https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "Blog No + Blog URL: 25 — https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar",
+      "Blog Tipi: Trend",
+      "Intent: Informational + Strategic (Trend)",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 180 gün"
+    ],
+    "strategySummary": "2026 trendi, KVKK’yı yılda bir kez yapılan statik risk analizi olarak değil; log, olay, eğitim ve vendor verilerini birleştiren dinamik risk skoru ile günlük/haftalık izlenen bir “operasyon KPI’ı” haline getirmek. Hedef persona; otel sahibi/GM, IT-güvenlik, uyum sorumlusu ve zincir otel yönetimidir: portföyde “şu anda risk seviyemiz ne?” sorusuna tek panelde trafik ışığı (yeşil/sarı/kırmızı) ile cevap arar. Antalya ve zincir otel gruplarında otel/bölge bazlı risk kartları, açık aksiyonlar ve incident trendleriyle erken müdahale imkânı doğar. Ana iş sorusu: “Privacy risk skoru hangi sinyallerden oluşmalı, ağırlıklandırma nasıl yapılmalı ve dashboard’u erken uyarı sistemi gibi nasıl çalıştırmalıyım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-25",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2026’da KVKK ve privacy yönetiminde trend, statik risk analizi yerine log, olay, eğitim ve vendor verilerini birleştiren dinamik “privacy risk skoru” ve dashboard’larla erken uyarı sistemine geçmek. Oteller; incident sayısı, açık aksiyonlar, yüksek riskli vendor, eksik log tespitleri ve eğitim skorlarını ağırlıklandırarak tek bir risk puanı üretip trafik ışığı (yeşil/sarı/kırmızı) ile izleyebilir. Risk yükselince otomatik uyarı ve aksiyon tetiklenir; doğrulama ve karar insan ekiplerdedir.",
+    "sgeSummary": "Privacy risk skoru; incident, vendor, eğitim ve log kapsama KPI’larını tek puana çevirir. Dashboard trafik ışığıyla “şu an risk ne?” gösterir ve eşik aşımında uyarı üretir.",
+    "voiceAnswer": "Log, olay, eğitim ve vendor KPI’larını birleştirip risk skorunu üretin; trafik ışığı dashboard’la erken uyarı verin.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/otel sahibi, zincir yönetimi, IT/güvenlik, uyum lideri",
+      "KPI: Risk skoru (0–100), kırmızı kart sayısı, açık aksiyonlar, incident trend, vendor risk, log coverage, training score",
+      "Entity/İlişki (AIO): RiskScore Dashboard → actsAs → early warning system; Alerts → trigger → action workflow",
+      "GEO/Organizasyon: Antalya ve zincir otel grupları; otel/bölge bazlı kartlar",
+      "Funnel: Trend strateji → panel tasarımı/danışmanlık",
+      "Çıktı: alt KPI kartları + birleşik skor + trend grafiği + trafik ışığı + 3 senaryo kutusu"
+    ]
+  },
+  "h1": {
+    "title": "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi",
+    "intro": "KVKK uyumunu yönetmek çoğu otelde “doküman tamam mı?” ve “denetime hazır mıyız?” sorusuyla sınırlı kalıyor. 2026 trendi ise bunu günlük/haftalık izlenen bir risk yönetimi disiplinine çevirmek: log kapsamı, olay kayıtları, eğitim skoru ve vendor riskini tek bir risk skoruna bağlamak ve bu skoru dashboard’larda trafik ışığı (yeşil/sarı/kırmızı) gibi hızlı okunur bir formatla izlemek. Amaç “korku paneli” değil; risk yükselmeden önce erken uyarı üretip aksiyon almak. Bu rehber, oteller için risk skorunun nasıl kurgulanacağını, hangi eşiklerde hangi uyarı/aksiyonların tetikleneceğini ve zincir otellerde portföy görünümünü anlatır.",
+    "quickSummary": [
+      "İlk modelde 5 KPI ile başlayın.",
+      "Eşikleri sabitleyin; 30 gün gözlemleyip refine edin.",
+      "Skoru “owner + aksiyon” ile birlikte gösterin.",
+      "Skor yanında “top 2 driver” gösterin.",
+      "Haftalık review ritmi koyun (kırmızı kartlar)."
+    ],
+    "ctaPrimary": {
+      "label": "KVKK Risk Skoru & Erken Uyarı Dashboard Tasarım Danışmanlığı Al",
+      "text": "Otel/grup yapınıza uygun risk skoru modelini ve paneli birlikte tasarlayalım.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "KVKK Risk Skoru & Erken Uyarı Dashboard Tasarım Danışmanlığı Al",
+      "text": "Zincir/tek otel yapınıza uygun risk skorunu ve paneli hayata geçirelim.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    "secondary": {
+      "label": "KVKK Risk KPI & Skorlama Framework Dokümanını İndir",
+      "text": "Ağırlıklandırma, eşik ve uyarı kartlarıyla skoru hızlıca kurarsınız.",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Veri Analizi & Raporlama",
+      "href": "/raporlama"
+    },
+    {
+      "label": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "Benchmark Analizi",
+      "href": "/raporlama/benchmark-analizi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "privacy-risk-skoru-nedir",
+      "title": "Privacy risk skoru nedir, otellerde nasıl hesaplanır?",
+      "blocks": [
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "p",
+          "text": "Privacy risk skoru, KVKK uyumunu oluşturan farklı sinyalleri (teknik + kültürel) tek bir sayıya indirerek yönetimin “şu anda neredeyiz?” sorusuna cevap verir. Skor; tek başına “hakikat” değildir; ama yönetim ritmi için güçlü bir özet’tir."
+        },
+        {
+          "type": "p",
+          "text": "AIO mantığı: RiskScore Dashboard → actsAs → early warning system"
+        },
+        {
+          "type": "p",
+          "text": "Yani skorun değeri, “erken uyarı + aksiyon” döngüsü kurmasından gelir."
+        },
+        {
+          "type": "h3",
+          "text": "Basit bir skor modeli (0–100) nasıl kurulur?"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Alt KPI setini seç (log, olay, eğitim, vendor, aksiyon)",
+            "Her KPI’a ağırlık ata (toplam 100)",
+            "KPI’ları normalize et (0–100 arası)",
+            "Ağırlıklı ortalama ile birleşik skor üret",
+            "Eşiklerle trafik ışığına çevir: Yeşil/Sarı/Kırmızı"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: İlk sürümde “mükemmel ağırlık” aramak yerine, stabil bir modelle başlamak daha iyidir."
+        },
+        {
+          "type": "h3",
+          "text": "Trafik ışığı eşikleri (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yeşil: 0–39 (kontrol altında)",
+            "Sarı: 40–69 (risk artıyor, aksiyon gerekli)",
+            "Kırmızı: 70–100 (acil aksiyon + yönetim görünümü)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Skor 0–100 ve açıklanabilir mi?",
+            "Trafik ışığı eşikleri net mi?",
+            "Skor artınca aksiyon tetikleniyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk modelde 5 KPI ile başlayın.",
+            "Eşikleri sabitleyin; 30 gün gözlemleyip refine edin.",
+            "Skoru “owner + aksiyon” ile birlikte gösterin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "oteller-risk-skoru-sinyalleri",
+      "title": "Oteller için hangi sinyaller risk skoruna girer?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Risk skoru “gerçekten yönetilebilir” metriklerden oluşmalı. Otellerde pratik 5’li set:"
+        },
+        {
+          "type": "h3",
+          "text": "1) Incident sinyali (Olay)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Son 30 gün olay sayısı (trend)",
+            "Kritik olay türleri (yetkisiz erişim, yanlış paylaşım vb.)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2) Açık aksiyonlar (Actions)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açık aksiyon sayısı",
+            "Geciken aksiyon sayısı (owner + due date)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "3) Vendor risk (Tedarikçi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yüksek riskli vendor sayısı",
+            "“Unknown/kanıtsız lokasyon” gibi belirsizlik sinyali (Varsayım: data residency monitoring)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "4) Log coverage (Log kapsama)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kritik sistemlerde log kapsama oranı",
+            "Eksik alan tespiti (role/timestamp yok vb.)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "5) Training score (Kültür)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Eğitim/farkındalık skoru (0–100)",
+            "Yeni başlayan tamamlama oranı (sirkülasyon sinyali)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (Antalya zincir)"
+        },
+        {
+          "type": "p",
+          "text": "Bir otelde vendor risk yüksek, log coverage düşük ve açık aksiyonlar gecikmişse; skor sarıdan kırmızıya çıkar. Yönetim “hangi otelde risk yükseldi?” sorusunu tek panelde görür ve kaynak aktarır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Sinyaller hem teknik hem kültürel mi?",
+            "KPI’lar ölçülebilir mi?",
+            "Her sinyal aksiyona bağlanabiliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KPI’ları aynı zaman penceresinde tut (30/90 gün).",
+            "“Unknown belirsizlik” gibi sinyalleri ayrı izleyin.",
+            "Her KPI için tek owner tanımlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "log-olay-egitim-vendor-tek-skor",
+      "title": "Log, olay, eğitim ve vendor verilerini tek skorda toplamak",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, pratik ağırlıklandırma yaklaşımı verir."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek ağırlıklandırma (başlangıç)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Incident: %25",
+            "Open actions: %20",
+            "Vendor risk: %20",
+            "Log coverage: %20",
+            "Training score: %15"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Otelin risk profiline göre incident ve vendor ağırlığı artırılabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Normalizasyon (çok basit yöntem)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her KPI’ı 0–100 bandına çevir",
+            "Örneğin “open actions” için: 0 aksiyon = 0 risk, belirlenen eşik üstü = 100 risk (Varsayım: eşik)",
+            "Sonra ağırlıklı toplam"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Skorun açıklanabilir olması (en kritik UX)"
+        },
+        {
+          "type": "p",
+          "text": "Yönetim paneli yalnız skor göstermemeli:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Skoru oluşturan 5 alt kart",
+            "“En çok etkileyen 2 neden” (kırmızı kartlar)",
+            "“Next actions” listesi"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Skor “neden”leriyle birlikte mi?",
+            "Alt kartlar görünür mü?",
+            "Next action alanı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Skor yanında “top 2 driver” gösterin.",
+            "Aksiyon listesine owner+due date ekleyin.",
+            "Haftalık review ritmi koyun (kırmızı kartlar)."
+          ]
+        },
+        {"type":"media","slot":"checklist-06"}
+      ]
+    },
+    {
+      "id": "risk-dashboard-erken-uyari-sistemi",
+      "title": "Risk dashboard’unu erken uyarı sistemi gibi nasıl kullanırsınız?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Erken uyarı sistemi; eşik aşıldığında sadece “alarm” üretmez, aksiyon üretir."
+        },
+        {
+          "type": "h3",
+          "text": "Uyarı eşikleri ve tetikler (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Skor Sarı oldu → IT/uyum ekibine “review” bildirimi",
+            "Skor Kırmızı oldu → yönetim + IT “acil aksiyon” toplantısı",
+            "Vendor risk artışı → vendor review aksiyonu",
+            "Log coverage düşüşü → log iyileştirme aksiyonu"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Bildirim kanalı (teknik değil, süreç)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Uyarı kartı: “ne oldu + neden + kanıt linki + öneri aksiyon”",
+            "Owner ataması: tek sorumlu",
+            "Kapanış: aksiyon kapandı → skor etkisi güncellendi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek"
+        },
+        {
+          "type": "p",
+          "text": "Log coverage %90’dan %60’a düştü (yeni sistem devreye girdi) → skor sarı → “log şeması eksik” uyarı kartı → 7 gün içinde düzeltme aksiyonu."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Mini Check",
+          "items": [
+            "Sarı/kırmızı eşiklerde aksiyon var mı?",
+            "Uyarı kartı kanıt içeriyor mu?",
+            "Kapanış KPI’a yansıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Skor değişimini “değişiklik günlüğü” ile takip edin.",
+            "Alarm enflasyonunu önleyin: top 10 kırmızı kart.",
+            "Multi-otel portföyde otel/bölge filtreleri ekleyin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "dinamik-risk-modeli-avantajlari",
+      "title": "Yıllık statik risk analizi yerine dinamik modelin avantajları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dinamik modelin avantajı, riskin “geç fark edilmesini” azaltmaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yeni vendor/entegrasyon devreye girdiğinde hemen sinyal üretir",
+            "Eğitim düşüşünü sezon başında yakalar",
+            "Olay artışını trend olarak gösterir",
+            "Yönetimi “doküman” değil “operasyon KPI” diline taşır"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Statistics / Data Point (yumuşatılmış): Statik analizden dinamik skorlamaya geçen yapılarda, riskli alanlara erken müdahale ile potansiyel ihlal sayısının teorik olarak azaltılabileceği; böylece operasyonel ve itibar riskinin düşebileceği senaryo bazlı KPI hikâyeleriyle anlatılabilir."
+        }
+      ]
+    },
+    {
+      "id": "risk-yukselisi-aksiyon-senaryolari",
+      "title": "3 örnek risk yükselişi & aksiyon senaryosu",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Senaryo: Incident spike (30 günde artış) → Aksiyon: kök neden analizi + eğitim mikro modülü + 14 gün takip",
+            "Senaryo: Vendor risk kırmızı + unknown lokasyon → Aksiyon: kanıt talebi + vendor review + alternatif değerlendirme",
+            "Senaryo: Log coverage düşüşü → Aksiyon: log şeması düzeltme + audit pack güncelleme + yeniden ölçüm"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "KVKK Risk KPI & Skorlama Framework Dokümanını İndir",
+          "text": "Ağırlıklandırma, eşik ve uyarı kartlarıyla skoru hızlıca kurarsınız.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "KVKK Risk Skoru & Erken Uyarı Dashboard Tasarım Danışmanlığı Al",
+          "text": "Zincir/tek otel yapınıza uygun risk skorunu ve paneli hayata geçirelim.",
+          "href": "/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "p",
+          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/raporlama, /tr/raporlama/benchmark-analizi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "kvkk-risk-kpi-skorlama-framework",
+      "title": "KVKK Risk KPI & Skorlama Framework Dokümanını İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "KVKK Risk KPI & Skorlama Framework Dokümanını İndir — Trend (v1.0)",
+          "purpose": "Bu framework, otellerin KVKK uyumunu dinamik bir privacy risk skoruyla (0–100) izleyebilmesi için KPI seçimi, ağırlıklandırma, eşik (trafik ışığı) ve uyarı/aksiyon tetikleyicilerini standartlaştırır. Amaç; log, incident, eğitim ve vendor sinyallerini tek panelde birleştirip erken uyarı sistemi gibi çalışan bir yönetim dashboard’u kurmaktır.",
+          "whoFor": "IT/güvenlik, uyum sorumlusu, GM/grup yönetimi.",
+          "steps": [
+            "5 çekirdek KPI’yı seçip ağırlıkları belirleyin.",
+            "Eşikleri (yeşil/sarı/kırmızı) tanımlayıp alarm kurallarını yazın.",
+            "Skor değişimini aksiyon panosuna bağlayıp haftalık review ritmi kurun."
+          ],
+          "checklist": [
+            "Incident — Son 30 gün olay trendi — Ağırlık: 25 — Ölçüm Penceresi: 30/90 — artış = risk",
+            "Open Actions — Açık + geciken aksiyon — Ağırlık: 20 — Ölçüm Penceresi: 30 — geciken kırmızı",
+            "Vendor Risk — yüksek risk vendor sayısı — Ağırlık: 20 — Ölçüm Penceresi: 90 — unknown = risk",
+            "Log Coverage — kritik sistem log kapsama — Ağırlık: 20 — Ölçüm Penceresi: 30 — düşüş = risk",
+            "Training Score — farkındalık skoru — Ağırlık: 15 — Ölçüm Penceresi: 90 — düşüş = risk",
+            "Yeşil: 0–39",
+            "Sarı: 40–69",
+            "Kırmızı: 70–100",
+            "Skor Sarı → IT/uyum review bildirimi",
+            "Skor Kırmızı → yönetim + acil aksiyon toplantısı",
+            "Log coverage düşüşü > X puan (Varsayım) → log iyileştirme aksiyonu",
+            "Vendor unknown → kanıt talebi aksiyonu"
+          ],
+          "href": "/downloads/kvkk-risk-kpi-skorlama-framework-dokumani-v1.0.pdf",
+          "buttonLabel": "Framework Dokümanını İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Privacy risk skoru nedir, otellerde nasıl hesaplanır?",
+      "a": "Incident, açık aksiyon, vendor risk, log coverage ve eğitim skoru gibi KPI’ları 0–100 bandına normalize edip ağırlıklandırarak tek bir risk puanı üretmektir. Skor, trafik ışığıyla yorumlanır ve eşiklerde uyarı/aksiyon tetikler."
+    },
+    {
+      "q": "Hangi KPI’lar KVKK risk dashboard’una girmeli?",
+      "a": "Son 30 gün incident trendi, açık/geciken aksiyonlar, yüksek riskli vendor sayısı, kritik sistem log kapsama oranı ve eğitim/farkındalık skoru iyi bir çekirdek set oluşturur. Gerektiğinde data residency belirsizliği gibi ek sinyaller eklenebilir."
+    },
+    {
+      "q": "Risk skorunun artması durumunda hangi uyarı ve aksiyonlar tetiklenmeli?",
+      "a": "Sarı seviyede IT/uyum review bildirimi, kırmızı seviyede yönetim görünürlüğü ve acil aksiyon planı tetiklenebilir. Skoru yükselten KPI’lara göre (vendor/log/incident) hedefli aksiyonlar owner+tarih ile atanmalıdır."
+    },
+    {
+      "q": "Yıllık statik risk analizi yerine dinamik modelin avantajları nelerdir?",
+      "a": "Risk artışını daha erken görmeyi, yeni entegrasyon/vendor belirsizliklerini hızlı yakalamayı ve aksiyon kapanışını KPI’la yönetmeyi sağlar. KVKK’yı “doküman” değil “sürekli izlenen risk” alanına taşır."
+    },
+    {
+      "q": "Trafik ışığı mantığı KVKK panelinde işe yarar mı?",
+      "a": "Evet; yönetim için hızlı okunabilir bir özet sağlar. Ancak tek başına yeterli değildir; alt KPI kartları ve aksiyon panosu ile birlikte kullanılmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-hero-01.webp — KVKK risk skoru dashboard’u, erken uyarı sistemi gibi çalışır",
+        "h1-context — 1920×1080 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-h1-context-02.webp — Alt KPI’lardan birleşik risk skoruna giden akış, yönetim için büyük resmi gösterir",
+        "divider-01 — 1600×1200 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-divider-03.webp — Risk skoru çerçevesi: KPI seçimi, ağırlıklandırma ve eşik yönetimi",
+        "divider-02 — 1600×1200 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-divider-04.webp — Trafik ışığı modeli ve risk senaryoları, hızlı aksiyon aldırır",
+        "diagram-05 — 1920×1080 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-diagram-05.webp — RiskScore → alert → action → closure döngüsü, erken uyarı sistemini gösterir",
+        "checklist-06 — 1200×1200 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-checklist-06.webp — Risk KPI seti checklist’i, teknik ve kültürel sinyalleri birleştirir",
+        "kpi-07 — 1200×1200 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-kpi-07.webp — Alt KPI kartları ve birleşik risk skoru, tek panelde görünür olur",
+        "proof-08 — 1200×1200 — 2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar-proof-08.webp — Skorlama framework’ü ve dashboard şablonu, KVKK’yı sürekli izlenen KPI’a dönüştürür",
+        "table-risk-score-weighting — Risk skoru ağırlıklandırma tablosu",
+        "table-top-10-red-cards — Top 10 Kırmızı Kart Şablonu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+      ],
+      "technicalChecklist": [
+        "Skor 0–100 ve açıklanabilir mi?",
+        "Trafik ışığı eşikleri net mi?",
+        "Skor artınca aksiyon tetikleniyor mu?",
+        "Sinyaller hem teknik hem kültürel mi?",
+        "KPI’lar ölçülebilir mi?",
+        "Her sinyal aksiyona bağlanabiliyor mu?",
+        "KPI’lar aynı zaman penceresinde mi (30/90 gün)?",
+        "Her KPI için tek owner tanımlı mı?",
+        "Skor “neden”leriyle birlikte mi?",
+        "Alt kartlar görünür mü?",
+        "Next action alanı var mı?",
+        "Sarı/kırmızı eşiklerde aksiyon var mı?",
+        "Uyarı kartı kanıt içeriyor mu?",
+        "Kapanış KPI’a yansıyor mu?",
+        "Skor değişimi değişiklik günlüğüyle takip ediliyor mu?",
+        "Top 10 kırmızı kart yaklaşımı uygulanıyor mu?",
+        "Multi-otel portföyde otel/bölge filtreleri var mı?",
+        "180 günlük refresh planı var mı?"
+      ]
+    }
+  }
+}
 }

@@ -1097,7 +1097,18 @@ export const BLOG_MAP = {
     "kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek":"BlogKvkkUyumundaYonetimDashboardiKpiIleBuyukResmiGormek",
     "kamera-kayitlari-cctv-kvkk-raporlama":"BlogKameraKayitlariCctvKvkkRaporlama",
     "cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk":"BlogCagriMerkeziSesKayitlariEkranKayitlariKvkk",
-    "misafir-wifi-erisim-loglari-kvkk-raporlama":"BlogMisafirWifiErisimLoglariKvkkRaporlama"
+    "misafir-wifi-erisim-loglari-kvkk-raporlama":"BlogMisafirWifiErisimLoglariKvkkRaporlama",
+    
+    "mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama":"BlogMobilCheckinDijitalAnahtarVerileriKVKKRaporlama",
+    
+    "cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama":"BlogCocukVerisiVeAileRezervasyonlariKVKKRaporlama",
+    "2026-ai-kvkk-denetim-co-pilotlari-log-analizi":"Blog2026AiKvkkDenetimCoPilotlariLogAnalizi",
+   
+    "2026-privacy-ux-ve-izin-deneyimi-otel-web":"Blog2026PrivacyUxVeIzinDeneyimiOtelWeb",
+    "2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring":"Blog2026SinirOtesiVeriAktarimiVeVeriYerelligiMonitoring",
+    "2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri":"Blog2026SentetikVeriVeAnonimTestOrtamlariOtelProjeleri",
+
+    "2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar":"Blog2026AnlikPrivacyRiskSkorlamasiVeDashboardlar"
   },
 
 

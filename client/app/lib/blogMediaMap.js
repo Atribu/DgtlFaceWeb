@@ -56731,6 +56731,357 @@ export const BLOG_MEDIA_MAP = {
       alt: "Checklist ve denetim rapor paketi, Wi-Fi KVKK uyum kanıtı oluşturur",
       caption: "Checklist ve denetim rapor paketi, Wi-Fi KVKK uyum kanıtı oluşturur"
     },
+  },
+
+
+   "mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama":{
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-1.webp",
+      alt: "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak",
+      caption: "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-2.webp",
+      alt: "Uygulama–PMS–kilit sistemi arasında anahtar atama ve oda açma olayları netleştirilir",
+      caption: "Uygulama–PMS–kilit sistemi arasında anahtar atama ve oda açma olayları netleştirilir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-3.webp",
+      alt: "Toplanan veriler: check-in verisi ve dijital anahtar erişim logları ayrımı",
+      caption: "Toplanan veriler: check-in verisi ve dijital anahtar erişim logları ayrımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-4.webp",
+      alt: "İhlal senaryoları ve kontroller, dijital anahtar riskini azaltır",
+      caption: "İhlal senaryoları ve kontroller, dijital anahtar riskini azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-5.webp",
+      alt: "Mobil check-in veri akışı: uygulama → PMS → kilit sistemi, raporlama noktalarıyla",
+      caption: "Mobil check-in veri akışı: uygulama → PMS → kilit sistemi, raporlama noktalarıyla"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-6.webp",
+      alt: "Dijital anahtar log alanları ve erişim checklist’i, kanıt setini standardize eder",
+      caption: "Dijital anahtar log alanları ve erişim checklist’i, kanıt setini standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-7.webp",
+      alt: "Anahtar iptali/yeniden atama ve erişim KPI’ları, olay inceleme performansını izler",
+      caption: "Anahtar iptali/yeniden atama ve erişim KPI’ları, olay inceleme performansını izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-19/Reporting4-19-8.webp",
+      alt: "Data map, log schema ve audit rapor paketi çıktıları, denetimde kanıt üretir",
+      caption: "Data map, log schema ve audit rapor paketi çıktıları, denetimde kanıt üretir"
+    },
+  },
+
+  "cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-1.webp",
+      alt: "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı",
+      caption: "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-2.webp",
+      alt: "Çocuk alanları PMS’te minimumda tutulur, raporda yaş grubu KPI’larına dönüşür",
+      caption: "Çocuk alanları PMS’te minimumda tutulur, raporda yaş grubu KPI’larına dönüşür"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-3.webp",
+      alt: "Gerekli–opsiyonel–riskli çocuk veri alanları ayrımı, teknik raporlama için temel çerçeve sunar",
+      caption: "Gerekli–opsiyonel–riskli çocuk veri alanları ayrımı, teknik raporlama için temel çerçeve sunar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-4.webp",
+      alt: "Çocuk verisi risk senaryoları ve kontroller, aile otellerinde KVKK riskini azaltır",
+      caption: "Çocuk verisi risk senaryoları ve kontroller, aile otellerinde KVKK riskini azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-5.webp",
+      alt: "Aile rezervasyonu veri akışı: PMS child fields → anonim rapor KPI’ları",
+      caption: "Aile rezervasyonu veri akışı: PMS child fields → anonim rapor KPI’ları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-6.webp",
+      alt: "Çocuk verisi maskeleme ve raporlama checklist’i, isim yerine yaş grubu kullanımını standardize eder",
+      caption: "Çocuk verisi maskeleme ve raporlama checklist’i, isim yerine yaş grubu kullanımını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-7.webp",
+      alt: "Yaş grubu dağılımı ve çocuklu rezervasyon trendi KPI’ları, kişisel veri göstermeden karar aldırır",
+      caption: "Yaş grubu dağılımı ve çocuklu rezervasyon trendi KPI’ları, kişisel veri göstermeden karar aldırır"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-20/Reporting4-20-8.webp",
+      alt: "Çocuk verisi minimizasyon ve maskeleme çıktıları, denetimde kanıt seti oluşturur",
+      caption: "Çocuk verisi minimizasyon ve maskeleme çıktıları, denetimde kanıt seti oluşturur"
+    },
+  },
+
+  "2026-ai-kvkk-denetim-co-pilotlari-log-analizi":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-1.webp",
+      alt: "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi",
+      caption: "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-2.webp",
+      alt: "AI→log→uyarı kartı→insan onayı akışı, otel KVKK iç kontrolünü netleştirir",
+      caption: "AI→log→uyarı kartı→insan onayı akışı, otel KVKK iç kontrolünü netleştirir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-3.webp",
+      alt: "Co-pilot çalışma mantığı: kaynaklar, maskeleme ve risk skoru üretimi",
+      caption: "Co-pilot çalışma mantığı: kaynaklar, maskeleme ve risk skoru üretimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-4.webp",
+      alt: "Governance onay akışı ve 90 gün refresh planı, AI risklerini kontrol eder",
+      caption: "Governance onay akışı ve 90 gün refresh planı, AI risklerini kontrol eder"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-5.webp",
+      alt: "AI log ön-analiz diyagramı: korelasyon, anomali ve kanıt kartları",
+      caption: "AI log ön-analiz diyagramı: korelasyon, anomali ve kanıt kartları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-6.webp",
+      alt: "Co-pilot ile cevaplanacak 5 soru checklist’i, denetim öncesi iç kontrol sağlar",
+      caption: "Co-pilot ile cevaplanacak 5 soru checklist’i, denetim öncesi iç kontrol sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-7.webp",
+      alt: "Manuel inceleme süresi vs AI ön-özet KPI kartı, zaman tasarrufu ve risk odağını gösterir",
+      caption: "Manuel inceleme süresi vs AI ön-özet KPI kartı, zaman tasarrufu ve risk odağını gösterir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-21/Reporting4-21-8.webp",
+      alt: "AI KVKK co-pilot içgörü kartı, risk açıklaması ve öneri aksiyonu tek ekranda sunar",
+      caption: "AI KVKK co-pilot içgörü kartı, risk açıklaması ve öneri aksiyonu tek ekranda sunar"
+    },
+  },
+
+  "2026-privacy-ux-ve-izin-deneyimi-otel-web":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-1.webp",
+      alt: "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?",
+      caption: "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-2.webp",
+      alt: "Cookie banner’dan preference center’a giden izin yolculuğu, otel rezervasyon akışına uyarlanır",
+      caption: "Cookie banner’dan preference center’a giden izin yolculuğu, otel rezervasyon akışına uyarlanır"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-3.webp",
+      alt: "UX prensipleri: şeffaflık, kontrol ve düşük sürtünme ile misafir güveni",
+      caption: "UX prensipleri: şeffaflık, kontrol ve düşük sürtünme ile misafir güveni"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-4.webp",
+      alt: "İyi ve kötü banner örnekleri, mobilde izin deneyimi hatalarını görünür kılar",
+      caption: "İyi ve kötü banner örnekleri, mobilde izin deneyimi hatalarını görünür kılar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-5.webp",
+      alt: "Banner → preference center → kayıt akışı, KVKK uyumlu izin deneyimini gösterir",
+      caption: "Banner → preference center → kayıt akışı, KVKK uyumlu izin deneyimini gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-6.webp",
+      alt: "Mobil privacy UX checklist’i, izin deneyimini dönüşüm dostu hale getirir",
+      caption: "Mobil privacy UX checklist’i, izin deneyimini dönüşüm dostu hale getirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-7.webp",
+      alt: "İzin oranı ve rezervasyon dönüşümü ilişkisi, KPI kartıyla izlenebilir",
+      caption: "İzin oranı ve rezervasyon dönüşümü ilişkisi, KPI kartıyla izlenebilir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-22/Reporting4-22-8.webp",
+      alt: "Preference center şeması ve KPI checklist’i, denetimde ve optimizasyonda kanıt üretir",
+      caption: "Preference center şeması ve KPI checklist’i, denetimde ve optimizasyonda kanıt üretir"
+    },
+  },
+
+   "2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-1.webp",
+      alt: "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
+      caption: "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-2.webp",
+      alt: "PMS/OTA/cloud endpoint’leri ülke bazında izleyen yaklaşım, KVKK raporlamasını güçlendirir",
+      caption: "PMS/OTA/cloud endpoint’leri ülke bazında izleyen yaklaşım, KVKK raporlamasını güçlendirir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-3.webp",
+      alt: "Teknik izleme: endpoint envanteri, log şeması ve dashboard katmanı",
+      caption: "Teknik izleme: endpoint envanteri, log şeması ve dashboard katmanı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-4.webp",
+      alt: "Sınır ötesi veri akışı senaryoları ve kontroller, yönetim ve IT için ortak dil kurar",
+      caption: "Sınır ötesi veri akışı senaryoları ve kontroller, yönetim ve IT için ortak dil kurar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-5.webp",
+      alt: "Ülke bazlı veri akış haritası, TR içi/dışı endpoint’leri yoğunlukla gösterir",
+      caption: "Ülke bazlı veri akış haritası, TR içi/dışı endpoint’leri yoğunlukla gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-6.webp",
+      alt: "Data residency monitoring checklist’i, unknown lokasyon ve yeni ülke alarmlarını standardize eder",
+      caption: "Data residency monitoring checklist’i, unknown lokasyon ve yeni ülke alarmlarını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-7.webp",
+      alt: "TR dışı oran, unknown oran ve top endpoint KPI’ları, risk görünürlüğü sağlar",
+      caption: "TR dışı oran, unknown oran ve top endpoint KPI’ları, risk görünürlüğü sağlar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-23/Reporting4-23-8.webp",
+      alt: "Monitoring dashboard şablonu ve ülke bazlı akış tablosu çıktıları, denetimde kanıt üretir",
+      caption: "Monitoring dashboard şablonu ve ülke bazlı akış tablosu çıktıları, denetimde kanıt üretir"
+    },
+  },
+
+  "2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-1.webp",
+      alt: "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
+      caption: "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-2.webp",
+      alt: "Prod veriyi testte kullanmadan gerçekçi senaryo üretimi, KVKK riskini azaltır",
+      caption: "Prod veriyi testte kullanmadan gerçekçi senaryo üretimi, KVKK riskini azaltır"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-3.webp",
+      alt: "Gerçek veri vs sentetik veri karşılaştırması, test ihlali etkisini görünür kılar",
+      caption: "Gerçek veri vs sentetik veri karşılaştırması, test ihlali etkisini görünür kılar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-4.webp",
+      alt: "Sentetik veri senaryoları ve çözümler, otel projelerinde pratik uygulanabilirlik sağlar",
+      caption: "Sentetik veri senaryoları ve çözümler, otel projelerinde pratik uygulanabilirlik sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-5.webp",
+      alt: "Test veri akışı: üretim modelinden sentetik dataset ve temizleme job’larına giden süreç",
+      caption: "Test veri akışı: üretim modelinden sentetik dataset ve temizleme job’larına giden süreç"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-6.webp",
+      alt: "Test verisi üretim ve temizleme checklist’i, no real PII prensibini standardize eder",
+      caption: "Test verisi üretim ve temizleme checklist’i, no real PII prensibini standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-7.webp",
+      alt: "PII leak test sonucu ve refresh KPI’ları, test ortamı güvence kanıtı sunar",
+      caption: "PII leak test sonucu ve refresh KPI’ları, test ortamı güvence kanıtı sunar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-24/Reporting4-24-8.webp",
+      alt: "Sentetik dataset, leak test raporu ve policy çıktıları denetimde kanıt üretir",
+      caption: "Sentetik dataset, leak test raporu ve policy çıktıları denetimde kanıt üretir"
+    },
+  },
+
+  "2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar":{
+    banner: {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-1.webp",
+      alt: "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi",
+      caption: "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-2.webp",
+      alt: "Alt KPI’lardan birleşik risk skoruna giden akış, yönetim için büyük resmi gösterir",
+      caption: "Alt KPI’lardan birleşik risk skoruna giden akış, yönetim için büyük resmi gösterir"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-3.webp",
+      alt: "Risk skoru çerçevesi: KPI seçimi, ağırlıklandırma ve eşik yönetimi",
+      caption: "Risk skoru çerçevesi: KPI seçimi, ağırlıklandırma ve eşik yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-4.webp",
+      alt: "Trafik ışığı modeli ve risk senaryoları, hızlı aksiyon aldırır",
+      caption: "Trafik ışığı modeli ve risk senaryoları, hızlı aksiyon aldırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-5.webp",
+      alt: "RiskScore → alert → action → closure döngüsü, erken uyarı sistemini gösterir",
+      caption: "RiskScore → alert → action → closure döngüsü, erken uyarı sistemini gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-6.webp",
+      alt: "Risk KPI seti checklist’i, teknik ve kültürel sinyalleri birleştirir",
+      caption: "Risk KPI seti checklist’i, teknik ve kültürel sinyalleri birleştirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-7.webp",
+      alt: "Alt KPI kartları ve birleşik risk skoru, tek panelde görünür olur",
+      caption: "Alt KPI kartları ve birleşik risk skoru, tek panelde görünür olur"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-25/Reporting4-25-8.webp",
+      alt: "Skorlama framework’ü ve dashboard şablonu, KVKK’yı sürekli izlenen KPI’a dönüştürür",
+      caption: "Skorlama framework’ü ve dashboard şablonu, KVKK’yı sürekli izlenen KPI’a dönüştürür"
+    },
   }
   
 };

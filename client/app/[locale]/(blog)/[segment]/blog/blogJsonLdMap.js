@@ -178904,6 +178904,1356 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama",
+
+      "name": "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Mobile Check-in",
+
+        "Digital Key",
+
+        "Lock System",
+
+        "PMS",
+
+        "Access Logs"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama",
+
+      "headline": "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak",
+
+      "name": "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak",
+
+      "description": "Mobil check-in ve dijital anahtar verisini KVKK uyumlu yönetin: veri akışı haritası, anahtar logları, saklama/erişim kuralları ve olay inceleme rapor seti.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "mobil check-in kvkk",
+
+        "dijital anahtar veri akisi",
+
+        "oda erisim loglari raporlama",
+
+        "mobile check in digital key privacy",
+
+        "hotel lock system access logs",
+
+        "pms digital key data flow"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Mobil Check-in ve Dijital Anahtar KVKK Governance Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama#howto",
+
+      "name": "Otel mobil check-in ve dijital anahtar verileri KVKK uyumlu nasıl raporlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Data map oluşturun",
+
+          "text": "Mobil uygulama→PMS→kilit sistemi veri akışını ve her adımda işlenen veri setlerini haritalayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Log şemasını standardize edin",
+
+          "text": "Issue/revoke/reissue/unlock olaylarını oda, cihaz ve zaman bağlamında loglayın; erişim ve export işlemlerini incident_id ile izleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Retention ve erişim politikasını tanımlayın",
+
+          "text": "Saklama süresini yazılı hale getirin, role-based erişimi uygulayın ve denetim için kanıt seti üretin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Incident rapor paketini hazırlayın",
+
+          "text": "Zaman aralığına göre log çıkarımı, erişim/export log özeti ve aksiyon planıyla olay inceleme raporu üretin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Mobil Check-in ve Dijital Anahtar Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil check-in ve dijital anahtar sistemlerinde hangi kişisel veriler işlenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobil uygulamada minimum kimlik/iletişim ve rezervasyon doğrulama verileri işlenebilir. Dijital anahtar tarafında issue/revoke/unlock olayları oda, cihaz ve zaman bilgisiyle loglanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dijital anahtar logları ne kadar saklanmalı, kimler erişmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kesin süreler hukuk/uyum değerlendirmesiyle belirlenmelidir. Önemli olan yazılı retention policy ve role-based erişimdir; unlock log erişimi güvenlik ve sınırlı IT rolünde olmalı, export işlemleri incident_id ile izlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil check-in akışını KVKK veri haritasına nasıl eklerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uygulama→PMS→kilit sistemi akışını adımlandırıp her adımda veri seti, aktarım, erişim rolü ve saklama notunu ekleyerek data map oluşturun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Olası bir ihlalde mobil check-in verilerini nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İlgili zaman aralığında issue/revoke/unlock loglarını çıkarın, erişim/export loglarını ekleyin ve incident_id, timeline, kanıt log listesi ve aksiyon planıyla olay raporu üretin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama",
+
+      "name": "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Children’s Data",
+
+        "Family Booking",
+
+        "PMS Fields",
+
+        "Masking",
+
+        "Retention"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama",
+
+      "headline": "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı",
+
+      "name": "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı",
+
+      "description": "Çocuk verisini minimum alanlarla yönetin: PMS çocuk alanlarını sınırlayın, raporda isim yerine yaş grubu/oda sayısı kullanın; erişim, maskeleme ve silme loglarıyla KVKK kanıtı üretin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "cocuk verisi kvkk otel",
+
+        "aile rezervasyonunda çocuk bilgisi raporlama",
+
+        "cocuk verisi icin maskeleme ve saklama",
+
+        "children personal data hotel bookings",
+
+        "family reservation child age handling",
+
+        "pms child fields kvkk compliance"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+
+      "name": "KVKK & Veri Güvenliği Raporlama",
+
+      "serviceType": "Çocuk Verisi ve Aile Rezervasyonları KVKK Governance Danışmanlığı",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama#howto",
+
+      "name": "Otel aile rezervasyonlarında çocuk verisi KVKK uyumlu nasıl raporlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Minimum çocuk alan setini belirleyin",
+
+          "text": "Çocuk sayısı, yaş grubu ve oda dağılımı gibi gerekli alanları standardize edin; isim gibi riskli alanları raporlama katmanından çıkarın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Maskeleme ve rol bazlı erişimi kurun",
+
+          "text": "Raporlarda çocuk isimleri yerine yaş grubu KPI’ları kullanın; çocuk verisi içeren kayıt erişimini role-based sınırlandırın ve export’u kontrol edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Saklama ve silme kanıtını üretin",
+
+          "text": "Retention policy’yi yazılı hale getirin; süre dolan kayıtlar için silme/anonimleştirme job logları ve aylık rapor seti oluşturun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Denetim paketine ekleyin",
+
+          "text": "Alan tablosu, maskeleme standardı, erişim log özeti ve job raporlarını audit pack içinde tek paket sunun."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "KVKK & Veri Güvenliği Raporlama",
+
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Çocuk Verisi ve Aile Rezervasyonları",
+
+          "item": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aile rezervasyonlarında çocuk verisi KVKK’ya göre nasıl ele alınmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Teknik olarak minimizasyon uygulanmalı: çocuk sayısı ve yaş grubu gibi gerekli alanlar tutulur, çocuk isimleri raporlama/pazarlama katmanına taşınmaz. Erişim rol bazlı sınırlandırılır ve saklama/silme işlemleri loglanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS’de çocuk alanlarını nasıl sınırlamalı ve raporlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum alan setiyle başlayın (çocuk sayısı, yaş grubu, oda dağılımı). Raporlarda çocuk isimleri yerine yaş grubu ve çocuklu rezervasyon oranı gibi aggregate KPI’lar kullanın; detay görünümü yalnız gerekli rollere açın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rapor ekranlarında çocuk isimlerini göstermek yerine hangi anonim göstergeler kullanılabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yaş grubu dağılımı, çocuk sayısı trendi, aile rezervasyonu oranı ve oda tipi bazlı çocuklu rezervasyon oranı gibi aggregate KPI’lar kullanılabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çocuk verisi içeren kayıtları saklama ve silme/anonimleştirme süreçlerini nasıl loglarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Job bazlı log tutun: job_id, tarih, data_set, kriter (süre doldu), yöntem (delete/anonymise), etkilenen kayıt sayısı ve sonuç alanlarıyla; aylık/yıllık özet raporu denetim paketine ekleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-ai-kvkk-denetim-co-pilotlari-log-analizi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi",
+
+      "name": "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "AI Audit Assistant",
+
+        "Access Logs",
+
+        "Incident Records",
+
+        "Risk Scoring",
+
+        "Human Reviewer"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi",
+
+      "headline": "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi",
+
+      "name": "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi",
+
+      "description": "AI co-pilot’larla log/olay kayıtlarını ön-analiz edin: şüpheli erişim, eksik log alanı ve risk skorunu hızlı görün. Maskeleme + insan onayıyla KVKK sınırını koruyun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "ai log analizi",
+
+        "otomatik KVKK denetim ön-analizi",
+
+        "erişim loglarında anomali tespiti",
+
+        "privacy risk skorlaması",
+
+        "ai anomaly detection access logs",
+
+        "privacy audit copilot for hotels"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK & Veri Güvenliği Raporlama", "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI KVKK Denetim Co-Pilot", "item": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI KVKK denetim co-pilot’u nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Log ve olay kayıtlarını ön-analiz edip şüpheli sinyalleri özetleyen, kanıt satırlarını bir araya getirip insan ekibi yüksek riskli alanlara yönlendiren yardımcı analiz katmanıdır; karar verici değildir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Log ve olay kayıtlarını AI ile nasıl ön-analiz edebilirim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kritik kaynakları seçip veriyi maskeleyerek indeksleyin; co-pilot anomali/patern çıkarıp risk kartları üretir, insan reviewer doğrular ve aksiyon planına bağlar." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oteller için AI log analizi hangi riskleri daha hızlı gösterir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Fail login artışı, olağan dışı saat/IP, role_change sonrası export, eksik log alanları ve tekrar eden incident paternleri gibi sinyalleri daha hızlı görünür kılabilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI kullanırken insan kontrolü ve KVKK sınırlarını nasıl korurum?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Maskeleme/anonimleştirme, role-based erişim, onaysız aksiyon yasağı ve false positive geri besleme mekanizmasıyla. AI bulgu önerir; doğrulama ve karar insan ekiplerdedir." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-privacy-ux-ve-izin-deneyimi-otel-web":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web",
+
+      "name": "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Privacy UX",
+
+        "Consent Experience",
+
+        "Cookie Banner",
+
+        "Preference Center",
+
+        "Conversion"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web",
+
+      "headline": "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?",
+
+      "name": "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?",
+
+      "description": "Cookie banner’dan öteye geçin: çok aşamalı izin deneyimi, preference center, TR–EN net metinler ve mobil tasarım trendleriyle KVKK uyumu + rezervasyon dönüşümünü birlikte yönetin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "izin deneyimi optimizasyonu",
+
+        "kullanıcı dostu cookie banner tasarımı",
+
+        "çok katmanlı izin yönetimi",
+
+        "dönüşüm dostu gizlilik arayüzleri",
+
+        "privacy ux hotel website",
+
+        "consent experience optimisation"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web#howto",
+
+      "name": "Otel sitelerinde 2026 privacy UX nasıl tasarlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kategorileri sadeleştirin",
+
+          "text": "Analytics, pazarlama ve kişiselleştirme olarak 3 kategori belirleyin; her kategoriye 1 cümle fayda açıklaması yazın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Preference center kurun",
+
+          "text": "Banner’ı kısa tutup tercihleri preference center’a taşıyın; kullanıcıya sonradan değiştirme yolu verin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Mobil deneyimi optimize edin",
+
+          "text": "Compact banner + sheet/modal + erişilebilir preference center kombinasyonunu mobilde test edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KPI’larla yönetin",
+
+          "text": "Consent funnel ve rezervasyon dönüşüm KPI’larını birlikte izleyin; 180 günde bir UX refresh planı uygulayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK & Veri Güvenliği Raporlama", "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Privacy UX ve İzin Deneyimi", "item": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-privacy-ux-ve-izin-deneyimi-otel-web",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Cookie banner dışında privacy UX nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Privacy UX, misafirin neye neden izin verdiğini anlayabildiği, kategori bazlı seçim yapabildiği ve tercihlerini sonradan yönetebildiği izin deneyimi tasarımıdır; banner yalnız giriş kapısıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Analytics, pazarlama ve kişiselleştirme izinlerini nasıl ayırmalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Üç kategoriyle başlayın: Analytics (siteyi geliştirme), Pazarlama (kampanya/reklam), Kişiselleştirme (tercih hatırlama). Her kategoriye kısa fayda açıklaması ekleyin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İzin oranı ile rezervasyon dönüşümünü nasıl dengelerim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Consent funnel (banner→prefs→save) ve rezervasyon dönüşüm KPI’larını birlikte izleyin; hedef, kontrol hissini artırıp sürtünmeyi azaltarak hem opt-in hem dönüşümü korumaktır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobilde iyi bir izin deneyimi nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Compact banner + tercihler için sheet/modal + her zaman erişilebilir preference center iyi pratiktir. Kaydet sonrası kullanıcı rezervasyon akışına geri dönmeli ve metinler kısa olmalıdır." }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring",
+
+      "name": "2026’da Sınır Ötesi Veri Aktarımı ve Veri Yerelliği Monitoring: Otel Sistemleri İçin Yeni Pratikler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": ["Data Residency","Cross-Border Data Transfer","Endpoint","Country","Region","Log"]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring",
+
+      "headline": "2026’da Sınır Ötesi Veri Aktarımı ve Veri Yerelliği Monitoring: Otel Sistemleri İçin Yeni Pratikler",
+
+      "name": "2026’da Sınır Ötesi Veri Aktarımı ve Veri Yerelliği Monitoring: Otel Sistemleri İçin Yeni Pratikler",
+
+      "description": "PMS/OTA/cloud entegrasyonlarında “TR içi/dışı” veri akışını endpoint ve loglarla izleyin. Ülke bazlı dashboard kurup KVKK raporunu teknik kanıtla güçlendirin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "veri yerelliği takibi",
+
+        "sınır ötesi veri akışı görünürlüğü",
+
+        "yargı bölgesi bazlı veri haritalama",
+
+        "data residency monitoring hotels",
+
+        "cross border data flows dashboard",
+
+        "otel pms cloud veri lokasyonu takibi"
+
+      ],
+
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1",".answer-block"] }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "Raporlama", "item": "https://dgtlface.com/tr/raporlama" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK & Veri Güvenliği Raporlama", "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi" },
+
+        { "@type": "ListItem", "position": 4, "name": "Data Residency Monitoring", "item": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-sinir-otesi-veri-aktarimi-ve-veri-yerelligi-monitoring",
+
+      "mainEntity": [
+
+        { "@type": "Question", "name": "Sınır ötesi veri aktarımı oteller için teknik olarak ne anlama geliyor?", "acceptedAnswer": { "@type": "Answer", "text": "PMS/OTA/cloud entegrasyon endpoint’leri üzerinden verinin farklı ülke/region’lara gidebilmesi demektir; endpoint envanteri ve log alanlarıyla görünür kılınmalı ve dashboard’da izlenmelidir." } },
+
+        { "@type": "Question", "name": "PMS ve cloud çözümlerinde verinin hangi ülkede tutulduğunu nasıl izlerim?", "acceptedAnswer": { "@type": "Answer", "text": "Sağlayıcı lokasyon bilgisini endpoint/region görünürlüğüyle birleştirip loglarda destination_country/region alanlarıyla takip edin; yedek lokasyonlarını da ayrı raporlayın." } },
+
+        { "@type": "Question", "name": "“Türkiye içi/dışı” veri akışını dashboard’da nasıl gösterebilirim?", "acceptedAnswer": { "@type": "Answer", "text": "TR içi/dışı çağrı oranı, top TR dışı endpoint’ler ve yeni ülke/unknown lokasyon uyarılarıyla; yönetim ekranı KPI, IT ekranı endpoint detay odaklı kurgulanır." } },
+
+        { "@type": "Question", "name": "Data residency monitoring KVKK raporlamasını teknik olarak nasıl destekler?", "acceptedAnswer": { "@type": "Answer", "text": "Ülke bazlı veri akış tablosu, değişim logları (yeni ülke) ve yüksek riskli akışlar için aksiyon listesi üreterek risk analizini akış verisiyle besler." } }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri",
+
+      "name": "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": ["Synthetic Data","Test Environment","Sandbox","Anonymisation","PMS","CRM"]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri",
+
+      "headline": "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
+
+      "name": "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
+
+      "description": "Test/sandbox’ta gerçek misafir verisini kaldırın: sentetik/anonim dataset üretin, alan sözlüğü ve saklama kurallarıyla yönetin. KVKK raporunda kanıt seti oluşturun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "gizlilik odaklı test verisi üretimi",
+
+        "sentetik otel dataset’leri",
+
+        "sandbox ortamlarında veri minimizasyonu",
+
+        "anonymised datasets for hospitality projects",
+
+        "avoid real personal data in sandbox",
+
+        "synthetic data hotel testing"
+
+      ],
+
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1",".answer-block"] }
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-sentetik-veri-ve-anonim-test-ortamlari-otel-projeleri",
+
+      "mainEntity": [
+
+        { "@type": "Question", "name": "Sentetik veri nedir, otel projelerinde neden önem kazandı?", "acceptedAnswer": { "@type": "Answer", "text": "Sentetik veri, gerçek misafir verisini taklit eden kurgusal dataset’tir. Testte gerçek PII kullanmadan gerçekçi senaryo test etmeyi sağlar ve KVKK riskini düşürür." } },
+
+        { "@type": "Question", "name": "Test ve sandbox ortamlarında gerçek veri yerine sentetik veri nasıl üretilir?", "acceptedAnswer": { "@type": "Answer", "text": "Data dictionary çıkarılıp PII alanları işaretlenir; hibrit yaklaşım ile PII sentetik üretilir, operasyon alanları gerçekçi dağılımda oluşturulur. Leak test raporu ile doğrulanır." } },
+
+        { "@type": "Question", "name": "PMS ve CRM testlerinde hangi alanlar mutlaka maskeleme/anonimleştirme gerektirir?", "acceptedAnswer": { "@type": "Answer", "text": "Ad-soyad, e-posta, telefon, kimlik/pasaport gibi doğrudan tanımlayıcı alanlar; testte sentetik veya anonimleştirilmiş olmalıdır." } },
+
+        { "@type": "Question", "name": "Sentetik veri kullanımını KVKK raporlarında nasıl gösteririm?", "acceptedAnswer": { "@type": "Answer", "text": "No real PII policy, data dictionary, sentetik dataset versiyon kaydı ve PII leak test raporunu audit pack’e ekleyin; refresh/clean job loglarıyla sürekliliği kanıtlayın." } }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar#webpage",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar",
+
+      "name": "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": ["Privacy Risk Score","Dashboard","Alerting","Incident","Vendor Risk","Training Score"]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar#article",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar",
+
+      "headline": "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi",
+
+      "name": "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi",
+
+      "description": "KVKK risk skorunu dinamik izleyin: olaylar, açık aksiyonlar, log kapsamı, eğitim skoru ve vendor riskini tek puanda toplayın. Trafik ışığı paneliyle erken uyarı kurun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "articleSection": "Veri Analizi & Raporlama",
+
+      "keywords": [
+
+        "dinamik KVKK risk izleme",
+
+        "erken uyarı privacy dashboard’ları",
+
+        "risk skoru tabanlı uyum yönetimi",
+
+        "privacy risk scoring dashboard hotel",
+
+        "kvkk early warning kpi paneli",
+
+        "dynamic data protection risk monitoring"
+
+      ],
+
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1",".answer-block"] }
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar#faq",
+
+      "url": "https://dgtlface.com/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar",
+
+      "mainEntity": [
+
+        { "@type": "Question", "name": "Privacy risk skoru nedir, otellerde nasıl hesaplanır?", "acceptedAnswer": { "@type": "Answer", "text": "Incident, açık aksiyon, vendor risk, log coverage ve eğitim skoru KPI’larını normalize edip ağırlıklandırarak 0–100 arası tek risk puanı üretmektir; trafik ışığı eşikleriyle yorumlanır ve uyarı/aksiyon tetikler." } },
+
+        { "@type": "Question", "name": "Hangi KPI’lar KVKK risk dashboard’una girmeli?", "acceptedAnswer": { "@type": "Answer", "text": "Son 30 gün incident trendi, açık/geciken aksiyonlar, yüksek riskli vendor sayısı, kritik sistem log kapsama oranı ve eğitim/farkındalık skoru çekirdek KPI setidir." } },
+
+        { "@type": "Question", "name": "Risk skorunun artması durumunda hangi uyarı ve aksiyonlar tetiklenmeli?", "acceptedAnswer": { "@type": "Answer", "text": "Sarı seviyede IT/uyum review bildirimi, kırmızı seviyede yönetim görünürlüğü ve acil aksiyon planı tetiklenir; aksiyonlar owner+tarih ile atanıp kapanış skora yansıtılır." } },
+
+        { "@type": "Question", "name": "Yıllık statik risk analizi yerine dinamik modelin avantajları nelerdir?", "acceptedAnswer": { "@type": "Answer", "text": "Risk artışını daha erken görmeyi, yeni vendor/entegrasyon belirsizliklerini hızlı yakalamayı ve aksiyon kapanışını KPI’la yönetmeyi sağlar; KVKK’yı sürekli izlenen risk alanına taşır." } }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 
