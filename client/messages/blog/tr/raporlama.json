@@ -35026,7 +35026,7 @@
           },
           {
             "type": "p",
-            "text": "Kurulum, veri kaynağı ve uyarı kurgusuna dair ek detaylar için <a href=\"/tr/raporlama/benchmark-analizi-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfasını da inceleyebilirsiniz."
+            "text": "Kurulum, veri kaynağı ve uyarı kurgusuna dair ek detaylar için <a href=\"/tr/raporlama/benchmark-analiz-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfasını da inceleyebilirsiniz."
           },
           {
             "type": "callout",
@@ -35745,7 +35745,7 @@
           },
           {
             "type": "p",
-            "text": "Kurulum, veri güncelliği ve entegrasyon mantığıyla ilgili ek sorular için <a href=\"/tr/raporlama/benchmark-analizi-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfasına da bakabilirsiniz."
+            "text": "Kurulum, veri güncelliği ve entegrasyon mantığıyla ilgili ek sorular için <a href=\"/tr/raporlama/benchmark-analiz-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfasına da bakabilirsiniz."
           },
           {
             "type": "cta",
@@ -36415,7 +36415,7 @@
           },
           {
             "type": "p",
-            "text": "Metodoloji, veri kaynağı ve kıyaslama kurgusunu netleştirmek için <a href=\"/tr/raporlama/benchmark-analizi-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfası da iyi bir referans olur."
+            "text": "Metodoloji, veri kaynağı ve kıyaslama kurgusunu netleştirmek için <a href=\"/tr/raporlama/benchmark-analiz-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfası da iyi bir referans olur."
           },
           {
             "type": "cta",
@@ -37131,7 +37131,7 @@
           },
           {
             "type": "p",
-            "text": "Metodoloji, örneklem ve sınıflandırma mantığını derinleştirmek için <a href=\"/tr/raporlama/benchmark-analizi-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adımdır."
+            "text": "Metodoloji, örneklem ve sınıflandırma mantığını derinleştirmek için <a href=\"/tr/raporlama/benchmark-analiz-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adımdır."
           }
         ]
       },
@@ -37788,7 +37788,7 @@
           },
           {
             "type": "p",
-            "text": "Veri paylaşımı, anonimlik ve kıyas metodolojisini detaylandırmak için <a href=\"/tr/raporlama/benchmark-analizi-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adımdır."
+            "text": "Veri paylaşımı, anonimlik ve kıyas metodolojisini detaylandırmak için <a href=\"/tr/raporlama/benchmark-analiz-sss\">Benchmark Analizi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adımdır."
           }
         ]
       },
@@ -55099,7 +55099,7 @@
     },
     "h1": {
       "title": "KVKK Eğitim ve Farkındalık KPI’ları: Raporlama ve Dashboard’larda Kültürü Ölçmek",
-      "intro": "KVKK’da en pahalı riskler çoğu zaman “sofistike saldırılar”dan değil; basit insan hatalarından doğar: yanlış alıcıya mail, açık terminal, kayıp cihaz, gereksiz veri paylaşımı gibi. Bu nedenle otellerde KVKK uyumu, sadece doküman ve teknik kontrol değil; davranış ve alışkanlıkların yönetimidir. Bu rehber; eğitim katılımı, mini testler (phishing/quiz), olay bildirimi ve davranış metriklerini birleştirip departman bazlı bir “KVKK olgunluk skoru” üretmeyi ve bunu yönetim dashboard’larında izlemeyi anlatır. (Not: Hukuki danışmanlık değil; ölçüm ve operasyonel kültür raporlama rehberidir.)",
+      "intro": "KVKK’da en pahalı riskler çoğu zaman “sofistike saldırılar”dan değil; basit insan hatalarından doğar: yanlış alıcıya mail, açık terminal, kayıp cihaz, gereksiz veri paylaşımı gibi. Bu nedenle otellerde KVKK uyumu, sadece doküman ve teknik kontrol değil; davranış ve alışkanlıkların yönetimidir. Bu rehber; <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK eğitim KPI’ları</a>, mini testler (phishing/quiz), olay bildirimi ve davranış metriklerini birleştirip departman bazlı bir “KVKK olgunluk skoru” üretmeyi ve bunu yönetim dashboard’larında izlemeyi anlatır. (Not: Hukuki danışmanlık değil; ölçüm ve operasyonel kültür raporlama rehberidir.)",
       "quickSummary": [
         "1. KPI setini 10–12 metrikle başlatın (fazla kompleks yapmayın).",
         "2. Departman bazlı kırılımı zorunlu tutun.",
@@ -55110,19 +55110,19 @@
       "ctaPrimary": {
         "label": "KVKK Eğitim & Farkındalık KPI Analizi Talep Et",
         "text": "Otelinizde eğitim programını, KPI setini ve dashboard tasarımını birlikte kurgulayalım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "KVKK Eğitim & Farkındalık KPI Analizi Talep Et",
         "text": "KPI setini, skor modelini ve dashboard tasarımını otelinize özel kuralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       },
       "secondary": {
         "label": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir",
         "text": "Skor kartı, ısı haritası ve periyot planıyla kültürü ölçmeye hemen başlarsınız.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/kvkk-egitim-ve-farkindalik-dashboard-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -55151,7 +55151,7 @@
           },
           {
             "type": "p",
-            "text": "Kültür KPI’ları, “eğitim verdik” demek için değil; eğitimlerin davranışa dönüşüp dönüşmediğini görmek içindir. KPI setini 4 kümeye ayırmak pratik olur: katılım, öğrenme, davranış, olay sinyali."
+            "text": "Kültür KPI’ları, “eğitim verdik” demek için değil; eğitimlerin davranışa dönüşüp dönüşmediğini görmek içindir. Bu yapı, otellerde <a href=\"/tr/veri-analiz-ve-raporlama\">veri koruma kültürü</a> takibini katılım, öğrenme, davranış ve olay sinyali olarak 4 kümeye ayırmayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -55252,7 +55252,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Dashboard tasarımında hedef; IK/HR ve IT’nin aynı ekranda anlaşmasıdır. Bu yüzden 3 katman önerilir: yönetim özeti, departman ısı haritası, detay drill-down."
+            "text": "Dashboard tasarımında hedef; IK/HR ve IT’nin aynı ekranda anlaşmasıdır. Bu yüzden 3 katman önerilir: yönetim özeti, departman ısı haritası, detay drill-down. Bu yapı, <a href=\"/tr/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek\">yönetim seviyesinde KVKK KPI’ları</a> ile eğitim ve farkındalık çıktılarının aynı çerçevede okunmasını kolaylaştırır."
           },
           {
             "type": "h3",
@@ -55335,7 +55335,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Skorun amacı “puanlamak” değil; önceliklendirmek ve takip etmektir. Basit bir ağırlıklandırma modeli (örnek):"
+            "text": "Skorun amacı “puanlamak” değil; önceliklendirmek ve takip etmektir. Bu noktada <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">farkındalık skoru</a>, departman bazlı aksiyonları sıralamak için pratik bir göstergeye dönüşür. Basit bir ağırlıklandırma modeli (örnek):"
           },
           {
             "type": "list",
@@ -55349,7 +55349,7 @@
           },
           {
             "type": "p",
-            "text": "Varsayım: Ağırlıklar otelin risk profiline göre değişebilir; kritik olan tutarlılık ve periyodik takip."
+            "text": "Varsayım: Ağırlıklar otelin risk profiline göre değişebilir; kritik olan tutarlılık ve periyodik takiptir. Aynı skor yapısını <a href=\"/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist\">eğitim kayıtları denetim dosyası</a> içinde saklamak ve <a href=\"/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar\">departman bazlı privacy risk skoru</a> ile birlikte okumak, kültür tarafındaki zayıf alanları daha görünür hale getirir."
           },
           {
             "type": "table",
@@ -55471,7 +55471,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Eğitim bir defalık olursa, özellikle turizm otellerinde sirkülasyon yüzünden kültür hızla zayıflar. Bu nedenle küçük ama düzenli testler daha etkilidir."
+            "text": "Eğitim bir defalık olursa, özellikle turizm otellerinde sirkülasyon yüzünden kültür hızla zayıflar. Bu nedenle küçük ama düzenli testler, özellikle <a href=\"/tr/cagri-merkezi-hizmetleri\">misafir iletişiminde veri koruma kültürü</a> ve <a href=\"/tr/yazilim/sunucu-guvenlik\">teknik güvenlik farkındalığı</a> için daha etkilidir."
           },
           {
             "type": "h3",
@@ -55542,18 +55542,18 @@
             "variant": "secondary",
             "label": "KVKK Eğitim ve Farkındalık Dashboard Şablonunu İndir",
             "text": "Skor kartı, ısı haritası ve periyot planıyla kültürü ölçmeye hemen başlarsınız.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/kvkk-egitim-ve-farkindalik-dashboard-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "KVKK Eğitim & Farkındalık KPI Analizi Talep Et",
             "text": "KPI setini, skor modelini ve dashboard tasarımını otelinize özel kuralım.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/contact"
           },
           {
             "type": "p",
-            "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/yazilim/sunucu-guvenlik sayfalarına bağlayın."
+            "text": "Bu iyileştirme adımlarını süreç tarafında kalıcı hale getirmek için <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK eğitim ve uyum süreci</a> tanımlanabilir; sonuçları ise <a href=\"/tr/raporlama/looker-studio\">KVKK eğitim dashboard’u</a> üzerinde izleyip detay sorular için <a href=\"/tr/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "media",
@@ -55624,7 +55624,7 @@
       },
       {
         "q": "Farkındalık arttıkça veri ihlali riski gerçekten düşer mi, nasıl görürüm?",
-        "a": "Tek başına garanti vermez; ancak basit insan hatası kaynaklı bulguların (açık terminal, yanlış paylaşım) ve tekrar eden olayların zaman içinde azalması teorik olarak beklenir. Trend KPI’ları ve olay raporlarıyla bu ilişkiyi izleyebilirsiniz."
+        "a": "Tek başına yeterli görülmemelidir; ancak basit insan hatası kaynaklı bulguların (açık terminal, yanlış paylaşım) ve tekrar eden olayların zaman içinde azalması teorik olarak beklenir. Trend KPI’ları ve olay raporlarıyla bu ilişkiyi izleyebilirsiniz."
       },
       {
         "q": "Bildirilen şüpheli mail sayısının artması kötü mü?",
@@ -55712,7 +55712,7 @@
     },
     "h1": {
       "title": "KVKK Uyumunda Yönetim Dashboard’ı: KPI’larla “Büyük Resmi” Görmek",
-      "intro": "KVKK uyumu otelde sadece “dosyalar hazır mı?” sorusu değildir; yönetim açısından bu, operasyonel risk ve itibar riskinin yönetimi demektir. Bu yüzden iyi bir KVKK yönetim dashboard’u; hukuk ve IT’nin detay raporlarını tek ekranda anlaşılır 4–6 KPI kartına indirir ve yönetimin şu sorularına hızlı cevap verir: Neredeyiz? Hangi riskler açık? Hangi aksiyonlar bitti? Son dönemde olay trendi nasıl? Bu rehber, teknik detaya boğulmadan executive seviyede doğru KPI seçimini, layout’u ve raporların birleştirme mantığını anlatır.",
+      "intro": "KVKK uyumu otelde sadece “dosyalar hazır mı?” sorusu değildir; yönetim açısından bu, operasyonel risk ve itibar riskinin yönetimi demektir. Bu yüzden iyi bir <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK yönetim dashboard’u</a>; hukuk ve IT’nin detay raporlarını tek ekranda anlaşılır 4–6 KPI kartına indirir ve yönetimin şu sorularına hızlı cevap verir: Neredeyiz? Hangi riskler açık? Hangi aksiyonlar bitti? Son dönemde olay trendi nasıl? Bu rehber, teknik detaya boğulmadan executive seviyede doğru KPI seçimini, layout’u ve raporların birleştirme mantığını anlatır.",
       "quickSummary": [
         "1. 6 KPI’yı “çekirdek set” ilan edin.",
         "2. Detay raporları arkaya koyun (drill-down).",
@@ -55723,19 +55723,19 @@
       "ctaPrimary": {
         "label": "KVKK Yönetim Dashboard & KPI Tasarım Danışmanlığı Al",
         "text": "Otel/grup yapınıza uygun 6 KPI setini ve yönetim panelini birlikte tasarlayalım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "KVKK Yönetim Dashboard & KPI Tasarım Danışmanlığı Al",
         "text": "Grup/otel yapınıza uygun KPI’ları netleştirip paneli yayına alalım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       },
       "secondary": {
         "label": "KVKK Executive KPI & Dashboard Şablonunu İndir",
         "text": "6 kart wireframe’i ve ajanda ile yönetim panelini hızlıca kurar, toplantılarda net karar alırsınız.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/kvkk-executive-kpi-dashboard-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -55765,7 +55765,7 @@
           {"type":"media","slot":"h1-context-02"},
           {
             "type": "p",
-            "text": "Executive KPI seçiminin kuralı: az ama karar verdiren. Yönetim; “hangi departman hangi log alanını tutuyor?” seviyesinde değil, “risk kapanıyor mu?” seviyesinde karar verir. Bu nedenle KPI’lar 6 başlıkta toplanabilir (4–6 kart hedefiyle)."
+            "text": "Executive KPI seçiminin kuralı: az ama karar verdiren. Yönetim; “hangi departman hangi log alanını tutuyor?” seviyesinde değil, “risk kapanıyor mu?” seviyesinde karar verir. Bu nedenle, üst yönetim için <a href=\"/tr/veri-analiz-ve-raporlama\">büyük resmi görmek</a> adına KPI’lar 6 başlıkta toplanabilir (4–6 kart hedefiyle)."
           },
           {
             "type": "h3",
@@ -55827,7 +55827,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Kurum skoru (0–100)",
+              "<a href=\"/tr/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari\">KVKK eğitim KPI’ları</a> ile üretilen kurum skoru (0–100)",
               "En düşük 2 departman (Varsayım: departman matrisi var)",
               "Sezon onboarding etkisi (turizm sirkülasyonu)"
             ]
@@ -55888,7 +55888,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Dashboard tasarımında amaç; yönetim toplantısında 5–7 dakikada “neredeyiz?” cevabını vermek ve karar çıkarmaktır. Bu yüzden wireframe basit olmalı."
+            "text": "Dashboard tasarımında amaç; yönetim toplantısında 5–7 dakikada “neredeyiz?” cevabını vermek ve karar çıkarmaktır. Bu yüzden wireframe basit olmalı. Yönetimin gördüğü <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">privacy risk KPI’ları</a>, kişisel veri detayı yerine risk seviyesi, durum ve aksiyonu öne çıkarmalı; bu yapı <a href=\"/tr/raporlama/looker-studio\">executive veri güvenliği görünümü</a> için de iyi bir uygulama zemini sunar."
           },
           {
             "type": "h3",
@@ -55976,7 +55976,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "KVKK paneli, “tek başına bir compliance ekranı” olmamalı; risk ve performans raporlarıyla aynı yönetim dilinde konuşmalı. Birleştirme mantığı:"
+            "text": "KVKK paneli, “tek başına bir compliance ekranı” olmamalı; risk ve performans raporlarıyla aynı yönetim dilinde konuşmalı. Bu yaklaşım, <a href=\"/tr/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi\">anonim KPI ve veri maskeleme</a> ile yönetim seviyesinde kişisel veri göstermeden ilerlemeli; <a href=\"/tr/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar\">anlık privacy risk skoru</a> ise aynı dili güçlendirmelidir. Birleştirme mantığı:"
           },
           {
             "type": "h3",
@@ -55999,7 +55999,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Benchmark analizi: operasyonel olgunluk ↔ KVKK olgunluk",
+              "<a href=\"/tr/raporlama/benchmark-analizi\">KVKK olgunluk benchmark’ı</a>: operasyonel olgunluk ↔ KVKK olgunluk",
               "Satış-dönüşüm raporları: ölçüm evreni ↔ consent/maskeleme",
               "KVKK uyum hizmeti: aksiyon planı ↔ uygulama desteği"
             ]
@@ -56159,18 +56159,18 @@
             "variant": "secondary",
             "label": "KVKK Executive KPI & Dashboard Şablonunu İndir",
             "text": "6 kart wireframe’i ve ajanda ile yönetim panelini hızlıca kurar, toplantılarda net karar alırsınız.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/kvkk-executive-kpi-dashboard-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "KVKK Yönetim Dashboard & KPI Tasarım Danışmanlığı Al",
             "text": "Grup/otel yapınıza uygun KPI’ları netleştirip paneli yayına alalım.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/contact"
           },
           {
             "type": "p",
-            "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/raporlama, /tr/raporlama/benchmark-analizi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+            "text": "Bu panelde görülen açıklar ve öncelikler, <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">dashboard’dan uyum aksiyonuna geçiş</a> için iyi bir başlangıçtır; sık karşılaşılan değerlendirme başlıkları için de <a href=\"/tr/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "media",
@@ -56337,7 +56337,7 @@
     },
     "h1": {
       "title": "Kamera Kayıtları (CCTV) İçin KVKK Uyumlu Saklama ve Raporlama Yapısı",
-      "intro": "CCTV sistemleri otellerde güvenlik, olay inceleme ve operasyonel kontrol için vazgeçilmez olabilir; ancak KVKK açısından kamera görüntüsü, çoğu zaman görsel kişisel veri niteliği taşır. Bu yüzden kritik olan “kamera sayısı” değil; hangi kameranın nerede, hangi amaçla kayıt aldığı, ne kadar saklandığı, kimlerin hangi şartlarda erişebildiği ve erişim/çıktı alma işlemlerinin nasıl loglandığıdır. Bu rehber, hukuki metin detayı yerine teknik/operasyonel governance yaklaşımıyla; CCTV envanteri, saklama–silme/üzerine yazma döngüsü, erişim logu ve denetimde sunulacak rapor setini adım adım kurar.",
+      "intro": "CCTV sistemleri otellerde güvenlik, olay inceleme ve operasyonel kontrol için vazgeçilmez olabilir; ancak KVKK açısından kamera görüntüsü, çoğu zaman görsel kişisel veri niteliği taşır. Bu yüzden kritik olan “kamera sayısı” değil; hangi kameranın nerede, hangi amaçla kayıt aldığı, ne kadar saklandığı, kimlerin hangi şartlarda erişebildiği ve erişim/çıktı alma işlemlerinin nasıl loglandığıdır. Bu rehber, hukuki metin detayı yerine <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">CCTV KVKK raporlama</a> yaklaşımıyla; CCTV envanteri, saklama–silme/üzerine yazma döngüsü, erişim logu ve denetimde sunulacak rapor setini adım adım kurar.",
       "quickSummary": [
         "1. Envanteri çıkarın (kamera→lokasyon→amaç).",
         "2. Saklama ve erişim politikasını yazılı hale getirin.",
@@ -56348,19 +56348,19 @@
       "ctaPrimary": {
         "label": "CCTV Envanteri & KVKK Risk Analizi Talep Et",
         "text": "Kamera envanterinizi, saklama–erişim politikanızı ve log/rapor setinizi otelinize özel kuralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "CCTV Envanteri & KVKK Risk Analizi Talep Et",
         "text": "Resort otelinizin CCTV envanterini, saklama politikasını ve denetim rapor setini birlikte çıkaralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir",
         "text": "Envanter tablosu ve erişim log alanlarıyla CCTV rapor paketini hızla kurarsınız.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/kamera-saklama-suresi--erisim-logu-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -56386,7 +56386,7 @@
           {"type":"media","slot":"h1-context-02"},
           {
             "type": "p",
-            "text": "KVKK uyumlu CCTV çerçevesi, “kamera çalışıyor mu?”dan çok daha fazlasıdır. En iyi pratik yaklaşım; CCTV’yi envanter + politika + log + rapor şeklinde dört parçaya bölmektir:"
+            "text": "KVKK uyumlu CCTV çerçevesi, “kamera çalışıyor mu?”dan çok daha fazlasıdır. En iyi pratik yaklaşım; <a href=\"/tr/veri-analiz-ve-raporlama\">güvenlik kamerası envanteri</a>, politika, log ve raporu aynı veri güvenliği yapısı içinde düşünmektir:"
           },
           {
             "type": "list",
@@ -56469,7 +56469,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, otellerin en çok zorlandığı yerdir: saklama ve erişim “sözde” kalırsa denetimde kanıt üretilemez. Ama raporlanırsa hem risk azalır hem operasyon hızlanır."
+            "text": "Bu bölüm, otellerin en çok zorlandığı yerdir: saklama ve erişim “sözde” kalırsa denetimde kanıt üretilemez. Ama raporlanırsa hem risk azalır hem operasyon hızlanır; özellikle <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">kamera kayıt saklama süresi</a> ve görüntü yönetimi birlikte tanımlandığında."
           },
           {
             "type": "h3",
@@ -56477,7 +56477,7 @@
           },
           {
             "type": "p",
-            "text": "Bu rehber, kesin süre rakamı vermez; çünkü saklama süreleri hukuk birimi ve işletme ihtiyaçlarıyla belirlenmelidir. Ancak raporlama mantığı nettir:"
+            "text": "Bu rehber, kesin süre rakamı vermez; çünkü saklama süreleri hukuk birimi ve işletme ihtiyaçlarıyla belirlenmelidir. Ancak <a href=\"/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari\">CCTV kayıt retention politikası</a> açısından raporlama mantığı nettir:"
           },
           {
             "type": "list",
@@ -56520,7 +56520,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yüzden erişim loglarında en az şu alanlar olmalı:"
+            "text": "Bu yüzden <a href=\"/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari\">kamera erişim logları</a> içinde en az şu alanlar olmalı:"
           },
           {
             "type": "list",
@@ -56570,7 +56570,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Envanter, CCTV yönetiminin omurgasıdır. Kamera sayısı arttıkça “kurumsal hafıza” kaybolur; envanter bunu sabitler."
+            "text": "Envanter, CCTV yönetiminin omurgasıdır. Kamera sayısı arttıkça “kurumsal hafıza” kaybolur; envanter bunu sabitler. Bu yapının aydınlatma, yetki ve teknik dokümantasyon tarafı ise <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">güvenlik kamerası envanteri</a> yaklaşımıyla daha yönetilebilir hale gelir."
           },
           {
             "type": "h3",
@@ -56737,7 +56737,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Denetimde “CCTV var mı?” sorusu değil; “kontrol edilebilir mi?” sorusu gelir. Olay incelemede ise “hangi görüntü çıkarıldı, kim erişti, nerede saklandı?” soruları kritikleşir."
+            "text": "Denetimde “CCTV var mı?” sorusu değil; “kontrol edilebilir mi?” sorusu gelir. Olay incelemede ise “hangi görüntü çıkarıldı, kim erişti, nerede saklandı?” soruları kritikleşir. Bu bağlamda <a href=\"/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama\">olay incelemesinde kamera kayıtları</a> yaklaşımı ayrı bir kayıt standardı gerektirir."
           },
           {
             "type": "h3",
@@ -56780,18 +56780,18 @@
             "variant": "secondary",
             "label": "Kamera Saklama Süresi & Erişim Logu Şablonunu İndir",
             "text": "Envanter tablosu ve erişim log alanlarıyla CCTV rapor paketini hızla kurarsınız.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/kamera-saklama-suresi--erisim-logu-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "CCTV Envanteri & KVKK Risk Analizi Talep Et",
             "text": "Resort otelinizin CCTV envanterini, saklama politikasını ve denetim rapor setini birlikte çıkaralım.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/contact"
           },
           {
             "type": "p",
-            "text": "İç link notu: Teknik altyapı ve loglama yaklaşımı için /tr/yazilim/sunucu-guvenlik; uyum çerçevesi için /tr/yazilim/kvkk-uyum-hizmeti; silo sayfası için /tr/raporlama/kvkk-veri-guvenligi."
+            "text": "Teknik tarafta <a href=\"/tr/yazilim/sunucu-guvenlik\">görüntü kayıtlarının sunucu güvenliği</a> yaklaşımı, erişim ve depolama katmanını güçlendirir. Bu çerçeveyi misafir tarafında daha şeffaf bir dile taşımak için <a href=\"/tr/otel-dijital-pazarlama\">misafir güveni ve şeffaflık iletişimi</a> değerlendirilebilir; genel sorular için de <a href=\"/tr/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "media",
@@ -56957,7 +56957,7 @@
     },
     "h1": {
       "title": "Çağrı Merkezi Ses Kayıtları ve Ekran Kayıtlarını KVKK Uyumlu Raporlamak",
-      "intro": "Otel çağrı merkezlerinde ses kayıtları; rezervasyon kalitesi, şikâyet yönetimi ve eğitim için büyük değer üretir. Ancak aynı kayıtlar, konuşma sırasında e-posta/telefon/kimlik ve bazen ödeme bilgileri paylaşıldığı için KVKK açısından yüksek risk taşır. Bu nedenle hedef “kayıtları kapatmak” değil; amaç–saklama–erişim–maskeleme/mute–log–rapor zinciriyle kayıtları kontrol edilebilir hale getirmektir. Bu rehber, ses ve ekran kayıtlarını hem kaliteyi koruyacak hem KVKK riskini azaltacak şekilde yönetmek için pratik bir raporlama standardı sunar. (Not: PCI-DSS gibi kart verisi standartlarının adı geçse bile burada sertifikasyon/hukuki yorum yapılmaz; yalnız mute/maskeleme ve erişim sınırı teknik düzeyde ele alınır.)",
+      "intro": "Otel çağrı merkezlerinde ses kayıtları; rezervasyon kalitesi, şikâyet yönetimi ve eğitim için büyük değer üretir. Ancak aynı kayıtlar, konuşma sırasında e-posta/telefon/kimlik ve bazen ödeme bilgileri paylaşıldığı için KVKK açısından yüksek risk taşır. Bu nedenle hedef “kayıtları kapatmak” değil; amaç–saklama–erişim–maskeleme/mute–log–rapor zinciriyle kayıtları kontrol edilebilir hale getirmektir. Bu rehber, <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">çağrı merkezi ses kaydı KVKK</a> yaklaşımıyla ses ve ekran kayıtlarını hem kaliteyi koruyacak hem veri güvenliği riskini azaltacak şekilde yönetmek için pratik bir raporlama standardı sunar. (Not: PCI-DSS gibi kart verisi standartlarının adı geçse bile burada sertifikasyon/hukuki yorum yapılmaz; yalnız mute/maskeleme ve erişim sınırı teknik düzeyde ele alınır.)",
       "quickSummary": [
         "1. Çağrı türlerine göre kayıt politikasını yazın.",
         "2. Erişim rolünü “minimum”a indirin (quality + yöneticiler).",
@@ -56968,19 +56968,19 @@
       "ctaPrimary": {
         "label": "Ses & Ekran Kayıtları KVKK Analizi Talep Et",
         "text": "Call center kayıt akışınızı, saklama/erişim/mute noktalarıyla birlikte denetleyip rapor setini kuralım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Ses & Ekran Kayıtları KVKK Analizi Talep Et",
         "text": "Call center kayıtlarınızı KVKK uyumlu governance çerçevesine oturtalım.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir",
         "text": "Saklama–erişim–maskeleme matrisini hızla çıkarır, denetim paketine ekleriniz.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/ses-kayit-saklama-erisim-matrisi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -57006,7 +57006,7 @@
           {"type":"media","slot":"h1-context-02"},
           {
             "type": "p",
-            "text": "KVKK uyumlu çerçeve, üç soruyu net cevaplar:"
+            "text": "KVKK uyumlu çerçeve, üç soruyu net cevaplar. Özellikle <a href=\"/tr/veri-analiz-ve-raporlama\">rezervasyon çağrısı saklama</a>, ekran kaydı, erişim logu ve performans raporlarının aynı analiz mimarisi içinde ele alınması gerekir:"
           },
           {
             "type": "list",
@@ -57085,7 +57085,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, “saklama” ve “erişim”i birlikte ele alır; çünkü kayıtların riskini asıl büyüten şey, geniş erişim ve kontrolsüz export’tur."
+            "text": "Bu bölüm, “saklama” ve “erişim”i birlikte ele alır; çünkü kayıtların riskini asıl büyüten şey, geniş erişim ve kontrolsüz export’tur. Özellikle <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">ekran kaydı ve maskeleme</a> kuralları net değilse, çağrı merkezi kayıt yönetişimi hızla zayıflar."
           },
           {
             "type": "h3",
@@ -57247,7 +57247,7 @@
           },
           {
             "type": "p",
-            "text": "Rezervasyon sırasında kart bilgisi konuşuluyorsa, kayıt sisteminde “mute window” uygulanması riski ciddi azaltır. Mute pencereleri loglanıp raporlandığında denetimde güçlü kanıt olur (Varsayım: destekleniyorsa)."
+            "text": "Rezervasyon sırasında kart bilgisi konuşuluyorsa, kayıt sisteminde “mute window” uygulanması riski ciddi azaltır. Mute pencereleri loglanıp raporlandığında denetimde güçlü kanıt olur (Varsayım: destekleniyorsa). Yanlış paylaşım veya yetkisiz dinleme ihtimallerinde ise <a href=\"/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama\">ses kaydı olay inceleme kaydı</a> yaklaşımı devreye girer."
           },
           {
             "type": "h3",
@@ -57284,7 +57284,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Denetimde kritik soru “kayıt var mı?” değil; “kim erişti, ne yaptı?”dır. Bu yüzden erişim logları ve periyodik raporlar şarttır."
+            "text": "Denetimde kritik soru “kayıt var mı?” değil; “kim erişti, ne yaptı?”dır. Bu yüzden erişim logları ve periyodik raporlar şarttır. Bu yapı, <a href=\"/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari\">call recording erişim logu</a> ve <a href=\"/tr/raporlama/blog/misafir-wifi-erisim-loglari-kvkk-raporlama\">misafir temas logları</a> yaklaşımını birlikte düşünmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -57369,18 +57369,18 @@
             "variant": "secondary",
             "label": "Ses Kayıt Saklama & Erişim Matrisi Şablonunu İndir",
             "text": "Saklama–erişim–maskeleme matrisini hızla çıkarır, denetim paketine ekleriniz.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/ses-kayit-saklama-erisim-matrisi-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Ses & Ekran Kayıtları KVKK Analizi Talep Et",
             "text": "Call center kayıtlarınızı KVKK uyumlu governance çerçevesine oturtalım.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/contact"
           },
           {
             "type": "p",
-            "text": "İç link notu: /tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/performans-analizi ve /tr/raporlama/kvkk-veri-guvenligi sayfalarına bağlayın."
+            "text": "Operasyon tarafında <a href=\"/tr/cagri-merkezi-hizmetleri\">rezervasyon çağrısı saklama</a> ve çok kanallı misafir iletişimi birlikte ele alınabilir. Kayıtların eğitim ve kalite tarafında kullanımı için <a href=\"/tr/cagri-merkezi/performans-analizi\">kalite analizi için maskeli kayıt kullanımı</a> yaklaşımı benimsenebilir; politika, saklama ve teknik dokümantasyon için ise <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">çağrı merkezi kayıt saklama politikası</a> çerçevesi kurulup detay sorular <a href=\"/tr/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına taşınabilir."
           },
           {
             "type": "media",
@@ -57594,7 +57594,7 @@
     },
     "h1": {
       "title": "Misafir Wi-Fi Erişim Logları ve KVKK: Oteller İçin Teknik Raporlama Rehberi",
-      "intro": "Misafir Wi-Fi altyapısı otelde “görünmez” bir servis gibi görünür; ama KVKK açısından iki kritik noktaya sahiptir: (1) teknik log zorunluluğu ve (2) gereksiz veri toplama riski. Wi-Fi login ekranında oda no/telefon gibi bilgileri sınırsız toplamak veya Wi-Fi loglarını pazarlama katmanına “ham PII” olarak aktarmak, risk yüzeyini büyütür. Bu rehber; Wi-Fi loglarını “minimum veri + süreli saklama + rol bazlı erişim + anonim analitik” prensibiyle yönetmek ve KVKK raporlarına kısa/kanıtlı çıktı üretmek için pratik bir standart sunar.",
+      "intro": "Misafir Wi-Fi altyapısı otelde “görünmez” bir servis gibi görünür; ama KVKK açısından iki kritik noktaya sahiptir: (1) teknik log zorunluluğu ve (2) gereksiz veri toplama riski. Wi-Fi login ekranında oda no/telefon gibi bilgileri sınırsız toplamak veya Wi-Fi loglarını pazarlama katmanına “ham PII” olarak aktarmak, risk yüzeyini büyütür. Bu rehber; <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">misafir Wi-Fi logları</a>nı “minimum veri + süreli saklama + rol bazlı erişim + anonim analitik” prensibiyle yönetmek ve KVKK raporlarına kısa/kanıtlı çıktı üretmek için pratik bir standart sunar.",
       "quickSummary": [
         "1. Wi-Fi’de “teknik log” ve “login verisi”ni iki farklı tabloyla envantere alın.",
         "2. Login alanlarını minimuma indirin (oda no veya token; gereksiz PII yok).",
@@ -57605,19 +57605,19 @@
       "ctaPrimary": {
         "label": "Misafir Wi-Fi Log & KVKK Analizi Talep Et",
         "text": "Wi-Fi login akışınızı, log alan setinizi ve saklama/erişim politikanızı birlikte denetleyelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Misafir Wi-Fi Log & KVKK Analizi Talep Et",
         "text": "Wi-Fi login ve log akışınızı KVKK uyumlu şekilde optimize edelim.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/contact"
       },
       "secondary": {
         "label": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir",
         "text": "Minimum alan seti ve saklama kurallarıyla Wi-Fi log yönetimini hızla standardize edersiniz.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/wi-fi-erisim-log-alanlari-saklama-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -57647,7 +57647,7 @@
           {"type":"media","slot":"h1-context-02"},
           {
             "type": "p",
-            "text": "Wi-Fi altyapısı iki katmanda veri üretir: ağ katmanı logları ve kimlik doğrulama (captive portal) verileri. KVKK uyumu için önce “hangi veri nerede oluşuyor?” sorusunu yanıtlamak gerekir."
+            "text": "Wi-Fi altyapısı iki katmanda veri üretir: ağ katmanı logları ve kimlik doğrulama (captive portal) verileri. KVKK uyumu için önce “hangi veri nerede oluşuyor?” sorusunu yanıtlamak gerekir. Bu yapı, otellerde <a href=\"/tr/veri-analiz-ve-raporlama\">anonim Wi-Fi analitiği</a> ile birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -57844,7 +57844,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "KVKK uyumlu raporlama; (a) minimizasyon, (b) güvenli saklama, (c) erişim kontrolü, (d) raporlanabilir kanıt dörtlemesiyle kurulur."
+            "text": "<a href=\"/tr/raporlama/kvkk-veri-guvenligi\">KVKK uyumlu ağ erişim kaydı</a>; (a) minimizasyon, (b) güvenli saklama, (c) erişim kontrolü, (d) raporlanabilir kanıt dörtlemesiyle kurulur."
           },
           {
             "type": "h3",
@@ -57852,7 +57852,7 @@
           },
           {
             "type": "p",
-            "text": "Wi-Fi log raporlarında amaç, “her alanı” değil, “kanıt için yeterli alanı” tutmaktır. Minimum alan seti örneği:"
+            "text": "Wi-Fi log raporlarında amaç, “her alanı” değil, “kanıt için yeterli alanı” tutmaktır. <a href=\"/tr/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari\">Wi-Fi erişim logları</a> için minimum alan seti örneği:"
           },
           {
             "type": "list",
@@ -57885,7 +57885,7 @@
           },
           {
             "type": "p",
-            "text": "Kesin süre rakamı vermiyoruz; süreler hukuk birimiyle belirlenir. Ancak raporlama standardı net:"
+            "text": "Kesin süre rakamı vermiyoruz; süreler hukuk birimiyle belirlenir. Ancak <a href=\"/tr/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari\">Wi-Fi log saklama politikası</a> açısından raporlama standardı nettir:"
           },
           {
             "type": "list",
@@ -58039,7 +58039,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Wi-Fi’nin pazarlamaya katkısı, “kim bağlandı?” değil “hangi saatlerde/hangi bölgelerde yoğunluk var?” gibi aggregate içgörüdür. KVKK uyumlu yaklaşım; kişisel veri yerine anonim KPI kullanmaktır."
+            "text": "Wi-Fi’nin pazarlamaya katkısı, “kim bağlandı?” değil “hangi saatlerde/hangi bölgelerde yoğunluk var?” gibi aggregate içgörüdür. Bu yaklaşım, <a href=\"/tr/raporlama/blog/cagri-merkezi-ses-kayitlari-ekran-kayitlari-kvkk\">misafir temas verileri</a> için de geçerlidir: kişisel veri yerine anonim KPI kullanmak gerekir."
           },
           {
             "type": "h3",
@@ -58125,18 +58125,18 @@
             "variant": "secondary",
             "label": "Wi-Fi Erişim Log Alanları & Saklama Checklist’ini İndir",
             "text": "Minimum alan seti ve saklama kurallarıyla Wi-Fi log yönetimini hızla standardize edersiniz.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/wi-fi-erisim-log-alanlari-saklama-checklist-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Misafir Wi-Fi Log & KVKK Analizi Talep Et",
             "text": "Wi-Fi login ve log akışınızı KVKK uyumlu şekilde optimize edelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/contact"
           },
           {
             "type": "p",
-            "text": "İç link notu: /tr/raporlama, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik ve /tr/otel-dijital-pazarlama sayfalarına bağlayın."
+            "text": "Teknik tarafta <a href=\"/tr/yazilim/sunucu-guvenlik\">ağ erişim kayıtlarının sunucu güvenliği</a> yaklaşımı önemlidir. Login ekranı, veri minimizasyonu ve teknik dokümantasyon için <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyumlu ağ erişim kaydı</a> çerçevesi kurulabilir. Misafir tarafında ise <a href=\"/tr/otel-dijital-pazarlama\">izinli iletişim ve misafir güveni</a> dili korunmalı; detay sorular için de <a href=\"/tr/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçilebilir."
           },
           {
             "type": "media",
@@ -58324,7 +58324,7 @@
   },
   "h1": {
     "title": "Mobil Check-in ve Dijital Anahtar Verilerini KVKK Uyumlu Raporlamak",
-    "intro": "Mobil check-in ve dijital anahtar, misafirin resepsiyonda beklemesini azaltır; fakat aynı zamanda “oda erişimi” gibi kritik bir olayı dijital loglara taşır. Bu loglar güvenlik olaylarında ve misafir taleplerinde (ör. “odamı kim açtı?”) kanıt niteliği taşır. KVKK uyumu için hedef; bu yeni veri akışını görünür kılmak (data map), hangi verinin nerede ne kadar yaşadığını belirlemek (retention), kimlerin hangi loglara erişebildiğini sınırlamak (RBAC) ve erişim/export işlemlerini raporlamak (access log + audit pack) olmalıdır. Bu rehber, mobil uygulama–PMS–kilit sistemi arasındaki veri akışını ve raporlama setini pratik şekilde kurar.",
+    "intro": "Mobil check-in ve dijital anahtar, misafirin resepsiyonda beklemesini azaltır; fakat aynı zamanda <a href=\"/raporlama/kvkk-veri-guvenligi\">mobil check-in KVKK</a> yaklaşımında dikkatle yönetilmesi gereken “oda erişimi” gibi kritik bir olayı dijital loglara taşır. Bu loglar güvenlik olaylarında ve misafir taleplerinde (ör. “odamı kim açtı?”) kanıt niteliği taşır. KVKK uyumu için hedef; bu yeni veri akışını görünür kılmak (data map), hangi verinin nerede ne kadar yaşadığını belirlemek (retention), kimlerin hangi loglara erişebildiğini sınırlamak (RBAC) ve erişim/export işlemlerini raporlamak (access log + audit pack) olmalıdır. Bu rehber, mobil uygulama–PMS–kilit sistemi arasındaki veri akışını ve raporlama setini pratik şekilde kurar.",
     "quickSummary": [
       "Mobil check-in veri akışını data map’e ekleyin.",
       "Anahtar loglarını “yüksek hassasiyet” sınıfında yönetin.",
@@ -58335,19 +58335,19 @@
     "ctaPrimary": {
       "label": "Mobil Check-in & Dijital Anahtar KVKK Analizi Talep Et",
       "text": "Mobil check-in ve anahtar log yönetiminizi otelinize özel kuralım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Mobil Check-in & Dijital Anahtar KVKK Analizi Talep Et",
       "text": "Mobil check-in ve anahtar log yönetiminizi otelinize özel kuralım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     },
     "secondary": {
       "label": "Mobil Check-in Veri Haritası & Anahtar Log Şablonunu İndir",
       "text": "Data map ve log şablonuyla raporlamayı hızla standardize edersiniz.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/downloads/mobil-check-in-veri-haritasi-anahtar-log-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -58386,7 +58386,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "Mobil check-in ve dijital anahtar tarafında veri ikiye ayrılır: (1) check-in verisi ve (2) anahtar/oda erişim olay logları. KVKK raporlama için önce bu iki katmanı ayırmak gerekir."
+          "text": "Mobil check-in ve dijital anahtar tarafında veri ikiye ayrılır: (1) check-in verisi ve (2) <a href=\"/veri-analiz-ve-raporlama\">oda erişim verisi</a> olarak izlenen anahtar/oda erişim olay logları. KVKK raporlama için önce bu iki katmanı ayırmak gerekir."
         },
         {
           "type": "h3",
@@ -58482,7 +58482,7 @@
         },
         {
           "type": "p",
-          "text": "Bu ayrım raporda net olmalı; aksi halde anahtar logları “kimlik deposuna” dönüşür."
+          "text": "Bu ayrım raporda net olmalı; aksi halde anahtar logları “kimlik deposuna” dönüşür. Bu yüzden veri haritasında hangi alanın operasyon kanıtı, hangisinin kişisel veri olduğunu baştan işaretlemek gerekir."
         },
         {
           "type": "h3",
@@ -58528,7 +58528,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "KVKK uyumlu raporlama, 4 parçaya bölünür: data map, retention, role-based access, incident/audit raporu."
+          "text": "<a href=\"/raporlama/kvkk-veri-guvenligi\">Dijital anahtar logları</a> ve mobil check-in verisi için KVKK uyumlu raporlama, 4 parçaya bölünür: data map, retention, role-based access, incident/audit raporu."
         },
         {
           "type": "h3",
@@ -58536,7 +58536,7 @@
         },
         {
           "type": "p",
-          "text": "Uygulama → PMS → Kilit sistemi akışını tek şemada gösterin:"
+          "text": "<a href=\"/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi\">Mobil check-in veri haritası</a> içinde uygulama → <a href=\"/otel/pms-entegrasyonu\">uygulama PMS kilit sistemi akışı</a> tek şemada gösterin; alanların <a href=\"/pms-ota/pms-kurulum\">mobil check-in PMS kurulumu</a> sırasında nasıl tanımlandığını da not edin:"
         },
         {
           "type": "list",
@@ -58564,7 +58564,7 @@
         },
         {
           "type": "h3",
-          "text": "3) Erişim yetkisi (RBAC) – “kim görür?”"
+          "text": "3) <a href=\"/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari\">Dijital anahtar yetki kontrolü</a> – “kim görür?”"
         },
         {
           "type": "list",
@@ -58655,7 +58655,7 @@
         },
         {
           "type": "p",
-          "text": "Misafir “odama biri girdi” dediğinde, anahtar logları güvenlik için hızlı kanıt sağlar. Ama bu logları geniş erişime açmak yeni risk doğurur. Çözüm, “rapor üretimi” ve erişim loglamasıdır."
+          "text": "Misafir “odama biri girdi” dediğinde, anahtar logları güvenlik için hızlı kanıt sağlar. Ama bu logları geniş erişime açmak yeni risk doğurur. Çözüm, “rapor üretimi” ve erişim loglamasıdır. Özellikle <a href=\"/raporlama/blog/cocuk-verisi-ve-aile-rezervasyonlari-kvkk-raporlama\">aile rezervasyonlarında mobil check-in verisi</a> bağlı profiller ve çocuk verisi nedeniyle daha dikkatli sınırlandırılmalıdır."
         },
         {
           "type": "callout",
@@ -58724,18 +58724,18 @@
           "variant": "secondary",
           "label": "Mobil Check-in Veri Haritası & Anahtar Log Şablonunu İndir",
           "text": "Data map ve log şablonuyla raporlamayı hızla standardize edersiniz.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/downloads/mobil-check-in-veri-haritasi-anahtar-log-sablonu-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Mobil Check-in & Dijital Anahtar KVKK Analizi Talep Et",
           "text": "Mobil check-in ve anahtar log yönetiminizi otelinize özel kuralım.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/pms-ota/pms-kurulum, /tr/otel/pms-entegrasyonu, /tr/raporlama/kvkk-veri-guvenligi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+          "text": "Bu rapor setini canlı tutmak için <a href=\"/yazilim/kvkk-uyum-hizmeti\">mobil check-in için KVKK uyum altyapısı</a> ile aydınlatma, veri minimizasyonu, loglama ve saklama kurallarını netleştirin; misafire anlatım tarafında ise <a href=\"/otel-dijital-pazarlama\">privacy-first mobil misafir deneyimi</a> dili kurun. Detay sorular için <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçin."
         },
         {
           "type": "media",
@@ -58770,7 +58770,7 @@
             "Retention policy yazıldı | Owner: __ | Due: __",
             "Aylık KPI raporu kuruldu | Owner: __ | Due: __"
           ],
-          "href": "/downlods/mobil-check-in-veri-haritasi-anahtar-log-sablonu-v1.0.pdf",
+          "href": "/downloads/mobil-check-in-veri-haritasi-anahtar-log-sablonu-v1.0.pdf",
           "buttonLabel": "Şablonu İndir"
         },
         {
@@ -58876,7 +58876,7 @@
   },
   "h1": {
     "title": "Çocuk Verisi ve Aile Rezervasyonları: KVKK Açısından Teknik Raporlama Yaklaşımı",
-    "intro": "Aile rezervasyonları oteller için kritik bir gelir segmentidir; ancak bu segment, sistemlere daha fazla hassas veri girmesi riskini de artırır. Çocukla ilgili yaş/oda dağılımı bilgisi çoğu zaman operasyon için gereklidir; fakat çocuk ismi gibi alanlar, raporlama ve pazarlama katmanına taşındığında gereksiz risk üretir. KVKK uyumlu teknik yaklaşım; çocuk verisini minimum alan ile sınırlamak, erişimi rol bazlı daraltmak, raporlarda isim yerine anonim göstergeler kullanmak ve saklama/silme süreçlerini kanıtlanabilir loglarla raporlamaktır. Bu rehber, özellikle aile konsepti güçlü Antalya/Belek/Side resort oteller için pratik bir raporlama standardı sunar. (Not: Hukuki yorum yapmadan teknik/operasyonel çerçevede kalınır; süreler ve zorunluluklar hukuk birimiyle netleştirilmelidir.)",
+    "intro": "Aile rezervasyonları oteller için kritik bir gelir segmentidir; ancak bu segment, sistemlere daha fazla hassas veri girmesi riskini de artırır. Çocukla ilgili yaş/oda dağılımı bilgisi çoğu zaman operasyon için gereklidir; fakat çocuk ismi gibi alanlar, <a href=\"/raporlama/kvkk-veri-guvenligi\">çocuk verisi KVKK</a> yaklaşımı içinde raporlama ve pazarlama katmanına taşındığında gereksiz risk üretir. KVKK uyumlu teknik yaklaşım; çocuk verisini minimum alan ile sınırlamak, erişimi rol bazlı daraltmak, raporlarda isim yerine anonim göstergeler kullanmak ve saklama/silme süreçlerini kanıtlanabilir loglarla raporlamaktır. Bu rehber, özellikle aile konsepti güçlü Antalya/Belek/Side resort oteller için pratik bir raporlama standardı sunar. (Not: Hukuki yorum yapmadan teknik/operasyonel çerçevede kalınır; süreler ve zorunluluklar hukuk birimiyle netleştirilmelidir.)",
     "quickSummary": [
       "“Gerekli alan seti”ni yazılı hale getirin.",
       "Çocuk ismini raporlama katmanından çıkarın.",
@@ -58887,19 +58887,19 @@
     "ctaPrimary": {
       "label": "Çocuk Verisi & Aile Rezervasyonu KVKK Analizi Talep Et",
       "text": "PMS ve rezervasyon ekranlarınızda çocuk alanlarını minimize edip maskeleme/erişim rapor setini birlikte kuralım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Çocuk Verisi & Aile Rezervasyonu KVKK Analizi Talep Et",
       "text": "Aile konseptli otelinizde çocuk verisini minimizasyon + maskeleme + erişim raporlarıyla güvenceye alalım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     },
     "secondary": {
       "label": "Çocuk Verisi İçeren Alanlar & Maskeleme Checklist’ini İndir",
       "text": "PMS alanlarını sadeleştirip rapor maskeleme standardını hızla uygularsınız.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/downloads/cocuk-verisi-iceren-alanlar-maskeleme-checklist-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -58938,7 +58938,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "Aile rezervasyonlarında çocuk verisi genelde “oda planlaması ve fiyatlandırma” için kullanılır. Teknik olarak işlenen alanları üç gruba ayırmak iyi pratiktir: gerekli, opsiyonel ve riskli."
+          "text": "Aile rezervasyonlarında çocuk verisi genelde “oda planlaması ve fiyatlandırma” için kullanılır. Bu alanları <a href=\"/veri-analiz-ve-raporlama\">aile rezervasyonlarında veri yönetimi</a> bakışıyla ele alıp teknik olarak işlenen alanları üç gruba ayırmak iyi pratiktir: gerekli, opsiyonel ve riskli."
         },
         {
           "type": "h3",
@@ -59077,7 +59077,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Çocuk alanlarını sınırlamak, KVKK uyumunda “data minimization” prensibinin pratik karşılığıdır. Burada iki hedef var:"
+          "text": "<a href=\"/raporlama/kvkk-veri-guvenligi\">Çocuk alanlarını sınırlama</a>, KVKK uyumunda “data minimization” prensibinin pratik karşılığıdır. Burada iki hedef var:"
         },
         {
           "type": "list",
@@ -59102,7 +59102,7 @@
         },
         {
           "type": "p",
-          "text": "Bunun dışındaki alanlar “iş ihtiyacı” ile gerekçelenmelidir."
+          "text": "Bunun dışındaki alanlar “iş ihtiyacı” ile gerekçelenmelidir. Özellikle <a href=\"/raporlama/blog/mobil-checkin-dijital-anahtar-verileri-kvkk-raporlama\">aile rezervasyonlarında mobil check-in verisi</a> ve <a href=\"/pms-ota/rezervasyon-yonetimi\">PMS aile rezervasyonu akışı</a> içinde bu alanların ayrıca kontrol edilmesi gerekir."
         },
         {
           "type": "h3",
@@ -59162,7 +59162,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Çocuk verisi “daha sıkı erişim ve daha anonim raporlama” gerektirir. Uygulanabilir üç katman:"
+          "text": "Çocuk verisi “daha sıkı erişim ve daha anonim raporlama” gerektirir. Bu yüzden <a href=\"/raporlama/blog/rol-tabanli-erisim-ve-yetki-matrisi-raporlari\">çocuk verisi için yetki matrisi</a> ile <a href=\"/yazilim/kvkk-uyum-hizmeti\">maskeleme ve erişim kısıtı</a> birlikte düşünülmelidir. Uygulanabilir üç katman:"
         },
         {
           "type": "h3",
@@ -59244,7 +59244,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Saklama süresi kesin rakamlarla değil, “policy + kanıt” olarak ele alınır. Önemli olan:"
+          "text": "<a href=\"/raporlama/blog/veri-saklama-sureleri-ve-silme-anonimlestirme-raporlari\">Çocuk verisi saklama politikası</a>, kesin rakamlarla değil, “policy + kanıt” olarak ele alınır. Önemli olan:"
         },
         {
           "type": "list",
@@ -59319,18 +59319,18 @@
           "variant": "secondary",
           "label": "Çocuk Verisi İçeren Alanlar & Maskeleme Checklist’ini İndir",
           "text": "PMS alanlarını sadeleştirip rapor maskeleme standardını hızla uygularsınız.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/downloads/cocuk-verisi-iceren-alanlar-maskeleme-checklist-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Çocuk Verisi & Aile Rezervasyonu KVKK Analizi Talep Et",
           "text": "Aile konseptli otelinizde çocuk verisini minimizasyon + maskeleme + erişim raporlarıyla güvenceye alalım.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/pms-ota/rezervasyon-yonetimi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/cagri-merkezi/satis-sonrasi-destek sayfalarına bağlayın."
+          "text": "Aileye özel taleplerin çağrı merkezi tarafına taşındığı noktalarda <a href=\"/cagri-merkezi/satis-sonrasi-destek\">aile rezervasyonu sonrası destek kayıtları</a> ayrıca sınırlandırılmalıdır. İletişim tarafında ise <a href=\"/otel-dijital-pazarlama\">aile segmentinde privacy-first iletişim</a> yaklaşımı korunmalı; detay sorular için <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçilmelidir."
         },
         {
           "type": "media",
@@ -59502,7 +59502,7 @@
   },
   "h1": {
     "title": "2026’da AI Destekli KVKK Denetim “Co-Pilot”ları ve Log Analizi",
-    "intro": "Denetim hazırlığında en pahalı kaynak genelde “bilgi” değil, zamandır: PMS, sunucu, admin panel ve çağrı merkezi logları büyüdükçe manuel tarama günlere yayılabilir. 2026 trendi, AI destekli “co-pilot”ların log/olay kayıtlarını ön-analiz ederek şüpheli erişimleri, eksik log alanlarını ve tekrar eden risk paternlerini “uyarı kartlarına” dönüştürmesidir. Bu yaklaşım hukuki karar vermek için değil, iç kontrolü hızlandırmak ve insan ekibi yüksek riskli alanlara odaklamak içindir. (Not: Son değerlendirme/karar insan ekiplerde kalır; girdi/çıktı maskeleme ve rol bazlı erişimle sınırlandırılır.)",
+    "intro": "Denetim hazırlığında en pahalı kaynak genelde “bilgi” değil, zamandır: PMS, sunucu, admin panel ve çağrı merkezi logları büyüdükçe manuel tarama günlere yayılabilir. 2026 trendi, <a href=\"/raporlama/kvkk-veri-guvenligi\">KVKK denetim co-pilot’u</a> yaklaşımıyla AI destekli “co-pilot”ların log/olay kayıtlarını ön-analiz ederek şüpheli erişimleri, eksik log alanlarını ve tekrar eden risk paternlerini “uyarı kartlarına” dönüştürmesidir. Bu yaklaşım hukuki karar vermek için değil, iç kontrolü hızlandırmak ve insan ekibi yüksek riskli alanlara odaklamak içindir. (Not: Son değerlendirme/karar insan ekiplerde kalır; girdi/çıktı maskeleme ve rol bazlı erişimle sınırlandırılır.)",
     "quickSummary": [
       "Co-pilot’u karar verici değil, ön-analiz ve özetleme katmanı olarak konumlandırın.",
       "PMS + panel + sunucu gibi 2–3 kritik log kaynağıyla başlayın.",
@@ -59513,19 +59513,19 @@
     "ctaPrimary": {
       "label": "AI Destekli KVKK Denetim & Log Analizi Danışmanlığı Al",
       "text": "AI ön-analiz mimarisini ve governance onay akışını otelinize özel kuralım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "AI Destekli KVKK Denetim & Log Analizi Danışmanlığı Al",
       "text": "AI ön-analiz mimarisini ve governance onay akışını otelinize özel kuralım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     },
     "secondary": {
       "label": "AI KVKK Co-Pilot Örnek Kullanım Senaryoları Dokümanını İndir",
       "text": "5 senaryo + uyarı kartı şablonlarıyla denetim öncesi iç kontrol panelini hızla kurarsınız.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/downloads/ai-kvkk-co-pilot-ornek-kullanim-senaryolari-dokumanlari-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -59564,7 +59564,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "AI co-pilot; logları “okuyup karar veren” bir hakim değil, ön-analiz yapan bir asistan gibi düşünülmelidir. Birden çok kaynaktan gelen erişim loglarını ve olay kayıtlarını birleştirir, temel sinyalleri çıkarır ve insan ekibin incelemesi için “özet + şüphe gerekçesi + kanıt linki” üretir."
+          "text": "AI co-pilot; logları “okuyup karar veren” bir hakim değil, ön-analiz yapan bir asistan gibi düşünülmelidir. Bu yapı, <a href=\"/veri-analiz-ve-raporlama\">otomatik risk özetleri</a> ve uyarı kartları üreten genel veri analiz mimarisinin bir parçasıdır. Birden çok kaynaktan gelen erişim loglarını ve olay kayıtlarını birleştirir, temel sinyalleri çıkarır ve insan ekibin incelemesi için “özet + şüphe gerekçesi + kanıt linki” üretir."
         },
         {
           "type": "h3",
@@ -59621,7 +59621,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "AI ön-analizin gücü, tek tek satır okumak yerine “olay örgüsünü” çıkarmasıdır: kim, ne zaman, nereden, ne yaptı — ve bu normal mi?"
+          "text": "<a href=\"/raporlama/kvkk-veri-guvenligi\">AI log analizi</a>nin gücü, tek tek satır okumak yerine “olay örgüsünü” çıkarmasıdır: kim, ne zaman, nereden, ne yaptı — ve bu normal mi? Özellikle <a href=\"/raporlama/blog/erisim-loglari-ve-izleme-dashboardlari\">erişim loglarında anomali tespiti</a> için bu yaklaşım hız kazandırır."
         },
         {
           "type": "h3",
@@ -59688,7 +59688,7 @@
         },
         {
           "type": "p",
-          "text": "Key Statistics / Data Point (teorik aralıklarla): Yüksek log hacminde manuel tarama günler sürebilirken, AI ön-analizle “ilk özet”in dakikalar–saatler bandına çekilmesi teorik olarak mümkündür. Varsayım: süreç olgunluğuna göre insan ekibin manuel tarama yükünde %40–70 bandında azalma ve incelemenin “yüksek riskli %10–20 alana odaklanması” gibi verim kazanımları görülebilir (kuruma/log kalitesine bağlı)."
+          "text": "Key Statistics / Data Point (teorik aralıklarla): Yüksek log hacminde manuel tarama günler sürebilirken, AI ön-analizle “ilk özet”in dakikalar–saatler bandına çekilmesi teorik olarak mümkündür. Bu sinyaller <a href=\"/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar\">AI destekli privacy risk skoru</a> kartlarına dönüştüğünde, özellikle <a href=\"/yazilim/sunucu-guvenlik\">sunucu loglarında anomali tespiti</a> gibi teknik başlıklarda ekiplerin yüksek riskli alanlara daha hızlı odaklanması kolaylaşır. Varsayım: süreç olgunluğuna göre insan ekibin manuel tarama yükünde %40–70 bandında azalma ve incelemenin “yüksek riskli %10–20 alana odaklanması” gibi verim kazanımları görülebilir (kuruma/log kalitesine bağlı)."
         },
         {
           "type": "callout",
@@ -59723,7 +59723,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Aşağıdaki 5 soru, co-pilot’un yönetim/güvenlik ekibine “hemen değer” sağlayacağı taranabilir bir set sunar:"
+          "text": "Aşağıdaki 5 soru, co-pilot’un yönetim/güvenlik ekibine “hemen değer” sağlayacağı taranabilir bir set sunar. Bu soruları <a href=\"/raporlama/looker-studio\">dashboard’da AI risk özetleri</a> şeklinde göstermek, önceliklendirmeyi hızlandırır."
         },
         {
           "type": "h3",
@@ -59780,7 +59780,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu başlık, KVKK sınırlarını koruyan “governance çekirdeği”dir. AI bulgu önerir, insan doğrular."
+          "text": "Bu başlık, KVKK sınırlarını koruyan “governance çekirdeği”dir. Özellikle <a href=\"/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama\">AI destekli olay ön değerlendirmesi</a> senaryolarında AI bulgu önerir, insan doğrular."
         },
         {
           "type": "h3",
@@ -59967,18 +59967,18 @@
           "variant": "secondary",
           "label": "AI KVKK Co-Pilot Örnek Kullanım Senaryoları Dokümanını İndir",
           "text": "5 senaryo + uyarı kartı şablonlarıyla denetim öncesi iç kontrol panelini hızla kurarsınız.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/downloads/ai-kvkk-co-pilot-ornek-kullanim-senaryolari-dokumanlari-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "AI Destekli KVKK Denetim & Log Analizi Danışmanlığı Al",
           "text": "AI ön-analiz mimarisini ve governance onay akışını otelinize özel kuralım.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama sayfalarına bağlayın."
+          "text": "Bu kurgu, AI bulgularını <a href=\"/yazilim/kvkk-uyum-hizmeti\">anomali tespiti ve insan onayı</a> temelli bir uyum aksiyon planına çevirdiğinizde gerçek değer üretir. Genel değerlendirme başlıkları için de <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
         },
         {
           "type": "media",
@@ -60149,7 +60149,7 @@
   },
   "h1": {
     "title": "Cookie Banner’dan Öte: 2026’da Privacy UX ve İzin Deneyimi Otel Sitelerinde Nasıl Olmalı?",
-    "intro": "Otel web sitelerinde izin deneyimi çoğu zaman “hukuki zorunluluk” diye eklenen bir katman gibi görülüyor. Oysa 2026’da izin deneyimi, misafirin güvenini ve rezervasyon dönüşümünü aynı anda etkileyen ürün tasarımı haline geldi. Misafir; Analytics’i “siteyi iyileştirmek”, pazarlama iznini “kampanya görmek” ve kişiselleştirmeyi “daha iyi deneyim” olarak anlayabiliyorsa; izin verirken daha az şüphe yaşar, siteyi daha güvenilir bulur. Hedef; KVKK uyumunu “metinle” değil, şeffaflık + kontrol + minimum sürtünme ile sağlamak ve bunu KPI’larla yönetmektir.",
+    "intro": "Otel web sitelerinde izin deneyimi çoğu zaman “hukuki zorunluluk” diye eklenen bir katman gibi görülüyor. Oysa 2026’da <a href=\"/raporlama/kvkk-veri-guvenligi\">privacy UX</a>, misafirin güvenini ve rezervasyon dönüşümünü aynı anda etkileyen ürün tasarımı haline geldi. Misafir; Analytics’i “siteyi iyileştirmek”, pazarlama iznini “kampanya görmek” ve kişiselleştirmeyi “daha iyi deneyim” olarak anlayabiliyorsa; izin verirken daha az şüphe yaşar, siteyi daha güvenilir bulur. Hedef; KVKK uyumunu “metinle” değil, şeffaflık + kontrol + minimum sürtünme ile sağlamak ve bunu KPI’larla yönetmektir.",
     "quickSummary": [
       "Privacy UX hedefini güven + kontrol + minimum sürtünme olarak tanımlayın.",
       "Banner’ı kısa giriş, preference center’ı kategori bazlı karar alanı olarak kurgulayın.",
@@ -60160,19 +60160,19 @@
     "ctaPrimary": {
       "label": "Privacy UX & İzin Deneyimi Analizi Talep Et",
       "text": "KVKK uyumunu bozmadan izin oranı ve rezervasyon dönüşümünü birlikte optimize edecek privacy UX tasarımını kuralım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Privacy UX & İzin Deneyimi Analizi Talep Et",
       "text": "Antalya/Belek/Side gibi destinasyon trafiğinde izin deneyimini test edip optimize edelim.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     },
     "secondary": {
       "label": "Privacy UX Tasarım & KPI Checklist’ini İndir",
       "text": "Banner, preference center ve KPI’larla izin deneyimini dönüşüm dostu standarda oturtursunuz.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/downloads/privacy-ux-tasarim-kpi-checklist-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -60211,7 +60211,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "Privacy UX; misafirin “gizlilik”le ilgili kararını anlaşılır hale getiren, kararın sonuçlarını (ölçüm, kişiselleştirme, kampanya) basitçe açıklayan ve misafire kontrol veren tasarım yaklaşımıdır. Oteller için bu özellikle kritiktir; çünkü rezervasyon süreci güven ister ve siteyle ilk temas genellikle “fiyat/odalar/rezervasyon” üçlüsünde olur. İzin deneyimi bu ana akışı boğarsa, dönüşüm kaybı; aşırı agresif olursa güven kaybı yaşanabilir."
+          "text": "Privacy UX; misafirin “gizlilik”le ilgili kararını anlaşılır hale getiren, kararın sonuçlarını (ölçüm, kişiselleştirme, kampanya) basitçe açıklayan ve misafire kontrol veren tasarım yaklaşımıdır. Bu yaklaşım, otel sitelerinde <a href=\"/veri-analiz-ve-raporlama\">izin deneyimi tasarımı</a> ile veri güvenliği ve ölçümleme dengesini aynı çerçevede kurar. Oteller için bu özellikle kritiktir; çünkü rezervasyon süreci güven ister ve siteyle ilk temas genellikle “fiyat/odalar/rezervasyon” üçlüsünde olur. İzin deneyimi bu ana akışı boğarsa, dönüşüm kaybı; aşırı agresif olursa güven kaybı yaşanabilir."
         },
         {
           "type": "h3",
@@ -60278,7 +60278,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "2026’da en iyi pratik, banner’ı tek başına bir “rızanın kendisi” gibi değil, rızaya giden kapı gibi kurgulamaktır. Banner; kısa bir özet + “tercihleri yönet” çağrısı verir. Tercih merkezi (preference center) ise kategorileri, açıklamaları ve seçenekleri net sunar."
+          "text": "2026’da en iyi pratik, banner’ı tek başına bir “rızanın kendisi” gibi değil, <a href=\"/raporlama/kvkk-veri-guvenligi\">tercih merkezi yönetimi</a>ne açılan bir kapı gibi kurgulamaktır. Banner; kısa bir özet + “tercihleri yönet” çağrısı verir. Tercih merkezi (preference center) ise kategorileri, açıklamaları ve seçenekleri net sunar. Bu akışın arka planında <a href=\"/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak\">consent log raporlaması</a> bulunmalıdır."
         },
         {
           "type": "h3",
@@ -60454,7 +60454,7 @@
         },
         {
           "type": "p",
-          "text": "Bu soruya yanıt, hukuki detay değil, UX doğruluğudur: kullanıcı izin vermezse, ölçüm kapsamınız daralır; bu nedenle raporlarda “izinli evren” notu görünür olmalıdır. Ama kullanıcıyı korkutmak yerine, “seçim sizde; ayarlardan değiştirebilirsiniz” mesajı daha iyi çalışır."
+          "text": "Bu soruya yanıt, hukuki detay değil, UX doğruluğudur: kullanıcı izin vermezse, ölçüm kapsamınız daralır; bu nedenle raporlarda “izinli evren” notu görünür olmalıdır. Bu denge, <a href=\"/raporlama/blog/kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization\">minimum veriyle segmentasyon</a> ve <a href=\"/sem/reklam-raporlama\">izin tercihleriyle reklam ölçümleme</a> yaklaşımıyla daha sağlıklı kurulur. Ama kullanıcıyı korkutmak yerine, “seçim sizde; ayarlardan değiştirebilirsiniz” mesajı daha iyi çalışır."
         },
         {
           "type": "h3",
@@ -60561,7 +60561,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu denge, “izin oranını artırmak” veya “dönüşümü korumak” diye tek hedefle yönetilmez. İkisini birlikte izlemek gerekir:"
+          "text": "Bu denge, “izin oranını artırmak” veya “dönüşümü korumak” diye tek hedefle yönetilmez. İkisini birlikte, <a href=\"/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi\">anonim KPI ile izin performansı</a> düzeyinde izlemek gerekir:"
         },
         {
           "type": "h3",
@@ -60670,18 +60670,18 @@
           "variant": "secondary",
           "label": "Privacy UX Tasarım & KPI Checklist’ini İndir",
           "text": "Banner, preference center ve KPI’larla izin deneyimini dönüşüm dostu standarda oturtursunuz.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/downloads/privacy-ux-tasarim-kpi-checklist-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Privacy UX & İzin Deneyimi Analizi Talep Et",
           "text": "Antalya/Belek/Side gibi destinasyon trafiğinde izin deneyimini test edip optimize edelim.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama/satis-donusum sayfalarına bağlayın."
+          "text": "Teknik tarafta <a href=\"/yazilim/kvkk-uyum-hizmeti\">izin deneyimi için KVKK uyum altyapısı</a> kurulmalı; marka ve güven tarafında ise <a href=\"/otel-dijital-pazarlama\">privacy-first otel dijital pazarlama</a> yaklaşımı benimsenmelidir. Funnel etkisini <a href=\"/raporlama/satis-donusum\">dönüşüm dostu cookie banner</a> perspektifiyle izleyebilir, detay sorular için <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
         },
         {
           "type": "media",
@@ -60842,7 +60842,7 @@
   },
   "h1": {
     "title": "2026’da Sınır Ötesi Veri Aktarımı ve Veri Yerelliği Monitoring: Otel Sistemleri İçin Yeni Pratikler",
-    "intro": "Sınır ötesi veri aktarımı konuşulduğunda, çoğu ekip “sözleşme ve politika” tarafında kalıyor; ama 2026 trendi, bunun teknik karşılığını ölçmek: veri akışının fiilen hangi ülkeye gittiğini log ve dashboard’larla görünür kılmak. Otellerde PMS/OTA/channel manager/cloud CRM entegrasyonları; endpoint, region ve IP katmanında karmaşık bir ağ oluşturur. Bu rehber; hukuki yorum yerine teknik görünürlük yaklaşımıyla “TR içi / TR dışı” akışları izlemek, kanıt üretmek ve KVKK raporlarını gerçek akışla beslemek için pratik bir monitoring çerçevesi verir.",
+    "intro": "Sınır ötesi veri aktarımı konuşulduğunda, çoğu ekip “sözleşme ve politika” tarafında kalıyor; ama 2026 trendi, bunun teknik karşılığını ölçmek: <a href=\"/raporlama/kvkk-veri-guvenligi\">veri yerelliği takibi</a> ile veri akışının fiilen hangi ülkeye gittiğini log ve dashboard’larla görünür kılmak. Otellerde PMS/OTA/channel manager/cloud CRM entegrasyonları; endpoint, region ve IP katmanında karmaşık bir ağ oluşturur. Bu rehber; hukuki yorum yerine teknik görünürlük yaklaşımıyla “TR içi / TR dışı” akışları izlemek, kanıt üretmek ve KVKK raporlarını gerçek akışla beslemek için pratik bir monitoring çerçevesi verir.",
     "quickSummary": [
       "PMS + OTA/Channel + cloud CRM için endpoint envanteri çıkarın.",
       "Loglara destination_country/region ve data_class alanlarını ekleyin.",
@@ -60853,19 +60853,19 @@
     "ctaPrimary": {
       "label": "Data Residency & Sınır Ötesi Veri Akışı Analizi Talep Et",
       "text": "Otel sistemlerinizde ülke bazlı veri akışı görünürlüğünü kurup risk önceliklendirme panelini birlikte tasarlayalım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Data Residency & Sınır Ötesi Veri Akışı Analizi Talep Et",
       "text": "PMS/OTA/cloud veri akışlarınızı ülke bazlı görünür kılıp raporlarınızı teknik kanıtla güçlendirelim.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     },
     "secondary": {
       "label": "Data Residency Monitoring & Dashboard Şablonunu İndir",
       "text": "Ülke bazlı akış tablosu ve KPI kartlarıyla monitoring panelini hızla kurarsınız.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/downloads/data-residency-monitoring-dashboard-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -60904,7 +60904,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "Buradaki hedef “veri transferi var mı?” diye varsaymak değil; hangi sistem hangi endpoint’e ne sıklıkla gidiyor sorusunu kanıtlamak. Teknik izleme, üç katmana dayanır:"
+          "text": "Buradaki hedef “veri transferi var mı?” diye varsaymak değil; hangi sistem hangi endpoint’e ne sıklıkla gidiyor sorusunu kanıtlamak. Özellikle <a href=\"/veri-analiz-ve-raporlama\">data residency monitoring</a> yaklaşımında teknik izleme üç katmana dayanır:"
         },
         {
           "type": "h3",
@@ -60956,7 +60956,7 @@
         },
         {
           "type": "p",
-          "text": "Aynı PMS kullanılıyor; ama bir otelde ek bir CRM entegrasyonu devrede. Monitoring dashboard’u “TR dışı endpoint çağrı oranı”nı o otelde yükselmiş gösterir; yönetim böylece “hangi entegrasyon bizi nereye bağlıyor?” sorusunu veriyle cevaplar."
+          "text": "Aynı PMS kullanılıyor; ama bir otelde ek bir CRM entegrasyonu devrede. Monitoring dashboard’u “TR dışı endpoint çağrı oranı”nı o otelde yükselmiş gösterir; yönetim böylece özellikle <a href=\"/pms-ota-yonetimi\">PMS ve OTA veri akışı</a> içinde “hangi entegrasyon bizi nereye bağlıyor?” sorusunu veriyle cevaplar."
         },
         {
           "type": "callout",
@@ -60990,7 +60990,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu bölüm, kurulumu “pratik” bir kontrol listesine indirir."
+          "text": "Bu bölüm, <a href=\"/raporlama/kvkk-veri-guvenligi\">sınır ötesi veri akışı</a> görünürlüğünü kurmayı “pratik” bir kontrol listesine indirir."
         },
         {
           "type": "h3",
@@ -61056,7 +61056,7 @@
         },
         {
           "type": "p",
-          "text": "Key Statistics / Data Point (yumuşatılmış): Data residency monitoring kuran otellerde, sınır ötesi veri akışları en azından görünür hale gelir; bu da risk analizinin “varsayım” yerine “akıĢ verisi”yle yapılmasını teorik olarak mümkün kılar."
+          "text": "Key Statistics / Data Point (yumuşatılmış): Data residency monitoring kuran otellerde, sınır ötesi veri akışları en azından görünür hale gelir; bu da <a href=\"/raporlama/blog/2026-anlik-privacy-risk-skorlamasi-ve-dashboardlar\">endpoint risk dashboard’u</a> üzerinden risk analizinin “varsayım” yerine “akış verisi”yle yapılmasını teorik olarak mümkün kılar."
         },
         {"type":"media","slot":"checklist-06"},
         {
@@ -61091,7 +61091,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu, denetimde en çok işe yarayan “kanıt formatı”dır: “hangi sistem, hangi ülkeye gidiyor?”"
+          "text": "Bu, denetimde en çok işe yarayan “kanıt formatı”dır: “hangi sistem, hangi ülkeye gidiyor?” Bu görünürlük, <a href=\"/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme\">bulut lokasyonu değerlendirmesi</a> ile birlikte okunduğunda daha anlamlı hale gelir."
         },
         {
           "type": "h3",
@@ -61141,7 +61141,7 @@
         },
         {
           "type": "p",
-          "text": "Varsayım: Veri sınıfı (PII/Non-PII) etiketleri, data classification sürecinizle netleşir."
+          "text": "Varsayım: Veri sınıfı (PII/Non-PII) etiketleri, data classification sürecinizle netleşir. Aynı tabloyu <a href=\"/raporlama/blog/tedarikci-ve-veri-isleyen-risk-raporlari\">tedarikçi bazlı veri akışı</a> değerlendirmesiyle eşleştirmek, hangi sağlayıcının hangi ülke akışında rol aldığını daha net gösterir."
         },
         {
           "type": "h3",
@@ -61163,7 +61163,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ürün adı vermeden pratik çerçeve:"
+          "text": "Ürün adı vermeden pratik çerçeve: özellikle <a href=\"/yazilim/sunucu-guvenlik\">ülke bazlı endpoint görünürlüğü</a> için log, ağ ve alarm katmanlarının birlikte çalışması gerekir."
         },
         {
           "type": "list",
@@ -61181,7 +61181,7 @@
         },
         {
           "type": "p",
-          "text": "Bir gün içinde “yeni ülke” uyarısı çıkarsa, bu her zaman “kötü” değildir; yeni bir CDN/servis devreye girmiş olabilir. Kritik olan, bu değişimin raporlanması ve onay akışıyla yönetilmesidir."
+          "text": "Bir gün içinde “yeni ülke” uyarısı çıkarsa, bu her zaman “kötü” değildir; yeni bir CDN/servis devreye girmiş olabilir. Özellikle <a href=\"/otel/pms-entegrasyonu\">PMS entegrasyonlarında veri aktarım rotası</a> değiştiğinde bu farklılık görünür hale gelmelidir. Kritik olan, bu değişimin raporlanması ve onay akışıyla yönetilmesidir."
         },
         {
           "type": "callout",
@@ -61223,18 +61223,18 @@
           "variant": "secondary",
           "label": "Data Residency Monitoring & Dashboard Şablonunu İndir",
           "text": "Ülke bazlı akış tablosu ve KPI kartlarıyla monitoring panelini hızla kurarsınız.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/downloads/data-residency-monitoring-dashboard-sablonu-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Data Residency & Sınır Ötesi Veri Akışı Analizi Talep Et",
           "text": "PMS/OTA/cloud veri akışlarınızı ülke bazlı görünür kılıp raporlarınızı teknik kanıtla güçlendirelim.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama sayfalarına bağlayın."
+          "text": "Monitoring çıktıları, <a href=\"/yazilim/kvkk-uyum-hizmeti\">veri yerelliği bulgularından uyum aksiyonuna geçiş</a> mantığıyla ele alındığında teknik görünürlük gerçek aksiyona dönüşür. Genel değerlendirme başlıkları için de <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
         },
         {
           "type": "media",
@@ -61395,7 +61395,7 @@
   },
   "h1": {
     "title": "2026’da Sentetik Veri ve Anonim Test Ortamları: Otel Projelerinde Gerçek Veriyi Korumanın Yolu",
-    "intro": "Otel projelerinde “test ortamına prod verisinin kopyası” yaklaşımı, hızlı başlatır ama uzun vadede KVKK riskini büyütür: test/sandbox erişimleri, loglama ve RBAC çoğu zaman prod kadar sıkı değildir; ajanslar, geliştiriciler, üçüncü taraf entegrasyon ekipleri testte daha geniş yetkilere sahip olabilir. 2026 trendi, test ortamını gerçek PII’den arındırmak: sentetik veri (kurgusal) veya anonimleştirilmiş dataset ile PMS/CRM/web/entegrasyon testlerini güvenli hale getirmek. Bu rehber; otel projelerinde sentetik dataset üretimini, veri sözlüğünü, saklama/temizleme job’larını ve KVKK raporlamasında kanıt setini teknik/operasyonel çerçevede anlatır.",
+    "intro": "Otel projelerinde “test ortamına prod verisinin kopyası” yaklaşımı, hızlı başlatır ama uzun vadede KVKK riskini büyütür: test/sandbox erişimleri, loglama ve RBAC çoğu zaman prod kadar sıkı değildir; ajanslar, geliştiriciler, üçüncü taraf entegrasyon ekipleri testte daha geniş yetkilere sahip olabilir. 2026 trendi, test ortamını gerçek PII’den arındırmak: <a href=\"/raporlama/kvkk-veri-guvenligi\">sentetik veri</a> (kurgusal) veya anonimleştirilmiş dataset ile PMS/CRM/web/entegrasyon testlerini güvenli hale getirmek. Bu rehber; otel projelerinde sentetik dataset üretimini, veri sözlüğünü, saklama/temizleme job’larını ve KVKK raporlamasında kanıt setini teknik/operasyonel çerçevede anlatır.",
     "quickSummary": [
       "“Testte gerçek PII = 0” hedefini politika haline getirin.",
       "PII alanlarını işaretleyen bir data dictionary oluşturun.",
@@ -61406,19 +61406,19 @@
     "ctaPrimary": {
       "label": "Sentetik Veri & Test Ortamı KVKK Analizi Talep Et",
       "text": "Test/sandbox ortamınızı gerçek PII’den arındırıp sentetik veri mimarisini otelinize özel kuralım.",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Sentetik Veri & Test Ortamı KVKK Analizi Talep Et",
       "text": "Test/sandbox riskini düşürüp sentetik veri pipeline’ını otelinize özel tasarlayalım.",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "href": "/contact"
     },
     "secondary": {
       "label": "Sentetik/Anonim Test Dataset’i Tasarım Checklist’ini İndir",
       "text": "Testte gerçek PII=0 hedefi için veri sözlüğü, leak test ve temizleme job’larını hızla kurarsınız.",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "href": "/downloads/sentetik-anonim-test-dataseti-tasarim-checklist-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -61465,7 +61465,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "Sentetik veri kullanmanın temel gerekçesi “daha güvenli” olmaktan öte, risk etkisini sıfırlamaya yaklaşmaktır: test ortamı ihlali olsa bile gerçek misafir verisi etkilenmez."
+          "text": "Sentetik veri kullanmanın temel gerekçesi “daha güvenli” olmaktan öte, risk etkisini sıfırlamaya yaklaşmaktır: özellikle <a href=\"/veri-analiz-ve-raporlama\">anonim test ortamı</a> kurgularında test ortamı ihlali olsa bile gerçek misafir verisi etkilenmez."
         },
         {
           "type": "p",
@@ -61473,7 +61473,7 @@
         },
         {
           "type": "p",
-          "text": "Bu nedenle amaç, testte “maskeleme” ile yetinmek değil; mümkünse gerçek PII’yi tamamen kaldırmaktır."
+          "text": "Bu nedenle amaç, testte “maskeleme” ile yetinmek değil; mümkünse <a href=\"/raporlama/kvkk-veri-guvenligi\">gerçek veriyi sandbox’tan çıkarma</a> yaklaşımını standart hale getirmektir."
         },
         {
           "type": "h3",
@@ -61495,7 +61495,7 @@
         },
         {
           "type": "p",
-          "text": "Web sitesi geliştirmesinde ajans ekibi test ortamına tam DB erişimi alır. Eğer DB’de gerçek misafir e-posta/telefon varsa, “yetkisiz sızıntı” etkisi büyür. Sentetik veriyle bu risk “veri etkisi” olarak sıfıra yaklaşır."
+          "text": "<a href=\"/yazilim/web-sitesi-gelistirme\">Web geliştirme test ortamı</a> içinde ajans ekibi test ortamına tam DB erişimi alır. Eğer DB’de gerçek misafir e-posta/telefon varsa, “yetkisiz sızıntı” etkisi büyür. Sentetik veriyle bu risk “veri etkisi” olarak sıfıra yaklaşır."
         },
         {
           "type": "callout",
@@ -61550,7 +61550,7 @@
         },
         {
           "type": "p",
-          "text": "Hedef: test dataset’inde PII alanları sentetik olmalı; operasyonel alanlar gerçekçi dağılımda olabilir."
+          "text": "Hedef: test dataset’inde PII alanları sentetik olmalı; operasyonel alanlar gerçekçi dağılımda olabilir. Bu yaklaşım, dashboard ve deneme akışlarında <a href=\"/raporlama/blog/rapor-ve-dashboardlarda-veri-maskeleme-anonim-kpi\">maskeli test verisi</a> kullanımını da destekler."
         },
         {
           "type": "h3",
@@ -61589,7 +61589,7 @@
         },
         {
           "type": "p",
-          "text": "Sentetik veri üretildiğinde “kanıt” gerekir:"
+          "text": "Sentetik veri üretildiğinde “kanıt” gerekir: yeniden kimliklendirme ihtimalini azaltmak için otomatik leak test yanında uzman doğrulaması da yapılmalıdır."
         },
         {
           "type": "list",
@@ -61679,7 +61679,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu bölüm, otel projelerinde “nerede kullanırım?” sorusunu cevaplar."
+          "text": "Bu bölüm, otel projelerinde “nerede kullanırım?” sorusunu cevaplar; özellikle <a href=\"/pms-ota-yonetimi\">PMS ve OTA test verisi</a> senaryolarında gerçek rezervasyon yerine sentetik akış kurgulamak kritik hale gelir."
         },
         {
           "type": "h3",
@@ -61722,7 +61722,7 @@
         },
         {
           "type": "p",
-          "text": "Key Statistics / Data Point (yumuşatılmış): Gerçek veriyi test ortamından çıkaran otellerde, olası test/sandbox erişim ihlallerinin misafir verisine zarar vermemesi teorik olarak beklenir; bu da KVKK risk profilini belirgin şekilde iyileştirir."
+          "text": "Key Statistics / Data Point (yumuşatılmış): Gerçek veriyi test ortamından çıkaran otellerde, olası test/sandbox erişim ihlallerinin misafir verisine zarar vermemesi teorik olarak beklenir; bu da özellikle <a href=\"/otel/pms-entegrasyonu\">PMS entegrasyon test verisi</a> akışlarında KVKK risk profilini belirgin şekilde iyileştirir."
         }
       ]
     },
@@ -61732,7 +61732,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Test ortamı da “yönetilmesi gereken bir varlık”tır. KVKK raporlama açısından hedef; “testte gerçek PII yok” kanıtını düzenli üretmek."
+          "text": "Test ortamı da “yönetilmesi gereken bir varlık”tır. KVKK raporlama açısından hedef; “testte gerçek PII yok” kanıtını düzenli üretmek. Bu yapı, <a href=\"/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi\">AI destekli test ortamı log analizi</a> ve <a href=\"/raporlama/blog/bulut-ve-sunucu-lokasyonu-otel-verisi-icin-teknik-degerlendirme\">sandbox veri güvenliği</a> değerlendirmeleriyle birlikte daha anlamlı hale gelir."
         },
         {
           "type": "h3",
@@ -61803,18 +61803,18 @@
           "variant": "secondary",
           "label": "Sentetik/Anonim Test Dataset’i Tasarım Checklist’ini İndir",
           "text": "Testte gerçek PII=0 hedefi için veri sözlüğü, leak test ve temizleme job’larını hızla kurarsınız.",
-          "href": "/yazilim/kvkk-uyum-hizmeti"
+          "href": "/downloads/sentetik-anonim-test-dataseti-tasarim-checklist-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Sentetik Veri & Test Ortamı KVKK Analizi Talep Et",
           "text": "Test/sandbox riskini düşürüp sentetik veri pipeline’ını otelinize özel tasarlayalım.",
-          "href": "/yazilim/kvkk-uyum-hizmeti"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/raporlama/kvkk-veri_guvenligi, /tr/yazilim/kvkk-uyum-hizmeti, /tr/yazilim/web-sitesi-gelistirme ve /tr/pms-ota-yonetimi sayfalarına bağlayın."
+          "text": "Sistemler arası testlerde <a href=\"/yazilim/kvkk-uyum-hizmeti\">KVKK uyumlu geliştirme</a> yaklaşımıyla rol, erişim ve test verisi politikalarını netleştirmek gerekir. Genel değerlendirme başlıkları için de <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
         },
         {
           "type": "media",
@@ -61980,7 +61980,7 @@
   },
   "h1": {
     "title": "2026’da Anlık Privacy Risk Skorlaması ve Dashboard’lar: KVKK İçin Erken Uyarı Sistemi",
-    "intro": "KVKK uyumunu yönetmek çoğu otelde “doküman tamam mı?” ve “denetime hazır mıyız?” sorusuyla sınırlı kalıyor. 2026 trendi ise bunu günlük/haftalık izlenen bir risk yönetimi disiplinine çevirmek: log kapsamı, olay kayıtları, eğitim skoru ve vendor riskini tek bir risk skoruna bağlamak ve bu skoru dashboard’larda trafik ışığı (yeşil/sarı/kırmızı) gibi hızlı okunur bir formatla izlemek. Amaç “korku paneli” değil; risk yükselmeden önce erken uyarı üretip aksiyon almak. Bu rehber, oteller için risk skorunun nasıl kurgulanacağını, hangi eşiklerde hangi uyarı/aksiyonların tetikleneceğini ve zincir otellerde portföy görünümünü anlatır.",
+    "intro": "KVKK uyumunu yönetmek çoğu otelde “doküman tamam mı?” ve “denetime hazır mıyız?” sorusuyla sınırlı kalıyor. 2026 trendi ise bunu günlük/haftalık izlenen bir risk yönetimi disiplinine çevirmek: log kapsamı, olay kayıtları, eğitim skoru ve vendor riskini tek bir <a href=\"/raporlama/kvkk-veri-guvenligi\">privacy risk skoru</a>na bağlamak ve bu skoru dashboard’larda trafik ışığı (yeşil/sarı/kırmızı) gibi hızlı okunur bir formatla izlemek. Amaç “korku paneli” değil; risk yükselmeden önce erken uyarı üretip aksiyon almak. Bu rehber, oteller için risk skorunun nasıl kurgulanacağını, hangi eşiklerde hangi uyarı/aksiyonların tetikleneceğini ve zincir otellerde portföy görünümünü anlatır.",
     "quickSummary": [
       "İlk modelde 5 KPI ile başlayın.",
       "Eşikleri sabitleyin; 30 gün gözlemleyip refine edin.",
@@ -61991,19 +61991,19 @@
     "ctaPrimary": {
       "label": "KVKK Risk Skoru & Erken Uyarı Dashboard Tasarım Danışmanlığı Al",
       "text": "Otel/grup yapınıza uygun risk skoru modelini ve paneli birlikte tasarlayalım.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "KVKK Risk Skoru & Erken Uyarı Dashboard Tasarım Danışmanlığı Al",
       "text": "Zincir/tek otel yapınıza uygun risk skorunu ve paneli hayata geçirelim.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/contact"
     },
     "secondary": {
       "label": "KVKK Risk KPI & Skorlama Framework Dokümanını İndir",
       "text": "Ağırlıklandırma, eşik ve uyarı kartlarıyla skoru hızlıca kurarsınız.",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/downloads/kvkk-risk-kpi-skorlama-framework-dokumani-v1.0.pdf"
     }
   },
   "internalLinks": [
@@ -62042,7 +62042,7 @@
         {"type":"media","slot":"h1-context-02"},
         {
           "type": "p",
-          "text": "Privacy risk skoru, KVKK uyumunu oluşturan farklı sinyalleri (teknik + kültürel) tek bir sayıya indirerek yönetimin “şu anda neredeyiz?” sorusuna cevap verir. Skor; tek başına “hakikat” değildir; ama yönetim ritmi için güçlü bir özet’tir."
+          "text": "Privacy risk skoru, KVKK uyumunu oluşturan farklı sinyalleri (teknik + kültürel) tek bir sayıya indirerek yönetimin “şu anda neredeyiz?” sorusuna cevap verir. Bu tür bir <a href=\"/veri-analiz-ve-raporlama\">dinamik risk izleme</a> yapısı, skoru tek başına “hakikat” gibi değil; yönetim ritmi için güçlü bir özet gibi konumlandırır."
         },
         {
           "type": "p",
@@ -62050,7 +62050,7 @@
         },
         {
           "type": "p",
-          "text": "Yani skorun değeri, “erken uyarı + aksiyon” döngüsü kurmasından gelir."
+          "text": "Yani skorun değeri, <a href=\"/raporlama/kvkk-veri-guvenligi\">KVKK risk KPI’ları</a> üzerinden “erken uyarı + aksiyon” döngüsü kurmasından gelir."
         },
         {
           "type": "h3",
@@ -62116,7 +62116,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Risk skoru “gerçekten yönetilebilir” metriklerden oluşmalı. Otellerde pratik 5’li set:"
+          "text": "Risk skoru “gerçekten yönetilebilir” metriklerden oluşmalı. Otellerde pratik 5’li set, özellikle <a href=\"/raporlama/blog/raporlama-ve-dashboard-icin-kvkk-egitim-kpi-lari\">eğitim verisiyle risk skoru</a> kurgusunu da içerecek şekilde tasarlanmalıdır:"
         },
         {
           "type": "h3",
@@ -62184,7 +62184,7 @@
         },
         {
           "type": "p",
-          "text": "Bir otelde vendor risk yüksek, log coverage düşük ve açık aksiyonlar gecikmişse; skor sarıdan kırmızıya çıkar. Yönetim “hangi otelde risk yükseldi?” sorusunu tek panelde görür ve kaynak aktarır."
+          "text": "Bir otelde vendor risk yüksek, log coverage düşük ve açık aksiyonlar gecikmişse; skor sarıdan kırmızıya çıkar. Yönetim böylece <a href=\"/raporlama/blog/kvkk-uyumunda-yonetim-dashboardi-kpi-ile-buyuk-resmi-gormek\">yönetim seviyesinde risk görünümü</a> ile “hangi otelde risk yükseldi?” sorusunu tek panelde görür ve kaynak aktarır."
         },
         {
           "type": "callout",
@@ -62254,7 +62254,7 @@
         },
         {
           "type": "p",
-          "text": "Yönetim paneli yalnız skor göstermemeli:"
+          "text": "Yönetim paneli yalnız skor göstermemeli; bunu <a href=\"/raporlama/looker-studio\">erken uyarı dashboard’u</a> mantığıyla çalıştırmak gerekir:"
         },
         {
           "type": "list",
@@ -62298,7 +62298,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Erken uyarı sistemi; eşik aşıldığında sadece “alarm” üretmez, aksiyon üretir."
+          "text": "Erken uyarı sistemi; eşik aşıldığında sadece “alarm” üretmez, insan onaylı aksiyon üretir. Birçok ekip bu aşamada <a href=\"/raporlama/blog/2026-ai-kvkk-denetim-co-pilotlari-log-analizi\">AI destekli risk özeti</a> yaklaşımını da kullanır."
         },
         {
           "type": "h3",
@@ -62333,7 +62333,7 @@
         },
         {
           "type": "p",
-          "text": "Log coverage %90’dan %60’a düştü (yeni sistem devreye girdi) → skor sarı → “log şeması eksik” uyarı kartı → 7 gün içinde düzeltme aksiyonu."
+          "text": "Log coverage %90’dan %60’a düştü (yeni sistem devreye girdi) → skor sarı → “log şeması eksik” uyarı kartı → 7 gün içinde düzeltme aksiyonu. Bu tür sapmalar çoğu zaman <a href=\"/yazilim/sunucu-guvenlik\">teknik güvenlik sinyalleri</a> ile birlikte okunmalıdır."
         },
         {
           "type": "callout",
@@ -62403,18 +62403,18 @@
           "variant": "secondary",
           "label": "KVKK Risk KPI & Skorlama Framework Dokümanını İndir",
           "text": "Ağırlıklandırma, eşik ve uyarı kartlarıyla skoru hızlıca kurarsınız.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/downloads/kvkk-risk-kpi-skorlama-framework-dokumani-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "KVKK Risk Skoru & Erken Uyarı Dashboard Tasarım Danışmanlığı Al",
           "text": "Zincir/tek otel yapınıza uygun risk skorunu ve paneli hayata geçirelim.",
-          "href": "/raporlama/kvkk-veri-guvenligi"
+          "href": "/contact"
         },
         {
           "type": "p",
-          "text": "İç link notu: /tr/raporlama/kvkk-veri-guvenligi, /tr/raporlama, /tr/raporlama/benchmark-analizi ve /tr/yazilim/kvkk-uyum-hizmeti sayfalarına bağlayın."
+          "text": "Skor kırmızıya çıktığında <a href=\"/yazilim/kvkk-uyum-hizmeti\">risk skorundan uyum aksiyonuna geçiş</a> planının açık olması gerekir; genel değerlendirme başlıkları için de <a href=\"/raporlama/kvkk-veri-guvenligi-sss\">KVKK Veri Güvenliği Raporlama hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
         },
         {
           "type": "media",
