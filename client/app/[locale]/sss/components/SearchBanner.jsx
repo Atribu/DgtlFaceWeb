@@ -22,16 +22,57 @@ import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
 const HASH_SCROLL_OFFSET_PX = 80;
 const HASH_SCROLL_RETRY_LIMIT = 12;
 const HASH_SCROLL_RETRY_DELAY_MS = 80;
+const SEARCH_CANDIDATE_LIMIT = 40;
+const SEARCH_DEBOUNCE_DELAY_MS = 180;
 const ROOT_FAQ_SLUG_BY_LOCALE = {
   tr: "sss",
   en: "faq",
 };
 
-const faqMessagesByLocaleCache = {};
-const faqMessagesPromiseCache = {};
+const faqSearchRecordsByLocaleCache = {};
+const faqSearchRecordsPromiseCache = {};
 
 function normalizeLocale(locale) {
   return locale === "en" ? "en" : "tr";
+}
+
+function normalizeSearchText(value, locale) {
+  const localeCode = normalizeLocale(locale) === "tr" ? "tr-TR" : "en-US";
+
+  return String(value || "")
+    .toLocaleLowerCase(localeCode)
+    .normalize("NFKD")
+    .replace(/\p{M}/gu, "")
+    .replace(/ı/g, "i")
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function useDebouncedValue(value, delayMs) {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setDebouncedValue(value), delayMs);
+    return () => window.clearTimeout(timer);
+  }, [value, delayMs]);
+
+  return debouncedValue;
+}
+
+function searchFaqIndex(fuse, rawQuery, locale) {
+  const query = normalizeSearchText(rawQuery, locale);
+  if (query.length < 3) return [];
+
+  return fuse
+    .search(query, { limit: SEARCH_CANDIDATE_LIMIT })
+    .map((result) => {
+      const boost = result.item.kind === "q" ? 0.85 : 1.0;
+      return { item: result.item, score: (result.score ?? 1) * boost };
+    })
+    .sort((a, b) => a.score - b.score)
+    .slice(0, 10)
+    .map((result) => result.item);
 }
 
 function buildSearchResultHref(rawHref, locale) {
@@ -55,49 +96,46 @@ function buildSearchResultHref(rawHref, locale) {
   return `/${normalizedLocale}${pathname}`;
 }
 
-function getCachedFaqMessages(locale) {
-  return faqMessagesByLocaleCache[normalizeLocale(locale)] || null;
+function getCachedFaqSearchRecords(locale) {
+  return faqSearchRecordsByLocaleCache[normalizeLocale(locale)] || null;
 }
 
-function pickFaqNamespaces(messages) {
-  if (!messages || typeof messages !== "object") return {};
-  return Object.fromEntries(
-    Object.entries(messages).filter(
-      ([key]) => key.startsWith("Faq") || key === "faqChips"
-    )
-  );
-}
-
-async function loadLocaleFaqMessages(locale) {
+async function loadLocaleFaqSearchRecords(locale) {
   const normalizedLocale = normalizeLocale(locale);
-  const cached = getCachedFaqMessages(normalizedLocale);
+  const cached = getCachedFaqSearchRecords(normalizedLocale);
   if (cached) return cached;
-  if (faqMessagesPromiseCache[normalizedLocale]) {
-    return faqMessagesPromiseCache[normalizedLocale];
+  if (faqSearchRecordsPromiseCache[normalizedLocale]) {
+    return faqSearchRecordsPromiseCache[normalizedLocale];
   }
 
-  faqMessagesPromiseCache[normalizedLocale] = (async () => {
-    const mod =
-      normalizedLocale === "en"
-        ? await import("@/messages/en.json")
-        : await import("@/messages/tr.json");
+  faqSearchRecordsPromiseCache[normalizedLocale] = (async () => {
+    const response = await fetch(`/search/faq-${normalizedLocale}.json`, {
+      cache: "force-cache",
+    });
+    if (!response.ok) {
+      throw new Error(`FAQ search index could not be loaded: ${response.status}`);
+    }
 
-    const allMessages = mod?.default || mod || {};
-    const faqMessages = pickFaqNamespaces(allMessages);
-    faqMessagesByLocaleCache[normalizedLocale] = faqMessages;
-    delete faqMessagesPromiseCache[normalizedLocale];
-    return faqMessages;
+    const records = await response.json();
+    const isValid =
+      Array.isArray(records) &&
+      records.every(
+        (record) =>
+          record &&
+          typeof record.key === "string" &&
+          typeof record.text === "string"
+      );
+    if (!isValid) throw new Error("FAQ search index has an invalid format");
+
+    faqSearchRecordsByLocaleCache[normalizedLocale] = records;
+    delete faqSearchRecordsPromiseCache[normalizedLocale];
+    return records;
   })().catch((error) => {
-    delete faqMessagesPromiseCache[normalizedLocale];
+    delete faqSearchRecordsPromiseCache[normalizedLocale];
     throw error;
   });
 
-  return faqMessagesPromiseCache[normalizedLocale];
-}
-
-function getMsgByPath(obj, path) {
-  if (!obj || !path) return undefined;
-  return path.split(".").reduce((acc, key) => (acc && acc[key] != null ? acc[key] : undefined), obj);
+  return faqSearchRecordsPromiseCache[normalizedLocale];
 }
 
 
@@ -143,20 +181,8 @@ function normalizeSlugByLocale(slug, locale) {
 
 
 
-const HEADING_KEY_RE =
-  /(^|\.)(h\d+|title|title\d+|heading|heading\d+|header|header\d+|services_title)$/i;
-
 const QUESTION_KEY_RE =
   /(^|\.)sections\.[^.]+\.items\.\d+\.q$/i;
-
-function flattenMessages(obj, prefix = "", out = []) {
-  for (const [k, v] of Object.entries(obj || {})) {
-    const nextKey = prefix ? `${prefix}.${k}` : k;
-    if (typeof v === "string") out.push({ key: nextKey, text: v });
-    else if (v && typeof v === "object") flattenMessages(v, nextKey, out);
-  }
-  return out;
-}
 
 function keyToHref(key, nsToSlug, locale) {
   const parts = key.split(".");
@@ -215,40 +241,43 @@ export default function SearchBanner({ faqSlug }) {
 
   const locale = useLocale();
   const tGlobal = useTranslations();
-  const [faqMessages, setFaqMessages] = useState(
-    () => getCachedFaqMessages(locale) || {}
+  const [faqSearchRecords, setFaqSearchRecords] = useState(
+    () => getCachedFaqSearchRecords(locale) || []
   );
   const [searchDataReady, setSearchDataReady] = useState(
-    () => Boolean(getCachedFaqMessages(locale))
+    () => Boolean(getCachedFaqSearchRecords(locale))
   );
   const [q, setQ] = useState("");
+  const debouncedQ = useDebouncedValue(q, SEARCH_DEBOUNCE_DELAY_MS);
+  const normalizedQ = normalizeSearchText(q, locale);
+  const normalizedDebouncedQ = normalizeSearchText(debouncedQ, locale);
 
   useEffect(() => {
-    const cached = getCachedFaqMessages(locale) || {};
-    setFaqMessages(cached);
-    setSearchDataReady(Boolean(Object.keys(cached).length));
+    const cached = getCachedFaqSearchRecords(locale) || [];
+    setFaqSearchRecords(cached);
+    setSearchDataReady(Boolean(cached.length));
   }, [locale]);
 
   useEffect(() => {
-    if (q.trim().length < 3 || searchDataReady) return;
+    if (normalizedQ.length < 3 || searchDataReady) return;
 
     let cancelled = false;
 
-    loadLocaleFaqMessages(locale)
-      .then((nextMessages) => {
+    loadLocaleFaqSearchRecords(locale)
+      .then((nextRecords) => {
         if (cancelled) return;
-        setFaqMessages(nextMessages);
+        setFaqSearchRecords(nextRecords);
         setSearchDataReady(true);
       })
       .catch(() => {
         if (cancelled) return;
-        setFaqMessages({});
+        setFaqSearchRecords([]);
       });
 
     return () => {
       cancelled = true;
     };
-  }, [locale, q, searchDataReady]);
+  }, [locale, normalizedQ, searchDataReady]);
 
   useEffect(() => {
     if (typeof window === "undefined") return undefined;
@@ -329,10 +358,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
 
   // Search index with locale-aware hrefs
   const searchIndex = useMemo(() => {
-    const flat = flattenMessages(faqMessages);
-
-    return flat
-      .filter((x) => HEADING_KEY_RE.test(x.key) || QUESTION_KEY_RE.test(x.key))
+    return faqSearchRecords
       .map((x) => {
         const href = keyToHref(x.key, NS_TO_SLUG, locale);
         if (!href) return null;
@@ -340,16 +366,17 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
         return {
           key: x.key,
           text: x.text,
+          searchText: normalizeSearchText(x.text, locale),
           href,
           kind: QUESTION_KEY_RE.test(x.key) ? "q" : "heading",
         };
       })
       .filter(Boolean);
-  }, [faqMessages, NS_TO_SLUG, locale]);
+  }, [faqSearchRecords, NS_TO_SLUG, locale]);
 
   const fuse = useMemo(() => {
     return new Fuse(searchIndex, {
-      keys: ["text"],
+      keys: ["searchText"],
       threshold: 0.33,
       ignoreLocation: true,
       shouldSort: true,
@@ -358,19 +385,12 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
   }, [searchIndex]);
 
   const results = useMemo(() => {
-    const query = q.trim();
-    if (query.length < 3) return [];
+    return searchFaqIndex(fuse, debouncedQ, locale);
+  }, [debouncedQ, fuse, locale]);
 
-    return fuse
-      .search(query)
-      .map((r) => {
-        const boost = r.item.kind === "q" ? 0.85 : 1.0;
-        return { item: r.item, score: (r.score ?? 1) * boost };
-      })
-      .sort((a, b) => a.score - b.score)
-      .slice(0, 10)
-      .map((x) => x.item);
-  }, [q, fuse]);
+  const isSearchPending =
+    normalizedQ.length >= 3 &&
+    (!searchDataReady || normalizedQ !== normalizedDebouncedQ);
 
   const bannerImg = getFaqBannerAsset(locale, resolvedConfigSlugTR);
 
@@ -380,6 +400,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
     tr: {
       title: "Sorularınızı Cevaplayalım",
       searchPlaceholder: "Ara: başlıklar ve sorular…",
+      searching: "Aranıyor…",
       noResults: "Sonuç bulunamadı",
       faqGeneral: "SSS (Genel)",
       faqServices: "Hizmetlerimiz SSS",
@@ -388,6 +409,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
     en: {
       title: "Let's Answer Your Questions",
       searchPlaceholder: "Search: titles and questions…",
+      searching: "Searching…",
       noResults: "No results found",
       faqGeneral: "FAQ (General)",
       faqServices: "Our Services FAQ",
@@ -404,7 +426,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
       return tGlobal(key);
     }
 
-    return getMsgByPath(faqMessages, key) || chip.label;
+    return chip.label;
   };
 
   return (
@@ -427,16 +449,16 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
               onChange={(e) => setQ(e.target.value)}
               onFocus={() => {
                 if (searchDataReady) return;
-                loadLocaleFaqMessages(locale)
-                  .then((nextMessages) => {
-                    setFaqMessages(nextMessages);
+                loadLocaleFaqSearchRecords(locale)
+                  .then((nextRecords) => {
+                    setFaqSearchRecords(nextRecords);
                     setSearchDataReady(true);
                   })
                   .catch(() => {});
               }}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
-                  const first = results[0];
+                  const first = searchFaqIndex(fuse, q, locale)[0];
                   if (!first) return;
                   router.push(buildSearchResultHref(first.href, locale));
                   setQ("");
@@ -447,9 +469,11 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
             />
           </div>
 
-          {q.trim().length >= 3 && (
+          {normalizedQ.length >= 3 && (
             <div className="absolute left-0 right-0 top-full mt-2 rounded-2xl border border-[#140f25]/10 bg-[#0b0716]/90 backdrop-blur p-2 shadow-2xl">
-              {results.length > 0 ? (
+              {isSearchPending ? (
+                <div className="px-3 py-2 text-white/70 text-sm">{t.searching}</div>
+              ) : results.length > 0 ? (
                 results.map((item) => (
                   <Link
                     key={item.key}

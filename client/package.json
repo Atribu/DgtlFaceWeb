@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate:faq-search-index": "node scripts/generate-faq-search-index.mjs",
+    "predev": "npm run generate:faq-search-index",
     "dev": "next dev",
+    "prebuild": "npm run generate:faq-search-index",
     "build": "npm run lint && next build --no-lint",
     "start": "next start",
     "lint": "eslint ."
