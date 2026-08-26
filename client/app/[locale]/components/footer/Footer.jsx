@@ -4,7 +4,6 @@ import NextLink from "next/link";
 import Instagram from "./Icons/instagram.jsx";
 import Linkedin from "./Icons/linkedin.jsx";
 import WhatsApp from "./Icons/whatsapp.jsx";
-import Youtube from "./Icons/youtube.jsx";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import Logo from "../header/svg/DgtlFaceLogo.jsx";
@@ -16,10 +15,30 @@ import { buildLocalizedBlogListingPath } from "@/app/lib/blog-route-segments";
 import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
 import { getLocalizedHref } from "@/app/lib/localized-route-hrefs";
 
+const SOCIAL_LINK_LABELS = {
+  tr: {
+    instagram: "DGTLFACE Instagram hesabını yeni sekmede aç",
+    linkedin: "DGTLFACE LinkedIn hesabını yeni sekmede aç",
+    phone: "DGTLFACE'ı telefonla ara",
+    telegram: "DGTLFACE Telegram kanalını yeni sekmede aç",
+    x: "DGTLFACE X hesabını yeni sekmede aç",
+    youtube: "DGTLFACE YouTube kanalını yeni sekmede aç",
+  },
+  en: {
+    instagram: "Open the DGTLFACE Instagram account in a new tab",
+    linkedin: "Open the DGTLFACE LinkedIn page in a new tab",
+    phone: "Call DGTLFACE",
+    telegram: "Open the DGTLFACE Telegram channel in a new tab",
+    x: "Open the DGTLFACE X account in a new tab",
+    youtube: "Open the DGTLFACE YouTube channel in a new tab",
+  },
+};
+
 export default function Footer() {
   const t = useTranslations("Footer");
   const locale = useLocale();
   const currentLocale = locale === "en" ? "en" : "tr";
+  const socialLinkLabels = SOCIAL_LINK_LABELS[currentLocale];
   const showBlogNavigation = locale !== "en";
 
   // ✅ Kurumsal linkler
@@ -216,6 +235,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex z-[20]"
+                  aria-label={socialLinkLabels.instagram}
                 >
                   <Instagram className="w-9 h-9 z-[20]" />
                 </NextLink>
@@ -224,6 +244,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex z-[20]"
+                  aria-label={socialLinkLabels.linkedin}
                 >
                   <Linkedin className="w-9 h-9 z-[20]" />
                 </NextLink>
@@ -232,6 +253,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex z-[20]"
+                  aria-label={socialLinkLabels.phone}
                 >
                   <WhatsApp className="w-9 h-9 z-[20]" />
                 </NextLink>
@@ -240,7 +262,8 @@ export default function Footer() {
                   href="https://t.me/Dgtlfaceofficial"
                   target="_blank"
                   rel="noopener noreferrer"
-                   className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                  className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                  aria-label={socialLinkLabels.telegram}
                 >
                     <FaTelegramPlane size={15}/>
                 </NextLink>
@@ -249,6 +272,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                    className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                   aria-label={socialLinkLabels.x}
                 >
                    <FaXTwitter size={16}/>
                 </NextLink>
@@ -258,6 +282,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center border-[2px] border-white rounded-full bg-transparent w-9 h-9 z-[20]"
+                  aria-label={socialLinkLabels.youtube}
                 >
                   <PiYoutubeLogo size={21} />
                 </NextLink>
@@ -366,6 +391,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex z-[20]"
+                aria-label={socialLinkLabels.instagram}
               >
                 <Instagram className="w-9 h-9 z-[20]" />
               </NextLink>
@@ -374,6 +400,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex z-[20]"
+                aria-label={socialLinkLabels.linkedin}
               >
                 <Linkedin className="w-9 h-9 z-[20]" />
               </NextLink>
@@ -382,6 +409,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex z-[20]"
+                aria-label={socialLinkLabels.phone}
               >
                 <WhatsApp className="w-9 h-9 z-[20]" />
               </NextLink>
@@ -390,6 +418,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                    className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                  aria-label={socialLinkLabels.telegram}
                 >
                     <FaTelegramPlane size={15}/>
                 </NextLink>
@@ -399,6 +428,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                  aria-label={socialLinkLabels.x}
                 >
                    <FaXTwitter size={16}/>
                 </NextLink>
@@ -408,6 +438,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center border-[2px] border-white rounded-full bg-transparent w-9 h-9 z-[20]"
+                aria-label={socialLinkLabels.youtube}
               >
                 <PiYoutubeLogo size={21} />
               </NextLink>

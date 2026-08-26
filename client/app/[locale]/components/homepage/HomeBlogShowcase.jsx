@@ -169,7 +169,7 @@ export default function HomeBlogShowcase({
             onClick={() => scrollByAmount(-1)}
             disabled={!canPrev}
             aria-label={carouselLabels.previous}
-            className="flex h-6 w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
+            className="flex h-6 w-6 lg:h-11 lg:w-11 xl:h-[44px] xl:w-[44px] items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
                        hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"
           >
             ←
@@ -180,7 +180,7 @@ export default function HomeBlogShowcase({
             onClick={() => scrollByAmount(1)}
             disabled={!canNext}
             aria-label={carouselLabels.next}
-            className="flex h-6 w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
+            className="flex h-6 w-6 lg:h-11 lg:w-11 xl:h-[44px] xl:w-[44px] items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
                        hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed relative"
           >
             <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual text-xs" />

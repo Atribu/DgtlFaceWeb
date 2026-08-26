@@ -63,7 +63,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
       <div className="flex flex-col w-[100%] lg:w-[57%] items-center justify-center text-center gap-[10px] lg:gap-[16px]">
         <h2
           className={`
-            text-[22px] lg:text-[24px] font-bold leading-[120%]
+            text-[20px] md:text-[22px] lg:text-[24px] font-bold leading-[120%]
             -tracking-[0.48px] lg:-tracking-[0.64px]
             mb-[14px] lg:mb-[16px]
             ${textColorClass}

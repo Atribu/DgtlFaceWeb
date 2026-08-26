@@ -383,7 +383,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
               type="button"
               aria-label={accessibleLabels.openMenu}
               onClick={toggleMenu}
-              className="gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border text-white"
+              className="gradient-border-button flex py-[8px] px-[14px] w-[70px] h-[44px] items-center justify-center text-center rounded-[11px] border text-white"
             >
               {t("menu")}
             </button>

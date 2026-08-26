@@ -39,7 +39,7 @@ export default function HomePage() {
         <ViewportLazyMount rootMargin="0px 0px" threshold={0.5} minHeight={260} className="w-full">
           <Section4 />
         </ViewportLazyMount>
-        <ViewportLazyMount rootMargin="120px 0px" threshold={0.01} minHeight={340} className="w-full">
+        <ViewportLazyMount rootMargin="120px 0px" threshold={0.01} minHeight={280} className="w-full">
           <HomeBlogShowcase limit={10} />
         </ViewportLazyMount>
 

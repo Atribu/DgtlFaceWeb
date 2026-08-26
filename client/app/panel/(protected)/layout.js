@@ -13,7 +13,7 @@ export default function PanelLayout({ children }) {
     if (!localStorage.getItem('token')) {
       router.replace('/panel/login')
     }
-  }, [])
+  }, [router])
 
   const navItems = [
     { href: '/panel', icon: <FiHome size={20} />, label: 'Dashboard' },

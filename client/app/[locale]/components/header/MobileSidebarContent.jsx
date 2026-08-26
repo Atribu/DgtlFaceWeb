@@ -69,7 +69,7 @@ export default function MobileSidebarContent({
             href="/"
             className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
           >
-            <HomeSvg className="flex" width={32} height={32} />
+            <HomeSvg className="flex" width={28} height={28} />
             <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
               {t("home")}
             </p>
@@ -80,21 +80,21 @@ export default function MobileSidebarContent({
             href="/aboutus"
             className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
           >
-            <PersonSvg className="flex" width={12} height={28} />
+            <PersonSvg className="flex" width={12} height={26} />
             <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
               {t("about_us")}
             </p>
           </Link>
 
           <div className="col-span-2">
-            <div className="flex gradient-border-button p-[15px] items-center justify-between text-center h-[57px] w-full !bg-[#140015]">
+            <div className="flex gradient-border-button p-[15px] items-center justify-around text-center h-[57px] w-full !bg-[#140015]">
               <NextLink
                 prefetch={false}
                 href={servicesHref}
-                className="flex items-center gap-[12px] flex-1"
+                className="flex items-center gap-[12px] flex-1 ml-2"
                 onClick={onClose}
               >
-                <ServicesSvg className="flex" width={32} height={32} />
+                <ServicesSvg className="flex" width={28} height={28} />
                 <p className="text-[14px] font-medium leading-normal -tracking-[0.3px] text-left">
                   {t("services")}
                 </p>
@@ -144,7 +144,7 @@ export default function MobileSidebarContent({
                       prefetch={false}
                       key={service.key}
                       href={service.href}
-                      className="group relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200"
+                      className="group gradient-border-button relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200 !text-[13px] !font-medium"
                       onClick={onClose}
                     >
                       {service.label}
@@ -162,7 +162,7 @@ export default function MobileSidebarContent({
                 href="/blogs"
                 className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
               >
-                <BlogSvg className="flex" width={34} height={34} />
+                <BlogSvg className="flex" width={30} height={30} />
                 <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
                   {t("blog")}
                 </p>
@@ -173,7 +173,7 @@ export default function MobileSidebarContent({
                 href="/contact"
                 className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
               >
-                <PhoneSvg className="flex" width={30} height={30} />
+                <PhoneSvg className="flex" width={27} height={27} />
                 <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
                   {t("contact")}
                 </p>
@@ -185,7 +185,7 @@ export default function MobileSidebarContent({
               href="/contact"
               className="col-span-2 flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
             >
-              <PhoneSvg className="flex" width={30} height={30} />
+              <PhoneSvg className="flex" width={28} height={28} />
               <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
                 {t("contact")}
               </p>
@@ -197,7 +197,7 @@ export default function MobileSidebarContent({
             href="/sss"
             className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015] col-span-2"
           >
-            <FaQuestion className="flex" size="30" color="#ffffff" />
+            <FaQuestion className="flex" size="28" color="#ffffff" />
             <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
               {t("sss")}
             </p>

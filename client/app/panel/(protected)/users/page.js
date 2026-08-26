@@ -4,11 +4,12 @@ import Link from 'next/link'
 import { FaSearch } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
+const API = process.env.NEXT_PUBLIC_API_URL
+
 export default function UsersPage() {
   const [users, setUsers] = useState([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
-  const API = process.env.NEXT_PUBLIC_API_URL
 
   useEffect(() => {
     fetch(`${API}/api/users`)
