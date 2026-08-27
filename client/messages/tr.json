@@ -310,6 +310,14 @@
       "contact_mobile_label_phone": "Telefon Numaranız;",
       "contact_mobile_label_message": "Mesajınız;",
       "contact_mobile_policy": "İletişim Formu ve Gizlilik Politikası",
+      "contact_accessibility_first_name": "Adınız",
+      "contact_accessibility_last_name": "Soyadınız",
+      "contact_accessibility_company": "Kurum veya şirket adınız",
+      "contact_accessibility_project_type": "Talep ettiğiniz proje konusu",
+      "contact_accessibility_project_details": "Proje detayları",
+      "contact_accessibility_phone": "Telefon numaranız",
+      "contact_accessibility_email": "E-posta adresiniz",
+      "contact_accessibility_additional_notes": "Ek notlarınız",
       "error_submission_failed": "Gönderim Başarısız Oldu",
       "error_generic": "Bir Hata Oluştu, Lütfen Tekrar Deneyin",
       "success_message_sent": "Mesajınız Başarıyla İletildi!",
@@ -718,9 +726,12 @@
       "title4": "PMS ve OTA Entegrasyonu ile  ",
       "span4": "Çok Kanallı Satış",
       "text4": "PMS ve OTA sistemlerinin doğru entegre edilmediği yapılarda; fiyat karmaşası, overbooking riski ve veri kopukluğu sıkça yaşanır. DGTLFACE, PMS–OTA entegrasyon uzmanlığıyla, kanallar arasındaki fiyat ve envanter dengesini otomatikleştirir; satış ve gelir yönetimini dijital dönüşümün doğal parçası haline getirir.",
-      "button4": "İncele"
+      "button4": "İncele",
+      "previousItemLabel": "Önceki içeriği göster",
+      "nextItemLabel": "Sonraki içeriği göster"
     },
     "testimonials": {
+      "showItemLabel": "{index}. müşteri yorumunu göster",
       "items": {
         "t1": {
           "name": "Ahmet Sönmez",

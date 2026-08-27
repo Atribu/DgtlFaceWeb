@@ -66,7 +66,7 @@ const testimonialsData = [
          <span className="text-[#140f25] text-[20px] lg:text-[22px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]">
          {t("servicespage_s5_header1")}
         </span> {" "}
-        <span className="text-[#a754cf] text-[20px] lg:text-[22px] font-bolsemibold font-inter28 leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]">
+        <span className="text-[#a04bc5] text-[20px] lg:text-[22px] font-bolsemibold font-inter28 leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]">
            {t("servicespage_s5_span1")}.
         </span>
        </h3>
@@ -94,7 +94,7 @@ const testimonialsData = [
               <div className="md:w-[269px] items-start text-start ">
                 <div className="flex flex-row items-start text-start">
                   <span className="text-[#140f25] text-[16px] lg:text-[18px] font-bold font-inter leading-[120%] lg:leading-[38.40px] -tracking-[0.4px]">
-                    {testimonial.name.split(" ")[0]} <span className='text-[#54b9cf] '>{testimonial.name.split(" ")[1]}</span>
+                    {testimonial.name.split(" ")[0]} <span className='text-[#287f94] '>{testimonial.name.split(" ")[1]}</span>
                   </span>
                 </div>
                 <div className="text-black text-[12px] lg:text-[14px] font-normal font-inter28 leading-[25.20px]">
@@ -121,6 +121,9 @@ const testimonialsData = [
         {testimonialsData.map((_, index) => (
           <button
             key={index}
+            type="button"
+            aria-label={t("testimonials.showItemLabel", { index: index + 1 })}
+            aria-current={index === activeIndex ? "true" : undefined}
             onClick={() => setActiveIndex(index)}
             className={`w-2 h-2 lg:w-3 lg:h-3 rounded-full transition-colors ${
               index === activeIndex ? 'bg-[#a754cf]' : 'bg-[#e0e0e0]'

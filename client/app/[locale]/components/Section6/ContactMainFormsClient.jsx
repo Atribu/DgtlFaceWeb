@@ -163,14 +163,18 @@ const ContactMainFormsClient = () => {
             </div>
             <div className="flex gap-2">
               <input
+                id="contact-desktop-first-name"
                 name="firstName"
+                aria-label={t("contact_accessibility_first_name")}
                 value={formData.firstName}
                 onChange={handleChange}
                 placeholder="..............................."
                 className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
               />
               <input
+                id="contact-desktop-last-name"
                 name="lastName"
+                aria-label={t("contact_accessibility_last_name")}
                 value={formData.lastName}
                 onChange={handleChange}
                 placeholder="..............................."
@@ -184,7 +188,9 @@ const ContactMainFormsClient = () => {
               {t("contact_i_work_at")}
             </div>
             <input
+              id="contact-desktop-company"
               name="company"
+              aria-label={t("contact_accessibility_company")}
               value={formData.company}
               onChange={handleChange}
               placeholder="..............................."
@@ -200,7 +206,9 @@ const ContactMainFormsClient = () => {
               {t("contact_project_request")}.
             </div>
             <input
+              id="contact-desktop-project-type"
               name="projectType"
+              aria-label={t("contact_accessibility_project_type")}
               value={formData.projectType}
               onChange={handleChange}
               placeholder="..............................."
@@ -209,7 +217,9 @@ const ContactMainFormsClient = () => {
           </div>
 
           <input
+            id="contact-desktop-project-details"
             name="additionalInfo1"
+            aria-label={t("contact_accessibility_project_details")}
             value={formData.additionalInfo1}
             onChange={handleChange}
             placeholder="..................................................................."
@@ -221,7 +231,9 @@ const ContactMainFormsClient = () => {
               {t("contact_for_communication")}
             </div>
             <input
+              id="contact-desktop-phone"
               name="phone"
+              aria-label={t("contact_accessibility_phone")}
               value={formData.phone}
               onChange={handleChange}
               placeholder="+........(....)........... ......."
@@ -231,7 +243,9 @@ const ContactMainFormsClient = () => {
 
           <div className="inline-flex justify-start items-center gap-5">
             <input
+              id="contact-desktop-email"
               name="email"
+              aria-label={t("contact_accessibility_email")}
               value={formData.email}
               onChange={handleChange}
               placeholder="..............................."
@@ -243,7 +257,9 @@ const ContactMainFormsClient = () => {
           </div>
 
           <input
+            id="contact-desktop-additional-notes"
             name="additionalInfo2"
+            aria-label={t("contact_accessibility_additional_notes")}
             value={formData.additionalInfo2}
             onChange={handleChange}
             placeholder="..................................................................."
@@ -288,10 +304,14 @@ const ContactMainFormsClient = () => {
             {t("contact_mobile_send_message")}
           </h5>
           <div className="flex flex-col gap-2 w-full">
-            <label className="block text-sm font-bold leading-[120%] -tracking-[0.28px]">
+            <label
+              htmlFor="contact-mobile-name"
+              className="block text-sm font-bold leading-[120%] -tracking-[0.28px]"
+            >
               {t("contact_mobile_label_name")}
             </label>
             <input
+              id="contact-mobile-name"
               type="text"
               name="name"
               value={formMobile.name}
@@ -302,10 +322,14 @@ const ContactMainFormsClient = () => {
           </div>
 
           <div className="flex flex-col gap-2 w-full">
-            <label className="block text-sm font-bold leading-[120%] -tracking-[0.28px]">
+            <label
+              htmlFor="contact-mobile-phone"
+              className="block text-sm font-bold leading-[120%] -tracking-[0.28px]"
+            >
               {t("contact_mobile_label_phone")}
             </label>
             <input
+              id="contact-mobile-phone"
               name="phone"
               value={formMobile.phone}
               onChange={handleMobileChange}
@@ -315,10 +339,14 @@ const ContactMainFormsClient = () => {
           </div>
 
           <div className="flex flex-col gap-2 w-full">
-            <label className="block text-sm font-bold leading-[120%] -tracking-[0.28px]">
+            <label
+              htmlFor="contact-mobile-message"
+              className="block text-sm font-bold leading-[120%] -tracking-[0.28px]"
+            >
               {t("contact_mobile_label_message")}
             </label>
             <input
+              id="contact-mobile-message"
               type="text"
               name="message"
               value={formMobile.message}
@@ -330,13 +358,17 @@ const ContactMainFormsClient = () => {
 
           <div className="flex items-center justify-start gap-3 w-full">
             <input
+              id="contact-mobile-policy"
               type="checkbox"
               name="policyAccepted"
               checked={formMobile.policyAccepted}
               onChange={handleMobileChange}
               className="w-[18px] h-[18px] items-center justify-center text-center appearance-none border border-[#152741] bg-transparent focus:outline-none checked:after:content-['✓'] checked:after:text-darkBlue checked:after:text-[16px] checked:after:flex checked:after:items-center checked:after:justify-center"
             />
-            <label className="text-sm font-normal leading-normal text-[#152741] cursor-pointer underline">
+            <label
+              htmlFor="contact-mobile-policy"
+              className="text-sm font-normal leading-normal text-[#152741] cursor-pointer underline"
+            >
               {t("contact_mobile_policy")}
             </label>
           </div>

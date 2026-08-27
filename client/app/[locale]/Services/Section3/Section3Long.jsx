@@ -429,7 +429,7 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
                   </h3>
                  {/* Üst açıklama */}
                  {service.textKey && (
-  <p className="w-[88%] mb-2 text-[12px] lg:text-[14px] leading-[130%] transition-opacity duration-500 group-hover:opacity-100 opacity-25 text-white">
+  <p className="w-[88%] mb-2 text-[12px] lg:text-[14px] leading-[130%] transition-opacity duration-500 group-hover:opacity-100 opacity-50 text-white">
     {t.rich(service.textKey, richComponents)}
   </p>
 )}
@@ -439,7 +439,7 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
     {service.items.map((itemKey, itemIndex) => (
       <p
         key={itemIndex}
-        className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25"
+        className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-50"
       >
         •{t(itemKey)}
       </p>
@@ -448,7 +448,7 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
 )}
 
 {service.endTextKey && (
-  <p className="mt-0 lg:mt-1 text-[12px] lg:text-[14px] leading-[130%] group-hover:opacity-100 opacity-25 text-white w-[84%]">
+  <p className="mt-0 lg:mt-1 text-[12px] lg:text-[14px] leading-[130%] group-hover:opacity-100 opacity-50 text-white w-[84%]">
     {t.rich(service.endTextKey, richComponents)}
   </p>
 )}

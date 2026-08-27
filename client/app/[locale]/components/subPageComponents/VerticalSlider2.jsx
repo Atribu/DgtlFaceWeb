@@ -237,6 +237,8 @@ const VerticalSlider2 = ({ page, itemCount = 3 }) => {
             {/* Navigation Buttons */}
             <div className="absolute -left-20 top-1/2 -translate-y-1/2 -translate-x-16 hidden lg:flex flex-col gap-4 z-50">
               <button
+                type="button"
+                aria-label={t("previousItemLabel")}
                 onClick={handlePrev}
                 disabled={activeIndex === 0}
                 className="p-4 text-white hover:bg-white/10 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
@@ -244,6 +246,8 @@ const VerticalSlider2 = ({ page, itemCount = 3 }) => {
                 <IoIosArrowUp size={48} />
               </button>
               <button
+                type="button"
+                aria-label={t("nextItemLabel")}
                 onClick={handleNext}
                 disabled={activeIndex === items.length - 1}
                 className="p-4 text-white hover:bg-white/10 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
@@ -340,6 +344,8 @@ const VerticalSlider2 = ({ page, itemCount = 3 }) => {
             {/* Mobile Navigation */}
             <div className="flex lg:hidden justify-center gap-4 mt-8">
               <button
+                type="button"
+                aria-label={t("previousItemLabel")}
                 onClick={handlePrev}
                 disabled={activeIndex === 0}
                 className="p-2 text-white bg-white/10 rounded-full disabled:opacity-30"
@@ -350,6 +356,8 @@ const VerticalSlider2 = ({ page, itemCount = 3 }) => {
                 <div className="flex"> <span className="text-4xl lg:text-8xl xl:text-9xl font-bold text-[#ffffff] lg:text-[#ffffff]"> {String(activeIndex + 1).padStart(2,)} </span> </div>
 
               <button
+                type="button"
+                aria-label={t("nextItemLabel")}
                 onClick={handleNext}
                 disabled={activeIndex === items.length - 1}
                 className="p-2 text-white bg-white/10 rounded-full disabled:opacity-30"

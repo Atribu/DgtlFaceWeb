@@ -310,6 +310,14 @@
       "contact_mobile_label_phone": "Phone Number;",
       "contact_mobile_label_message": "Message;",
       "contact_mobile_policy": "Contact Form Policy",
+      "contact_accessibility_first_name": "First name",
+      "contact_accessibility_last_name": "Last name",
+      "contact_accessibility_company": "Company or organization name",
+      "contact_accessibility_project_type": "Requested project type",
+      "contact_accessibility_project_details": "Project details",
+      "contact_accessibility_phone": "Phone number",
+      "contact_accessibility_email": "Email address",
+      "contact_accessibility_additional_notes": "Additional notes",
       "error_submission_failed": "Submission failed",
       "error_generic": "An error occurred, please try again",
       "success_message_sent": "Your message was sent successfully!",
@@ -716,9 +724,12 @@
       "title4": "With PMS and OTA Integration",
       "span4": "Multi-Channel Sales",
       "text4": "In structures where PMS and OTA systems are not integrated correctly; Price confusion, overbooking risk and data disconnection frequently occur. With its PMS–OTA integration expertise, DGTLFACE automates price and inventory balance across channels; It makes sales and revenue management a natural part of digital transformation.",
-      "button4": "Review"
+      "button4": "Review",
+      "previousItemLabel": "Show the previous item",
+      "nextItemLabel": "Show the next item"
     },
     "testimonials": {
+      "showItemLabel": "Show customer testimonial {index}",
       "items": {
         "t1": {
           "name": "Ahmet Sonmez",

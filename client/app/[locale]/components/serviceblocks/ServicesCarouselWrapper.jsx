@@ -1,7 +1,5 @@
 
 "use client";
-import {Link} from "@/i18n/navigation";
-
 import React, { memo } from "react";
 import VBlock from "./VBlock";
 
@@ -31,13 +29,11 @@ function ServicesCarouselWrapper({selected,isActive}) {
                   </ul>
                 </div>
 
-                <Link
-                  href="/"
+                <span
+                  aria-hidden="true"
                   className="btn-border z-[170]  !rounded-11 px-6 py-2 lg:px-6  lg:py-3 text-xs text-white transition-all duration-300
                   ease-in-out lg:translate-y-[100px] lg:text-sm lg:group-hover:translate-y-0 "
-                >
-               
-                </Link>
+                />
               </div>
 
               <VBlock
