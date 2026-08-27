@@ -34,7 +34,8 @@ const serviceItems = [
           const Icon = item.icon;
           return (
             <Link
-            href={item.link} 
+              href={item.link}
+              prefetch={false}
               key={index} 
               className='flex !bg-[#140015] border text-white py-[15px]  w-full items-center gap-2 justify-start rounded-[10px] gradient-border-button'
             >
