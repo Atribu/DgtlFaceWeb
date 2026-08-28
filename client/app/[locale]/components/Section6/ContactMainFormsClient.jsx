@@ -280,7 +280,7 @@ const ContactMainFormsClient = () => {
           className={`px-6 py-3 rounded-[12px] inline-flex justify-center items-center gap-2.5 gradient-border-button hover:bg-[#54b9cf] !hover:text-white !text-darkBlue ${
             loading
               ? "opacity-50 cursor-not-allowed hover:bg-[#54b9cf] hover:text-white"
-              : "hover:bg-[#54b9cf] hover:text-white"
+              : "hover:bg-[#16031b] hover:!text-white"
           } transition-colors`}
         >
           {loading ? (
