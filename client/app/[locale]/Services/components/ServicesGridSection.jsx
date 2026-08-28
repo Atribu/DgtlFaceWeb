@@ -28,7 +28,7 @@ const serviceItems = [
 ];
    
   return (
-    <div className='flex md:hidden w-screen font-inter items-center justify-center'>
+    <div className='flex lg:hidden w-screen font-inter items-center justify-center'>
       <div className='grid grid-cols-2 w-[98%] items-center justify-center gap-[10px]'>
         {serviceItems.map((item, index) => {
           const Icon = item.icon;

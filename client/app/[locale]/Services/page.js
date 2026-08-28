@@ -4,6 +4,8 @@ import Section2 from './Section2/Section2.jsx'
 import Section4 from './Section4/Section4.jsx'
 import Section5 from './Section5/Section5.jsx'
 import ServicesGridSection from './components/ServicesGridSection.jsx'
+import ResponsiveServicesBanner from './components/ResponsiveServicesBanner.jsx'
+import ViewportLazyMount from '../components/homepage/ViewportLazyMount.jsx'
 import DualHighlightSection from '../components/subPageComponents/DualHighlightSection.jsx'
 import { getTranslations } from "next-intl/server";
 import LogoListSection from '../components/subPageComponents/LogoListSection.jsx'
@@ -16,8 +18,6 @@ import JsonLd from "../components/seo/JsonLd";
 import {
   AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
   ContactMainDeferred as ContactMain,
-  MainBannerDeferred as MainBanner,
-  MobileMainBannerDeferred as MobileMainBanner,
   QuestionsSection2Deferred as QuestionsSection2,
   VerticalSlider2Deferred as VerticalSlider2,
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
@@ -296,9 +296,7 @@ const cards = [
     <JsonLd id="services-hub-jsonld" data={jsonLd} />
       
     <div className='flex flex-col overflow-hidden gap-[30px] md:gap-[35px] lg:gap-[50px] items-center justify-center max-w-screen '>
-      {/* <Section1 /> */}
-      <div className='hidden lg:flex'>
-        <MainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
+      <ResponsiveServicesBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
         <RichTextSpan
           ns="ServicesPage"
           id="servicespage_s1_text2"
@@ -310,22 +308,6 @@ const cards = [
           id="servicespage_s1_text3"
         />
       } buttonText={t("servicespage_s1_button1")}/>
-      </div>
-
-      <div className='flex lg:hidden'>
-        <MobileMainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
-        <RichTextSpan
-          ns="ServicesPage"
-          id="servicespage_s1_text2"
-        />
-      }
-      text2={
-        <RichTextSpan
-          ns="ServicesPage"
-          id="servicespage_s1_text3"
-        />
-      } buttonText={t("servicespage_s1_button1")}/>
-      </div>
 
   <AutoBreadcrumbsWhite/>
      <AiAnswerBlock text={t("aiAnswerBlock")}/>
@@ -333,7 +315,7 @@ const cards = [
       <Section2 />
      
       <ServicesGridSection/>
-     <div className='hidden md:flex'>
+     <div className='hidden lg:flex'>
      <Section3Long page="ServicesPage"/>
      </div>
       <LogoListSection
@@ -344,7 +326,13 @@ const cards = [
       cards={cards}
     />
 
-     <VerticalSlider2 page="ServicesPage" itemCount={4}/>
+     <ViewportLazyMount
+       rootMargin="600px 0px"
+       threshold={0.01}
+       className="services-vertical-slider-lazy w-full min-h-[670px] lg:min-h-[800px]"
+     >
+       <VerticalSlider2 page="ServicesPage" itemCount={4}/>
+     </ViewportLazyMount>
 
       <QuestionsSection2 color="#140F25" faqs={faqs} />
       <FaqPrompt
