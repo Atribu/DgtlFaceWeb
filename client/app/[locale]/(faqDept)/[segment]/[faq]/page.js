@@ -23,7 +23,7 @@ import {
 } from "@/app/lib/faq-url";
 import { getSiteUrl } from "@/app/lib/site-url";
 
-// Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
+//  Aynı namespace'in locale'e göre doğru slug'ını bul
 function findSlugByNs(ns, locale, FAQ_MAP) {
   if (!ns) return null;
 

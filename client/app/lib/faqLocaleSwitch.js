@@ -13,17 +13,17 @@ const FAQ_ROOT_SLUG_MAP = {
   "services-faq": { tr: "hizmetlerimiz-sss", en: "services-faq" },
 };
 
-// Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
+//  "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
 function cleanSlug(input) {
   return String(input || "").replace(/^\/+/, "");
 }
 
-// Türkçe yorum: slug + locale -> doğru faq href üret
+//  slug + locale -> doğru faq href üret
 export function buildFaqHrefBySlug(slug, locale) {
   return buildCanonicalFaqHrefBySlug(slug, locale);
 }
 
-// Türkçe yorum: Mevcut pathname bir FAQ sayfası mı? ise target locale'e çevir
+//  Mevcut pathname bir FAQ sayfası mı? ise target locale'e çevir
 export function tryBuildFaqSwitchHref(pathname, currentLocale, targetLocale) {
   if (!pathname) return null;
 

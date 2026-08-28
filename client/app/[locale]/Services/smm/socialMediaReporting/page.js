@@ -23,7 +23,7 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
+  //  og-map + seo-utils + canonical mapping key’i
   const pathnameKey = "/Services/smm/socialMediaReporting";
 
   const base = getBaseUrl();
@@ -236,7 +236,7 @@ export default async function Page({ params }) {
 
   const baseUrl = getBaseUrl();
 
-  // Türkçe yorum: canonical mapping key’i
+  //  canonical mapping key’i
   const pathnameKey = "/Services/smm/socialMediaReporting";
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
         

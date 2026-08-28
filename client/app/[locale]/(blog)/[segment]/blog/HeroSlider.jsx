@@ -8,7 +8,7 @@ import { buildLocalizedBlogDetailPath } from "@/app/lib/blog-route-segments";
 export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noResults }) {
   const [active, setActive] = useState(0);
 
-  // Türkçe yorum: 5 saniyede bir sonraki slide
+  //  5 saniyede bir sonraki slide
   useEffect(() => {
     if (!posts?.length) return;
     const id = setInterval(() => {
@@ -29,7 +29,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
 
   return (
     <section className="flex xl:w-[96%] max-w-[1700px] px-4 relative min-h-[84vh] w-[90%] overflow-hidden items-center justify-center mx-auto ">
-      {/* Türkçe yorum: arka plan görsel */}
+      {/*  arka plan görsel */}
       {p.banner?.src ? (
         <Image
           src={p.banner.src}
@@ -44,7 +44,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
         </div>
       )}
 
-      {/* Türkçe yorum: Netflix benzeri karartma (okunabilirlik) */}
+      {/*  Netflix benzeri karartma (okunabilirlik) */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/0" />
       <div className="absolute inset-0 bg-black/0" />
 
@@ -75,7 +75,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
 
             </div>
 
-            {/* Türkçe yorum: alt mini progress/dots */}
+            {/*  alt mini progress/dots */}
             <div className="mt-10 flex items-center gap-2">
               {posts.map((_, i) => (
                 <button

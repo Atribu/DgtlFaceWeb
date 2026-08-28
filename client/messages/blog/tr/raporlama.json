@@ -15165,7 +15165,7 @@
     "title": "GA4–Looker Studio Veri Farkı: Otel Çözüm Rehberi",
     "slug": "ga4-ve-looker-studio-veri-farklari",
     "department": "raporlama",
-    "subDepartment": "sales",
+    "subDepartment": "looker",
     "updatedAt": "27 Nisan 2026",
     "publishedAt": "2026-04-27",
     "readingTime": "9 dk okuma",
@@ -15756,11 +15756,12 @@
       }
     }
   },
+
   "BlogCagriMerkeziVerileriniLookerStudioyaTasimak": {
     "title": "Çağrı Merkezi+WhatsApp KPI Paneli | Looker Studio",
     "slug": "cagri-merkezi-verilerini-looker-studioya-tasimak",
     "department": "raporlama",
-    "subDepartment": "sales",
+    "subDepartment": "looker",
     "updatedAt": "28 Nisan 2026",
     "publishedAt": "2026-04-28",
     "readingTime": "10 dk okuma",
@@ -48481,7 +48482,7 @@
     "title": "2026 Dynamic Pricing: Fiyat–Dönüşüm–Gelir Döngüsü",
     "slug": "2026-gercek-zamanli-fiyat-ve-donusum-donguleri-dynamic-pricing",
     "department": "raporlama",
-    "subDepartment": "salse",
+    "subDepartment": "sales",
     "updatedAt": "21 Ağustos 2026",
     "publishedAt": "2026-08-21",
     "readingTime": "9 dk okuma",
@@ -53280,7 +53281,7 @@
     "title": "KVKK Uyumlu Segmentasyon: Data Minimization (Otel)",
     "slug": "kvkk-ve-pazarlama-verisi-segmentasyon-data-minimization",
     "department": "raporlama",
-    "subDepartment,": "kvkk",
+    "subDepartment": "kvkk",
     "updatedAt": "24 Ağustos 2026",
     "publishedAt": "2026-08-24",
     "readingTime": "9 dk okuma",

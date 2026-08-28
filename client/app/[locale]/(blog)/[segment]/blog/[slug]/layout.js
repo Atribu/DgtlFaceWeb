@@ -1,8 +1,8 @@
 // app/[locale]/(blog)/[faq]/blog/[slug]/layout.js
 
 export const metadata = {
-  // Türkçe yorum: Blog sayfaları için fallback/default OG ayarları
-  // Türkçe yorum: page.js içindeki generateMetadata çalışırsa bunları override eder
+  //  Blog sayfaları için fallback/default OG ayarları
+  //  page.js içindeki generateMetadata çalışırsa bunları override eder
   metadataBase: new URL("https://dgtlface.com"),
 
   openGraph: {

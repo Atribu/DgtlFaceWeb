@@ -157,14 +157,14 @@ export default function BlockRenderer({ block, locale, slug }) {
 
 switch (block.type) {
     case "note":
-      // Türkçe yorum: İçerik içi "Buraya" notlarını ekranda göstermiyoruz
+      //  İçerik içi "Buraya" notlarını ekranda göstermiyoruz
       return null;
 
     case "media": {
-      // Türkçe yorum: Slot ile resim bul
+      //  Slot ile resim bul
       const media = getMediaBySlot(slug, block.slot);
 
-      // Türkçe yorum: Slot bulunamazsa sessizce geç
+      //  Slot bulunamazsa sessizce geç
        if (!media?.src) {
     return (
       <div className="mt-6 rounded-2xl border border-red-500/30 bg-red-500/10 p-3 text-xs text-red-200">
@@ -173,12 +173,12 @@ switch (block.type) {
     );
   }
 
-// Türkçe yorum: oran eşik değeri. 1.4 altı = kareye yakın
+//  oran eşik değeri. 1.4 altı = kareye yakın
 const RATIO_SQUARE_THRESHOLD = 1.4;
 
-// Türkçe yorum: aspect state’i: default 5/3
+//  aspect state’i: default 5/3
 const [aspectClass, setAspectClass] = useState("aspect-[5/3]");
-// Türkçe yorum: fit state’i: default cover
+//  fit state’i: default cover
 const [fitClass, setFitClass] = useState("object-cover");
 
 const aspectFromJson = (() => {
@@ -198,7 +198,7 @@ const fitFromJson = block?.fit === "contain"
   ? "object-cover"
   : null;
 
-// Türkçe yorum: JSON varsa her zaman onu kullan (senin isteğin buydu)
+//  JSON varsa her zaman onu kullan (senin isteğin buydu)
 const finalAspect = aspectFromJson || aspectClass;
 const finalFit = fitFromJson || fitClass;
 
@@ -218,7 +218,7 @@ const finalFit = fitFromJson || fitClass;
   quality={75}
   priority={Boolean(block?.priority)}
   onLoad={(event) => {
-    // Türkçe yorum: JSON override varsa otomatik hesap yapma
+    //  JSON override varsa otomatik hesap yapma
     if (aspectFromJson || fitFromJson) return;
 
     const img = event.currentTarget;
@@ -229,11 +229,11 @@ const finalFit = fitFromJson || fitClass;
     const ratio = w / h;
 
     if (ratio < RATIO_SQUARE_THRESHOLD) {
-      // Türkçe yorum: kareye yakınsa kare yap ve tamamı görünsün
+      //  kareye yakınsa kare yap ve tamamı görünsün
       setAspectClass("aspect-square");
       setFitClass("object-contain"); // istersen cover yapabilirsin
     } else {
-      // Türkçe yorum: geniş/dikdörtgense default
+      //  geniş/dikdörtgense default
       setAspectClass("aspect-[5/3]");
       setFitClass("object-cover");
     }
@@ -531,7 +531,7 @@ const finalFit = fitFromJson || fitClass;
     //   const isPrimary = block.variant === "primary";
     //   const href = block.href || "";
 
-    //   // Türkçe yorum: Href boş ise buton disable görünsün
+    //   //  Href boş ise buton disable görünsün
     //   if (!href) {
     //     return (
     //       <div className={`mt-6 rounded-3xl border border-white/10 bg-white/5 p-5 ${alignmentClasses}`}>

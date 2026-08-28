@@ -1,4 +1,4 @@
-// Türkçe yorum: department + slug -> tr.json key
+//  department + slug -> tr.json key
 export const BLOG_MAP = {
   sem: {
     "google-ads-oteller-icin-nasil-calisir": "BlogGoogleAdsOtellerIcinNasilCalisir",

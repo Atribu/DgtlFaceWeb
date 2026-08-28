@@ -57,10 +57,10 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref 
   const railRef = useRef(null);
   const localizedTitleHref = resolveLocalizedHref(titleHref, locale);
 
-  // Türkçe yorum: Rail içinde aktif görünen kartın index'i (1-based)
+  //  Rail içinde aktif görünen kartın index'i (1-based)
   const [activeIndex, setActiveIndex] = useState(1);
 
-  // Türkçe yorum: Kart genişliği + gap = 1 adımda kaç px ilerliyoruz
+  //  Kart genişliği + gap = 1 adımda kaç px ilerliyoruz
   const stepPxRef = useRef(1);
   const rafRef = useRef(null);
 
@@ -71,18 +71,18 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref 
     const first = el.children?.[0];
     if (!first) return;
 
-    // Türkçe yorum: İlk kartın genişliği
+    //  İlk kartın genişliği
     const cardW = first.getBoundingClientRect().width;
 
-    // Türkçe yorum: gap değerini yakala (Tailwind gap-1/gap-2 vs.)
+    //  gap değerini yakala (Tailwind gap-1/gap-2 vs.)
     const styles = window.getComputedStyle(el);
     // modern browser'larda columnGap var
     const gap = parseFloat(styles.columnGap || styles.gap || "0") || 0;
 
-    // Türkçe yorum: Kaydırma adımı = kart genişliği + gap
+    //  Kaydırma adımı = kart genişliği + gap
     stepPxRef.current = Math.max(1, cardW + gap);
 
-    // Türkçe yorum: Mevcut scrollLeft'e göre index'i güncelle
+    //  Mevcut scrollLeft'e göre index'i güncelle
     updateIndex();
   };
 
@@ -92,7 +92,7 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref 
 
     const step = stepPxRef.current || 1;
 
-    // Türkçe yorum: Snap + scrollLeft yüzünden küsurat çıkabilir, en yakını alıyoruz
+    //  Snap + scrollLeft yüzünden küsurat çıkabilir, en yakını alıyoruz
     const idx0 = Math.round(el.scrollLeft / step);
     const idx1 = Math.min(posts.length, Math.max(1, idx0 + 1));
 
@@ -100,7 +100,7 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref 
   };
 
   const onScroll = () => {
-    // Türkçe yorum: Scroll event’i çok sık çalışır -> rAF ile throttle
+    //  Scroll event’i çok sık çalışır -> rAF ile throttle
     if (rafRef.current) return;
     rafRef.current = requestAnimationFrame(() => {
       rafRef.current = null;
@@ -112,16 +112,16 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref 
     const el = railRef.current;
     if (!el) return;
 
-    // Türkçe yorum: Step'e göre kaydır (daha tutarlı index)
+    //  Step'e göre kaydır (daha tutarlı index)
     const step = stepPxRef.current || Math.round(el.clientWidth * 0.9);
     el.scrollBy({ left: step * dir, behavior: "smooth" });
   };
 
   useEffect(() => {
-    // Türkçe yorum: İlk render + posts değişince ölç
+    //  İlk render + posts değişince ölç
     measureStep();
 
-    // Türkçe yorum: Resize olursa yeniden ölç
+    //  Resize olursa yeniden ölç
     const onResize = () => measureStep();
     window.addEventListener("resize", onResize);
 
@@ -150,7 +150,7 @@ export default function BlogRail({ title, posts, locale, t, GRADIENT, titleHref 
           </h2>
         )}
 
-        {/* Türkçe yorum: sağ üst küçük oklar + scroll index */}
+        {/*  sağ üst küçük oklar + scroll index */}
         <div className="hidden md:flex items-center gap-2">
           <button
             type="button"

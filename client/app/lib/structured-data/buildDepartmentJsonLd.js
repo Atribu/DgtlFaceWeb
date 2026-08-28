@@ -1,4 +1,4 @@
-// Türkçe yorum: Schema Answer.text için HTML'i düz metne çeviriyoruz
+//  Schema Answer.text için HTML'i düz metne çeviriyoruz
 export function stripHtml(html = "") {
   return String(html)
     .replace(/<br\s*\/?>/gi, "\n")
@@ -21,7 +21,7 @@ export function getBaseUrl() {
 }
 
 /**
- * Türkçe yorum:
+ * 
  * Departman sayfaları için ortak JSON-LD üreticisi.
  * - locale bazlı URL + dil
  * - FAQ sayısı ve service linkleri parametre

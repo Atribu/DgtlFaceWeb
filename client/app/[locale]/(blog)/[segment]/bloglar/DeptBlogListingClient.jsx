@@ -33,7 +33,7 @@ const DEPT_LABEL = {
   "otel": "Otel Dijital Dönüşüm",
 };
 
-// Türkçe yorum: Ana departman -> alt hizmetler (rail başlıkları + servis sayfası linki)
+//  Ana departman -> alt hizmetler (rail başlıkları + servis sayfası linki)
 const SUB_DEPTS = {
   sem: [
     { id: "googleAdsAdvertising", label: "Google Ads Yönetimi", href: "/Services/sem/googleAdsAdvertising" },

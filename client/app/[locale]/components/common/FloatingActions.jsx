@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 async function copyToClipboard(text) {
-  // Türkçe yorum: Modern Clipboard API
+  //  Modern Clipboard API
   try {
     if (navigator.clipboard?.writeText) {
       await navigator.clipboard.writeText(text);
@@ -11,7 +11,7 @@ async function copyToClipboard(text) {
     }
   } catch (e) {}
 
-  // Türkçe yorum: Safari/legacy fallback
+  //  Safari/legacy fallback
   try {
     const ta = document.createElement("textarea");
     ta.value = text;
@@ -37,7 +37,7 @@ export default function FloatingActions({ shareTitle }) {
   const url = typeof window !== "undefined" ? window.location.href : "";
   const title = shareTitle || (typeof document !== "undefined" ? document.title : "");
 
-  // Türkçe yorum: Dışarı tıkla kapat
+  //  Dışarı tıkla kapat
   useEffect(() => {
     const onDown = (e) => {
       if (!wrapRef.current) return;
@@ -75,7 +75,7 @@ export default function FloatingActions({ shareTitle }) {
         url,
       });
     } catch (e) {
-      // Türkçe yorum: Kullanıcı share sheet'i kapatabilir
+      //  Kullanıcı share sheet'i kapatabilir
       console.log(e);
     } finally {
       setOpen(false);
@@ -91,7 +91,7 @@ export default function FloatingActions({ shareTitle }) {
         aria-label="Paylaş"
         className="group relative h-12 w-12 rounded-full transition active:scale-[0.98]"
       >
-        {/* Türkçe yorum: Gradient border */}
+        {/*  Gradient border */}
         <span
           className="
             absolute inset-0 rounded-full p-[1px]
@@ -103,7 +103,7 @@ export default function FloatingActions({ shareTitle }) {
           "
         />
 
-        {/* Türkçe yorum: İç yüzey (glass) */}
+        {/*  İç yüzey (glass) */}
         <span
           className="
             relative flex h-full w-full items-center justify-center rounded-full
@@ -178,7 +178,7 @@ export default function FloatingActions({ shareTitle }) {
             Paylaş…
           </button>
 
-          {/* Türkçe yorum: İstersen buraya WhatsApp/Telegram linkleri de ekleriz */}
+          {/*  İstersen buraya WhatsApp/Telegram linkleri de ekleriz */}
         </div>
       )}
 

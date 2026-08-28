@@ -139,18 +139,18 @@ async function loadLocaleFaqSearchRecords(locale) {
 }
 
 
-// Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
+//  "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
 function cleanSlug(input) {
   return String(input || "").replace(/^\/+/, "");
 }
 
-// Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
+//  Aynı namespace'in locale'e göre doğru slug'ını bul
 function findSlugByNs(ns, locale) {
   return findFaqSlugByNamespace(ns, locale);
 }
 
 
-// Türkçe yorum: EN'de TR slug geldiyse EN slug'a çevir (yazılım altları vb.)
+//  EN'de TR slug geldiyse EN slug'a çevir (yazılım altları vb.)
 const FAQ_SLUG_ALIAS_MAP = {
   en: {
     "yazilim-sss": "software-development-faq",
@@ -162,7 +162,7 @@ const FAQ_SLUG_ALIAS_MAP = {
   },
 };
 
-// Türkçe yorum: EN slug -> TR slug (config lookup için)
+//  EN slug -> TR slug (config lookup için)
 const FAQ_SLUG_REVERSE_ALIAS_MAP = {
   en: Object.fromEntries(
     Object.entries(FAQ_SLUG_ALIAS_MAP.en || {}).map(([trSlug, enSlug]) => [enSlug, trSlug])
@@ -170,7 +170,7 @@ const FAQ_SLUG_REVERSE_ALIAS_MAP = {
 };
 
 function canonicalSlugForConfig(slug, locale) {
-  // Türkçe yorum: EN slug geldiyse TR karşılığını bul (bannerConfig TR slug kullanıyor)
+  //  EN slug geldiyse TR karşılığını bul (bannerConfig TR slug kullanıyor)
   return FAQ_SLUG_REVERSE_ALIAS_MAP?.[locale]?.[slug] || slug;
 }
 
@@ -312,7 +312,7 @@ export default function SearchBanner({ faqSlug }) {
 const NS_TO_SLUG = useMemo(() => {
   const inv = {};
   for (const [slug, ns] of Object.entries(FAQ_MAP || {})) {
-    // Türkçe yorum: sadece o locale'e ait slug'ı ters map'e yaz
+    //  sadece o locale'e ait slug'ı ters map'e yaz
     if (locale === "en") {
       if (slug === ROOT_FAQ_SLUG_BY_LOCALE.en || slug.endsWith("-faq")) inv[ns] = slug;
     } else {
@@ -531,11 +531,11 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
 
           // Helper function to build chip href based on locale and slug
        const buildChipHref = (chip) => {
-  // Türkçe yorum: config'ten slug veya href gelebilir
+  //  config'ten slug veya href gelebilir
   const raw = chip?.slug || chip?.href || "";
   const baseSlug = cleanSlug(raw);
 
-  // Türkçe yorum: TR slug bile gelse ns üzerinden locale slug'ı bul
+  //  TR slug bile gelse ns üzerinden locale slug'ı bul
   const ns = FAQ_MAP?.[baseSlug];
   const localeSlug = findSlugByNs(ns, locale) || baseSlug;
 
@@ -617,7 +617,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
 const raw = c?.slug || c?.href || "";
 const chipSlug = cleanSlug(raw);
 
-// Türkçe yorum: active kontrolü de locale slug üzerinden yapılmalı
+//  active kontrolü de locale slug üzerinden yapılmalı
 const ns = FAQ_MAP?.[chipSlug];
 const activeSlug = findSlugByNs(ns, locale) || chipSlug;
 const isActive = resolvedSlug === activeSlug;

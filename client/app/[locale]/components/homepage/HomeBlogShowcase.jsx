@@ -131,10 +131,10 @@ export default function HomeBlogShowcase({
   useEffect(() => {
     if (!latest.length) return;
 
-    // Türkçe yorum: İlk ölçüm
+    //  İlk ölçüm
     measureStep();
 
-    // Türkçe yorum: Resize olursa yeniden ölç
+    //  Resize olursa yeniden ölç
     window.addEventListener("resize", measureStep);
 
     return () => {

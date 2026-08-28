@@ -145,7 +145,7 @@ function normalizeJsonLdValue(value, locale) {
   return value;
 }
 
-// Türkçe yorum: JSON-LD alanlarını locale + canonical route bazında düzelt.
+//  JSON-LD alanlarını locale + canonical route bazında düzelt.
 export function fixFaqJsonLdLocale(baseJsonLd, locale) {
   if (!baseJsonLd) return null;
 

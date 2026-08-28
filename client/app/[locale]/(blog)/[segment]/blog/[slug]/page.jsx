@@ -331,7 +331,7 @@ export async function generateMetadata({ params }) {
   const { locale, segment, slug } = await params;
   const department = toCanonicalBlogSegment(segment);
 
-  // Türkçe yorum: Locale set et
+  //  Locale set et
   setRequestLocale(locale);
 
   if (!department) return {};
@@ -351,7 +351,7 @@ export async function generateMetadata({ params }) {
   if (!postKey) return {};
   if (!post) notFound();
 
-  // Türkçe yorum: Başlık & açıklama (elinde hangi alanlar varsa)
+  //  Başlık & açıklama (elinde hangi alanlar varsa)
   const title = post?.meta?.title || post?.title || "DGTLFACE Blog";
   const description =
     post?.meta?.description ||
@@ -373,14 +373,14 @@ export async function generateMetadata({ params }) {
     {}
   );
 
-  // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
+  //  URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
   const url = new URL(
     buildBlogHref(canonicalLocale, department, canonicalSlug) ||
       `/${canonicalLocale}/${department}/blog/${slug}`,
     siteUrl
   ).toString();
 
-  // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
+  //  OG image -> blog banner varsa onu kullan, yoksa default
   const mediaSlug = localizedSlugs?.[canonicalLocale] || slug;
   const bannerMedia = getBlogMedia(mediaSlug, postKey, "banner");
   const ogMedia = getBlogMedia(mediaSlug, postKey, "og");
@@ -444,7 +444,7 @@ export async function generateMetadata({ params }) {
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
-// Türkçe yorum: Tarih formatlama
+//  Tarih formatlama
 function formatDateTR(dateStr) {
   if (!dateStr) return "";
   const d = new Date(dateStr);
@@ -456,7 +456,7 @@ function formatDateTR(dateStr) {
   });
 }
 
-// Türkçe yorum: Her türlü veriyi string'e çevir
+//  Her türlü veriyi string'e çevir
 function asText(v) {
   if (v == null) return "";
   if (typeof v === "string" || typeof v === "number") return String(v);
@@ -469,7 +469,7 @@ function asText(v) {
   return "";
 }
 
-// Türkçe yorum: Liste formatına çevir
+//  Liste formatına çevir
 function asList(v) {
   if (!v) return [];
   if (Array.isArray(v)) return v.map(asText).filter(Boolean);
@@ -477,7 +477,7 @@ function asList(v) {
   return t ? [t] : [];
 }
 
-// Türkçe yorum: FAQ normalize et
+//  FAQ normalize et
 function asFaqItems(v) {
   if (!v) return [];
   if (!Array.isArray(v)) return [];
@@ -879,7 +879,7 @@ function buildBlogJsonLdData({
   };
 }
 
-// Türkçe yorum: Department label
+//  Department label
 function deptLabel(dept) {
   const map = {
     seo: "SEO",
@@ -1033,7 +1033,7 @@ export default async function BlogDetailPage({ params }) {
     }))
   ).then((items) => items.filter((item) => item.resolvedHref));
 
-  // Türkçe yorum: Hero overlay'de başlık gösterilsin mi? (wireframe: opsiyonel)
+  //  Hero overlay'de başlık gösterilsin mi? (wireframe: opsiyonel)
   const SHOW_HERO_TITLE_OVERLAY = false;
 
   const canonicalSlug =

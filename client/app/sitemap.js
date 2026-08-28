@@ -65,7 +65,7 @@ function buildLocalizedUrl(locale, localizedPath) {
     : `${BASE_URL}/${locale}${normalizedPath}`;
 }
 
-// Türkçe yorum: Şimdilik pratik çözüm olarak -faq ile biten slug'ları EN kabul ediyoruz.
+//  Şimdilik pratik çözüm olarak -faq ile biten slug'ları EN kabul ediyoruz.
 function isEnglishFaqSlug(slug) {
   return slug.endsWith("-faq");
 }

@@ -23,7 +23,7 @@ import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: seo-utils + og-map + canonical mapping key’i
+  //  seo-utils + og-map + canonical mapping key’i
   const pathnameKey = "/Services/smm/reelsVideo";
 
   const base = getBaseUrl();

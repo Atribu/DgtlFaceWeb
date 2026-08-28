@@ -12,6 +12,11 @@ import {
 const GRADIENT =
   "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
+const HERO_INITIAL_AUTOPLAY_DELAY_MS = 10000;
+const HERO_AUTOPLAY_DELAY_MS = 5000;
+const RAIL_INITIAL_RENDER_COUNT = 12;
+const RAIL_RENDER_BATCH_SIZE = 12;
+
 const BLOG_DEPARTMENTS_V2 = [
   { id: "all", label: "Tümü" },
   { id: "sem", label: "SEM - Dijital Reklam Yönetimi" },
@@ -202,29 +207,69 @@ function StickySearchBar({ t, query, setQuery, inputRef, GRADIENT, noResults }) 
 
 function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noResults }) {
   const [active, setActive] = useState(0);
+  const [isHeroVisible, setIsHeroVisible] = useState(true);
+  const [isPageVisible, setIsPageVisible] = useState(true);
+  const heroRef = useRef(null);
+  const hasAutoplayStartedRef = useRef(false);
 
-  // Türkçe yorum: 5 saniyede bir sonraki slide
+  // LCP adayının ölçüm sırasında değişmesini önlemek için ilk otomatik geçişi geciktir.
   useEffect(() => {
-    if (!posts?.length) return;
-    const id = setInterval(() => {
+    if (posts?.length < 2 || !isHeroVisible || !isPageVisible) return;
+
+    const delay = hasAutoplayStartedRef.current
+      ? HERO_AUTOPLAY_DELAY_MS
+      : HERO_INITIAL_AUTOPLAY_DELAY_MS;
+
+    const id = window.setTimeout(() => {
+      hasAutoplayStartedRef.current = true;
       setActive((prev) => (prev + 1) % posts.length);
-    }, 5000);
-    return () => clearInterval(id);
-  }, [posts]);
+    }, delay);
+
+    return () => window.clearTimeout(id);
+  }, [isHeroVisible, isPageVisible, posts]);
+
+  // Hero ekran dışındayken arka planda görsel değiştirip gereksiz iş üretme.
+  useEffect(() => {
+    const node = heroRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsHeroVisible(entry.isIntersecting),
+      { threshold: 0.1 }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  // Arka plandaki sekmelerde slider zamanlayıcısını duraklat.
+  useEffect(() => {
+    const updatePageVisibility = () => {
+      setIsPageVisible(document.visibilityState === "visible");
+    };
+
+    updatePageVisibility();
+    document.addEventListener("visibilitychange", updatePageVisibility);
+    return () => {
+      document.removeEventListener("visibilitychange", updatePageVisibility);
+    };
+  }, []);
 
   if (!posts?.length) return null;
 
   const p = posts[active];
 
   return (
-    <section className="relative h-[70vh] lg:h-[90vh] xl:h-[92vh] overflow-hidden bg-black">
-      {/* Türkçe yorum: arka plan görsel */}
+    <section ref={heroRef} className="relative h-[70vh] lg:h-[90vh] xl:h-[92vh] overflow-hidden bg-black">
+      {/*  arka plan görsel */}
       {p.banner?.src ? (
         <Image
           src={p.banner.src}
           alt={p.banner.alt || p.title}
           fill
-          priority
+          priority={active === 0}
+          fetchPriority={active === 0 ? "high" : "auto"}
+          sizes="100vw"
           className="object-cover"
         />
       ) : (
@@ -233,7 +278,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
         </div>
       )}
 
-      {/* Türkçe yorum: Netflix benzeri karartma (okunabilirlik) */}
+      {/*  Netflix benzeri karartma (okunabilirlik) */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/20 md:to-black/0" />
       <div className="absolute inset-0 bg-black/0" />
 
@@ -264,7 +309,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
 
             </div>
 
-            {/* Türkçe yorum: alt mini progress/dots */}
+            {/*  alt mini progress/dots */}
             <div className="mt-6 md:mt-10 flex items-center gap-2">
               {posts.map((_, i) => (
                 <button
@@ -328,12 +373,26 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
 function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
   const railRef = useRef(null);
 
-  // Türkçe yorum: Rail içinde aktif görünen kartın index'i (1-based)
+  //  Rail içinde aktif görünen kartın index'i (1-based)
   const [activeIndex, setActiveIndex] = useState(1);
+  const [renderedCount, setRenderedCount] = useState(() =>
+    Math.min(RAIL_INITIAL_RENDER_COUNT, posts?.length || 0)
+  );
 
-  // Türkçe yorum: Kart genişliği + gap = 1 adımda kaç px ilerliyoruz
+  //  Kart genişliği + gap = 1 adımda kaç px ilerliyoruz
   const stepPxRef = useRef(1);
   const rafRef = useRef(null);
+
+  const renderedPosts = useMemo(
+    () => posts.slice(0, renderedCount),
+    [posts, renderedCount]
+  );
+
+  const revealNextBatch = () => {
+    setRenderedCount((current) =>
+      Math.min(current + RAIL_RENDER_BATCH_SIZE, posts.length)
+    );
+  };
 
   const measureStep = () => {
     const el = railRef.current;
@@ -342,18 +401,18 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
     const first = el.children?.[0];
     if (!first) return;
 
-    // Türkçe yorum: İlk kartın genişliği
+    //  İlk kartın genişliği
     const cardW = first.getBoundingClientRect().width;
 
-    // Türkçe yorum: gap değerini yakala (Tailwind gap-1/gap-2 vs.)
+    //  gap değerini yakala (Tailwind gap-1/gap-2 vs.)
     const styles = window.getComputedStyle(el);
     // modern browser'larda columnGap var
     const gap = parseFloat(styles.columnGap || styles.gap || "0") || 0;
 
-    // Türkçe yorum: Kaydırma adımı = kart genişliği + gap
+    //  Kaydırma adımı = kart genişliği + gap
     stepPxRef.current = Math.max(1, cardW + gap);
 
-    // Türkçe yorum: Mevcut scrollLeft'e göre index'i güncelle
+    //  Mevcut scrollLeft'e göre index'i güncelle
     updateIndex();
   };
 
@@ -363,7 +422,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
 
     const step = stepPxRef.current || 1;
 
-    // Türkçe yorum: Snap + scrollLeft yüzünden küsurat çıkabilir, en yakını alıyoruz
+    //  Snap + scrollLeft yüzünden küsurat çıkabilir, en yakını alıyoruz
     const idx0 = Math.round(el.scrollLeft / step);
     const idx1 = Math.min(posts.length, Math.max(1, idx0 + 1));
 
@@ -371,11 +430,21 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
   };
 
   const onScroll = () => {
-    // Türkçe yorum: Scroll event’i çok sık çalışır -> rAF ile throttle
+    //  Scroll event’i çok sık çalışır -> rAF ile throttle
     if (rafRef.current) return;
     rafRef.current = requestAnimationFrame(() => {
       rafRef.current = null;
       updateIndex();
+
+      const el = railRef.current;
+      if (!el || renderedCount >= posts.length) return;
+
+      const remainingScroll = el.scrollWidth - el.scrollLeft - el.clientWidth;
+      const preloadDistance = (stepPxRef.current || el.clientWidth) * 2;
+
+      if (remainingScroll <= preloadDistance) {
+        revealNextBatch();
+      }
     });
   };
 
@@ -383,16 +452,39 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
     const el = railRef.current;
     if (!el) return;
 
-    // Türkçe yorum: Step'e göre kaydır (daha tutarlı index)
+    //  Step'e göre kaydır (daha tutarlı index)
     const step = stepPxRef.current || Math.round(el.clientWidth * 0.9);
-    el.scrollBy({ left: step * dir, behavior: "smooth" });
+    const performScroll = () => {
+      el.scrollBy({ left: step * dir, behavior: "smooth" });
+    };
+
+    const remainingScroll = el.scrollWidth - el.scrollLeft - el.clientWidth;
+    const shouldRevealMore =
+      dir > 0 && renderedCount < posts.length && remainingScroll <= step * 2;
+
+    if (shouldRevealMore) {
+      revealNextBatch();
+      requestAnimationFrame(() => requestAnimationFrame(performScroll));
+      return;
+    }
+
+    performScroll();
   };
 
   useEffect(() => {
-    // Türkçe yorum: İlk render + posts değişince ölç
+    setRenderedCount(Math.min(RAIL_INITIAL_RENDER_COUNT, posts.length));
+    setActiveIndex(1);
+
+    if (railRef.current) {
+      railRef.current.scrollLeft = 0;
+    }
+  }, [posts]);
+
+  useEffect(() => {
+    //  İlk render + posts değişince ölç
     measureStep();
 
-    // Türkçe yorum: Resize olursa yeniden ölç
+    //  Resize olursa yeniden ölç
     const onResize = () => measureStep();
     window.addEventListener("resize", onResize);
 
@@ -416,7 +508,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
           <h2 className="text-base lg:text-lg font-semibold text-white/90">{title}</h2>
         )}
 
-        {/* Türkçe yorum: sağ üst küçük oklar + scroll index */}
+        {/*  sağ üst küçük oklar + scroll index */}
         <div className="flex items-center gap-0 lg:gap-2">
           <button
             type="button"
@@ -460,7 +552,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
           className="flex gap-1 lg:gap-2 overflow-x-auto pb-2 pr-2 snap-x snap-mandatory scroll-smooth
                      [scrollbar-width:thin] [scrollbar-color:rgba(255,255,255,0.25)_transparent]"
         >
-          {posts.map((p) => (
+          {renderedPosts.map((p) => (
             <BlogCard key={p.id} p={p} locale={locale} t={t} GRADIENT={GRADIENT} />
           ))}
         </div>
@@ -566,7 +658,7 @@ const hasResults = isSearching && filteredPosts.length > 0;
 const noResults = isSearching && filteredPosts.length === 0;
 
 
-// Türkçe yorum: tarihe göre (sondan başa) sıralama
+//  tarihe göre (sondan başa) sıralama
 const sortedFiltered = useMemo(() => {
   return [...filteredPosts].sort(
     (a, b) => toTs(b.publishedAt) - toTs(a.publishedAt)
@@ -588,12 +680,12 @@ const displaySorted = hasResults ? sortedFiltered : sortedAll;
 // Üstte yazan count ne olsun?
 const visibleCount = hasResults ? filteredPosts.length : sortedAll.length;
 
-// Türkçe yorum: arama sonuç yoksa bile sayfa boş kalmasın, fallback olarak tüm listeyi göster
+//  arama sonuç yoksa bile sayfa boş kalmasın, fallback olarak tüm listeyi göster
 // const displaySorted = useMemo(() => {
 //   return sortedFiltered.length ? sortedFiltered : sortedAll;
 // }, [sortedFiltered, sortedAll]);
 
-// Türkçe yorum: departman rail’leri (Tümü + her departman)
+//  departman rail’leri (Tümü + her departman)
 const rails = useMemo(() => {
    const out = [{ id: "all", title: "Son Eklenenler", posts: latest20 }];
 
@@ -613,7 +705,7 @@ const rails = useMemo(() => {
   return out;
 }, [displaySorted, latest20, locale]);
 
-// Türkçe yorum: Netflix hero için son eklenen 5 post
+//  Netflix hero için son eklenen 5 post
 const heroPosts = useMemo(() => {
    return sortedAll.slice(0, 5); // her zaman en yeni 5
  }, [sortedAll]);

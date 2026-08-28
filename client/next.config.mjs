@@ -4,13 +4,13 @@ import { fileURLToPath } from "url";
 
 const withNextIntl = createNextIntlPlugin();
 
-// Türkçe yorum: ESM'de __dirname yok; bu şekilde üretiyoruz.
+//  ESM'de __dirname yok; bu şekilde üretiyoruz.
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Türkçe yorum: Monorepo/çoklu lockfile durumunda Next’in tracing root’unu
+  //  Monorepo/çoklu lockfile durumunda Next’in tracing root’unu
   // client klasörüne sabitleyerek uyarıyı ve olası deploy sorunlarını azaltır.
   outputFileTracingRoot: __dirname,
 
@@ -335,7 +335,7 @@ const nextConfig = {
         headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
       },
 
-      // Türkçe yorum: Eğer CSP vermek istiyorsan buradan vermelisin.
+      //  Eğer CSP vermek istiyorsan buradan vermelisin.
       // Örnek CSP (ihtiyaca göre gevşetmen gerekebilir):
       // {
       //   source: "/(.*)",

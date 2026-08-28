@@ -27,7 +27,7 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: seo-utils + og-map + canonical mapping key’i
+  //  seo-utils + og-map + canonical mapping key’i
   const pathnameKey = "/Services/software/serverManagementService";
 
   const base = getBaseUrl();

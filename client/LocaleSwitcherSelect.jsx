@@ -8,12 +8,12 @@ import {
   resolveFaqContentSlug,
 } from "@/app/lib/faq-url";
 
-// Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
+//  "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
 function cleanSlug(input) {
   return String(input || "").replace(/^\/+/, "");
 }
 
-// Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
+//  Aynı namespace'in locale'e göre doğru slug'ını bul
 function findSlugByNs(ns, locale) {
   if (!ns) return null;
 
@@ -43,7 +43,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
 
-  // Türkçe yorum: Sayfa yüklendiğinde scroll konumunu sessionStorage'dan oku
+  //  Sayfa yüklendiğinde scroll konumunu sessionStorage'dan oku
   useEffect(() => {
     const savedScroll = sessionStorage.getItem("scrollPosition");
     if (savedScroll) {
@@ -54,7 +54,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
 
   const pathSegments = pathname.split("/");
 
-  // Türkçe yorum: Blog detay sayfası kontrolü
+  //  Blog detay sayfası kontrolü
   // Örnek:
   // /tr/otel/blog/slug
   // /tr/sem/blog/slug
@@ -66,13 +66,13 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
     Boolean(pathSegments[4]);
 
   function handleLangChange(newLang) {
-    // Türkçe yorum: Blog detay sayfasında dil değiştirmeyi tamamen engelliyoruz.
+    //  Blog detay sayfasında dil değiştirmeyi tamamen engelliyoruz.
     if (isBlogDetailPage) {
       setIsOpen(false);
       return;
     }
 
-    // Türkçe yorum: Mevcut scroll pozisyonunu sessionStorage'da sakla
+    //  Mevcut scroll pozisyonunu sessionStorage'da sakla
     sessionStorage.setItem("scrollPosition", window.scrollY);
 
     setIsOpen(false);
@@ -114,13 +114,13 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         const maybeSeg = cleanSlug(pathSegments[2] || "");
 
         if (isFaqSlugLike(lastSeg) || isFaqSlugLike(maybeSeg)) {
-          // Türkçe yorum: Root FAQ
+          //  Root FAQ
           if (lastSeg === "sss" || lastSeg === "faq") {
             router.replace(`/${newLang}/${newLang === "en" ? "faq" : "sss"}`);
             return;
           }
 
-          // Türkçe yorum: Services FAQ root
+          //  Services FAQ root
           if (lastSeg === "hizmetlerimiz-sss" || lastSeg === "services-faq") {
             router.replace(
               `/${newLang}/${newLang === "en" ? "services-faq" : "hizmetlerimiz-sss"}`
@@ -128,7 +128,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
             return;
           }
 
-          // Türkçe yorum: Normal FAQ alt sayfası
+          //  Normal FAQ alt sayfası
           const currentSlug = lastSeg;
           const deptSegment = pathSegments.length >= 4 ? maybeSeg : null;
           const resolvedCurrentSlug = resolveFaqContentSlug(
@@ -138,14 +138,14 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
           );
           const ns = FAQ_MAP?.[resolvedCurrentSlug];
 
-          // Türkçe yorum: Namespace bulunamazsa patlamasın diye fallback
+          //  Namespace bulunamazsa patlamasın diye fallback
           if (!ns) {
             const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
             router.replace(newPathname);
             return;
           }
 
-          // Türkçe yorum: Yeni dilin slug'ını bul
+          //  Yeni dilin slug'ını bul
           const newSlug = findSlugByNs(ns, newLang);
 
           if (!newSlug) {
@@ -158,7 +158,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
           return;
         }
 
-        // Türkçe yorum: Diğer tüm sayfalar için normal dil değiştirme
+        //  Diğer tüm sayfalar için normal dil değiştirme
         const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
         router.replace(newPathname);
       })();
@@ -171,7 +171,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         type="button"
         aria-label={label}
         onClick={() => {
-          // Türkçe yorum: Blog detay sayfasında dropdown açılmasın.
+          //  Blog detay sayfasında dropdown açılmasın.
           if (isBlogDetailPage) return;
           setIsOpen(!isOpen);
         }}
@@ -185,7 +185,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         <div className="absolute z-50 mt-0 shadow-lg w-full rounded-md">
           <ul className="py-0">
             {React.Children.map(children, (child) => {
-              // Türkçe yorum: Blog detay sayfasında zaten hiç açılmayacak ama ekstra güvenlik.
+              //  Blog detay sayfasında zaten hiç açılmayacak ama ekstra güvenlik.
               if (isBlogDetailPage) return null;
 
               if (child.props.value === defaultValue) return null;

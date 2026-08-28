@@ -26,7 +26,7 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
+  //  og-map + seo-utils + canonical mapping key’i
   const pathnameKey = "/Services/creative/corporateGift";
 
   const base = getBaseUrl();
@@ -163,7 +163,7 @@ function buildCreativeCorporateGiftServiceJsonLd({
           "@id": organizationId,
         },
 
-        // Türkçe yorum: Analizde Türkiye Needs Review olduğu için burada sadece Antalya tutuldu.
+        //  Analizde Türkiye Needs Review olduğu için burada sadece Antalya tutuldu.
         areaServed: [
           {
             "@type": "AdministrativeArea",
