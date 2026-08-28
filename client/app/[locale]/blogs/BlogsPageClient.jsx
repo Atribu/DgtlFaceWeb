@@ -8,6 +8,12 @@ import {
   buildLocalizedBlogDetailPath,
   buildLocalizedBlogListingPath,
 } from "@/app/lib/blog-route-segments";
+import {
+  BLOG_SEARCH_DEBOUNCE_MS,
+  createBlogSearchRecord,
+  normalizeBlogSearchText,
+} from "@/app/lib/blog-search.mjs";
+import { useDebouncedValue } from "@/app/hooks/useDebouncedValue";
 
 const GRADIENT =
   "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
@@ -618,72 +624,56 @@ export default function BlogPageV2({ initialBlogSummaries = [] }) {
   const inputRef = useRef(null);
 
   const [query, setQuery] = useState("");
+  const debouncedQuery = useDebouncedValue(query, BLOG_SEARCH_DEBOUNCE_MS);
+  const normalizedSearchQuery = useMemo(
+    () => normalizeBlogSearchText(debouncedQuery, locale),
+    [debouncedQuery, locale]
+  );
   const [dept, setDept] = useState("all");
 
   const resultsRef = useRef(null);
 
 const ALL_POSTS = useMemo(() => {
-  return initialBlogSummaries.filter((post) => post?.slug && post?.dept);
-}, [initialBlogSummaries]);
+  return initialBlogSummaries
+    .filter((post) => post?.slug && post?.dept)
+    .map((post) => createBlogSearchRecord(post, locale));
+}, [initialBlogSummaries, locale]);
 
 
 
 
-  function normalizeText(s = "") {
-  return s
-    .toLocaleLowerCase("tr")
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, ""); // ş->s, ğ->g, İ->i gibi
-}
-
-const filteredPosts = useMemo(() => {
-  const q = normalizeText(query.trim());
-
-  return ALL_POSTS.filter((p) => {
-    const deptOk = dept === "all" ? true : p.dept === dept;
-
-    const haystackTitle = normalizeText(p.title);
-    const haystackExcerpt = normalizeText(p.excerpt);
-
-    const qOk = q
-      ? haystackTitle.includes(q) || haystackExcerpt.includes(q)
-      : true;
-
-    return deptOk && qOk;
-  });
-}, [ALL_POSTS, query, dept]);
-
-const isSearching = query.trim().length >= 2;
-const hasResults = isSearching && filteredPosts.length > 0;
-const noResults = isSearching && filteredPosts.length === 0;
-
-
-//  tarihe göre (sondan başa) sıralama
-const sortedFiltered = useMemo(() => {
-  return [...filteredPosts].sort(
-    (a, b) => toTs(b.publishedAt) - toTs(a.publishedAt)
-  );
-}, [filteredPosts]);
-
+// Veri veya dil değiştiğinde bir kez sırala; arama bu hazır sıra üzerinde çalışır.
 const sortedAll = useMemo(() => {
   return [...ALL_POSTS].sort(
     (a, b) => toTs(b.publishedAt) - toTs(a.publishedAt)
   );
 }, [ALL_POSTS]);
 
+const filteredPosts = useMemo(() => {
+  return sortedAll.filter((p) => {
+    const deptOk = dept === "all" ? true : p.dept === dept;
+
+    const qOk = normalizedSearchQuery
+      ? p.searchTitle.includes(normalizedSearchQuery) ||
+        p.searchExcerpt.includes(normalizedSearchQuery)
+      : true;
+
+    return deptOk && qOk;
+  });
+}, [sortedAll, normalizedSearchQuery, dept]);
+
+const isSearching = normalizedSearchQuery.length >= 2;
+const hasResults = isSearching && filteredPosts.length > 0;
+const noResults = isSearching && filteredPosts.length === 0;
+
 
  const latest20 = useMemo(() => sortedAll.slice(0, 20), [sortedAll]);
 
 // Rails hangi listeyi gösterecek?
-const displaySorted = hasResults ? sortedFiltered : sortedAll;
+const displaySorted = hasResults ? filteredPosts : sortedAll;
 
 // Üstte yazan count ne olsun?
 const visibleCount = hasResults ? filteredPosts.length : sortedAll.length;
-
-//  arama sonuç yoksa bile sayfa boş kalmasın, fallback olarak tüm listeyi göster
-// const displaySorted = useMemo(() => {
-//   return sortedFiltered.length ? sortedFiltered : sortedAll;
-// }, [sortedFiltered, sortedAll]);
 
 //  departman rail’leri (Tümü + her departman)
 const rails = useMemo(() => {

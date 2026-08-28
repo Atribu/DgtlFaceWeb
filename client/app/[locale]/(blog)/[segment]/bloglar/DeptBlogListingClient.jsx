@@ -9,6 +9,12 @@ import {
   getBlogServiceInternalPath,
   toCanonicalBlogSegment,
 } from "@/app/lib/blog-route-segments";
+import {
+  BLOG_SEARCH_DEBOUNCE_MS,
+  createBlogSearchRecord,
+  normalizeBlogSearchText,
+} from "@/app/lib/blog-search.mjs";
+import { useDebouncedValue } from "@/app/hooks/useDebouncedValue";
 import { routing } from "@/i18n/routing";
 
 // Senin mevcut fonksiyonun
@@ -116,13 +122,6 @@ const SUB_DEPTS = {
 // Buraya tekrar yapıştırmak yerine: mevcut dosyadan importlamanı öneririm.
 // Ama şimdilik mantığı göstermek için sadece veri kısmını yazıyorum.
 
-function normalizeText(s = "") {
-  return s
-    .toLocaleLowerCase("tr")
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "");
-}
-
 export default function DeptBlogListingClient({
   initialBlogSummaries = [],
   segment,
@@ -150,11 +149,18 @@ export default function DeptBlogListingClient({
 
   const inputRef = useRef(null);
   const [query, setQuery] = useState("");
+  const debouncedQuery = useDebouncedValue(query, BLOG_SEARCH_DEBOUNCE_MS);
+  const normalizedSearchQuery = useMemo(
+    () => normalizeBlogSearchText(debouncedQuery, normalizedLocale),
+    [debouncedQuery, normalizedLocale]
+  );
 
   // 1) Tüm postları çıkar
  const ALL_POSTS = useMemo(() => {
-  return initialBlogSummaries.filter((post) => post?.slug && post?.dept);
-}, [initialBlogSummaries]);
+  return initialBlogSummaries
+    .filter((post) => post?.slug && post?.dept)
+    .map((post) => createBlogSearchRecord(post, normalizedLocale));
+}, [initialBlogSummaries, normalizedLocale]);
 
 
   // 2) Sadece departman filtresi
@@ -162,30 +168,25 @@ export default function DeptBlogListingClient({
     return ALL_POSTS.filter((p) => p.dept === canonicalSegment);
   }, [ALL_POSTS, canonicalSegment]);
 
-  // 3) Departman içi arama
-  const filteredPosts = useMemo(() => {
-    const q = normalizeText(query.trim());
-
-    return DEPT_POSTS.filter((p) => {
-      if (!q) return true;
-      const hayTitle = normalizeText(p.title);
-      const hayExcerpt = normalizeText(p.excerpt);
-      return hayTitle.includes(q) || hayExcerpt.includes(q);
-    });
-  }, [DEPT_POSTS, query]);
-
-  const isSearching = query.trim().length >= 2;
-  const hasResults = isSearching && filteredPosts.length > 0;
-  const noResults = isSearching && filteredPosts.length === 0;
-
-  // 4) Tarihe göre sıralı
+  // 3) Veri veya departman değiştiğinde bir kez tarihe göre sırala.
   const sortedDept = useMemo(() => {
     return [...DEPT_POSTS].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
   }, [DEPT_POSTS]);
 
-  const sortedFiltered = useMemo(() => {
-    return [...filteredPosts].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
-  }, [filteredPosts]);
+  // 4) Departman içi arama, hazır tarih sırası korunarak yapılır.
+  const filteredPosts = useMemo(() => {
+    return sortedDept.filter((p) => {
+      if (!normalizedSearchQuery) return true;
+      return (
+        p.searchTitle.includes(normalizedSearchQuery) ||
+        p.searchExcerpt.includes(normalizedSearchQuery)
+      );
+    });
+  }, [sortedDept, normalizedSearchQuery]);
+
+  const isSearching = normalizedSearchQuery.length >= 2;
+  const hasResults = isSearching && filteredPosts.length > 0;
+  const noResults = isSearching && filteredPosts.length === 0;
 
   // 5) Hero = son 5 (departman)
   const heroPosts = useMemo(() => sortedDept.slice(0, 5), [sortedDept]);
@@ -193,13 +194,13 @@ export default function DeptBlogListingClient({
 
 
   // 7) Rail’ler: sadece 2 tane
-  const displayAll = hasResults ? sortedFiltered : sortedDept;
+  const displayAll = hasResults ? filteredPosts : sortedDept;
 
 const rails = useMemo(() => {
   // Arama varsa, bence en doğrusu: sadece arama sonuçlarını göster
   if (hasResults) {
     return [
-      { id: "search", title: `"${query.trim()}" için sonuçlar`, posts: sortedFiltered },
+      { id: "search", title: `"${query.trim()}" için sonuçlar`, posts: filteredPosts },
     ];
   }
 
@@ -248,10 +249,10 @@ const rails = useMemo(() => {
   
 
   return base;
-}, [canonicalSegment, deptTitle, hasResults, query, sortedFiltered, sortedDept]);
+}, [canonicalSegment, deptTitle, filteredPosts, hasResults, query, sortedDept]);
 
 
-  const visibleCount = hasResults ? sortedFiltered.length : sortedDept.length;
+  const visibleCount = hasResults ? filteredPosts.length : sortedDept.length;
 
   // --- Aşağıda senin mevcut HeroSlider / BlogRail / BlogCard render’ını kullan ---
   // Burada sadece “page iskeletini” gösteriyorum:
