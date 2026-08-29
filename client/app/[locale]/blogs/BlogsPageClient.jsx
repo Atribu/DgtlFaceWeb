@@ -22,6 +22,8 @@ const HERO_INITIAL_AUTOPLAY_DELAY_MS = 10000;
 const HERO_AUTOPLAY_DELAY_MS = 5000;
 const RAIL_INITIAL_RENDER_COUNT = 12;
 const RAIL_RENDER_BATCH_SIZE = 12;
+const SEARCH_INITIAL_RENDER_COUNT = 24;
+const SEARCH_RENDER_BATCH_SIZE = 24;
 
 const BLOG_DEPARTMENTS_V2 = [
   { id: "all", label: "Tümü" },
@@ -211,7 +213,19 @@ function StickySearchBar({ t, query, setQuery, inputRef, GRADIENT, noResults }) 
 }
 
 
-function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noResults }) {
+function HeroSlider({
+  posts,
+  locale,
+  t,
+  query,
+  setQuery,
+  inputRef,
+  GRADIENT,
+  isSearching,
+  resultCount,
+  noResults,
+  onShowResults,
+}) {
   const [active, setActive] = useState(0);
   const [isHeroVisible, setIsHeroVisible] = useState(true);
   const [isPageVisible, setIsPageVisible] = useState(true);
@@ -353,15 +367,31 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               )}
             </div>
             {noResults && (
-  <p className="mt-2 text-xs text-white/70">
-    “{query}” için sonuç bulunamadı. Yazımı kontrol edin ya da daha genel arayın.
-  </p>
-)}
+              <p className="mt-2 text-xs text-white/70">
+                {t("noResultsFor", { query: query.trim() })}
+              </p>
+            )}
+            {isSearching && resultCount > 0 ? (
+              <button
+                type="button"
+                onClick={onShowResults}
+                className="mt-2 inline-flex items-center gap-2 text-xs font-medium text-white/80 transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+              >
+                {t("viewResults", { count: resultCount })}
+                <span aria-hidden="true">↓</span>
+              </button>
+            ) : null}
           </div>
         </div>
               <button
                 type="button"
-                onClick={() => inputRef.current?.focus()}
+                onClick={() => {
+                  if (isSearching) {
+                    onShowResults();
+                    return;
+                  }
+                  inputRef.current?.focus();
+                }}
                 className="rounded-2xl border border-white/20 bg-white/5 px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-xs md:text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
               >
                 {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
@@ -567,6 +597,145 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
   );
 }
 
+function BlogSearchCard({ post, locale, t, GRADIENT }) {
+  return (
+    <Link
+      href={getBlogDetailHref(locale, post)}
+      className="group flex h-full min-w-0 flex-col overflow-hidden border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-[#547CCF]/20"
+    >
+      {post.banner?.src ? (
+        <div className="relative aspect-[16/9] w-full overflow-hidden bg-black/20">
+          <Image
+            src={post.banner.src}
+            alt={post.banner.alt || post.title}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
+            className="object-cover transition duration-300 ease-out group-hover:scale-[1.03]"
+          />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/45 via-black/5 to-transparent" />
+        </div>
+      ) : null}
+
+      <div className="flex flex-1 flex-col p-4 lg:p-5">
+        <div className="mb-3 inline-flex w-fit items-center gap-2 rounded-2xl border border-white/10 bg-black/25 px-3 py-1 text-[11px] text-white/70">
+          <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
+          <span className="capitalize">{post.dept.replace("-", " ")}</span>
+        </div>
+
+        <h3 className="line-clamp-2 text-base font-semibold leading-snug text-white lg:text-lg">
+          {post.title}
+        </h3>
+        <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-white/60">
+          {post.excerpt}
+        </p>
+
+        <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-medium text-white/85">
+          {t("readMore")}
+          <span className="transition group-hover:translate-x-1">→</span>
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+function BlogSearchResults({ posts, query, locale, t, GRADIENT, onClear }) {
+  const [renderedCount, setRenderedCount] = useState(() =>
+    Math.min(SEARCH_INITIAL_RENDER_COUNT, posts.length)
+  );
+
+  useEffect(() => {
+    setRenderedCount(Math.min(SEARCH_INITIAL_RENDER_COUNT, posts.length));
+  }, [posts]);
+
+  const renderedPosts = useMemo(
+    () => posts.slice(0, renderedCount),
+    [posts, renderedCount]
+  );
+
+  if (!posts.length) {
+    return (
+      <div className="rounded-3xl border border-white/10 bg-white/5 px-5 py-12 text-center md:px-8 md:py-16">
+        <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/5 text-xl">
+          🔍
+        </div>
+        <h2 className="text-lg font-semibold text-white md:text-xl">
+          {t("noResultsFor", { query })}
+        </h2>
+        <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-white/60">
+          {t("noResultsHint")}
+        </p>
+        <button
+          type="button"
+          onClick={onClear}
+          className={`mt-6 rounded-2xl px-5 py-2.5 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+        >
+          {t("clearSearch")}
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div aria-live="polite">
+      <div className="mb-6 flex flex-col gap-2 border-b border-white/10 pb-5 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <div className="mb-2 flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-white/50">
+            <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
+            {t("searchResultsLabel")}
+          </div>
+          <h2 className="text-xl font-semibold leading-tight text-white md:text-2xl">
+            {t("searchResultsTitle", { query })}
+          </h2>
+        </div>
+        <div className="flex items-center gap-3">
+          <p className="text-sm text-white/60">{t("results", { count: posts.length })}</p>
+          <button
+            type="button"
+            onClick={onClear}
+            className="rounded-xl border border-white/15 bg-white/5 px-3 py-1.5 text-xs text-white/70 transition hover:border-white/30 hover:bg-white/10 hover:text-white"
+          >
+            {t("clearSearch")}
+          </button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        {renderedPosts.map((post) => (
+          <BlogSearchCard
+            key={`${post.dept}-${post.slug}`}
+            post={post}
+            locale={locale}
+            t={t}
+            GRADIENT={GRADIENT}
+          />
+        ))}
+      </div>
+
+      {renderedCount < posts.length ? (
+        <div className="mt-8 flex flex-col items-center gap-3">
+          <p className="text-xs text-white/50">
+            {t("showingResults", {
+              shown: renderedPosts.length,
+              total: posts.length,
+            })}
+          </p>
+          <button
+            type="button"
+            onClick={() =>
+              setRenderedCount((current) =>
+                Math.min(current + SEARCH_RENDER_BATCH_SIZE, posts.length)
+              )
+            }
+            className="rounded-2xl border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-white transition hover:border-white/35 hover:bg-white/10 active:scale-[0.99]"
+          >
+            {t("showMore")}
+          </button>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
 
 
 function DepartmentChips({ items, value, onChange }) {
@@ -633,6 +802,10 @@ export default function BlogPageV2({ initialBlogSummaries = [] }) {
 
   const resultsRef = useRef(null);
 
+  const showSearchResults = () => {
+    resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
 const ALL_POSTS = useMemo(() => {
   return initialBlogSummaries
     .filter((post) => post?.slug && post?.dept)
@@ -663,6 +836,7 @@ const filteredPosts = useMemo(() => {
 }, [sortedAll, normalizedSearchQuery, dept]);
 
 const isSearching = normalizedSearchQuery.length >= 2;
+const activeSearchQuery = debouncedQuery.trim();
 const hasResults = isSearching && filteredPosts.length > 0;
 const noResults = isSearching && filteredPosts.length === 0;
 
@@ -711,7 +885,10 @@ const heroPosts = useMemo(() => {
   setQuery={setQuery}
   inputRef={inputRef}
   GRADIENT={GRADIENT}
+  isSearching={isSearching}
+  resultCount={filteredPosts.length}
   noResults={noResults}
+  onShowResults={showSearchResults}
 />
 
 {/* <StickySearchBar
@@ -724,27 +901,40 @@ const heroPosts = useMemo(() => {
 /> */}
 
 {/* Results (Netflix rails) */}
-<section ref={resultsRef} className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:pt-3 lg:pb-16">
-  <div className=" flex items-end justify-between gap-4">
-    <p className="text-sm text-white/60">
-      {t("results", { count: visibleCount })}
-    </p>
-  </div>
+<section ref={resultsRef} className="scroll-mt-20 mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-6 lg:pt-8 lg:pb-16">
+  {isSearching ? (
+    <BlogSearchResults
+      posts={filteredPosts}
+      query={activeSearchQuery}
+      locale={locale}
+      t={t}
+      GRADIENT={GRADIENT}
+      onClear={() => setQuery("")}
+    />
+  ) : (
+    <>
+      <div className="flex items-end justify-between gap-4">
+        <p className="text-sm text-white/60">
+          {t("results", { count: visibleCount })}
+        </p>
+      </div>
 
-<div className="space-y-4 md:space-y-7 lg:space-y-12">
-  {rails.map((r, railIndex) => (
-  <BlogRail
-    key={r.id}
-    title={r.title}
-    posts={r.posts}
-    locale={locale}
-    t={t}
-    GRADIENT={GRADIENT}
-    railIndex={railIndex}
-    titleHref={r.titleHref}
-  />
-))}
- </div>
+      <div className="space-y-4 md:space-y-7 lg:space-y-12">
+        {rails.map((r, railIndex) => (
+          <BlogRail
+            key={r.id}
+            title={r.title}
+            posts={r.posts}
+            locale={locale}
+            t={t}
+            GRADIENT={GRADIENT}
+            railIndex={railIndex}
+            titleHref={r.titleHref}
+          />
+        ))}
+      </div>
+    </>
+  )}
 </section>
 
 
