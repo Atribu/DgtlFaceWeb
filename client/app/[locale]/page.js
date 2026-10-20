@@ -1,5 +1,4 @@
 import HomepageClient from "./components/homepage/HomepageClient";
-import ThreeMainBanner from "./components/homepage/ThreeMainBanner";
 import JsonLd from "./components/seo/JsonLd";
 import RouteIntlProvider, {
   loadHomeClientMessages,
@@ -10,8 +9,10 @@ import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 
 // The localized homepage is public and does not depend on request-specific data.
 // Keep it in Next.js' full-route cache and refresh it periodically as a safety net.
-export const dynamic = "force-static";
+// export const dynamic = "force-static";
 export const revalidate = 3600;
+import dynamic from "next/dynamic";
+const MyThreeScene = dynamic(() => import("./components/MtThreeScene"));
 
 const HOME_SEO = {
   tr: {
@@ -132,7 +133,7 @@ export default async function HomePage({ params }) {
 
       <RouteIntlProvider locale={locale} messages={messages}>
         <main className="flex flex-col gap-[10px] lg:gap-[20px] max-w-screen overflow-x-hidden">
-          <ThreeMainBanner />
+          <MyThreeScene />
           <HomepageClient />
         </main>
       </RouteIntlProvider>

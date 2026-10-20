@@ -6,7 +6,7 @@ const Section4 = () => {
    const t = useTranslations("AboutPage")
 
   return (
-    <div className="flex flex-col w-full justify-center items-center mt-5">
+    <div className="flex flex-col w-full justify-center items-center mt-5 lg:mt-10">
       <div className="flex flex-col justify-center items-center gap-[3px] lg:gap-2">
         <span className="flex font-inter28 font-semibold text-[20px] lg:text-[24px] leading-[120%]">
        {t("aboutpage_s3_footer_header1")}
@@ -15,7 +15,7 @@ const Section4 = () => {
          {t("aboutpage_s3_footer_text1")}
         </p>
       </div>
-      <div className="w-[90%] lg:w-[75%] flex h-[10vh] lg:h-30vh justify-center items-center mt-6 lg:mt-8">
+      <div className="w-[90%] lg:w-[80%] flex h-[10vh] lg:h-30vh justify-center items-center mt-6 lg:mt-8">
         <Partner />
       </div>
     </div>
